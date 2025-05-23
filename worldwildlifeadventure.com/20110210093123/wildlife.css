@@ -1,0 +1,199 @@
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #336699;
+	margin: 0px;
+	padding: 0px;
+	background-color:#fff;
+}
+
+h1 {font-size: 12px; font-weight: normal; text-transform: uppercase; padding: 0px 0px; color:#000; }
+h2 {font-size: 12px; font-weight: bold; text-transform: uppercase; padding: 0px 0px; color:#ff6600; }
+
+a:link {  text-decoration:none; font-weight:normal; color:#cc9900; }
+a:visited {	text-decoration:none; font-weight:normal; color:#cc9900; }
+a:hover { text-decoration:underline; font-weight:normal; color:#ff6600;}
+a:active { text-decoration: none; font-weight:normal; color:#cc9900;}
+
+a.blue:link {  text-decoration:none; font-weight:normal; color:#99ccff; }
+a:visited {	text-decoration:none; font-weight:normal; color:#99ccff; }
+a.blue:hover { text-decoration:underline; font-weight:normal; color:#fff;}
+a.blue:active { text-decoration: none; font-weight:normal; color:#ccc;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:4px 0px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+
+img{border: 0px; padding: 0px;}
+/* wrap defines the size of the website.  The left margin is half the size of the website (ie: 800px)*/
+#wrap {position: relative;
+	 width:800px; 
+	 height: 830px; 
+	 margin: 0px;
+	 left: 50%;
+	 margin-left: -400px; 
+	 text-align: left; }
+	 
+/* navigation defines the size of the navigation bar*/
+#side_navigation {float: left;
+     width:145px; 
+	 height:669px;
+	 margin:0px; 
+	 padding:0px; 
+	 display:block;  
+	 } 
+
+/* maincontent defines the size of the main content to the left of the navigation*/
+#maincontent {
+      width:655px;
+	  height:669px;
+	  background-color:#fff; 
+	  float:left; 
+	  margin:0px; 
+	  padding:0px; }
+	  
+/* This is the wrap for the images on index page */
+#main_white {
+		width:355px;
+		height:669px;
+		float:left; 
+		margin:0px;
+		padding:0px; 
+		}
+/**#row1	{
+		width:355px;
+		height:118px;
+		float:left; 
+		margin:0px;
+		padding:0px; 
+		}
+#row2	{
+		width:355px;
+		height:205px;
+		float:left; 
+		margin:0px;
+		padding:0px; 
+		}
+#row3	{
+		width:355px;
+		height:171px;
+		float:left; 
+		margin:0px;
+		padding:0px; 
+		}
+#row4	{
+		width:355px;
+		height:175px;
+		float:left; 
+		margin:0px;
+		padding:0px; 
+		}
+		**/
+	
+#column1 {
+	float:left;
+	width:235px;
+	height:670px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	 }
+	 
+#column1a {	
+	float:left;
+	width:205px; 
+	height:615px; 
+	margin: 15px 5px 5px 10px;
+	padding: 0px 0px 0px 0px;
+	overflow: auto;
+	 }
+#column2 {
+	float:left;
+	width:120px;
+	height:670px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	 }
+#column2a {
+	float:left;
+	width:120px;
+	height:375px;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: auto; }
+
+
+/* This is the wrap for the right sidebar*/
+#sidebar {
+	float:right;
+	width:300px;
+	height:669px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	}
+	
+#column3 {
+	float:left;
+	width:230px;
+	height:630px;
+	padding: 0px 0px 0px 0px;
+	margin: 15px 0px 10px 20px;
+	overflow: auto; 
+	color:#fff;}
+	
+.imgback1 {
+background: url(images/inside_02.jpg) no-repeat;
+}	
+.imgback1a {
+background: url(images/inside_03.jpg) no-repeat;
+}	
+.imgback {
+background: url(images/index_sidebar2.jpg) no-repeat;
+}	
+.imgback2 {
+background: url(images/inside_sidebar.jpg) no-repeat;
+}	
+.imgback3 {
+background: url(images/bottom_01.jpg) no-repeat;
+}
+	
+/* This is the wrap for the bottom*/	
+#bottom {
+float:left;
+	width:800px;
+	height:161px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px; 
+}
+#magazines {
+float:left;
+	width:460px;
+	height:161px;
+	padding: 0px 0px 0px 0px;
+	margin: 20px 15px 20px 15px;
+}
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000;
+	}
+
+.scroll2 {
+	scrollbar-face-color:#000;
+	scrollbar-shadow-color:#000;
+	scrollbar-highlight-color:#000;
+	scrollbar-3dlight-color:#000;
+	scrollbar-darkshadow-color:#000;
+	scrollbar-track-color:#000;
+	scrollbar-arrow-color:#fff;
+	}
+
+
+

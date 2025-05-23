@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<base target="_blank" />
+</head>
+
+<body style="background: url(images/ssn-img-info-bkgd.jpg) no-repeat">
+<h4>Map Resources</h4>
+<div id="info" class="scroll">
+<ul>
+<li><a href="http://www.maporama.com">Maporama</a> - Generates maps for a desired address or point of interest. Output is also viewable on handheld computers. </li>
+<li><a href="http://www.mapquest.com/">MapQuest</a> - Find directions for and explore towns and cities worldwide. Display addresses on a map, view nearby businesses, get driving directions and maps, and plan a trip with city information. Also includes aerial photographs of selected areas. </li>
+<li><a href="http://www.mapsofworld.com/">Maps of World</a> - Online maps showing countries of the world and continents. Too wide for smaller monitors. </li>
+<li><a href="http://virtualearth.msn.com/">MSN Virtual Earth</a> - Provides directions, interactive maps, and satellite/aerial imagery of the United States. Can also search by keyword such as type of business. </li>
+<li><a href="http://www.multimap.com/">Multimap</a> - Global mapping service including street maps of Europe, North America and Australia. </li>
+<li><a href="http://www.nationalatlas.gov/">National Atlas of the United States</a> - U.S. government map portal providing access to many government branches including USGS, Census, U.S. Forest Service, NOAA, National Park Service and others. </li>
+<li><a href="http://www.maps4free.com/">Planet Observer</a> - Displays country and ocean maps, followed by demographic data on each reviewed area. </li>
+<li><a href="http://www.readmap.com/">Readmap Project</a> - Online maps collection with political and economical overview of each country. </li>
+<li><a href="http://www.terrafly.com/">TerraFly</a> - Searchable aerial views of cities and towns in the United States. </li>
+<li><a href="http://terraserver.microsoft.com/">TerraServer</a> - View maps and aerial photos of various parts of the Earth. </li>
+<li><a href="http://www.un.org/Depts/Cartographic/english/htmain.htm">United Nations: Cartographic Section</a> - General country and special issues maps. </li>
+<li><a href="http://memory.loc.gov/ammem/gmdhtml/">United States Library of Congress Map Collections</a> - Top-level categories include cities and towns, cultural, landscapes, conservation and environment, military battles and campaigns, discovery and exploration, transportation and communication. Searchable by keyword, location, creator, subject, and title. </li>
+<li><a href="http://local.live.com/">Windows Live Local</a> - Combines online mapping and local search, uses a scratch pad to take notes, and allows to search questions around the United States in a geographical context.</li>
+</ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{margin:0px 0px 0px 0px;text-align:center;font-family:arial,helvetica,sans-serif;font-size:12px;background:url(images/header2.jpg) no-repeat top center;padding:8px 0px 0px 0px;}
+h3 a,h3 a, h2 a:hover,h3 a:hover{color:#000000;}
+a {color:#0063AA;text-decoration:none;}
+a:hover {color:#CC3300;text-decoration:underline;}
+/*a:visited {color:#CCC;}*/
+img {border:none;}
+h4 {font-size:12px;margin:10px 0 18px 0;}
+
+
+ul {margin:0;padding:0;display:block;}
+li {list-style-type: none;padding:0 0 12px 0;}
+ul li a {color:#0063AA;text-decoration:underline;}
+ul li a:hover {color:#CC3300;text-decoration:underline;}
+
+#mainnav {float:left;width:956px;}
+#mainnav ul {margin-bottom:12px;padding:0 0 10px 0;white-space:nowrap;border-bottom:1px solid #CCC;}
+#mainnav ul li {display: inline;list-style-type:none;margin:0;padding:0 10px 0 10px;color:#000;}
+#mainnav ul li a {font-family:georgia,times,"times new roman",serif;font-size:11px;color:#000;text-decoration:none;}
+#mainnav ul li a:hover {color:#CC3300;text-decoration:underline;}
+
+.wrapper {width:956px;padding-left:15px;padding-right:15px;margin:0px auto;text-align:left;}
+#header{text-align:right;padding-bottom:23px;border-bottom:1px solid #CCC;line-height:17px;margin-bottom:15px;font-size:12px;min-height:70px;}
+#header a: {color:#0063AA;}
+#header a:visited {color:#cc3300;}
+#header h3 {font-size:16px;margin-bottom:3px;}
+#logo {display:block;border:none;float:left;margin-right:125px;}
+#rightsidebar {float:right;width:185px;border-left:1px solid #CCC;padding-left:15px;margin-left:15px;margin-bottom:20px;}
+#headlines {text-align:left;/*border-bottom:1px solid #CCC;*/}
+
+.readon {font-size:11px;text-align:right;display:block;}
+
+.teasertext {}
+.teasertext b {text-transform:uppercase;}
+
+#sidebarbox {color:#000;font-size:11px;line-height:15px;margin-top:6px;margin-bottom:0px;padding:4px 10px 10px 0;border-bottom:1px solid #CCC;}
+#sidebarbox h3 {color:#000000;font-family:georgia,times,"times new roman",serif;font-size:15px;line-height:18px;margin-bottom:3px;margin-top:3px;}
+#sidebarbox h3 a {color:#0063AA;}
+#sidebarbox .byline {font-size:14px;}
+#sidebarbox img {display:block;margin-bottom:0px;padding:0px;}
+
+#maincontent {float:right;width:334px;text-align:left;padding-left:15px;margin-left:15px;border-left:1px solid #CCC;margin-bottom:20px;}
+#maincontent h3 {margin-top:10px;margin-bottom:3px;color:#0063AA;font-family:georgia,times,"Times new roman",serif;font-size:18px;}
+
+#leftsidebar {width:375px;float:left;line-height:16px;}
+
+.leftwide {padding:5px 0 15px 0;border-bottom:1px solid #CCC;border-top:1px solid #CCC;}
+.leftwide h2 {margin-top:5px;margin-bottom:5px;padding:0px;font-family:georgia,times,"Times new roman",serif;font-size:20px;line-height:22px;}
+
+.leftsmallcontainer {padding-bottom:20px;margin-bottom:18px;margin-top:15px;}
+.leftsmallleft {width:173px;float:left;padding-right:15px;margin-bottom:10px;border-right:1px solid #CCC;margin-right:15px;}
+/*.leftsmallleft h2 a {margin-top:5px;margin-bottom:5px;padding:0px;font-family:georgia,times,"Times new roman",serif;font-size:20px;line-height:22px;}*/
+
+.leftsmallright {width:168px;float:left;margin-bottom:10px;}
+.leftsmallcontainer h2{padding:0px;margin-top:10px;margin-bottom:5px;font-family:georgia,times,"Times new roman",serif;font-size:16px;line-height:18px;}
+
+.quote {width:368px;font-family:georgia,times,"times new roman",serif;float:left;font-size:18px;line-height:24px;margin:15px 0 20px 0;border-bottom:1px solid #CCC;}
+.quotesmaller {width:375px;font-family:georgia,times,"times new roman",serif;float:left;font-size:15px;line-height:24px;margin:15px 0 0 0;color:#666;border-bottom:1px solid #CCC;}
+
+.adz {width:175px;float:left;padding-right:10px;margin-bottom:15px;}
+.adz div {padding-top:5px;padding-bottom:15px;color:#666666;font-size:11px;/*word-wrap: break-word;*/}
+.adz h1 {line-height:22px;padding:0px;margin:5px 0 5px 0;font-family:georgia,times,"Times new roman",serif;font-size:18px;}
+
+.leftlinks {width:175px;float:left;padding-right:10px;margin-bottom:15px;}
+.leftlinks ul {color:#666666;font-size:11px;display:block;/*word-wrap: break-word;*/}
+.leftlinks ul li {list-style-type:none;padding:0 0 8px 0;}
+.leftlinks ul li a {font-size:11px;color:#0063AA;text-decoration:underline;}
+.leftlinks ul li a:hover {font-size:11px;color:#CC3300;text-decoration:underline;}.leftlinks h1 {line-height:22px;padding:0px;margin:5px 0 5px 0;font-family:georgia,times,"Times new roman",serif;font-size:18px;}
+
+.nav {width:175px;float:left;padding-right:10px;margin-bottom:4px;}
+.nav div {padding-top:5px;padding-bottom:4px;color:#666666;font-size:11px;word-wrap: break-word;}
+.nav h1 {line-height:22px;padding:0px;margin:5px 0 5px 0;font-family:georgia,times,"Times new roman",serif;font-size:18px;}
+
+.tagline {width:100%;clear:both;text-align:center;padding:15px 0px 25px 0px;color:#999;font-style:italic;font-family:times new roman,times,georgia,serif;margin-top:10px;border-top:1px solid #CCC;}
+.tagline ul {margin-bottom:12px;padding:0 0 10px 0;white-space:nowrap;border-bottom:1px solid #CCC;}
+.tagline ul li {display: inline;list-style-type:none;margin:0;padding:0 10px 0 10px;color:#999;}
+.tagline ul li a {font-family:georgia,times,"times new roman",serif;font-size:10px;color:#999;text-decoration:none;}
+.tagline ul li a:hover {color:#333;text-decoration:underline;}
+
+.anim_1_class {width:375px;border-bottom:none;border-top:1px solid #CCC;padding-top:10px;float:left;font-size:18px;margin:15px 0 20px 0;}
+.anim_2_class {}

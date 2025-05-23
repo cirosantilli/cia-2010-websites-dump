@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*su-para-kuvi CSS Document */
+body {margin-top: 0px; background-image: url(images/su_img_bkgd.jpg); background-repeat: repeat-x; }
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #0033cc; }
+h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0033cc; }
+p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+#wrap { float: left; width: 975px; height: 966px; }
+#top { float: left; width: 975px; height: 850px; }
+#side { float: left; width: 280px; height: 850px; }
+	#side1 { float: left; width: 124px; height: 850px; }
+	#side2 { float: left; width: 156px; height: 850px; }
+		#side2a { float: left; width: 156px; height: 666px; }
+		#sideapp2 { float: left; width: 156px; height: 132px; background-image: url(images/su_img_21.jpg); }
+		#side2b { float: left; width: 156px; height: 52px; }
+#infobox { float: left; width: 695px; height: 850px; }
+	#btnbanner { float: left; width: 695px; height: 53px; background-image: url(images/su_img_03.jpg); }
+	#banner { float: left; width: 695px; height: 103px; }
+	#feed1 { float: left; width: 695px; height: 694px; }
+		#btn { float: left; width: 695px; height: 58px; background-image: url(images/su_img_08.jpg); }
+		#side3 { float: left; width: 49px; height: 636px; }
+		#feed2 { float: left; width: 388px; height: 636px; background-image: url(images/su_img_10.jpg);  }
+			#feedinfo { float: left; width: 350px; height: 636px; padding: 10px 10px 10px 10px; }
+		#links { float: left; width: 258px; height: 636px; background-image: url(images/su_img_11.jpg); }
+#footer { float: left; width: 975px; height: 116px; }
+#logo1 { float: left; width: 975px; height: 69px; }
+#logo2 { float: left; width: 975px; height: 47px; }
+	#spacer { float: left; width: 66.5px; height: 47px; }
+	#logo2b { float: left; width: 975px; height: 47px; } /* 842 */
+
+#modernbricksmenu2{ padding-: 0; margin-left: 2px; width: 688px; border-top: 5px solid #000000; /*Brown color theme*/ background: transparent; }
+#modernbricksmenu2 ul{ margin:0; margin-left: 40px; /*margin between first menu item and left browser edge*/ padding: 0; list-style: none; }
+#modernbricksmenu2 li{ display: inline; margin: 0 2px 0 0; padding: 0; text-transform:uppercase; }
+#modernbricksmenu2 a{ float: left; display: block; font: bold 11px Arial; color: white; text-decoration: none; margin: 0 1px 0 0; /*Margin between each menu item*/ padding: 5px 10px;
+background-color: black; /*Brown color theme*/  border-top: 1px solid white; }
+#modernbricksmenu2 a:hover{ background-color: #cc0000; /*Brown color theme*/  color: white; }
+
+#modernbricksmenu3{ padding-: 0; margin-left: 2px; }
+#modernbricksmenu3 ul{ margin-top:31px; margin-left: 2px; /*margin between first menu item and left browser edge*/ padding: 0; list-style: none; }
+#modernbricksmenu3 li{ display: inline; margin: 0 2px 0 0; padding: 0; text-transform:uppercase; }
+#modernbricksmenu3 a{ float: left; display: block; font: bold 11px Arial; color: white; text-decoration: none; margin: 0 1px 0 0; /*Margin between each menu item*/ padding: 5px 10px; background-color: black; /*Brown color theme*/  border-top: 1px solid white; }
+#modernbricksmenu3 a:hover{ background-color: #cc0000; /*Brown color theme*/  color: white; }
+
+/*side bar */	
+.main { position:absolute; width: 253px; height: 618px;	z-index:2; overflow: auto; visibility: visible;	top: 68px; left: 440px; padding: 10px 10px 10px 10px; }
+
+.main a:link {  text-decoration: none; color: #0033cc;}
+.main a:visited {	text-decoration: none; color: #0033cc; }
+.main a:hover { text-decoration: none; color: #333333; }
+.main a:active { text-decoration: none; color: #0033cc; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

@@ -1,0 +1,249 @@
+body {
+	margin: 3px 0 0 0;
+	padding: 0;
+	background: #7f7c4d url(images/bg_greyhorzstripes.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight : normal;
+	line-height: 1.5em;
+}
+
+p {
+	margin: 15px 5px 8px 5px;
+	padding: 0;
+}
+
+a:link {
+	color: #0a469e;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #52709d;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #0a469e;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+img.left {
+	float: left;
+	margin: 0 0 10px 20px;
+	padding: 0;
+	border: none;
+}
+
+img.left2 {
+	float: left;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: none;
+}
+
+img.right {
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	border: none;
+}
+
+img.right2 {
+	float: left;
+	margin: 10px 0 0 20px;
+	padding: 0;
+	border: none;
+}
+
+/* Banner */
+
+#banner {
+	clear: both;
+	width: 800px;
+	height: 175px;
+	margin: 0 auto;
+	padding: 0;
+	border: 1px solid #666666;
+	border-bottom: none;
+}
+
+#banner ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#banner li {
+	display: inline;
+}
+
+#banner a {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 175px;
+}
+
+#banner1 { background: url(images/banner_01.jpg) no-repeat center; }
+#banner2 { background: url(images/banner_02.jpg) no-repeat center; }
+#banner3 { background: url(images/banner_03.jpg) no-repeat center; }
+#banner4 { background: url(images/banner_04.jpg) no-repeat center; }
+#banner5 { background: url(images/banner_05.jpg) no-repeat center; }
+#banner6 { background: url(images/banner_06.jpg) no-repeat center; }
+#banner7 { background: url(images/banner_07.jpg) no-repeat center; }
+#banner8 { background: url(images/banner_08.jpg) no-repeat center; }
+#banner9 { background: url(images/banner_09.jpg) no-repeat center; }
+#banner10 { background: url(images/banner_10.jpg) no-repeat center; }
+
+/* Content */
+
+#page {
+	width: 798px;
+	margin: 0 auto;
+	padding: 0;
+	background: #808fad;
+	border: 1px solid #666666;
+	border-top: none;
+}
+
+/* First column */
+
+#col1 {										
+	float: left;
+	width: 150px;
+	height: 550px;
+	margin: 0;
+	padding: 3px 0 0 0;						              
+}
+
+/* Second column */
+
+#col2 {										
+	width: 500px;
+	margin: 0;
+	padding: 0;						              
+	float: left;
+	text-align: right;
+}
+
+#col2 .box {
+	float: left;
+	width: 500px;
+	height: 550px;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	border: 1px solid #666666;
+}
+
+/* iframe */
+.frame {
+	float: left;
+	width: 500px;
+	height: 550px;
+	margin: 0;
+	padding: 0;
+	background: #transparent;
+	border: none;
+}
+
+/* Third column */
+
+#col3 {										
+	width: 146px;
+	height: 550px;
+	margin: 0;
+	padding: 0;						              
+	float: right;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+#col3 h3 {
+	margin: 0;
+	padding: 2px 15px 2px 0;
+	color: #000000;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	background: url(images/img03.gif) repeat-x;
+	border-bottom: 1px solid #666666;
+}
+
+#col3 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#col3 li {
+	margin: 0 0 -2px 0;
+	padding: 0 25px 0 0;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: url(images/img03.gif) repeat-x;
+	border-bottom: 1px solid #666666;
+	line-height: 23px;
+}
+
+#col3 a:link, #col3 a:visited {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+#col3 a:hover, #col3 a:active {
+	color: #ff9a00;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #2c2c41;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Login */
+
+#login {
+	clear: both;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	width: 800px;
+	color: #ffffff;
+	background: #2c2c41;
+}

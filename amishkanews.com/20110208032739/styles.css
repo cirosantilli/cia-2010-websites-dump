@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background: #eae6a5;
+	background-image : url(images/back_001e.jpg);
+	background-repeat:repeat-x;
+	color: #8f870b;
+}
+
+h3	{
+	font-size:14px;
+	font-weight:bold;
+	margin:5px 0 0 5px;
+}
+
+img {
+	border:none;
+}
+
+ul	{
+	margin:5px;
+	padding:0;
+	list-style:none;
+}
+
+li	{
+	margin:0;
+	padding:0;
+}
+
+li a	{
+	margin:0;
+	padding:0;
+	color:#999;
+}
+
+#wrap	{
+	position:relative;
+	width:960px;
+	height: 100% auto;
+	left:-480px;
+	margin-left:50%;	
+}
+
+#header { 
+	height: 120px; 
+	width:960px;
+	background: #bbb335; 
+	padding: 0; 
+} 
+
+/*---------  Begin Main Navigation  ---------*/
+
+#navmenu {
+	background:url(images/nav_000_bak.jpg);
+	background-repeat:repeat-x;
+	width:960px;
+	height:57px;
+}
+
+#navmenu ul {
+	display:inline;
+	list-style:none;
+	text-align:center;
+}
+
+#navmenu li {
+	list-style:none;
+	display:inline;
+	padding:0px;
+}
+
+#navmenu li a {
+	display:inline;
+	float:left;
+}
+
+#navmenu li a span	{
+	display:none;
+}
+
+#navmenu li a:hover {
+	text-decoration:none;
+}
+
+#navmenu li a.home	{
+	background:url(images/nav_001a.jpg) no-repeat;
+	width:93px;
+	height:57px;
+}
+
+#navmenu li a:hover.home {
+	background:url(images/nav_001b.jpg) no-repeat;
+}
+
+#navmenu li a.sports {
+	background:url(images/nav_002a.jpg) no-repeat;
+	width:93px;
+	height:57px;
+}
+
+#navmenu li a:hover.sports {
+	background:url(images/nav_002b.jpg) no-repeat;
+}
+
+#navmenu li a.entertainment {
+	background:url(images/nav_003a.jpg) no-repeat;
+	width:144px;
+	height:57px;
+}
+
+#navmenu li a:hover.entertainment {
+	background:url(images/nav_003b.jpg) no-repeat;
+}
+
+#navmenu li a.technology {
+	background:url(images/nav_004a.jpg) no-repeat;
+	width:125px;
+	height:57px;
+}
+
+#navmenu li a:hover.technology {
+	background:url(images/nav_004b.jpg) no-repeat;
+}
+
+#navmenu li a.world {
+	background:url(images/nav_005a.jpg) no-repeat;
+	width:94px;
+	height:57px;
+}
+
+#navmenu li a:hover.world {
+	background:url(images/nav_005b.jpg) no-repeat;
+}
+
+#navmenu li a.homecurrent, #navmenu li a:hover.homecurrent {
+	background:url(images/nav_001b.jpg) no-repeat;
+	width:93px;
+	height:57px;
+}
+/*---------  End Main Navigation  ---------*/
+
+#main	{
+	width:960px;
+	height:100% auto;
+	background-color:#f4f2d0;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+.box1{width: 60px; margin: 10px; padding: 0; float: left; }
+.box2{width: 140px; margin: 10px; padding: 0; float: left;}
+.box3{width: 220px; height:800px; margin: 10px; padding: 0; float: left; }
+.box4{width: 300px; margin: 10px; padding: 0;  float: left;}
+.box5{width: 380px; margin: 10px; padding: 0;  float: left;}
+.box6{width: 460px; height:800px; margin: 10px; padding: 0; float: left;}
+.box7{width: 540px; margin: 10px; padding: 0; float: left;}
+.box8{width: 620px; margin: 10px; padding: 0; float: left;}
+.box9{width: 700px; margin: 10px; padding: 0; float: left;}
+.box10{width: 780px; margin: 10px; padding: 0;float: left;}
+.box11{width: 890px; margin: 10px; padding: 0; float: left;}
+.box12{width: 940px; margin: 10px; padding: 0; float: left;}
+
+.midbak	{
+	background-color:#fffeeb;
+}
+
+.inln	{
+	_display:inline;
+}
+
+.linkslist	{
+	line-height:25px;
+	padding-left:8px;
+}
+
+.linkslist	a {
+	color:#8f870b;
+	font-weight:bold;
+}
+
+.headbanner	{
+	float:left;
+	height:120px;
+}
+
+/*----------------  Begin Feed Styles  --------------*/
+#textwrap	{
+	width:460px;
+	height:800px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+#textfeedmain	{
+	height:750px;
+	margin:10px;
+	padding:5px;
+	overflow:auto;
+}
+
+#textwrap2	{
+	width:220px;
+	height:800px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+#textfeedside	{
+	height:750px;
+	margin:10px;
+	padding:5px;
+	overflow:auto;
+}
+
+
+/* begin styles for RSS Feed */
+
+
+.rss-items {
+	margin-top:0px;
+	padding:0.5em; 0.5em;
+	margin-left : 0px;
+}
+p.rss-title {
+	padding:0.5em;
+}
+
+.rss-title {
+	text-decoration: none;
+	font-size: 12px;
+	color:#8f870b;
+	font-weight:bold;
+	margin: 0px;
+	padding:0em;
+	text-align: left;
+}
+
+.rss-item  {
+  font-weight:normal;
+  list-style:none;
+  padding-bottom:1em;
+}
+
+.rss-item a {
+	text-decoration : underline;
+	color:#8f870b;
+	font-size: 12px;
+	font-weight:bold;
+}
+	
+.rss-item a:visited {
+	color:#e9cd63;
+	font-weight:bold;
+}
+/*----------------  End Feed Styles  --------------*/
+
+
+
+
+/*---------  Begin Footer  ---------*/
+
+#footer	{
+	clear:both;
+	width:960px;
+	height:48px;
+	margin:0;
+	padding:0;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	background:url(images/footer_bak.jpg) repeat-x;
+}
+/*---------  End Footer  ---------*/
+
+.scroll {
+	scrollbar-3dlight-color:#fffeeb;
+	scrollbar-arrow-color:#bbb335;
+	scrollbar-base-color:#fffeeb;
+	scrollbar-darkshadow-color:#fffeeb;
+	scrollbar-face-color:#fffeeb;
+	scrollbar-highlight-color:#fffeeb; 
+	scrollbar-shadow-color:#fffeeb;
+}

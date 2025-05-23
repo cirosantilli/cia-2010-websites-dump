@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0 auto; padding:0; }
+
+p { font: 11px Arial, Helvetica, sans-serif; color:#000000; }
+b { font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0; }
+a { text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover { text-decoration: none; color: #c0c0c0; }
+ul { font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; line-height:13px; }
+hr { color: #e9e9e9; }
+
+.pos {float:left;}
+
+#wrap { width:975px; height:auto; margin:0 auto; overflow:auto; }
+#hd-mnav {width:488px; height:427px; background:url(images/tig-img_01.jpg) no-repeat; }
+#hd-snav {width:487px; height:427px; background:url(images/tig-img_02.jpg) no-repeat;  }
+
+#gran-wrap { width:975px; height:auto; margin:0; overflow:auto; }
+
+#grad1 { width:178px; height:auto; min-height:1500px; margin:0; overflow:auto; }
+#grad2 { width:400px; height:auto; min-height:1500px; margin:0; overflow:auto; }
+#grad3 { width:381px; height:auto; min-height:1500px; margin:0; overflow:auto; }
+#grad4 { width:322px; height:auto; min-height:1500px; margin:0; overflow:auto; }
+#divi { width:2px; height:auto; min-height:1500px; margin:0; overflow:auto; border-left:dashed 1px #d9d9d9; border-right:dashed 1px #d9d9d9;}
+
+#footer { width:975px; height:100px; margin:0; padding:10px 0 0 0; overflow:auto; border-top:dashed 1px #d9d9d9; }
+#lbox { width:975px; height:auto; margin:0 auto; }
+#lboxinfo { width:875px; height:auto; margin:10px 0 0 50px;}
+
+#infofeed { width:450px; height:1240px; overflow: auto; visibility: visible; /**/ border: solid 1px #d9d9d9; margin: 0 0 0 20px; }
+#infofeed ul { list-style: none; margin: 5px 5px 0 5px; padding: 0; }
+h4 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:58px; margin: 0; padding: 5px 5px 5px 130px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#linkbox { width:270px; height:1270px; overflow: auto; visibility: visible; /**/ border-top: solid 1px #d9d9d9; margin: 0 0 0 6px; }
+#linkbox ul { list-style: none; margin: 5px 5px 0 5px; padding: 0; }
+h5 { font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding:5px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+h6 { font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding:17px 5px 0 31px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.linkscroll { filter: Chroma(Color=#123456); overflow: auto; scrollbar-face-color:#123456; scrollbar-shadow-color: #123456; scrollbar-highlight-color: #123456; scrollbar-3dlight-color: #123456; scrollbar-darkshadow-color: #123456; scrollbar-track-color: #123456; scrollbar-arrow-color: #000000;}
+
+.wireframemenu{ width: 178px; margin:7px 0 0 28px; }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #C0C0C0; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #F8FBBD; color: black; }
+
+#menu8 { width: 200px; margin-top: 100px; }
+#menu8 li a { text-decoration: none;  }
+#menu8 li a:link, #menu8 li a:visited { color: #777; display: block; padding: 8px 0 0 20px; font: bold 13px;}
+#menu8 li a:hover { color: #257EB7; background: url(images/menu8.gif) 0 -32px; padding: 8px 0 0 25px; }
+#menu8 li a:active { color: #fff; background: url(images/menu8.gif) 0 -64px; padding: 8px 0 0 25px; }

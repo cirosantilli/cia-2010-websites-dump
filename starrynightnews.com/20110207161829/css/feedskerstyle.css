@@ -1,0 +1,42 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+.feedskerwrap {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#982424;
+	padding: 3px 0px 2px 5px;
+	width:350px;
+	height:800px;	
+}
+
+.titleskera  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	font-weight:bold;	
+	padding: 3px 0px 2px 5px;
+}
+
+#feedsker {
+	color:#180f2e;
+	height: 700px;
+	margin: 0;
+	padding: 8px;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	overflow: auto;
+}
+
+
+#feedsker li {
+	margin: 0px 0px 0px 0px;
+	padding: 6px 0px 6px 5px;
+}
+
+#feedsker a {
+	font-size: 14px;
+	font-weight: heavy;	
+	margin: 0px 0px 0px 0px;
+	padding: 11px 0px 11px 0px;
+}

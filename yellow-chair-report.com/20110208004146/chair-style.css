@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* The Yellow Chair Report -CSS Document 
+.gray {color: #888c8f;}
+.yellow {color: #f5d87a;}
+.green {color: #b8b571;}
+*/
+
+*{margin: 0px; padding: 0px;}
+body { font-family: "Trebuchet MS", Arial;font-size: 12px; color: #888c8f; background: #F5F4EB;}
+#wrap {position: relative; width: 900px; margin-left: -450px; left: 50%; height: 100% auto;}
+#banner {width: 975px; height: 168px; margin: 0px; padding:0px; float: left;}
+#content {width: 975px; height: 100% auto; margin: 0px; padding: 0px;float: left;}
+.back1{ background: url('images/back.jpg') repeat-y;}
+.back2 { background: url('images/back2.jpg') repeat-y; }
+
+/*basic elements*/
+ul{list-style: none; margin: 5px; padding: 0px;}
+li {color: #888c8f; }  
+li a{color: #b8b571; text-decoration: none;}
+li a#active, a.selected {color: #888c8f; text-decoration: underline;}   /* selected link */
+a:hover {text-decoration: underline;}
+
+p {padding: 15px;}
+h1 { font-size: 4em; color:#99CC00;}
+h2 { font-size: 1.4em;  margin-bottom: 5px; color: #b8b571;}
+h3 { color: #595726;font-size: 1.2em;	padding: 2px 5px; margin: 10px 0px 0px 0px;}
+h4 { color: #666; font-size: 0.9em;background-color: #f9f9f9; padding: 2px 4px; text-align: left;}
+
+img {border: none;}
+
+/**main nav**/
+.navback {background: url('images/navbar_01.jpg') no-repeat; }
+.navback2 {background: url('images/navbar_02.jpg') no-repeat; }
+#navcontainer {width: 975px; height: 62px; float: left; }
+#navlist{list-style-type: none; margin: 10px 0 0 250px;	}
+#navlist ul{margin: 10px 0px;}
+#navlist li{ line-height: 1.2em; margin: 0 .5em 0 -.5em; padding: 0 .5em 0 .5em; float: left; }
+#navlist a {color: #888c8f; font-size: 14px; font-weight:700; }
+
+/**news**/
+.newstabs{padding: 7px 0 10px  0;margin: 0 0 0 15px; list-style-type: none;text-align: left; font-size: 12px;}
+.newstabs li{display: inline; margin: 0;}
+.newstabs li a{text-decoration: none; padding: 3px 5px; margin-right: 3px;color:#888c8f; border: 1px solid #b8b571; font-weight: normal;}/*green*/
+.newstabs li a:visited{color: #888c8f;}
+.newstabs li a:hover{color: #fff;}
+.newstabs li.selected{ padding: 7px 0 10px  0;margin: 0;}
+.newstabs li.selected a{background-color:#d9d4a7;} /*selected sub tab style */
+.newstabs li.selected a:hover{text-decoration: none;} /*selected subtab style */
+
+.tabcontentstyle{ width: 950px; height: 100% auto; margin: 0px; padding: 0px; float: left;}/*style of tab content container*/
+.tabcontent{display:none; } /*content is there but doesn't show until needed*/
+
+#ads ul{margin: 0 10px}
+#ads li{padding: 1px;}
+.clock {margin: 0 0 0 35px;}
+ul#mags {margin: 0 0 0 15px;}
+#mags li{padding: 0 0 15px 0px;}
+
+.col1 {width: 150px; height: 100% auto; margin: 0 3px; padding: 10px;}
+.col2 {width: 445px; height: 100% auto; margin: 0 3px;}
+.col3 {width: 320px; height: 100% auto; margin: 0 5px;}
+.col4 {width: 575px; height: 100% auto; margin: 0 3px;}
+.col5 {width: 200px; height: 100% auto; margin: 0 3px;}
+
+.floatl {float: left;}
+.floatr	{float: right;}
+#footer {clear: both; width: 975px; height: 20px; background:#b8b571; color: #fff; font-size: 10px; text-align: center;}
+/* begin styles for RSS Feed */
+
+.rss-items {margin-top:0px; padding:0.5em; margin-left:0px;color:#000000;font-family: "Trebuchet MS", Arial;}
+p.rss-title {padding:0.5em;font-family: "Trebuchet MS", Arial;}
+.rss-title {font-size: 12pt; font-family: "Trebuchet MS", Arial;background-color: #000099; color: #F2F4FF; font-weight:bold;text-align: left;}
+.rss-item  {list-style:none;padding-bottom:1em;font-family: "Trebuchet MS", Arial;}
+.rss-item a {font-weight:bold;font-family: "Trebuchet MS", Arial;}
+.rss-item a:visited {color: black;font-family: "Trebuchet MS", Arial;}
+
+

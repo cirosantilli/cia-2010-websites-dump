@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*dk;dc Investment CSS Document */
+
+body { margin: 0px; }
+p { font: 12px Verdana; color:#000; }
+b { font: bold 15px Verdana; color:#dc9f84; }
+
+#wrap { float: left; width: 975px; }
+
+#header { width: 975px; height: 99px; }
+#box { float: left; width: 279px; height: 99px; }
+#appbox { float: left;  width: 139px; height: 99px; background: url(images/dkdc_images_03.jpg) no-repeat; }
+#box2 { float: left; width: 557px; height: 99px; }
+
+#bar01 { float: left; width: 12px; height: 99px; }
+#bar02 { float: left; width: 326px; }
+#links01 { float: left; width: 326px; height: 370px; background: url(images/dkdc_images_09.jpg) no-repeat; }
+#links02 { float: left; width: 326px; height: 370px; background: url(images/dkdc_images_24.jpg) no-repeat; }
+#linkheader { float: left; width: 300px; height: 20px; padding: 10px; }
+#linkheader2 { float: left; width: 295px; height: 10px; padding: 10px; margin-top: 7px; margin-bottom: 8px; }
+*html #linkheader2 { float: left; width: 295px; height: 10px; padding: 10px; margin-top: 7px; margin-bottom: 0px;  } /*for IE*/
+*html #linkinfo { float: left; width: 320px; height: 330px; padding: 10px; margin-left: 2px; overflow: auto; visibility: visible; } /*for IE*/
+#linkinfo { float: left; width: 300px; height: 303px; padding: 10px; margin-left: 0px; overflow: auto; visibility: visible; }
+#bar03 { float: left; width: 39px; }
+#bar04 { float: left; width: 410px; }
+#bar05 { float: left; width: 188px; height: 1000px; background: url(images/dkdc_images_20.jpg) left 287px no-repeat;   }
+
+#feedheader { float: left; width: 290px; height: 20px; padding: 10px; margin-left: 82px; font: bold 15px Verdana; color:#bedfb4; }
+#feedinfo { float: left; width: 380px; height: 950px; padding: 10px; margin-left: 5px; border: 1px solid #0086c0; overflow: auto; visibility: visible; }
+*html #feedinfo { float: left; width: 402px; height: 990px; padding: 10px; margin-left: 2px; border: 1px solid #0086c0; overflow: auto; visibility: visible; }/*for IE*/
+
+#linkinfo a:link { color: #42a7cf; text-decoration: none; }
+#linkinfo a:visited { text-decoration: none; color: #42a7cf; }
+#linkinfo a:hover { text-decoration: underline; color: #8d95a8; }
+#linkinfo a:active { text-decoration: none; color: #42a7cf; }
+#linkinfo ul { list-style: none; margin: 0; padding: 0; }
+
+#feedinfo a:link { color: #42a7cf; text-decoration: none; }
+#feedinfo a:visited { text-decoration: none; color: #42a7cf; }
+#feedinfo a:hover { text-decoration: underline; color: #8d95a8; }
+#feedinfo a:active { text-decoration: none; color: #42a7cf; }
+#feedinfo ul { list-style: none; margin: 0; padding: 0; }
+
+/*- Menu 3--------------------------- */
+	
+#menu3 { width: 180px; margin: 2px; font: bold 12px Verdana;  /*border-style: solid solid none solid; border-color: #BCD2E6; border-size: 1px; border-width: 1px;*/ }	
+#menu3 li a { height: 32px; voice-family: "\"}\"";  voice-family: inherit; height: 24px; text-decoration: none; }
+*html #menu3 li a { height: 32px; voice-family: "\"}\"";  voice-family: inherit; text-decoration: none; }	/*for IE*/	
+#menu3 li a:link, #menu3 li a:visited { color: #8BADCF; display: block; background:  url(images/menu3.gif); padding: 8px 0 0 10px; }
+#menu3 li a:hover { color: #627EB7; background:  url(images/menu3.gif) 0 -32px; padding: 8px 0 0 10px; }
+#menu3 ul { list-style: none; margin: 0; padding: 0; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

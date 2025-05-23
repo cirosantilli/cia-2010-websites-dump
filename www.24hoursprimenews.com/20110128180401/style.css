@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px; margin: 0px; padding: 0px;
+	color: #FFFFFF;}
+#wrappage {position: relative; width: 900px; height: 100% auto; margin-left: -450px; left: 50%;}
+#wrap_title {width:900px; height:53px; margin:0; padding:0; float:left;}
+#maincontent {width:900px; height:647px; margin:0px; padding:0px; float:left;}
+#column1 {width: 222px; height: 647px; margin: 0; padding: 0; float:left;  }
+#topnav {width: 222px; height: 324px; margin: 0; padding: 0; float:left; /*background: #090;*/background:url('images/top_left_image.jpg') no-repeat;}
+#bottomnav {width: 222px; height: 323px; margin: 0; padding: 0; float:left; /*background: #FF0;*/background:url('images/lower_left_image.jpg') no-repeat;}
+
+#column2 {width: 678px; height: 647px; margin: 0; padding: 0; float:left; }
+
+
+img {border: none; margin: 0px; padding: 0px;}
+
+.image_left{float: left; padding: 0; margin-top: 4px 4px 0 0; border: 1px solid #FFF;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+
+li {margin:0; padding:3px 8px; list-style:none; border:0;} 
+li.content {margin:0px 7px 0px 7px; padding:0 0 3px 5px; list-style:none; border-bottom: 1px dotted #FFF;}
+
+a:link {  text-decoration:none;  color: #000; }
+a:visited {	text-decoration:none;  color:#000; }
+a:hover { text-decoration:underline; color:#FFCC00; }
+a:active {text-decoration: none;color:#000;}
+
+#markets a:link { text-decoration:none;  color: #000;}
+#markets a:visited {text-decoration:none;  color:#000;}
+#markets a:hover { color:#FFFFFF;}
+#markets a:active {text-decoration: none;color:#000;}
+
+#lowernav a:link {  text-decoration:none;  color: #CCC; font-weight:bold; }
+#lowernav a:visited {	text-decoration:none;  color:#CCC; font-weight:bold;}
+#lowernav a:hover { text-decoration:underline; }
+#lowernav a:active {text-decoration: none; color:#CCC;font-weight:bold;}
+
+#lowernav2 a:link {  text-decoration:none;  color: #000; font-weight:bold; }
+#lowernav2 a:visited {	text-decoration:none;  color:#000; font-weight:bold;}
+#lowernav2 a:hover { text-decoration:underline; }
+#lowernav2 a:active {text-decoration: none; color:#000;font-weight:bold;}
+
+h1 {font-size: 12px; color:#FFCC00;	height: 15px; text-transform: uppercase; font-weight: bold;	width: auto; text-align: right;
+	text-decoration: underline;	margin: 0 30px 8px 0;}
+h2 {font-size: 11px;padding: 0 4px 0 7px; color:#FFFFFF;	text-decoration: underline;	text-transform: uppercase;}
+h3 {font-size: 11px; padding: 3px 0 2px 7px; margin:0; padding:0;color:#FFFFFF; text-transform: uppercase; text-decoration: underline;}
+h4 {font-size: 11px; padding: 50px 0 0 7px;	color:#FFFFFF;	text-decoration: underline;	text-transform: uppercase;}
+h5 {font-size: 11px; padding: 10px 5px 7px 5px; color:#FFFFFF; text-decoration:underline; text-transform: uppercase;}
+
+#wrap_title {width:900px; height:53px; margin:0; padding:0; float:left;}
+
+#wrap_navigation {width:900px; height:159px; margin:0; padding:0; float:left;}
+.news_images_left {width:472px; height:159px; float:left;}
+.middle_nav {width:218px; height:159px; background-image:url(images/index_12.jpg); background-repeat:no-repeat; float:left; margin:0; padding:0;}
+ul#nav {list-style-type: none; padding: 10px 10px 0 30px; margin: 6px 0 0 0; }
+#nav a:link, #nav a:visited {display: block; width: 123px; padding:3px 0 0 32px; font-size:10px; color: #FFF; 
+	background: url(images/over_btms.gif) top left no-repeat; background-repeat:no-repeat;}
+#nav a:hover {background-position: 0 -69px; color: #FFCC00; }
+#nav a:active {background-position: 0 -138px; color: #FCEBB5;}
+#right_nav { width:185px; height:159px; float:left; margin:0; padding:0;}
+#right_border {width:25px; height:159px; float:left; margin:0; padding:0;}
+
+#wrapdate {width:900px; height:41px; margin:0; padding:0; float:left; background-image:url(images/index_21.jpg); background-repeat:no-repeat;}
+.date {
+	width:177px;
+	height:19px;
+	margin:0px;
+	padding:10px 5px 0px 2px;
+	float: left;
+	z-index:1;
+	position:absolute;
+	visibility:visible;
+	top:213px;
+	left:43px;
+	font-size:10px;
+	color:#FFF;
+}
+.top_links { width:122px; height:auto; padding:0; float:left; margin-top: 0; margin-right: 5px;	margin-bottom: 0; margin-left: 30px;}
+
+.worldmarkets_links {
+	position: absolute;
+	width:160px;
+	height:auto;
+	padding:0;
+	float:left;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 25px;
+	left: 23px;
+	top: 240px;
+}
+.more_links {
+	position: absolute;
+	width:112px;
+	height:auto;
+	padding:0;
+	float:left;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 50px;
+	left: 50px;
+	top: 583px;
+}
+.applet {
+	position: absolute;
+	width:182px;
+	height:100px;
+	padding:0;
+	float:left;
+	left: 31px;
+	top: 778px;
+}
+
+
+
+#subpages {	width:678px; height:647px; margin:0px; padding:0px;	float:left; /*background:#93F; */background-image: url(images/index_23.jpg); background-repeat:no-repeat;}
+#feed_news {width: 300px;height:590px;overflow:auto;float:left;	margin-top: 0; margin-right: 5px; margin-bottom: 0; margin-left: 8px;padding-top: 4px; padding-right: 10px; padding-bottom: 5px;padding-left: 15px;}
+#links {width:290px; height:590px; margin:0px; overflow:auto; float: left; border:1px solid #CCCCCC; padding-top: 4px; padding-right: 5px; padding-bottom: 5px;padding-left: 10px;}
+	
+#wrap_links {width:900px;height:237px; margin: 0;float:left; background-image:url(images/lower_banner.jpg); background-repeat:no-repeat;}
+.content_ad_1 {	width:220px;height:auto;padding:4px 6px 0 26px;	float: left;}
+.translators {width:220px;height:auto;padding:4px 2px 0 26px;float: left;}
+.content_ad_2 {width:100px;	height:54px;padding:6px 6px 0 12px;	float: left;}
+
+.scroll{filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456;	scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#FFF;}
+
+#footer {width:900px;height:20px;color: #FFFFFF;font-size:10px;	font-weight:bold;float: left;text-align: center;clear:both;
+	position:relative;padding-top: 5px;	background-color: #888888;}

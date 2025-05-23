@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*vriha-aesthetics CSS Document */
+body {margin-top: 0px;}
+h1 { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #993300; padding-right: 15px; padding-top: 10px; }
+#wrap { float: left; width: 975px; height: 100%; background-image: url(images/vriha_img_bkgd2.jpg); background-repeat: repeat-y;  }
+#topad { float: left; width: 975px; height: 50px; background-color: #FFFFFF; padding-top: 5px; }
+#banner { float: left; width: 951px; height: 91px; padding-left: 15px;}
+#banimg { float: left; width: 733px; height: 91px; }
+#banapp { float: left; width: 194px; height: 91px; background-image: url(images/vriha_img_06.jpg);}
+#topinfo { float: left; width: 951px; height: 582px; padding-left: 0px;}
+#sidei { float: left; width: 338px; height: 582px; }
+#sideimg01 { float: left; width: 124px; height: 582px; }
+#sideimg02 { float: left; width: 214px; height: 582px; }
+#infobox{ float: left; width: 405px; height: 582px; }
+#feed { float: left; width: 405px; height: 577px; }
+#img { float: left; width: 405px; height: 5px; }
+#btnimg { float: left; width: 184px; height: 582px; background-image: url(images/vriha_img_11.jpg); }
+#btminfo { float: left; width: 951px; height: 403px; padding-left: 0px;}
+#side01 { float: left; width: 124px; height: 350px; padding-top: 5px; }
+#box{ float: left; width: 619px; height: 350px; }
+#box01{ float: left; width: 305px; height: 187px; }
+#box02{ float: left; width: 305px; height: 187px; padding-top: 10px; }
+#adbox{ float: left; width: 619px; height: 80px; padding-top: 5px; }
+#appbox1{ float: left; width: 617px; height: 28px; padding: 4px; border: 1px thin groove #996600; margin-top: 5px; }
+#appbox2{ float: left; width: 617px; height: 28px; padding: 4px; border: 1px thin groove #996600; margin-top: 5px; }
+#side02 { float: left; width: 184px; height: 350px; padding-top: 5px;}
+#footer { float: left; width: 927px; height: 53px; }
+
+#ddblueblockmenu{ border-bottom-width: 0; width: 180px; }
+#ddblueblockmenu ul{ margin: 0; padding: 0; list-style-type: none; font: normal 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif; }
+#ddblueblockmenu li a{ display: block; padding: 3px 0; padding-right: 9px; width: 180px; /*185px minus all left/right paddings and margins*/ text-decoration: none; color: white; background-color: #663300; border-bottom: 1px solid #ffcc66; border-left: 7px solid #996600; }
+* html #ddblueblockmenu li a{ /*IE only */ width: 187px; /*IE 5*/ w\idth: 180px; /*185px minus all left/right paddings and margins*/ }
+#ddblueblockmenu li a:hover { background-color: #996600; border-left-color: #663300; } 
+
+/*side bar---------------------------------------------- */	
+.main { position:absolute; width: 385px; height: 543px;	z-index:2; overflow: auto; visibility: visible; border: 1px thin groove #996600; top: 29px; left: 10px; padding: 10px 10px 10px 10px }
+
+a:link {  text-decoration: none; color: #663300;}
+a:visited {	text-decoration: none; color: #663300; }
+a:hover { text-decoration: none; color: #996600; }
+a:active { text-decoration: none; color: #663300; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

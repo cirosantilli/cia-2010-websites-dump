@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0; padding: 0; color: #000; font-weight: normal;}
+
+
+#wrap{position: relative; margin: 0; padding: 0; }
+
+#header{margin: 0; padding: 0;}
+
+
+a{text-decoration: none; font-weight: bold; }
+p{margin: 0; padding: 0;}
+
+h1{font-size: 1.2em; margin: 0; padding: 0;}
+h2{font-size: 1em; margin: 0; padding: 0;}
+h3{font-size: .8em; margin: 0; padding: 0;}
+
+ul{margin: 0; padding: 0;}
+li{list-style: none; margin: 0; padding: 3px 0px; display: block;}
+
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+.scroll{scrollbar-3dlight-color:#FFFFFF;
+           scrollbar-arrow-color:#CCCCCC;
+           scrollbar-base-color:#FFFFFF;
+           scrollbar-track-color:#FFFFFF;
+           scrollbar-darkshadow-color:#FFFFFF;
+           scrollbar-face-color:#FFFFFF;
+           scrollbar-highlight-color:#FFFFFF;
+           scrollbar-shadow-color:#FFFFFF;}
+
+.col1{float: left; width: 47.5%;}
+.col2{float: right; width: 47.5%;}
+
+
+.imgcenter{text-align: center;}

@@ -1,0 +1,692 @@
+﻿/* regular */
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial;
+	background-color: Black;
+}
+img
+{
+	border: 0px;
+}
+h5
+{
+	color: #FFF;
+	padding: 10px;
+}
+.advert
+{
+	color: #999;
+	padding: 15px 0 0 0;
+	font-size:10px;
+	text-align:center;
+}
+.advert img
+{
+	display:block;  /*To center images*/
+	margin-left:auto;  /*To center images*/
+	margin-right:auto;  /*To center images*/
+	text-align:center;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.size
+{
+	width: 950px;
+	margin: 0px auto;
+}
+
+/* header */
+
+.header
+{
+	height: 15px;
+	overflow: hidden;
+	background-color: #000;
+}
+.header01
+{
+	height: 91px;
+	overflow: hidden;
+}
+#todaysDate {
+	position:absolute;
+	top: 7px;
+	left: 695px;
+	width: 200px;
+	color:#FFFFFF;
+	font-size:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 1;
+}
+.mnav
+{
+	height: 39px;
+	overflow: hidden;
+	background-image: url(image/img_38.jpg);
+	background-repeat: repeat-x;
+	margin-left: 16px;
+	width: 930px;
+	position: relative;
+}
+.mnm ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.mnm li
+{
+	float: left;
+	padding: 0 0px 0 0px;
+	line-height: 44px;
+	text-align: center;
+	color: #6EC320;
+	font-family: Arial;
+	background-image: url(image/3_03.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	list-style: none;
+}
+.mnm li.selected
+{
+	color: #0F0;
+}
+.mnm a
+{
+	color: #62BB15;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	width: 150px;
+	height: 100%;
+}
+.mnm a:hover, .mnm a:active
+{
+	background: url(image/3_021.jpg) repeat-x;
+	color: #000;
+}
+.thisPage
+{
+	color:#060;
+}
+.mnimgl
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.mnimgr
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.logo
+{
+	float: left;
+	padding-top: 11px;
+	padding-left: 30px;
+}
+.hright
+{
+	float: right;
+	width: 690px;
+	overflow: hidden;
+}
+.hr01
+{
+	width: 690px;
+	height: 28px;
+	background-image: url(image/img_09.gif);
+	background-repeat: no-repeat;
+}
+.hr01 div
+{
+	float: left;
+	line-height: 30px;
+	font-size: 11px;
+}
+.hr01 a:link, .hr01 a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+.hr01 a:hover, .hr01 a:active
+{
+	color: white;
+	text-decoration: underline;
+}
+.hr0101
+{
+	padding-left: 35px;
+}
+.hr0102
+{
+	padding-left: 35px;
+}
+.hr02 
+{
+	float: right;
+	width:500px;
+	text-align: right;
+	padding-top: 22px;
+	padding-right: 22px;
+}
+
+
+/* content */
+
+.content
+{
+	background-color: #000;
+	overflow: hidden;
+}
+.cmainImgLeft
+{
+	float:left;  /*aligns element to the left, causing others to wrap to the right of element*/
+	margin-left: 16px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	
+}
+.cmainImgRight
+{
+	/*float:right;*/
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+}
+.cleaner {
+	clear: both;
+}
+.submenu
+{
+	height: 28px;
+	margin-left: 16px;
+	width: 930px;
+	background-image: url(image/img_97.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 11px;
+}
+.submenu  a:link, .submenu a:visited {
+	color:#330;
+}
+.submenu a:hover, .submenu a:active {
+	color:#090;
+	text-decoration: none;
+}
+.subtext
+{
+	color: #000;
+	font-size: 11px;
+	margin-left: 11px;
+	margin-top: 6px;
+	float: left;
+	width: 200px;
+}
+.subimag
+{
+	float: right;
+	margin-top: 6px;
+	margin-right: 30px;
+}
+.subimag ul, .subimag li
+{
+	padding: 0px;
+	margin: 0px;
+}
+.subimag li
+{
+	list-style: none;
+	float: left;
+	padding-left: 4px;
+}
+.subimag a
+{
+	text-decoration: none;
+}
+.snimgl
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.snimgr
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.mcontent
+{
+	overflow: hidden;
+	background-color: #000000;
+}
+.leftbox
+{
+	float: left;
+	width: 207px;
+	margin-left: 15px;
+	background-color: #000000;
+}
+
+
+/*body boxes*/
+
+.bodybox1 {
+	float: left;
+	width: 340px;
+	margin-right: 15px;
+	margin-left: 9px;
+	margin-top: 10px;
+	background-color: #000000;
+}
+.bodybox2 {
+	float: left;
+	width: 340px;
+	margin: 0px;
+	margin-top: 10px;
+	background-color: #000000;
+}
+.bodyboxtitle
+{
+	height: 37px;
+	color: #fff;
+	padding-left: 23px;
+	padding-top: 10px;
+}
+.bodyboxtitle a:link,
+.bodyboxtitle a:visited
+{
+	color:#FFF;
+}
+.bodyboxtitle a:hover,
+.bodyboxtitle a:active
+{
+	text-decoration: underline;
+	color: #CCC;
+}
+.bodyboxcontent
+{
+	width: 324px;
+	overflow: hidden;
+	margin-left:10px;
+	color:#CCC;
+}
+
+.bodyboxbottom
+{
+	height: 10px;
+	overflow: hidden;
+	font-size: 0px;
+}
+
+.linkbox
+{
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.mc01t
+{
+	height: 37px;
+	background-image: url(image/img_147.jpg);
+	background-repeat: no-repeat;
+}
+
+.linktitle
+{
+	height: 24px;
+	background-image: url(image/img_240.jpg);
+	background-repeat: no-repeat;
+	color: #f3f8fe;
+	text-align:center;
+	padding-top: 13px;
+}
+
+.linkcontent
+{
+	text-align:left;
+	overflow: hidden;
+	background-color: #000;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #DED53A;
+}
+
+.linkcontent h3
+{
+	margin: 0;
+	font-size: 92%;
+	color:#FF0;
+	padding-bottom:5px;
+}
+
+.linkcontent li
+{
+	font-family: Arial;
+	font-size: 99%;
+	padding:3px 3px 3px 0.2em;
+	height: 16px;
+	color:#CCC;
+}
+
+.linkcontent a:link, .linkcontent a:visited
+{
+	text-decoration: none;
+	color:#999;
+}
+
+.linkcontent a:hover, .linkcontent a:active
+{
+	text-decoration: underline;
+}
+
+.linkbottom
+{
+	height: 5px;
+	overflow: hidden;
+	font-size: 0px;
+}
+
+.mcright
+{
+	width: 715px;
+	overflow: hidden;
+	float: right;
+	background-color: #000;
+	background-image: url(image/img_110.gif);
+	background-repeat: repeat-y;
+}
+
+.mcright #img01,
+.mcright #img02,
+.mcright #img03 {
+	width: 225px;
+	height:150px;
+	float: left;
+	padding:5px;
+}
+
+.mc00
+{
+	overflow: hidden;
+	margin: 0px auto;
+	text-align:center;
+}
+
+.mc01
+{
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.mc02
+{
+	overflow: hidden;
+}
+.mc03
+{
+	padding-bottom: 24px;
+	overflow: hidden;
+	background-color:#000;
+}
+
+.mcimages 
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.mcimages img
+{
+	border: 1px solid #666;
+}
+
+.mcimages a
+{
+	text-decoration: none;
+	color: #CCC;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.mcimages a:hover, .mcimages a:active
+{
+	text-decoration: underline;
+}
+
+.mcimages li
+{
+	list-style-type: square;
+}
+
+.bottomimg {
+	padding:5px;
+}
+
+#bottomimg01 img,
+#bottomimg02 img,
+#bottomimg03 img{
+	float:left;
+	padding:5px;
+	display:block;  /*To center images*/
+	margin-left:auto;  /*To center images*/
+	margin-right:auto;  /*To center images*/
+}
+
+.cleaner {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+/* footer */
+
+.footer
+{
+	height: 120px;
+	overflow: hidden;
+	background-image: url(image/img_276.jpg);
+	background-repeat: repeat-x;
+	position: relative;
+	line-height: 60px;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-align: center;
+	clear: both;
+	width: 100%;
+}
+/* RSS feeds formating */
+
+.rsscontent {
+	color: #990;
+	line-height: 14px;
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:0.9em;
+}
+
+.rsscontent a:link, 
+.rsscontent a:visited {
+	margin: 0;
+	text-decoration: none;
+	color: #FFC;
+	line-height: 14px;
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:0.9em;
+}
+
+.rsscontent a:hover, 
+.rsscontent a:active {
+	margin: 0;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #9C0;
+}
+
+.rsscontent ul {
+	margin-top: 16px;
+	margin-left: 5px;
+	list-style-type: square;
+}
+
+.rsscontent li {
+	margin-top: 12px;
+}
+
+
+/*-------------------bodyBottom--------------------*/
+#bodyBottom{
+	width:946px;
+	color:#fff;
+	padding:22px 13px 19px 18px;
+	margin:0 auto;
+}
+
+#service{
+	width:338px;
+	padding-left:10px;
+	float:left;
+}
+#service h2{
+	display:block;
+	background:url(images/arrow_red.gif) 0 0 no-repeat;
+	padding:0 0 0 24px;
+	font:bold 22px/16px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#000;
+	margin:0 0 17px 0;
+}
+#service h3{
+	display:block;
+	background:url(images/date_bg.gif) 0 0 no-repeat;
+	width:327px;
+	height:17px;
+	padding:0 0 0 11px;
+	margin:0 0 14px 0;
+	font:bold 11px/17px Arial, Helvetica, sans-serif;
+	color:#974D04;
+	text-transform:uppercase;
+}
+#service ul{
+	padding:0;
+	margin:0;
+	display:block;
+}
+#service ul li{
+	display:block;
+	height:20px;
+	line-height:0;
+}
+#service ul li a{
+	display:block;
+	background:url(images/arrow_white.gif) 0 7px no-repeat;
+	padding:0 0 0 10px;
+	font:normal 11px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#47472D;
+	text-decoration:underline;
+	height:20px;
+}
+#service ul li a:hover{
+	color:#974D04;
+	background:url(images/arrow_white_hover.gif) 0 7px no-repeat #DDDDCB;
+	text-decoration:none;
+}
+#member{
+	width:338px;
+	float:right;
+}
+
+#member h2{
+	display:block;
+	background:url(images/arrow_red.gif) 0 0 no-repeat;
+	padding:0 0 0 24px;
+	font:bold 22px/16px Arial, Helvetica, sans-serif;
+	color:#fff;
+	margin:0 0 17px 0;
+}
+#member h3{
+	display:block;
+	background:url(images/date_bg.gif) 0 0 no-repeat;
+	width:205px;
+	height:17px;
+	padding:0 0 0 11px;
+	margin:0 0 14px 0;
+	font:bold 11px/17px Arial, Helvetica, sans-serif;
+	color:#974D04;
+	text-transform:uppercase;
+}
+#member ul{
+	padding:0;
+	margin:0;
+	display:block;
+}
+#member ul li{
+	display:block;
+	height:20px;
+	line-height:0;
+}
+#member ul li a{
+	display:block;
+	background:url(images/arrow_white.gif) 0 7px no-repeat;
+	padding:0 0 0 10px;
+	font:normal 11px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#47472D;
+	text-decoration:underline;
+	height:20px;
+}
+#member ul li a:hover{
+	color:#974D04;
+	background:url(images/arrow_white_hover.gif) 0 7px no-repeat #DDDDCB;
+	text-decoration:none;
+}
+/*------------------------------------------------bodyBottom--------------------*/
+
+#linkpage
+{
+	color:#CCC;
+	padding-left:10px;
+	padding-right:20px;
+}
+
+#linkpage ul
+{
+	line-height:18px;
+}
+
+#linkpage li
+{
+	padding-bottom:10px;
+}
+
+
+#linkpage a:link, #linkpage a:visited
+{
+	text-decoration: none;
+	color:#999;
+}
+
+#linkpage  a:hover, #linkpage  a:active
+{
+	text-decoration: underline;
+}

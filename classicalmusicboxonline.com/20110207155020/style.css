@@ -1,0 +1,79 @@
+/* CSS Document 
+red #532118
+green #85875a (707e37)
+lite green #c4c4a5
+*/
+body {font-family:"Trebuchet MS", Arial, sans-serif; font-size: 12px; color: #686947; background: #f5f0ce;}
+#wrap {position: relative; width: 900px; height: 100% auto;  margin-left: -450px; left: 50%;}
+#banner {width: 900px; height: 274px; margin: 0px; padding: 0px; float: left;}
+#rimg {width: 180px; height: 68px; margin: 0px; padding: 0px; float: left;}
+#contentwrap {width: 900px; height: 100% auto; float: left;background: #f5f0ce;}
+#forumbox {width: 800px; height: 100% auto; margin: 20px 40px 20px 40px; text-align: center;  float: left;background: #f5f0ce;}
+
+
+#maintab {width: 720px; height: 68px; margin: 0px; padding: 0px;float: left}
+#maintab ul {margin:0; padding:15px 0px 0 20px; list-style:none;}
+#maintab li {display:inline; margin: 0px ; padding: 15px 0 0 20px; font-size: 14px; color: #8b1d1d; font-weight: bold; font-family: Georgia, "Times New Roman", Times, serif; }
+#maintab li a{ margin: 0px ; padding: 15px 0 0 20px;font-size: 14px; color: #707e37; font-weight: bold; font-family: Georgia, "Times New Roman", Times, serif; }
+#maintab a:hover {font-weight: bold; color: #707e37; text-decoration: underline;}
+
+.tabs{padding: 7px 0 10px  0;margin: 0 0 0 15px; list-style-type: none;text-align: left; font-size: 12px;}
+.tabs li{display: inline; margin: 0;}
+.tabs li a{text-decoration: none; padding: 3px 7px; margin-right: 3px;color:#fff; background-color:#c4c4a5; font-weight: normal;}/*teal*/
+.tabs li a:visited{color: #532118;}
+.tabs li a:hover{color:#532118;}
+.tabs li.selected{/*position: relative;*/ padding: 7px 0 10px  0;margin: 0;}
+.tabs li.selected a{background-color:#707e37;} /*selected sub tab style */
+.tabs li.selected a:hover{text-decoration: none;} /*selected subtab style */
+
+.tabcontentstyle{ width: 900px; height: 100% auto; margin: 0px; padding: 0px; float: left;}/*style of tab content container*/
+.tabcontent{display:none; } /*content is there but doesn't show until needed*/
+
+/**news**/
+.newstabs{padding: 7px 0 10px  0;margin: 0 0 0 15px; list-style-type: none;text-align: left; font-size: 12px;}
+.newstabs li{display: inline; margin: 0;}
+.newstabs li a{text-decoration: none; padding: 3px 7px; margin-right: 3px;color:#fff; background-color:#c4c4a5; font-weight: normal;}/*teal*/
+.newstabs li a:visited{color: #532118;}
+.newstabs li a:hover{color:#532118;}
+.newstabs li.selected{/*position: relative;*/ padding: 7px 0 10px  0;margin: 0;}
+.newstabs li.selected a{background-color:#707e37;} /*selected sub tab style */
+.newstabs li.selected a:hover{text-decoration: none;} /*selected subtab style */
+
+.newstabcontentstyle{ width: 425px; height: 100% auto; margin: 0px; padding: 0px; float: left;}/*style of tab content container*/
+.newstabcontent{display:none;} /*content is there but doesn't show until needed*/
+
+h1 {font-size: 14px; margin: 0 0 9px 0px ; color: #8b1d1d; font-family: Georgia, "Times New Roman", Times, serif;  }
+h2	{font-size: 12px; margin: 9px 0 3px 0px ; color: #8b1d1d;font-family: Georgia, "Times New Roman", Times, serif;   }
+h3	{font-size: 11px; margin: 0 0 3px 0px ; color: #8b1d1d; font-family: Georgia, "Times New Roman", Times, serif;  }
+title{font-size: 12px; margin: 0 px ; font-weight: normal; color: #8b1d1d;font-family:"Trebuchet MS", Arial, sans-serif;  }
+
+.green {color:#707e37;}
+ul {list-style: none; margin:0;	padding: 0px;}
+li {display: block; color: #85875a; margin: 0px; padding: 0px;}
+li a{ padding: 0; text-decoration: none; color: #8b1d1d; font-size: 11px;}
+li a:hover {text-decoration: underline;}
+
+p {color:#85875a; margin: 0px; padding: 0px; }
+a {color: #8b1d1d; text-decoration: underline;}
+
+
+.col {width: 425px; heigth: 100% auto; margin: 5px; padding: 5px;}
+
+.box {width: 270px; height: 100% auto; margin: 10px; padding: 10px;}
+.box1 {width: 270px; height:100% auto; margin: 10px; padding: 10px;}
+.box2 {width: 240px; heigth: 100% auto; margin: 10px; padding: 5px;}
+.box3 {width: 200px; heigth: 100% auto; margin: 3px; padding: 5px;}
+.box4 {width: 425px; heigth: 100% auto; margin: 5px; padding: 5px;}
+
+
+
+.brdr {border-right: 1px dashed #532118;}
+.brdl{border-left: 1px dashed #532118;}
+.brdt {border-top: 1px solid #85875a;}
+.brdb {border-bottom: 1px solid #85875a;}
+.floatl {float: left;}
+.floatr {float: right;}
+
+#footer {clear: both; width:900px; height: 20px; color:#532118; text-align: right; font-size: 10px; float: left;}
+
+.rss-item a {color:#707e37; margin: 2px 0px;}

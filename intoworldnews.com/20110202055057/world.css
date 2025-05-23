@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+
+
+
+#wrap {float:left; width:850; height:1200px;}
+
+#header {float:left; width:850px; height:224px;}
+
+#nav {float:left; width:850px; height:49px; background:url(images/worldnews_13.jpg) no-repeat;}
+
+#col-1 {float:left; width:84px; height:927px;}
+
+#col-2 {float:left; width:186px; height:927px; background:url(images/worldnews_15.jpg) no-repeat;}
+#col-2-text {float:left; width:171px; height:870px; margin:10px 0 0 10px; display:inline; visibility:visible; overflow:auto;}
+#col-2-text ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+#col-2-text li	{display: block;  padding: 0px; margin: 0px; color:#FFF; font-size:13px;} /*row & description of link*/
+#col-2-text li a {text-decoration: none; color: #214287; font-size:14px; font-weight:600;} /*link*/
+#col-2-text li a:hover {color:#214287; text-decoration: underline;}
+#col-3-whole {float:left; width:192px; height:927px;}
+
+#col-3-top-whole {float:left; width:192px; height:131px; background:url(images/slice.jpg) no-repeat;}
+
+#col-3-mid {float:left; width:192px; height:42px;}
+
+#col-3-bottom {float:left; width:192px; height:754px; background:url(images/worldnews_24.jpg) no-repeat;}
+
+
+
+#col-4-whole {float:left; width:314px; height:927px;}
+
+#col-4-top {float:left; width:314px; height:149px;}
+
+#col-4-mid {float:left; width:314px; height:499px; background:url(images/worldnews_23.jpg) no-repeat;}
+
+.box-top {width: 291px; height: 479px; margin: 20px 0px 0 10px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible;}
+
+.doit li	{display: block;  padding: 0px; margin: 0px; color:#cf7015; font-size:13px;} /*row & description of link*/
+.doit li a {text-decoration: none; color: #214287; font-size:14px; font-weight:600;} /*link*/
+.doit li a:hover {color:#214287; text-decoration: underline;}
+
+
+
+#col-4-bottom-whole {float:left; width:314px; height:279px;}
+
+#col-4-bottom-top {float:left; width:314px; height:115px;}
+
+#col-4-bottom-left {float:left; width:198px; height:121px;}
+#col-4-bottom-right {float:left; width:116px; height:121px; background:url(images/worldnews_30.jpg) no-repeat;}
+
+#col-4-bottom-bottom {float:left; width:314px; height:43px;}
+
+#col-5 {float:left; width:74px; height:927px;}
+
+#col-6 {float:left; width:1px; height:1200px; background:url(images/repeat.jpg) repeat-x;}
+
+
+
+
+
+#menu8 {
+	width: 192px;
+	margin-top: 10px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #214287;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 15px;
+	}
+	
+#menu8 li a:hover {
+	color: #214287;
+	padding: 8px 0 0 15px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #214287;
+	padding: 8px 0 0 15px;
+	text-decoration:underline;
+	}
+	
+	
+	
+	 #tabs {
+      float:left;
+      width:850px;
+      font-size:14px;
+      line-height:normal;
+      }
+    #tabs ul {
+	margin:0;
+	padding:12px 10px 0 150px;
+	list-style:none;
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:left;
+      background:url("tableft.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs a span {
+      float:left;
+      display:block;
+      background:url("tabright.gif") no-repeat right top;
+      padding:5px 15px 4px 30px;
+      color:#214287;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#214287;
+	  text-decoration:underline;
+      }
+    #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #tabs a:hover span {
+      background-position:100% -42px;
+      }

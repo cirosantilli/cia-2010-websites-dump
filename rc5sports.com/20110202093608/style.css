@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; background:url(images/rc5-img-bkgd.jpg) repeat-x;}
+
+#wrap {float:left; width:900px; height:auto;}
+
+#top-header {float:left; width:900px; height:86px;}
+#btm-header {float:left; width:900px; height:98px;}
+#col-wrap {float:left; width:900px; height:auto; background:url(images/rc5-img-bkgd-wrap.jpg) repeat-y;}
+#col-01 {float:left; width:206px; height:1800px; background:url(images/rc5-img_14.jpg) left 140px no-repeat;}
+#col-02 {float:left; width:335px; height:1800px; background:url(images/rc5-img_12.jpg) left top no-repeat;}
+#col-02-header {float:left; width:300px; height:15px; font: bold 15px Verdana, Arial, Helvetica, sans-serif; padding: 10px 0 0 10px; color:#000;}
+#col-02-feed {float:left; width:335px; height:1750px; overflow: auto; visibility: visible; margin: 15px 0 0 0;}
+#col-02-feed ul {list-style: none;margin: 5px 10px 0 10px;padding: 0; font: 12px Verdana, Arial, Helvetica, sans-serif; line-height:19px;}
+#col-02-feed a{ text-decoration: none; color: #358fe3; }
+#col-02-feed a:visited{ color: #358fe3; }
+#col-02-feed a:hover{ text-decoration: underline; color: #96c5f1; }
+
+#col-03 {float:left; width:359px; height:1800px;}
+#col-03-ads-header {float:left; width:343px; height:20px; font: bold 10px Verdana, Arial, Helvetica, sans-serif; padding: 5px 0 0 5px; color:#FFFFFF; border: dashed 1px #c3c0c0; border-bottom: 0px; background-color:#625036; margin: 0 0 0 5px;}
+*html #col-03-ads-header { width:348px; height:15px; padding: 5px;}
+#col-03-ads {float:left; width:348px; height:332px; border: dashed 1px #c3c0c0; margin: 0 0 0 5px;}
+#col-03-app {float:right; width:171px; height:118px; background:url(images/rc5-img-ads_02.jpg) no-repeat;}
+.col-03-left { float:left;width:171px;}
+.col-03-right { float:right;width:171px;}
+
+#col-03-links {float:left; width:348px; height:auto; margin: 0 0 0 5px; background:url(images/rc5-img-bkgd-links.jpg) no-repeat;}
+#col-03-links ul {list-style: none;margin: 10px 10px 0 10px;padding: 0; font: 10px Verdana, Arial, Helvetica, sans-serif; line-height:19px;}
+#col-03-links a{ text-decoration: none; color: #358fe3; }
+#col-03-links a:visited{ color: #358fe3; }
+#col-03-links a:hover{ text-decoration: underline; color: #96c5f1; }
+
+#footer {clear:both; width:900px; height:100px; background:url(images/rc5-img_17.jpg) left top no-repeat;}
+
+.wireframemenu{ border: 1px solid #C0C0C0; border-bottom-width: 0; width: 170px; margin: 0 0 0 11px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 164px; margin: 0 0 0 15px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 12px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #C0C0C0; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #c5beb6; color: black; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

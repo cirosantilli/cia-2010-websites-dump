@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*Surya Brahma CSS Document */
+body { margin-top: 0px; background: url(images/surya_img_bkgd.jpg) repeat-x; }
+
+
+#wrap { float: left; width: 978px; height: 868px; }
+#leftbar { float: left;  width: 35px; height: 868px; } #leftbarimg01 { float: left;  width: 35px; height: 305px; background-image: url(images/surya_img_01.jpg); } #leftbarimg02 { float: left;  width: 35px; height: 410px; background-color: #FFFFFF; } #leftbarimg03 { float: left;  width: 35px; height: 153px; background-image: url(images/surya_img_14.jpg); }
+#rightbar { float: left;  width: 22px; height: 868px; } #rightbarimg01 { float: left;  width: 22px; height: 305px; background-image: url(images/surya_img_06.jpg); } #rightbarimg02 { float: left;  width: 22px; height: 410px; background-color: #FFFFFF; } #rightbarimg03 { float: left;  width: 22px; height: 153px; background-image: url(images/surya_img_15.jpg); }
+#centerbar { float: left;  width: 921px; height: 868px; }
+#header { float: left;  width: 921px; height: 153px; } #headerimg01 { float: left;  width: 178px; height: 153px; background-image: url(images/surya_img_02.jpg); } #headerimg02 { float: left;  width: 178px; height: 153px; background-image: url(images/surya_img_03.jpg); } #headerimg03 { float: left;  width: 208px; height: 153px; background-image: url(images/surya_img_04.jpg); } #headerimg04 { float: left;  width: 357px; height: 153px; background-image: url(images/surya_img_05.jpg); }
+#btn { float: left;  width: 921px; height: 32px; background-image: url(images/surya_img_07.jpg); background-repeat: repeat-x; }
+.solidblockmenu{ margin: 0; padding: 0; float: left; font: bold 80% Verdana, Arial, Helvetica, sans-serif; width: 100%; }
+.solidblockmenu li{ display: inline; }
+.solidblockmenu li a{ float: left; color: white; padding: 8px 11px; text-decoration: none; border-right: 1px solid white; }
+.solidblockmenu li a:visited{ color: white; }
+.solidblockmenu li a:hover, .solidblockmenu li .current{ color: white; background: transparent url(images/tableft5.gif) center center repeat-x; }
+#bar { float: left;  width: 921px; height: 7px; } 
+#box { float: left;  width: 921px; height: 639px; }
+#box01 { float: left;  width: 564px; height: 639px; }
+#box02 { float: left;  width: 357px; height: 639px; }
+#footer { float: left;  width: 921px; height: 37px; background-image: url(images/surya_img_16.jpg); }
+/*sub pages*/
+#newsbox { float: left;  width: 357px; height: 639px; background-image: url(images/surya_img_11.jpg); }
+#sporbox { float: left;  width: 357px; height: 639px; background-image: url(images/surya_img_spo_11.jpg); }
+#busibox { float: left;  width: 357px; height: 639px; background-image: url(images/surya_img_bus_11.jpg); }
+#healbox { float: left;  width: 357px; height: 639px; background-image: url(images/surya_img_hea_11.jpg); }
+#techbox { float: left;  width: 357px; height: 639px; background-image: url(images/surya_img_tech_11.jpg); }
+/*sub pages btn*/
+.wireframemenu{ position: absolute; background-color: #ffffcc;  border: 1px solid #996600; border-bottom-width: 0; width: 220px; top: 0px; left: 704px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 217px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana, Arial, Helvetica, sans-serif; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #0033ff; text-decoration: none; border-bottom: 1px solid #996600; }
+.wireframemenu a:visited{ color: #000000; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #993300; color: #ffffff; }
+
+/*feed/links pages*/
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size:16px; font-weight: bold; color:#990000; }
+p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; }
+#feedbox a { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0000FF; }
+#feedbox a:link { text-decoration: none; }
+#feedbox a:visited { text-decoration: none; color: #0033FF; }
+#feedbox a:hover { text-decoration: none; color: #0099FF; }
+#feedbox a:active { text-decoration: none; color: #0033FF; }
+#feedbox { float: left;  width: 500px; height: 639px; padding: 15px 15px 15px 15px;S }

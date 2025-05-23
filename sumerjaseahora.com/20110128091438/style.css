@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#006;}
+
+/*ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:0; list-style:none; border:0;}*/
+
+h2 {font-size: 12px; color: #000000; margin:0 0 0 30px; padding:0; width:100px; color:#006;}
+h3 {font-size: 12px; width:300px; padding:0 0 0 10px; margin:0 0 0 10px; color: #FFF; background-color:#09F;}
+body,td,th {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #000;}
+a {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;}
+a:link {color: #00F;}
+a:visited {color: #00F;}
+a:hover {color: #3b8853;}
+a:active {color: #03F;}
+
+#wrap {width:840px; height:800px;}
+#banner {width:840px; height:187px; margin:0; padding:0; display:inline;}
+#menu {width:840px; height:44; float:left; margin:0; padding:0; background-image:url(images/index_11.jpg); background-repeat:no-repeat;}
+ul#simple-menu{list-style-type:none; width:840px; height:27px; font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; margin:0; padding:10px 0 0 0;}
+ul#simple-menu li{display: inline; float:left; margin:0 0 0 4px; height:27px;}
+ul#simple-menu li a{display: inline; float:left; color:#000000; line-height:20px; text-decoration:none; padding:0 3px 0 3px; margin:0; height:20px; text-align:center; background:#ffffff; margin-left:20px;}
+ul#simple-menu li a:hover{background:#09F; color:#FFFFFF;}
+/*ul#simple-menu li a.current{color:#000000;}*/
+
+#content {width:840px; height:569px; float:left; margin:0; padding:0; background-image:url(images/index_12.jpg); background-repeat:no-repeat;}
+#links_wrap {width:300px; height:569px; float:left; margin:0 10px 0 10px; padding:5px 0 0 0;}
+#links {width:300px; height:540px; float:left; margin:0 0 0 10px; padding:0 0 0 3px; overflow:auto; visibility:visible; border:#09F solid 1px;}
+#rss {width:350px; height:569px; float:left; margin:5px 10px 0 15px; padding:0; overflow:auto; visibility:visible;}
+#rss2 {width:350px; height:569px; float:right; margin:5px 15px 0 15px; padding:0; overflow:auto; visibility:visible;}
+#buceo {width:450px; height:569px; float:left; margin:0 12px 0 40px; padding:0;}
+#buceo_info {width:450px; height:560px; float:right; margin:3px 0 0 0; padding:0 0 0 2px; overflow:auto; visibility:visible; border:#006 solid 1px;}
+#equipment_wrap {width:300px; height:569px; float:left; margin:0 10px 0 10px; padding:5px 0 0 0;}
+#equipment {width:300px; height:540px; float:left; margin:0 0 0 10px; padding:0; overflow:auto; visibility:visible; border:#09F solid 1px;}
+#destino {width:830px; height:560px; float:left; margin:0; padding:0; overflow:auto; visibility:visible;}
+/*#column1 {width:230px; height:569px; float:left; margin:0; padding:0;}*/
+
+#members {width:820px; height:700px; margin:0 12px 0 12px; padding:0;}
+
+

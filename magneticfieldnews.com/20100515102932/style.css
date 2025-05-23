@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0; padding:0; }
+p { font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000; }
+b { font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; line-height:25px; padding: 0; }
+a { text-decoration: none; color: #43b4bc; font: 13px Verdana, Arial, Helvetica, sans-serif; }
+a:hover { text-decoration: none; color: #c0c0c0; }
+ul { font: 13px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+
+#wrap { float:right; width:975px; height:auto; }
+#header { float:left; width:975px; height:auto; }
+
+#col-01 {float:left; width:145px; height:1151px; }
+#col-02 {float:left; width:359px; height:1151px; background:url(images/mfn-img_17.jpg) no-repeat; }
+#col-03 {float:right; width:471px; height:1151px; }
+#col-03-imgbox {float:left; width:471px; height:261px; }
+#col-03-nav {float:left; width:251px; height:900px; }
+#col-03-links {float:left; width:220px; height:900px; }
+
+#ad-col {float:left; width:135px; height:800px; margin: 50px 0 0 0; }
+#ad-col img {margin: 5px 0 5px 0;}
+
+#linkbox { width:210px; height:880px; overflow: auto; visibility: visible; /**/ border: solid 1px #d9d9d9; margin: 0 0 0 5px; }
+#linkbox ul { list-style: none; margin: 5px 8px 0 2px; padding: 0; }
+h5 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#43b4bc; line-height:33px; margin: 0; padding: 5px 10px 5px 40px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#loginbox { width: 250px; _width: 244px; height:200px; }
+
+.wireframemenu{ border: 1px solid #dddddd; background-color: white; border-bottom-width: 0; width: 248px; _width: 240px; }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 3px 8px 4px 4px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #dddddd; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #43b4bc; color: black; }
+
+#infofeed { width:347px; height:1105px; overflow: auto; visibility: visible; /**/ border: solid 1px #d9d9d9; margin: 0 8px 0 0; }
+#infofeed ul { list-style: none; margin: 10px; padding: 0; }
+h4 { font: bold 16px Verdana, Arial, Helvetica, sans-serif; color:#43b4bc; line-height:33px; margin: 0; padding: 5px 15px 5px 0; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.scroll { scrollbar-face-color:#fff; scrollbar-shadow-color:#fff; scrollbar-highlight-color:#fff; scrollbar-3dlight-color: #fff; scrollbar-darkshadow-color:#fff; scrollbar-track-color: #fff; scrollbar-arrow-color: #000000; }

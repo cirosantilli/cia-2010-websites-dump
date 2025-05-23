@@ -1,0 +1,24 @@
+body {text-align: justify;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:10px;color: #444444;}
+p, ul {margin-bottom: 1.8em;line-height: 160%;}
+
+#title {width:620px;margin:0 0 15px 0;font-weight: normal;color: #FFFFFF;background: #3A5D73 url(images/smarrow.gif) no-repeat left 50%;padding: 7px 25px;font-size:13px;border-right:2px solid #FFF;}
+
+#feed {width:620px;height:950px;margin: 0px 0px 15px 0px;overflow:auto;}
+
+#banner {width:620px;margin:0 0 10px 0;}
+
+#ads {width:125px; float:right; margin:0 0 15px 15px;}
+
+ul {padding:0;line-height: 160%;}
+ul li {list-style-type:none;color:#000;}
+ul li a {color:#3A5D73;font-size:11px;font-weight:bold;}
+ul li a:hover {color:#0C3}
+
+.scroll {
+    scrollbar-face-color:#00cc33;
+	scrollbar-shadow-color:#e5e7e6;
+	scrollbar-highlight-color:#e5e7e6
+	scrollbar-3dlight-color: #FFF;
+	scrollbar-darkshadow-color:#FFF;
+	scrollbar-track-color: #e5e7e6;
+	scrollbar-arrow-color: #3A5D73; }

@@ -1,0 +1,92 @@
+body {
+	margin: 2px 0 2px 0;
+	padding: 0;
+	background: #3a435c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight : normal;
+}
+
+p {
+	margin: 25px 0 5px 8px;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;	
+}
+
+/* Page defines the size of the web page.  The left margin is half the size of the web site (ie: 850px) */
+
+#page {
+     width: 850px; 
+	 height: 100% auto; 
+	 margin: 0 0 0 -425px;
+	 padding: 0 0 8px 0;
+	 position: relative; 
+	 left: 50%; 
+	 background: #000000;
+}
+
+#page p {
+	color: #ffffcc;
+	text-align: center;
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+/* Background */
+
+#background {
+     width: 850px; 
+	 height: 800px;
+	 position: relative; 
+	 margin: 0 auto; 
+	 padding: 0; 
+}
+
+/* Column 1 */
+
+#colOne {
+	width: 207px;
+	float: left;
+	margin: 0;
+	padding: 0;						              
+	background: #000000;
+}
+
+/* Column 2 */
+
+#colTwo {
+	width: 200px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: #000000;						              
+}
+
+/* Column 3 */
+
+#colThree {
+	width: 443px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: #000000;						              
+}
+
+/* iframe */
+
+.frame {
+	float: left;
+	width: 440px;
+	height: 654px;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	border: none;
+}

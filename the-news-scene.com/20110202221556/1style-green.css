@@ -1,0 +1,62 @@
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #fefe97;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-style: normal;
+
+
+}
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333300;
+	font-weight: normal;
+}
+BODY { 
+	background-image: url(images/green-bkgnd.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	scrollbar-face-color:#ecec79; 
+	scrollbar-shadow-color: #ecec79; 
+	scrollbar-highlight-color: #ecec79; 
+	scrollbar-3dlight-color: #ecec79; 
+	scrollbar-darkshadow-color: #ecec79; 
+	scrollbar-track-color: #ecec79; 
+	scrollbar-arrow-color: #663300;  
+} 
+H1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #663300;
+	font-weight: bold;
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	line-height: 13px;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0;
+	margin-top: 5px;
+	line-height: 1.2;
+}
+ul li{padding-bottom: 2px;
+}

@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Casa News</title>
+
+
+
+
+
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+  <script language="JavaScript">
+
+<!--
+
+// Get today's current date.
+
+var now = new Date();
+
+// Array list of days.
+
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+
+function fourdigits(number) {
+
+return (number < 1000) ? number + 1900 : number;
+
+}
+
+// Join it all together
+
+today = days[now.getDay()] + ", " +
+
+months[now.getMonth()] + " " +
+
+date + ", " +
+
+(fourdigits(now.getYear())) ;
+
+//-->
+
+  </script>
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<div id="wrap">
+
+<div id="header"><img src="images/banner_01.jpg" align="left" /><img src="images/banner_02.jpg" align="left" />
+
+<div id="dateformat">
+
+<p>
+
+<script>document.write(""+today);</script></p>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+<div id="navigation">
+
+<ul>
+
+
+
+  <li><a href="index.html" target="_parent">World</a></li>
+
+
+
+  <li><a href="business.html" target="_parent">Business</a></li>
+
+
+
+  <li><a href="sports.html" target="_parent">Sports</a></li>
+
+
+
+  <li><a href="tech.html" target="_parent">Technology</a></li>
+
+
+
+  <li id="current"><a href="health.html" target="_parent">Health</a></li>
+
+
+
+</ul>
+
+
+
+</div>
+
+
+
+<!--<div id="mainnav"> </div>-->
+
+<div id="contentwrap">
+
+
+
+
+
+<div id="maincontent">
+
+
+
+
+
+<div id="main">
+
+<div id="newsfeeds"><h2 class="top">Health News</h2>
+
+<div id="latestnews" class="box">
+
+			<h2>Latest Medical Headlines</h2>
+
+<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.medicalnewstoday.com%2Frss%2Ffeaturednews.xml&amp;num=8&amp;desc=1&amp;targ=y"  type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.medicalnewstoday.com%2Frss%2Ffeaturednews.xml&amp;num=8&amp;desc=1&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+</div>
+
+
+
+<div id="discoveryhealth" class="box">
+
+		<h2>Discovery Health News</h2>
+
+		<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2Fmnt%2Fhealthnews%3Fformat%3Dxml&amp;num=8&amp;desc=1&amp;targ=y"  type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2Fmnt%2Fhealthnews%3Fformat%3Dxml&amp;num=8&amp;desc=1&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+
+</p>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="nejournalnews" class="box">
+
+	<h2>New England Journal of Medicine - Latest Issue</h2>
+
+<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fcontent.nejm.org%2Frss%2Fcurrent.xml&amp;num=8&amp;desc=1&amp;targ=y"  type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fcontent.nejm.org%2Frss%2Fcurrent.xml&amp;num=8&amp;desc=1&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+
+
+	<!--FEED URL: http://content.nejm.org/rss/current.xml-->
+
+	</div>
+
+
+
+
+
+
+
+</div><!--end newsfeeds-->
+
+</div><!--end main-->
+
+
+
+<div id="newslinks">
+
+<div id="popmedsites" class="fill2 box">
+
+<h2>Popular Medical Sites</h2>
+
+	<ul class="linklist">
+
+    <li><a href="http://my.webmd.com/index">WebMD</a> - Look up info by condition or disease.</li>
+
+		<li><a href="http://medlineplus.gov/">MEDLINE Plus</a> - from the National Library of Medicine. </li>
+
+		<li><a href="http://www.merck.com/pubs/mmanual/sections.htm">Merck Manual</a> - Search
+
+		  the popular medical reference. </li>
+
+		<li><a href="http://www.medem.com/medlb/medlib_entry.cfm">Medem Medical Library</a> - Medical library and link directory. </li>
+
+		<li><a href="http://www.mayoclinic.com/">MayoClinic.com</a> - Mayo's directory to health resources. </li>
+
+
+
+	</ul>
+
+</div>
+
+
+
+<div id="related_health" class="fill2 box">
+
+<h2>Related Links</h2>
+
+<ul>
+
+  <li><a href="http://allafrica.com/health/">AllAfrica.com - Health and Medicine
+
+    News</a> - Principal newsfeed source for news and reports on health issues in Africa.
+
+    [English, French] </li>
+
+  <li><a href="http://www.alphagalileo.org/">AlphaGalileo</a> - Internet press center for European science, medicine and technology. </li>
+
+
+
+  <li><a href="http://news.bbc.co.uk/2/hi/health/">BBC News - Health </a> - Coverage
+
+    of news about health including audio and video, topics in depth and guides
+
+    and reader discussion forum. </li>
+
+  <li><a href="http://bcbshealthissues.com">BCBS Health Issues</a> - Healthcare
+
+    Headlines allows users to read and search media releases related to
+
+    healthcare. </li>
+
+
+
+  <li><a href="http://www.cbc.ca/health/">CBC - Health and Science News</a> - Top
+
+    stories, headlines, and in-depth coverage from the Canadian Broadcasting
+
+    Corporation. </li>
+
+  <li><a href="http://www.cbsnews.com/sections/health/main204.shtml">CBS News: Healthwatch</a> - Features headline news, articles,
+
+    and videos. </li>
+
+  <li><a href="http://www.cnn.com/HEALTH/">CNN - Health </a><br />
+
+    Presents latest news
+
+    and features with special sections on diet and fitness, conditions and
+
+    parenting. Includes video clips, health library, special reports and
+
+    resources. </li>
+
+  <li><a href="http://about.datamonitor.com/sectors/healthcare.htm">Datamonitor's Healthcare News</a> - Healthcare news
+
+    and opinion from national and trade press resources plus a 30 day archive. </li>
+
+  <li><a href="http://www.fdanews.com/">FDAnews</a> - An
+
+    electronic division of Washington Business Information Inc. with news on
+
+    drugs, medical devices, and biologics. </li>
+
+  <li><a href="http://www.foxnews.com/health/">FOX News: Health</a> - Current
+
+    health and medical news headlines plus in-depth features and video clips. </li>
+
+  <li><a href="http://www.globalhealthreporting.org/">GlobalHealthReporting.org</a> - Provides news and information on HIV/AIDS, tuberculosis (TB) and malaria
+
+    to journalists, researchers, policy makers and NGOs. </li>
+
+  <li><a href="http://www.theglobeandmail.com/life/health/">The Globe and Mail: Health</a> - Headline news, feature articles, and columnists from the Canadian
+
+    newspaper. </li>
+
+  <li><a href="http://news.google.com/?topic=m">Google News: Health</a> -  Aggregated articles and headline news. </li>
+
+
+
+  <li><a href="http://www.guardian.co.uk/medicine/0,11381,618095,00.html">Guardian
+
+    Unlimited Special Report: Medicine and Health</a> - Ongoing collection of
+
+    news and features about current issues including diseases and conditions,
+
+    preventative medicine, the NHS and drug companies. Includes interactive
+
+    guides, Dear Doctor, related special reports and in-depth studies. </li>
+
+  <li><a href="http://www.worldhealthnews.harvard.edu/">Harvard School of Public
+
+    Health - World Health News</a> - News digest covers critical public health
+
+    issues from around the world, offering a combination of original reporting
+
+    with news stories and commentaries from newspapers and magazines
+
+    worldwide. </li>
+
+
+
+  <li><a href="http://www.headlinespot.com/subject/health/">HeadlineSpot.com -
+
+    Health News</a> - Health news, medical journals, magazines. </li>
+
+  <li><a href="http://www.lifeclinic.com/healthnews/">Health News - Lifeclinic.com</a> - Daily updated news of health-related topics. </li>
+
+
+
+  <li><a href="http://www.citizen.org/hrg/">Health Research Group News</a> -
+
+    Information and news for consumer oriented reforms in health care system. </li>
+
+  <li><a href="http://www.telegraph.co.uk/health/">health.telegraph.co.uk</a> - Health
+
+    news, features and advice from the Telegraph newspaper. Includes a
+
+    searchable archive of health stories. </li>
+
+
+
+  <li><a href="http://www.iht.com/health.html">International Herald Tribune Health
+
+    and Science</a> - Provides international health and science news and
+
+    articles. </li>
+
+
+
+  <li><a href="http://www.medicalnewstoday.com">Medical News Today</a> - Current
+
+    medical news and health articles. </li>
+
+
+
+  <li><a href="http://www.modernhealthcare.com">Modern Healthcare Newsweekly</a> -
+
+    Updated health-care industry news and features from Crain Communications. </li>
+
+
+
+  <li><a href="http://health.msn.com">MSNBC: Health, Diet, and
+
+    Nutrition News</a> - Includes headline news, feature reports, videos, and
+
+    message boards. </li>
+
+
+
+  <li><a href="http://www.nytimes.com/pages/health/index.html">New York Times: Health News</a> - Breaking news, feature articles, columns, and video reports. </li>
+
+
+
+  <li><a href="http://www.naturalnews.com">NaturalNews.com</a> - Independent news on natural health, nutrition and more</li>
+
+  <li><a href="http://www.nhsonline.net">NHSonline.net</a> - Health care news and
+
+    articles. Navigate to other NHS resources. </li>
+
+  <li><a href="http://english.pravda.ru/science/health">Pravda Health</a> - Health
+
+    news and features from Russian Pravda. </li>
+
+
+
+
+
+  <li><a href="http://www.reutershealth.com/" target="_blank">Reuters Health Information</a><br />
+
+    Searchable archive of medical and health news for consumers and medical
+
+    and health-industry professionals, including information on common drugs
+
+    and diseases. [English, Portuguese, Spanish] </li>
+
+
+
+  <li><a href="http://www.sciencedaily.com/news/health_medicine">Science Daily
+
+    Magazine</a> - Daily headlines and summaries of health and medical news
+
+    stories searchable by disease, treatments, diagnosis, and other
+
+    categories. </li>
+
+
+
+
+
+  <li><a href="http://health.yahoo.com">Yahoo! News - Health</a><br />Headline
+
+    links to news and commentary from various media sources. </li>
+
+
+
+  <li><a href="http://yourhealthdaily.com">Your Health
+
+    Daily</a> - Updated daily and past health-related newspaper articles and
+
+    press releases searchable by keyword. </li>
+
+
+
+  </ul>
+
+</div>
+
+
+
+
+
+</div><!--end newslinks"-->
+
+
+
+
+
+
+
+<div id="adlinks"><br />
+
+<div id="newsgoogle"><!-- Google News Element Code --><iframe marginwidth="0" marginheight="0" border="0" style="border: 0pt none ; margin: 0pt; width: 300px; height: 250px;" src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?rsz=large&amp;format=300x250&amp;topic=m&amp;element=true" allowtransparency="true" frameborder="0" scrolling="no"></iframe></div>
+
+
+
+<br class="clearfloat" />
+
+
+
+<div id="healthmag" class="box">
+
+<h2>Health and Fitness Magazines</h2>
+
+<ul>
+
+	<li><a href="http://www.ehealthmag.com/" target="_blank">eHealth</a></li>
+
+<li><a href="http://www.health.com" target="_blank">Health.com</a></li>
+
+<li><a href="http://www.healthology.com/" target="_blank">Healthology</a></li>
+
+<li><a href="http://www.healthykids.com" target="_blank">Healthy Kids</a></li>
+
+<li><a href="http://www.letslive.co.nz/" target="_blank">Let's Live</a></li>
+
+<li><a href="http://www.medizine.com" target="_blank">MediZine.com</a></li>
+
+<li><a href="http://www.mensfitness.com" target="_blank">Men's Fitness</a></li>
+
+<li><a href="http://www.menshealth.com/" target="_blank">Men's Health</a></li>
+
+<li><a href="http://www.self.com/" target="_blank">Self</a></li>
+
+<li><a href="http://www.healthyideas.com" target="_blank">Prevention</a></li>
+
+<li><a href="http://www.remedyonline.com" target="_blank">Remedy Magazine</a></li>
+
+<li><a href="http://www.shapemag.com" target="_blank">Shape</a></li>
+
+<li><a href="http://www.yourfamilyshealth.com/" target="_blank">Your Family's Health</a></li>
+
+	<li><a href="http://www.biomech.com" target="_blank">BioMechanics</a><br />
+
+  Monthly news magazine dedicated to total body movement and medicine. Peer
+
+  reviewed articles focus on treatment of joint and body injuries, geriatrics,
+
+  rehabilitation, function analysis, diabetes, pain management, foot health,
+
+  wound care and devices that improve mobility.</li>
+
+<li><a href="http://www.chiroeco.com" target="_blank">Chiropractic Economics</a><br />
+
+  News, information and marketing for doctors of chiropractic.</li>
+
+<li><a href="http://www.dcproductsreview.org/" target="_blank">DC Products Review</a><br />
+
+  Magazine reviews new products available for the chiropractic profession.</li>
+
+<li><a href="http://www.dermatologytimes.com" target="_blank">Dermatology Times</a><br />
+
+  Monthly magazine that reports relevant timely information on the latest trends
+
+  in its market and is at the forefront of all developments in the dermatology
+
+  arena.</li>
+
+<li><a href="http://vvv.com/healthnews/" target="_blank">International Health News</a><br />
+
+  Provides information about the latest research in health, nutrition and
+
+  medicine. Focus on complementary and preventive medicine, specifically
+
+  in regard to diet, supplements, vitamins, exercise and lifestyle.</li>
+
+  <li><a href="http://www.medicaldevicesonline.com/" target="_blank">Medical Device Technology</a><br />
+
+  Magazine serving the European medical device and in vitro diagnostics
+
+  manufacturing industry.</li>
+
+<li><a href="http://www.memag.com/" target="_blank">Medical Economics</a><br />
+
+  Magazine designed to help doctors with practice management, personal finance, patient relations. Original surveys
+
+  available on physician income, healthcare technology, and medical ethics.</li>
+
+
+
+
+
+<li><a href="http://www.modernphysician.com" target="_blank">Modern Physician</a><br />
+
+  Business magazine for physician executives, leaders and entrepreneurs.</li>
+
+
+
+<li><a href="http://www.nurse.com/" target="_blank">Nurse.com</a><br />
+
+  Nursing and healthcare communications company and the largest print and
+
+  electronic publisher of news and information for registered nurses.</li>
+
+<li><a href="http://www.outpatientsurgery.net" target="_blank">Outpatient Surgery</a><br />
+
+  Magazine for physicians, nurses and administrators involved in the field of
+
+  outpatient surgery.</li>
+
+
+
+<li><a href="http://www.physsportsmed.com" target="_blank">Physician and Sportsmedicine</a><br />
+
+  Source for primary care sports medicine clinical and personal health articles.</li>
+
+<li><a href="http://www.podiatrytoday.com/" target="_blank">Podiatry Today</a><br />
+
+  Magazine concentrates on all disease states like Diabetic Foot Care, MRSA,
+
+  Flatfoot, Plantar Fasciitis, Heel Pain, Orthotics.</li>
+
+<li><a href="http://www.revophth.com" target="_blank">Review of Ophthalmology</a><br />
+
+  Provides ophthalmologists and those in the eyecare field with news, features and monthly departments of practical use.</li>
+
+
+
+<li><a href="http://www.revoptom.com" target="_blank">Review of Optometry</a><br />
+
+  Includes Retina Quiz, CE archive, and product reviews.</li>
+
+<li><a href="http://www.smw.ch" target="_blank">Swiss Medical Weekly</a><br />
+
+  Official publication of the Swiss Society for Internal Medicine and the Swiss
+
+  Society for Pneumology.</li>
+
+<li><a href="http://telemedtoday.com"
+
+target="_blank">Telemedicine Today</a><br />
+
+  Magazine covering clinical applications, networking, business models, legal and
+
+  regulatory updates, telemedicine program profiles, and industry news.</li>
+
+<li><a href="http://www.trusteemag.com" target="_blank">Trustee</a><br />
+
+  Magazine in the health care field written specifically for the directors of
+
+  hospitals and health care systems.</li>
+
+
+
+
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+<br class="clearfloat" />
+
+
+
+		<div id="dailymed" class="box">
+
+		<h2>Daily Health (<a href="http://www.medicinenet.com" target="_blank">Medicinenet.com</a>)</h2>
+
+		<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.medicinenet.com%2Frss%2Fdailyhealth.xml&amp;num=8&amp;desc=1&amp;targ=y"  type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.medicinenet.com%2Frss%2Fdailyhealth.xml&amp;num=8&amp;desc=1&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+
+
+		<!--Feed URL: http://www.medicinenet.com/rss/dailyhealth.xml-->
+
+		</div>
+
+
+
+</div>
+
+
+
+<!--end adlinks--></div>
+
+
+
+<!--end maincontent-->
+
+
+
+
+
+</div>
+
+
+
+<!--end contentwrap-->
+
+<div id="footer"></div>
+
+
+
+<!--end wrap-->
+
+</div>
+
+
+
+</body>
+
+</html>
+

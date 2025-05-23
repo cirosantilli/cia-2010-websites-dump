@@ -1,0 +1,93 @@
+#maincontent {float:left;
+      width:900px;
+	  height:792px;
+	  padding:0px; 
+	  margin:0px; 
+	  background-color: #fff;
+	 }
+	 
+#content_center {float:left;
+      width:900px;
+	  height:342px;
+	  padding:0px; 
+	  margin:0px; 
+	  background-color: #fff;
+	  }	 
+		   	  
+
+#column2 {float:left;
+	width:262px;
+	height:340px;
+	padding:0px;
+	margin:0px;
+	}
+	
+#content {float:left;
+	width:250px;
+	height:126px;
+	padding: 0px;
+	margin: 0px;
+	}
+#content li {padding: 4px 0px;	}	
+
+	
+#column3 {float:right;
+	width:287px;
+	height:325px;
+	padding:0px;
+	margin:0px;
+	}
+	
+	
+#maincontent_bottom {float:left;
+    width:900px;
+	height:300px;
+	padding:0px; 
+	margin: 0px; 
+	background-image:url(images/featured_bkgd.jpg);
+	background-color:#e6f1f1;
+	 }
+	
+#column1_bottom{float:left;
+	width:135px;
+	height:100%;
+	padding: 0px;
+	margin: 10px 10px 10px 10px;
+	}	
+	
+#column2_bottom {float:left;
+	width:135px;
+	height:100%;
+	padding: 0px;
+	margin: 10px 10px 10px 10px;
+	}
+	
+#sidebar_bottom {float:left;
+	width:262px;
+	height:100% auto;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	}
+	
+#column3_bottom {float:left;
+	width:135px;
+	height:100% auto;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 10px;
+	}
+	
+#column4_bottom {float:right;
+	width:135px;
+	height:100% auto;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 10px 0px 10px;
+	}
+	
+#footer{float:left;
+    width:860px;
+	height:150px;
+	padding: 20px 0px 0px 10px; 
+	margin: 0px; 
+	background-color:#fff;
+	text-align:center;
+	}

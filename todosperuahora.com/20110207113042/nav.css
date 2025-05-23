@@ -1,0 +1,41 @@
+/*Main Navbar */
+
+#nav {
+	background:#000000;
+	font-size:1.1em;
+	}
+	
+#nav, #nav ul {
+	list-style: none;
+	line-height: 1;
+	}
+
+#nav a, #nav a:hover {
+	display: block;
+	text-decoration: none;
+	border:none;
+	}
+
+#nav li {
+	float: left;
+	list-style:none;
+	border-right:1px solid #a9a9a9;
+	}
+
+#nav a, #nav a:visited {
+	display:block;
+	font-weight:bold;
+	color: #ffffff;
+	padding:6px 12px;
+	}
+
+#nav a:hover, #nav a:active, .current_page_item	a, #home .on {
+	background:#e23628;
+	text-decoration:none
+	}	
+	
+
+	
+	
+
+		

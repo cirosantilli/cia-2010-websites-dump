@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0;}
+
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#7d879b; font-size:14px;} /*row & description of link*/
+li a {text-decoration: none; color: #434d5e; font-size:16px; font-weight:600;} /*link*/
+li a:hover {color:#434d5e; text-decoration: underline;}
+
+#wrap {float:right; width:850px; height:900px;}
+
+#header {float:right; width:850px; height:142px;}
+
+#nav-whole {float:left; width:850px; height:58px;}
+#nav-left {float:left; width:363px; height:58px;}
+#nav-center {float:left; width:487px; height:58px; background:url(images/web_13.jpg) right no-repeat;}
+
+#col-1 {float:left; width:399px; height:700px; background:url(images/web_15.jpg) no-repeat;}
+.box-right {float:right; width: 350px; height:646px; margin:30px 25px 0 0;  display:inline; visibility:visible; overflow:auto;}
+
+#col-2-whole {float:left; width:253px; height:700px;}
+#col-2-top {float:left; width:253px; height:344px; background:url(images/web_16.jpg) no-repeat;}
+#col-2-top-text {float:right; width:239px; height:320px; margin:10px 10px 0 0; overflow:auto; visibility:visible; display:inline;}
+#col-2-bottom {float:left; width:253px; height:356px; background:url(images/web_18.jpg) no-repeat;}
+#col-2-bottom-newspapers {float:left; width:253px; height:356px; background:url(images/web_18_newspapers.jpg) no-repeat;}
+#col-2-bottom-magazines {float:left; width:253px; height:356px; background:url(images/web_18_magazines.jpg) no-repeat;}
+#col-2-bottom-text {float:right; width:238px; height:270px; margin:62px 10px 0 0; display:inline; visibility:visible; overflow:auto;}
+
+
+#col-3-whole {float:left; width:198px; height:700px;}
+#col-3-top {float:left; width:198px; height:219px;}
+#col-3-mid {float:left; width:198px; height:381px; background:url(images/web_19.jpg) no-repeat;}
+#col-3-bottom {float:left; width:198px; height:100px; background:url(images/web_20.jpg) no-repeat;}
+
+
+.underlinemenu{
+font-weight: bold;
+width: 100%;
+}
+
+.underlinemenu ul{
+padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 15px 0 0 80px;
+text-align: left; //set value to "left", "center", or "right"*/
+}
+
+.underlinemenu ul li{
+display: inline;
+}
+
+.underlinemenu ul li a{
+color: #494949;
+padding: 6px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin: 0 15px 0 15px; /*spacing between each menu link*/
+text-decoration: none;
+border-bottom: 3px solid gray; /*bottom border is 3px*/
+}
+.underlinemenu ul li a:hover, .underlinemenu ul li a.selected{
+border-bottom-color: black;
+}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+#menu8 {
+	width: 188px;
+	margin: 10px 10px 0 0;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #777;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu8 li a:hover {
+	color: #777;
+	background: url(images/menu8.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #777;
+	background: url(images/menu8.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+	text-decoration:underline;
+	}

@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	background: #ffffff url(images/background.jpg) no-repeat;   
+	font-family: Arial, sans-serif;
+	margin: 0; 
+  }
+
+#left_bar_links {
+	background: transparent  no-repeat left bottom;
+	position: absolute;
+	top: 120px;
+	left: 169px;
+	width: 160px;
+	padding-bottom: 70px;
+	overflow: hidden;
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	}
+	
+#links {
+	background: transparent  no-repeat left bottom;
+	position: absolute;
+	top: 347px;
+	left: 709px;
+	width: 200px;
+	padding-bottom: 70px;
+	overflow: hidden;
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	}
+
+#links2 {	
+	background: transparent  no-repeat left bottom;
+	position: absolute;
+	top: 600px;
+	left: 705px;
+	width: 200px;
+	padding-bottom: 70px;
+	overflow: hidden;	
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	}
+
+#links3 {	
+	background: transparent  no-repeat left bottom;
+	position: absolute;
+	top: 580px;
+	left: 375px;
+	width: 300px;
+	padding-bottom: 70px;
+	overflow: hidden;	
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	}
+	
+#feeds {
+	position: absolute;
+	top: 170px;
+	left: 375px;
+	width: 300px;
+	padding-bottom: 40px;
+	overflow: hidden;	
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	}
+	
+#login {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	width: 300px;
+	padding-bottom: 40px;
+	overflow: hidden;	
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	line-height: 12px;
+	text-align: left;
+	margin: 5px;
+	}
+	
+#navigation {	
+	background: transparent  no-repeat left bottom;
+	position: absolute;
+	top: 185px;
+	line-height:29px;
+	left: 710px;
+	width: 200px;
+	padding-bottom: 40px;
+	overflow: hidden;	
+	}	
+	
+#left_bar_links h4{background-image: url("images/green_tab1.jpg");}
+#links h4{background-image: url("images/blue_tab1.jpg");}
+#links2 h4{background-image: url("images/blue_tab1.jpg");}
+
+h4{
+	font:12px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+h5{
+	font:16px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	color:#ec0605;
+}
+
+
+/**********************************************baseline format**********************************/
+
+a:link{
+	color:#225AD3;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#225AD3;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#225AD3;
+	text-decoration:underline;
+}
+
+a:active{
+	color:#225AD3;
+	text-decoration:none;
+}
+
+ul {
+	list-style:none;
+	margin:0; 
+	padding:0; 
+	display:block;
+	border:0;
+	}
+	
+li {
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+	border:0;
+	}
+
+li a{
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+	border:0;
+	}
+	
+/* 
+---------------------------------------------------------------*/
+
+
+.scroll {
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color:#FD5958;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+	
+.format{
+	background-color:#FFF ;
+	width:300px;
+	height:325px;
+	float:left;
+	overflow:auto;
+	font:10px, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+	left:-5em;
+	padding: 0;
+	}	

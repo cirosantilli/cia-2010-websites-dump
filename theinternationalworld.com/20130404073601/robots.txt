@@ -1,0 +1,15 @@
+User-agent: *
+Crawl-delay: 1
+Disallow: /api/
+Disallow: /bo/
+Disallow: /editor.jsp
+Disallow: /noflashhtml
+Disallow: /siteBackHtml
+Disallow: /wix/
+Disallow: /wixpress/
+Disallow: /wixdemo/
+Disallow: /wix-editor/
+Disallow: /editor2.jsp
+
+
+Sitemap: http://www.theinternationalworld.com/sitemap.xml

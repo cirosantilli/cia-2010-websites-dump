@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
+legend, input, button, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+body {
+	scrollbar-face-color:#d6e4e1;
+	scrollbar-shadow-color:#d6e4e1;
+	scrollbar-highlight-color:#d6e4e1;
+	scrollbar-3dlight-color:#d6e4e1;
+	scrollbar-darkshadow-color:#d6e4e1;
+	scrollbar-track-color:#d6e4e1;
+	scrollbar-arrow-color:#BFCFCC;
+	color:#485c5a;	
+}
+#background {
+	width:900px;
+	height:1150px;
+	position: relative;
+	margin: 0px;
+	right: 50%;
+	margin-right:-450px;
+	background-color:#9db2b1;
+	
+}
+#header {
+	width:900px;
+	height:101px;
+	position: absolute;
+	top:0;
+	margin: 0px;
+	right: 50%;
+	margin-right:-450px;
+	background-image:url(images/header.jpg);
+	z-index:1;
+	}
+	
+#navigation {
+	position:absolute;
+	right: 25px;
+	top:150px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A51C36;
+	text-decoration: none;
+	display: inline;
+	height: 25px;
+	width: 700px;
+	list-style-type: none;
+	z-index:2;
+}	
+#text_menews {
+	width:700px;
+	height:450px;
+	margin: 0px;
+	position: absolute;
+	top:200px;
+	left:182px;
+	border:2px ridge #bfcfcc;	
+	z-index:2;
+}
+#advertising{
+	width:900px;
+	height:156px;
+	position: absolute;
+	top:660px;
+	left:0px;
+}
+#text_sports {
+	width:275px;
+	height:300px;
+	position: absolute;
+	top:820px;
+	left:15px;
+	margin: 0px;
+	background-color:#d6e4e1;
+	border:2px ridge #bfcfcc;
+}
+#text_finance {
+	width:275px;
+	height:300px;
+	position: absolute;
+	top:820px;
+	left:310px;
+	margin: 0px;
+	background-color:#d6e4e1;
+	border:2px ridge #bfcfcc;
+}
+#text_news {
+	width:275px;
+	height:300px;
+	position: absolute;
+	top:820px;
+	margin: 0px;
+	left: 605px;
+	background-color:#d6e4e1;
+	border:2px ridge #bfcfcc;
+}
+#textformat {
+	width:260px;
+	height:284px;
+	margin:3px 4px 3px 2px;
+	padding:3px;
+	text-decoration: none;
+	overflow:auto;
+	border:.01em solid #a31e39;
+	}
+#footer{
+	width:900px;
+	height:200px;
+	position:absolute;
+	top:1135px;
+}
+/*****************************************************************/
+ul{
+	list-style: none; 
+	margin:0px; 
+	padding:0px;
+	font-size: 11px;
+
+}
+li {
+	margin:0px; 
+	padding:0px;
+	list-style: none; 
+	text-decoration: none;
+	color: #485c5a;
+}
+
+a {
+	color: #a31e39;
+	list-style: none; 
+	text-decoration: none;
+}
+#footer a {
+	color: #485c5a;
+	list-style: none; 
+	text-decoration: none;
+	font-size: 14px;
+}
+.scroll {
+	scrollbar-face-color:#BFCFCC;
+	scrollbar-shadow-color:#BFCFCC;
+	scrollbar-highlight-color:#BFCFCC;
+	scrollbar-3dlight-color:#BFCFCC;
+	scrollbar-darkshadow-color:#BFCFCC;
+	scrollbar-track-color:#d6e4e1;
+	scrollbar-arrow-color:#bfcfcc;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+
+.news_blog{
+	font-weight:normal;
+	padding: 5px 5px 0px 0px;
+	height: 425px;
+	width: 690px;
+	margin: 5px 5px 0px 0px;
+	font-size: 14px;
+	font-family: Arial, Verdana, Geneva, sans-serif;
+	overflow:auto;
+	border:.01em solid #a31e39;
+	}
+#man {
+	height: 480px;
+	width: 900px;
+	position: absolute;
+	left: 0px;
+	top: 179px;
+	background-image:url(images/man_globe.jpg);
+	z-index:1;
+}

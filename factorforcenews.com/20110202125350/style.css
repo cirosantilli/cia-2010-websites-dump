@@ -1,0 +1,170 @@
+/* CSS Document */
+
+body {
+	font-family:  Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	background-color:#000000;
+	}
+	
+h1 {font-size: 12px; font-weight: normal;  color:#4ea0ff;  }
+h2 {font-size: 10px; font-weight: normal;  color:#FFF; letter-spacing:.3em; padding: 0px 5px; margin: 0px; background-color: #4b6162;}
+h3 {font-size: 10px; font-weight: normal;  color:#14a8f2; letter-spacing:.3em; padding: 0px 5px; margin: 0px; background-color: #4b6162;}  
+
+
+a:link {  text-decoration:none; font-weight:normal; color:#99cc00; }
+a:visited {	text-decoration:none; font-weight:normal; color:#99cc00; }
+a:hover { text-decoration:underline; font-weight:normal; color:#14a8f2;}
+a:active { text-decoration: none; font-weight:normal; color:#999;}
+
+ul#blue a:link { text-decoration:none; font-size: 10px; font-weight:normal; color:#14a8f2; }
+ul#blue a:visited { text-decoration:none; font-size: 10px; font-weight:normal;  color:#14a8f2; }
+ul#blue a:hover { text-decoration:underline; font-size: 10px; font-weight:normal; color:#fdc96b;}
+ul#blue a:active { text-decoration:none; font-size: 10px; font-weight:normal; color:#999; }
+
+ul#gold a:link { text-decoration:none; font-size: 10px; font-weight:normal; color:#fdc96b; }
+ul#gold a:visited { text-decoration:none; font-size: 10px; font-weight:normal;  color:#fdc96b; }
+ul#gold a:hover { text-decoration:none; font-size: 10px; font-weight:normal; color:#cc3366;}
+ul#gold a:active { text-decoration:none; font-size: 10px; font-weight:normal; color:#999; }
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456; 
+	scrollbar-arrow-color: #669933;
+		}
+
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:5px 0px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+/* wrap defines the size of the website.  The left margin is half the size of the website (ie: 800px)*/
+#wrap {position:relative;
+     width:850px; 
+	 height:832px; 
+	 left:50%; 
+	 margin:0px 0px 0px -425px;
+     }
+
+
+ /* topbanner defines the size of the banner*/
+#topbanner {float: left;
+     width:850px; 
+	 height:250px; 
+	 margin:0px; 
+	 padding:0px; 
+	  }
+	 
+#navigation{float: left; width: 850px; height: 51px; margin: 0px; padding: 0px; background: url(images/nav_bkgd.jpg) no-repeat;}
+
+ul#nav{margin: 10px 0px 0px 0px; width: 850px; text-align: right;}
+ul#nav li{display: inline; text-align: right;}
+ul#nav li a{padding: 0px 15px; font-size: 11px; font-weight:normal; color:#cc3366;}
+
+.box{
+	padding: 0px;
+	border:1px solid #666666;
+	}
+/* maincontent defines the size of the main content below the banner*/
+#maincontent {clear: both;
+	  float: left;
+      width:850px;
+	  height:531px;
+	  margin:0px; 
+	  padding:0px; 
+	  }
+
+.imgback1	{ 
+	 background: url(images/bkgd.jpg);    }
+
+#sidebar{float:left;
+	width:145px;
+	height:531px; 
+	padding: 10px 0px 0px 5px;
+	margin: 0px 0px 0px 0px;
+	  }  
+		
+#sidebar li{text-align: left; }
+#sidebar li a{padding: 10px 5px; font-weight:normal; color:#0cc4cf; }  	
+
+/* Defines the size of the iframe*/
+#info {
+	float:right;
+	width:690px;
+	height:531px;
+	padding: 8px 0px;
+	margin: 0px 0px 0px 0px;
+	border:0px;
+	} 
+	
+
+/* Defines the size of the three columns in iframe*/	
+
+#column1 {
+	float:left;
+	width:240px;
+	height: 505px;
+	padding: 0px 0px 0px 1px;
+	margin: 0px 10px 0px 10px;
+	border:1px solid #666666;
+	overflow: auto;
+	}
+	
+	
+#column2 {
+	float:left;
+	width:240px;
+	height: 505px;
+	padding: 0px 0px 0px 1px;
+	margin: 0px 10px 0px 10px;
+	border:1px solid #666666;
+	overflow: auto;
+	 }	
+
+#column3 {
+	float:right;
+	width:150px;
+	height: 100% auto; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	 }
+.adbox {
+	float:right;
+	width:150px;
+	height: 100% auto; 
+	padding: 0px 0px 0px 0px;
+	margin: 15px 0px 0px 0px;
+	border:1px solid #666666;
+	 }
+	 
+.adbox a:link,  {
+	color: #fdc96b;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.adbox a:hover, a:active {
+	color: #fff;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+/* Footer */
+
+#footer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 850px;
+	color: #fff;
+	background-color: #394B4C;
+	text-align: center;
+}

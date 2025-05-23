@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#4ac3e6; font-size:12px;} /*row & description of link*/
+li a {text-decoration: none; color: #14b6e5; font-size:12px; font-weight:600;} /*link*/
+li a:hover {color:#14b6e5; text-decoration: underline;}
+
+
+#wrap {float:left; width:900px; height:auto;}
+
+#header-1 {float:left; width:900px; height:47px;}
+
+#header-2-whole {float:left; width:900px; height:48px;}
+#header-2-left {float:left; width:558px; height:48px;}
+#header-2-mid {float:left; width:117px; height:48px; background:url(images/china-ent_06.jpg) no-repeat;}
+#header-2-right {float:left; width:225px; height:48px;}
+
+#header-3 {float:left; width:900px; height:178px;}
+
+#col-1-whole {float:left; width:201px; height:auto;}
+#col-1-top {float:left; width:201px; height:40px; background:url(images/china-ent_17.jpg) no-repeat;}
+#col-1-bottom {float:left; width:201px; height:2961px; background:url(images/china-ent_21.jpg) no-repeat;}
+#col-1-bottom-text {float:left; width:186px; height:auto; margin:10px 0 0 12px; display:inline; overflow:auto; visibility:visible;}
+
+#col-2-whole {float:left; width:498px; height:auto;}
+#col-2-1 {float:left; width:498px; height:38px; background:url(images/china-ent_18.jpg) no-repeat;}
+
+#col-2-2 {float:left; width:498px; height:424px; background:url(images/china-ent_20.jpg) no-repeat;}
+#col-2-2-text {float:left; width:474px; height:404px; margin:6px 0 0 14px; display:inline; visibility:visible; overflow:auto;}
+
+#col-2-3 {float:left; width:498px; height:249px;}
+#col-2-3 img { float:left;}
+#col-2-4 {float:left; width:498px; height:47px; background:url(images/china-ent_27.jpg) no-repeat;}
+
+#col-2-5-whole {float:left; width:498px; height:853px;}
+#col-2-5-1 {float:left; width:249px; height:422px; background:url(images/china-ent_28.jpg) no-repeat;}
+#col-2-5-1-text {float:left; width:224px; height:390px; margin:30px 0 0 14px; overflow:auto; display:inline; visibility:visible;}
+#col-2-5-2 {float:left; width:249px; height:422px; background:url(images/china-ent_29.jpg) no-repeat;}
+#col-2-5-2-text {float:left; width:232px; height:390px; margin:30px 0 0 4px; overflow:auto; display:inline; visibility:visible;}
+#col-2-5-3 {float:left; width:249px; height:431px; background:url(images/china-ent_30.jpg) no-repeat;}
+#col-2-5-3-text {float:left; width:224px; height:378px; margin:39px 0 0 14px; overflow:auto; display:inline; visibility:visible;}
+#col-2-5-4 {float:left; width:249px; height:431px; background:url(images/china-ent_31.jpg) no-repeat;}
+#col-2-5-4-text {float:left; width:232px; height:378px; margin:39px 0 0 4px; overflow:auto; display:inline; visibility:visible;}
+
+#col-2-5-whole ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+#col-2-5-whole li	{display: block;  padding: 0px; margin: 0px; color:#549952; font-size:12px;} /*row & description of link*/
+#col-2-5-whole li a {text-decoration: none; color: #0b7f02; font-size:12px; font-weight:600;} /*link*/
+#col-2-5-whole li a:hover {color:#0b7f02; text-decoration: underline;}
+
+#col-2-6 {float:left; width:498px; height:48px;}
+
+#col-2-7 {float:left; width:498px; height:364px;}
+#col-2-7 img { float:left;}
+
+#col-2-8 {float:left; width:498px; height:30px; background:url(images/china-ent_39.jpg) no-repeat;}
+
+#col-2-9-whole {float:left; width:498px; height:854px;}
+#col-2-9-1 {float:left; width:249px; height:427px; background:url(images/china-ent_40.jpg) no-repeat;}
+#col-2-9-1-text {float:left; width:224px; height:385px; margin:45px 0 0 14px; overflow:auto; display:inline; visibility:visible;}
+#col-2-9-2 {float:left; width:249px; height:427px; background:url(images/china-ent_41.jpg) no-repeat;}
+#col-2-9-2-text {float:left; width:232px; height:385px; margin:45px 0 0 6px; overflow:auto; display:inline; visibility:visible;}
+#col-2-9-3 {float:left; width:249px; height:427px; background:url(images/china-ent_42.jpg) no-repeat;}
+#col-2-9-3-text {float:left; width:224px; height:385px; margin:35px 0 0 14px; overflow:auto; display:inline; visibility:visible;}
+#col-2-9-4 {float:left; width:249px; height:427px; background:url(images/china-ent_43.jpg) no-repeat;}
+#col-2-9-4-text {float:left; width:232px; height:385px; margin:35px 0 0 6px; overflow:auto; display:inline; visibility:visible;}
+
+#col-2-9-whole ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+#col-2-9-whole li	{display: block;  padding: 0px; margin: 0px; color:#246eb3; font-size:12px;} /*row & description of link*/
+#col-2-9-whole li a {text-decoration: none; color: #205790; font-size:12px; font-weight:600;} /*link*/
+#col-2-9-whole li a:hover {color:#205790; text-decoration: underline;}
+
+#col-2-10 {float:left; width:498px; height:94px;}
+
+
+#col-3-whole {float:left; width:201px; height:auto;}
+#col-3-top {float:left; width:201px; height:40px; background:url(images/china-ent_19.jpg) no-repeat;}
+#col-3-bottom {float:left; width:201px; height:2961px; background:url(images/china-ent_22.jpg) no-repeat;}
+#col-3-bottom-text {float:left; width:186px; height:auto; margin:11px 0 0 10px; display:inline; visibility:visible; overflow:auto;}
+
+

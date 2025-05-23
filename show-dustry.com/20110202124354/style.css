@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0 auto; padding:0; background:url(images/sd-img-bkgd.jpg) repeat-x;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; padding: 0;}
+a{ text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {width:975px; height:auto; margin: 0 auto; }
+#header {float:left; width:975px; height:144px; }
+
+#col01 {float:left; width:669px; height:856px; }
+#col01-header {float:left; width:669px; height:113px; }
+
+#col01-left {float:left; width:189px; height:743px; background:url(images/sd-img_10.jpg) no-repeat; }
+#col01-left-img {float:left;}
+#col01-left-nav {float:left; width:189px; height:461px; background:url(images/sd-img_10.jpg) no-repeat; }
+
+#col01-right {float:left; width:480px; height:743px; }
+#col01-right-nav {float:left; width:480px; height:76px; background:url(images/sd-img_08.jpg) no-repeat; }
+#col01-right-feed {float:left; width:480px; height:604px; background:url(images/sd-img_09.jpg) no-repeat; }
+#col01-right-ads {float:left; width:480px; height:63px; }
+#col01-right-ads img { margin: 3px 0 0 7px; }
+
+#col02 {float:left; width:306px; height:856px; background:url(images/sd-img_06.jpg) no-repeat; }
+#col02-linkbox {float:left; width:280px; height:358px; overflow: auto; visibility: visible; /*border: solid 1px #d9d9d9;*/ margin: 5px 0 0 10px;}
+#col02-linkbox ul {list-style: none;margin: 5px 5px 10px 5px;padding: 0;}
+h5 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#5a97f1; line-height:41px; margin: 0; padding: 5px 5px 5px 15px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#infofeed {float:left; width:470px; height:485px; overflow: auto; visibility: visible; /*border: solid 1px #d9d9d9;*/ margin: 0 0 0 5px;}
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#fff; line-height:37px; width:470px; margin: 5px 3px 0 5px; padding:0 0 10px 5px; height:auto; width:auto; /**/background:url(images/blueslate_background02.gif); }
+
+#header-login {float:left; width:975px; height: auto; }
+#box-login {float:left; width:975px; height: 800px; }
+#app-login {float:left; width:875px; height: 735px; margin: 15px 0 0 50px; }
+
+/* ---------------------- Blueslate nav ---------------------- */
+.blue #slatenav{position:relative;display:block;height:42px;font-size:11px;font-weight:bold;background:transparent url(images/blueslate_background02.gif) repeat-x top left;font-family:Arial,Verdana,Helvitica,sans-serif;text-transform:uppercase;}
+.blue #slatenav ul{margin:0 0 0 20px;padding:0;list-style-type:none;width:auto;}
+.blue #slatenav ul li{display:block;float:left;margin:0 1px 0 0;}
+.blue #slatenav ul li a{display:block;float:left;color:#D5F1FF;text-decoration:none;padding:14px 22px 0 22px;height:28px;}
+.blue #slatenav ul li a:hover,.blue #slatenav ul li a.current{color:#fff;background:transparent url(images/blueslate_backgroundOVER02.gif) no-repeat top center;}
+
+/* =-=-=-=-=-=-=-[Menu Three]-=-=-=-=-=-=-=- */
+	
+#menu3 { width: 180px; margin: 10px 0 0 5px; padding:0; }
+#menu3 li a { height: 32px; voice-family: "\"}\""; voice-family: inherit; height: 24px; text-decoration: none; }
+#menu3 li a:link, #menu3 li a:visited { color: #888; display: block; background: url(images/menu3.gif); padding: 8px 0 0 20px; }
+#menu3 li a:hover, #menu3 li a:active { color: #283A50; background: url(images/menu3.gif) 0 -32px; padding: 8px 0 0 20px; }
+#menu3 ul {list-style: none; padding: 0; margin: 0; }
+
+.scroll {
+scrollbar-face-color:#fff;
+scrollbar-shadow-color:#fff;
+scrollbar-highlight-color:#fff;
+scrollbar-3dlight-color: #fff;
+scrollbar-darkshadow-color:#fff;
+scrollbar-track-color: #fff;
+scrollbar-arrow-color: #000000; }

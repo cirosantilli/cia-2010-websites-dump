@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Server Check</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000080" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
+
+<center><p><br>
+<table bgcolor="#000000" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<th>
+		<table bgcolor="#000000" cellpadding="4" cellspacing="1" border="0">
+			<tr>
+				<th bgcolor="#000080"><font color="#FFFFFF">
+				Server Check</a></th>
+			</tr>
+			<tr>
+				<th bgcolor="#FFFFFF">
+				<form>
+				<textarea rows="10" cols="80" wrap="hard">Current Directory [Base Path]: 
+Available Disk Space:
+================================
+
+
+Current Directory:
+================================
+check.cgi
+
+
+Perl Version: 5.008008
+Perl Path(s):
+================================
+
+Mail Program [SendMail] Path(s):
+================================
+
+SCRIPT_NAME = /cgi-bin/check.cgi
+SERVER_NAME = mynepalnews.com
+SERVER_ADMIN = mmadev@mmadev.com
+HTTP_CONNECTION = close
+REQUEST_METHOD = GET
+SCRIPT_URI = http://mynepalnews.com/cgi-bin/check.cgi
+SCRIPT_FILENAME = /usr/local/etc/httpd/sites/mynepalnews.com/cgi-bin/check.cgi
+proxy_nokeepalive = 1
+SERVER_SOFTWARE = Apache
+TZ = US/Eastern
+force_proxy_request_1_0 = 1
+QUERY_STRING = 
+REMOTE_PORT = 60961
+HTTP_USER_AGENT = ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)
+SERVER_PORT = 80
+SERVER_SIGNATURE = 
+REMOTE_ADDR = 204.236.235.245
+SERVER_PROTOCOL = HTTP/1.0
+HTTP_FROM = crawler@alexa.com
+PATH = /usr/sbin:/usr/bin
+REQUEST_URI = /cgi-bin/check.cgi
+GATEWAY_INTERFACE = CGI/1.1
+SCRIPT_URL = /cgi-bin/check.cgi
+SERVER_ADDR = 64.71.179.79
+DOCUMENT_ROOT = /usr/local/etc/httpd/sites/mynepalnews.com/htdocs
+REMOTE_HOST = ec2-204-236-235-245.compute-1.amazonaws.com
+HTTP_HOST = mynepalnews.com
+
+Installed Modules:
+================================

@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Noticias da M&uacute;sica</title>
+<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui-min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript"src="http://www.google.com/uds/?file=feeds&v=1"></script>
+<script type="text/javascript">
+		YUI().use("node","substitute", function(Y) {
+	
+			var feedHTML = '<li class="article_title"><a href="{link}" target="_blank">{title}</a><br />{contentSnippet}</li>'
+			var rssFeed = new google.feeds.Feed("http://feeds.blogo.it/somnacaixablog/br");
+			rssFeed.setNumEntries(8);
+			rssFeed.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#blognews ul").set('innerHTML',str);
+				}
+			});
+		
+			var rssFeed = new google.feeds.Feed("http://g1.globo.com/Rss2/0,,AS0-7085,00.xml");
+			rssFeed.setNumEntries(8);
+			rssFeed.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#g1music ul").set('innerHTML',str);
+				}
+			});
+		});
+	</script>
+
+
+<link href="music.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrap">
+<div id="header">
+	<div id="band"><img src="images/band_01.jpg" align="top" /><img src="images/band_02.jpg" align="top" /><br />
+    <img src="images/band_03.jpg" align="top" /><img src="images/band_04.jpg" align="top" /></div>
+    <div id="titlearea"><img src="images/title_01.jpg" align="top" /><img src="images/title_02.jpg" align="top" /><br />
+    <img src="images/title_03.jpg" align="top" /><img src="images/title_04.jpg" align="top" /></div>
+    <div id="nav">
+    <ul>
+     <li class="menutitle"><strong>Not&iacute;cias: </strong></li>
+      <li><a href="feed_mtv.html" target="feedframe">MTV Brasil</a></li>
+	 <li><a href="feed_billboard.html" target="feedframe">Billboard Brasil</a></li>
+	 	  <li><a href="feed_uol.html" target="feedframe">UOL</a></li>
+	  <!--<li><a href="feed_g1.html" target="feedframe">G1</a></li>-->
+	  <li><a href="feed_ig.html" target="feedframe">iG</a></li>
+	  <li><a href="feed_acute.html" target="feedframe">Acute</a></li>
+	</ul>
+    </div><!--close nav-->
+
+</div><!--close header-->
+
+<div id="subpg">
+<div id="side">
+<div id="itunes">
+<script type="text/javascript" src="http://www.netvibes.com/js/UWA/load.js.php?env=BlogWidget2"></script>
+<script type="text/javascript">
+var BW = new UWA.BlogWidget({moduleUrl:'http://www.netvibes.com/modules/multipleFeeds/multipleFeeds.php?provider=custom&url=http%3A%2F%2Favatars.netvibes.com%2Fmultifeed%2F367784'});
+BW.setConfiguration({'title':'Músicas no iTunes', 'color':'yellow'});
+</script>
+</div>
+<br class="clearfloat" />
+
+<div id="blogs" class="box">
+<h2>Blogs</h2>
+<ul>
+<li><a href="http://mtv.uol.com.br/blogs" target="_blank">MTV blogs</a></li>
+	<li><a href="http://www.somnacaixablog.pop.com.br/" target="_blank">Som na Caixa</a><br />Um blog que destaca diariamente as principais notícias do mundo da música, além de trazer curiosidades, jogos e enquetes musicais.</li>
+	<li><a href="http://www.clubtronik.com/" target="_blank">Clubtronik</a><br />O Blog da música eletrônica! Lançamentos, tecnologia, moda, night clubs, eventos, vídeos, informação e muito mais…</li>
+	<li><a href="http://www.acute.com.br" target="_blank">Acute</a><br />O Portal da musica 
+musica, forró, noticias sobre forró, bandas de forró, cultura nordestina</li>
+	<li><a href="http://cardapiodeletras.blogspot.com" target="_blank">Cardápio de Letras</a><br />Letras de Músicas - Letras de músicas de artistas brasileiros e estrangeiros.Letras de músicas, cifras, letras traduzidas, tablaturas.</li>
+	<li><a href="http://poraomusical.blogspot.com" target="_blank">PORÃO MUSICAL</a><br />O mundinho encantado da musica! Downloads de músicas...</li>	
+</ul>
+</div>
+<div id="blognews" class="box">
+	<h2>&Uacute;ltimas Not&iacute;cias</h2>
+	<h3>somnacaixablog.pop.com.br</h3>
+	<ul></ul>
+	</div>
+
+
+</div><!--close side-->
+
+<div id="main">
+
+<div id="feedside">
+
+	<div id="g1music" class="box">
+	<h2>G1 > M&uacute;sica</h2>
+		<ul></ul>
+	</div>
+	<br />
+	<iframe name="feedframe" src="feed_mtv.html" width="370" height="400" frameborder="0" allowTransparency scrolling="no"></iframe>
+	<br class="clearfloat" />
+	<br />
+	<div id="Nacionais" class="box">
+<h2>Alguns dos Melhores Sites Nacionais</h2><!--some of the best national sites (in music)-->
+<ul>
+	<li><a target="_blank" href="http://www.clickmusicas.com/">Click Músicas</a><br />
+		Guia de sites de música, letras de músicas, músicas com cifras, músicas religiosas, músicas de filmes, músicas românticas, músicas sertanejas, músicas de Michael Jackson, imagens e videos do Rei do Pop, clipes musicais, dicas para baixar músicas grátis e muito mais.</li>
+	
+    
+    <li><a href="http://www.buscamp3.com.br/" target="_blank">Busca MP3</a></li>
+	<li><a href="http://www.cante.com.br/" target="_blank">Cante - Karaokê</a></li>
+	<li><a href="http://www.chatshow.com.br/" target="_blank">Chat Show</a></li>
+	<li><a href="http://karaoke.cidadeinternet.com.br/" target="_blank">Karaokê</a></li>
+    <li><a href="http://www.karaokenet.com.br/" target="_blank">Karaokenet</a></li>
+    <li><a href="http://www.letrasdemusicas.com.br/" target="_blank">Letras de Músicas</a></li>
+	<li><a href="http://www.letras.mus.br/" target="_blank">Letras.mus.br</a></li>
+    <li><a href="http://www.mvhp.com.br/" target="_blank">Mvph: Portal Cifras</a></li>
+    <li><a href="http://www.rockonline.com.br/" target="_blank">Rock OnLine</a></li>
+    <li><a href="http://www.sombrasil.com.br/" target="_blank">Som Brasil</a></li>
+	<li><a href="http://musica.terra.com.br/" target="_blank">Terra Música</a></li>
+    <li><a href="http://www.territoriodamusica.com/" target="_blank">Território da Música</a></li>
+	<li><a href="http://musica.uol.com.br/" target="_blank">UOL Música</a></li>	
+	<li><a href="http://www.vagalume.com.br/" target="_blank">Vagalume</a></li>
+	<li><a href="http://whiplash.net/" target="_blank">Whiplash.net - Rock</a></li>
+</ul>
+<br class="clearfloat" />
+</div>
+	
+</div><!--close feedside-->
+
+<div id="linkside">
+<div id="lyricssearch" class="box170">
+<script src="http://www.vagalume.com.br/js/include_busca_madonna.js"></script><br/><a href="http://www.vagalume.com.br/">Letras de M&uacute;sicas</a>
+</div>
+
+
+<div id="topartistas" class="box170">
+<h2>Top Artistas</h2>
+<h3>Letras.mus.br</h3>
+<div class="imgcenter">
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fletras.terra.com.br%2Frss_top1000_artistas_pt.xml&amp;num=5&amp;targ=y&amp;utf=y&amp;html=a"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fletras.terra.com.br%2Frss_top1000_artistas_pt.xml&amp;num=5&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+</div>
+</div><!--close artistas-->
+<br class="clearfloat" />
+
+
+
+<div id="ads2" class="box170 imgcenter">
+<ul>
+	<li><a href="http://music.mtv.uol.com.br/" target="_blank"><APPLET archive="musica.jar" code="iv.cefc.chyq.waj" width=155 height=104 mayscript/></applet></a></li>
+	<li><a href="http://yahoo.imusica.com.br/" target="_blank"><img src="images/logo_yahoo_br.gif" border="0" /></a></li>
+</ul>
+</div>
+
+
+
+
+<br />
+<div id="radiouol" class="box170">
+
+<!--UOL Widgets - widgets.uol.com.br -->
+<div class="UOLWidgetsStyle">
+<script src="http://widgets.uol.com.br/uolwidgetstools.js?estacao=radiouol&tema=top5&skin=1" type="text/javascript"></script>
+<a href="http://radio.musica.uol.com.br" target="_blank">http://radio.musica.uol.com.br</a>
+</div>
+
+</div>
+</div><!--close linkside-->
+
+</div><!--close main-->
+
+</div><!--close subpg-->
+<div id="footer"><img src="images/footer.jpg" width="1000" height="118" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="177,15,353,60" href="http://palcomp3.com/" target="_blank" alt="pa" />
+    <area shape="rect" coords="397,14,542,56" href="http://www.lyrics.com.br/" target="_blank" alt="Lyrics.com.br" />
+    <area shape="rect" coords="585,14,684,61" href="http://musica.uol.com.br/" target="_blank" alt="UOL" />
+    <area shape="rect" coords="732,15,871,65" href="http://g1.globo.com/pop-arte/" target="_blank" alt="G1" />
+    <area shape="rect" coords="919,19,963,62" href="http://musica.ig.com.br/" target="_blank" alt="IG" />
+  </map>
+</div>
+</div><!--close wrap-->
+</body>
+</html>

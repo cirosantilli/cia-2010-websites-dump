@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family: "Candara", "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 12px; background: #f2f2f2; }
+
+#wrap{position:relative; width: 910px; height: 100% auto; background: #fff url(images/bkgrnd.jpg) repeat-y; margin-left: -455px; left: 50%;}
+#header{float: left; width: 910px; height: 130px;}
+h2{padding: 8px 0px 0px 5px; margin: 0px; font-size: 14px; color: #333; border-bottom: 1px solid  #6699cc;}
+
+h3{padding: 2px 0px 0px 5px; margin: 0px; font-size: 12px; color:#3e78cc; }
+
+
+ul{margin: 0px; padding: 0px;}
+li{list-style: none; padding: 3px 0px; }
+
+a{color: #6699CC; font-weight: bold; text-decoration: none;}
+a:hover{color: #069;}
+
+#shortside{float: left; width: 397px; height: 100% auto;}
+#tallside{float: right; width: 513px; height: 100% auto; min-height: 600px;}
+#intlnews{clear: left; float: left; width: 377px; height: 100% auto; }
+#econ{float: left; width: 483px; height: 100% auto; }
+#deportes{float: left; width: 483px; height: 100% auto; }
+
+#intltop{margin: 10px 0px 10px 10px; width: 350px; height: 50px;}
+#econtop{margin:  10px 0px 10px 10px; width: 400px; height: 50px;}
+#deportestop{margin:  10px 0px 10px 10px;  width: 400px; height: 50px;}
+
+#enlaces{float: right; width: 377px; height: 100% auto;}
+#enlaces ul{margin-left: 15px;}
+#datearea{float: left; width: 493px; height: 20px;  text-align: right; margin-right: 20px; color: #6699CC;}
+#elpais img{width: 14em; height: 11em;}
+
+
+.imgtop{background: url(images/subtitle_a.jpg) top no-repeat;}
+.box{margin: 5px; padding: 5px;}
+.bluebox{padding: 3px; border: 1px solid #d4dfef;}
+.roundcont {clear: left; width: 483px; background-color: #f1f1f1; color: #333; margin-left: 10px;}
+
+.roundcont p, .roundcont ul{	margin: 0 10px;}
+.roundcont .col1, .roundcont .col2{	margin: 0 5px;}
+.roundtop { 	background: url(images/tr.gif) no-repeat top right; }
+.roundbottom {	background: url(images/br.gif) no-repeat top right; }
+img.corner {   width: 15px;   height: 15px;   border: none;   display: block !important;}
+
+.rss-title{color: #000; padding: 0px; margin: 10px 0px 0px 0px;}
+.rss-items{margin: 0px; padding: 0px; text-align: left;}
+.rss-item{margin-bottom: 5px;}
+
+.imgcenter{text-align: center; padding: 5px 0px;}
+
+#footer{clear: both; width: 910px; height: 61px; background: url(images/footer.jpg) no-repeat;}
+
+
+.col1{float: left; width: 47%;}
+.col2{float: right; width: 47%; margin-left: 5px;}
+.clearfloat{clear: both; height: 0; font-size: 1px; line-height: 0px;}

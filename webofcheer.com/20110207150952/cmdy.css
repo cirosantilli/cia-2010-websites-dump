@@ -1,0 +1,15 @@
+a:link {
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	font-size: x-small;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	font-size: x-small;
+	font-weight: bold;
+	color: #999999;
+	text-decoration: none;
+}

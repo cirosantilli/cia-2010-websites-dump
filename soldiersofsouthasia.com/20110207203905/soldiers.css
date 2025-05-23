@@ -1,0 +1,131 @@
+/* CSS Document */
+
+body {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-color:#4f5e61;
+}
+
+h1 {font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing:.1em; color:#132f34;  }
+h2 {font-size: 12px; font-weight: normal; color:#1f3539; padding: 0px 5px 0px 3px; background-color: #dfcab3;}
+h3 {font-size: 11px; font-weight: normal; color:#1f3539; padding: 0px 5px 0px 3px; background-color: #e5e6e6;}
+
+a:link {  text-decoration:none; font-weight:bold; color:#b38e66; }
+a:visited {	text-decoration:none; font-weight:bold; color:#b38e66; }
+a:hover { text-decoration:underline; font-weight:bold; color:#7c380a;}
+a:active { text-decoration: none; font-weight:bold; color:#999;}
+
+a.gry:link { text-decoration:none; font-weight:normal; color:#7c96b6; }
+a.gry:visited { text-decoration:none; font-weight:normal;  color:#7c96b6; }
+a.gry:hover { text-decoration:underline; font-weight:normal; color:#99ccff; }
+a.gry:active { text-decoration: none; font-weight:normal; color:#999; }
+
+ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:5px 0px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+/* wrap defines the size of the website.  The left margin is half the size of the website (ie: 800px)*/
+#wrap {
+     width:825px; 
+	 height: auto; 
+	 position:relative; 
+	 left:50%; 
+	 margin-left:-412px; }
+
+/* topbanner defines the size of the banner*/
+#topbanner {
+     width:825px; 
+	 height:223px; 
+	 position: relative; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+
+/* navigation defines the size of the navigation bar*/
+#navigation {float:left;
+     width:825px; 
+	 height:31px; 
+	 position: relative; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+
+
+/* maincontent defines the size of the main content below the banner*/
+#maincontent { 
+      width:825px;
+	  height:auto;
+	  background-image: url(images/faux_bkgd.jpg); 
+	  position: relative;  
+	  margin:0px; 
+	  padding:0px; }
+
+.imgback1	 
+{   background: url(images/index_25.jpg)  repeat-y}
+
+#navigation2 { float: left; 
+     width:98px; 
+	 height:auto; 
+	 position: relative; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:block; 
+	 }	
+	 
+/* Defines the size of the iframe*/
+#info
+	{
+	float:left;
+	width:526px;
+	height: auto; 
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	border:0px;
+	 }
+	 
+/* Defines the window for the iframe*/	 
+#middle_content
+	{
+	float:left;
+	width:516px;
+	height: auto; 
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	border:0px;
+	 }
+		
+/* Defines the size of the two columns in iframe*/
+#column1 {
+	float:left;
+	width:240px;
+	height: auto; 
+	padding: 0px;
+	margin: 20px 10px 10px 10px;
+	border:0px;
+	 }
+	
+#column2 {
+	float:left;
+	width:240px;
+	height: auto; 
+	padding: 0px;
+	margin: 20px 0px 10px 10px;
+	border-left: 1px dashed #c8b8a5; padding: 0px 20px; 
+	 }
+	
+
+#sidebar{float:left;
+	width:130px;
+	height: auto; 
+	padding:0px;
+	margin: 10px 0px 10px 10px;
+	border-left:0px;
+	  }
+
+
+
+
+
+

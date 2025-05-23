@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-size:12px;padding:0px;margin:0px;font-family:"Courier New", Courier, monospace;background-color:#336633;}
+#wrap {position: relative; width:1024px; height:768px; margin:0px; padding:0px; left:50%; margin-left:-512px;}
+#left {float:left; width:573px; height:768px; margin:0px; padding:0px;}
+#right {float:left; width:451px; height:768px; margin:0px; padding:0px;}
+#nav {float:left; width:201px; height:622px; margin:0px; padding:0px;}
+#feedarea {float:left;width:563px; height:524px; background:url(images/index_07.jpg); overflow:auto;color:#000000; padding:5px;}
+#linkarea {float:right;width:250px; height:622px; background:url(images/index_05.jpg) no-repeat fixed; overflow:auto;color:#FFF;}
+#ads {float:left; width:451px; height:146px; margin:0px; padding:0px;}
+#feedarea a {color:#000000; font-weight:bold; text-decoration:underline; font-size:14px;}
+#linkarea a {color:#FFF; font-weight:bold; text-decoration:underline; font-size:14px;}

@@ -1,0 +1,399 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center;  /*this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+}
+
+.oneColFixCtrHdr #container {
+	width: 895px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	height: 1398px;
+		margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.oneColFixCtrHdr #subcontainer2 {
+	float:right;
+	width:318px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	height:1143px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.oneColFixCtrHdr #subcontainer1 {
+	float:left;
+	width:577px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	height:1143px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.oneColFixCtrHdr #header {
+	width:895px;
+	height:46px;
+	float:left;
+	background-image:url(images/title.jpg);
+	}
+	
+.oneColFixCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0px 0px; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	text-align:center;
+}
+
+.oneColFixCtrHdr #navigation {
+	width:895px;
+	height:64px;
+	float:left;
+	background-image:url(images/navigation.jpg);
+	}
+
+.oneColFixCtrHdr #mainnews2 {
+	background-image:url(images/mainnews2.jpg);
+	float: right;
+	width:287px;
+	height:461px;
+}
+
+.oneColFixCtrHdr #mainnews1 {
+	background-image:url(images/mainnews1.jpg);
+	float: left;
+	width:290px;
+	height:461px;
+}
+
+
+	
+.header_format {
+	width:577px; 
+	height:79px; 
+	margin:0px 0px 0px 0px; 
+	padding:0px 0px 5px 0px; 
+	float:left; 
+}
+	
+.header_form {
+	width:526px; 
+	height:79px; 
+	margin:0px 0px 0px 0px; 
+	padding:50px 0px 5px 0px; 
+	float:left; 
+	overflow:auto; 
+}	
+		
+#news {
+	float: left;
+	width:577px;
+	height:1145px;
+	background:url(images/newsfeeds.jpg) 12.5% 86% fixed no-repeat;
+	overflow:auto;
+	}
+
+.scroll {
+	scrollbar-face-color:#003399;
+	scrollbar-shadow-color: #004BE8;
+	scrollbar-highlight-color: #004BE8;
+	scrollbar-3dlight-color: #004BE8;
+	scrollbar-darkshadow-color: #003399;
+	scrollbar-track-color: #E2E2E2;
+	scrollbar-arrow-color: #E2E2E2;
+	color: #004BE8;
+	}
+
+.oneColFixCtrHdr #secondarynewsheader1 {
+	background-image:url(images/secondary_news_header1.jpg);
+	float: left;
+	width:577px;
+	height:44px;
+}
+
+#headerformat{
+	width:280px;
+	height:40px;
+	margin:0px 0px 0px 0px; 
+	padding:20px 0px 0px 15px; 
+	float:left;
+	font-size:14px;
+	color: #003399;
+		
+	}
+	
+.oneColFixCtrHdr #secondarynews2_01{
+	background-image:url(images/secondary_news2_01.jpg);
+	float: right;
+	width:285px;
+	height:52px;
+}
+
+.oneColFixCtrHdr #secondarynews1_01 {
+	background-image:url(images/secondary_news1_01.jpg);
+	float: left;
+	width:292px;
+	height:52px;
+}
+
+.oneColFixCtrHdr #secondarynews2_02{
+	background-image:url(images/secondary_news2_02.jpg);
+	float: right;
+	width:285px;
+	height:52px;
+}
+
+.oneColFixCtrHdr #secondarynews1_02 {
+	background-image:url(images/secondary_news1_02.jpg);
+	float: left;
+	width:292px;
+	height:52px;
+}
+
+.oneColFixCtrHdr #secondarynews2_03{
+	background-image:url(images/secondary_news2_03.jpg);
+	float: right;
+	width:285px;
+	height:53px;
+}
+
+.oneColFixCtrHdr #secondarynews1_03 {
+	background-image:url(images/secondary_news1_03.jpg);
+	float: left;
+	width:292px;
+	height:53px;
+}
+
+.oneColFixCtrHdr #secondarynews2_04{
+	background-image:url(images/secondary_news2_04.jpg);
+	float: right;
+	width:285px;
+	height:52px;
+}
+
+.oneColFixCtrHdr #secondarynews1_04 {
+	background-image:url(images/secondary_news1_04.jpg);
+	float: left;
+	width:292px;
+	height:52px;
+}
+
+.oneColFixCtrHdr #secondarynews2_05{
+	background-image:url(images/secondary_news2_05.jpg);
+	float: right;
+	width:285px;
+	height:51px;
+}
+
+.oneColFixCtrHdr #secondarynews1_05 {
+	background-image:url(images/secondary_news1_05.jpg);
+	float: left;
+	width:292px;
+	height:51px;
+}
+
+.oneColFixCtrHdr #thirdnewsheader2 {
+	background-image:url(images/third_news_header_02.jpg);
+	float: right;
+	width:286px;
+	height:45px;
+}
+
+.oneColFixCtrHdr #thirdnewsheader1 {
+	background-image:url(images/third_news_header_01.jpg);
+	float:left;
+	width:291px;
+	height:45px;
+}
+
+.oneColFixCtrHdr #thirdnews2 {
+	background-image:url(images/third_news2.jpg);
+	float: right;
+	width:287px;
+	height:188px;
+}
+
+.oneColFixCtrHdr #thirdnews1 {
+	background-image:url(images/third_news1.jpg);
+	float: left;
+	width:290px;
+	height:188px;
+}
+
+.oneColFixCtrHdr #fourthnews {
+	background-image:url(images/fourthnews.jpg);
+	float: left;
+	width:577px;
+	height:147px;
+}
+
+
+.sidenewsformat1{
+	width:280px;
+	height:888px;
+	margin:0px 0px 0px 0px; 
+	padding:0px 0px 0px 20px; 
+	float:left;
+	font-size:8px;
+	text-align:left;
+	text-indent: 0px;	
+	color: #003399;
+	
+	}
+	
+	.morenews{
+	width:557px;
+	height:127px;
+	margin:10px 0px 0px 0px; 
+	padding:0px 0px 0px 0px; 
+	float:left;
+	font-size:8px;
+	text-align:left;
+	text-indent: 0px;	
+	color: #003399;
+	
+	}
+	
+.oneColFixCtrHdr #sidenews1_header {
+	background-image:url(images/side_news1_header.jpg);
+	float: left;
+	width:318px;
+	height:35px;
+}	
+	
+.oneColFixCtrHdr #sidenews1 {
+	background-image:url(images/side_news1.jpg);
+	float: left;
+	width:318px;
+	height:888px;
+}
+
+.oneColFixCtrHdr #sidenews2 {
+	float: left;
+	width:318px;
+	height:222px;
+}
+
+.sidenews2_block{
+	width:300px;
+	height:143px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+	float:left;
+	font-size:10px;
+	text-align:left;
+	}
+
+
+.HeaderLnk {
+	font-size:12px;
+	text-indent: 18px;
+	}
+	
+
+
+
+/**********************************************************************************************/
+/*List and link properties*/
+a:link {
+	color: #003399;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #003399;
+}
+a:hover {
+	text-decoration: none;
+	color:  #003399;
+}
+a:active {
+	text-decoration: none;
+	color: #003399;
+}
+
+/*unordered list*/
+ul {
+	list-style:none; 
+	margin:0; 
+	padding:0;
+}
+
+/*list item that is nested inside an ordered list (ol) or unordered list (ul)*/
+li {
+	display:block;
+	font-size:11px;
+	color:#000000;
+	padding: 0px 20px;
+	margin:0px;
+	text-align: left;
+}
+
+/*list item for anchor/link a*/
+li a {
+display:block;
+	font-size:11px;
+	color:#000000;
+	padding: 0px 20px;
+	margin:0px;
+	text-align: left;
+}	
+
+/*list item for ID navigation*/
+
+#navigation li {
+	display:inline;
+	font-size:10px;
+	color:#000000;
+	padding: 0px 0px 0px 0px;
+	margin:0px;
+	text-align: left;
+}
+
+#navigation li a {
+	display: inline;
+	font-size:11px;
+	color:#000000;
+	padding: 0px 20px;
+	margin:0px;
+	text-align: left;
+
+}
+
+#newstories li a {
+	display: inline;
+	font-size:9px;
+	color: #003399;
+	padding: 0px 0px;
+	margin:0px;
+	text-align: left;
+	text-indent:5px;
+
+}
+
+#newstories li {
+	display: inline;
+	font-size:9px;
+	color: #000000;
+	padding: 0px 0px;
+	margin:0px;
+	text-align: left;
+
+}
+
+#thirdnews1 li a {
+	display: inline;
+	font-size:9px;
+	color: #003399;
+	padding: 0px 0px;
+	margin:0px;
+	text-align: left;
+	text-indent:5px;
+
+}
+.thirdnewsformat{
+	width:285px;
+	height:188px;
+	margin:0px 0px 0px 0px; 
+	padding:10px 0px 0px 10px; 
+	float:left;
+	font-size:8px;
+	text-align:left;
+	color: #003399;
+	
+	}

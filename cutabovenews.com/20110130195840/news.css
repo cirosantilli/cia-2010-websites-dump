@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px;} /*row & description of link*/
+li a {text-decoration: none; color: #193484; font-weight: normal; } /*link*/
+li a:hover {color:#004969; text-decoration: underline;}
+
+
+#wrap {float:left; width:850px; height:900px;}
+
+#header-whole {float:left; width:850px; height:285px;}
+#header-left {float:left; width:334px; height:285px;}
+#header-center-whole {float:left; width:147px; height:285px;}
+#header-center-top {float:left; width:147px; height:44px;}
+#header-center-mid {float:left; width:147px; height:197px;}
+#header-center-bottom{float:left; width:147px; height:44px;}
+#header-right {float:left; width:369px; height:285px;}
+
+
+
+
+#button {float:left; width:159px; height:615px; background:url(images/News_25.jpg) no-repeat;}
+
+#feed-col {float:left; width:402px; height:615px; background:url(images/News_26.jpg) no-repeat;}
+#feed {width:390px; height:1340px; overflow:auto; visibility:visible; }
+*html #feed {width:386px; height:1340px; overflow:auto; visibility:visible; }
+#feed p {list-style: none; margin: 5px 0 0 0; padding: 10px; }
+#feed ul {list-style: none; margin: 0; padding: 10px; }
+
+
+#profile-col {float:right; width:289px; height:auto; background:url(images/News_28.jpg) no-repeat;}
+#profile-col-text {float:right; width:275px; height:auto; margin: 40px 0px 0 0px; padding: 0 5px 0 0;}
+#applet {float:right; width:289px; height:140px; background:url(images/News_27.jpg) no-repeat;}
+
+/**Sliding Menu**/
+.sdmenu {
+    width: 150px;
+	margin-left: 2px;
+    font-family: Sans-Serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+    background: #eee url(images/bottom.gif) no-repeat right bottom;
+    color: #FFF;
+}
+
+.sdmenu .title, .sdmenu .titlehidden{
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+    color: white;
+    background: #FFF url(images/title.gif) repeat-x;
+}
+
+.sdmenu .title { border-bottom: 1px solid #DDD;}
+
+.sdmenu .arrow {
+	margin-left: 10px;
+    margin-right: 7px;
+}
+
+.sdmenu .titlehidden {border-bottom: none;}
+
+.sdmenu #top {background: url(images/toptitle.gif) no-repeat;}
+
+.sdmenu .submenu {overflow: hidden;}
+
+.sdmenu .submenu a {
+    padding: 5px 0;
+	font-weight: bold;
+    text-indent: 10px;
+    display: block;
+    border-bottom: 1px solid #DDD;
+    color: #333;
+    text-decoration: none;
+}
+
+.sdmenu .submenu a:hover {
+    background : #24b1b9 url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;
+}
+
+.sdmenu .submenu a:focus {
+    background : #333 url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;
+}
+
+.sdmenu .submenu a.selected{
+	background : #333 url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;	
+} 
+
+

@@ -1,0 +1,198 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Network of News - Source for International News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="news.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	margin-left: 100px;
+}
+-->
+</style>
+</head>
+<body onLoad="goforit()">
+
+<div id="wrap">
+  <div id="banner"><img src="images/index_01.jpg" width="160" height="135"><img src="images/index_02.jpg" width="160" height="135"><img src="images/index_03.jpg" width="160" height="135"><img src="images/index_04.jpg" width="160" height="135"><img src="images/index_05.jpg" width="160" height="135"></div>
+  
+<div id="menu_wrap">
+<div id="top_menu">
+            <!--<div id="nav_container">-->
+            <div id="nav">
+            <ul>
+            <li><a href="world_rssnews.html" target="news"><span>Home</span></a></li>
+            <li><a href="africa_rssnews.html" target="news"><span>Africa</span></a></li>
+            <li><a href="asiapacific_rssnews.html" target="news"><span>Asia-Pacific</span></a></li>
+            <li><a href="europe_rssnews.html" target="news"><span>Europe</span></a></li>
+            <li><a href="middleeast_rssnews.html" target="news"><span>Middle East</span></a></li>
+            <li><a href="americas_rssnews.html" target="news"><span>Americas</span></a></li>
+            </ul>
+            <!--</div>-->
+            </div>
+  </div>
+  <div id="date"><br>
+<script>
+/*Live Date Script- */
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="AM"
+if (hours>=12)
+dn="PM"
+if (hours>12){
+hours=hours-12
+}
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+//change font size here
+var cdate=""+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+" "
++"</b></font></small>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else if (document.getElementById)
+document.getElementById("clock").innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all&&!document.getElementById)
+getthedate()
+function goforit(){
+if (document.all||document.getElementById)
+setInterval("getthedate()",1000)
+}
+</script>
+<span id="clock"></span>
+</div>
+</div><!--menu_wrap-->
+
+<div id="content">
+<div id="column1">
+    	<div id="google">
+        <div class="google_search" align="center">
+       	  <FORM method=GET action="http://www.google.com/search" target="_blank">
+          	<input type=hidden name=ie value=UTF-8>
+            <input type=hidden name=oe value=UTF-8>
+            <INPUT TYPE=text name=q size=20 maxlength=255 value=""><br>
+            <img src="images/search_icon.gif">&nbsp;&nbsp;<INPUT type=submit name=btnG VALUE="Google">
+          </FORM></div>
+   	 	</div>
+       <div id="left_menu">
+            <div id="navigation"> 
+              <ul>
+              <div class="left_menu_heading"><strong>Breaking News</strong>&nbsp;&nbsp;<img src="images/news.gif" width="20" height="14"></div>
+              <ul>
+                    <li><a href="http://www.cnn.com/" target="_blank">CNN</a></li>
+                    <li><a href="http://www.msnbc.msn.com/" target="_blank">MSNBC</a></li>
+                    <li><a href="http://news.yahoo.com/" target="_blank">Yahoo News</a></li>
+                    <li><a href="http://www.cbc.ca/news/" target="_blank">CBC News</a></li>
+                    <li><a href="http://bignewsnetwork.com/" target="_blank">Big News Network</a></li>
+                    <li><a href="http://www.headlinecentral.com" target="_blank">HeadlineCentral</a></li>
+                    <li><a href="http://allafrica.com/" target="_blank">allAfrica.com</a></li>
+                    <li><a href="http://www.atimes.com/" target="_blank">Asia Times Online</a></li>
+                    <li><a href="http://news.bbc.co.uk/1/hi/world/europe/" target="_blank">BBC News: Europe</a></li>
+                    <li><a href="http://www.metimes.com/" target="_blank">The Middle East Times</a></li>
+                    <li><a href="http://www.topix.com/world/oceania" target="_blank">Oceania News</a></li>
+                  </ul>
+               
+                <div class="left_menu_heading"><strong>Video News Feeds</strong>&nbsp;&nbsp;<img src="images/video.gif" width="20" height="15" align="absmiddle"></div>
+                  <ul>
+                    <li><a href="business_rssvideo.html?format=xml" target="news">Business</a></li>
+                    <li><a href="environment_rssvideo.html?format=xml" target="news">Environment</a></li>
+                    <li><a href="health_rssvideo.html" target="news">Health</a></li>
+                    <li><a href="scitech_rssvideo.html" target="news">Sci-Tech</a></li>
+                    <li><a href="sports_rssvideo.html?format=xml" target="news">Sports and Leisure</a></li>
+                    <li><a href="technology_rssvideo.html?format=xml" target="news">Technology</a></li>
+                </ul>
+                <div class="left_menu_heading"><strong>RSS News Feeds</strong>&nbsp;&nbsp;<img src="images/xml_logo.jpg" width="30" height="12"></div>
+                  <ul>
+                    <li><a href="http://feeds.reuters.com/reuters/worldNews?format=xml" target="_blank">International</a></li>
+                    <li><a href="http://www.guardian.co.uk/rssfeed/0,,1,00.xml" target="_blank">Guardian Unlimited</a></li>
+                    <li><a href="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml" target="_blank">BBC News</a></li>
+                    <li><a href="http://www.iht.com/rss/frontpage.xml" target="_blank">International Herald Tribune</a></li>
+                    <li><a href="http://news.sky.com/skynews/rss/article/0,,30000-1-100,00.xml" target="_blank">Sky News</a></li>
+                    <li><a href="http://feeds.news.com.au/public/rss/2.0/news_top_stories_48.xml" target="_blank">News.com.au</a></li>
+                    <li><a href="http://www.euronews.net/rss/euronews_en.xml" target="_blank">EuroNews</a></li>
+                    <li><a href="http://feeds.wired.com/wired/index?format=xml" target="_blank">Wired News</a></li>
+                </ul>
+            </ul>
+         </div>
+      </div>
+    </div><!--column1-->
+    
+    <div id="column2">
+    	<div id="column2_image"><img src="images/index_09.jpg" width="435" height="11"></div>
+        <div id="column2text"><iframe name="news" scrolling="auto" src="world_rssnews.html" width="430" height="669" frameborder="0" marginwidth="0" allowtransparency="true"></iframe></div>
+    </div>
+    
+    <div id="column3"><div id="right_menu"><img src="images/index_10.jpg" width="150" height="68">
+        <div id="navigation_right">
+              <ul>
+                <div class="right_menu_heading"><strong>Headlines</strong>&nbsp;&nbsp;<img src="images/world.gif" width="16" height="16" align="absmiddle"></div>
+                  <ul>
+                    <li><a href="business_rssnews.html" target="news">Business</a></li>
+                    <li><a href="entertainment_rssnews.html" target="news">Entertainment</a></li>
+                    <li><a href="health_rssnews.html" target="news">Health</a></li>
+                    <li><a href="sports_rssnews.html" target="news">Sports</a></li>
+                    <li><a href="technology_rssnews.html" target="news">Technology</a></li>
+                    <li><a href="travel_rssnews.html" target="news">Travel</a></li>
+                 </ul>
+                </li>
+                <div class="right_menu_heading"><strong>Weather</strong>&nbsp;&nbsp;<img src="images/weather.gif"></div>
+                  <ul>
+                    <li><a href="http://www.guardian.co.uk/weather" target="_blank">World</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/africa/" target="_blank">Africa</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/central_america/" target="_blank">America - Central</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/north_america/" target="_blank">America - North</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/south_america/" target="_blank">America - South</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/east_asia/" target="_blank">Asia - East</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/south_asia/" target="_blank">Asia - South</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/southeast_asia/" target="_blank">Asia - South East</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/australasia/" target="_blank">Australasia</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/north_europe/" target="_blank">Europe - North</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/west_europe/" target="_blank">Europe - West</a></li>
+                    <li><a href="http://www.bbc.co.uk/weather/world/middle_east/" target="_blank">Middle East</a></li>
+                </ul>
+               <div class="right_menu_heading"><strong>Links</strong>&nbsp;&nbsp;<img src="images/news.gif" width="20" height="14"></div>
+                <ul>
+                  <li><a href="business.html" target="news">Business </a></li>
+                  <li><a href="entertainment.html" target="news">Entertainment</a></li>
+                  <li><a href="health.html" target="news">Health</a></li>
+                  <li><a href="sports.html" target="news">Sports </a></li>
+                  <li><a href="technology.html" target="news">Technology</a></li>
+                </ul>
+             </ul>
+          </div>
+      </div>
+        <div id="rotating_image"><APPLET archive="nework.jar" code="headlines.feeds.breaking.headlinesApplet" width=150 height=85 mayscript/></APPLET></div>
+    </div><!--column3-->
+    
+</div><!--content-->
+
+<div class="footer"><img src="images/index_15.jpg" width="800" height="22"></div>
+
+<div class="ads" align="center"><img src="images/aolnews_logo.gif" width="130" height="30" border="0" usemap="#Map"><map name="Map"><area shape="rect" coords="3,4,126,26" href="http://news.aol.com/" target="_blank" alt="AOL News"></map>&nbsp;&nbsp;<img src="images/associatedpress.gif" width="130" height="30" border="0" usemap="#Map2"><map name="Map2"><area shape="rect" coords="6,4,126,26" href="http://hosted.ap.org/dynamic/fronts/HOME?SITE=AP&SECTION=HOME" target="_blank" alt="Associated Press"></map>&nbsp;&nbsp;<img src="images/guardian_logo.gif" width="166" height="23" border="0" usemap="#Map3"><map name="Map3"><area shape="rect" coords="1,4,162,26" href="http://www.guardian.co.uk/" target="_blank" alt="Guardian Unlimited"></map>&nbsp;&nbsp;<img src="images/bignewsnetwork.jpg" width="149" height="30" border="0" usemap="#Map4"><map name="Map4"><area shape="rect" coords="5,2,150,31" href="http://www.bignewsnetwork.com" target="_blank" alt="Big News Network"></map>&nbsp;&nbsp;<img src="images/interheraldtribune.gif" width="123" height="30" border="0" usemap="#Map5"><map name="Map5"><area shape="rect" coords="3,3,120,28" href="http://www.iht.com/" target="_blank" alt="International Herald Tribune"></map></div>
+
+<div class="copyright">Copyright ® 2008 networkofnews.com</div>
+
+</div><!--wrap-->
+
+</body>
+</html>

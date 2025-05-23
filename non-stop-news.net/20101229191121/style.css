@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0; background:url(images/nonstop-img-bkgd.jpg) repeat-x;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #009fd7; font: 13px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 13px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {float:right; width:975px; height:1623px; }
+#header {float:left; width:975px; height:123px; }
+
+#col-left {float:left; width:17px; height:1500px; background:url(images/nonstop-img_07.jpg) no-repeat; }
+#col-links {float:left; width:256px; height:1500px; background: #FFF no-repeat; }
+#col-wrap {float:left; width:702px; height:1500px; }
+#col-header {float:left; width:702px; height:69px; }
+#col-feeds {float:left; width:397px; height:1431px; background:url(images/nonstop-img_15.jpg) no-repeat; }
+#col-right {float:left; width:305px; height:1500px; }
+#col-btn {float:left; width:185px; height:794px; background:url(images/nonstop-img_18.jpg) left 98px no-repeat; }
+#rotating-01 {float:left;width:185px; height:98px; background:url(images/nonstop-img_16.jpg) no-repeat;}
+#col-ads {float:left; width:120px; height:794px; background:url(images/nonstop-img_19.jpg) left 98px no-repeat;}
+#ads {width:110px; height:600px; margin: 50px 0 0 5px; border: solid 1px #d9d9d9; background:#FFF;}
+#rotating-02 {float:left;width:120px; height:98px; background:url(images/nonstop-img_17.jpg) no-repeat;}
+#ads img {margin: 9px 5px 0 0;}
+#logbox {float:left; width:300px;border: solid 1px #d9d9d9; margin:5px 0 0 2px; padding: 10px 0 0 0;} 
+
+#infolink {float:left; width:246px; height:1400px; overflow: auto; visibility: visible; /**/border-top: solid 1px #d9d9d9; margin: 0 0 0 5px;}
+#infolink ul {list-style: none;margin: 5px 10px 0 10px;padding: 0;}
+h2 {font: bold 17px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:33px; margin: 0; padding: 0 10px 0 0; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#infofeed {float:left; width:380px; height:1355px; overflow: auto; visibility: visible; /**/border-bottom: solid 1px #d9d9d9; margin: 0 0 0 5px;}
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#fff; line-height:33px; margin: 0; padding: 5px 25px 8px 0; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.wireframemenu{ width: 170px; margin: 25px 7px 0 0; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 164px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 11px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px dashed #c9c8c8; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ color: #000; }
+
+#nav {padding:0; margin:0; list-style:none; height:38px; background:#fff url(images/six_0.gif) repeat-x; float:right; width:256px; font-family:arial, verdana, sans-serif;}
+#nav li.top {display:block; float:right;}
+#nav li a.top_link {display:block; float:left; height:35px; line-height:33px; color:#ccc; text-decoration:none; font-size:18px; font-weight:bold; padding:0 0 0 12px; cursor:pointer;background: url(images/six_0.gif);}
+#nav li a.top_link span {float:left; display:block; padding:0 24px 0 12px; height:35px; background: url(images/six_0.gif) right top no-repeat;}
+#nav li a.top_link span.down {float:left; display:block; padding:0 24px 0 12px; height:35px; background: url(images/six_0a.gif) no-repeat right top;}
+
+#nav li:hover a.top_link,
+#nav a.top_link:hover
+{color:#fff; background: url(images/six_1.gif) no-repeat;}
+#nav li:hover a.top_link span, 
+#nav a.top_link:hover span
+{background:url(images/six_1.gif) no-repeat right top;}
+#nav li:hover a.top_link span.down,
+#nav a.top_link:hover span.down
+{background:url(images/six_1a.gif) no-repeat right top; padding-bottom:3px;}
+
+#nav table {border-collapse:collapse; padding:0; margin:0; position:absolute; right:0; top:0;}
+
+#nav li:hover {position:relative; z-index:200;}
+#nav a:hover {position:relative; white-space:normal; z-index:200;}
+
+#nav :hover ul.sub
+{right:1px; top:38px; background: #50b5d0; padding:3px; border:1px solid #0b4d97; white-space:nowrap; width:90px; height:auto; z-index:100;}
+#nav :hover ul.sub li
+{display:block; height:20px; position:relative; float:right; width:90px; font-weight:normal;}
+#nav :hover ul.sub li a
+{display:block; font-size:15px; height:18px; width:88px; line-height:18px; text-indent:5px; color:#000; text-decoration:none;border:1px solid #50b5d0;}
+#nav li ul.sub li a.fly
+{background:#50b5d0 url(images/arrow.gif) 80px 6px no-repeat;}
+#nav :hover ul.sub li a:hover 
+{background:#3f96a9; color:#fff; border-color:#fff;}
+#nav :hover ul.sub li a.fly:hover
+{background:#3f96a9 url(images/arrow_over.gif) 80px 6px no-repeat; color:#fff;}
+
+#nav li b {display:block; font-size:11px; height:18px; width:88px; line-height:18px; margin-bottom:3px; text-indent:6px; color:#ff6; border-bottom:1px solid #ff6; cursor:default;}
+
+#nav a:hover a:hover ul,
+#nav a:hover a:hover a:hover ul,
+#nav a:hover a:hover a:hover a:hover ul,
+#nav a:hover a:hover a:hover a:hover a:hover ul
+{right:89px; top:-4px; background: #50b5d0; padding:3px; border:1px solid #0b4d97; white-space:nowrap; width:90px; z-index:400; height:auto;}
+
+#nav ul, 
+#nav a:hover ul ul,
+#nav a:hover a:hover ul ul,
+#nav a:hover a:hover a:hover ul ul,
+#nav a:hover a:hover a:hover a:hover ul ul
+{position:absolute; right:0; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

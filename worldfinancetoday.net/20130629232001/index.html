@@ -1,0 +1,465 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>World Finance Today</title>
+<link href="images/favicon.ico" rel="SHORTCUT ICON">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="mktstyle.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript"></script>
+<SCRIPT Language="JavaScript">
+<!-- hide from old browsers
+  // Copyright 1999, 2000 by Ray Stott
+  // OK to use if this copyright is included
+  // Script available at http://www.crays.com/jsc
+  var TimezoneOffset = -4  // adjust for time zone
+  var localTime = new Date()
+  var ms = localTime.getTime()
+             + (localTime.getTimezoneOffset() * 60000)
+             + TimezoneOffset * 3600000
+  var time =  new Date(ms)
+  var hour = time.getHours()
+  var minute = time.getMinutes()
+  var second = time.getSeconds()
+  var curTime = "" + ((hour > 12) ? hour - 12 : hour)
+  if(hour==0) curTime = "12"
+  curTime += ((minute < 10) ? ":0" : ":") + minute
+  curTime += ((second < 10) ? ":0" : ":") + second
+  curTime += (hour >= 12) ? " PM" : " AM"
+
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+              months[now.getMonth()] + " " +
+               date + ", " +
+                (fourdigits(now.getYear())) ;
+
+//  End -->
+</script>
+
+		<script type="text/javascript">
+
+/***********************************************
+* Local Time script- � Dynamic Drive (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+var weekdaystxt=["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
+
+function showLocalTime(container, servermode, offsetMinutes, displayversion){
+if (!document.getElementById || !document.getElementById(container)) return
+this.container=document.getElementById(container)
+this.displayversion=displayversion
+var servertimestring=(servermode=="server-php")? 'October 10, 2008 17:29:33' : (servermode=="server-php")? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '<%= Now() %>'
+this.localtime=this.serverdate=new Date(servertimestring)
+this.localtime.setTime(this.serverdate.getTime()+offsetMinutes*60*1000) //add user offset to server time
+this.updateTime()
+this.updateContainer()
+}
+
+showLocalTime.prototype.updateTime=function(){
+var thisobj=this
+this.localtime.setSeconds(this.localtime.getSeconds()+1)
+setTimeout(function(){thisobj.updateTime()}, 1000) //update time every second
+}
+
+showLocalTime.prototype.updateContainer=function(){
+var thisobj=this
+if (this.displayversion=="long")
+this.container.innerHTML=this.localtime.toLocaleString()
+else{
+var hour=this.localtime.getHours()
+var minutes=this.localtime.getMinutes()
+var seconds=this.localtime.getSeconds()
+var ampm=(hour>=12)? "PM" : "AM"
+var dayofweek=weekdaystxt[this.localtime.getDay()]
+this.container.innerHTML=formatField(hour, 1)+":"+formatField(minutes)+":"+formatField(seconds)+" "+ampm+" ("+dayofweek+")"
+}
+setTimeout(function(){thisobj.updateContainer()}, 1000) //update container every second
+}
+
+function formatField(num, isHour){
+if (typeof isHour!="undefined"){ //if this is the hour field
+var hour=(num>12)? num-12 : num
+return (hour==0)? 12 : hour
+}
+return (num<=9)? "0"+num : num//if this is minute or sec field
+}
+
+</script>
+<script type="text/javascript" src="js/tabcontent.js"></script>
+
+</head>
+
+<body>
+<div id="wrap">
+<div id="header">
+	<img src="images/banner_01.jpg" border="0" align="top"><img src="images/banner_02.jpg" border="0" align="top"><img src="images/banner_03.jpg" border="0" align="top"><img src="images/banner_04.jpg" border="0" align="top"><br />
+
+</div>
+<div id="timewrap">
+	<div id="todaydate"><script>document.write(""+today);</script></div>
+
+</div>
+
+    <div id="nav">
+
+<ul>
+	<li><a href="index.php" class="selected" target="_parent">Home</a></li>
+    <li><a href="regional.php" target="_parent">Regional / Emerging Markets</a></li>
+	<li><a href="commodities.php" target="_parent">Commodities</a></li>
+    <li><a href="currencies.php" target="_parent">Currencies</a></li>
+    <li><a href="equities.php" target="_parent">Equity Markets</a></li>
+    <li><a href="bonds.php" target="_parent">Bonds and Rates</a></li>
+</ul>
+</div>
+
+<div id="main">
+
+<div id="col1">
+			<!--DO NOT EDIT BELOW!- WIDGETS: http://www.sanebull.com/widgets -->
+<div id="wrldmkt" class="box" align="center" width="210px" style="font-size:12px"><iframe width="210" height="410" style="margin-bottom:5px" src="http://www.sanebull.com/widget_world_watch.jsp?market=all" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<!--DO NOT EDIT ABOVE!-->
+
+
+
+		<br />
+
+	<!--http://uk.biz.yahoo.com/news/mkt/currencies.html.xml-->
+	<!--DO NOT EDIT BELOW!- WIDGETS: http://www.sanebull.com/widgets -->
+<div id="currencies" class="box" align="center" width="210px" style="font-size:12px"><iframe width="210" height="210" src="http://widgets.wallstreetsurvivor.com/WorldWatch.aspx" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<!--DO NOT EDIT ABOVE!-->
+
+ <div id="charts" class="box boxbrdr pad">
+
+
+</div>
+
+<div id="applet" class="box boxbrdr pad">
+  <APPLET archive="slides.jar" code="world.finance.rates.worldApplet" width=100 height=100 mayscript/></applet>
+
+ </div>
+
+</div><!--end col1-->
+<div id="col2">
+
+
+<div id="tabcontent">
+    <ul id="tab" class="newstabs">
+        <li class="selected"><a href="#" rel="tcontent1">Resources</a> | </li>
+        <li><a href="#" rel="tcontent2">Americas</a> | </li>
+        <li><a href="#" rel="tcontent3">Europe</a> | </li>
+        <li><a href="#" rel="tcontent4">Asia Pacific</a> | </li>
+        <li><a href="#" rel="tcontent5">Middle East</a></li>
+    </ul>
+
+<div id='tcontent1' class='tabcontent box grnbrdr'>
+<h2>Resources</h2>
+<h4>CNNMoney.com</h4>
+<div>
+<ul>
+<li><a href='http://rss.cnn.com/~r/rss/money_markets/~3/CzNpWw-coS8/index.html' target="_blank">Stocks: Rocky end to the quarter</a><br />
+<li><a href='http://rss.cnn.com/~r/rss/money_markets/~3/ThMGPGIA4-4/index.html' target="_blank">Starbucks' caffeine-fueled expansion</a><br />
+<li><a href='http://rss.cnn.com/~r/rss/money_markets/~3/omy2Xm4x_9s/' target="_blank">M&A activity hits three-year low</a><br />
+<li><a href='http://rss.cnn.com/~r/rss/money_markets/~3/3IKBwYjyxIk/index.html' target="_blank">Big winners on Wall Street are yesterday's dogs</a><br />
+<li><a href='http://rss.cnn.com/~r/rss/money_markets/~3/Y0p3WO12n-Y/index.html' target="_blank">BlackBerry 10 is not a hit; stock nosedives 28%</a><br />
+<li><a href='http://rss.cnn.com/~r/rss/money_markets/~3/E2ppDCC_N-Y/' target="_blank">IBM caught up in Accenture rout</a><br />
+</ul></div>
+
+<h4>IBTimes.com</h4>
+    <p><div>
+</ul></div>
+</p>
+<!--end tcontent1--></div>
+
+<div id="tcontent2" class="tabcontent box grnbrdr">
+<h2>Americas</h2>
+<div>
+</ul></div>
+
+
+          <div align="right"><a href="regional.php" target="_parent">More Resources...</a></div>
+<!--end tcontent2--></div>
+
+<div id="tcontent3" class="tabcontent box grnbrdr">
+ <h2>Europe</h2>
+ <h4>Yahoo!Finance UK : UK Market Resources</h4>
+		<!--http://uk.biz.yahoo.com/news/mkt/uk_market.html.xml-->
+	<div>
+<p>Top stories from Yahoo! Finance UK</p>
+<ul>
+<li><a href='http://uk.finance.yahoo.com/news/crown-post-office-staff-stage-094345514.html' target="_blank">Crown Post Office Staff Stage Strike Action</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/crown-post-office-staff-stage-094345514.html" title="Crown Post Office Staff Stage Strike Action"><img src="http://l2.yimg.com/bt/api/res/1.2/KWgipwzwUeOPj0NiUTSxUg--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/cegrab-20130629-071557-295-1-400x240_original.jpg" alt="Crown Post Office Staff Stage Strike Action" title="Crown Post Office Staff Stage Strike Action" width="70" height="70" align="left" border="0" /></a>Post Office workers have gone on strike over plans to close 70 state-owned branches and a dispute over pay. The closing Crown branches - which are currently directly managed by Post Office Ltd - would </p>
+<li><a href='http://uk.finance.yahoo.com/news/post-office-staff-due-stage-062438800.html' target="_blank">Post Office Staff Due To Stage Strike Action</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/post-office-staff-due-stage-062438800.html" title="Post Office Staff Due To Stage Strike Action"><img src="http://l2.yimg.com/bt/api/res/1.2/KWgipwzwUeOPj0NiUTSxUg--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/cegrab-20130629-071557-295-1-400x240_original.jpg" alt="Post Office Staff Due To Stage Strike Action" title="Post Office Staff Due To Stage Strike Action" width="70" height="70" align="left" border="0" /></a>Post Office workers have gone on strike over plans to close 70 state-owned branches and a dispute over pay. The closing Crown branches - which are currently directly managed by Post Office Ltd - would </p>
+<li><a href='http://uk.finance.yahoo.com/news/gold-tarnish-worsens-amid-commodity-130557945.html' target="_blank">Gold Tarnish Worsens Amid Commodity Sell-Off</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/gold-tarnish-worsens-amid-commodity-130557945.html" title="Gold Tarnish Worsens Amid Commodity Sell-Off"><img src="http://l3.yimg.com/bt/api/res/1.2/I5OCudNqY3NnV0Q1.giVmA--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/92858730-1-400x240_original.jpg" alt="Gold Tarnish Worsens Amid Commodity Sell-Off" title="Gold Tarnish Worsens Amid Commodity Sell-Off" width="70" height="70" align="left" border="0" /></a>Gold has traded near to its lowest level in almost three years and is on track for its worst quarterly performance since at least 1968. London early trading on Friday saw gold sit at $1,206 but by 1.45pm </p>
+<li><a href='http://uk.finance.yahoo.com/news/starbucks-losses-hit-30m-last-104347923.html' target="_blank">Starbucks Losses Hit £30m In Last Tax Year</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/starbucks-losses-hit-30m-last-104347923.html" title="Starbucks Losses Hit £30m In Last Tax Year"><img src="http://l2.yimg.com/bt/api/res/1.2/nTgtft51SRTr2LsLbVfXdg--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/15384030-400x240_original.jpg" alt="Starbucks Losses Hit £30m In Last Tax Year" title="Starbucks Losses Hit £30m In Last Tax Year" width="70" height="70" align="left" border="0" /></a>Starbucks UK reported a net annual loss of more than £30m for the 12 months to September 30, according to newly-released documents. Accounts filed with Companies House show that Starbucks Coffee (UK) Ltd </p>
+<li><a href='http://uk.finance.yahoo.com/news/sky-news-business-look-ahead-141639345.html' target="_blank">The Sky News Business Look Ahead</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/sky-news-business-look-ahead-141639345.html" title="The Sky News Business Look Ahead"><img src="http://l1.yimg.com/bt/api/res/1.2/_N8Dx2wqNQEznNiCACR1Kw--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/biz-round-up-logo-1-400x240_original.jpg" alt="The Sky News Business Look Ahead" title="The Sky News Business Look Ahead" width="70" height="70" align="left" border="0" /></a>Sky's Naomi Kerbel offers a look ahead to what's coming up in the week's business news. :: Monday July 1 Bank of England - Mark Carney's five-year term begins Croatia - European Union accession :: Tuesday </p>
+<li><a href='http://uk.finance.yahoo.com/news/facebook-remove-adverts-adult-pages-075230977.html' target="_blank">Facebook To Remove Adverts From Adult Pages</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/facebook-remove-adverts-adult-pages-075230977.html" title="Facebook To Remove Adverts From Adult Pages"><img src="http://l.yimg.com/bt/api/res/1.2/rgc_Pms3W5woF1GLWweA6Q--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/facebook-logo1-2-400x240_original.jpg" alt="Facebook To Remove Adverts From Adult Pages" title="Facebook To Remove Adverts From Adult Pages" width="70" height="70" align="left" border="0" /></a>Facebook will stop advertisements appearing on pages containing sexual or violent content after a number of companies suspended their campaigns. Marks and Spencer and BSkyB, the parent company of Sky News, </p>
+</ul></div>
+
+
+
+ <div align="right"><a href="regional.php" target="_parent">More Resources...</a></div>
+<!--end tcontent3--></div>
+
+<div id="tcontent4" class="tabcontent box grnbrdr">
+<h2>Asia Pacific</h2>
+<h4>Yahoo! Finance UK - Asian Market Resources</h4>
+<div>
+<p>Asian Business News | Financial News - Yahoo! Finance UK<br /><span>Read the latest asian business news on Yahoo! Finance UK. Find asian financial news, business news, investment headlines, NIKKIE, HAN SENG news and more</span></p>
+<ul>
+<li><a href='http://uk.finance.yahoo.com/news/u-investigating-brake-problem-honda-220213342.html' target="_blank">U.S. investigating brake problem with some Honda Odysseys</a><br />
+<p>CHICAGO (Reuters) - The U.S. National Highway Traffic Safety Administration is investigating a potential braking issue with Honda Motor Co's Honda Odyssey minivans that could cause them to brake without </p>
+<li><a href='http://uk.finance.yahoo.com/news/ocs-double-india-staff-210054177.html' target="_blank">OCS to double India staff</a><br />
+<p>OCS Group, the £840m-turnover cleaning and services business, is planning to double its 22,000-strong workforce in India, making it the second-largest British employer in the nation.</p>
+<li><a href='http://uk.finance.yahoo.com/news/us-market-hit-sweet-spot-174744491.html' target="_blank">The US market has hit a sweet spot and Japan could follow</a><br />
+<p>Half-way through 2013, equity markets are keeping to the script they've followed in each of the four years since the current bull run began in March 2009. Strong start, summer swoon, rally resumes.</p>
+<li><a href='http://uk.finance.yahoo.com/news/united-states-not-threatened-chinas-103732533.html' target="_blank">Obama: no threat in China rivalry for Africa business</a><br />
+<p>PRETORIA (Reuters) - The United States does not feel threatened by the growth of trade and investment in Africa by China and other emerging powers, U.S. President Barack Obama said on Saturday. Suggestions </p>
+<li><a href='http://uk.finance.yahoo.com/news/obama-hits-unfair-deals-africa-131008080.html' target="_blank">Obama hits out at unfair deals with Africa</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/obama-hits-unfair-deals-africa-131008080.html" title="Obama hits out at unfair deals with Africa"><img src="http://l.yimg.com/bt/api/res/1.2/nf_mRp2bwfK6kaMcNk.2jg--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AFTP_AFP_LIVE_1/photo_1372511355488-1-0_original.jpg" alt="Obama hits out at unfair deals with Africa" title="Obama hits out at unfair deals with Africa" width="70" height="70" align="left" border="0" /></a>US President Barack Obama addresses a news conference in Pretoria, South Africa, on June 29, 2013. Obama has urged Africans to ask more questions about lop-sided deals with some foreign investors, while </p>
+<li><a href='http://uk.finance.yahoo.com/news/gold-tarnish-worsens-amid-commodity-130557945.html' target="_blank">Gold Tarnish Worsens Amid Commodity Sell-Off</a><br />
+<p><a href="http://uk.finance.yahoo.com/news/gold-tarnish-worsens-amid-commodity-130557945.html" title="Gold Tarnish Worsens Amid Commodity Sell-Off"><img src="http://l3.yimg.com/bt/api/res/1.2/I5OCudNqY3NnV0Q1.giVmA--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTcwO3E9ODU7dz03MA--/http://globalfinance.zenfs.com/images/UK_AHTTP_SKYNEWS_LIVE_1/92858730-1-400x240_original.jpg" alt="Gold Tarnish Worsens Amid Commodity Sell-Off" title="Gold Tarnish Worsens Amid Commodity Sell-Off" width="70" height="70" align="left" border="0" /></a>Gold has traded near to its lowest level in almost three years and is on track for its worst quarterly performance since at least 1968. London early trading on Friday saw gold sit at $1,206 but by 1.45pm </p>
+</ul></div>
+
+
+<h4>123Jump.com - Asia Market Resources</h4>
+<div>
+<ul>
+<li><a href='http://asia.123jump.com/market-update/Nikkei-Attempts-Rebound-Fanuc-Up/48752/' target="_blank">Nikkei Attempts Rebound, Fanuc Up</a><br />
+Stocks in Tokyo rebounded after a steep loss on Friday and seven consecutive weeks of losses in the benchmark Nikkei index. Fanuc gained after the company plans to expand production capacity of robotics machinery.
+<li><a href='http://asia.123jump.com/market-update/Weekly-Losses-of-4-in-U.S.-Indexes-Facebook-IPO-Falters/48747/' target="_blank">Weekly Losses of 4% in U.S. Indexes, Facebook IPO Falters</a><br />
+The U.S. indexes extended losses and closed lower and for the week, the S&P 500 index dropped 4.1% and the Nasdaq tumbled 5%. Facebook on the first day of trading needed underwriter support to prevent the stock falling below its offer price. World markets extend losses for the fourth week.
+<li><a href='http://asia.123jump.com/market-update/Nikkei-Drops-to-Five-Month-Low/48736/' target="_blank">Nikkei Drops to Five-Month Low</a><br />
+Stocks in Japan declined sharply after global economic growth worries mounted and the euro zone uncertainties rose as Spanish banks face another round of capitalization. Exporters declined and the euro dropped to a three month low. For the week the Nikkei index dropped 3.8%.
+<li><a href='http://asia.123jump.com/market-update/U.S.-Indexes-Deepen-Losses-Facebook-to-Raise-$16-Billion/48723/' target="_blank">U.S. Indexes Deepen Losses, Facebook to Raise $16 Billion</a><br />
+Stocks in New York trading declined and S&P 500 index extended losses for the fifth day in a row. The euro zone turmoil and the growing contagion risk in the region dragged markets on both sides of the Atlantic. Facebook is expected to price its public offering at $38 a share and raise $16 billion.
+<li><a href='http://asia.123jump.com/market-update/Japan-GDP-Expands-in-March-Quarter-Volatile-Stocks-in-Tokyo/48711/' target="_blank">Japan GDP Expands in March Quarter, Volatile Stocks in Tokyo</a><br />
+Stocks in Tokyo rebounded in choppy trading after GDP in the last fiscal quarter to March increased 4.1% from a year ago. The GDP declined 0.01% in the year after exports plunged on supply chain disruptions. Toshiba said it will stop making television sets in Japan as the unit declares a loss.
+<li><a href='http://asia.123jump.com/market-update/Euro-Weakens-Oil-and-Gold-Extend-Losses;-Greece-in-Focus/48674/' target="_blank">Euro Weakens, Oil and Gold Extend Losses; Greece in Focus</a><br />
+U.S. markets wavered and the latest Fed statement showed no appetite for another stimulus plan. European markets watched Greek developments as the ECB president urged Greek leaders to stick to austerity plans and asked Greek banks to recapitalize. The euro slid and oil and precious metals weakened.
+</ul></div>
+
+
+<h4>123Jump.com - China Markets</h4>
+<div>
+<ul>
+<li><a href='http://china.123jump.com/market-update/Asian-Markets-Drop-2-on-U.S.-Jobs-Report/45810/' target="_blank">Asian Markets Drop 2% on U.S. Jobs Report</a><br />
+Asian markets slid following the weak U.S. employment report. The market index in Korea led the region with a loss of 4% and the index in Hong Kong fell 3%. The indexes in Shanghai, Australia and Taiwan dropped more than 2% and in India declined 0.6%.
+<li><a href='http://china.123jump.com/market-update/Shanghai-Stocks-Rebound;-Hui-Xian-IPO-Drops-8/44026/' target="_blank">Shanghai Stocks Rebound; Hui Xian IPO Drops 8%</a><br />
+Stocks in Shanghai rebounded after falling for four days in a row on the prospect of higher inflation. For the week, the benchmark index dropped 3.3% in Shanghai. The Hang Seng index declined. Hui Xian Real Estate Investment Trust declined 7.8% on the first day of trading.
+<li><a href='http://china.123jump.com/market-update/China's-Economy-Expands-9.7-March-Inflation-Accelerates-to-5.4/43819/' target="_blank">China's Economy Expands 9.7%, March Inflation Accelerates to 5.4%</a><br />
+China reported faster than expected economic expansion in the first quarter and inflation gained in March to 5.4%, a month after Lunar Year holiday. Steelmakers and banks closed higher but Angang Steel plunged 5% after it estimated earnings fall of 95% in the first quarter.
+<li><a href='http://china.123jump.com/market-update/Hong-Kong-Property-Prices-Reach-1997-Peak;-China-Inflation-Worries/43799/' target="_blank">Hong Kong Property Prices Reach 1997 Peak; China Inflation Worries</a><br />
+Stocks in Hong Kong and Shanghai rested ahead of inflation data tomorrow. A surge in inflation in March is expected to surpass 5% increase, ahead of government target. Hong Kong residential prices cross the previous peak in 1997 on low interest rates.
+<li><a href='http://china.123jump.com/market-update/Hang-Seng-Drops-1.3-Shanghai-Eases-Ahead-of-Inflation-GDP-Release/43753/' target="_blank">Hang Seng Drops 1.3%, Shanghai Eases Ahead of Inflation, GDP Release</a><br />
+Stocks in Shanghai and Hong Kong declined on the worries that inflation may overshoot government target for the second month in a row. China is scheduled to release GDP and inflation data this week. Banks and real estate developers declined and steelmakers gained on earnings expectations.
+<li><a href='http://china.123jump.com/market-update/Hang-Seng-Surges-1.7-Shanghai-Up-on-Energy-Stocks/43455/' target="_blank">Hang Seng Surges 1.7%, Shanghai Up on Energy Stocks</a><br />
+Stocks in Hong Kong and Shanghai increased after investors shrugged off the latest bank reserve tightening. China energy stocks gained after crude oil prices increased. Kweichow Moutai Co, Chinas largest liquor maker said 2010 net rose 17%.
+</ul></div>
+
+ 		<div align="right"><a href="regional.php" target="_parent">More Resources...</a></div>
+<!--end tcontent4--></div>
+
+<div id="tcontent5" class="tabcontent box grnbrdr">
+<h2>Middle East</h2>
+<h4>AMEInfo.com</h4>
+<div>
+<ul>
+<li><a href='http://www.ameinfo.com/173625.html' target="_blank">Last minutes speculations undo Saudi and Dubai gains</a><br />
+Last minutes speculation at Dubai Financial Market forced the index to lose its 4% gains to close down by 0.50% below 3000 points at 2917 points. <br /><a href="http://oas6.ameinfo.com/RealMedia/ads/adstream_lx.ads/ameinfo.com/rss/159/x90/AME/AME-Info_RSS_Generic/AME-Info_RSS_Generic_px/125"><img src="http://oas6.ameinfo.com/RealMedia/ads/adstream_lx.ads/ameinfo.com/rss/159/x90/AME/AME-Info_RSS_Generic/AME-Info_RSS_Generic_px/125" width="1" height="1" /></a>
+<li><a href='http://www.ameinfo.com/173451.html' target="_blank">Strong rebound for Tadawul, head of Gulf Bank resigns</a><br />
+Except for the strong rebound of Tadawul and the slight rise of Dubai by 0.33%, other Gulf markets continued to witness heavy losses. Yesterday also saw the resignation of Bassam Al Ghanim head of Gulf Bank in Kuwait.
+<li><a href='http://www.ameinfo.com/173295.html' target="_blank">Emaar share buy-back pushes Dubai market down</a><br />
+Emaars limited purchase of 200,000 shares, worth Dhs1.1m, led the Dubai Finance Market (DFM) into decline on Monday, with it falling 5.8% at a time when angry traders were looking for strong a rebound for shares across the index.
+<li><a href='http://www.ameinfo.com/173102.html' target="_blank">Gulf markets continue slump</a><br />
+Gulf stock markets fell sharply yesterday and trading stopped on Kuwait's Gulf Bank. Gulf stock markets started the week on a sharp decline after international markets closed.
+<li><a href='http://www.ameinfo.com/172905.html' target="_blank">Saudi shares decline sharply ahead of Riyadh meeting</a><br />
+Saudi market Tadawul fell sharply yesterday by 8.7% ahead of a scheduled meeting of GCC Finance ministers and central bank governors in Riyadh to discuss the current financial crisis.
+</ul></div>
+
+<div align="right"><a href="regional.php" target="_parent">More Resources...</a></div>
+<!--end tcontent5--></div>
+
+
+</div><!--end tabcontent-->
+
+<script type="text/javascript">
+//Start Tab Content script for UL with id="tab" Separate multiple ids each with a comma.
+initializetabcontent("tab")
+</script>
+<!------------------------>
+
+
+<div id="stockquote" class="box boxbrdr">
+<h2>Quote / Chart / Opinion / Profile</h2>
+
+   <FORM ACTION="http://www2.barchart.com/quick.asp" METHOD="POST" class="pad">
+<INPUT TYPE="TEXT" NAME="sym" SIZE="7" MAXLENGTH="5" VALUE="">
+<INPUT TYPE="RADIO" NAME="qs" CHECKED VALUE="quote">Quote
+<INPUT TYPE="RADIO" NAME="qs" VALUE="chart">Chart
+<INPUT TYPE="RADIO" NAME="qs" VALUE="opinion">Opinion
+<INPUT TYPE="RADIO" NAME="qs" VALUE="profile">Profile
+<INPUT TYPE="SUBMIT" VALUE="Go">
+</FORM>
+</div>
+
+<div id="markets" class="box boxbrdr">
+
+
+        <h2>Market Watch - Real-Time Headlines</h2><a href="http://www.marketwatch.com" target="_blank"><img src="images/marketwatch.gif" border="0" align="right"></a>
+			<div>
+<ul>
+<li><a href='http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/G2Cl2Hinel4/quotes.asp' target="_blank">Nasdaq gains more than 4% in second quarter</a><br />
+This is a Real-time headline. These are breaking news, delivered the minute it happens, delivered ticker-tape style. Visit www.marketwatch.com or the quote page for more information about this breaking news.<div class="feedflare"> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=G2Cl2Hinel4:_2XXgy-McoQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=G2Cl2Hinel4:_2XXgy-McoQ:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=G2Cl2Hinel4:_2XXgy-McoQ:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=G2Cl2Hinel4:_2XXgy-McoQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=G2Cl2Hinel4:_2XXgy-McoQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=G2Cl2Hinel4:_2XXgy-McoQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=qj6IDK7rITs" border="0"></img></a> </div><img src="http://feeds.feedburner.com/~r/marketwatch/realtimeheadlines/~4/G2Cl2Hinel4" height="1" width="1"/>
+<li><a href='http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/2-YBKdc-A44/quotes.asp' target="_blank">Dow, S&P 500 gain more than 2% in second quarter</a><br />
+This is a Real-time headline. These are breaking news, delivered the minute it happens, delivered ticker-tape style. Visit www.marketwatch.com or the quote page for more information about this breaking news.<div class="feedflare"> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:f4DwAK93mXA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:f4DwAK93mXA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:f4DwAK93mXA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:f4DwAK93mXA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:f4DwAK93mXA:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:f4DwAK93mXA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=qj6IDK7rITs" border="0"></img></a> </div><img src="http://feeds.feedburner.com/~r/marketwatch/realtimeheadlines/~4/2-YBKdc-A44" height="1" width="1"/>
+<li><a href='http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/hIKeEZb8XfU/quotes.asp' target="_blank">Dow accelerates losses in final minutes, down 0.8%</a><br />
+This is a Real-time headline. These are breaking news, delivered the minute it happens, delivered ticker-tape style. Visit www.marketwatch.com or the quote page for more information about this breaking news.<div class="feedflare"> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=hIKeEZb8XfU:J8AZGoZoa4I:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=hIKeEZb8XfU:J8AZGoZoa4I:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=hIKeEZb8XfU:J8AZGoZoa4I:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=hIKeEZb8XfU:J8AZGoZoa4I:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=hIKeEZb8XfU:J8AZGoZoa4I:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=hIKeEZb8XfU:J8AZGoZoa4I:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=qj6IDK7rITs" border="0"></img></a> </div><img src="http://feeds.feedburner.com/~r/marketwatch/realtimeheadlines/~4/hIKeEZb8XfU" height="1" width="1"/>
+<li><a href='http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/2-YBKdc-A44/quotes.asp' target="_blank">Dow and S&P 500 finish lower on Friday</a><br />
+This is a Real-time headline. These are breaking news, delivered the minute it happens, delivered ticker-tape style. Visit www.marketwatch.com or the quote page for more information about this breaking news.<div class="feedflare"> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:KjyDk21hj8E:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:KjyDk21hj8E:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:KjyDk21hj8E:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:KjyDk21hj8E:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:KjyDk21hj8E:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:KjyDk21hj8E:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=qj6IDK7rITs" border="0"></img></a> </div><img src="http://feeds.feedburner.com/~r/marketwatch/realtimeheadlines/~4/2-YBKdc-A44" height="1" width="1"/>
+<li><a href='http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/2-YBKdc-A44/quotes.asp' target="_blank">U.S. stock indexes end June with losses</a><br />
+This is a Real-time headline. These are breaking news, delivered the minute it happens, delivered ticker-tape style. Visit www.marketwatch.com or the quote page for more information about this breaking news.<div class="feedflare"> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:Is7xKt5_6mA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:Is7xKt5_6mA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:Is7xKt5_6mA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:Is7xKt5_6mA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:Is7xKt5_6mA:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:Is7xKt5_6mA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=qj6IDK7rITs" border="0"></img></a> </div><img src="http://feeds.feedburner.com/~r/marketwatch/realtimeheadlines/~4/2-YBKdc-A44" height="1" width="1"/>
+<li><a href='http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/2-YBKdc-A44/quotes.asp' target="_blank">U.S. stock indexes post weekly gains</a><br />
+This is a Real-time headline. These are breaking news, delivered the minute it happens, delivered ticker-tape style. Visit www.marketwatch.com or the quote page for more information about this breaking news.<div class="feedflare"> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:IbqlU6oDHr0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:IbqlU6oDHr0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:IbqlU6oDHr0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:IbqlU6oDHr0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?i=2-YBKdc-A44:IbqlU6oDHr0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.marketwatch.com/~ff/marketwatch/realtimeheadlines?a=2-YBKdc-A44:IbqlU6oDHr0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/marketwatch/realtimeheadlines?d=qj6IDK7rITs" border="0"></img></a> </div><img src="http://feeds.feedburner.com/~r/marketwatch/realtimeheadlines/~4/2-YBKdc-A44" height="1" width="1"/>
+</ul></div>
+
+
+	</div>
+
+  <div id="marketwire" class="box boxbrdr">
+
+	<h2>Marketwire</h2> <a href="http://www.marketwire.com" target="_blank"><img src="images/marketwire_logo.gif" width="100" height="33" border="0" align="right"></a><div>
+<ul>
+<li><a href='http://www.marketwire.com/mw/release.do?id=1807237&sourceType=3' target="_blank">Milner Consolidated Silver Mines Ltd. Updates Its By-Laws</a><br />
+<div class="mw_release"> <p style=" text-align:left; ">TINY, ONTARIO--(Marketwired - June 29, 2013) - Milner Consolidated Silver Mines Ltd. (the "Company" or "Milner") (TSX VENTURE:MCA) has announced today that its Board of Directors has adopted a new general By-Law No. 1-B ("2013 By-Law") which updates various sections to reflect current rules and practice. The previous by-law was enacted in June of 1985.<p> <p style=" text-align:left; ">The 2013 By-Law also now includes an advance notice policy (the "Advance Notice Policy") requiring advance notice be given to Milner where nominations of persons for election to the Board of Directors are made in circumstances other than pursuant to the provisions of the Business Corporations Act, Ontario (the "Act").
+<li><a href='http://www.marketwire.com/mw/release.do?id=1807226&sourceType=3' target="_blank">MCW Energy Group Completes Shares for Debt Transactions</a><br />
+<div class="mw_release"> <p><strong>TORONTO, ONTARIO--(Marketwired - June 28, 2013) -</strong> <strong>MCW Energy Group (TSX VENTURE:MCW) (MCW.V) ("MCW")</strong>, a Canadian holding company involved in fuel distribution and the creation of oil sands extraction technology, announces that, further to its press release dated May 8, 2013, the lender assigned the debt to two arm's length parties who have entered into agreements with MCW for the issuance of an aggregate of 5,724,500 common shares in satisfaction of indebtedness of US$3,434,700. The common shares issued are subject to a four month statutory hold period from the date of issuance.
+<li><a href='http://www.marketwire.com/mw/release.do?id=1807219&sourceType=3' target="_blank">Acquisition of Shares of Sirona Biochem Corp.</a><br />
+<div class="mw_release"> <p><strong>VANCOUVER, BRITISH COLUMBIA--(Marketwired - June 28, 2013) -</strong> Pathfinder Asset Management Limited ("<strong>Pathfinder</strong>") announced that on March 6, 2013 it acquired control or direction over a total of 6,000,000 units of Sirona Biochem Corp. ("<strong>Sirona</strong>") by way of a private placement for aggregate consideration of $600,000 or $0.10 per unit (the "<strong>Acquisition</strong>"). Each unit consisted of one common share in the capital of Sirona ("<strong>Common Share</strong>") and one common share purchase warrant in the capital of Sirona ("<strong>Warrant</strong>"). Each Warrant entitles the holder to purchase one additional Common Share at a price of $0.15 per Common Share for a period of two years from the closing date of the private placement. The securities are subject to a four-month and one-day hold period.
+<li><a href='http://www.marketwire.com/mw/release.do?id=1807202&sourceType=3' target="_blank">Raystar Amends Private Placement</a><br />
+<div class="mw_release"> <p><strong>VANCOUVER, BRITISH COLUMBIA--(Marketwired - June 28, 2013) -</strong>
+<li><a href='http://www.marketwire.com/mw/release.do?id=1807195&sourceType=3' target="_blank">Cancana Provides Default Status Report</a><br />
+<div class="mw_release"> <p><strong>TORONTO, ONTARIO--(Marketwired - June 28, 2013) -</strong> <strong>Cancana Resources Corp. (TSX VENTURE:CNY) (the "Company" or "Cancana"), announces that a temporary Management Cease Trade Order (the "MCTO") was issued by the Alberta Securities Commission (the "ASC") against the Company's Chief Executive Officer on June 3, 2013, as opposed to a general cease trader order against the Company. The MTCO prohibits trading in securities of the Company, either directly or indirectly, by this individual.</strong>
+<li><a href='http://www.marketwire.com/mw/release.do?id=1807193&sourceType=3' target="_blank">TransGaming Announces Final Subscription of Private Placement and Retains Market-Making Services</a><br />
+<div class="mw_release"> <p><strong>TORONTO, ONTARIO--(Marketwired - June 28, 2013) -</strong>
+</ul></div>
+
+	</div>
+<br />
+<a href="http://www.sgx.com/etf" target="_blank"><img src="images/sgx_etf_240x70.gif" border="0" /></a>
+<br />
+<br />
+
+<ul class="lineup"><li class="noarrow"><a href="http://www.bloomberg.com/" target="_blank"><img src="images/bloomberg_com.gif" alt="Bloomberg.com" border="0"></a></li>
+      <li class="noarrow"><a href="http://www.cnnmoney.com" target="_blank"><img src="images/cnnmoney.gif" border="0"></a></li>
+      <li class="noarrow"><a href="http://www.businessweek.com/"><img src="images/businessweek.gif" alt="Business  Week" border="0"></a></li></ul>
+<div id="sources" class="box boxbrdr">
+	<h2>Resources</h2>
+   <ul class="minicol">
+      <li><a href="http://www.ft.com/markets">FT.com - Markets </a></li>
+      <li><a href="http://www.economist.com">The Economist</a></li>
+      <li><a href="http://dealbook.blogs.nytimes.com">The New York Times - Deal Book</a></li>
+      <li><a href="http://www.reuters.com/finance/markets">Reuters </a></li>
+      <li><a href="http://uk.biz.yahoo.com/709/">AFX - UK Resources </a></li>
+      <li><a href="http://uk.biz.yahoo.com/710/">AFX - European Resources </a></li>
+      <li><a href="http://www.sharecast.com/">ShareCast </a></li>
+      <li><a href="http://uk.biz.yahoo.com/news/foolcouk.html">Fool.co.uk </a></li>
+
+      </ul>
+
+      <ul class="minicol">
+      <li><a href="http://online.wsj.com/home-page">The Wall Street Journal - Resources</a></li>
+      <li><a href="http://online.wsj.com/mdc/public/page/marketsdata.html">The Wall Street Journal - Market Data</a></li>
+      <li><a href="http://www.latinfinance.com/" target="_blank">Latin Finance</a></li>
+      <li><a href="http://www.feer.com" target="_blank">Far East Economic Review (FEER) </a></li>
+
+
+   </ul>
+  </div>
+
+</div><!--end col2-->
+
+<div id="col3">
+
+
+
+
+<div id="indexes_stock" class="box boxbrdr">
+<h2>World Stock Indexes</h2>
+<ul>
+  <li><a href="http://finance.yahoo.com/intlindices" rel="nofollow">Major
+World Indices - Yahoo! Finance</a> </li>
+  <li><a href="http://www.bloomberg.com/markets/stocks/wei.html"
+ rel="nofollow">Bloomberg.com: World Indices</a> </li>
+  <li><a href="http://finance.yahoo.com/intlindices?e=americas"
+ rel="nofollow">Yahoo! Finance page for Americas indexes</a>
+  </li>
+  <li><a  href="http://finance.yahoo.com/intlindices?e=europe"
+ rel="nofollow">Yahoo! Finance page for Europe indexes</a>
+  </li>
+  <li><a href="http://finance.yahoo.com/intlindices?e=asia"
+ rel="nofollow">Yahoo! Finance page for Asia/Pacific</a>
+  </li>
+  <li><a href="http://finance.yahoo.com/intlindices?e=africa"
+ rel="nofollow">Yahoo! Finance page for Africa/Middle East</a>
+  </li>
+  <li><a href="http://www.stockindex500.com/" rel="nofollow">World
+Stock Indices</a> </li>
+</ul>
+</div>
+
+
+
+	<div id="equity" class="box boxbrdr">
+	<h2>Equity Indexes</h2>
+	<ul>
+		<li><a href="http://www.standardandpoors.com/home/en/us" target="_blank">Standard &#38; Poor's</a></li>
+		<li><a href="http://www.nasdaq.com" target="_blank">NASDAQ</a></li>
+		<li><a href="http://www.dowjones.com" target="_blank">Dow Jones</a></li>
+		<li><a href="http://www.nni.nikkei.co.jp/" target="_blank">Nikkei</a></li>
+		<li><a href="http://www.mscibarra.com/" target="_blank">MSCI</a></li>
+		<li><a href="http://www.ftse.com/" target="_blank">FTSE</a></li>
+	</ul>
+	</div>
+
+   <div id="forex" class="box boxbrdr">
+   	<a href="http://www.forex.com" target="_blank"><img src="images/forexcom.gif" border="0" /></a>
+    </div>
+</div><!--end col3-->
+
+</div><!--end main-->
+
+<br class="clearfloat" />
+<div id="footer">All Rights Reserved.  Copyright &copy; 2009.</div>
+</div><!--end wrap-->
+</body>
+</html>

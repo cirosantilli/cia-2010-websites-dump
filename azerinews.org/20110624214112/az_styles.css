@@ -1,0 +1,63 @@
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family:Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px;
+	 background: #fff; color: #333333;}
+
+#wrap{position: relative; margin: 0px; padding: 0px; width: 800px; height: 100% auto; background: url(images/bkgrnd.jpg) repeat-y; border: 1px solid #333; }
+
+ul{margin: 0px; padding: 5px;}
+ul li{list-style: none; display: block; padding: 5px 0px; margin: 0px;}
+
+a{color: #0099CC; font-weight: bold; text-decoration: none;}
+a:hover{color: #FF9933;}
+
+img{border: none;}
+h1{color: #99CC00; font-size: 14px; font-weight: bold; padding: 5px 5px 0px 0px; margin: 0px;}
+h2{color: #0099CC; font-size: 12px; font-weight: bold; padding: 5px; margin: 0px 0px 3px 0px; text-transform: uppercase;}
+h3{color: #ffff33; font-size: 11px; font-weight: bold; padding: 0px 0px; margin: 0px 0px 5px 0px;}
+
+#nav{width: 800px; height: 25px; margin: 0px; padding: 0px; background: #333;}
+#nav ul{float: right; width: 650px; margin: 0px; padding: 5px 0px;}
+#nav img{border: none;}
+#nav ul li{display: inline; padding: 5px 12px; font-size: 12px; margin: 0px; text-align: right;}
+#nav ul li a{text-decoration: none; padding: 0px 0px 3px 0px; color: #fff; font-weight: bold; text-transform: uppercase;}
+#nav ul li a:hover{color: #FFFF66;}
+#nav li a#focus, #nav li a:active{color:#66FFFF;}
+
+#contentwrap{width: 800px; height: 100% auto; min-height: 650px; background: url(images/bkgrnd.jpg) repeat-y;}
+#main{float: left; width: 560px; height: 100% auto; margin: 0px; padding: 5px;  }
+#main h2{color: #333333; border-bottom: 1px solid #0099CC; text-transform: uppercase;width: 75%;}
+.box {background: url(images/boxbk.jpg) repeat-y; border: 1px solid #33ccff; padding: 10px; }
+.boxdark {background: url(images/boxbkdark.jpg) repeat-y; border: 1px solid #33ccff; padding: 10px; }
+.col1{float: left; width: 210px; height: 100% auto; margin: 10px 2px;}
+.col2{float: left; width: 210px;  height: 100% auto; margin: 10px 5px 10px 10px; }
+#sidebar {float: left; width: 225px; height: 750px; min-height: 650px; background: url(images/bkgrnd.jpg) repeat-y; color: #fff;}
+#sidebar h2{background:url(images/boxbkdark.jpg) repeat-y; color: #ffffff;}
+#sidebar li{ margin-right: 5px;}
+.sidecol{width: 200px; margin: 15px 5px 5px 8px; padding: 5px; border: 1px solid #FF9933;}
+.ltblue{background: url(images/sidebk.gif) repeat-y;}
+.ltblue h3{color: #333333;}
+.gray{border: 1px solid #666; background: #333;}
+.white{color: #fff;}
+#klublar ul li{display: inline; padding: 5px; width: 40px;}/* width makes all icons the same size*/
+.scroll{
+SCROLLBAR-FACE-COLOR: #ffffff; 
+SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+SCROLLBAR-SHADOW-COLOR: #ffffff; 
+SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+SCROLLBAR-ARROW-COLOR: #0099cc; 
+SCROLLBAR-TRACK-COLOR: #ffffff; 
+SCROLLBAR-DARKSHADOW-COLOR: #ffffff;}
+.scroll ul{width: 95%;}
+.scroll li a{color: #0099CC;}
+.rss-title{margin: 0px; padding: 0px 3px; color: #666; font-size: 10px;}
+ul#feedslist {padding: 5px;}
+ul#feedslist li{padding: 8px 0px; text-align: left;}
+ul#banners li{text-align: center;}
+#tv{float: left; width: 250px; height: 650px; overflow: auto;}
+#newspapers{float: right; width: 250px; height: 650px; overflow: auto;}
+#politics{width: 550px; height: 630px; overflow: auto;}
+#biznes{float: left; width: 250px; height: 650px; overflow: auto;}
+#economy{float: left; width: 250px; height: 650px; overflow: auto;}
+#society{width: 550px; height: 630px; overflow: auto;}
+#footer{width: 800px; text-align: center; color: #666; }

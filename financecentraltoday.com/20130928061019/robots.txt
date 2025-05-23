@@ -1,0 +1,2 @@
+User-agen:ia_archiver
+Disallow:/

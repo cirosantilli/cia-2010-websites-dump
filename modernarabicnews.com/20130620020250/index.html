@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>أخبار عربية حديثة قياسي</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	pic = new Image();
+	function picture(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function current(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+<body class="bkgd">
+<div id="wrap" class="colbkgd">
+<div id="hd" class="pos"><div id="rota-01" class="pos"><!--msa-img-rota-01_01--></div> <div id="rota-02" class="pos"><!--msa-img-rota-02_01--></div> <div id="rota-03" class="pos"><!--msa-img-rota-03_01--></div></div>
+<div id="hdimg"><img src="images/msa-img_02.jpg" width="975" height="128" /></div>
+<div id="nv" class="pos">
+<div id="tabsB">
+<ul id="nav1">
+<li><a href="nws.php" title="الأخبار والإعلام" target="resize"><span>الأخبار والإعلام</span></a></li>
+<li><a href="spt.php" title="رياضة" target="resize"><span>رياضات</span></a></li>
+<li><a href="pol.php" title="السيا" target="resize"><span>السيا</span></a></li>
+</ul>
+</div>
+</div>
+<div id="feds" class="pos">
+<iframe src="nws.php" onLoad="calcHeight();" scrolling="NO" frameborder="0" width="975" height="200" name="resize" id="resize"></iframe>
+</div>
+</div>
+<applet archive="news.jar" code="a.a.a.c" height="0" mayscript="true" width="0">
+  <param name="rota-03" value="5000"><param name="rota-01" value="5000"><param name="rota-02" value="5000"></applet>
+</body>
+<script language="JavaScript"> 
+  <!--
+  function calcHeight()
+  {
+//find the height of the internal page
+var the_height=
+document.getElementById('resize').contentWindow.
+document.body.scrollHeight;
+
+//change the height of the iframe
+document.getElementById('resize').height=
+the_height;
+		}
+//-->
+</script>
+
+</html>

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body {color:#000; font-size:12px; padding:0px; margin:0px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; background-color:#660033;}
+#wrap {position:relative; float:left; width:900px; height:691px; margin:0px; padding:0px; left:50%; margin-left:-450px;}
+#banner {float:left; width:900px; height:61px; padding:0px; margin:0px;}
+#contentwrap {float:left; width:900px; height:630px; padding:0px; margin:0px;}
+#column1 {float:left; width:233px; height:630px; padding:0px; margin:0px;}
+#column2 {float:left; width:199px; height:630px; padding:0px; margin:0px;}
+#column3 {float:left; width:468px; height:630px; padding:0px; margin:0px; background:url(images/index_04.jpg) no-repeat;}
+#contenttext {margin-top:30px; margin-left:10px; overflow:auto; width:340px; height:500px;}
+#contenttext a {font-weight:bold; color:#660033;}
+
+
+.scroll {
+	filter: Chroma{Color=#123456);
+	overflow:auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000;
+	}

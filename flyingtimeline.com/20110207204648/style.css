@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	font-size:10px;
+	background-image:url(images/timeline.jpg);
+	background-repeat:repeat-y;
+	background-position:492px top;
+	z-index:1;
+	}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 493px;
+	height:150px;
+	background-image:url(images/title.jpg);
+	z-index:1;
+	}
+
+#fly1 {
+	position: absolute;
+	top: 0px;
+	left: 560px;
+	width: 147px;
+	height:97px;
+	background-image:url(images/rot/img1.jpg);
+	z-index:3;
+	}
+
+#fly2 {
+	position: absolute;
+	top: 3900px;
+	left: 560px;
+	width: 147px;
+	height:98px;
+	background-image:url(images/rot/img7.jpg);
+	z-index:3;
+	}
+	
+#navigation {
+	position: absolute;
+	top: 128px;
+	font: 12px, 'Lucida Grande', Arial, sans-serif;
+	line-height:20px;
+	left: -3px;
+	width: 500px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	z-index:4;
+	color:#000;
+	}	
+	
+#timeline {
+	position: absolute;
+	top: 155px;
+	left: 505px;
+	width:250px;
+	z-index:2;
+	}	
+
+#timeline2 {
+	position: absolute;
+	top: 0px;
+	left: 735px;
+	width:250px;
+	z-index:2;
+	}
+	
+#frame {
+	position: absolute;
+	top: 155px;
+	left: 0px;
+	width:482px;
+	height:1024px;
+	z-index:3;
+	}
+/**********************************************baseline format**********************************/
+
+#timeline h3, #timeline2 h3{
+	font-size:12px;
+	line-height:12px;
+	text-indent:5px;
+	}
+
+
+#timeline h4, #timeline2 h4{
+	font-size:12px;
+	line-height:12px;
+	text-indent:52px;
+	}	
+
+
+a:link{
+	list-style:none;
+	text-decoration:none;
+	color:#000;
+}
+
+a:visited{
+	
+	text-decoration:none;
+	color:#000;
+	}
+
+a:hover{
+	text-decoration:none;
+	color:#000;
+	}
+
+a:active{
+	text-decoration:none;
+	color:#000;
+	}
+
+ul {
+	list-style:none;
+	margin:0; 
+	padding:0; 
+	border:0;
+	}
+
+li {
+	margin:0px 0px 0px 50px; 
+	padding:0; 
+	color:#000;
+	}
+
+#navigation li {
+	margin:0px; 
+	padding:0; 
+	color:#000;
+	display:inline;
+	}
+	
+li a{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	color:#000;
+	text-decoration:underline;
+	}
+
+
+/*scroll bar and formatting for links and feeds 
+---------------------------------------------------------------*/
+
+
+.scroll {
+	position: absolute;
+	filter:  Chroma(Color=#123456);
+	scrollbar-face-color: #123456;
+	scrollbar-shadow-color: #123456;
+	scrollbar-highlight-color: #123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color: #123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color:#393737;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+	
+.format{
+	width:482px;
+	height:4000px;
+	list-style:none;
+	overflow:auto;
+	font:10px, 'Lucida Grande',  Arial, sans-serif;
+	padding: 0px;
+	color:#000;
+	line-height: 1.5em;
+	}

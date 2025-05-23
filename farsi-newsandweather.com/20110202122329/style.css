@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* Farsi news and weather CSS Document */
+
+* { padding: 0; margin: 0;}
+
+body {background: #fffcdf; font-size: 16px;}
+#wrap {position: relative; width: 800px; height: 100% auto; margin-right: -400px; right: 50%; border: 1px solid #eadb4d;}
+#banner {width: 768px; height: 181px; margin: 0px 16px; padding: 0px;}
+
+#loginbox {width: 190px; height: 75px; padding: 50px 0 0 0px; float: left; background: #f4e97e;}
+
+ul{margin: 0px; padding: 0px;}
+li{list-style: none; padding: 0px; color:#6e9111;}
+li a{color: #6e9111; text-decoration: none; padding: 5px 0px;  }
+li a:hover{text-decoration: underline;}
+
+#content_wrap {width: 768px; height: 623px; margin: 0px 16px; padding: 0px; background: #fffcdf;}
+#left_col {width:324px; height: 603px; margin: 0px; padding: 0px;  background: #f8f1ae; float: left;}
+#mid_col {width:254px; height: 603px; margin: 0px; padding: 0px; background: url('images/bkimg.jpg') no-repeat; float: left;}
+#right_col {width:190px; height: 603px; margin: 0px; padding: 0px; background: #f4e97e; float: right;}
+
+
+
+/*LEFT NAGIVATION*/ 
+
+ul#navlist {width: 165px; height: 100% auto; margin: 0px; padding: 0 18px 0 0px; list-style: none;}
+#navlist li{list-style: none; margin: 0px; border-left: 0px #638d08 solid; border-bottom: 1px #638d08 solid; text-align: right;}
+#navlist li a{display: block; padding: 7px 5px 7px 9px; text-decoration: none; color: #7aae09;font-weight:bold; }
+#navlist li a:visited {color: #7aae09;} 
+#navlist li a:hover{font-weight:none; text-align: right; color: #7aae09; background: #fffcdf; border-right: 8px #638d08 solid;}
+
+
+.smbox { }
+.smbox .text {margin:9px; padding: 7px; overflow: auto;}
+.smbox .brdr { border-bottom: 2px dotted #638d08;}
+
+
+/*Large Box  Style*/
+.lgbox {background: #f8f1ae; height: 603px;}
+.lgbox .text {padding: 7px; overflow: auto;}
+
+
+
+
+.scroll {scrollbar-3dlight-color:#f8f1ae;
+	scrollbar-arrow-color:#638d08;
+	scrollbar-base-color:#f4e97e; 
+	scrollbar-darkshadow-color:#f8f1ae;
+	scrollbar-face-color:#f8f1ae;
+	scrollbar-highlight-color:#f8f1ae; 
+	scrollbar-shadow-color:#f8f1ae;}
+	
+/* begin styles for RSS Feed */
+
+.rss-box {}
+.rss-items {margin-top:0px;	padding:0.5em 0.5em;	margin-left:0px;	color:#368d08;}
+p.rss-title {padding:0.5em;}
+.rss-title {text-decoration: none; font-size: 14px; color:#333;	font-weight:bold;	margin: 0px;	padding:0;}
+
+.rss-item  {  font-size:14px;   list-style:none;  padding-bottom:1em;}
+
+.rss-item a {text-decoration:none;	font-weight: bold; color:#368d08; font-size: 16px;}
+	
+.rss-item a:visited {color:#368d08;}
+
+.rss-date {	font-size: 85%;	font-weight : normal;	color: #F60;	}
+ 
+	

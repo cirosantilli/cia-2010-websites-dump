@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0; padding: 0; font-family: "Times New Roman", Times, serif; }
+
+#wrapper { margin: auto; padding: 0; position: relative; width: 900px; height: 100%; }
+
+#header { margin: 0; padding: 0; float: left; width: 900px; }
+
+#news { width: 646px; height: 900px; float: left; margin: 0; padding: 0; background-image: url(images/template_02.gif); background-repeat: no-repeat; }
+
+#menu { width: 254px; height: 900px; float: left; margin: 0; padding: 0; }
+
+#menu_ads img.ad { border: 1px solid #EEE; margin: 20px 40px 10px 0px; padding: 0; }
+
+#menu_ads img.sm_ad { border: 1px solid #EEE; margin: 20px 50px 10px 0px; padding: 0; }
+
+#menu_ads img.sm_ad2 { border: 1px solid #EEE; margin: 20px 65px 10px 0px; padding: 0; }
+
+#news_wrapper { width: 646px; height: 700px; margin: 0; padding: 0; background-image: url(images/template_02.gif); background-repeat: no-repeat; }
+
+#links { width: 225px; height: 700px; margin: 0; padding: 0; float: left; }
+
+#links ul { margin: 0; padding: 0; }
+
+#links li { margin: 5px; padding: 0; list-style-type: none; }
+
+#links a:link, #links a:visited, #footer a:link, #footer a:visited { color: #000; text-decoration: none; font-weight: bold; }
+
+#links a:hover, #footer a:hover { color: #F00; }
+
+#side_news { margin: 2px; border-top: 1px solid #EEE; }
+
+#feed { width: 415px; height: 900px; margin: 0; padding: 0; float: left;  border-left: 2px solid red; background-color: #EEE; }
+
+#feed ul { margin: 0; padding: 0; }
+
+#feed li { margin: 8px; padding: 0; list-style-type: none; }
+
+#feed a:link, #feed a:visited { color: #000; text-decoration: none; font-weight: bold; }
+
+#feed a:hover { color: #F00; }
+
+#feed .rss-title { margin: 8px; padding: 3px; background-color: #3091ce;  }
+
+#feed .rss-title a { color: #FFF; }
+
+#clear { clear:both; }
+
+#footer { width: 894px; height: 25px; border-top: 2px solid red; color: #000; text-align: center; padding: 3px; }
+
+#login { float: left; width: 898px; height: 600px; background-color: #EEE; margin: 0; padding: 0; border-left: 2px solid red;  }
+
+#applet { margin: 15px; padding: 0; }

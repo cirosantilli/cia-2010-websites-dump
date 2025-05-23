@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#FFF; font-size:14px;} /*row & description of link*/
+li a {text-decoration: none; color: #c49411; font-size:16px; font-weight:600;} /*link*/
+li a:hover {color:#c49411; text-decoration: underline;}
+
+#wrap {float:left; width:850px; height:1500px;}
+
+#header-1 {float:left; width:850px; height:80px;}
+
+#header-2-whole {float:left; width:850px; height:97px;}
+#header-2-left {float:left; width:173px; height:97px;}
+#header-2-mid {float:left; width:117px; height:97px; background:url(images/arabic_08.jpg) no-repeat;}
+#header-2-right {float:left; width:560px; height:97px;}
+
+#header-3 {float:left; width:850px; height:46px;}
+
+#header-4-whole {float:left; width:850px; height:60px;}
+#header-4-left {float:left; width:765px; height:60px;}
+#header-4-center {float:left; width:70px; height:60px; background:url(images/arabic_25.jpg) no-repeat;}
+#header-4-right {float:left; width:15px; height:60px;}
+
+#nav {float:left; width:850px; height:55px; background:url(images/arabic_27.jpg) no-repeat;}
+
+#col-left-whole {float:left; width:210px; height:572px;}
+
+#col-left-1 {float:left; width:210px; height:365px;}
+
+#col-left-2-whole {float:left; width:210px; height:89px;}
+#col-left-2-left {float:left; width:26px; height:89px; background:url(images/arabic_31.jpg) no-repeat;}
+#col-left-2-mid {float:left; width:160px; height:89px; background:url(images/arabic_32.jpg) no-repeat;}
+#col-left-2-right {float:left; width:24px; height:89px; background:url(images/arabic_33.jpg) no-repeat;}
+
+#col-left-3 {float:left; width:210px; height:28px; background:url(images/arabic_34.jpg) no-repeat;}
+
+#col-left-4-whole {float:left; width:210px; height:60px;}
+#col-left-4-left {float:left; width:31px; height:60px; background:url(images/arabic_35.jpg) no-repeat;}
+#col-left-4-mid {float:left; width:150px; height:60px; background:url(images/arabic_36.jpg) no-repeat;}
+#col-left-4-right {float:left; width:29px; height:60px; background:url(images/arabic_37.jpg) no-repeat;}
+
+#col-left-5 {float:left; width:210px; height:30px;; background:url(images/arabic_38.jpg) no-repeat;}
+
+#col-mid {float:left; width:430px; height:572px; background:url(images/arabic_29.jpg) no-repeat;}
+.box-mid {width: 415px; height: 534px; margin: 20px 7px 0 0; padding: 0; overflow: auto; float: right; display:inline;}
+
+#col-right {float:left; width:210px; height:572px; background:url(images/arabic_30.jpg) no-repeat;}
+.box-right {width: 180px; height: 534px; margin: 20px 17px 0 0; padding: 0; overflow: auto; float: right; display:inline;}
+
+#col-bottom-left {float:left; width:283px; height:590px; background:url(images/arabic_39.jpg) no-repeat;}
+#col-bottom-left-text {float:right; width:258px; height:510px; margin:60px 10px 0 0; display:inline; overflow:auto; visibility:visible;}
+
+#col-bottom-mid {float:left; width:284px; height:590px; background:url(images/arabic_40.jpg) no-repeat;}
+#col-bottom-mid-text {float:right; width:257px; height:510px; margin:60px 14px 0 0; display:inline; overflow:auto; visibility:visible;}
+
+#col-bottom-right {float:left; width:283px; height:590px; background:url(images/arabic_41.jpg) no-repeat;}
+#col-bottom-right-text {float:right; width:258px; height:510px; margin:60px 16px 0 0; display:inline; overflow:auto; visibility:visible;}
+
+
+
+ #tabs {
+      float:right;
+      width:850px;
+      font-size:14px;
+      line-height:normal;
+      }
+    #tabs ul {
+	margin:0;
+	padding:13px 50px 0 0px;
+	list-style:none;
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:right;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs a span {
+      float:right;
+      display:block;
+      padding:5px 110px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#FFF;
+	  text-decoration:underline;
+      }
+
+
+
+#menu8 {
+	width: 178px;
+	margin-top: 10px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 36px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #FFF;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 0px;
+	}
+	
+#menu8 li a:hover {
+	color: #FFF;
+	padding: 8px 0 0 0px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #FFF;
+	padding: 8px 0 0 0px;
+	text-decoration:underline;
+	}

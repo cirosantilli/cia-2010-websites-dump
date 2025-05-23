@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#3364ca; font-size:12px;} /*row & description of link*/
+li a {text-decoration: none; color: #214287; font-size:14px; font-weight:600;} /*link*/
+li a:hover {color:#214287; text-decoration: underline;}
+
+#wrap {float:left; width:850px; height:930px;}
+
+#header {float:left; width:850px; height:69px;}
+
+#nav-whole {float:left; width:850px; height:33px;}
+#nav-left {float:left; width:227px; height:33px; background:url(images/newsite_04.jpg) no-repeat;}
+#nav-mid {float:left; width:344px; height:33px; background:url(images/newsite_05.jpg) no-repeat;}
+#nav-right {float:left; width:279px; height:33px; background:url(images/newsite_06.jpg) no-repeat;}
+
+#col-1-whole {float:left; width:223px; height:665px;}
+#col-1-top {float:left; width:223px; height:175px;}
+#col-1-bottom {float:left; width:223px; height:480px; background:url(images/newsite_13.jpg) no-repeat;}
+
+#col-2 {float:left; width:431px; height:655px; background:url(images/newsite_08.jpg) no-repeat;}
+.box-top {width: 416px; height: 30px; margin: 40px 0px 0 15px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible;}
+
+.eggo {font-size:16px; color:#214287; text-decoration:underline;}
+
+.box-bottom {width: 386px; height: 565px; margin: 15px 0px 0 15px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible;}
+
+
+#col-3-whole {float:left; width:196px; height:655px;}
+#col-3-top {float:left; width:196px; height:126px;}
+#col-3-bottom {float:left; width:196px; height:529px; background:url(images/newsite_12.jpg) no-repeat;}
+#col-3-bottom-text {float:left; width:177px; height:481px; margin:10px 0 0 19px; display:inline; visibility:visible; overflow:auto;}
+
+#bottom-whole {float:left; width:850px; height:143px;}
+
+#bottom-left {float:left; width:567px; height:143px;} 
+
+#bottom-right-whole {float:left; width:283px; height:143px;}
+
+#bottom-right-left {float:left; width:24px; height:85px; background:url(images/newsite_18.jpg) no-repeat;}
+#bottom-right-center {float:left; width:138px; height:85px; background:url(images/newsite_19.jpg) no-repeat;}
+#bottom-right-center-two {float:left; width:138px; height:85px; }
+#bottom-right-right {float:left; width:121px; height:85px; background:url(images/newsite_20.jpg) no-repeat;}
+
+#bottom-right-bottom {float:left; width:283px; height:58px; background:url(images/newsite_21.jpg) no-repeat;}
+
+#foot {float:left; width:850px; height:30px; background:url(images/Untitled-1.jpg) no-repeat;}
+
+
+#menu8 {
+	width: 213px;
+	margin: 10px 0 0 7px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #4d515a;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu8 li a:hover {
+	color: #4d515a;
+	text-decoration:underline;
+	padding: 8px 0 0 25px;
+	}
+	
+#menu8 li a:active {
+	color: #4d515a;
+	text-decoration:underline;
+	padding: 8px 0 0 25px;
+	}
+	
+	
+	
+	
+	 #tabsB {
+      float:left;
+      width:344px%;
+      font-size:12px;
+      line-height:normal;
+      }
+    #tabsB ul {
+	margin:0;
+	padding:5px 5px 0 20px;
+	list-style:none;
+      }
+    #tabsB li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsB a {
+      float:left;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsB a span {
+      float:left;
+      display:block;
+      padding:5px 15px 4px 6px;
+      color:#6386dd;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsB a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsB a:hover span {
+      color:#3660c6;
+	  text-decoration:underline;
+      }
+	
+

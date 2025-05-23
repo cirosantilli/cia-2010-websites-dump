@@ -1,0 +1,202 @@
+/* CSS Document */
+
+body {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-image:url(images/bkgd_01.jpg);
+	background-position:center;
+	background-repeat:repeat-y;
+	}
+	
+h1 {font-size: 12px; font-weight: bold; color:#000;  }
+h2 {font-size: 10px; font-weight: bold; text-transform: uppercase;color:#099;  margin:6px 0px -2px 0px;}
+ 
+a:link {  text-decoration:underline; font-weight:normal; color:#6CC; }
+a:visited {	text-decoration:underline; font-weight:normal; color:#6CC; }
+a:hover { text-decoration:none; font-weight:normal; color:#069;}
+a:active { text-decoration: underline; font-weight:normal; color:#ccc;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:5px 0px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+img{border: 0px;}
+
+#headers {float:left;
+	width:100% auto;
+	height:100% auto;
+	font-size: 15px; 
+	font-weight:normal; 
+	padding: 0px;
+	margin: 6px 0px -2px 6px;
+	color:#C63;
+	} 
+
+.scroll {
+	scrollbar-face-color:#FFF;
+	scrollbar-shadow-color:#FFF;
+	scrollbar-highlight-color:#FFF;
+	scrollbar-3dlight-color:#FFF;
+	scrollbar-darkshadow-color:#FFF;
+	scrollbar-track-color:#FFF; 
+	scrollbar-arrow-color: #6f7f9b;
+		}
+
+/* wrap defines the size of the website.  The left margin is half the size of the website (ie: 800px)*/
+#wrap {position:relative;
+     width:920px; 
+	 height:1010px; 
+	 left:50%; 
+	 margin:0px 0px 0px -460px;
+	 background-color:#FFFFFF;
+     }
+
+#topbanner {float: left;
+     width:920px; 
+	 height:85px; 
+	 margin:0px; 
+	 padding:0px; 
+	 border:0px;
+	  }
+
+#subbanner 	{float: left; 
+	width:920px; 
+	height:201px; 
+	margin:0px; 
+	padding:0px; 
+	border:0px; 
+	}
+		
+#navigation1{ float:left; 
+	width: 920px; 
+	height:56px; 
+	margin: 0px; 
+	padding: 0px; 
+	border:0px; 
+	background-image:url(images/nav_bkgd.jpg);
+	background-repeat:no-repeat;
+	}
+
+ul#nav1{margin: 20px 0px 0px 0px; text-align:left; }
+ul#nav1 li{display:inline;}
+ul#nav1 li a{padding:10px 15px; height:32px; margin-right:1px; font-size: 11px; text-decoration:none; font-weight:normal; background-color:#4591aa; letter-spacing:.1em; color:#fff;}
+ul#nav1 li a:hover {color:#2df7f7;}
+
+
+#search {float:right; width:400px; height: 56px; margin-right:10px; padding:0px; text-align:center;}
+
+.box{
+	padding: 6px;
+	border:1px solid #ccc;
+	} 
+
+/* maincontent defines the size of the main content below the banner*/
+#maincontent{
+	  float:left;
+      width:920px;
+	  height:665px;
+	  margin:0px; 
+	  padding:0px; 
+	  border:0px;
+	  background-color:#FFFFFF;
+	  }	
+
+#sidebar{float: left;
+     width:166px; 
+	 height:665px; 
+	 margin: 0px;
+	 padding:0px;
+	 background-color:#f0f1eb;
+	  }	  
+	  
+.navigation2 { width:166px; margin:0px; padding: 0px; text-align:left; font-size:12px;}
+.navigation2 li{border-bottom: 1px solid #fff;  background-color: #fff; margin: 0px; padding: 0px;}
+.navigation2 li a {display: block; height:20px; background-color:#f0f1eb; color:#006699; font-size: 11px; padding: 0 0 0 15px; text-decoration: none;}
+.navigation2 li a:visited {background-color: #f0f1eb; color:#666; }
+.navigation2 li a:hover{background-color:#c1bab2; color:#3399cc; text-decoration:none; }
+
+.navigation3 { width:166px; margin-bottom:10px; padding: 0px; text-align:left; font-size:12px;}
+.navigation3 li{border-bottom: 1px solid #fff;  background-color: #fff; margin: 0px; padding: 0px;}
+.navigation3 li a {display: block; height:20px; background-color:#e7e7e0; color:#006699; font-size: 11px; padding: 0 0 0 15px; text-decoration: none;}
+.navigation3 li a:visited {background-color: #e7e7e0; color:#666; }
+.navigation3 li a:hover{background-color:#c1bab2; color:#3399cc; text-decoration:none; }
+	  
+
+/* Defines the size of the iframe*/	
+#info{float:right;
+	width:754px;
+	height: 665px; 
+	padding: 0px;
+	margin: 0px;
+	background-color:#fff;
+	}
+	
+/* Defines the size of the three columns in iframe*/
+#column1 {
+	float:left;
+	width:260px;
+	height: 665px;
+	padding: 0px;
+	margin: 0px 10px 0px 6px;
+	}
+	
+#news {
+	float:left;
+	width:260px;
+	height: 640px;
+	padding: 0px;
+	margin: 0px 5px 0px 6px;
+	overflow:auto;
+	}	
+#news img {padding:0px 3px;}	
+	
+#column2 {
+	float:left;
+	width:250px;
+	height: 665px;
+	padding: 0px;
+	margin: 0px 0px 0px 6px;
+	 }
+#links {
+	float:left;
+	width:250px;
+	height: 640px;
+	padding: 0px;
+	margin: 0px 0px 0px 6px;
+	overflow:auto;
+	}
+	
+#column3{float:right;
+	width:162px;
+	height:665px;  
+	padding: 0px;
+	margin: 0px 2px 0px 0px;
+	  } 
+	  
+#features{float:left;
+	width:160px;
+	height:100% auto;  
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	  }
+#features li  {border-bottom:1px dotted #996; padding:15px 0px;}	 
+
+#feeds{float:left;
+	width:160px;
+	height:100% auto;  
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	  }
+	  
+#footer{clear:both;
+      width:920px;
+	  height:15px;
+	  margin:0px; 
+	  padding:0px; 
+	  border:0px;
+	  background-color:#9e8e7d;
+	  }	
+	   
+

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin: 0; padding: 0; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 12px; color: #fff; background: #0c151b; }
+
+#wrap {position: relative; width:1020px; height: auto; margin-left: -520px; left: 50%;}
+#corner {width: 480px; height: 548px; margin: 0; padding: 0; float: left;}
+#bbsblogo {width: 290px; height: 327px; margin: 0; padding: 0; float:left;}
+#navigation {width: 150px; height: auto; margin: 60px 0 0 30px; float: left;}
+#navigation ul {margin: 0; padding: 0; list-style:none;}
+#navigation li {margin: 8px; padding: 3px; border-bottom: 1px solid #b70f12;}
+#navigation li a{color: #fff; text-decoration: none;}
+
+ul {margin: 0 7px; padding: 0; list-style: none;}
+li {dispaly: block; margin: 2px 0;}
+li a {text-decoration: none; color: #b70f12;}
+
+
+.feed-list {
+margin: 0 0 15px 15px;
+padding: 0;
+list-style-type: none;
+}
+
+.feed-list li {
+margin: 0 0 10px 0;
+padding: 0;
+list-style-type: none;
+}
+
+.feed-list li a {
+padding: 0 0 0 19px;
+background: url("images/02.gif") no-repeat 0 50%;
+list-style-type: none;
+color: #fff;
+} 
+
+
+
+#ads {}
+#ads li {padding: 3px; }
+
+h1 {margin: 0 0 5px 5px; font-size: 16px; font-weight: bold; color: #b70f12;}
+.floatl {float: left;}
+.floatr {float: right;}
+
+img {border: none;}
+.brdr {border: 1px solid #b70f12;}
+.m {margin: 10px;}
+.ml {margin: 0 0 0 10px;}
+.mr {margin: 0 10px 0 0;}
+.mlr {margin: 0 10px;}
+.mtb {margin: 10px 0;}
+
+/**16 Column**/
+
+.box2_1 {width: 40px; padding: 0; _display: inline;}
+.box2_2 {width:100px; padding: 0; _display: inline;}
+.box2_3 {width:160px; padding: 0; _display: inline;}
+.box2_4 {width:220px; padding: 0; _display: inline;}
+.box2_5 {width:280px; padding: 0; _display: inline;}
+.box2_6 {width:340px; padding: 0; _display: inline;}
+.box2_7 {width:230px; padding: 0; _display: inline;}
+.box2_8 {width:460px; padding: 0; _display: inline;}
+.box2_9 {width:520px; padding: 0; _display: inline;}
+.box2_10 {width:580px; padding: 0; _display: inline;}
+.box2_11 {width:640px; padding: 0; _display: inline;}
+.box2_12 {width:700px; padding: 0; _display: inline;}
+.box2_13 {width:760px; padding: 0; _display: inline;}
+.box2_14 {width:820px; padding: 0; _display: inline;}
+.box2_15 {width:880px; padding: 0; _display: inline;}
+.box2_16 {width:940px; padding: 0; _display: inline;}

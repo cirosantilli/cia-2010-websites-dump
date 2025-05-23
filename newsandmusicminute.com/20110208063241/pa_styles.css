@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; background: #333; font-family: Pokhto,"Times New Roman","Pashto Kror Asiatype",sans-serif,"Microsoft sans serif",Tahoma; font-size: 14px;}
+
+#wrap{position: relative; margin: 0px; padding: 0px; width: 760px; height: 100% auto; background: #336699 url(images/bkgrnd.jpg) repeat-y; right: 50%; margin-right: -380px;}
+
+#mainside{float: left; width: 513px; height: 100% auto; background: #fff url(images/mainbkgrnd.jpg) repeat-y; }
+
+#header{float: left; width: 513px; height: 145px; margin: 0px; padding: 0px; background: #333; }
+
+#sidebar{float: right; width: 247px; height: 900px; background: #336699;}
+
+#main{float: left; width: 513px; height: 900px; min-height: 500px; margin: 0px; padding: 0px; background: url(images/main_top.jpg) no-repeat;}
+
+a{font-weight: bold; color: #333; text-decoration: none; }
+a:hover{border-bottom: 1px solid #FF9900;}
+
+#sidebar img.a, #sidebar img.a:hover{border: none;}
+
+ul{list-style:none; margin: 0px; padding: 0px;}
+li{display: block; padding: 3px;}
+h2{margin-right: 10px;}
+h3, .rss-title{ font-size: 14px; color: #99CC00; margin: 0px 10px 0px 0px; padding: 0px;}
+
+ul#nav {margin-top: 30px; margin-right: 50px;}
+ul#nav li{display: inline; padding: 0px 10px; border: none; }
+ul#nav li a{border-bottom: 3px solid #fff;margin: 0px; padding: 0px;}
+ul#nav li a:hover{border-bottom: 3px solid #99CC00;}
+ul#nav li a:active, ul#nav li a.focus{border-bottom: 3px solid #0099CC;}
+
+#sidebar ul li{width: 230px; margin-right: 10px; padding: 2px 0px;}
+#sidelinks {float: right; width: 247px; height: 197px; margin: 0px; background: url(images/sidebk.jpg) top no-repeat;}
+#news{margin: 10px; width: 470px; height: 520px; padding: 5px; }
+iframe{margin-right: 20px;}
+#ads{ float: left; width: 513px; height: 100% auto; margin: 0px; padding: 0px; background: url(images/bkgrnd.jpg) repeat-y;}
+.adcenter{text-align: center;}
+.clearfloat {font-size: 1px; line-height: 0px; clear: both; height: 0px;}
+.scroll{background: #fff;}
+#footer{float: left; width: 760px; height: 20px; text-align: center; background: url(images/bkgrnd.jpg) repeat-y; border-bottom: 1px solid #369;}
+
+
+
+

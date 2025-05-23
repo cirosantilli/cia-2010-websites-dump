@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--[if IE 6]> <link href="swimstyleie6.css" rel="stylesheet" type="text/css"> <![endif]-->
+<link href="swimstyle.css" rel="stylesheet" type="text/css">
+<title>Tips &amp; Techniques</title>
+</head>
+
+<body>
+<div id="content_center">
+<div id="colum_left"></div>
+<div id="column1" class="box box_scroll">
+<H1>Tips &amp; Techniques</H1>
+<ul>
+<li><a href="http://swimming.about.com/od/freeandback/Freestyle_and_Backstroke_Technique_Tips.htm" target="newwindow">Freestyle and Backstroke Technique Tips</a> Freestyle and backstroke are referred to the long-axis strokes, as you are rotating on the long-axis of your body while swimming these two strokes. These tips will help you become a faster, more efficient swimmer.
+<li><img src="images/photo_time.jpg" width="125" height="144" vspace="3" align="right" /><a href="http://www.mamashealth.com/swim/tips.asp" target="newwindow">Improve your swimming form and speed</a> Simple, easy tips to improve your swimming form and speed. ... Once you begin to do things the techniques the same way, they will become automatic.
+<li><a href="http://www.associatedcontent.com/article/1624614/swimming_techniques_and_tips.html?cat=50" target="newwindow">Swimming Techniques and Tips - Associated Content</a> Learn swimming as a fun-filled activity combining it with aerobic workout and muscle development.
+<li><a href="http://www.swim-teach.com/" target="newwindow">swim-teach.com/</a> The Number 1 Resource to Learn and Perfect Your Swimming Strokes. Detailed swimming exercises for improving swimming strokes and technique, with guidlines for beginners on swimming basics.
+<li><a href="http://www.ehow.com/video_4459076_backstroke-breathing-techniques.html" target="newwindow">Backstroke Breathing Techniques</a>  Taking breaths when swimming the backstroke is easier than breathing in other strokes, because your face will be out of the water. Learn breathing techniques for the backstroke in this free swimming lesson on video.
+<li><a href="http://www.wonderhowto.com/how-to-swimming-techniques/" target="newwindow">Wonder How To: Swimming Techniques</a> Watch swimming techniques tutorials to learn all about how to swimming techniques with this collection of free how to videos.
+<li><a href="http://en.wikipedia.org/wiki/Breaststroke" target="newwindow">Breaststroke Techniques</a> Detailed discussion of swimming techniques and speeds.
+<li><a href="http://www.talkswimming.co.uk/guides/swimming_strokes.html" target="newwindow">Learn all the swimming strokes</a> There are a number of swimming styles that have been developed which depend upon the position of the swimmer to the water.
+</ul>
+</div>
+<div id="column2"><img src="images/index_05.jpg" width="262" height="184" /><div id="content" class="box">
+  <h4>Latest Swimming Information</h4>
+<ul>
+  <li><a href="http://www.swimnews.com/news/rssfeed" target="newwindow">Worldwide Swimming News from SwimNews.com</a></li>
+  <li><a href="http://www.usaswimming.org/RSS/YourRSSFile.xml" target="newwindow">USA Swim News</a></li>
+  <li><a href="http://www.swimmersworld.com/news/rssfeed" target="newwindow">Swimmers World.com</a></li>
+  <li><a href="http://www.swim.com/news/rss.xml" target="newwindow">Top Stories from Swim.com </a></li>
+</ul>
+</div></div>
+
+<div id="column3" class="box box_scroll">
+<h1>Books &amp; Videos </h1>
+<ul>
+<li><img src="images/cover_open.jpg" width="75" height="110" align="left" /><a href="http://www.amazon.com/Open-Water-Swimming-Skills-Techniques/dp/B000ESZIRI" target="newwindow">Open Water Swimming: Skills, Techniques, and Racing Tips</a> Open water swimming can be one of the most exhilerating and spectacular experiences. Or...it can be an intimidating and fearful one. What you do in preparation for open water swimming can have a big effect on how enjoyable your experience will be.
+<li><img src="images/cover_freestyle.jpg" width="75" height="101" vspace="3" align="left" /><a href="http://www.amazon.com/Freestyle-Made-Easy-Terry-Laughlin/dp/B000FDK78W/ref=pd_cp_d_2" target="newwindow">Easy Freestyle Swimming by Terry Laughlin (2008)</a> The methods in Freestyle:Made Easy have been proven to simplify the improvement process more than any other. Swim easier, farther, and faster.
+<li>Lesson One Cooperate with Gravity: Cleverly use gravity to achieve a sense of support, comfort and confidence.</li>
+<li>Lesson Two The Past of Least Resistance: Minimize energy cost by learning fish-like body positions and profiles. </li>
+<li>Lesson Three Swim with your Body: Use weight shifts, instead of fatigue-prone arms and legs to spear your body through the water.</li>
+<li>Lesson Four Perpetual Motion Propulsion: Connect powerful, effortless hip drive to your stroke and kick for maximal speed with minimal fatigue.</li>
+<li>Lesson Five Relax you Recovery: Use a compact, relaxed recovery to channel energy and power where they do the most good.</li>
+<li>Lesson Six Seamless Breathing: Breathing skills that get your muscles the oxygen they need and make your stroke more powerful and effective.</li>
+<li>Lesson Seven Turns that Save Energy and Time: All the details for the easy and airy open turn, and a flip turn that s faster and easier than ever.</li>
+<li>Lesson Eight The Secrets of Speed: The fool-proof way to convert an efficient stroke into more speed. </li>
+<li>
+<li><img src="images/cover_totalimmers.jpg" width="75" height="93" align="left" /><a href="http://www.amazon.com/Total-Immersion-Revolutionary-Better-Faster/dp/0743253434/ref=pd_bxgy_d_img_b" target="newwindow">Total Immersion: The Revolutionary Way To Swim Better, Faster, and Easier</a> Masters swimmer and acclaimed coach Terry Laughlin has taught thousands to swim more efficiently in the workshops he has given across the United States. In his book Laughlin details simple, step-by-step drills emphasizing the importance of technique and an innovative workout regimen.
+<li><img src="images/cover_triathlon.jpg" width="75" height="112" align="left" /><a href="http://www.amazon.com/Triathlon-Swimming-Made-Easy-Open-Water/dp/1931009074/ref=pd_cp_d_3" target="newwindow">Triathlon Swimming Made Easy: The Total Immersion Way for Anyone to Master Open-Water Swimming</a> A clear and practical guide to swimming freestyle better than you ever thought possible. Not only to swim well enough to breeze through a triathlon swim leg with ease and confidence, but to reach a Nirvana where the swim is your favorite part.<br />
+</li>
+<li></li>
+</ul>
+</div>
+
+</div>
+</body>
+</html>

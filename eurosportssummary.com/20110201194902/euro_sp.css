@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family:"Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;  font-size: 12px; color: #000; font-weight: normal; background: #000;}
+
+#wrap{position: relative; width: 935px; height: 100% auto; margin: 0 0 0 -465px; padding: 0; left: 50%; background: url(images/bkgrnd.jpg) repeat-y;}
+
+#header{ float: left; width: 935px; height: 139px; margin: 0; padding: 0; }
+#content{clear: both; width: 930px; height: 100% auto; min-height: 500px;}
+
+
+h2{ letter-spacing: .2em; margin-top: 10px; padding: 2px; font-size: 16px; color: #006699; /*text-transform: uppercase;*/ font-weight: normal; font-family: Georgia, Times New Roman, Times, serif;}
+h3{color:#000;  padding: 3px; font-size: 12px; text-transform: uppercase; font-family: Georgia, Times New Roman, Times, serif; border-top: 2px solid #FC0; font-weight: normal;}
+
+a{color: #090; font-weight: normal; text-decoration: underline;}   /* #009900 #66cc00 green */  /*0066CC #0099FF bright blue */
+a:hover{color: #fc0; font-weight: normal;}
+a img {border: none;}
+
+#banner1{float: left; width: 219px; height: 139px; background: url(images/banner1.jpg) left no-repeat;}
+#nav_container{float: left; width: 469px; height: 139px; background: url(images/nav_top.jpg) top no-repeat;}
+#nav{width: 469px; height: 69px; background: url(images/nav_bk.jpg) left no-repeat; margin: 70px 0 0 0;}
+#nav ul {list-style: none; padding: 45px 0px 0px 5px; }
+#nav ul li{display: inline;  margin: 0px; padding: 0px; }
+#nav ul li a{color: #fff; text-decoration: none; background: #000; border-top: 3px solid #FFCC00; padding: 5px 5px 0px 5px; font-size: 11px; font-weight: normal; text-transform:uppercase;}
+#nav ul li a:hover{color:#09F; border-top: 3px solid #0099FF;}
+#nav ul li a:active, #nav ul li a#focus{color:#CF3; border-top: 3px solid #CF3;}
+#banner2{float: left; width: 242px; height:139px; background: url(images/banner2.jpg) left no-repeat;}
+
+.box{margin: 0px 0px 10px 0px;}
+iframe{margin-bottom: 20px;}
+
+#main{float: left; width: 590px; margin: 0px 10px; }
+#side{float: left; width: 310px; margin-right: 3px;  }
+
+#side #links li{padding: 10px 0px;}
+
+#side h2{color: #000; border-bottom: 2px solid #fc0;}
+#ads ul li{display: inline;}
+#side li {padding: 5px 0px;}
+.box{height: 770px; overflow: auto; }
+.dots{color: #FC0;}
+ul#toplinks {float: left; width: 100% auto; height: 100% auto; }
+ul#toplinks li{display: inline;   margin: 2px 10px;}
+ul#toplinks li a{color: #fff;}
+ul#toplinks li a:hover{color: #0066cc;}
+
+.topline{margin-top: 0px;} /* reduce space at the top of the first div*/
+#footer{clear: both; width: 930px; height: 32px; background: url(images/footer.jpg) no-repeat;}
+

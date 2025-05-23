@@ -1,0 +1,119 @@
+
+*	{
+	background-color:#dec352;
+	}
+
+html 	{
+	overflow: auto;
+	scrollbar-face-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-3dlight-color:#ffffff;
+	scrollbar-shadow-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-arrow-color:#000000;
+	scrollbar-track-color:#ffffff;
+	direction:rtl;
+	text-align:right;
+	}
+
+body 	{	
+	margin: 0px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	font-weight: normal;
+	overflow: auto;
+	color: #000000;
+	}
+
+p	{
+	color:#000000;
+	}
+
+
+img 	{ 
+	border-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:left;
+	}
+
+a 	{
+	color: #000000;
+	font-weight: bold;
+	}
+
+a:link {
+	color: #000000;
+	font-weight: bold;
+	}
+
+a:visited {
+	color: #000000;
+	font-weight: bold;
+	}
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 00px 0px;
+	color:#000000;
+	display:block;
+	} 
+
+ul 	{
+
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	color:#000000;
+	display:block;
+	} 
+
+
+h2  	{
+	font-size: 19px;
+	font-variant: normal;
+	font-weight: heavy;
+	color: #6fbdff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+
+
+
+/*--- rss feeds--------------------------- */
+
+.rssfeedtitle {
+	background:#none;
+	font-family: times, serif;
+	font-size:25px;
+	font-weight:bold;
+	color:#000000;
+	text-align:left;
+	padding: 00px 20px 0px 0px;
+	text-align:right;
+	}
+
+
+#rssfeed {
+	background-color:none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 0px 20px 0px 0px;	
+	}
+
+#rssfeed a {
+	background-color:none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding: 0px 0px 0px 0px;	
+	}
+
+
+
+
+

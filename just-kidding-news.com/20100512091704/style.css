@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*Just Kidding News CSS Document */
+body { margin: 0px; }
+ul{ list-style-type: none; margin-left: 0px; padding: 0; }
+p { font-size: .9em; }
+b { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #fff; padding: 5px; background-color: #f35a16; }
+
+#wrap { float: left; width: 975px; height: auto 100%; }
+#header { float: left; width: 975px; height: 180px; }
+#infobar { float: left; width: 297px; height: auto 100%; }
+ #imgbox { float: left; width: 297px; height: 102px; }
+ #box01 { float: left; width: 109px; height: 102px; }
+ #app { float: left; width: 101px; height: 102px; background: url(images/kidding_img_10.jpg) no-repeat; }
+ #box02 { float: left; width: 87px; height: 102px; }
+ #btn { float: left; width: 297px; height: auto 100%; background: url(images/kidding_img_13.jpg) no-repeat top; }
+#feed { float: left; width: 678px; height: 800px; background: url(images/kidding_img_12.jpg) no-repeat top; }
+#footer { float: left; width: 975px; height: 41px; background: url(images/kidding_img_14.jpg) no-repeat; }
+
+/* =-=-=-=-=-=-=-[Menu Eight]-=-=-=-=-=-=-=- */
+#menu8 { width: 200px; margin-top: 150px; margin-left: 85px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 80%; font-weight: bold; }
+#menu8 li a { text-decoration: none; height: 32px; voice-family: "\"}\"";  voice-family: inherit; height: 24px; }
+#menu8 li a:link, #menu8 li a:visited { color: #777; display: block; background: url(images/menu8.gif); padding: 8px 0 0 20px; }
+#menu8 li a:hover { color: #f35a16; background: url(images/menu8.gif) 0 -32px; padding: 8px 0 0 25px; }
+#menu8 li a:active { color: #777; background: url(images/menu8.gif) 0 -64px; padding: 8px 0 0 25px; }
+
+/*------------feed and links-------------*/
+.linkheader { position:absolute; width: 250px; height: 15px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #f35a16; top: 5px; left: 170px; }
+.mainfeed { position:absolute; width: 485px; height: 721px; z-index:2; overflow: auto; visibility: visible; top: 60px; left: 35px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000;  }
+*html .mainfeed { position:absolute; width: 500px; height: 731px; z-index:2; overflow: auto; visibility: visible; top: 60px; left: 35px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000;  }
+
+.mainfeed a:link, #llinks a:link{  text-decoration: none; color: #f35a16;}
+.mainfeed a:visited, #llinks a:visited{ text-decoration: none; color: #f35a16; }
+.mainfeed a:hover, #llinks  a:hover{ text-decoration: underline; color: #662306; }
+.mainfeed a:active, #llinks a:active{ text-decoration: none; color: #f35a16; }
+.mainfeed ul, #llinks ul{ list-style-type: none; margin-left: 0px; margin: 0; padding: 0; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

@@ -1,0 +1,132 @@
+/***********************************************/
+/* mainnav.css                             */
+/***********************************************/
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	background-image:url(images/maintext_01.jpg);
+	
+	scrollbar-face-color: #F2BD47; 
+	scrollbar-shadow-color: #F2BD47; 
+	scrollbar-highlight-color: #F2BD47; 
+	scrollbar-3dlight-color: #F2BD47; 
+	scrollbar-darkshadow-color:#F2BD47; 
+	scrollbar-track-color: #F2BD47; 
+	scrollbar-arrow-color: #F17207;
+		}
+
+a:link, a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*********************************************/
+/* element to float to the left - rss feed   */
+/*********************************************/
+.content{
+position:absolute;
+float:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+margin:8px;
+padding:4px 4px 4px 4px;
+width:450px;
+color:#000000;
+}
+
+/*********************************************/
+/* element to float to the right              */
+/*********************************************/
+.links{
+	position:relative;
+	border:black dotted 1px;
+	font-weight:regular;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:10px;
+	width:200px;
+	float:right;
+	padding: 4px 4px 4px 4px;
+	left: 10;
+	top: 0;
+	background-color:#F7B626;
+	}
+
+.content2{
+	font-weight:regular;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:10px;
+	color:#000000;
+		}
+
+ .subtitle{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #F7B626;
+ font-weight: bold;
+ text-decoration:underline;
+ }	
+ /*azul*/
+  .subtitleright{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #2746DF;
+ font-weight: bold;
+  } 
+  
+  /*red*/
+  .subtitlered{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #FA0A2D;
+ font-weight: bold;
+  }
+  /*yellow*/
+  .subtitleyellow{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #F9E604;
+ font-weight: bold;
+  }
+  /*green*/
+  .subtitlegreen{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #33FF33;
+ font-weight: bold;
+  }
+   /*lightblue*/
+  .subtitlelightblue{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #20EBF2;
+ font-weight: bold;
+  }
+  /*lightbrown*/
+    .subtitlebrown{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #660000;
+ font-weight: bold;
+  }
+  /*purple*/
+    .subtitlepurple{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #FF00FF;
+ font-weight: bold;
+  }
+  /*a darker green*/
+    .subtitledarkergreen{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 11px;
+ color: #3BF5AA;
+ font-weight: bold;
+  }

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap {position:relative; width: 850px; height: 900px; right: 50%; margin-right: -425px; }
+#header {float:left; width: 850px; height: 150px; margin: 0px; padding: 0px; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px;} /*row & description of link*/
+li a {text-decoration: none; color: #1351be; font-weight: normal; } /*link*/
+li a:hover {color:#158003; text-decoration: underline;}
+img {border: none; } 
+.box-left {overflow:auto; }
+.box-right {width: 250px; height: 576px; margin: 0; padding: 0; overflow: auto; float: left;}
+
+#nav {float:left; width: 363px; height: 75px; margin: 0px; padding: 0px; }
+#wrap-content {float:left; width: 850px; height: 576px; margin: 0px; padding: 0px; }
+#column-1 {float:left; width: 150px; height: 576px; margin: 0px; padding: 0px; }
+#column-2 {float:left; width: 267px; height: 576px; margin: 0px; padding: 0px; }
+#column-3 {float:left; width: 13px; height: 576px; margin: 0px; padding: 0px; background: url(images/col2-1dot.jpg); background-repeat:inherit; }
+#column-4 {float:left; width: 270px; height: 576px; margin: 0px; padding: 0px; }
+#column-5 {float:left; width: 150px; height: 576px; margin: 0px; padding: 0px; }
+#column-5-button {float:left; width: 150px; height: 255px; margin: 0px; padding: 0px; background: url(images/col4-1.jpg) no-repeat; }
+#wrap-footer {float:left; width: 850px; height: 99px; margin: 0px; padding: 0px; }
+#footer-1 {float:left; width: 150px; height: 99px; margin: 0 px; padding: 0px; }
+#footer-2 {float:left; width: 550px; height: 99px; margin: 0 px; padding: 0px; background: url(images/footerdot.jpg); background-repeat:repeat-x; }
+#footer-2-ad {float:left; width: 400px; height: 65px; margin: 22px 0px 0px 0px; padding-left: 75px; text-align:center; } 
+#footer-3 {float:left; width: 150px; height: 99px; margin: 0 px; padding: 0px; }
+.floatr {float:right; }
+.floatl {float:left; }
+#tabs1 {float:left; width:363px; background:#F4F7FB; font-size:122%; margin: 0; padding: 0; line-height:normal; border-bottom:1px solid #BCD2E6; }
+#tabs1 ul {margin:0; padding:10px 10px 0 50px; list-style:none; }
+#tabs1 li {display:inline; margin:0; padding:0; }
+#tabs1 a {float:left; background:url(images/tableft1.gif) no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none; }
+#tabs1 a span {float:left; display:block; background:url(images/tabright1.gif) no-repeat right top; padding:5px 15px 4px 6px; color:#627EB7; }/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs1 a span {float:none;}/* End IE5-Mac hack */
+#tabs a:hover span { color:#627EB7; }
+#tabs1 a:hover {background-position:0% -42px; }
+#tabs1 a:hover span {background-position:100% -42px; }
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+#menu8 {width: 140px; font-size:13px; margin: 0px 10px 0px 0px; padding: 0px; }
+*html #menu8 {width: 138px; font-size:12px; margin: 0px; padding: 0px 12px 0px 0px; }
+#menu8 li a {text-decoration: none; height: 32px; voice-family: "\"}\""; voice-family: inherit; height: 24px; }
+*html #menu8 li a {text-decoration: none; height: 32px; voice-family: "\"}\""; voice-family: inherit; }
+#menu8 li a:link, #menu8 li a:visited {color: #bee1f5; display: block; background: url(images/menu8.gif); padding: 8px 0 0 0px; }
+#menu8 li a:hover {color: #158004; }
+#menu8 li a:active {color: #bee1f5; }
+#login { clear:left; width:850px; height: 75px; margin: 0px; padding-right: 275px; }
+*html #login { clear:left; width:850px; height: 75px; margin: 0px; padding-right: 0px; text-align:center; }

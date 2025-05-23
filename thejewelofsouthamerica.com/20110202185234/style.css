@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document para la Joya de Sudamérica */
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px; padding: 0px; background-color: #999999; color: #000;}
+	
+img {border: none; margin: 0; padding: 0;}
+
+ul {margin:0; padding:0; display:block; border:0; }
+li {margin:0; padding:3px 8px; list-style:none; border:0px;} 
+
+a:link {  text-decoration:none;  color:#707d28; font-weight:900; }
+a:visited {	text-decoration:none;  color:#707d28;font-weight:900; }
+a:hover { text-decoration:underline; }
+a:active {text-decoration: none; color:#707d28; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:900;}
+
+h1 {font-size: 12px; margin: 0px; padding: 3px 1px; color:# 900; width: auto; height: 18px; text-decoration:underline; }
+h2 {font-size: 12px; margin: 0px; padding: 2px 7px; color: #036; width: auto; height: 18px; text-decoration:underline; font-weight:bold;}
+h3 {font-size: 12px; margin: 0px; padding: 2px 7px; color: #903; width: auto; height: 18px; text-decoration:underline; font-weight:bold;}
+
+#wrappage {	width:950px; height:100%; margin:0; padding:0; position:relative; left:50%; margin-left:-450px;}
+
+#wrap_navigation {width:950x; height:92px; margin:0; padding:0; float:left;}
+
+#left_images {width:201px; height:92px; margin:0; padding:0; float:left;}
+			  
+#nav { width:543px; height:92px; margin:0; padding:0; float:left; background-image:url(images/index_03.jpg); background-repeat:no-repeat;}
+
+/*** Horizontal Navigation ***/
+#navigation {padding:5px 0;}
+#navigation ul {list-style: none; margin: 0; padding: 0; padding-top: 25px;}
+#navigation li {display: inline;}
+#navigation a:link, #navigation a:visited {	padding: 3px 5px 0px 3px; color: #293e51; text-decoration: none; border: 1px dotted #768427;}
+#navigation a:hover { background-color: #999; color:#FFF;}
+
+/******************************/
+#right_images {width:206px; height:92px; margin:0; padding:0; float:left;}
+
+#title_banner {	width:950px; height:149px; margin:0; padding:0; float: left;}
+
+#maincontent {width:950px; height:auto; margin:0; padding:0; float:left;}
+
+#column_1 {width: 64px; height:659px; padding:0; margin: 0; float:left;}
+	
+#column_2{width: 234px; height: 659px; padding:0; margin: 0; float:left;}
+#top{ width:234px; height:204px; margin:0;}
+#btm{width:234px; height:455px; margin:0; background-image:url(images/index_19.jpg); background-repeat:no-repeat;}
+#cl2_btm_c {height:420px; margin:0; overflow:auto;}
+
+#column_3 {width: 415px; height: 659px; padding:0; margin: 0; float:left; background-image:url(images/index_16.jpg); background-repeat:no-repeat;}
+#more_c_cl3_long {width:415px; height:645px; margin:0; overflow:auto;}
+#more_c_cl3 {width:415px; height:260px; margin:0; overflow:auto;}
+
+#column_4 {width: 237px; padding:0; margin: 0; float:left; display:block;}
+
+#btm_content {width:950px; height:200px; margin:0; padding:0; float:left; background-color:#009;}
+#content_1 {width:145px; height:170px; margin:0; padding:30px 0px 0px 110px; float:left; background-image:url(images/index_27.jpg); background-repeat:no-repeat;}
+#content_2 {width:244px; height:170px; padding:30px 0 0 20px; float:left; background-image:url(images/index_28.jpg); background-repeat:no-repeat;}
+#content_3 {width:174px; height:170px;padding: 30px 0 0 20px; float:left; background-image:url(images/index_29.jpg); background-repeat:no-repeat;}
+#content_4 {width:237px; height:200px; margin:0; float:left; background-image:url(images/index_30.jpg); background-repeat:no-repeat;}
+
+.amazon_tidbits {width:143px; height:127px; margin:0; padding:4px 4px; float: left;
+z-index:1; position:absolute; visibility:visible; top:936px; left:95px;	font-size:10px;}
+.amazon_tidbits_2 {width:203px;	height:127px; margin:0;	padding:4px 4px; float: left;
+z-index:1; position:absolute; visibility:visible;top:933px;	left:293px;	font-size:10px;}
+.amazon_tidbits_3 {width:154px; height:127px; margin:0;	padding:4px 4px; float: left;
+z-index:1; position:absolute; visibility:visible; top:932px; left:540px; font-size:10px;}
+
+/***login_page***/
+#column_1_lpage {width: 64px; height:559px; padding:0; margin: 0; float:left;}/**subtitle**/
+#applet {width:649px; height:539px; margin:0; padding-top:20px; float:left; background-image: url(images/login_14.jpg); background-repeat:no-repeat; text-align:center;}
+#login_r_images{width: 237px; height:559px; padding:0; margin: 0; float:left; display:block;}
+/**ends_login page**/
+
+#footer {width:950px; height:15px; margin:0; padding:6px 0; color: #CB220B;	font-size:10px;	float: left; background-color:#CCC; text-align: center; clear:both; position:relative;}
+
+.scroll{filter:Chroma(Color=#123456);scrollbar-face-color:#123456;scrollbar-shadow-color:#123456;scrollbar-highlight-color:#123456; scrollbar-3dlight-color:#123456;scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#006;}
+
+.cortesy {font-size:10px; color:#999;}

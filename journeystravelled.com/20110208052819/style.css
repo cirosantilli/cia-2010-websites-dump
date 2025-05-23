@@ -1,0 +1,63 @@
+body{margin: 0px; padding: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; line-height: 1.2em; color: #000; background: #fff;}
+
+#container {	float: left;	height: 1200px;	width: 1200px;}
+
+#banner {	float: left;	height: 335px;	width: 1200px;	background: url(images/title.jpg);}
+
+ul{	list-style: none; 	margin:0px; 	padding:3px;}
+li {	margin:0px; 	padding:3px 0px;	list-style: none; 	color: #000;}
+a {	color: #3399FF;	list-style: none;text-decoration: none; font-weight: bold; }
+a:hover{color: #44ff33;}
+
+h2{font-size: 11px; color: #666; padding: 3px; padding: 10px 3px 0px 3px; margin: 0px;}
+h4{font-size: 9px; color: #333; margin: 0px; padding: 3px; font-weight: normal;}
+
+#top_left{float: left; width: 140px; height: 335px;} /*inside banner*/
+
+#top_right {float: right; width: 140px; height: 335px;	} /*inside banner*/
+
+#main{float:left; width: 1200px; height: 865px; background: url(images/left_border.jpg) top left no-repeat;}
+
+
+#left_border {	background-image: url(images/left_border.jpg);	float: left;	height: 865px;	width: 142px;}
+#left_ads {float: left; width: 142px; height: 860px; overflow:hidden;	} /*inside main*/
+#right_border {background-image: url(images/right_border.jpg);	float: left;	height: 865px;	width: 240px;}
+#right_ads, #right_ads_btm {float: right; width: 240px;  height: 860px;	overflow: hidden;} /*inside main*/
+#right_ads_btm ul{margin-left: 100px; width: 140px;}
+
+
+#navigation {	background-image: url(images/travel1.jpg);	float: left;	height: 44px;	width: 544px;}
+#navigation ul{	list-style: none; 	margin:25px 0px 0px 5px; 	padding:0;}
+#navigation li {	display: inline; margin: 0px 3px;}
+#navigation li a {	margin: 0;	padding:2px 5px;	font-size:14px;	font-weight: bold;	color:#333; font-weight: normal; background: #FFFC38;	text-decoration:none;}
+#navigation a:hover {	background: #00FF00; font-weight: normal;}
+
+
+#travel_container {	float: left;	height: 865px;	width: 544px;	 margin: 0px; padding: 0px;}  
+
+#format1{	float:left;width: 544px;	height:210px;	list-style:none;	overflow:auto;	}
+#format_blue{	float:left;	width: 255px;	height:300px;	list-style:none;	overflow:auto;		padding:5px;	}
+
+.imgback{	background:url(images/blue2.jpg) top left no-repeat;}
+
+.bk {	/*background: url(images/travel2.jpg) top no-repeat;	*/ float: left;	height: 465px;	width: 544px; } /* used to be travel2 */
+#travel3 {	/*background: url(images/travel3.jpg) top;*/	float: left;	height: 218px;	width: 544px;}
+#travel4 {	background-image: url(images/travel4.jpg);	float: left;	height: 138px;	width: 544px;}
+
+#blue_container {	float: left;	height: 865px;	width: 274px;}
+#blue1 {	float: left;	background-image: url(images/blue1.jpg);	height: 266px;	width: 274px;}
+#blue2 {	background-image: url(images/blue2.jpg);	float: left;	height: 344px;	width: 274px;}
+#green1 {	background-image: url(images/green1.jpg);	float: left;	height: 138px;	width: 274px;}
+#blank {	background-image: url(images/blank.jpg);	float: left;	height: 117px;	width: 274px;}
+
+.scroll{	
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#04A3FF;
+
+}

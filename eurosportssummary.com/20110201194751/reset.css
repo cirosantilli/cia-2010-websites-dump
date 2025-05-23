@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0; padding: 0; color: #000; font-weight: normal; /*line-height: 15px; */font-size: 100%; }
+
+#wrap{position: relative; margin: 0; padding: 0; }
+
+#header{margin: 0; padding: 0;}
+
+a{text-decoration: none; font-weight: bold; }
+p{margin: 0 0 15px 0; padding: 0;}  /* to keep vertical rhythm, keep the line spacing (leading) equal to the the size of the baseline grid.  if you are using a 15px grid then line-spacing would be 15px and the space between each paragraph would also be 15px */
+
+h1{font-size: 1.2em; margin: 0; padding: 0;}
+h2{font-size: 1em; margin: 0; padding: 0;}
+h3{font-size: .8em; margin: 0; padding: 0;}
+
+ul{margin: 0; padding: 0;}
+li{list-style: none; margin: 0; padding: 3px 0px; display: block;}
+
+blockquote{text-indent: -0.8em; font-size: .8em;}
+
+.col1{float: left; width: 47.5%;}
+.col2{float: right; width: 47.5%;}
+
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+.scroll{background: #fff; 
+	scrollbar-3dlight-color:#FFFFFF;
+           scrollbar-arrow-color:#CCCCCC;
+           scrollbar-base-color:#FFFFFF;
+           scrollbar-track-color:#FFFFFF;
+           scrollbar-darkshadow-color:#FFFFFF;
+           scrollbar-face-color:#FFFFFF;
+           scrollbar-highlight-color:#FFFFFF;
+           scrollbar-shadow-color:#FFFFFF;}
+
+
+
+
+.imgcenter{text-align: center;}

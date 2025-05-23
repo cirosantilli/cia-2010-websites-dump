@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	font-size:10px;
+	z-index:1;
+	}
+
+#frame {
+	position: absolute;
+	top: 155px;
+	left: 0px;
+	width:482px;
+	height:1024px;
+	z-index:3;
+	}
+/**********************************************baseline format**********************************/
+
+a:link{
+	list-style:none;
+	text-decoration:none;
+	color:#000;
+}
+
+a:visited{
+	
+	text-decoration:none;
+	color:#000;
+	}
+
+a:hover{
+	text-decoration:none;
+	color:#000;
+	}
+
+a:active{
+	text-decoration:none;
+	color:#000;
+	}
+
+ul {
+	list-style:none;
+	margin:0; 
+	padding:0; 
+	border:0;
+	}
+
+li {
+	margin:0px 0px 0px 5px; 
+	padding:0; 
+	color:#7C7745;
+
+	}
+
+#navigation li {
+	margin:0px; 
+	padding:0; 
+	color:#000;
+	display:inline;
+	text-decoration:underline;
+	}
+	
+li a{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	color:#7C7745;
+	text-decoration:underline;
+	}
+
+
+/*scroll bar and formatting for links and feeds 
+---------------------------------------------------------------*/
+
+
+.scroll {
+	position: absolute;
+	filter:  Chroma(Color=#123456);
+	scrollbar-face-color: #123456;
+	scrollbar-shadow-color: #123456;
+	scrollbar-highlight-color: #123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color: #123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color:#393737;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+	
+.format{
+	width:482px;
+	height:2500px;
+	list-style:none;
+	overflow:auto;
+	font:10px, 'Lucida Grande',  Arial, sans-serif;
+	padding: 0px;
+	color: #000;
+	line-height: 20px;
+	}

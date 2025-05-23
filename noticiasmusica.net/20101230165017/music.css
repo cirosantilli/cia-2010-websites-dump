@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;  background: #000 url(images/top_bk.jpg) repeat-x;}
+
+#wrap{position: relative; width: 1000px; height: 100% auto; margin: 0px 0px 0px -500px; left: 50%;}
+
+#header{float: left; width: 1000px; height: 100% auto; margin: 0px; padding: 0px;}
+
+#subpg{float: left; width: 1000px; height: 100% auto;  margin: 0px; padding: 0px; background: url(images/bkgrnd.jpg) repeat-y;}
+
+ul{margin: 0px; padding: 0px; list-style: none;}
+li{ display: block; margin: 0px; padding: 3px 0px;}
+
+img{border: none;}
+a{text-decoration: none;}
+a:link, a:visited, a:visited{ color: #9C0;}
+a:hover{ color: #3CF;}
+
+p{margin: 0px; padding: 0px;}
+
+h1{font-size: 14px; margin: 0px; padding: 0px; color: #333; font-weight: bold;}
+
+h2, .rss-title{color: #000; margin: 0px; padding: 5px; font-size: 12px; font-weight: normal; /* background: #3cf; */ background: url(images/hd_gradient.jpg) repeat-x;  }
+
+h3{font-size: 10px; margin: 0px; padding: 0px; color: #666; font-weight: normal;}
+
+#band{float: left; width: 403px; height: 260px;}
+
+#titlearea{float: left; width: 597px; height: 201px;}
+
+#nav{float: left; width: 597px; height: 59px; background: url(images/nav.jpg) no-repeat;}
+
+#nav ul{padding: 0px; margin: 20px 10px 0px 30px; width: 557px; height: 100% auto; }
+#nav ul li{display: inline; font-size: 12px; }
+#nav ul li a{margin: 0px; padding: 5px 10px; color: #fff;}
+#nav ul li a:hover{color: #3CF;}
+#nav ul li a:active{color: #9C0;}
+
+.limit400{height: 400px; overflow: auto;}
+
+#side{float: left; width: 403px; height: 100% auto; min-height: 500px; background: inherit url(images/whitebk.jpg) no-repeat;}
+
+#main{float: left; width: 597px; height: 100% auto; min-height: 500px; background: inherit url(images/graybk.jpg) no-repeat; color: #333;}
+
+#footer{clear: both; width: 1000px; height: 68px; margin: 0px; padding: 0px; text-align: center; font-size: 10px; background: url(images/footer.jpg) no-repeat;}
+
+#footer p{padding-top: 20px;}
+
+#topartistas{ width: 170px;}
+
+#feedframe, #feedframe1 {margin: 10px 0px;}
+
+#feedside{float: left; width: 370px; height: 100% auto; margin: 10px 5px 10px 10px; /* ie 6 hack */ -margin-left: 5px;}
+#linkside{float: left; width: 180px; height: 100% auto; margin: 10px 20px 10px 10px; /* ie 6 hack */ -margin-right: 0px;}
+
+#itunes{width: 370px; height: 320px; overflow: hidden; margin: 10px 0px 10px 15px;}
+
+#music, #blogs, #blognews {width: 370px;}
+#music{ height: 400px; overflow: auto;}
+
+.box{margin: 0px 0px 10px 0px; padding: 0px; background: #fff; border: 1px solid #9C0;}
+#side .box{margin-left: 15px;}
+.box170{ width: 170px; margin: 0px 0px 10px 0px; padding: 0px; background: #fff; border: 1px solid #666; }
+
+.box ul{padding: 0px 5px;}
+
+.imgcenter{text-align: center;}
+.col1{float: left; width: 46%;}
+.col2{float: right; width: 46%;}
+
+.menutitle{color: #fff; }
+
+.clearfloat { clear:both;   height:0;    font-size: 1px;    line-height: 0px;} 
+
+.scroll{
+background: #fff;
+scrollbar-face-color: #fff;
+scrollbar-arrow-color: #006699;
+scrollbar-track-color: #fff;
+scrollbar-shadow-color:#fff;
+scrollbar-highlight-color: #fff;
+scrollbar-3dlight-color: #fff;
+scrollbar-darkshadow-color: #fff;
+}
+
+

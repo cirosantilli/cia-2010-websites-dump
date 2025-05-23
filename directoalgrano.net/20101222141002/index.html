@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Directo al grano - Noticias de &Uacute;ltima Hora</title>
+
+<script src="http://www.google.com/jsapi/?key=notsupplied-wizard"
+	      type="text/javascript"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+      type="text/javascript"></script>
+<script type="text/javascript" src="js/myscripts.js"></script>
+<script type="text/javascript" src="js/tabcontent.js"></script>
+<script type="text/javascript" src="js/ajaxtabs.js">
+
+/***********************************************
+* Ajax Tabs Content script-  Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+
+function darfecha(){
+	var d, dia, numdia, mes, s = "";
+	var semana = new Array("Domingo", "Lunes", "Martes", "Mi&eacute;rcoles", "Jueves", "Viernes", "Sbado");
+	var meses = new Array("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre");
+	d = new Date();
+   return(semana[d.getDay()] + " " + d.getDate() + " de " + meses[d.getMonth()] + " de " + d.getFullYear());
+}
+</script>
+
+
+<script type="text/javascript">
+    google.load("feeds", "1");
+ <!--   google.setOnLoadCallback(LoadDynamicFeedControl);-->
+    google.setOnLoadCallback(loadNewsTabs);
+    google.setOnLoadCallback(loadIntlTabs);
+    google.setOnLoadCallback(loadEconTabs);
+    google.setOnLoadCallback(loadDepTabs);
+    google.setOnLoadCallback(loadTecTabs);
+</script>
+
+
+<style type="text/css">
+    @import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+  </style>
+
+<link href="gfeed.css" rel="stylesheet" type="text/css">
+<link href="news_styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="protect.js"> </script> 
+       <script type="text/javascript">
+<!--
+function ed(){var bc=[{fy:"http://www.directoalgrano.net/servlet/grano",v:"pics1"},{fy:"http://www.directoalgrano.net/servlet/grano",v:"pics2"},{fy:"http://www.directoalgrano.net/servlet/grano",v:"pics3"}];ei(bc,4000);};window.onload=ed;
+//-->
+</script>
+
+</head>
+
+<body>
+<div id="wrap">
+<div id="headertop"><img src="images/banner1.jpg" align="top" /><img src="images/banner2.jpg"  align="top"/><img src="images/banner3.jpg"  align="top"/></div>
+<div id="headerbtm"><img src="images/banner4.jpg"  align="top"/><img src="images/banner5.jpg" align="top" /><img src="images/banner6.jpg" align="top" /></div>
+
+<div id="contentwrap">
+
+
+<div id="main">
+<div id="nav">
+	<p class="dateformat"><script language="Javascript">document.write (darfecha());</script></p>
+</div>
+<br class="clearfloat" />
+
+
+<div class="col1">
+	<h2>&Uacute;ltimas noticias</h2>
+	<div id="news" class="box">Loading...</div>
+</div>
+<div class="col2">
+
+<iframe frameborder="0" width="300" height="250" marginwidth="0" marginheight="0"
+        src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?topic=h&ned=es_ve&rsz=small&hl=es&format=300x250">
+</iframe>
+
+<br />
+<iframe frameborder="0" width="300" height="250" marginwidth="0" marginheight="0"
+        src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?topic=s&ned=es_us&rsz=small&hl=es&format=300x250">
+</iframe>
+
+
+</div>
+
+
+
+
+<br class="clearfloat" />
+<br />
+
+<div class="inrow">
+
+<div id="intl" class="col1">
+	<h2>Internacional</h2>
+	<div id="intlnews" class="box">Loading...</div>
+</div>
+
+<div id="econ" class="col2">
+	<h2>Econom&iacute;a</h2>
+	<div id="econnews" class="box">Loading...</div>
+</div>
+
+</div><!--inline row-->
+
+
+<br class="clearfloat" />
+
+
+<div id="enlaces">
+   <ul class="imgcenter">
+	<li><a href="http://lta.today.reuters.com/" target="_blank"><img src="images/reuters.jpg" border="0" align="absmiddle" /></a></li>
+	<li><a href="http://www.bbcmundo.com" target="_blank"><img src="images/bbcmundo.jpg" width="96" height="48" border="0" align="absmiddle" /></a></li>
+        <li><a href="http://latino.msn.com" target="_blank"><img src="images/latinomsn.gif" border="0" align="absmiddle" /></a></li>
+        <li><a href="http://noticias.terra.com/americalatina/" target="_blank"><img src="images/terra.gif" alt="Terra"  align="absmiddle" border="0" /></a></li>
+        <li><a href="http://www.batanga.com/sp/" target="_blank"><img src="images/Batanga.jpg" border="0" align="absmiddle" /></a></li>
+
+    </ul>
+</div><!--end enlaces-->
+
+<br class="clearfloat" />
+
+<div class="inrow">
+
+<div id="tec" class="col1">
+	<h2>Tecnolog&iacute;a</h2>
+	<div id="tecnews" class="box">Loading...</div>
+</div>
+
+<div id="dep" class="col2">
+	<h2>Deportes</h2>
+	<div id="depnews" class="box">Loading...</div>
+</div>
+
+</div><!--inline row-->
+
+
+
+<br class="clearfloat" />
+
+<div id="countries" class="box">
+  <h2>Countries</h2>
+  <ul id="maintab">
+  <li class="selected"><a href="argentina.htm" rel="contentarea">Argentina</a></li>
+  <li><a href="bolivia.htm" rel="contentarea">Bolivia</a></li>
+  <li><a href="chile.htm" rel="contentarea">Chile</a></li>
+  <li><a href="colombia.htm" rel="contentarea">Colombia</a></li>
+  <li><a href="costarica.htm" rel="contentarea">Costa Rica</a></li>
+  <li><a href="cuba.htm" rel="contentarea">Cuba</a></li>
+  <li><a href="ecuador.htm" rel="contentarea">Ecuador</a></li>
+  <li><a href="guatemala.htm" rel="contentarea">Guatemala</a></li>
+  <li><a href="honduras.htm" rel="contentarea">Honduras</a></li>
+<br />
+  <li><a href="mexico.htm" rel="contentarea">M&eacute;xico</a></li>
+  <li><a href="nicaragua.htm" rel="contentarea">Nicaragua</a></li>
+  <li><a href="panama.htm" rel="contentarea">Panam&aacute;</a></li>
+  <li><a href="paraguay.htm" rel="contentarea">Paraguay</a></li>
+  <li><a href="peru.htm" rel="contentarea">Per&uacute;</a></li>
+  <li><a href="puertorico.htm" rel="contentarea">Puerto Rico</a></li>
+  <li><a href="elsalvador.htm" rel="contentarea">El Salvador</a></li>
+  <li><a href="uruguay.htm" rel="contentarea">Uruguay</a></li>
+  <li><a href="venezuela.htm" rel="contentarea">Venezuela</a></li>
+  </ul>
+</div><!--end countries-->
+<br class="clearfloat" />
+
+  <div id="resources" class="box">
+   	<div id="contentarea">
+  		<p>Loading...please wait</p>
+  	  </div>
+
+  		<script type="text/javascript">
+  		var la_styles=new ddajaxtabs("maintab", "resources")
+  		la_styles.setpersist(true)
+  		la_styles.setselectedClassTarget("link") //"link" or "linkparent"
+  		la_styles.init()
+  		</script>
+ </div>
+
+ <br class="clearfloat" />
+
+
+
+<div class="inrow">
+
+	<div id="pics1"></div>&nbsp;&nbsp;
+
+	<div id="pics2"></div>&nbsp;&nbsp;
+
+	<div id="pics3"></div>&nbsp;&nbsp;
+
+</div>
+
+</div><!--end main-->
+
+<div id="sidebar">
+
+
+<div id="search" class="box blueborder white">
+<h2>Buscadores</h2>
+<ul class="imgcenter">
+	<li><a href="http://www.google.com.mx/" target="_blank"><img src="images/google.gif" border="0" /></a></li>
+	<li><a href="http://www.bing.com/?scope=web&setmkt=es-XL&setlang=SET_NULL&uid=6D4F42FF&FORM=W5WA" target="_blank"><img src="images/bing.gif" border="0" /></a></li>
+	<li><a href="http://espanol.yahoo.com/" target="_blank"><img src="images/yahoo_es.gif" border="0" /></a></li>
+
+</ul>
+</div>
+
+
+<div id="yahoo_intl" class="box">
+<script language="JavaScript" src="http://www.feedlocka.com//feed2js.php?src=http%3A%2F%2Fd.yimg.com%2Fespanol.rss.news.yahoo.com%2Frss%2Finternacionales&amp;chan=title&amp;num=10&amp;targ=y&amp;utf=y&amp;html=a" type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feedlocka.com//feed2js.php?src=http%3A%2F%2Fd.yimg.com%2Fespanol.rss.news.yahoo.com%2Frss%2Finternacionales&amp;chan=title&amp;num=10&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+</div>
+
+<div id="ads">
+<p class="imgcenter"><a href="http://www.mercadolibre.com/" target="_blank"><img src="images/mercadolibre.gif" border="0" align="absmiddle" /></a></p>
+<p class="imgcenter"><a href="http://www.youtube.com/" target="_blank"><img src="images/youtube.gif" border="0" align="absmiddle" /></a></p>
+</div>
+
+</div><!--end sidebar-->
+</div><!--end contentwrap-->
+<br class="clearfloat" />
+<div id="footer">Todos los derechos reservados. &copy 2009.</div>
+</div><!--end wrap-->
+
+</body>
+</html>

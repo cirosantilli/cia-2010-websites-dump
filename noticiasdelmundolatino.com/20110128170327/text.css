@@ -1,0 +1,24 @@
+/***********************************************/
+/* foro text.css                             */
+/***********************************************/
+body,td,th {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #000000;
+	}
+a:link, a:visited {
+	color: #CD7305;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+ .subtitle{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 10px;
+ color: #000000;
+ font-weight: bold;
+ text-decoration:underline;
+ }

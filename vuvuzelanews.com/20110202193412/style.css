@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0 ; padding:0; }
+.side-blk-bkgd {background:url(images/side-bkgd.jpg) repeat-y #fff;}
+p { font: 11px Arial, Helvetica, sans-serif; color:#000000; }
+b { font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0; }
+a { text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover { text-decoration: none; color: #c0c0c0; }
+ul { font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+
+
+#wrap {float:left; width:975px; height:auto; margin:0; /*background:#bcbdc0;border-left: double 5px #10a0c6;*/  }
+#colinfo {float:left; width:700px; height:auto; margin:0 0 0 275px; /*background:#bcbdc0;border-left: double 5px #10a0c6;*/  }
+#header-top { float:left; width:700px; height:auto; }
+#info { float:left; width:700px; height:auto; background:url(images/vuvu-img_07.jpg) no-repeat; }
+#top-ads { float:left; width:700px; height:44px; }
+#top-ads img { margin:5px 0 0 5px;}
+#feed-col { float:left; width:439px; height:auto;border: solid 1px #d9d9d9;border-left: 0; overflow:visible; }
+.imgright { float:right; margin:0 10px 0 0; }
+.img-side { float:right; margin:5px 5px 5px 10px; height:55px; width:83px; }
+#feed-col p { font: 11px Arial, Helvetica, sans-serif; color:#000000; margin:10px; }
+#info-col p { font: 11px Arial, Helvetica, sans-serif; color:#000000; margin-left:10px; }
+#info-col, #feed-col h6 {padding-top:15px;}
+#info-col { float:left; width:250px; height:auto; }
+#feedwrap {overflow: auto; width:700px; height:auto; /*margin:0 0 0 275px; background:#bcbdc0;border-left: double 5px #10a0c6;*/  }
+
+.nav-bar { position: fixed; width:275px; height:auto; margin:0; left:0;}
+#rotta01 { float:left; width:275px; height:111px; background:url(images/vuvu-img_03.jpg) no-repeat; }
+#space { float:left; width:142px;}
+#rotta02 { width:142px; height:317px; background:url(images/vuvu-img_05.jpg) no-repeat; }
+#rotta03 { width:142px; height:358px; background:url(images/vuvu-img_09.jpg) no-repeat; }
+#nav { float:right; width:133px; height:675px; background:url(images/vuvu-img_06.jpg) no-repeat; }
+h6 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:12px; margin: 0; padding: 0 0 0 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#infofeed { width:450px; height:1240px; overflow: auto; visibility: visible; /**/ border: solid 1px #d9d9d9; margin: 0 0 0 20px; }
+#infofeed ul { list-style: none; margin: 5px 5px 0 5px; padding: 0; }
+
+h4 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding: 5px 5px 5px 5px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#linkbox { width:270px; height:1270px; overflow: auto; visibility: visible; /**/ border-top: solid 1px #d9d9d9; margin: 0 0 0 6px; }
+#linkbox ul { list-style: none; margin: 5px 5px 0 5px; padding: 0; }
+h5 { font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding:5px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.linkscroll { filter: Chroma(Color=#123456); overflow: auto; scrollbar-face-color:#123456; scrollbar-shadow-color: #123456; scrollbar-highlight-color: #123456; scrollbar-3dlight-color: #123456; scrollbar-darkshadow-color: #123456; scrollbar-track-color: #123456; scrollbar-arrow-color: #000000; }
+
+.wireframemenu{  width: 133px; margin: 85px 0 0 0 }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #fff; text-decoration: none; }
+.wireframemenu a:visited{ color: #fff; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #fff; color: #000; }
+
+/*- Menu 4--------------------------- */
+	
+#menu4 { width: 230px; margin: 10px; border-style: solid solid none solid; border-color: #000; border-size: 1px; border-width: 1px; }
+#menu4 li a { height: 32px; voice-family: "\"}\""; voice-family: inherit; height: 24px; text-decoration: none; }
+#menu4 li a:link, #menu4 li a:visited { color: #CCC; display: block; background:  url(images/menu4.gif); padding: 8px 0 0 5px; }
+#menu4 li a:hover { color: #FFF; background:  url(images/menu4.gif) 0 -32px; padding: 8px 0 0 10px; }
+#menu4 ul { margin: 0; }

@@ -1,0 +1,33 @@
+/* CSS Document */
+
+body {
+	font-family:  Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000;
+	margin: 0px;
+	padding: 15px;
+	background-color:#000;
+}
+p {font-size: 12px;}
+
+a{font-weight: normal; font-size: 12px; text-decoration: none;}
+
+a:link { color:#333399; }
+a:visited {	 color:#333399; }
+a:hover { text-decoration:underline; color:#0000FF; }
+a:active { color:#999;}
+
+a.blu:link { color:#6699ff; }
+a.blu:visited {	 color:#6699ff; }
+a.blu:hover { text-decoration:underline; color:#00ccff; }
+a.blu:active { color:#999;}
+
+ul#news li a{font-size:11px; color:#ccc}
+ul#news li a:hover{color:#00ccff}
+
+
+.intro{font-weight: normal; color: #ccc;}
+
+ul {margin:0; padding:0; display:block; }
+li {margin:0; padding:5px 0px; list-style:none; } 
+

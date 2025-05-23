@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui-min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript"src="http://www.google.com/uds/?file=feeds&v=1"></script>
+<script type="text/javascript">
+		YUI().use("node","substitute", function(Y) {
+	
+			var feedHTML = '<li class="article_title"><a href="{link}" target="_blank">{title}</a><br />{content}</li>'
+			var rssFeed = new google.feeds.Feed("http://mtv.uol.com.br/rss.xml");
+			rssFeed.setNumEntries(8);
+			rssFeed.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#music ul").set('innerHTML',str);
+				}
+			});
+		
+		});
+	</script>
+	
+<link href="music.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="scroll">
+	
+	<div id="music" class="box">
+	<h2>MTV Brasil</h2>
+		<ul></ul>
+	</div>
+
+</body>
+</html>

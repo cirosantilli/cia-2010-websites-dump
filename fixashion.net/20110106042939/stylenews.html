@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="fashion.css" rel="stylesheet" type="text/css" />
+<title>Untitled Document</title>
+</head>
+
+<body class="scroll">
+
+<h2>Latest Fashion Headlines</h2>
+<div class="col1">
+  <div id="stylenews">
+	<h3>Style News</h3>
+	<ul></ul>
+  </div>
+  
+  <br />
+	<a href="http://www.londonfashionweek.co.uk/" target="_blank"><img src="images/lfw.gif" border="0" /></a>
+</div><!--end col1-->
+  
+<div class="col2">
+	<div id="focus">
+		<h3>FocusOnStyle.com Fashion Headlines</h3>
+		<ul></ul>
+	</div>
+	<br />
+  
+	<div id="couture">
+		<h3>Couture in the City</h3>
+		<ul></ul>
+		<br />
+		<br />
+		<p class="imgcenter"><a href="http://www.giarre.com/" target="_blank"><img src="images/armani_ad.jpg" border="0" /></a></p>
+	</div>
+  
+	<br /><br />
+	<br class="cleafloat" />
+</div><!--col2-->
+ 
+ 
+ 
+<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui-min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript"src="http://www.google.com/uds/?file=feeds&v=1"></script>
+<script type="text/javascript">
+		YUI().use("node","substitute", function(Y) {
+		
+
+			var feedHTML = '<li class="article_title"><a href="{link}" target="_blank">{title}</a><br />{contentSnippet}</li>'
+			var rssFeed1 = new google.feeds.Feed("http://www.stylelist.com/rss.xml");
+			rssFeed1.setNumEntries(6);
+			rssFeed1.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#stylenews ul").set('innerHTML',str);
+				}
+			});		
+			
+			
+			var feedHTML = '<li class="article_title"><a href="{link}" target="_blank">{title}</a><br />{contentSnippet}</li>'
+			var rssFeed2 = new google.feeds.Feed("http://api.skimlinks.com/skimrss/xml?id=2327x576582&domain=redirectingat.com&rss=http%3A%2F%2Ffeeds2.feedburner.com%2Fcoutureinthecity%2FhJJq");
+			rssFeed2.setNumEntries(4);
+			rssFeed2.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#couture ul").set('innerHTML',str);
+				}
+			});	
+			
+			var feedHTML = '<li class="article_title"><a href="{link}" target="_blank">{title}</a><br />{contentSnippet}</li>'
+			var rssFeed3 = new google.feeds.Feed("http://feeds.feedburner.com/focusonstyle?format=xml");
+			rssFeed3.setNumEntries(3);
+			rssFeed3.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#focus ul").set('innerHTML',str);
+				}
+			});	
+			
+		});
+		
+
+	</script>
+</body>
+</html>

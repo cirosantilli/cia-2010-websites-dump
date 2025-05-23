@@ -1,0 +1,353 @@
+/* CSS Document */
+body{
+	margin:0; color:#000;
+	background-color:#667B5A;
+	}
+p, h2{
+	margin:0; 
+	padding:0;
+	}
+.spacer{
+	margin:0; 
+	padding:0; 
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+	}
+#main{
+	margin:0px; 
+	width:778px;
+	}
+#frame{
+	width:765px; 
+	background-color:#FFFFFF; 
+	padding:31px 3px 15px 10px; 
+	color:#000; 
+	}
+	
+/*body start here*/
+
+/*left start here*/
+#left {
+	width:261px;
+	float:left;
+	}
+ul#nav {
+	padding:0 21px 0 18px;
+	list-style-type:none;
+	margin:0;
+	}
+ul#nav  li {
+	margin:0px;
+	border:1px solid #BDBDBD;
+	border-bottom:0px solid #BDBDBD;
+	height:26px;
+	background-image:url(images/bullet.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding:5px 0 0 54px;
+	}
+ul#nav li a.nav {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#53624B;
+	text-decoration:none;
+	background-color:inherit;
+	}
+ul#nav li a.nav:hover {
+	color:#718B64;
+	text-decoration:none;
+	background-color:inherit;
+}
+/* -------- */
+#news_container {
+	color:#323D43;
+	background-color:#F6F6F6;
+	border-left:1px solid #CECECE;
+	border-right:1px solid #CECECE;
+	float:left;
+	width:194px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:24px;
+	padding-right:41px;
+	padding-top:5px;
+}
+#news_container ul, #news_container li, #news_container p {
+	list-style:none;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#news_container a {
+	font-size:12px;
+	color:#666600;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+#news_container a:hover {
+	text-decoration:underline;
+	line-height: 18px;
+}
+.news {
+	padding:0px 0px 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #666666;
+}
+.newssurve {
+	float:left;
+}
+/* -------- */
+
+a.more {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#323D43;
+	background-color:inherit;
+	}
+a.more:hover {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	}
+.views{
+	width:192px;
+	border:1px solid #DEDBDB;
+	background-color:#EEEDED;
+	height:18px;
+	text-align:center;
+	padding-top:5px;
+	color:#323D43;
+	}
+
+/*left end here*/
+
+/*right start here*/
+#right
+{
+	width:498px;
+	float:right;
+	padding:0 0 0 3px;
+}
+#banner {
+	float:left;
+	background-image:url(images/banner.jpg);
+	width:498px;
+	height:208px;
+}
+#banner img {
+	margin:15px 0 0 5px;
+}
+#bannerII{
+	background-image:url(images/bannerII.jpg);
+	width:202px; height:94px; float:left;
+	font-size:0; line-height:0; text-indent:-2000px;
+}
+#navtable {
+	width:286px;
+	background-color:#054F6C;
+	float:left;
+	border-left:1px solid #fff;
+	border-bottom:2px solid #fff;
+	height:21px;
+	color:#fff;
+	font-weight:bold;
+	font-size:11px;
+	padding:9px 0 0 9px;
+	}
+a.topnav {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0 0 0 3px;
+	background-color:inherit;
+	}
+a.topnav:hover {
+	text-decoration:underline;
+	background-color:inherit;
+	}
+#banner_content {
+	width:271px;
+	background-color:#054F6C;
+	height:53px;
+	border-left:1px solid #fff;
+	float:left;
+	padding:10px 17px 0 7px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#fff;
+	}
+#products01 {
+	position:relative;
+	width:460px;
+	padding:27px 19px 0;
+	}
+#products02 {
+	position:relative;
+	width:460px;
+	padding:27px 19px 0;
+	}
+.product {
+	width:460px;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	float:left;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#323D43;
+	background-color:inherit;
+	}
+	
+#newsdiv {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+#newsdiv ul, #newsdiv li, #newsdiv p {
+	list-style:none;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#newsdiv a {
+	font-size:12px;
+	color:#666600;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+#newsdiv a:hover {
+	text-decoration:underline;
+	line-height: 18px;
+}	
+
+#newsdiv2 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	}
+#newsdiv2 ul, #newsdiv2 li, #newsdiv2 p {
+	list-style:none;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#newsdiv2 a {
+	font-size:12px;
+	color:#666600;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+#newsdiv2 a:hover {
+	text-decoration:underline;
+	line-height: 18px;
+}	
+
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin: 8px;
+}
+
+/*right end here*/
+/*body end here*/
+
+/*footer start here*/
+#footer {
+	padding:12px 12px 12px 12px;
+	background:#054F6C;
+	float:left;
+	width:754px;
+	margin:0;
+}
+
+#footer #navpanel {
+	width:732px;
+	float:left;
+	text-align: center;
+}
+
+#footer #navpanel ul.footer {
+	list-style:none;
+	margin:0 120px;
+	padding:12px 0 18px 0;
+	width: 700px;
+	
+}
+
+#footer #navpanel ul.footer li {
+	float:left;
+	background:url(images/footer-divider.gif) repeat-y 100% 0;
+	line-height:16px;
+}
+
+#footer #navpanel ul.footer li.nobord {
+	float:left;
+	background:none;
+	line-height:16px;
+}
+
+#footer #navpanel ul.footer li a {
+	font:normal 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding:10px;
+	text-decoration:none;
+}
+
+#footer #navpanel ul.footer li a:hover {
+	text-decoration:underline;
+}
+
+#footer #navpanel p {
+	font:normal 10px/16px Verdana, Arial, Helvetica, sans-serif;
+	color:#CCCCCC;
+	margin:0 auto;
+	width:500px;
+	padding:5px 0 5px 0;
+	text-align:center;
+}
+
+/*header start here*/
+#header{
+	width:768px;
+	height:15px;
+	background-color:#054F6C;
+	border-top:1px solid #323D43;
+	float:left;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#CCCCCC;
+	padding-left:10px;
+	padding-top:12px;
+	padding-bottom:7px;
+	}
+	
+/* date */
+#tdate {
+	font-family: verdana, arial, sans-serif;
+	background-color: #eeeeee;
+	color: #666666;
+	border:1px solid #CCCCCC;
+	padding:2px 0px 2px 0px;
+	width:200px;
+/*	overflow:hidden;*/
+	margin:2px;
+}

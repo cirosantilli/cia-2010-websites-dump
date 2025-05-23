@@ -1,0 +1,273 @@
+* {
+	margin:0;
+	padding:0;
+	color: #000000;
+	}
+
+body,html {
+	min-height:101%;
+	}
+	
+body {
+	color: #000000;
+	padding: 13px 0 25px 0;
+	background-image: url(images/bggdd.jpg);
+	background-repeat:;
+	}
+
+body, input {
+	font: 12px Arial, Verdana, Sans-Serif;
+	line-height:1.5em;
+	}
+	
+p {	
+	margin: 15px 0;
+	}
+
+small {
+	font-size: 0.9em;
+	padding:3px 0px;
+	}
+
+a:link, a:active, a:visited { 
+	color:#000000;
+	text-decoration: none; 
+	} 
+a:hover	{ 
+	color:#ff7e2a;
+	text-decoration: none; 
+	}
+
+
+.title:link, .title:active, .title:visited { 
+	color: #a37f04; 
+	text-decoration: none;
+	} 
+.title:hover { 
+	color: #a37f04; 
+	text-decoration: none;
+	} 
+	
+
+#sidelist a:link, #sidelist a:active, #sidelist a:visited {text-decoration:none;}
+#sidelist a:hover {text-decoration:none;}
+
+.commentmetadata a:link, .commentmetadata a:active, .commentmetadata a:visited  {text-decoration:none;}
+.commentmetadata a:hover {text-decoration:none;}
+
+img, a:link img, a:visited img{border:1px solid #607124; padding:1px;}
+img.left{ margin:5px 12px 5px 0; border:1px solid #607124; padding:1px;}
+img.left{ float:left; margin:0 12px 5px 0; }
+.foo{
+	border: none;
+	vertical-align: bottom;
+	} 
+	
+#page { /* main container */
+	width:840px;
+	font-size:1em;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	background-attachment: scroll;
+	background-image: url(images/toppyss.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-color: #FFF;
+	}
+
+#branding {
+	width:700px;
+	height:125px;
+	padding-bottom:15px;
+	background-image: url(images/TopLogo3.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+.left {
+	float:left;
+	}
+
+.right {
+	float:left;
+	margin-top: 3px;
+	}
+
+#sidebar {
+	width: 140px;
+	float:right;
+	background-image: url(images/lilone.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	}
+	
+#sidelist li {
+	list-style:none;
+	color: #607124;
+}
+	
+	
+#sidelist .recent li{
+	margin-bottom:5px;
+	padding-left:20px;
+	}
+
+#sidelist .feed li{
+	margin-bottom:5px;
+	padding-left:30px;
+	background:url(images/icons/rsshat.gif) no-repeat;
+	}
+	
+	
+.blogtitle, .blogtitle a {
+	color: #000;
+	font-size: 1.8em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: regular;
+	padding: 20px 0px 10px 0px;
+	text-decoration:none;
+	}
+
+	
+h2 {
+	color: #607124;
+	font-weight:normal;
+	padding-bottom:8px;
+	margin: 20px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #607124;
+	}
+
+h3 {
+	font: 0.9em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	margin-bottom:4px;
+	font-weight:bold;
+	color:#a37f04;
+	}
+
+#sidebar h2 {
+	font: 0.9em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	margin-bottom:4px;
+	font-weight:bold;
+	color:#a37f04;
+	}
+
+#sidebar h3, #sidebar h2 {
+	font-size:0.9em;
+	padding:5px 0 5px 2px;
+	margin:20px 0 15px 0;
+	color:#000000;
+	border-top-width: 4px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #607124;
+	border-bottom-color: #607124;
+	}
+	
+	
+.button {
+	padding: 1px;
+	background:#000;
+	color:#000000;
+	border:none;
+	}
+
+.button:hover {
+	background:#ffffff;
+	color:#FFF;
+	text-decoration:none
+	}
+	
+
+.rss-items {
+       list-style:none;
+}
+
+/*.feature p { margin:0;	}*/
+
+
+/**********************************************************/
+	
+.description {
+	font-size: 1.3em;
+	font-weight: bold; 
+	color:#999;
+	}
+
+
+.button {
+	font-weight:bold;
+	padding: 1px;
+	background:#fff;
+	color:#000000;
+	border: 1px solid #DCD5CC;
+	}
+
+.button:hover {
+	color:#000000;
+	background:#fffffff;
+	text-decoration:none;
+	border: 1px solid #ef2c3a;
+	}
+
+
+.commentmetadata {
+	display: block;
+	color: #607124;
+	}
+
+.clearfloat:after {
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+	content:".";
+	}
+
+.clearfloat {/*never delete this otherwise MSIE will kill the layout */
+	display:inline-block;
+	}	
+
+.clearfloat {/*never delete this otherwise MSIE will kill the layout */
+	display:block;
+	}
+/******************************************
+*   Login                       
+******************************************/	
+	.login {
+	width:880px;
+	height:75px;
+	background-color:#ffffff;
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:8px;
+    font-size:11pt;
+    color: #000000;
+	text-align:center;}
+
+/******************************************
+*   Footer                        
+******************************************/
+
+#footer {
+	margin: 0 auto;
+	width: 800px;
+	font-size:0.9em;
+	text-align:center;
+	padding-top:15px;
+	color:#666;
+	}

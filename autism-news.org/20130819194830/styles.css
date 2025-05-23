@@ -1,0 +1,94 @@
+
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; 
+line-height: 1.3em;
+color: #3366CC; 
+background: #333;
+margin:10px 0 0 0;
+padding:0;
+}
+
+.wrap {
+position:relative;
+width:780px;
+margin:0 auto;
+padding:0 0 0 0;
+background: #ffffff url(images/header.jpg) no-repeat;
+border-left:1px solid #f1b75f;
+border-right:1px solid #f1b75f;
+border-top:1px solid #f1b75f;
+}
+
+ul{margin: 0px; padding: 0px;}
+li{margin: 0px; padding: 3px 0px; list-style: none;}
+
+.header {position:relative; clear:none; width:780px; height:161px; margin:0px 0 0 0; padding:0 0 0 0; background:#FFF;
+color:#333; text-align:left;}
+#sidebar{position: relative; float:left; margin: 0px; padding: 0px; width: 254px; height: 100% auto; min-height: 800px; background: #FFB63B url(images/index_04.jpg) no-repeat;}
+#sidebar h2{color: #fff;}
+#sidebar h3{padding: 10px 0px 0px 0px; margin: 5px;}
+#sidebar p{padding: 0px 10px; color: #36c;}
+h2{font-size: 14px; color:#3366CC; font-weight: bold; margin: 18px 0px 0px 5px; padding: 2px 0px;}
+h3{font-size: 12px; color:#996699; font-weight: bold; margin: 2px 0px 0px 5px; padding: 2px 0px;}
+h4{font-size: 12px; color:#FF9933; font-weight: bold; font-style: italic; margin: 2px 0px 0px 10px; padding: 2px 0px;}
+.img_puzzle{float: left; width: 255px; height: 161px; background: url(images/index_01.jpg) no-repeat;}
+.img_boy{float: left; width: 105px; height: 161px; background: url(images/index_02.jpg) no-repeat;}
+.img_title{float: left; width: 420px; height: 161px; background: url(images/index_03.gif) no-repeat;}
+.container {position:relative; clear:both; width:780px; margin:0px 0 0 0; padding:0 0 0 0; background: #fff url(images/bg_orange.gif) repeat-y; color:#333;
+text-align:left;}
+
+.box_right {float:right; width:100%; margin:15px 2px 5px 10px; padding:0 10px 0 10px; background:#D0DEF6;
+color:#465670; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; }
+.box_right h2{margin: 0px 0px; padding: 0px 0px;}
+.box p, ul { margin:5px;}
+.box_cnr_top {background:url(images/cnr_tr.gif) no-repeat top right; margin:0 -10px 0 -10px; }
+.box_cnr_bottom { background:url(images/cnr_br.gif) no-repeat top right; margin:0 -10px 0 -10px; }
+
+img.cnr { width:8px; height:8px; border:none; display: block !important;}
+
+#footer {position:relative; clear:both; width:780px; margin:0 0 0; padding:0; color: #fff; background:#996699; font-size:10px;
+text-align:center; border-top:1px solid #f1b75f; border-bottom:1px solid #f1b75f;}
+#main{position:relative; float:left; width:525px; height: auto; margin:0px 0 0 0; padding:0 0 0 0; background:#FFF url(images/index_05.jpg) no-repeat; color:#333;
+text-align:left;}
+#videowall{float: left; width: 235px; margin: 10px 5px 5px 0px; }
+#main p{margin: 5px 0px; padding: 10px;}
+.col1{position: relative; float: left; width: 270px; }
+.col2{position: relative; float: right; width: 200px; }
+.fullcol{position: relative; clear:both; float: left; width: 100%;}
+.info{font-size: 9px; color:#FF9933; padding: 10px; margin: 0px;}
+.list ul{margin: 0px 10px; padding: 0px 5px;}
+.list li{padding: 8px 2px; margin: 0px;}
+.contentText {color: #36c;}
+
+#nav ul{ padding: 130px 0px 0 0; margin:0 0 0 0; white-space: nowrap; font-size:11px; color:#fff; float:right;
+width:90%; list-style:none;}
+#nav ul li{display:inline; list-style:none;}
+#nav ul li a{ margin: 0; padding:5px 8px; color: #36C; font-weight: normal;
+text-decoration:none; float: left; }
+#nav ul li a:hover{background:#f93; color: #ffffff; text-decoration:none;}
+#nav ul li a#current{background: #63C; color: #fff; text-decoration: none;}
+
+
+a {color:#36C; font-weight: bold; text-decoration:none;}
+a:hover {color:#333; text-decoration:none;}
+#footer a {color:#f1b75f; text-decoration:none; }
+#footer a:hover {color:#fff; text-decoration:none;}
+#footer ul{margin: 5px 0px;}
+#footer ul li{display: inline; padding: 5px;}
+
+
+img { border:none; }
+.title img{float: left; padding: 0; margin: 15px 2px 2px 2px;}
+.right img{float:right; padding:0 0 0 0; margin:5px 2px 2px 5px; }
+.left img{ float:left; padding:0 0 0 0; margin:0 5px 0 2px;}
+
+
+
+
+
+.clearfix:after { content: ".";  display: block;  height: 0; clear: both;  visibility: hidden;}
+.clearfix {display: inline-table;}
+
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}

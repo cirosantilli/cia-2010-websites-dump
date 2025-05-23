@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link href="music.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {font-size: large}
+.style2 {
+	font-size: small;
+	font-style: italic;
+}
+-->
+</style>
+</head>
+<body class="scroller">
+<p class="style4 style1">Classical</p>
+<p>Pakistani classical music has 7 basic notes (Sa Re Ga Ma Pa Dha Ni), with five interspersed half-notes, resulting in a 12-note scale. Unlike the 12-note scale in Western music, the base frequency of the scale is not fixed, and intertonal gaps (temper) may also vary; however with the gradual replacement of the sarangi by the harmonium, an equal tempered scale is increasingly used. The performance is set to a melodic pattern (raag) characterized in part by specific ascent and descent. Other characteristics include King and Queen notes and a unique note phrase (Pakad). In addition each raga has its natural register (Ambit) and glissando (Meend) rules, as well as features specific to different styles and compositions within the raga structure. Performances are usually marked by considerable improvisation within these norms. It is traditional for performers who have reached a distinguished level of achievement, to be awarded titles of Ustad.</p>
+  <p class="style2">-Wikipedia</p>
+</body>
+</html>

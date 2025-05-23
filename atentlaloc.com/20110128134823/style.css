@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0; background:url(images/aten-img-bkgd.jpg) repeat-x;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#660000; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #994747; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {float:left; width:975px; height:auto; }
+#header {float:left; width:975px; height:auto; }
+#col-01 {float:left; width:286px; height:2622px; background:url(images/aten-img_12.jpg) left 332px no-repeat; }
+#nav-box {float:left; width:286px; height:332px; background:url(images/aten-img_07.jpg) no-repeat; margin:0 0 150px 0; }
+#col-02 {float:left; width:432px; height:2622px; background:url(images/aten-img_08.jpg) no-repeat; }
+#col-feed {float:left; width:432px; height:1600px;}
+#col-03 {float:left; width:257px; height:2622px; }
+#col-ads {float:left; width:247px; height:auto; border-bottom: dotted 2px #cac8c8; margin: 10px 0 0 5px;}
+#col-ads img {margin:5px 0 5px 0;}
+
+#col-app {float:left; width:247px; height:247px; margin: 10px 0 0 5px; background:url(images/rotating-img.jpg);}
+
+#info-link {width:273px; height:500px; overflow: auto; visibility: visible; /**/border-bottom: dotted 2px #cac8c8; margin: 5px 0 0 5px;}
+/**html #info-link {width:339px; height:1148px;}*/
+#info-link ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h2 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#660000; line-height:13px; margin: 0; padding: 15px 5px 5px 5px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#info-link02 {width:423px; height:997px; overflow: auto; visibility: visible; /**/border-bottom: dotted 2px #cac8c8; margin: 5px 0 0 5px;}
+/**html #info-link {width:339px; height:1148px;}*/
+#info-link02 ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h3 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#660000; line-height:13px; margin: 0; padding: 15px 5px 5px 5px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#infofeed {width:423px; height:1546px; overflow: auto; visibility: visible; /**/border: dotted 2px #cac8c8; margin: 0 0 0 5px;}
+/**html #infofeed {width:339px; height:1148px;}*/
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#660000; line-height:33px; margin: 0; padding: 5px 5px 5px 5px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.wireframemenu{ width: 230px; margin: 45px 0 0 15px; text-align:right; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 224px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: dotted 2px #cac8c8; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #edebd2; color: black; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

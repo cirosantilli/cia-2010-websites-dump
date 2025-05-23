@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0;}
+
+#wrap {float:left; width:975px; height:auto;}
+
+#header {float:left; width:975px; height:206px;}
+#box03 {float:left; width:975px; height:39px;}
+#box01 {float:left; width:80px; height:131px;}
+#box02 {float:left; width:736px; height:131px;}
+#appbox {float: left; width:159px; height:131px; background:url(images/paki_img_08.jpg) no-repeat;}
+#box04 {float:left; width:975px; height:36px;}
+
+#btnnav {float:left; width:975px; height:70px;}
+#btnbox01 {float:left; width:250px; height:70px; background:url(images/paki_img_20.jpg) right no-repeat;}
+#btnbox02 {float:left; width:725px; height:70px; background:url(images/paki_img_20.jpg) right no-repeat;}
+
+#adbox {float:left; width:130px; height:1161px; margin: 5px 5px 0 18px;}
+#feedbox {float:left; width:455px; height:1161px; margin: 5px 5px 0 0; border:solid 1px #679800; }
+#widbox {float:left; width:300px; height:1161px; margin: 5px 0 0 0; }
+#widbox ul {list-style: none;margin: 10px;padding: 0; font: 11px Verdana, Arial, Helvetica, sans-serif;}
+#widbox a{ text-decoration: none; color: #8eb92b; }
+#widbox a:visited{ color: #8eb92b; }
+#widbox a:hover{ text-decoration: underline; color: #809b45; }
+
+#feed { float:left; width:443px; height:1121px; overflow: auto; visibility: visible; }
+#feed ul {margin:0 25px 0 12px;padding:0;list-style:none; font:12px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+#feed a{ text-decoration: none; color: #679800; }
+#feed a:visited{ color: #679800; }
+#feed a:hover{ text-decoration: underline; color: #456404; }
+.feedheader { font: bold 12px Verdana, Arial, Helvetica, sans-serif; width:431px; margin: 3px 0 0 3px; color:#fff; background-color:#456404; padding: 0 0 0 13px; line-height:25px;}
+*html .feedheader { font: bold 12px Verdana, Arial, Helvetica, sans-serif; width:445px; margin: 3px 0 0 3px; color:#fff; background-color:#456404; padding: 0 0 0 13px; line-height:25px;}
+
+
+
+/*nav*/
+
+.preload1 {background: url(images/pro_drop4_2a.gif);}
+.preload1 {background: url(images/pro_drop4_2b.gif);}
+
+.prodrop4 {padding:28px 0 0 32px; margin:0; list-style:none; height:36px; background:transparent url(images/pro_drop4_back.gif); position:relative; z-index:500; font-family:arial, verdana, sans-serif;}
+.prodrop4 li.top {display:block; float:left;}
+.prodrop4 li a.top_link {display:block; float:left; height:36px; line-height:32px; color:#666; text-decoration:none; font-size:11px; font-weight:bold; padding:0 0 0 10px; cursor:pointer;background: url(images/pro_drop4_0a.gif) no-repeat;}
+.prodrop4 li a.top_link span {float:left; display:block; padding:0 20px 0 10px; height:36px;background:url(images/pro_drop4_0b.gif) right top;}
+.prodrop4 li a.top_link:hover {color:#000; background: url(images/pro_drop4_2a.gif) no-repeat; line-height:25px;}
+.prodrop4 li a.top_link:hover span {background:url(images/pro_drop4_2b.gif) no-repeat right top;}
+
+.prodrop4 li:hover > a.top_link {color:#000; background: url(images/pro_drop4_2a.gif) no-repeat; line-height:25px;}
+.prodrop4 li:hover > a.top_link span {background:url(images/pro_drop4_2b.gif) no-repeat right top;}
+
+
+.prodrop4 table {border-collapse:collapse; width:0; height:0; position:absolute; top:0; left:0;}
+
+/* Default link styling */
+
+/* Style the list OR link hover. Depends on which browser is used */
+
+.prodrop4 a:hover {visibility:visible; position:relative; z-index:200;}
+.prodrop4 li:hover {position:relative; z-index:200;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+.prodrop4 ul {position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+.prodrop4 ul.sub1 {width:185px;}
+.prodrop4 ul.sub2 {width:170px;}
+.prodrop4 ul.sub3 {width:150px;}
+.prodrop4 ul.sub4 {width:165px;}
+
+.prodrop4 :hover ul {left:0; top:35px; background: #c4d3a3; padding:3px; border:1px solid #679800; border-width:0 1px 1px; white-space:nowrap; height:auto; z-index:300;}
+.prodrop4 :hover ul li {display:block; height:20px; position:relative; font-weight:normal; width:auto;}
+.prodrop4 :hover ul li a {display:block; font-size:11px; height:20px; line-height:20px; width:auto; padding:0 10px; color:#000; text-decoration:none;}
+.prodrop4 :hover ul li a:hover {background:#456404; color:#fff;}
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

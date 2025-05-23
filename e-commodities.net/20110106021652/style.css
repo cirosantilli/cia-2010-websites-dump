@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background:#4f3c26;
+}
+
+a:link {  text-decoration:none; font-weight:bold; color:#aa2f01; }
+a:visited {	text-decoration:none; font-weight:bold; color:#aa2f01; }
+a:hover { text-decoration:underline; font-weight:bold; color:#aa2f01;}
+a:active { text-decoration: none; font-weight:bold;	color:#aa2f01;}
+
+a.mag:link { text-decoration:none; font-weight:bold; color:#002651; }
+a.mag:visited { text-decoration:none; font-weight:bold;  color:#002651; }
+a.mag:hover { text-decoration:underline; font-weight:bold; color:#002651; }
+a.mag:active { text-decoration: none; font-weight:bold; color:#002651; }
+
+ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:10px 0px 0px 0px; list-style:none; border:0;} 
+
+ul#logos li {margin: 0px; padding:0px 0px 5px 0px; list-style:none;  border: 0px;}
+
+h1 {font-size: 10px; font-weight: bold; text-transform: uppercase; margin: 0px; padding: 1px 1px; color:#fff; background-color: #aa2f01; width: auto;}
+
+img {
+border:0;
+}
+
+/* wrap defines the size of the website.*/
+#wrap {
+     width:800px; 
+	 height: 830px;
+	 margin: 0 auto; 
+	 text-align: left;
+	 }
+	 
+ /* topbanner defines the size of the banner*/
+#topbanner {
+     width:800px;
+	 height:65px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }	 
+
+ /* navigation defines the size of the navigation bar*/
+#navigation {
+     width:800px; 
+	 height:135px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+ /* commodities defines the size of the area for the commodities images*/
+#commodities {
+     width:800px; 
+	 height:120px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+
+/* maincontent defines the size of the main content below the banner*/
+#maincontent {
+      float:left; 
+	  width:800px;
+	  height:510px;
+	  margin:0px; 
+	  padding:0px;
+	  }
+	  
+/* This is the wrap for the left sidebar*/
+#sidebar {
+	float:left;
+	width:160px;
+	height:510px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: url(images/coffee_bkgnd.jpg); 	
+}
+
+/* Defines the area for the links*/
+#links {	
+	width: 150px;
+	height: 500px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;	
+	overflow: auto;
+	} 
+	
+/* This is the wrap for the sub content*/
+#sub_content {
+		width:640px;
+		height:510px;
+		float:left; 
+		margin:0px;
+		padding:0px;
+		background-color: #ffffff;
+		}
+		
+#main {
+     width:630px; 
+	 height:505px;
+	 margin: 5px 0px 0px 0px;
+	 padding: 0px;
+	 text-align: left;
+	 }
+	 
+#col1
+{ float: left;
+  width: 305px;
+  height:500px;
+  margin: 0px;
+  padding: 0px 5px;
+  overflow: auto;  }
+  
+#col2
+{ float: right;
+  width: 302px;
+  height:500px;
+  margin: 0px;
+  padding: 0px 5px;
+  border-left:1px solid #382915;
+  overflow: auto;  }
+
+
+ /* Defines the scroll bar*/	  
+	  
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#382915;
+	}
+
+.cover {
+float: left;
+width: 62px;
+height:82px;
+margin-right:7px;
+padding: 0px;
+}
+
+.featured {
+float: left;
+margin-right:7px;
+padding: 3px 0px 0px 0px;
+}
+
+.featured2 {
+float: right;
+margin-left:7px;
+padding: 3px 0px 0px 0px;
+}
+
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #aa2f01;
+}
+

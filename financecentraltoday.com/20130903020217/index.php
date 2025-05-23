@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.financecentraltoday.com / HOME</title>
+<br />
+<base target="_blank">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="finance.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/back3.jpg);
+	background-color: #F2E1B6;
+	background-repeat: repeat-x;
+}
+body,td,th {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+}
+.style1 {color: #FFFFFF}
+.style3 {color: #000000; font-size: 9px; }
+a {
+	font-weight: bold;
+}
+a:visited {
+	color: #000000;
+}
+a:hover {
+	color: #F2E1B6;
+}
+a:active {
+	color: #000000;
+}
+.style4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.style5 {
+	font-size: 9px;
+	font-style: italic;
+}
+.foo {border: 2px; border-color:#000000; }
+-->
+</style>
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<li><a href="index.php" title="" target="_parent" accesskey="1">NEWS</a></li>
+		<li><a href="finan_ser.php" title="" target="_parent" accesskey="2">SERVICES</a></li>
+		<li><a href="finan_com.php" title="" target="_parent" accesskey="3">COMPANIES</a></li>
+		<li><a href="finan_ezi.php" title="" target="_parent" accesskey="4">E-ZINES</a></li>
+		<li><a href="finan_lin.php" title="" target="_parent" accesskey="5">LINKS</a></li>
+		<li><a href="finan_cal.php" title="" target="_parent" accesskey="5">CALCULATOR</a
+></li>
+	</ul>
+</div>
+<div id="content">
+	<div><img src="images/investuae.jpg" alt="" width="780" height="284" /></div>
+  <div id="colOne">
+	  <h2 class="style1">WORLD FINANCE NEWS </h2>
+		<p><div class="rss-box">
+<ul class="rss-items">
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/bkaneZMtJlU/us-usa-tax-wealthyaudits-idUSBRE8391G420120411"  title="WASHINGTON (Reuters) - A new Internal Revenue Service team l..." target="_blank">IRS tax auditing lags for ultra-wealthy: report</a> <br />
+WASHINGTON (Reuters) - A new Internal Revenue Service team looking at the business activities of the ultra-wealthy has missed its own goals, reviewing only one privately held company and 10...
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/jyR7xnjiUBY/us-column-yourmoney-education-idUSBRE83A13B20120411"  title="BOSTON (Reuters) - In recent weeks, Eva Chung's family watch..." target="_blank">Getting the most from your financial-aid package</a> <br />
+BOSTON (Reuters) - In recent weeks, Eva Chung's family watched with pride as acceptance letters arrived from all seven of the colleges to which she applied.
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/ngfOKzdYLes/us-secondary-ipos-idUSBRE83A0TH20120411"  title="(Reuters) - Secondary stock offerings by U.S. companies grab..." target="_blank">Secondary stock offerings rise amid slow IPO market</a> <br />
+(Reuters) - Secondary stock offerings by U.S. companies grabbed most of the equity capital markets activity in the first quarter, spurred by a sluggish market for IPOs and private equity investors...
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/Ec_ixPBRosE/us-usa-fed-george-idUSBRE83A0YW20120411"  title="NEW YORK (Reuters) - One of the first steps that must be tak..." target="_blank">Fed's George-must build appropriate bank safety net</a> <br />
+NEW YORK (Reuters) - One of the first steps that must be taken to build a stronger financial system in the wake of the crisis is to correct the incentives and "improper expansion" of federal safety...
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/LeWh8TdqVEk/us-usa-taxes-crashes-idUSBRE83A12R20120411"  title="WASHINGTON (Reuters) - More than 200 years after Benjamin Fr..." target="_blank">Another grim link between death and taxes: fatal car crashes</a> <br />
+WASHINGTON (Reuters) - More than 200 years after Benjamin Franklin declared the only things certain in life are death and taxes, Canadian researchers have discovered a grimmer connection: U.S. auto...
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/QxeYZNxXPmE/us-markets-money-idUSBRE83A0NL20120411"  title="LONDON (Reuters) - The latest escalation of the euro zone de..." target="_blank">Funding options wane as debt crisis intensifies</a> <br />
+LONDON (Reuters) - The latest escalation of the euro zone debt crisis, with Spain now taking centre stage, is closing funding markets for banks again on concerns over exposure to the large amount of...
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/2Zek3GFU59Y/us-tdameritrade-nyse-idUSBRE83A13K20120411"  title="NEW YORK (Reuters) - TD Ameritrade Holding Corp said on Wedn..." target="_blank">TD Ameritrade to move listing to NYSE from Nasdaq</a> <br />
+NEW YORK (Reuters) - TD Ameritrade Holding Corp said on Wednesday it will transfer the listing of its common stock to NYSE Euronext's New York Stock Exchange from Nasdaq OMX's exchange.
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/QQvjeHJer2M/us-lincoln-fin-broker-idUSBRE83A13G20120411"  title="(Reuters) - Lincoln Financial Advisors Corp must pay $2 mill..." target="_blank">Lincoln Financial must pay $2mln to defamed broker</a> <br />
+(Reuters) - Lincoln Financial Advisors Corp must pay $2 million to a broker who alleged the company fired and then defamed him, a securities arbitration panel ruled.
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/YN_Al-Ww478/us-tyrus-monaco-idUSBRE83A0U120120411"  title="LONDON (Reuters) - Well-known London M&amp;A hedge fund firm..." target="_blank">Exclusive: Hedge fund Tyrus moves to Monaco: source</a> <br />
+LONDON (Reuters) - Well-known London M&A hedge fund firm Tyrus Capital has moved the bulk of its operations to Monaco, one of the first managers to relocate to the principality in response to looming...
+</li>
+<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/USpersonalfinanceNews/~3/byDNgv0Qkn8/us-swiss-tax-us-idUSBRE83A0TK20120411"  title="ZURICH (Reuters) - A top Swiss court ruled Switzerland may n..." target="_blank">Swiss court blocks handout of bank data to U.S.</a> <br />
+ZURICH (Reuters) - A top Swiss court ruled Switzerland may not hand over the bank details of a Credit Suisse client to U.S. tax authorities, in a potential setback to solving a dispute between the...
+</li>
+</ul></div>
+
+
+ <p>&nbsp;</p>
+  </div>
+
+  <div id="colTwo">
+		<h2>&nbsp;</h2>
+
+
+	  <p><a href="http://www.africaeconomist.com/" target="_blank"><img src="images/pg1/one.gif" class="foo" alt="Africa Economist" width="145" height="70"/></a><br />
+	    <br />
+	    <a href="http://www.wn.com/africabusinessdaily" target="_blank"><img src="images/pg1/two.gif" class="foo" alt="Africa Business Daily" width="145" height="70" /></a><br />
+	    <br />
+	    <a href="http://www.wn.com/investmentbanking" target="_blank"><img src="images/pg1/Investment Banking.jpg"  class="foo" alt="Investment Banking" width="145" height="70" /></a><br />
+	    <br />
+    <a href="http://www.worldeconomist.com/" target="_blank"><img src="images/pg1/WE.jpg"  class="foo" alt="World Economist" width="145" height="70" /></a></p>
+    <h2>&nbsp;</h2>
+	  <table width="145" height="100" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="left" valign="top">
+                  <center>
+                    <FORM method=GET action="http://www.google.com/search"><input type=hidden name=ie value=UTF-8>
+                        <input type=hidden name=oe value=UTF-8>
+                        <TABLE bgcolor="#FFFFFF">
+                          <tr>
+                            <td><A HREF="http://www.google.com/"> <IMG SRC="http://www.google.com/logos/Logo_40wht.gif"
+border="0" ALT="Google" align="absmiddle"></A><br />
+                                <input type=text name=q size=10 maxlength=240 value="">
+                                <INPUT type=submit name=btnG VALUE="Google Search">
+                            </td>
+                          </tr>
+                        </TABLE>
+                    </FORM>
+                  </center>
+                    <!-- Search Google --></td>
+              </tr>
+    </table>
+	  <p>&nbsp;</p>
+		<table width="143" border="2" bordercolor="#000000">
+          <tr>
+            <td><p align="center" class="style4"><strong>INVESTMENT SUMMARIES</strong></p></td>
+          </tr>
+        </table>
+		<br />
+		<table width="143" border="2" cellpadding="2" bordercolor="#000000">
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/4743/stock_market.html">What is the Stock Market?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/4725/stock.html">What is a Stock?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/521/bond.html">What is a Bond?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/527/bond_fund.html">What is a Bond Fund?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://http://www.investorwords.com/tips/1201/the-3-most-timeless-investment-principles-1-of-3.html">What are the 3 most timeless investment principles?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/3162/municipal_bond.html">What are Municipal  Bonds?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/3173/mutual_fund.html">What is a Mutual Fund?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/3294/no_load_fund.html">What is a No Load Fund?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/2043/foreign_exchange.html">What is Foreign Exchange?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/3107/money_market_fund.html">What is a Money Market  Fund?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/1294/day_trade.html">What is a Day Trade?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/521/bond.html">What is a Bond?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/1955/financial_planner.html">What is a Financial Planner?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/3104/money_management.html">What is Money Management?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/5717/Personal_Financial_Specialist.html">What is Personal Financial Specialist?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/8674/real_estate_fund.html">What is a Real Estate Fund?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/6644/retirement_plan.html">What is a Retirement Plan?</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="http://www.investorwords.com/11/401k_plan.html">What is a 401(k) Plan?</a></div></td>
+          </tr>
+        </table>
+		<p>&nbsp;</p>
+		<table width="145" border="0">
+          <tr>
+            <td><a href="http://www.wunderground.com/global/stations/67774.html?bannertypeclick=infobox">
+<img src="http://banners.wunderground.com/weathersticker/infobox_both/language/www/global/stations/67774.gif" border=0
+alt="Click for Harare, Zimbabwe Forecast" height=108 width=144></a></td>
+          </tr>
+        </table>
+		<p><br />
+		</p>
+  </div>
+<div id="colOne">
+	  <h2 class="style1">INVESTMENT SITES </h2>
+		<table width="550">
+          <tr>
+            <td width="275" align="left" valign="top"><p class="style4"><strong>Stocks, Mutual Funds, Markets, the Economy, Personal Finance</strong></p>
+              <p><a href="http://cbs.marketwatch.com/news/default.asp?iteid=&amp;avatar=seen&amp;dist=ctmw" target="_blank"><strong>CBS Market Watch</strong></a> site has market news and  commentary, personal finance tools, newsletter summaries, Hulbert's ratings of  newsletters, interactive charting, advisor recommendation summaries, timely  news of new IPOs, intraday screener, analyst upgrades<br />
+                and downgrades, much  more. <br />
+                  <br />
+                  <a href="http://www.smartmoney.com/?hpadref=1" target="_blank"><strong>Smart Money  Magazine</strong></a> site provides a portfolio tracker, unique map of the market   and market sectors, earnings  news, market commentaries, bond market information, economic indicators, excellent on-line planning tools for retirement,  taxes, and more.<br />
+                  <br />
+                You might not think of <a href="http://www.forbes.com" target="_blank"><strong>Forbes Magazine</strong></a> as a  basic financial web site, but frequently their columnists, who<br />
+                are some of the  best in the world, publish expanded lists<br />
+                of their research on line. <br />
+  <br />
+  <a href="http://www.fidelity.com/" target="_blank"><strong>Fidelity Investments</strong></a> site provides lots of excellent  research on stocks and mutual funds.<br />
+  <br />
+  <a href="http://www.investionary.com/asset-management.htm" target="_blank"><strong>Asset  Management</strong></a> Comprehensive directory of <br />
+  Asset Management and other  financial web sites.</p>
+              <h3 class="style4">Bonds</h3>
+              <p><a href="http://www.investinginbonds.com" target="_blank"><strong>InvestingInBonds.com,</strong></a> a web site sponsored by the Bond Market Association, has by far and away the  best information on all types of bonds: treasuries, municipals, corporates, and  agencies.</p>
+              <h3 class="style4">Preferred Stocks, Income and Debt Securities</h3>
+              <p><a href="http://www.quantumonline.com/" target="_blank"><strong>QuantumOnline.com</strong></a> is by far the best and most comprehensive web site on preferred stocks,  exchange-traded income and debt securities, and convertible securities. <br />
+              </p>
+              <p>&nbsp;</p>
+            </td>
+            <td width="275" align="left" valign="top"><p><a href="http://www.preferredstockonline.com/" target="_blank"><strong>Preferred Stock  Online</strong></a> has a humongous database of all preferred stocks with name,  symbol, current stock price, dividend payment and yield, payment schedule.</p>
+              <p class="style4"><span class="style4">Mutual Funds</span></p>
+              <p>For information on open-end   mutual funds, <a href="http://www.morningstar.com/" target="_blank"><strong>Morningstar.com</strong></a> is clearly the best place to start.</p>
+              <h3 class="style4">Exchange Traded Funds and Closed-End Funds</h3>
+              <p><a href="http://www.etfconnect.com/" target="_blank"><strong>ETF Connect</strong></a> has information on both index and  closed-end exchange traded funds.<br />
+                <br />
+                <a href="http://www.exchangetradedfunds.com" target="_blank"><strong>Exchange Traded  Funds</strong></a> web site explains standard index ETFs, both domestic and foreign,  has lists of all ETFs worldwide plus comprehensive, but concise tables of  showing current ETF prices, volume, and NAV.<br />
+                <br />
+              <a href="http://www.cefa.com/" target="_blank"><strong>Closed-End Fund Association</strong></a> provides lots of  information, news, and tools for investing in closed-end funds.</p>
+              <h3 class="style4">ADRs</h3>
+              <p><a href="http://www.adrbny.com/" target="_blank"><strong>The Depository Receipt</strong></a> web site sponsored by the  Bank of New York has good background and educational information on American  Depository Receipts and American Depository Shares, as well as info  on the most active issues, performance, and a very nice interactive charting  tool.</p>
+              <h3 class="style4">Real Estate Investment Trusts</h3>
+            <p><a href="http://www.investinreits.com/" target="_blank"><strong>Nat'l Ass'n of REITs</strong></a> provides good basic information on REITs, how to invest in a REIT, how to find  a suitable REIT, diversification benefits, dividends, REIT closed-end funds and  mutual funds, and a database of both publicly-traded and private REITs. </p></td>
+          </tr>
+        </table>
+		<table width="550">
+          <tr>
+            <td align="left" valign="top"><p><span class="style4">Learn How To  Start Trading In The Stock Market</span><br />
+                <br />
+By <a href="http://ezinearticles.com/?expert=Mike_Singh">Mike Singh</a><br />
+<br />
+Trading in stocks has existed since the 12th  century. It has come a long way from men sitting in barn yards trading in a  small community, these days, however trading on the stock market has changed to  an almost unrecognisable degree. <br />
+Global stock markets not account for an  estimated $23 trillion in money flows. Stock exchanges such as the NYSE, NASDAQ  and the London Stock Exchange are all market places for trading stocks on.  These markets facilitate the trading of stocks by bringing together buyers and  sellers.<br />
+Traders of stocks have many varied approaches to  how they invest in the market. Some traders are risk loving and like to take  large gambles when they invest in stocks. These types of traders who include  day traders like to ride the wave of the minute to minute fluctuations in the  value of stocks.<br />
+This allows them to make a quick buck by  constantly buying and selling stocks at a mind boggling pace. Although there is  the chance of making a very quick buck this way this type of trading also runs  the risk of making a massive loss. It is estimated that about 80-90% of all day  traders make a loss on the stock market each day.<br />
+However if like most people you feel you don't  have the stomach or the time for minute to minute trading, there are other  methods to investing in the market. For example value traders are a much more  rationale, risk adverse type of trader. They try to avoid the minute to minute  fluctuations of the stock market by ignoring all the announcements made by  companies and just look at the average book price of the stocks over a longer  term.<br />
+Value traders search out companies they believe  to be undervalued possibly because it just announced profit warnings and now  which led to a dumping of shares from the company. This leaves the stock price  below its average price. Value investors buy the shares at the depreciated price  and then wait for them to go up in value again.<br />
+Trading on the stock market can take place in  the traditional manner in which buyers and sellers come together on the stock  market floor and stocks are auctioned off. Buyers and sellers act on behalf of clients  who place order for stocks to be sold or bought. In recent years the  traditional method has been combined with an electronic method in which orders  can be placed over a network, or through the internet.</p>
+            <p class="style5">Article provided as free content. </p></td>
+          </tr>
+        </table>
+		</div>
+	<div style="clear: both;"><br />
+  &nbsp;</div>
+</div>
+<div id="footer_ind">
+	<applet
+		archive="report.jar"
+		code="report.display.Finance"
+		width=250 height=75
+		mayscript>
+	<param name="cabbase" value="report.cab"/>
+	</applet>
+  <p class="style1"><span class="style3">&copy; 2008 FINANCECENTRALTODAY.COM. All Rights Reserved.</span><br />
+  </p>
+</div>
+</body>
+</html>

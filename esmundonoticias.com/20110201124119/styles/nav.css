@@ -1,0 +1,53 @@
+/******************************************
+* navigation styles                       
+******************************************/
+
+
+#nav {
+	background:#000000;
+	font-size:1em;
+	border-top:1px solid #607124;
+	border-bottom:1px solid #607124;
+	}
+	
+#nav {
+	list-style: none;
+	line-height: 1;
+	}
+
+#nav a, #nav a:hover {
+	display: block;
+	text-decoration: none;
+	border:none;
+	}
+
+#nav li {
+	float: left;
+	list-style:none;
+	}
+
+#nav a, #nav a:visited {
+	display:block;
+	font-weight:bold;
+	color: #fff;
+	padding:6px 12px;
+	}
+
+#nav a:hover {
+	background-color:#ff7e2a;
+	color:#000000;
+	text-decoration:none;
+	}	
+
+#nav a:active {
+	color:#ff7e2a;
+	text-decoration:none;
+	}	
+
+.current_page_item	a, #home .on  { 
+	/*background-color:#333;*/
+	color:#ff7e2a!important;
+	text-decoration:none;
+	}
+	
+/*a.main:hover {background:none;}*/

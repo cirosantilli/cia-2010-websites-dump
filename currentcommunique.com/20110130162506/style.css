@@ -1,0 +1,201 @@
+/* CSS Document */
+
+body {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-color:#e6eef8;
+}
+
+h1 {font-size: 13px; font-weight: normal; letter-spacing:.1em; color:#666633;  }
+h2 {font-size: 11px; font-weight: bold; color:#cccc99; padding: 0px 0px 0px 10px; background-color: #1b2938;}
+h3 {font-size: 11px; font-weight: bold; letter-spacing:.1em;color:#fff; padding: 0px 5px 0px 3px; background-color: #b5cfe8;}
+h4 {font-size: 11px; font-weight: bold; letter-spacing:.1em;color:#336699; padding: 0px 5px 0px 3px; background-image:url(images/header_bkgd.jpg);}
+
+a:link {  text-decoration:none; font-size: 11px; font-weight:normal; color:#000033; }
+a:visited {	text-decoration:none; font-size: 11px; font-weight:normal; color:#000033; }
+a:hover { text-decoration:underline; font-size: 11px; font-weight:normal; color:#990000;}
+a:active { text-decoration: none; font-size: 11px; font-weight:normal; color:#999;}
+
+ul#wh a:link { text-decoration:none; font-weight:normal; font-family: Arial, Helvetica, sans-serif; color:#fff; }
+ul#wh a:visited { text-decoration:none; font-weight:normal;  color:#fff; }
+ul#wh a:hover { text-decoration:underline; font-weight:normal; color:#336699; }
+ul#wh a:active { text-decoration: none; font-weight:normal; color:#fff; }
+
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456; 
+	scrollbar-arrow-color: #000;
+		}
+
+ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:2px 0px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+.box{
+	padding: 0px;
+	border:1px solid #336699;
+	background-color: #fff;
+	} 
+
+/* wrap defines the size of the website.  The left margin is half the size of the website (ie: 800px)*/
+#wrap {
+     width:800px; 
+	 height: 830px; 
+	 position:relative; 
+	 left:50%; 
+	 margin-left:-400px; }
+
+/* topbanner defines the size of the banner*/
+#topbanner {
+     width:800px; 
+	 height:61px; 
+	 position: relative; 
+	 margin:0px; 
+	 padding:0px;
+	 background-image:url(images/index_header.jpg);}
+	 
+#search {float:right;
+	width:500px;
+	height: 61px; 
+	padding:0px;
+	margin: 0px 5px 0px 0px; }	
+	 
+#subbanner {float:left;
+     width:800px; 
+	 height:224px; 
+	 position: relative; 
+	 margin:0px; 
+	 padding:0px;
+	 background-color:#273646;
+	 display:inline;}
+	 
+#features {
+	float:right;
+	width:325px;
+	height:224px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}	
+	 
+#topics {float:left;
+     width:310px; 
+	 height:200px;  
+	 margin:0px; 
+	 padding:0px 0px 0px 10px;
+	 border:0px;
+     color:#FFFFFF;
+	 overflow: auto;
+}
+#topics_header {float:left;
+     width:325px; 
+	 height:100%auto;  
+	 margin:0px; 
+	 padding:0px;
+	 border:0px;
+}
+	 
+/* maincontent defines the size of the main content below the subbanner*/
+#maincontent { float:left;
+      width:800px;
+	  height:545px; 
+	  position: relative; 
+	  margin:0px; 
+	  padding:0px;
+	  border:0px; 
+	  background-color:#FFFFFF;}
+
+/* navigation defines the size of the navigation bar*/
+#navigation {float:left;
+     width:103px; 
+	 height:545px; 
+	 position: relative; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:block; }
+	 
+#content { float:left;
+      width:697px;
+	  height:545px; 
+	  position: relative; 
+	  margin:0px; 
+	  padding:0px;
+	  border:0px; 
+	 }
+	 
+#middle {float:left;
+	width:571px;
+	height: 545px; 
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	background-image:url(images/info_bkgd.jpg);
+}
+/* Defines the size of the iframe*/
+#info	{
+	float:left;
+	width:571px;
+	height: 545px; 
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	background-image:url(images/info_bkgd.jpg);
+	 }
+		
+/* Defines the size of the two columns in iframe*/
+#column1 {
+	float:left;
+	width:235px;
+	height: 515px; 
+	padding: 0px;
+	margin: 20px 10px 5px 3px;
+	border:0px;
+	overflow: auto;
+	 }
+	
+#column2 {
+	float:left;
+	width:310px;
+	height: 515px; 
+	padding: 0px;
+	margin: 20px 0px 5px 5px;
+	border:0px; 
+	overflow: auto;
+	 }
+	
+
+#sidebar{float:right;
+	width:126px;
+	height: 545px; 
+	padding:0px;
+	margin: 0px;
+	border:0px;
+	font-size:11px;
+	  }
+
+#slides {float:right;
+	width:126px;
+	height: 88px; 
+	padding:0px;
+	margin: 0px;
+	border:0px;
+	  }
+
+#footer {
+	clear: both;
+	width: 800px;
+	height: 12px;
+	margin: 0px;
+	padding: 3px 0px;
+	color: #FFFFFF;
+	background-color: #092941;
+	text-align: center;
+}	  

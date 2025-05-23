@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+#wrap{position: relative; width: 1070px; height: 100% auto; margin: 0px 0px 0px -535px; padding: 0px; left: 50%;background: url(../images/bkgrnd.jpg) repeat-y; }
+
+
+#header{float: left; width: 500px; height: 100% auto; margin: 0px; padding: 0px;}
+#header2{float: left; width: 1070px; height: 100% auto; margin: 0px; padding: 0px;}
+
+p, td, tr{font-size: 11px;}
+
+
+ul{margin: 0px; padding: 0px; list-style: none;}
+li{ display: block; margin: 0px; padding: 0px 0px 8px 0px;}
+
+img{border: none;}
+
+a:link, a:visited{ color: #56788C; text-decoration: none; font-weight: bold;}
+a:hover{ color: #BA3E14;}
+a:active{color: #900;}
+
+h2{margin: 0px; padding: 5px 0px 3px 0px; font-family: "Times new roman", times, serif; color: #528a9c; font-size: 24px; letter-spacing: 1.2pt; font-weight: 500;}
+h3{margin: 5px 0px 0px 0px; padding: 0px; font-family: "Times new roman", times, serif; color: #333; font-size: 18px; border-bottom: 1px solid #ccc; font-weight: normal; letter-spacing: 0pt;}
+
+h4, .rss-title{color: #999; margin: 0px; padding: 0px; font-size: 11px; font-weight: normal;  }
+
+h5{font-size: .9em; margin: 0px; padding: 0px; color: #666; font-weight: normal;}
+
+
+#nav {float: left; width: 570px; height: 58px; background: url(../images/nav.jpg) no-repeat; margin: 0px; padding: 0px;}
+#nav ul{ float: left; width: 450px; height: 100% auto; margin: 34px 0px 0px 0px; padding: 0px;  font-size: 11px; }
+#nav ul li{display: inline; padding: 0px; margin: 0px; }
+
+#nav ul li a{color: #fff; text-decoration: none; padding: 2px 8px; font-weight: normal;}
+#nav ul li a:hover{color: #80DDDB;}
+#nav ul li a#focus, #nav ul li a:active{color: #fff;}
+#nav ul li #focus, #nav ul li :active{ background: #80DDDB;}
+
+#pg_btm{float: left; width: 1070px; height: 100% auto;  margin: 0px; padding: 0px; background: url(../images/bkgrnd.jpg) repeat-y;}
+
+
+#main{float: left; width: 580px; height: 100% auto;  margin: 10px 0px 10px 100px; padding: 0px; border-right: 1px solid #eee;}
+
+#sidebar{float: right; width: 250px; height: 100% auto;  margin: 10px 120px 10px 0px; }
+#topstories {margin: 0px; padding: 0px; }
+
+#topstories p {clear: both; margin-bottom: 10px;}
+#topstories img{padding-right: 5px;}
+
+.col1{float: left; width: 47%;}
+.col2{float: right; width: 47%;}
+
+#subpg{float: left; width: 525px; height: 100% auto;} /* wrap news boxes */
+#topnewsbox{float: left; width: 525px; height: 100% auto; margin-bottom: 15px; background: #fff; border: 1px solid #9CC;}
+#btmnewsbox{float: left; width: 525px; height: 100% auto; background: #fff; border: 1px solid #528a9C;}
+
+
+#footer{clear: both; width: 1070px; height: 20px; margin: 0px; padding: 0px; color: #666; text-align: center;}
+
+.box{padding: 5px;}
+.boxline{border: 1px solid #ccc; margin-top: 10px;}
+.imgcenter{text-align: center;}
+.imgindent{padding-left: 150px;}
+
+
+.scroll{background: #FFFFFF;
+scrollbar-face-color:#FFFFFF;
+scrollbar-arrow-color:#006699;
+scrollbar-track-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+}
+
+td span{font-size: 11px;} !important

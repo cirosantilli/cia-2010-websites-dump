@@ -1,0 +1,60 @@
+﻿
+html {
+background-image: url(images/col2.jpg);
+background-repeat:repeat;
+
+}
+
+
+body {
+background-image: url(images/col2.jpg);
+background-repeat:repeat;
+	background-color:#ffd180;
+	scrollbar-face-color:#241886;
+	scrollbar-highlight-color:#241886;
+	scrollbar-3dlight-color:#241886;
+	scrollbar-shadow-color:#241886;
+	scrollbar-darkshadow-color:#241886;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-track-color:#241886;
+}
+
+
+.rssfeedtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#none;
+	font-size:17px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding: 7px 7px 7px 12px;
+	}
+
+
+#rssfeed {
+	background-color:#none;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	}
+
+
+#rssfeed a {
+	font-weight:bold;
+	background-color:#none;
+	color:#00deff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	}
+
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 7px 0px 7px;
+	} 
+
+ul 	{
+	list-style: none;
+	margin: 0px 7px 0px 0px;
+	padding: 0px 7px 0px 7px;
+	} 

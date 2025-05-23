@@ -1,0 +1,115 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>untitled</title>
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/myscripts.js"></script>
+
+<script type="text/javascript">
+	google.load("feeds", "1");
+</script>
+
+<script>
+  google.setOnLoadCallback(loadNewsTabs);
+ </script>
+
+<link href="gfeed.css" rel="stylesheet" type="text/css">
+<link href="tech.css" rel="stylesheet" type="text/css">
+<base target="_blank" />
+</head>
+
+<body class="subpg">
+
+
+<div class="main1">
+<h2>Latest News</h2>
+<h3>Yahoo!Tech</h3>
+	<div id="newsfeed2"></div>
+<br class="clearfloat" />
+<h3>CNN Tech</h3>
+	<div id="newsfeed1"></div>
+</div><!--end col1-->
+
+<div class="main2">
+<h2>Tech News Links</h2>
+<ul>
+        <li><a href="http://news.yahoo.com/i/738">Yahoo!News: Technology</a><br />Offers breaking news grouped by choice of subject or wire service
+            provider. Full coverage of selected topics.</li>
+        <li><a href="http://www.msnbc.msn.com/id/3033118/">MSNBC Technology News</a><br />The latest news on technology, including computer virus
+            information and space news.</li>
+        <li><a href="http://news.cnet.com/">CNET News.com</a><br />Computing
+            and technology news service presents original stories and investigative reports in real-time.</li>
+        <li><a href="http://www.cnn.com/TECH/">CNN.com: Technology</a><br />Presents a top stories section with news about the internet, games,
+            business tech and personal tech. Includes links to special reports.</li>
+        <li><a href="http://www.guardian.co.uk/technology">Guardian Unlimited: Technology</a><br />News and features about the internet and technology. Includes business
+            solutions, science news, e-issues and special reports plus web watch, gadgets, games, blogs and Ask Jack.</li>
+     </ul>
+
+
+
+	<h2>RSS Headlines</h2>
+    <ul>
+    
+    <li><a href="http://www.nytimes.com/services/xml/rss/nyt/Technology.xml" class="rssfeed"><img src="images/rss.gif" border="0" />&nbsp;NYT: Technology</a><br />Feature articles and breaking news.</li>
+	<li><a href="http://news.cnet.com/2547-1_3-0-20.xml" class="rssfeed"><img src="images/rss.gif" border="0" />&nbsp;CNET News</a><br />Tech news and business reports focused on information technology, core topics include computers, hardware, software, networking, and internet media.</li>
+    <li><a href="http://feeds.wired.com/wired/index"><img src="images/rss.gif" border="0" />&nbsp;Wired News: Technology</a><br />Technology stories in RSS format.</li>
+    </ul>
+
+
+<br />
+
+<h2>Magazines</h2>
+<ul>
+      <li><a href="http://www.pcworld.com" target="_blank">PC World</a><br />Trusted source for tech product reviews, tech news, how-to's and free downloads.</li>
+      <li><a href="http://www.gizmag.com" target="_blank">Gizmag Emerging Technology Magazine</a><br />Multiple-medium magazine with a bi-monthly print edition covering invention, innovation, and emerging technologies.</li>
+	  <li><a href="http://www.computerworld.com" target="_blank">Computerworld</a><br />IT news, features, blogs, tech reviews, career advice</li>
+
+       <li><a href="http://www.mobilemag.com/" target="_blank">Mobile Magazine</a><br />Examines mobile technology like digital cameras, MP3 devices, notebooks, wireless phones, and more. Includes news, discussions, reviews, and more.</li>
+	  <li><a href="http://www.t3.co.uk/" target="_blank">T3</a><br />Hi-tech, hi-style magazine on the web.</li>
+	  <li><a href="http://www.discover.com/" target="_blank">Discover Magazine</a><br />Science and Technology News, Science Articles</li>
+      <li><a href="http://www.popsci.com" target="_blank">Popular Science | New Technology, Science News, The Future Now</a><br />Offers aviation, space, science, medical, and automotive industry news.</li>
+</ul>
+</div>
+<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui-min.js"></script>
+<!--<script type="text/javascript" src="http://www.google.com/jsapi"></script>-->
+<script type="text/javascript"src="http://www.google.com/uds/?file=feeds&v=1"></script>
+<script type="text/javascript">
+		YUI().use("node","substitute", function(Y) {
+	
+				
+			
+			var feedHTML = '<div class="article_title"><a href="{link}" target="_blank">{title}</a><br />{content}</div>'
+			var rssFeed = new google.feeds.Feed("http://rss.news.yahoo.com/rss/internet");
+			rssFeed.setNumEntries(5);
+			rssFeed.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML,entries[i])
+					}
+					Y.one("#newsfeed1").set('innerHTML',str);
+				}
+			});
+			
+			var feedHTML2 = '<div class="article_title"><a href="{link}" target="_blank">{title}</a><br />{content}</div>'
+			var rssFeed2 = new google.feeds.Feed("http://topics.cnn.com/topics/feeds/rss/technology");
+			rssFeed2.setNumEntries(4);
+			rssFeed2.load(function(result){			
+				if(!result.error) {			
+					var str = "";
+					var entries = result.feed.entries;
+					for (var i=0; i<entries.length; i++) {
+						str += Y.substitute(feedHTML2,entries[i])
+					}
+					Y.one("#newsfeed2").set('innerHTML',str);
+				}
+			});
+			
+			
+		
+		});
+	</script>
+	
+</body>
+</html>

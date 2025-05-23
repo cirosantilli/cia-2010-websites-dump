@@ -1,0 +1,36 @@
+body {margin: 0; padding: 0; font-family:"Trebuchet MS", Arial, Tahoma, Verdana; font-size: 11px;}
+.back_img {background: url('images/bg.gif') repeat-y center top;color: #333; }
+
+#wrap{margin: 0 auto;width: 702px; height:100% auto; }
+#header {no-repeat;	height: 180px;	margin: 0 auto;	width: 630px;}
+#applet {width: 610px; height: 20px;  margin: 8px 0 0 45px; padding: 4px; background-color: #81AC00; color: 553;}
+
+
+h1{font-size: 16px; color: #fff; padding: 0px;}
+h2{background: #81AC00;color: #FFF;font-size: 12px;line-height: 20px; padding-left: 12px;}
+
+#menu {background: #567300;	height: 20px; margin: auto;width: 630px;}
+#menu ul {list-style: none; margin:0px 0 0 0;	padding-top: 4px;}
+#menu li {display: inline; padding: 0 4px;}
+#menu li a{ padding: 3px 10px 2px 10px; color: #fff; background-color:#81AC00 ; text-decoration: none; font:14px;font-weight: bold;}
+#menu a:hover {color: #000; }
+#menu li a:focus, #menu li a:active {color: #000; background-color:#E8F6BF;}
+
+#iframe_wrap{width: 625px; height: 1300px;  margin: 0px	0	0	30px; padding: 0px;}
+#content{width: 620px; height: 1500px;  margin: 0px; padding: 10px;}
+
+#sidebar {float: right; margin: 0;width: 200px;height:1500px;}
+#sidebar h1 {background: #81AC00;color: #FFF;font-size: 12px;line-height: 20px; padding-left: 12px;}
+#sidebar ul {margin:  0 0 0 10px; padding: 0;}
+#sidebar li {border-bottom: 1px solid #D5E8AD; border-left: 1px solid #D5E8AD; list-style: none;}
+#sidebar li a {background:url('images/bgnavigation.gif') repeat-x;color: #553;display: block;	padding: 0px 4px 8px 12px;	font-size: 11px; text-decoration: none;}
+#sidebar li a:hover {background: #F0FFC6;color: #553;}
+
+#title {float: left; background: url('images/bgfooter.gif') repeat-x; width: 412px; height: 30px; margin: 0px; padding: 0px;}
+#text {width:385px;	height:100% auto;padding: 12px 0 0 10px; margin: 0px; float: left;}
+#text ul {list-style: none; margin:0;	padding:0px;}
+#text li {padding: 0 4px;}
+#text li a{ padding: 3px 10px 2px 10px; color: #567300;  text-decoration: none; font:14px;font-weight: bold;}
+#text a:hover {color:#d5e8ad; }
+
+#footer {clear: both; background:url('images/bgfooter.gif') repeat-x;color: #FFF;font-size: 1.1em;line-height: 40px; margin: 0 auto;text-align: center;width: 626px;}

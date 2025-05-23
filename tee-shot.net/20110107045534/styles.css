@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*Tee Shots CSS Document */
+body { margin-left: 0px; margin-top: 0px; }
+b { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #048aff; }
+em { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;  color: #977347; }
+p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000; }
+#wrap { float:left; width: 980px; height: 1000px; }
+
+#header { float:left; width: 980px; height: 133px; }
+#headerimg { float:left; width: 792px; height: 133px; }
+#imgder01 { float:left; width: 792px; height: 91px; }
+#imgder02 { float:left; width: 792px; height: 42px; }
+#appbox { float:left; width: 188px; height: 133px; background: url(images/tee_img_04.jpg) no-repeat; }
+#imgder03 { float:left; width: 980px; height: 76px; }
+
+#leftbox { float:left; width: 570px; height: 791px; }
+#imgbox01 { float:left; width: 570px; height: 165px; }
+#feedbox01 { float:left; width: 287px; height: 626px; background: url(images/tee_img_19.jpg) no-repeat; }
+#feedbox02 { float:left; width: 283px; height: 626px; background: url(images/tee_img_20.jpg) no-repeat; }
+
+#rightbox { float:left; width: 410px; height: 791px; }
+#btnbox { float:left; width: 171px; height: 791px; background: url(images/tee_img_16.jpg) no-repeat; }
+#imgbox02 { float:left; width: 120px; height: 791px; }
+#imgbox03 { float:left; width: 119px; height: 791px; background: url(images/tee_img_18.jpg) top no-repeat; }
+
+/*-----------btn------------*/
+.wireframemenu{ width: 150px; margin-left: 20px; margin-top: 245px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 144px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none;  }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ color: black; }
+
+
+/*------------feed and links-------------*/
+.main5header { position:absolute; width: 240px; height: 15px; padding: 10px 10px 5px 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #595959; top: 30px; left: 16px; }
+.main5 { position:absolute; width: 250px; height: 490px; z-index:2; overflow: auto; visibility: visible; top: 65px; left: 15px; padding: 10px 10px 0px 10px; }
+*html .main5 { position:absolute; width: 272px; height: 500px; z-index:2; overflow: auto; visibility: visible; top: 65px; left: 15px; padding: 10px 10px 0px 10px; }
+
+.main { position:absolute; width: 240px; height: 480px; z-index:2; overflow: auto; visibility: visible; top: 65px; left: 15px; padding: 10px 10px 0px 10px; }
+*html .main { position:absolute; width: 262px; height: 490px; z-index:2; overflow: auto; visibility: visible; top: 65px; left: 15px; padding: 10px 10px 0px 10px; }
+
+.main5 a:link, .main a:link {  text-decoration: none; color: #87be40;}
+.main5 a:visited, .main a:visited { text-decoration: none; color: #87be40; }
+.main5 a:hover, .main a:hover  { text-decoration: none; color: #048aff; }
+.main5 a:active, .main a:active { text-decoration: none; color: #87be40; }
+.main5 ul, .main ul{ list-style-type: none; margin-left: 0px; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

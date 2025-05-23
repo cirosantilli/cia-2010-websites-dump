@@ -1,0 +1,69 @@
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; /*font-family: Verdana, Arial, Helvetica, sans-serif; */  font-family:"Lucida Sans", Tahoma, "Trebuchet MS"; font-size: 11px; background: #336699;}
+
+#wrap{position: relative; width: 900px; height: 100% auto; left: 50%; margin: 0px; margin-left: -450px; background: #fff;}
+
+h1{color:#3399CC; padding: 4px 4px 0px 4px; font-weight: bold;  font-size:  14px; height: 16px;}
+
+h2{color: #336699; padding: 4px 4px 0px 4px; margin: 0px 0px 2px 0px; font-weight: bold;  font-size:  11px; background: url(images/titles.jpg) repeat-x;  border-bottom: 1px solid #336699; height: 16px;}
+h3{color: #333; font-size: 12px; padding: 5px 5px 3px 10px; font-weight: normal; background: #900;}
+
+a{font-weight: normal; color: #006699; text-decoration: none; }
+a:hover{color: #333333; text-decoration: none;}
+
+ul{margin: 0px 0px 0px 18px; padding: 2px 2px;}
+li{
+	margin-top: 3px;
+	padding: 0px;
+	list-style-image: url(images/rightarrow.gif);
+	vertical-align: top;
+}
+/*li a{ vertical-align:50%; }*/
+li a:hover{color: #99CC00;  }
+li.noarrow{list-style: none;}
+#newsources ul li{list-style: none;}
+.rss-title, h4{text-transform: uppercase; /*color: #006699;*/ color: #999; font-size: 11px; font-weight: normal; border-bottom: 1px solid #ccc; padding: 2px 0px 0px 2px; border-top: 1px solid #ccc; margin: 0px; height: 100% auto; letter-spacing: .05em;}
+
+/*#tabcontent{ height: 430px;}*/
+ul#tabnews{margin: 0px; border: 1px solid #99cc00; background: #99cc00;}
+ul#tabnews li{margin: 0px; display: inline; width: 80px; padding: 0px; }
+ul#tabnews li a{color: #fff; padding: 2px; font-size: 12px;}
+ul#tabnews li a:hover{color:#333;}
+ul#tabnews li a:active, ul#tabnews li a#focus{color:#333; background: #FF9900; }
+
+#header{float: left; width: 100% auto; height: 212px; }
+#timewrap{float: left; width: 100% auto; height: 100% auto;  padding: 5px 0px; margin-bottom: 10px;}
+
+#worldtime{float: left; color:#000000; padding-left: 5px; color: #666; width: 600px;}
+.cityname{color: #336699; }
+#todaydate{float: right; color:#666; padding-right: 5px;}
+#nav{clear: both; width: 100% auto; height: 100% auto; border-bottom: 1px solid #666;}
+#nav ul{width: 100% auto; height: 100% auto;  margin: 3px 5px; }
+#nav li{display: inline; list-style: none; margin: 0px 2px; padding: 3px 10px; font-size: 12px; background: url(images/titles.jpg) repeat-x; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 2px solid #666;}
+#nav li:hover{background: url(images/or_gradient.jpg) repeat-x;}
+#nav li a{color: #333;}
+#nav li:hover a:hover{color: #333;}
+#nav li a.selected{color: #336699; }
+
+
+#main{clear: both; width: 900px; height: 100% auto; margin: 10px 0px; background: #fff; }
+#col1{float: left; width: 220px; margin: 0px 10px 10px 2px; }
+#col2{float: left; width: 410px; margin: 0px 10px 10px 2px;}
+#col3{float: left; width: 230px; margin: 0px 0px 10px 0px;}
+
+#col4{float: left; width: 637px; margin: 0px 10px 10px 5px;}
+
+.box{ margin: 0px 0px 20px 0px; padding: 0px; }
+.boxbrdr{border: 1px solid #ccc; padding: 0px;}
+.grnbrdr{border: 1px solid #99CC00; padding: 0px;}
+.pad{padding: 5px;}
+.imgcenter{text-align: center;}
+.rss-date { float: left; font-size: 10px; color: #666; margin: 0px; padding: 0px;}
+.clearfloat {font-size: 1px; line-height: 0px; clear: both; height: 0px;}
+/*.tabcontentstyle{ width: 950px; height: 100% auto; margin: 0px; padding: 0px; float: left;} */
+.tabcontent{display:none; } /*content is there but doesn't show until needed*/
+
+#footer{clear: both; width: 100% auto; height: 20px; background: #eee; color: #333; text-align: center; font-size: 9px; font-weight: normal; padding-top: 10px;}
+
+ul.lineup li {display: inline; padding: 5px 8px;}

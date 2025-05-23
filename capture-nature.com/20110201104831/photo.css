@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background:#000;
+}
+
+a:link {  text-decoration:none; font-weight:bold; color:#436fbe; }
+a:visited {	text-decoration:none; font-weight:bold; color:#436fbe; }
+a:hover { text-decoration:underline; font-weight:bold; color:#436fbe;}
+a:active { text-decoration: none; font-weight:bold;	color:#436fbe;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:5px 3px 5px 5px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#logos {margin:0; padding:0; display:block; border:0;}
+li#logos {margin:0; padding:5px 3px 0px 5px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#sidebar {margin:0; padding:0; display:block; border:0;}
+li#sidebar {margin:0; padding:0px 5px 0px 5px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#menu_list {font-family: Geneva, Arial, Helvetica, sans-serif; margin:0; padding:0; display:block; border:0;}
+li#menu_list {margin:0px; padding:1px 0px 1px 0px; list-style:none; }
+
+ul#menu_list a:link { padding: 1px 0px;	font-weight: bold; text-indent: 5px; display: block; border-bottom: 1px solid #fff; color: #fff; text-decoration: none; }
+ul#menu_list a:visited { padding: 1px 0px; font-weight: bold; text-indent: 5px; display: block; border-bottom: 1px solid #fff; color: #fff; text-decoration: none; }
+ul#menu_list a:hover { padding: 1px 0px; font-weight: bold; text-indent: 5px; display: block; border-bottom: 1px solid #fff; color: #befc01; text-decoration: none; }
+ul#menu_list a:active { padding: 1px 0px; font-weight: bold; text-indent: 5px; display: block; border-bottom: 1px solid #fff; color: #fff; text-decoration: none; }
+
+h1 {font-size: 10px; font-weight: bold; text-transform: uppercase; margin: 0px; padding: 0px 5px 2px 5px; color:#fff; background-color: #436fbe; width: auto;}
+
+img {
+border:0;
+}
+
+/* wrap defines the size of the website.*/
+#wrap {
+     width:800px; 
+	 height:830px;
+	 margin: 0 auto; 
+	 text-align: left;
+	 }
+	 
+ /* topbanner defines the size of the banner*/
+#topbanner {
+     width:800px;
+	 height:120px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+
+ /* bottombanner defines the size of the banner*/
+#bottombanner {
+     width:800px;
+	 height:120px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+	 
+/* maincontent defines the size of the main content below the banner*/
+#maincontent {
+      float:left; 
+	  width:800px;
+	  height:590px;
+	  background-color:#fff; 
+	  margin:0px; 
+	  padding:0px; }
+	  
+
+/* Defines the area for the left bar*/
+#left_bar {	
+	float:left;
+	width: 110px;
+	height: 590px;
+	background-color:#436fbe;  
+	padding: 0px;
+	margin: 0px 10px 0px 0px;	
+	} 
+	
+/* This is the wrap for the iframe content*/
+#iframe_content {
+		width:520px;
+		height:590px;
+		float:left; 
+		margin:0px;
+		padding:0px;
+		background-color: #ffffff;
+			}
+
+/* Defines the area for the left content*/
+#left_content {	
+	float:left;
+	width: 248px;
+	height: 588px;
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	border:1px solid #436fbe;
+	}
+	
+/* Defines the top area for the left bar content*/
+#left_content_top {	
+	width: 248px;
+	height: 437px;
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;		
+	} 
+	
+	
+/* Defines the area for the middle content*/
+#middle_content {	
+	float:left;
+	width: 248px;
+	height: 588px;
+	padding: 0px;
+	margin: 0px;	
+	}
+	
+/* Defines the area for the middle content top box*/
+#middle_top {	
+	float:left;
+	width: 248px;
+	height: 154px;
+	padding: 0px;
+	margin: 0px;
+	border:1px solid #436fbe;
+	} 
+	
+/* Defines the area for the middle content bottom box*/
+#middle_bottom {	
+	float:left;
+	width: 248px;
+	height: 422px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+	border:1px solid #436fbe;
+	}
+	
+/* Defines the top area for the left bar content*/
+#middle_bottom_content {	
+	width: 248px;
+	height: 403px;
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;		
+	} 
+	
+/* Defines the area for the middle content*/
+#right_content {	
+	float:right;
+	width: 160px;
+	height: 588px;
+	background: url(images/bkgnd.jpg); 
+	padding:0px;
+	margin: 0px;
+	}
+
+ /* Defines the scroll bar*/	  
+	  
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#436fbe;
+	}
+	
+.featured {
+float: left;
+margin-right:0px;
+padding: 0px 5px 0px 0px;
+}
+
+.logo {
+float: left;
+margin-right:5px;
+padding: 5px 0px 5px 5px;
+}
+
+.logo2 {
+float: right;
+margin-left:5px;
+padding: 5px 0px 5px 5px;
+}
+
+
+

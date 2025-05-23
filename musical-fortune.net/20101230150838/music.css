@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0; padding: 0; color: #333; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background: #333;}
+
+#wrap{position: relative; width: 1030px; height: 100% auto; margin: 0 0 0 -515px; left: 50%; padding: 0; background: #fff url(images/bkgrnd.jpg) repeat-y;}
+
+#banner{float: left; width: 1030px; height: 90px;}
+
+#side{float: left; width: 423px; height: 100% auto;}
+
+#main{float: left; width: 607px; height: 100% auto; min-height: 500px;}
+
+ul{margin: 0px; padding: 0px;}
+li{margin: 0px; padding: 5px 0px; list-style: none; display: block;}
+
+table{width: 100%; }
+p{margin: 0px; padding: 0px;}
+
+a{color:#09C; text-decoration: none; }
+a:hover{color: #C00;}     /* green #86a020 */
+
+iframe{margin-right: 15px;}
+
+img{border: none; margin: 0px; padding: 0px;}
+
+h2{font-size: 16px; margin: 0px; padding: 0px; color: #000; font-weight: 500; font-variant: small-caps; font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif; border-bottom: 1px solid #333;}
+h3{font-size: 12px; margin: 0px; padding: 0px; color: #900; font-weight: normal; font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif; }
+
+#nav{float: left; width: 607px; height: 90px; background: url(images/topbar.jpg) no-repeat;}
+#nav ul{float: left; width: 560px; margin-top: 60px;}
+#nav ul li{display: inline; margin: 0px 5px; font-size: 14px; font-variant: small-caps; font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;}
+
+
+#sideblock{float: left; width: 423px; height: 100% auto; min-height: 300px; background: url(images/sideblock.jpg) no-repeat;} /*text goes beside bkgrnd image */
+
+.imgdown{margin-top: 100px;} /*  push img down below scroll decoration  */
+#sideblock ul#ads{float: left; text-align: center; width: 170px;}
+#sideblock ul#ads li{padding: 10px 0px;}
+#sideblock #links{float: left; width: 220px; }
+
+.col1{float: left; width: 235px; padding: 5px 0px; margin: 0px 5px;}
+.col2{float: right; width: 305px; padding: 5px 0px; margin: 0px 5px;}
+
+
+
+#yahoonews img{padding-right: 5px; padding-bottom: 3px;}
+
+#footer{clear: both; background: url(images/footer.jpg) no-repeat; width: 1030px; height: 108px;}
+
+#footer p{text-align: center; color: #666; font-size: 9px;  width: 100%; padding: 80px 0px 0px 50px;}
+
+.adspace{margin: 20px 50px 10px 190px;}
+
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+
+
+.scroll{background: #fff; scrollbar-face-color:white;  scrollbar-highlight-color:white; scrollbar-3dlight-color:white; scrollbar-darkshadow-color:white; scrollbar-shadow-color:white; scrollbar-arrow-color:#006699; scrollbar-track-color:white; }
+

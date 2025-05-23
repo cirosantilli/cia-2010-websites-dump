@@ -1,0 +1,205 @@
+body {
+	font-family:  Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-color:#ccc;
+}
+
+h1 {font-size: 15px; font-weight: normal; color:#ccc;}
+h2 {font-size: 12px; font-weight: normal;  color:#66cccc;}
+h3 {font-size: 15px; font-weight: normal; text-transform: uppercase; letter-spacing:.3em; width:550px; color:#FFF; padding: 0px 3px; margin: 0px; background-color:#a54173; border:1px solid #fff; }
+h4 {font-size: 14px; font-weight: normal; color:#ccc;  margin: 2px 0px 5px 0px; }
+
+a:link {  text-decoration:none; font-size: 11px; font-weight:normal; color:#999; }
+a:visited {	text-decoration:none; font-size: 11px; font-weight:normal; color:#999; }
+a:hover { text-decoration:underline; font-size: 11px; font-weight:normal; color:#33cccc; }
+a:active { text-decoration:none; font-size: 11px; font-weight:normal; color:#999;}
+
+
+ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:5px 0px; list-style:none; border:0;} 
+
+img{border: 0px;}
+
+#wrap {
+     width:900px; 
+	 height: 100% auto; 
+	 position:relative; 
+	 left:50%; 
+	 margin-left:-450px;
+	 background-color:#fff; 
+	 }
+
+#topbanner { width:900px; height:194px; margin:0px; padding:0px;  }
+
+#navigation { float: left;
+     width:319px; 
+	 height:194px;  
+	 margin:0px; 
+	 padding:0px; 
+	 background-image:url(images/index_01.jpg);
+	 }
+	 
+ul.nav1 { margin:10px 0px 0px 0px; padding:0px; text-align:left; }
+ul.nav1 li {display:block; text-align:right;}
+ul.nav1 li a{color:#999; font-size: 12px; padding:20px 15px 10px 0px; }
+ul.nav1 a:visited {color:#999; font-size: 12px;}
+ul.nav1 a:hover{color:#33cccc; font-size: 12px; text-decoration:none; }	
+
+ul.nav2 { margin:10px 0px 5px 0px; padding:0px; text-align:left; }
+ul.nav2 li {display:block; text-align:left;}
+ul.nav2 li a{color:#999; font-size: 12px; padding:5px 15px; }
+ul.nav2 a:visited {color:#999; font-size: 12px;}
+ul.nav2 a:hover{color:#33cccc; font-size: 12px; text-decoration:none; }	
+	 
+#navigation2 { float: right;
+     width:319px; 
+	 height:194px;  
+	 margin:0px; 
+	 padding:0px; 
+	 background-image:url(images/index_03.jpg);
+	 }
+
+#maincontent {float:left;
+      width:900px;
+	  height:100% auto;
+	  padding:0px; 
+	  margin: 0px; 
+	  background-color: #fff;
+	 }
+	 
+#content_center{float:left;
+      width:900px;
+	  height:342px;
+	  padding:0px; 
+	  margin:0px; 
+	  background-color: #fff;
+	  }	 
+	   
+.box_scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#fff;
+	scrollbar-shadow-color:#fff;
+	scrollbar-highlight-color:#fff;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-darkshadow-color:#fff;
+	scrollbar-track-color:#fff;
+	scrollbar-arrow-color:#ccc;
+	}
+ 
+.box{
+	padding:0px;
+	border:1px solid #ccc;
+	} 
+		   	  
+#colum_left {
+	float:left;
+	width:20px;
+	height:330px;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#column1 {
+	float:left;
+	width:284px;
+	height:330px;
+	padding: 0px 0px 0px 3px;
+	margin: 0px 10px 0px 0px;
+	overflow:auto;
+	}
+	
+#column2 {
+	float:left;
+	width:262px;
+	height:342px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	}
+	
+#content {float:left;
+	width:250px;
+	height:126px;
+	padding: 5px;
+	margin: 10px 0px;
+	}
+	
+#column3 {
+	float:left;
+	width:284px;
+	height:330px;
+	padding: 0px 0px 0px 3px;
+	margin: 0px 15px 0px 10px;
+	overflow:auto;
+	}
+	
+	
+#maincontent_bottom {float:left;
+    width:900px;
+	height:300px;
+	padding:0px; 
+	margin: 0px; 
+	background-image:url(images/featured_bkgd.jpg);
+	background-color:#e6f1f1;
+	 }
+	
+#column1_bottom{
+	float:left;
+	width:135px;
+	height:100%;
+	padding: 0px;
+	margin: 10px 10px 10px 20px;
+	}	
+	
+#column2_bottom {
+	float:left;
+	width:135px;
+	height:100%;
+	padding: 0px;
+	margin: 10px 10px 10px 10px;
+	}
+	
+#sidebar_bottom {
+	float:left;
+	width:262px;
+	height:100% auto;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	}
+#sidebar_bottom li {padding: 0px 0px 0px 10px;}
+	
+#column3_bottom {
+	float:left;
+	width:135px;
+	height:100% auto;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 10px;
+	}
+	
+#column4_bottom {
+	float:right;
+	width:135px;
+	height:100% auto;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 20px 0px 10px;
+	}
+	
+#footer{float:left;
+    width:860px;
+	height:150px;
+	position: relative; 
+	padding:20px; 
+	margin: 0px; 
+	background-color:#fff;
+	text-align:center;
+	}
+	
+#app{float:left;
+    width:205px;
+	height:90px;
+	padding:6px 0px; 
+	margin: 0px 0px 0px 12px; 
+	}
+

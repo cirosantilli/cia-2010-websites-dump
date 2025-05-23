@@ -1,0 +1,64 @@
+body {	font: 75% "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif; background: #f2f2f2; margin: 0; padding: 0;
+	text-align: left;	color: #000000;}
+
+
+#wrap { 
+	width: 900px;  height: 100% auto;
+	background: #FFFFFF;
+	margin: 0 auto;
+	text-align: left; 
+}
+
+
+#header { 	float: left; width: 900px;  } 
+#dateformat{float: left; width: 590px; text-align: right; margin: 10px 5px;}
+#latestnews{float : left;  width: 590px; text-align: left; margin: 10px 5px;}
+
+ul{	margin: 0; padding: 0; }
+li{margin: 0; padding: 5px 0px 3px 0px; display: block; list-style: none;}
+ul li ul{margin: 0; padding: 0;}
+ul li ul li{margin: 0px; padding: 1px 0px 1px 25px;}
+p{margin: 0;padding: 0;}
+img{border: none;}
+
+a{text-decoration: none; color:#099; font-weight: bold; border: none;}
+a:hover{color: #0099CC; border-bottom: 1px solid #333;}
+a:active, a#focus{color: #000; border-bottom: 1px solid #099;}
+
+#nav {float: left; width: 600px; height: 40px;  }
+#nav ul{margin: 10px 0px 20px 0px; padding: 0;}
+#nav ul li{margin: 0; padding: 2px 10px; list-style: none; display: inline; font-size:120%;}
+
+h2{color:#000; font-size: 140%; padding: 0px; margin: 0; font-weight: normal; font-family:Georgia, "Times New Roman", Times, serif; border-bottom: 1px solid #DDE8F0;}
+h3{color:#000; font-size: 110%; padding: 2px 0px; margin: 0; font-weight: normal; font-family:Georgia, "Times New Roman", Times, serif; font-variant: small-caps;}
+
+#mainContent{clear: both; background: #fff; min-height: 650px;}
+
+.col1{float: left; width: 280px; min-height: 500px;}
+.col2{float: left; width: 620px; min-height: 500px;}
+
+#article{float: left; width: 400px; height: 100% auto; margin: 10px;}
+#article2{float: right; width: 180px; height: 100% auto; margin: 10px 0px;}
+#resources li{text-align: center; margin: 12px 0px;}
+#footer {clear:both; width: 900px; height: 41px;	margin: 0px; padding: 0px; 	background:url(images/footer.jpg) no-repeat;} 
+.box{border: 1px solid #ccc; padding: 5px; margin: 10px;}
+.fill{background: #E9F3F3;}
+.fill2{background: #FBFAF7;}
+
+.btmline{border-bottom: 1px solid #69C; margin-bottom: 10px;}
+/* Miscellaneous classes for reuse */
+.fltrt {	float: right;	margin-left: 8px;}
+.fltlft { 	float: left;	margin-right: 8px;}
+.clearfloat {	clear:both;    height:0;    font-size: 1px;    line-height: 0px;}
+.minicol{width: 45%;}
+.imgcenter{text-align: center;}
+
+.scroll{background: #FFFFFF; padding: 5px;
+scrollbar-face-color:#FFFFFF;
+scrollbar-arrow-color:#006699;
+scrollbar-track-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+}

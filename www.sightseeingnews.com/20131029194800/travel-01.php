@@ -1,0 +1,86 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<base target="_blank" />
+</head>
+
+<body style="background: url(images/ssn-img-info-bkgd.jpg) no-repeat">
+<h4>Guides and Directories</h4>
+<div id="info" class="scroll">
+<ul type="disc">
+<li><a href="http://www.babygoes2.com/">Baby Goes 2</a> - Guide for parents travelling with babies and children. Location reports, tips and advice, pros and cons of various locations, and a list of things to pack. </li>
+<li><a href="http://www.bestratedtravel.com/">Best Rated Travel</a> - Guide to travel sites on the Internet. Rates content of each web sites. </li>
+<li><a href="http://www.bootsnall.com/">BootsnAll.com</a> - Information about places around the globe. Discussion boards, travel guides and travelers toolkit. </li>
+<li><a href="http://carnaval.com/">Carnaval.com</a> - Guide to global carnival celebrations, parades, and travel information. </li>
+<li><a href="http://www.cities-guide.net/">cities-guide.net</a> - Travel guide and web directory for major cities in each country. </li>
+<li><a href="http://www.concierge.com/">Concierge.com</a> - Information on popular destinations including essays from Fodor's, restaurant and hotel listings, maps, weather, recommended readings, currency rates and airfare finders. </li>
+<li><a href="http://www.destinationplanner.com/">Destination Planner</a> - Offers general information for major cities, including dining attire and seasonal weather conditions. </li>
+<li><a href="http://www.discovertourism.com/">DiscoverTourism.com</a> - Information guide for the tourism and entertainment industries. </li>
+<li><a href="http://www.distinctivetravels.com/">Distinctive Travels</a> - Travel resource for the traveler. </li>
+<li><a href="http://www.etravelreviews.com/">Earth Travel Reviews</a> - Definitive selection of vacation travel reviews with the inside story on top travel destinations worldwide. </li>
+<li><a href="http://www.eatandstay.com/">EatAndStay.Com</a> - Directory of restaurants and accommodations worldwide. </li>
+<li><a href="http://www.europeafloat.com/">123EuropeAfloat</a> - All inland boat hirers of Europe listed per country and region and background information. </li>
+<li><a href="http://www.experiencedestinations.com/">Experience Destinations</a> - Photos and descriptions about vacation spots including where to shop, dine, stay, what to do, local sports and entertainment. </li>
+<li><a href="http://www.extravagancemagazine.com/">Extravagance Travel</a> - Luxury travel suggestions featuring journeys, spas/sport, and lifestyle articles. </li>
+<li><a href="http://www.fodors.com/">Fodor's Travel Online</a> - In-depth restaurant and hotel reviews in cities around the world, and smart travel tips to make vacation planning easier. </li>
+<li><a href="http://www.frommers.com/">Frommers.com</a> - Information on destinations around the globe. Includes activities, feature articles, guidebooks and message boards. </li>
+<li><a href="http://www.globosapiens.net/">GLOBOsapiens.net</a> - Portal and community of travelers sharing experiences and advice. Includes forum, trip reports, photographs, and tour operator listings. </li>
+<li><a href="http://www.gogoinfo.com/">GoGo Info</a> - Directory of travel contact information. </li>
+<li><a href="http://www.grijns.net/">Grijns International Travel Pages</a> - Railroad and airline information as well as general travel information and photographs from around the world. </li>
+<li><a href="http://www.holidaybank.co.uk/">HolidayBank</a> - Directory of vacation villa rentals, ski holidays and activity vacations. </li>
+<li><a href="http://www.hotspringsenthusiast.com/">Hot Springs Enthusiast</a> - Information on hot springs in the U.S. by state and links to information about hots springs outside the United States. Also has related links on hot tubs, how to locate a hot springs, topological maps. </li>
+<li><a href="http://www.iexplore.com/">iExplore</a> - Complete travel resource for planning and booking an adventure trip. Where to go, what to do, book a trip, get advice on travel. </li>
+<li><a href="http://independenttraveler.com/">Independent Traveler</a> - Portal including advice on trip planning and other topics, travelogues, online forum, current travel bargains, and other resources. </li>
+<li><a href="http://www.theinsider.com/">Insider Travel Network</a> - Travel guides to Bermuda, Boston, Hawaii, NYC, Philadelphia, San Francisco; money-saving ideas, daily tips, and photographs. </li>
+<li><a href="http://www.johnnyjet.com">JohnnyJet's Travel News and Tips</a> - Travel portal featuring live web cams, tip of the week, fear of flying, train travel, cyber cafes and customs. </li>
+<li><a href="http://www.kasbah.com/">Kasbah Travel Guide</a> - World travel search engine and travel guide. </li>
+<li><a href="http://www.leisuretimeplaces.com/">Leisure Time Places</a> - Offers vacation ideas and information on destinations around the world. </li>
+<li><a href="http://www.nationalgeographic.com/travel/">National Geographic Travel</a> - Travel guides to US and Canadian destinations featuring worldwide destinations, maps and links to tools. </li>
+<li><a href="http://www.openroads.com/">Open Roads Electronic Travelguide</a> - Travel information about destinations, places to visit, and visitor attractions. </li>
+<li><a href="http://www.ourworldadventures.com/">Ourworld Adventures</a> - Interline travel web site for active or retired company employees. </li>
+<li><a href="http://www.planetrider.com/">The PlanetRider Travel Directory</a> - Travel resource with destinations, reservations, activities, and reviews to assist the travel planner in accessing quick and concise information. </li>
+<li><a href="http://www.pmgeiser.ch/">Pongü's Travel Guides</a> - A series of travel guides written by Peter M. Geiser, covering the Americas, Asia, Europe, and Oceana. </li>
+<li><a href="http://www.btinternet.com/%7Estuart.melvin/">Priory Travel Guides</a> - A fully independent visitor's guide to travel destinations around the globe. The coverage for each country is designed to provide a practical source of information. </li>
+<li><a href="http://www.professionaltravelguide.com/">Professional Travel Guide</a> - Comprehensive destination and travel directory including news and professionally written hotel reviews. </li>
+<li><a href="http://savvytraveler.publicradio.org/">The Savvy Traveler</a> - Public radio travel program produced by Minnesota Public Radio. Features articles, before you go tips and message boards. Show is no longer in production, but all content is archived. </li>
+<li><a href="http://www.shermanstravel.com/">ShermansTravel, LLC</a> - Publisher of travel deals and destination advice. </li>
+<li><a href="http://www.sleeping-around.com/">Sleeping Around with Jana Jones</a> - Content, photographs, reviews, links including hotels, resorts, cruises, destinations, topical and timely news related to travel. </li>
+<li><a href="http://www.starserviceonline.com">Star Service Online</a> - In-depth reviews of hotels and cruise ships worldwide, including rates, contacts, and amenity comparison charts. Search by name or destination. Subscription required for full access. </li>
+<li><a href="http://www.synergise.com/">Synergise</a> - Provides travel articles with pictures of worldwide destinations and also lists recommended, quality-assessed travel sites. </li>
+<li><a href="http://www.thingstodo.com/">Things To Do</a> - Features directory of travel and tourism information for the UnitedStates and Australia. Features local attractions, theme parks, events, and outdoor recreation. </li>
+<li><a href="http://www.timeout.com/">Time Out.com</a> - Global travel and listings website Weekly entertainment listings from over 25 cities, plus travel features, on-line shop and special offers. </li>
+<li><a href="http://www.tuttinsieme.it/">Travel Directory By Tuttinsieme</a> - World travel directory furnishes anyone with every kind of information to travel around the world. </li>
+<li><a href="http://www.travel-lists.co.uk/">Travel Lists</a> - Directory of holiday tour operators and travel companies for British travellers. </li>
+<li><a href="http://www.travelnotes.org/">Travel Notes</a> - Very organized travel directory providing country/state information, reviewed web sites, regular travel articles, and online ticketing. </li>
+<li><a href="http://www.travelago.com/">Travelago</a> - Travel planning, information, and streaming videos for over 800 USA and world destinations. </li>
+<li><a href="http://www.travelcreek.com/">Travelcreek</a> - Travel advice on destinations in North America, Europe, the Caribbean and South Africa in a concise format. Includes links as well as camping and diving information. </li>
+<li><a href="http://traveleze.com/">TravelEze.com</a> - Online travel planning directory. Contains city and recreation guides and offers direct links to businesses representing various aspects of travel planning. </li>
+<li><a href="http://www.travelleronline.com/">Traveller Online</a> - A travel library, research and booking services. </li>
+<li><a href="http://www.travellerpoint.com/">Traveller Point</a> - A no-profit network of mutual aid between travellers and Internet points. </li>
+<li><a href="http://www.travellerspoint.com/">Travellerspoint</a> - Worldwide community offering free travel tools and information to help travellers before, during and after their trip. Message boards, photos and tips and advice. </li>
+<li><a href="http://www.travel.org/">Travel.org</a> - Directory of travel related resources. Airlines, lodging, and regional information and travel related businesses are listed. </li>
+<li><a href="http://www.travelpage.com/">TravelPage.com</a> - Interactive travel guides' directory of worldwide destinations, hotels and resorts, cruise travel, air travel, and favorite places. </li>
+<li><a href="http://www.travel-quest.co.uk/">Travel-Quest</a> - Offers ideas for active, adventure and special interest holidays and vacations from independent and specialist travel companies in the UK and Worldwide. </li>
+<li><a href="http://www.travelthinks.com/">TravelThinks</a> - Travel information guide organising by regions and key topics. </li>
+<li><a href="http://www.travel-world-tips.com/">Travel-world-tips</a> - Information about travel in all world countries including information and images of world maps, world flags and travel tips. </li>
+<li><a href="http://www.tripadvisor.com">TripAdvisor</a> - Information on hotels, resorts and packages with reviews from travellers with star ratings. </li>
+<li><a href="http://www.tripspot.com/">TripSpot.com</a> - Directory of destination ideas, fare finders, reservation services, maps, hotels, accommodation, and travel statistics. </li>
+<li><a href="http://www.tyzo.com/">Tyzo</a> - Travel directory. </li>
+<li><a href="http://www.usatoday.com/travel/front.htm">USA Today - Travel</a> - Travel news and information including travel tips, discount travel and speciality web deals. </li>
+<li><a href="http://www.vacationidea.com/">Vacation Idea</a> - Lists vacation resorts and luxury hotel reviews with photos and information. </li>
+<li><a href="http://www.wcities.com/">Wcities.com</a> - Guide to tourist information, shopping, sports, dining and events in selected major cities of the United States, Europe and worldwide, tailored towards delivery on WAP devices such as cellphones. </li>
+<li><a href="http://www.weblope.com/">Weblope.com</a> - Providing free customized travel and leisure information via email. </li>
+<li><a href="http://www.wherewillwego.com/">Where Will We Go?</a> - Directory for worldwide adventure and cultural travel. </li>
+<li><a href="http://wikitravel.org/">Wikitravel</a> - A project to create a free, complete, up-to-date and reliable world-wide travel guide. Destination guides and other articles written and edited by Wikitravellers from around the globe. Open editing by any reader. </li>
+<li><a href="http://www.wordtravels.com/">Word Travels</a> - Travel guides to destinations around the world. </li>
+<li><a href="http://www.world66.com/">World66</a> - Open source travel information with regional guides. Users can participate by offering hints and reviews. Includes travel tools. </li>
+<li><a href="http://www.worldtravelguide.net/">World Travel Guide</a> - Tourism directory with travel related information and links to advertisers. </li>
+<li><a href="http://www.world-travel-net.com/">World Travel Net</a> - Gateway to online travel information. </li>
+<li><a href="http://www.worldrover.com/">WorldRover</a> - Travel information, facts and history. </li>
+<li><a href="http://travel.yahoo.com">Yahoo! Travel</a> - An online travel destination - reserve airline tickets, hotels, cars, cruises and vacation packages, research trips, read user and expert reviews, see local weather and currency information. </li>
+</ul>
+</div>
+</body>
+</html>

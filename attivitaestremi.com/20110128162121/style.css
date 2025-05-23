@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0 auto; padding:0;}
+p {font: 11px Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {width:975px; height:auto;margin:0 auto; }
+#header-top {float:left; width:975px; height:auto; }
+#header-btm {float:left; width:975px; height:191px; }
+#btm-img {float:left; height:191px; }
+#btm-nav {float:left; width:143px; height:191px; background:url(images/extreme-img_11.jpg) no-repeat; }
+
+#col-01 {float:left; width:485px; height:1310px; background:url(images/extreme-img_13.jpg) no-repeat; }
+#col-02 {float:left; width:186px; height:1310px; background:url(images/extreme-img_14.jpg) no-repeat; }
+#ads {float:left; width:140px; height: auto; margin:140px 0 0 15px; }
+#ads img {margin:5px 0 5px 10px; }
+#col-03 {float:left; width:304px; height:1310px; background:url(images/extreme-img_15.jpg) no-repeat; }
+
+#logwrap {float:left; width:975px; height:800px; background:url(images/extreme-img-log_13.jpg) no-repeat; }
+#logbox {float:left; width:875px; height:700px; margin: 70px 0 0 50px;}
+
+#footer {width:975px; height:auto;border-top: solid 1px #d9d9d9; margin:5px 0 0 0;}
+#footer-col {float:left; width:188px; height:300px; margin:5px 0 0 5px; *margin:5px 0 0 4px;border: solid 1px #d9d9d9; }
+#footer-col ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h6 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#fff; line-height:22px; margin: 0; padding: 5px 5px 5px 5px; height:auto; width:100%; background-color:#464444;/*border-bottom: double 3px #2f422d;*/ }
+
+#infofeed {width:450px; height:1240px; overflow: auto; visibility: visible; /**/border: solid 1px #d9d9d9; margin: 0 0 0 20px;}
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:58px; margin: 0; padding: 5px 5px 5px 130px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#linkbox {width:270px; height:1270px; overflow: auto; visibility: visible; /**/border-top: solid 1px #d9d9d9; margin: 0 0 0 6px;}
+#linkbox ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h5 {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding:5px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.topmenu{ width: 130px; margin:0 0 0 3px; }
+.topmenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.topmenu a{ font: bold 12px Arial, Helvetica, sans-serif; padding: 1px 4px 2px 3px; *padding: 0 4px 0 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none;  }
+.topmenu a:visited{ color: #595959; }
+html>body .topmenu a{ /*Non IE rule*/ width: auto; }
+.topmenu a:hover{ color: #fd4006; }
+
+.wireframemenu{ border: 1px solid #C0C0C0; background-color: white; border-bottom: 0; border-left: 0; border-right: 0; width: 186px; *width: 180px; }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Arial, Helvetica, sans-serif; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #C0C0C0; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #fd4006; color: black; }
+
+.linkscroll {
+	filter: Chroma(Color=#123456); 
+	overflow: auto; 
+	scrollbar-face-color:#123456; 
+	scrollbar-shadow-color: #123456; 
+	scrollbar-highlight-color: #123456; 
+	scrollbar-3dlight-color: #123456; 
+	scrollbar-darkshadow-color: #123456; 
+	scrollbar-track-color: #123456; 
+	scrollbar-arrow-color: #000000; 

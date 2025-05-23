@@ -1,0 +1,199 @@
+body{
+	font-style:normal;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:1.2em;
+	font-size:11px;
+}
+#container {
+	position:absolute;
+	top:0px;
+	height: 1000px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+#heading {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height: 200px;
+	width: 1000px;
+	background-image:url(images/heading.jpg);
+	background-repeat: no-repeat;
+}
+#navigation {
+	position: absolute;
+	z-index: 2;
+	width: 195px;
+	left: 0px;
+	top: 205px;	
+	line-height:3.0em;
+}
+#design {
+	position: absolute;
+	z-index: 2;
+	width: 195px;
+	left: 605px;
+	top: 789px;
+}
+#photocontent {
+	position: absolute;
+	z-index: 2;
+	width: 400px;
+	left: 190px;
+	top: 205px;
+	padding:10px 0px 10px 0px;
+	border:1px solid #28BCD7;
+ }
+#links {
+	position: absolute;
+	z-index: 2;
+	width: 200px;
+	left: 650px;
+	top: 105px;
+	line-height:1.2em;
+}
+#links2{
+	position: absolute;
+	z-index: 2;
+	width: 150px;
+	left: 2px;
+	top: 525px;
+	line-height:1.2em;
+}
+#links3{
+	position: absolute;
+	z-index: 2;
+	width: 150px;
+	left: -3px;
+	top: 681px;
+	line-height:1.2em;
+}
+#links4 {
+	position: absolute;
+	z-index: 2;
+	width: 150px;
+	left: 650px;
+	top: 605px;
+	line-height:1.2em;
+}
+#photo_links {
+	position: absolute;
+	z-index: 2;
+	width: 200px;
+	top: 606px;
+	left: 164px;
+	line-height:1.2em;
+}
+#photo_links2 {
+	position: absolute;
+	z-index: 3;
+	width: 200px;
+	top: 606px;
+	left: 364px;
+	line-height:1.2em;
+}
+#image {
+	position: absolute;
+	width: 180px;
+	z-index: 3;
+	left: 666px;
+	top: 460px;
+}
+#image2{	
+	background-image:url(images/eyelid.jpg);
+	position: absolute;
+	z-index: 2;
+	width: 200px;
+	height:150px;
+	top: 626px;
+	left: 464px;
+}
+#table {
+	height: 103px;
+	width: 744px;
+	position: absolute;
+	top: 827px;
+	left: 24px;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:1.2em;
+	font-size:11px;
+	padding:10px 50px 10px 0px;
+	border:1px solid #28BCD7;
+}
+td {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color:#000;
+}
+/*************************************************************************************/
+ul {
+	list-style-type: none;
+}
+li, li a {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color:#000;
+}
+a{
+	color:#000;
+	text-decoration: none;
+	font-size: 12px;
+}
+#table a{
+	color: #28BCD7;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size:12px;
+}
+#navigation li a{
+font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:1.5em;
+	font-size:13px;
+	color: #28BCD7;
+	font-weight: bolder;
+}
+h4 {
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	color: #28BCD7;
+	border:1px solid #28BCD7;
+}
+.scroll {
+	position: absolute;
+	filter:  Chroma(Color=#123456);
+	scrollbar-face-color: #123456;
+	scrollbar-shadow-color: #123456;
+	scrollbar-highlight-color: #123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color: #123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color:#28BCD7;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+.format{
+	width:200px;
+	height:200px;
+	list-style:none;
+	overflow:auto;
+	font:10px, 'Lucida Grande',  Arial, sans-serif;
+	padding: 0px 0px 0px 0px;
+	line-height: 1.5em;
+	}
+.frame_format{
+	width:375px;
+	height:325px;
+	list-style:none;
+	overflow:auto;
+	font:10px, 'Lucida Grande',  Arial, sans-serif;
+	padding: 0px 0px 0px 0px;
+	line-height: 1.5em;
+	}

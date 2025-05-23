@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family: "Trebuchet MS", Helvetica, HelveticaNeue, Arial, sans-serif;  font-size: 12px; color: #333; font-variant: normal; background: #fff;}
+
+ul{margin: 0px; padding: 0px;}
+li{list-style: none; margin: 0px; padding: 3px 0px;}
+
+a{color: #069; text-decoration: none;}
+a:hover{color: #333; }
+
+h1, h2, h3{/*text-transform: uppercase;*/ letter-spacing: .1em; margin: 0px; padding: 0px;}
+h1{color: #C03; font-size: 14px; margin: 5px 0px 0px 0px; font-variant: small-caps;}
+h2{color: #333; font-size: 12px; margin: 5px 0px 0px 0px; padding: 0px; text-align: left; }
+h3{color: #C03; font-size: 11px; margin: 0px; }
+h4{color: #ccc; font-size: 10px; margin: 2px 0px 0px 0px; }
+
+p{margin: 0px; padding: 0px;}
+#wrap{position: relative; width: 900px; height: 100% auto; margin: 0px; padding: 0px; left: 50%; margin-left: -450px; background: url(images/bkgrnd.jpg) repeat-y; min-height: 900px;}
+
+#header{float: left; width: 900px; height: 100% auto; }
+
+#nav{float: left; width: 296px; height: 172px; background: url(images/banner_03.jpg) no-repeat; font-variant: small-caps; font-family: "Trebuchet MS", Helvetica, HelveticaNeue, Arial, sans-serif; letter-spacing: .1em; }
+#sub_nav{float: left; width: 244px; height: 172px; background: url(images/banner_04.jpg) no-repeat; font-variant: small-caps; font-family: "Trebuchet MS", Helvetica, HelveticaNeue, Arial, sans-serif; letter-spacing: .1em;}
+
+#nav ul{margin-top: 30px; margin-left: 5px; width: 100% auto; height: 90px; font-size: 14px;}
+#nav ul li{display: block; padding: 1px 0px; }
+#nav ul li a{color: #fff; font-weight: bold; padding: 2px;}
+#nav ul li a:hover{color: #333;}
+#nav ul li a:active, #nav ul li a#focus{background: #c03; color: #fff;}
+
+#sub_nav ul{margin-top: 95px; margin-left: 20px; width: 180px; height: 60px;font-size: 12px; color: #fff;}
+#sub_nav ul li{display: inline; margin: 2px 0px;}
+#sub_nav ul li a{color: #fff;  font-weight: bold; padding: 2px;}
+#sub_nav ul li a:hover{color: #333;}
+#sub_nav ul li a:active, #sub_nav ul li a#focus{color: #fff; background: #c03;}
+
+
+#mainwrap{width: 900px; min-height: 600px; background: url(images/bkgrnd.jpg) repeat-y; }
+#footer{clear: both;  width: 900px; height: 96px; background: url(images/footer.jpg) no-repeat; }
+#main{float: left; width: 420px; margin: 0px 5px 10px 10px;}
+#feature{float: left; width: 275px; margin: 0px 10px 10px 20px;}
+
+#feature a{color: #369; font-weight: bold;}
+#feature a:hover{color: #333;}
+
+#side{float: left; width: 150px; margin: 0px 0px 10px 8px; }
+#dateformat p{color: #C03; font-size: 10px;}
+
+.box{margin-bottom: 20px; }
+#feeds{width: 400px; height: 1280px; overflow: auto;}
+
+.col1{float: left; width: 47%;}
+.col2{float: right; width: 43%;}
+.imgcenter{text-align: center; padding: 5px;}
+.clearfloat{clear: both; height: 0; font-size: 1px; line-height: 0px;}
+.flleft{float: left; }
+.flright{float: right; }
+.small{width: 95px;}
+.big{width: 110px;}
+
+.divider{color: #C03; font-size: 18px;}
+.scroll{background: #FFFFFF;
+scrollbar-face-color:#FFFFFF;
+scrollbar-arrow-color:#006699;
+scrollbar-track-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+}

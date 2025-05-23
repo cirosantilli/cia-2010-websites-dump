@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body {color:#FFF;font-size:14px;background-image:url(images/grass.jpg);background-repeat:repeat;padding:0px;margin:0px;font-family:Arial, Helvetica, sans-serif;}
+a {color:#ffcc33; font-weight:bold; text-decoration:underline;}
+#wrap {position: relative; width:1024px; height:1200px; margin:0px; padding:0px; left:50%; margin-left:-512px;}
+
+#banner {float:left; width:1024px; height:97px; margin:0px; padding:0px;}
+#nav {float:left; width: 1024px; height: 72px; margin:0px; padding:0px;}
+#feednav {float: left; margin:0px; padding:0px;  width:255px; height:1031px;}
+#links {float: left; margin:0px; padding:0px;  width:236px; height:1031px; }
+#feeds {float: left; margin:0px; padding:0px; width: 533px; height:1031px;}
+
+#copyright {
+	float:left;
+	width:1024px;
+	height:50px;
+	text-align:center;
+	background-image:url(images/yellowdiagonal.gif);
+	background-repeat:repeat;
+	color:#006600;
+	font-weight:bold;
+}
+#contentwrap {float:left; margin:0px; padding:0px; width:1024px; height:1081px;}
+
+.scroll {
+filter: Chroma(Color=#123456); 
+overflow: auto; 
+scrollbar-face-color:#123456; 
+scrollbar-shadow-color: #123456; 
+scrollbar-highlight-color: #123456; 
+scrollbar-3dlight-color: #123456; 
+scrollbar-darkshadow-color: #123456; 
+scrollbar-track-color: #123456; 
+scrollbar-arrow-color: #FFF; 
+} 
+
+#feedtext {padding-top:10px; padding-left:10px; padding-right:30px; padding-bottom:10px; overflow:auto; width:493px; height:1031px; background-image:url(images/grassdark.jpg); background-repeat:repeat;}
+*html #feedtext {padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:10px; overflow:auto; width:533px; height:1031px; background-image:url(images/grassdark.jpg); background-repeat:repeat;}
+
+#linktext {padding-top:10px; padding-left:10px; padding-right:20px; padding-bottom:10px; overflow:auto; width:218px; height:625px; background-image:url(images/grassbrown.jpg); background-repeat:repeat;}
+*html #linktext #linktext {padding-top:10px; padding-left:10px; padding-right:20px; padding-bottom:10px; overflow:auto; width:218px; height:625px; background-image:url(images/grassbrown.jpg); background-repeat:repeat;}
+

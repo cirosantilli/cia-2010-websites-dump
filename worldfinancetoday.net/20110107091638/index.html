@@ -1,0 +1,392 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>World Finance Today</title>
+<link href="images/favicon.ico" rel="SHORTCUT ICON">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="mktstyle.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript"></script>
+<SCRIPT Language="JavaScript">
+<!-- hide from old browsers
+  // Copyright 1999, 2000 by Ray Stott
+  // OK to use if this copyright is included
+  // Script available at http://www.crays.com/jsc
+  var TimezoneOffset = -4  // adjust for time zone
+  var localTime = new Date()
+  var ms = localTime.getTime()
+             + (localTime.getTimezoneOffset() * 60000)
+             + TimezoneOffset * 3600000
+  var time =  new Date(ms)
+  var hour = time.getHours()
+  var minute = time.getMinutes()
+  var second = time.getSeconds()
+  var curTime = "" + ((hour > 12) ? hour - 12 : hour)
+  if(hour==0) curTime = "12"
+  curTime += ((minute < 10) ? ":0" : ":") + minute
+  curTime += ((second < 10) ? ":0" : ":") + second
+  curTime += (hour >= 12) ? " PM" : " AM"
+
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+              months[now.getMonth()] + " " +
+               date + ", " +
+                (fourdigits(now.getYear())) ;
+
+//  End -->
+</script>
+
+		<script type="text/javascript">
+
+/***********************************************
+* Local Time script- © Dynamic Drive (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+var weekdaystxt=["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
+
+function showLocalTime(container, servermode, offsetMinutes, displayversion){
+if (!document.getElementById || !document.getElementById(container)) return
+this.container=document.getElementById(container)
+this.displayversion=displayversion
+var servertimestring=(servermode=="server-php")? 'October 10, 2008 17:29:33' : (servermode=="server-php")? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '<%= Now() %>'
+this.localtime=this.serverdate=new Date(servertimestring)
+this.localtime.setTime(this.serverdate.getTime()+offsetMinutes*60*1000) //add user offset to server time
+this.updateTime()
+this.updateContainer()
+}
+
+showLocalTime.prototype.updateTime=function(){
+var thisobj=this
+this.localtime.setSeconds(this.localtime.getSeconds()+1)
+setTimeout(function(){thisobj.updateTime()}, 1000) //update time every second
+}
+
+showLocalTime.prototype.updateContainer=function(){
+var thisobj=this
+if (this.displayversion=="long")
+this.container.innerHTML=this.localtime.toLocaleString()
+else{
+var hour=this.localtime.getHours()
+var minutes=this.localtime.getMinutes()
+var seconds=this.localtime.getSeconds()
+var ampm=(hour>=12)? "PM" : "AM"
+var dayofweek=weekdaystxt[this.localtime.getDay()]
+this.container.innerHTML=formatField(hour, 1)+":"+formatField(minutes)+":"+formatField(seconds)+" "+ampm+" ("+dayofweek+")"
+}
+setTimeout(function(){thisobj.updateContainer()}, 1000) //update container every second
+}
+
+function formatField(num, isHour){
+if (typeof isHour!="undefined"){ //if this is the hour field
+var hour=(num>12)? num-12 : num
+return (hour==0)? 12 : hour
+}
+return (num<=9)? "0"+num : num//if this is minute or sec field
+}
+
+</script>
+<script type="text/javascript" src="js/tabcontent.js"></script>
+
+</head>
+
+<body>
+<div id="wrap">
+<div id="header">
+	<img src="images/banner_01.jpg" border="0" align="top"><img src="images/banner_02.jpg" border="0" align="top"><img src="images/banner_03.jpg" border="0" align="top"><img src="images/banner_04.jpg" border="0" align="top"><br />
+
+</div>
+<div id="timewrap">
+	<div id="todaydate"><script>document.write(""+today);</script></div>
+
+</div>
+
+    <div id="nav">
+
+<ul>
+	<li><a href="index.html" class="selected" target="_parent">Home</a></li>
+    <li><a href="regional.html" target="_parent">Regional / Emerging Markets</a></li>
+	<li><a href="commodities.html" target="_parent">Commodities</a></li>
+    <li><a href="currencies.html" target="_parent">Currencies</a></li>
+    <li><a href="equities.html" target="_parent">Equity Markets</a></li>
+    <li><a href="bonds.html" target="_parent">Bonds and Rates</a></li>
+</ul>
+</div>
+
+<div id="main">
+
+<div id="col1">
+			<!--DO NOT EDIT BELOW!- WIDGETS: http://www.sanebull.com/widgets -->
+<div id="wrldmkt" class="box" align="center" width="210px" style="font-size:12px"><iframe width="210" height="410" style="margin-bottom:5px" src="http://www.sanebull.com/widget_world_watch.jsp?market=all" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<!--DO NOT EDIT ABOVE!-->
+
+
+
+		<br />
+
+	<!--http://uk.biz.yahoo.com/news/mkt/currencies.html.xml-->
+	<!--DO NOT EDIT BELOW!- WIDGETS: http://www.sanebull.com/widgets -->
+<div id="currencies" class="box" align="center" width="210px" style="font-size:12px"><iframe width="210" height="210" src="http://sanebull.com/widget_currencies.jsp" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<!--DO NOT EDIT ABOVE!-->
+
+ <div id="charts" class="box boxbrdr pad">
+<table>
+          <tr>
+            <td vAlign="top" align="middle" height="160"><image src="http://bigcharts.marketwatch.com/charts/gqplus/fpDJIA-narrow.gqplus?948"></td>
+          <tr>
+              <td vAlign="top" align="middle" height="160"><image src="http://bigcharts.marketwatch.com/charts/gqplus/fpNASDAQ-narrow.gqplus?983"></td>
+        </table>
+
+</div>
+
+<div id="applet" class="box boxbrdr pad">
+  <APPLET archive="slides.jar" code="world.finance.rates.worldApplet" width=100 height=100 mayscript/></applet>
+
+ </div>
+
+</div><!--end col1-->
+<div id="col2">
+
+
+<div id="tabcontent">
+    <ul id="tabnews" class="newstabs">
+        <li class="selected"><a href="#" rel="tcontent1">Latest News</a> | </li>
+        <li><a href="#" rel="tcontent2">Americas</a> | </li>
+        <li><a href="#" rel="tcontent3">Europe</a> | </li>
+        <li><a href="#" rel="tcontent4">Asia Pacific</a> | </li>
+        <li><a href="#" rel="tcontent5">Middle East</a></li>
+    </ul>
+
+<div id='tcontent1' class='tabcontent box grnbrdr'>
+<h2>Latest News</h2>
+<h4>CNNMoney.com</h4>
+<script language="JavaScript" src="http://www.feed2js.org/feed2js.php?src=http%3A%2F%2Frss.cnn.com%2Frss%2Fmoney_markets.rss&amp;num=6&amp;chan=n&amp;desc=0&amp;num=6&amp;targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org/feed2js.php?src=http%3A%2F%2Frss.cnn.com%2Frss%2Fmoney_markets.rss&amp;num=6&amp;chan=n&amp;desc=0&amp;num=6&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+<h4>IBTimes.com</h4>
+    <p><script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.ibtimes.com%2Frss%2Ffeed%2Fglobalmarkets.rss&amp;num=6&amp;targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.ibtimes.com%2Frss%2Ffeed%2Fglobalmarkets.rss&amp;num=6&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript></p>
+<!--end tcontent1--></div>
+
+<div id="tcontent2" class="tabcontent box grnbrdr">
+<h2>Americas</h2>
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffinance.yahoo.com%2Frss%2Fusmarkets&amp;chan=title&amp;num=6&amp;date=n&amp;targ=y" type="text/javascript"></script>
+
+        <noscript>
+          <a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffinance.yahoo.com%2Frss%2Fusmarkets&amp;chan=title&amp;num=6&amp;date=n&amp;targ=y&amp;html=y">View RSS feed</a>
+      </noscript>
+
+          <div align="right"><a href="regional.html" target="_parent">More News...</a></div>
+<!--end tcontent2--></div>
+
+<div id="tcontent3" class="tabcontent box grnbrdr">
+ <h2>Europe</h2>
+ <h4>Yahoo!Finance UK : UK Market News</h4>
+		<!--http://uk.biz.yahoo.com/news/mkt/uk_market.html.xml-->
+	<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fuk.biz.yahoo.com%2Fnews%2Fmkt%2Fuk_market.html.xml&amp;chan=n&amp;num=6&amp;date=n" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fuk.biz.yahoo.com%2Fnews%2Fmkt%2Fuk_market.html.xml&amp;chan=n&amp;num=6&amp;date=n&amp;html=y">View RSS feed</a>
+</noscript>
+
+
+ <div align="right"><a href="regional.html" target="_parent">More News...</a></div>
+<!--end tcontent3--></div>
+
+<div id="tcontent4" class="tabcontent box grnbrdr">
+<h2>Asia Pacific</h2>
+<h4>Yahoo! Finance UK - Asian Market News</h4>
+<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fuk.biz.yahoo.com%2Fnews%2Fmkt%2Fasia_markets.html.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fuk.biz.yahoo.com%2Fnews%2Fmkt%2Fasia_markets.html.xml&amp;chan=n&amp;num=6&amp;desc=1&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+<h4>123Jump.com - Asia Market News</h4>
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.123jump.com%2Frss_feed%2Fasia-123jump-market-news-rss.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.123jump.com%2Frss_feed%2Fasia-123jump-market-news-rss.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+<h4>123Jump.com - China Markets</h4>
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.123jump.com%2Frss_feed%2Fchina-123jump-market-news-rss.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.123jump.com%2Frss_feed%2Fchina-123jump-market-news-rss.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+ 		<div align="right"><a href="regional.html" target="_parent">More News...</a></div>
+<!--end tcontent4--></div>
+
+<div id="tcontent5" class="tabcontent box grnbrdr">
+<h2>Middle East</h2>
+<h4>AMEInfo.com</h4>
+<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.ameinfo.com%2Frssfeeds%2F10222.xml&amp;num=6&amp;chan=n&amp;desc=0" type="text/javascript"></script>
+
+<noscript>
+<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.ameinfo.com%2Frssfeeds%2F10222.xml&amp;num=6&amp;chan=n&amp;desc=0&amp;html=y">View RSS feed</a>
+</noscript>
+<div align="right"><a href="regional.html" target="_parent">More News...</a></div>
+<!--end tcontent5--></div>
+
+
+</div><!--end tabcontent-->
+
+<script type="text/javascript">
+//Start Tab Content script for UL with id="tabnews" Separate multiple ids each with a comma.
+initializetabcontent("tabnews")
+</script>
+<!------------------------>
+
+
+<div id="stockquote" class="box boxbrdr">
+<h2>Quote / Chart / Opinion / Profile</h2>
+
+   <FORM ACTION="http://www2.barchart.com/quick.asp" METHOD="POST" class="pad">
+<INPUT TYPE="TEXT" NAME="sym" SIZE="7" MAXLENGTH="5" VALUE="">
+<INPUT TYPE="RADIO" NAME="qs" CHECKED VALUE="quote">Quote
+<INPUT TYPE="RADIO" NAME="qs" VALUE="chart">Chart
+<INPUT TYPE="RADIO" NAME="qs" VALUE="opinion">Opinion
+<INPUT TYPE="RADIO" NAME="qs" VALUE="profile">Profile
+<INPUT TYPE="SUBMIT" VALUE="Go">
+</FORM>
+</div>
+
+<div id="markets" class="box boxbrdr">
+
+
+        <h2>Market Watch - Real-Time Headlines</h2><a href="http://www.marketwatch.com" target="_blank"><img src="images/marketwatch.gif" border="0" align="right"></a>
+			<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Frealtimeheadlines%3Fformat%3Dxml&amp;chan=n&amp;targ=y" type="text/javascript"></script>
+
+		<noscript>
+		<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Frealtimeheadlines%3Fformat%3Dxml&amp;chan=n&amp;targ=y&amp;html=y">View RSS feed</a>
+		</noscript>
+
+	</div>
+
+  <div id="marketwire" class="box boxbrdr">
+
+	<h2>Marketwire</h2> <a href="http://www.marketwire.com" target="_blank"><img src="images/marketwire_logo.gif" width="100" height="33" border="0" align="right"></a><script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.marketwire.com%2Frss%2Fstk.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.marketwire.com%2Frss%2Fstk.xml&amp;chan=n&amp;num=6&amp;desc=0&amp;targ=y&amp;html=y">View RSS feed</a>
+</noscript>
+	</div>
+<br />
+<a href="http://www.sgx.com/etf" target="_blank"><img src="images/sgx_etf_240x70.gif" border="0" /></a>
+<br />
+<br />
+
+<ul class="lineup"><li class="noarrow"><a href="http://www.bloomberg.com/" target="_blank"><img src="images/bloomberg_com.gif" alt="Bloomberg.com" border="0"></a></li>
+      <li class="noarrow"><a href="http://www.cnnmoney.com" target="_blank"><img src="images/cnnmoney.gif" border="0"></a></li>
+      <li class="noarrow"><a href="http://www.businessweek.com/"><img src="images/businessweek.gif" alt="Business  Week" border="0"></a></li></ul>
+<div id="newsources" class="box boxbrdr">
+	<h2>News Sources</h2>
+   <ul class="minicol">
+      <li><a href="http://www.ft.com/markets">FT.com - Markets </a></li>
+      <li><a href="http://www.economist.com">The Economist</a></li>
+      <li><a href="http://dealbook.blogs.nytimes.com">The New York Times - Deal Book</a></li>
+      <li><a href="http://www.reuters.com/finance/markets">Reuters </a></li>
+      <li><a href="http://uk.biz.yahoo.com/709/">AFX - UK News </a></li>
+      <li><a href="http://uk.biz.yahoo.com/710/">AFX - European News </a></li>
+      <li><a href="http://www.sharecast.com/">ShareCast </a></li>
+      <li><a href="http://uk.biz.yahoo.com/news/foolcouk.html">Fool.co.uk </a></li>
+
+      </ul>
+
+      <ul class="minicol">
+      <li><a href="http://online.wsj.com/public/us">The Wall Street Journal - News</a></li>
+      <li><a href="http://online.wsj.com/mdc/public/page/marketsdata.html">The Wall Street Journal - Market Data</a></li>
+      <li><a href="http://www.latinfinance.com/" target="_blank">Latin Finance</a></li>
+      <li><a href="http://www.feer.com" target="_blank">Far East Economic Review (FEER) </a></li>
+
+
+   </ul>
+  </div>
+
+</div><!--end col2-->
+
+<div id="col3">
+
+
+
+
+<div id="indexes_stock" class="box boxbrdr">
+<h2>World Stock Indexes</h2>
+<ul>
+  <li><a href="http://finance.yahoo.com/intlindices" rel="nofollow">Major
+World Indices - Yahoo! Finance</a> </li>
+  <li><a href="http://www.bloomberg.com/markets/stocks/wei.html"
+ rel="nofollow">Bloomberg.com: World Indices</a> </li>
+  <li><a href="http://finance.yahoo.com/intlindices?e=americas"
+ rel="nofollow">Yahoo! Finance page for Americas indexes</a>
+  </li>
+  <li><a  href="http://finance.yahoo.com/intlindices?e=europe"
+ rel="nofollow">Yahoo! Finance page for Europe indexes</a>
+  </li>
+  <li><a href="http://finance.yahoo.com/intlindices?e=asia"
+ rel="nofollow">Yahoo! Finance page for Asia/Pacific</a>
+  </li>
+  <li><a href="http://finance.yahoo.com/intlindices?e=africa"
+ rel="nofollow">Yahoo! Finance page for Africa/Middle East</a>
+  </li>
+  <li><a href="http://www.stockindex500.com/" rel="nofollow">World
+Stock Indices</a> </li>
+</ul>
+</div>
+
+
+
+	<div id="equity" class="box boxbrdr">
+	<h2>Equity Indexes</h2>
+	<ul>
+		<li><a href="http://www.standardandpoors.com/home/en/us" target="_blank">Standard &#38; Poor's</a></li>
+		<li><a href="http://www.nasdaq.com" target="_blank">NASDAQ</a></li>
+		<li><a href="http://www.dowjones.com" target="_blank">Dow Jones</a></li>
+		<li><a href="http://www.nni.nikkei.co.jp/" target="_blank">Nikkei</a></li>
+		<li><a href="http://www.mscibarra.com/" target="_blank">MSCI</a></li>
+		<li><a href="http://www.ftse.com/" target="_blank">FTSE</a></li>
+	</ul>
+	</div>
+
+   <div id="forex" class="box boxbrdr">
+   	<a href="http://www.forex.com" target="_blank"><img src="images/forexcom.gif" border="0" /></a>
+    </div>
+</div><!--end col3-->
+
+</div><!--end main-->
+
+<br class="clearfloat" />
+<div id="footer">All Rights Reserved.  Copyright &copy; 2009.</div>
+</div><!--end wrap-->
+</body>
+</html>

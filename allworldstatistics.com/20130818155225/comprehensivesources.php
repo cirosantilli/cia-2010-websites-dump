@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="allstyle.css" rel="stylesheet" type="text/css">
+<base target="_blank">
+</head>
+
+<body bgcolor="#fbfbf0">
+<h2>Comprehensive Sources</h2><p>
+	<div id="column2_text" class="scrollable">
+  	<a href="http://data.un.org/">UNData</a> - Keyword searchable database over over 50 million records from the United Nations and its agencies. Includes demographic, economic, education, health, environmental, agricultural, and technology indicators. <br>
+      <a href="https://www.cia.gov/index.php">CIA World  Factbook</a> - Annual publication of country profiles and statistics. <br>
+      <a href="http://www.fedstats.gov/agencies">FEDSTATS Agencies Page</a> - Links to US federal agencies represented on the Interagency Council on Statistical Policy. <br>
+      <a href="http://www.un.org/Pubs/CyberSchoolBus/infonation/e_infonation.htm">Infonation</a> - United Nations site with statistical data on UN member states' geographies, economies, populations, and social indicators. <br>
+      <a href="http://www.nationmaster.com/index.php">NationMaster.com</a> - This free site compiles data from prominent international statistics sources like the CIA, UN and others and presents them graphically to allow easy comparisons of countries. <br>
+      <a href="http://www.offstats.auckland.ac.nz/">OFFSTATS: Official Statistics on the Web</a> - Browse by country, region, or topic. <br>
+      <a href="http://www.oecd.org/statistics/">Organisation for Economic Co-operation and Development (OECD)</a> - Agricultural, development, economic, educational, energy, environmental, financial, health, public sector, science and technology, and  social policy statistics. <br>
+      <a href="http://www.lib.umich.edu/govdocs/stats.html">Statistical Resources on the Web</a> - University of Michigan Document Center. Links to sites on Foreign Governments, Military, Political, Economic, Demographic, and Foreign Trade and Economics statistics, etc. <br>
+      <a href="http://www.un.org/Depts/unsd/statdiv.htm">United Nations Statistics Division</a> - Free access to selected portions of UN Statistical Publications  such as the Demographics Yearbook and Statistics and Indicators on the World's Women. <br>
+      <a href="http://www.census.gov/">US Census Bureau</a> - The Census Bureau site has links to international population data, foreign trade statistics, and a commodity groupings database.</div>
+
+
+</body>
+</html>

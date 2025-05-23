@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#3364ca; font-size:12px;} /*row & description of link*/
+li a {text-decoration: none; color: #214287; font-size:14px; font-weight:600;} /*link*/
+li a:hover {color:#214287; text-decoration: underline;}
+
+#wrap {float:left; width:850px; height:900px;}
+
+#header {float:left; width:850px; height:112px;}
+
+#nav-whole {float:left; width:850px; height:45px;}
+#nav-left {float:left; width:233px; height:45px;}
+#nav-right {float:left; width:617px; height:45px; background:url(images/cricket_14.jpg) no-repeat;}
+
+#col-1-whole {float:left; width:201px; height:743px;}
+#col-1-top {float:left; width:201px; height:689px; background:url(images/cricket_15.jpg) no-repeat;}
+#col-1-text {float:left; width:181px; height:604px; margin:85px 0 0 15px; display:inline; overflow:auto; visibility:visible;}
+#col-1-bottom {float:left; width:201px; height:54px;}
+
+#col-2-whole {float:left; width:149px; height:743px;}
+#col-2-top {float:left; width:149px; height:78px;}
+#col-2-top-a {float:left; width:149px; height:388px; background:url(images/int2.jpg) no-repeat;}
+#col-2-mid {
+	float:left;
+	width:149px;
+	height:127px;
+	background:url(images/cricket_20.jpg) no-repeat;
+	text-align: center;
+	font-weight: bold;
+	color: #39426D;
+}
+#col-2-mid-logo {float:left; width:149px; height:127px;}
+#col-2-bottom {float:left; width:149px; height:150px; background:url(images/cricket_22.jpg) no-repeat;}
+
+#col-3-whole {float:left; width:300px; height:743px;}
+#col-3-top {float:left; width:300px; height:78px;}
+#col-3-mid {float:left; width:300px; height:388px; background:url(images/cricket_19.jpg) no-repeat;}
+.box-right {width: 295px; height: 388px; margin: 0px 0px 0 5px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible; display:inline;}
+#col-3-bottom {float:left; width:300px; height:277px;}
+
+#col-4 {float:left; width:200px; height:743px; background:url(images/cricket_18.jpg) no-repeat;}
+#col-4-text {float:left; width:185px; height:698px; margin:40px 0 0 10px; display:inline; visibility:visible; overflow:auto;}
+
+h1 {color:#FFF; font-size:16px; font-weight:bold; text-decoration:underline;}
+
+.right ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+.right li	{display: block;  padding: 0px; margin: 0px; color:#FFF; font-size:12px;} /*row & description of link*/
+.right li a {text-decoration: none; color: #abc241; font-size:14px; font-weight:600;} /*link*/
+.right li a:hover {color:#abc241; text-decoration: underline;}
+
+ #tabsB {
+      float:left;
+      width:617px;
+      font-size:12px;
+      line-height:normal;
+      }
+    #tabsB ul {
+	margin:0;
+	padding:8px 0px 0 10px;
+	list-style:none;
+      }
+    #tabsB li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsB a {
+      float:left;
+      background:url("tableftB.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsB a span {
+      float:left;
+      display:block;
+      background:url("tabrightB.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsB a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsB a:hover span {
+      color:#FFF;
+	  text-decoration:underline;
+      }
+	
+#menu8 {
+	width: 149px;
+	margin-top: 45px;
+
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+		font-size:12px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #FFF;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 10px;
+	}
+	
+#menu8 li a:hover {
+	color: #FFF;
+	padding: 8px 0 0 10px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #FFF;
+	padding: 8px 0 0 10px;
+	text-decoration:underline;
+	}
+	

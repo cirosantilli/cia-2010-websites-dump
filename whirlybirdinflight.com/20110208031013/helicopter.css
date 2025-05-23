@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0;} /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px;} /*row & description of link*/
+li a {text-decoration: none; color: #0334ea; font-weight: normal; } /*link*/
+li a:hover {color:#000; text-decoration: underline;}
+
+#wrap {float:left; width:850px; height:900px;}
+
+#column-1-whole {float:left; width:150px; height:900px;}
+#column-1-top {float:left; width:150px; height:314px;}
+#column-1-mid {float:left; width:150px; height:404px; background:url(images/flight_15.jpg) no-repeat;}
+#column-1-bottom {float:left; width:150px; height:182px; background:url(images/flight_18.jpg) no-repeat;}
+
+#column-2-whole {float:left; width:291px; height:900px;}
+#column-2-top {float:left; width:291px; height:258px;}
+#column-2-mid {float:left; width:291px; height:642px; background:url(images/flight_13.jpg) no-repeat;}
+#column-2-text {float:left; width:271px; height:622px; margin: 10px 10px 10px 10px; overflow:auto; visibility:visible; display:inline;}
+
+#column-3-whole{float:left; width:409px; height:900px;}
+#column-3-top {float:left; width:409px; height:314px;}
+#column-3-mid {float:left; width:409px; height:45px; background:url(images/flight_16.jpg) no-repeat; }
+#column-3-bottom {float:left; width:409px; height:541px; }
+
+#feed-body {width: 409px; height:541px; background:url(images/flight_17.jpg) no-repeat fixed;}
+.box-right {float:left; width:399px; height:501px; margin:35px 0 0 10px; padding:0; overflow:auto; visibility:visible; }
+
+#menu8 {
+	width: 150px;
+	margin-top: 30px;
+	font-size:16px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #777;
+	display: block;
+	padding: 8px 0 0 20px;
+	}
+	
+#menu8 li a:hover {
+	color: 000;
+	padding: 8px 0 0 25px;
+	}
+	
+#menu8 li a:active {
+	color: #0334ea;
+	padding: 8px 0 0 25px;
+	}
+	
+	
+	
+	    #tabs6 {
+      float:left;
+      width:409px;
+      background:#efefef;
+      font-size:14px;
+      line-height:normal;
+	  border-bottom:1px solid #666;
+      }
+    #tabs6 ul {
+	  margin:10px 0 0 7px;
+	  padding:0px 0px 0 0px;
+	  list-style:none;
+      }
+    #tabs6 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs6 a {
+      float:left;
+      background:url(images/tableft6.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs6 a span {
+      float:left;
+      display:block;
+      background:url(images/tabright6.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs6 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs6 a:hover span {
+      color:#FFF;
+      }
+    #tabs6 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs6 a:hover span {
+      background-position:100% -42px;
+      }

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0; padding:0;}
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; } /*row & description of link*/
+li a {text-decoration: none; color: #0202b6; font-weight: normal; } /*link*/
+li a:hover {color:##9b5014; text-decoration: underline; }
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+#wrap {position:relative; width: 850px; height: 900px; right: 50%; margin-right: -425px; overflow:hidden; }
+
+#main {float:right; width:850px; height:100% auto;}
+
+#header {float:left; width:850px; height:150px;}
+
+#column-1-whole {float:right; width:203px; height:652px;}
+#column-1-top {float:right; width:203px; height:458px; background:url(images/nav-tech_16.jpg) no-repeat;}
+#column-1-mid {float:right; width:203px; height:194px;}
+
+#column-2 {float:right; width:385px; height:652px; background:url(images/nav-tech_15.jpg) no-repeat;}
+
+.box-right {width: 380px; height: 632px; margin: 10px 5px 0 0; padding: 0; overflow: auto; float: right;}
+
+#column-3-whole {float:right; width:140px; height:652px;}
+#column-3-1 {float:right; width:140px; height:70px; background:url(images/nav-tech_14.jpg) no-repeat; background-position:right; padding-right:16px;}
+#column-3-2{float:right; width:140px; height:70px; background:url(images/nav-tech_17.jpg) no-repeat; padding:0 16px 0 0; background-position:right; padding-right:16px;}
+#column-3-3{float:right; width:140px; height:70px; background:url(images/nav-tech_19.jpg) no-repeat; padding:0 16px 0 0; background-position:right; padding-right:16px;} 
+#column-3-4{float:right; width:140px; height:442px;} 
+
+#column-4-whole {float:right; width:122px; height:652px;}
+#column-4-top {float:right; width:122px; height:619px;}
+#column-4-mid {float:right; width:122px; height:33px; background:url(images/nav-tech_35.jpg) no-repeat;}
+
+#footer {clear:both; width:850px; height:98px;}
+
+#menu8 {
+	width: 200px;
+	padding: 30px 7px 0 0;
+	font-size:15px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 38px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #777;
+	display: block;
+
+	}
+	
+#menu8 li a:hover {
+	color: #9b5014;
+
+	}
+	
+#menu8 li a:active {
+	color: #fd7c04;
+
+	}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document for Le Summun De La Finance */
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;margin: 0px;padding: 0px; background-color: #000; color: #333;}
+	
+img {border: none;margin: 0px;padding: 0px;}
+p {margin:0; padding:0;}
+
+/*.image_left{float: left;padding: 3px 7px 3px 3px;margin-top: 4px;}*/
+
+ul {margin:0;padding:0;	display:block;border:0;}
+
+li {margin:0; padding:3px 8px; list-style:none; border:0;} 
+
+a:link {  text-decoration:none;  color:#ff9966; }
+a:visited {	text-decoration:none;  color:#ff9966; }
+a:hover { color:#ff6600; }
+a:active {text-decoration: none;color:#ff9966;}
+
+.lowernav a:link {  text-decoration:none;  color:#666; font-weight:bold; }
+.lowernav a:visited {	text-decoration:none;  color:#666; font-weight:bold;}
+.lowernav a:hover { text-decoration:underline; }
+.lowernav a:active {text-decoration: none;color:#666;font-weight:bold; }
+
+.f_feeds a:link { text-decoration:none;  color: #039}
+.f_feeds a:visited {text-decoration:none;  color:#039;}
+.f_feeds a:hover { text-decoration:underline;}
+.f_feeds a:active {text-decoration: none;color:#039;}
+
+.btm_nav a:link { text-decoration:none;  color: #3399cc; font-weight:bold; font-size:10px;}
+.btm_nav a:visited {text-decoration:none;  color:#3399cc; font-weight:bold; font-size:10px; }
+.btm_nav a:hover {font-weight:bold; font-size:10px; color:#F93;}
+.btm_nav a:active {text-decoration: none; color:#3399cc; font-weight:bold; font-size:10px;}
+
+
+h1 {font-size: 13px; margin: 60px 15px 4px 15px; color:#ff6600; height: 15px; font-weight: bold;
+	width: auto; text-decoration: underline;}
+h2 {font-size: 11px; margin: 0; padding: 5px 10px; color:#3399cc; text-decoration: underline;}
+h3 {font-size: 15px; margin: 20px 15px 8px 40px; color:#3399cc; height: 15px; font-weight: bold;
+	width: auto; text-decoration: underline;}
+h4 {font-size: 12px; margin: 5px 10px 4px 10px; color:#ff6600; height: 15px; font-weight: bold;
+	width: auto; text-decoration: underline;}
+.w_text{font-size:10px; margin:0; padding:0;}
+
+#wrappage {width:950px; height:100% auto; margin:0; padding:0; position:relative; left:50%; margin-left:-475px;}
+
+#wrap_topbanner {width:950px; height:45px; float:left; margin:0; padding:0;}
+#left_images {width:437px; height:45px; float:left; margin:0;}
+#wrap_date {width:513px; height:45px; float:left; margin:0; color:#3399cc;}
+#todaydate {width:285px; height:auto; z-index:1; position:absolute; top:11px; left:595px; height: 11px; font-size:9px;}
+#wrap_title {width:950px; height:60px; margin:0; padding:0; float:left;}
+
+#wrap_middle_nav {width:950px; height:158px; float:left; margin:0;}
+#middle_l_images {width:429px; height:158px; float:left; margin:0;}
+#wrap_nav {width:521px; height:158px; float:left; margin:0; background-image:url(images/index_23.jpg); background-repeat:no-repeat;}
+#nav_left { width:260px; height:auto; float:left; margin:0;}
+#nav_right{ width:260px; height:auto; float:right; margin:0;}
+#navigation {width: 200px; font-size:11px; padding:5px 6px 4px 30px;}
+#navigation ul {list-style: none; margin: 0; padding: 0;}
+#navigation li { border-bottom: 1px dotted #FFF;}
+#navigation li a:link, #navigation li a:visited { display: block; padding: 3px 5px 0 0.5em;
+	color: #333;text-decoration: none;}
+#navigation li a:hover {color: #FFF; background-color:#3399cc;}
+
+#maincontent {width:950px; height: auto; margin:0px; padding:0px; float:left;}
+#column_1 {width:220px; height:637px; margin:0; float:left; background-image: url(images/index_24.jpg); background-repeat:no-repeat;}
+#widgets { width:220px; height:auto; padding:0; float:left;}
+#rss_financial {width:208px; height:auto; margin:0; padding:2px 6px 4px 6px; float:left;}
+#column_2 {width:580px; height:637px; margin:0; float:left; background-image:url(images/index_25.jpg); background-repeat:no-repeat;}
+#column_3 {width:150px; height:637px; margin:0; float:left;}
+
+#subpages {	width:580px; height:637px; margin:0; padding:0;	float:left; background-image:url(images/index_25.jpg); background-repeat:no-repeat;}
+#feed_news {width: 279px; height:564px; margin:0; padding:4px 5px 5px 5px; overflow:auto; float:left; border_right:1px solid #CCCCCC;}
+#links {width:280px; height:564px; margin:0; padding:4px 5px 5px 5px; overflow:auto; float: left;}
+
+#tools_below {width:950px; height:200px; margin:0; padding:0; float: left;}
+#left_btm_imgs{ width:155px; height:200px; margin:0; padding:0; float:left;}
+#applet {width:71px; height:200px; margin:0; float:left;}
+#tools_list{width:724px; height:200px; margin:0; float:left; background-image:url(images/index_40.jpg); background-repeat:no-repeat; }
+
+#wrap_tool_1{width:180px; height:200px; margin:0; float:left; }
+.tools_1 {width:150px; height:165px; margin:20px 10px 5px 20px; float:left;}
+.tools_2 {width:155px; height:165px; margin:20px 10px 5px 5px; float:left;}
+
+#lower_nav2 {width:950px; height:50px; margin:0; padding:10px 0 0 0; float:left; background-color:#FFF; text-align:center;}
+
+#footer {width:950px; height:25px; color: #ff9900; font-size:10px; font-weight:bold; float: left; text-align: center; clear:both;	position:relative; padding-top: 5px; background-color: #FFF;}
+	
+.scroll{filter:Chroma(Color=#123456); scrollbar-face-color:#123456;	scrollbar-shadow-color:#123456;	scrollbar-highlight-color:#123456; scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456;
+scrollbar-arrow-color:#C60;}
+
+/*#google_ads {width:950px; height:64px; margin:0; padding:0; float: left; background-image:url(images/index_01.jpg); background-repeat:no-repeat;}
+
+.content_ad_1 {width:168px;	height:54px;padding:4px 6px 0 15px;	float: left; border-right: 1px dashed #CCCCCC;}
+.content_ad_2 {width:168px;	height:54px;padding:6px 6px 0 15px;	float: left;}*/

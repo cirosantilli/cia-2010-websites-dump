@@ -1,0 +1,19 @@
+/* CSS Document */
+body,td,th {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+}
+a:link {
+	color: #69938F;
+}
+a:visited {
+	color: #69938F;
+}
+a:hover {
+	color: #CB0F0E;
+}
+a:active {
+	color:#69938F;
+}
+

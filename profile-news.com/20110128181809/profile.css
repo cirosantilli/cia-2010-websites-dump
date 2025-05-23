@@ -1,0 +1,187 @@
+/* CSS Document */
+
+body {  background-color: #ffffff; font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 10px;}
+
+h1 {font-size: 11px; font-weight: normal; color:#000033; font-family: Arial, Helvetica, sans-serif;}
+
+ul{margin: 0px; padding: 0px;}
+li{list-style:none; display: block; padding: 3px 0px; font-size: 10px; font-family: Arial, Helvetica, sans-serif; color:#003366;}
+
+
+
+/**APPLIES TO ALL LINKS NOT DEFINED ELSEWHERE**/
+
+li a 
+{	font-size: 10px;  /*link on item info*/
+	color:#666666; /*gray*/
+	text-decoration: none;	}
+	
+li a:hover 
+{	text-decoration: underline;
+	font-size: 10px;
+}
+
+#list_only 
+{	float: left;
+	width: 200px;
+	height: 100%;
+	margin: 0px;
+	padding: 5px;}
+
+
+a 
+{	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;  
+	color:#cc6600; 
+	text-decoration: none;	}
+	
+a:hover 
+{	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	color:#3366cc;
+	font-size: 10px;
+}
+
+#news_left 
+{
+	position:absolute;
+	filter: Chroma(Color=#123456);
+	width:270px;
+	height:485px;
+	z-index:2;
+	overflow: auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #cc6600;
+	left: 25px;
+}
+	
+#content_left
+{
+	position:absolute;
+	filter: Chroma(Color=#123456);
+	width:300px;
+	height:519px;
+	z-index:2;
+	overflow: auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #cc6600;
+	visibility: visible;
+}
+
+#news_middle_top
+{
+	position:absolute;
+	filter: Chroma(Color=#123456);
+	width:258px;
+	height:190px;
+	z-index:2;
+	overflow: auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #cc6600;
+	left: 324px;
+}
+#news_middle_top li a 
+{	font-size: 10px;  /*link on item info*/
+	color:#cc6600; /*red*/
+	text-decoration: none;
+	font-weight: bold;}
+	
+	#news_middle_top2
+{
+	position:absolute;
+	filter: Chroma(Color=#123456);
+	width:258px;
+	height:190px;
+	z-index:2;
+	overflow: auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #cc6600;
+	left: 324px;
+}
+#news_middle_top2  a 
+{	font-size: 10px;  /*link on item info*/
+	color:#003366; /*purple*/
+	text-decoration: none;
+	font-weight: bold;}
+	
+#news_middle_bottom
+{
+	position:absolute;
+	filter: Chroma(Color=#123456);
+	width:260px;
+	height:240px;
+	z-index:2;
+	overflow: auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #cc6600;
+	left: 322px;
+}
+#news_middle_bottom li a 
+{	font-size: 10px;  /*link on item info*/
+	color:#cc6600; /*red*/
+	text-decoration: none;
+	font-weight: bold;}
+#news_middle_bottom li a:hover {text-decoration: none; color: #333366;}
+	
+#sidebar_right
+{
+	position:absolute;
+	filter: Chroma(Color=#123456);
+	width:175px;
+	height:495px;
+	z-index:2;
+	overflow: auto;
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #333333;
+}
+#sidebar_right ul	
+{	margin: 0;    /*whole box info*/
+	padding: 0;}
+	
+
+#sidebar_right li
+{	list-style: none;
+	margin: 0px;
+	padding: 0 0 0px 0;
+	color:#ffffff; /*wh*/ /*controls descriptor text for links*/
+	font-size: 10px;  /*controls descriptor text for links*/
+	text-decoration: none;/*item info*/} 
+
+
+#sidebar_right li a 
+{	font-size: 11px;  /*link on item info*/
+	color:#ffffff; /*red*/
+	text-decoration: none;
+	font-weight: bold;}
+	
+#sidebar_right li a:hover {text-decoration: none; color: #333366;}

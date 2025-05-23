@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; /*color: #003366;*/ color: #333; font-family: "Lucida Sans", Tahoma, "Trebuchet MS"; font-size: 11px; text-align: left;}
+
+#wrap{position: relative; margin: 0px; padding: 0px; width: 870px; height: 100% auto; margin-left: -435px; left: 50%; background: url(images/bkgrnd.gif) repeat-y;}
+
+ul{margin: 0px; padding: 0px;}
+li{padding: 8px 0px; margin: 0px; list-style: none; display: block;}
+img{border: none;}
+p{line-height: 1.5em;}
+
+h2{font-size: 12px; margin: 0px; padding: 0px; font-weight: bold; color: #900; text-align: left;}
+h3{ margin: 8px 0px 1px 0px; padding: 0px; font-size: 11px; font-weight: bold; color: #003366;}
+
+a{text-decoration: none; color: #003366; border-bottom: 1px solid #fff; font-weight: normal;} /* won't see white bottom border in most cases */
+a:hover{color: #900; border-bottom: 1px solid #003366;}
+a:active{color: #333; border-bottom: 1px solid #900;}
+img a{border: none;}
+
+#header{float: left; width: 870px; height: 181px;}
+#main{float: left; width: 870px; height: 100% auto; min-height: 700px; background: url(images/banner_btm.jpg) left top no-repeat;}
+
+#navigation{width: 537px; margin: 0px 0px 10px 320px;  }
+#nav { margin: 0; padding: 0 0 20px 10px; border-bottom: 1px solid #9FB1BC;}
+#nav li { margin: 0;  padding: 0; display: inline; list-style-type: none; }
+#nav a {float: left; font-size: 10px; line-height: 14px; font-weight: bold; padding: 0 12px 6px 12px; text-decoration: none; color: #708491; border: none;}
+/*#nav li a:hover{color: #369; background: url(images/tab_pyram_over.gif) no-repeat bottom center;}*/
+#nav li a:hover{ color: #000; background: url(images/tab_pyram.gif) no-repeat bottom center;}
+#nav li a:active, #nav li a#focus{color: #900; background: url(images/tab_pyram_down.gif) no-repeat bottom center;}
+
+#latestnews{clear: both; width: 537px; height: 40px; margin: 0px 0px 10px 320px; background: #036;}
+#latestnews a{color: #fff;}
+
+#news_main ul{margin: 5px 0px; }
+#news_main li{display: inline;  padding: 5px 4px;}
+#newslinks{margin: 2px; padding: 3px; border: 1px solid #eee;}
+
+#footer{clear: both; width: 870px; height: 23px; }
+
+#ads{clear: both; width: 870px; height: 100% auto; }
+#ads li {display: inline; text-align: center; padding: 0px 10px;}
+
+.side1{float: left; width: 400px; margin: 5px 5px 10px 70px;  padding: 5px; border-right: 1px solid #369;}
+.side2{float: left; width: 350px; margin: 5px 5px 10px 0px; padding: 5px;}
+
+.col1{float: left; width: 45%; margin: 5px 10px 10px 0px; padding: 5px; }
+.col2{float: left; width: 45%; margin: 5px 0px 10px 0px; padding: 5px; }
+/*.col3{float: left; width: 28%; margin: 5px 5px 10px 0px; padding: 5px; }
+.col4 li{padding-left: 8px;}
+*/
+
+
+#intl_links a{font-size: 9px;}
+
+.org_title{font-size: 11px; font-weight: bold; color: #003366; }
+.org_desc{font-size: 10px; font-weight: normal; color:#006600;}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+clear: both; height:0; font-size: 1px; line-height: 0px;}
+

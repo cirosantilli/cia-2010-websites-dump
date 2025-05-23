@@ -1,0 +1,55 @@
+
+body {margin:0; padding:0;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 8px; line-height:13px; }
+h1 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:15px; margin: 0; padding: 5px 5px 5px 5px; height:auto; width:auto; }
+ 
+
+#wrap {float:left; width:975px; height:auto; background:url(images/ssn-img-bkgd.jpg) repeat-y; }
+#header {float:left; width:975px; height:auto; }
+#info-wrap {float:left; width:975px; height:1850px; background:url(images/ssn-img_19.jpg) no-repeat; }
+#col {float:left; width:325px; height:1850px; }
+#col-nav {float:left; width:184px; height:1850px; margin:0 0 0 10px; }
+#col-2 {float:left; width:210px; height:1850px; margin:0 0 0 20px; }
+#col-box {width:206px; height:600px;}
+*html #col-box {width:210px; height:600px;}
+.red {margin: 5px 0 0 0; background-color:#e0654d;border: solid 2px #dd5028;}
+.blue {margin: 5px 0 0 0;background-color:#bbe6fb;border: solid 2px #006fba;}
+.blue a{ text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+.blue a:hover{ text-decoration: none; color: #c0c0c0; }
+.green {margin: 5px 0 0 0;background-color:#ebf065;border: solid 2px #b7d432;}
+.orange {margin: 5px 0 0 0;background-color:#ef9850;border: solid 2px #df7a42;}
+.yellow02 {margin: 5px 0 0 0;background-color:#fdfbe1;border: solid 2px #fff200;}
+.yellow02 a{ text-decoration: none; color: #d6d827; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+.yellow02 a:hover{ text-decoration: none; color: #c0c0c0; }
+
+#adbox{ border: 1px solid #C0C0C0; background-color: white; width: 180px; height: 1000px; margin:20px 0 0 0; }
+#adbox img{ margin:30px 0 0 3px; }
+
+#appbox{ border: 1px solid #C0C0C0; background-color: white; width: 180px; height: 180px; margin:40px 0 0 0; }
+
+#info {width:315px; height:1775px; overflow: auto; visibility: visible; border: solid 1px #d9d9d9; margin: 0 0 0 5px;}
+*html #info {width:315px; height:1775px;}
+#info ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#5a97f1; line-height:33px; margin: 0; padding: 5px 5px 5px 5px; height:auto; width:auto;}
+
+.wireframemenu{ border: 1px solid #C0C0C0; background-color: white; border-bottom-width: 0; width: 180px; margin:100px 0 0 0; }
+* html .wireframemenu{ width: 174px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; color: #595959; text-decoration: none; border-bottom: 1px solid #C0C0C0; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ width: auto; }
+.wireframemenu a:hover{ background-color: #F8FBBD; color: black; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

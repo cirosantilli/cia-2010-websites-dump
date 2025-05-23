@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0 auto; padding:0;}
+.bkgd-in {background:#faf9f9;}
+.bkgd-feed {background: url(images/inq-img-bkgd-feed.jpg) no-repeat #faf9f9;}
+p {font: 11px Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #b19543; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+
+.pos {float:left;}
+#wrap {width:975px; height:auto;margin:0 auto; overflow:auto; }
+#header-top {width:731px; height:auto; }
+#nav-top {width:244px; height:322px; background:url(images/inq-img_04.jpg) no-repeat; }
+#info-wrap {width:975px; height:auto; overflow:auto; background:url(images/inq-img_05.jpg) no-repeat; }
+#col-wh {width:397px; height:auto; overflow:auto; margin:0 0 0 5px; min-height:900px; }
+#col-n {width:177px; height:auto; }
+#col-rh {width:391px; height:auto; overflow:auto; min-height:900px; }
+#footer-top {width:975px; height:auto; }
+#footer-info {width:975px; height:auto; overflow:auto; background:url(images/inq-img_08.jpg) repeat-y; }
+#footer-btm {width:975px; height:auto; }
+
+#inq {}
+#inq a{ text-decoration: none; color: #000; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+#inq a:hover{ text-decoration: none; color: #c0c0c0; }
+#inq ul {list-style: none; padding: 0; margin:0;}
+#inq li {list-style: none; padding: 4px 0 0 0; line-height:11px;}
+
+.top-inq {width:200px; height:auto; margin:130px 0 0 35px;}
+.mid-inq {width:170px; height:auto; margin:90px 0 0 5px;}
+
+#btm-links {width:190px; min-height:500px; overflow:auto; }
+.linkpos {float:left; margin:0 0 0 3px;}
+.linkbor {border-right: dotted 1px #f0e6c6;}
+.headerbor {border-bottom: dotted 1px #f0e6c6; width:963px; margin:0 0 0 5px;}
+
+.rh, .wh {display: none; margin:0; }
+.rh, .wh ul {list-style: none;margin: 5px 20px 0 5px;padding: 0; line-height:15px;}
+.rh, .wh p {list-style: none;margin: 5px 20px 0 5px;padding: 0; line-height:15px;}
+
+#info-feeds {width:416px; height:auto;  overflow:auto;}
+
+#ads {width:177px; height:auto; margin:10px 0 0 20px; }
+
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding: 10px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#ads {width:137px; height:auto; margin:10px 0 0 20px; }
+#count {width:130px; height: 60px; margin:10px 0 0 20px;}

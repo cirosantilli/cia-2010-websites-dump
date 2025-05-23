@@ -1,0 +1,154 @@
+* {
+	margin:0;
+	padding:0;
+	color: #000;
+	list-style-type: none;
+	}
+
+body,html {
+	min-height:101%;
+	}
+	
+body {
+	background:/*url(images/backgrounds/bg_leadcontainer.jpg) repeat-x 0px 0px #252525*/ #ffffff;
+	padding: 13px 0 25px 0;
+	}
+
+body {
+	font: 12px Arial, Verdana, Sans-Serif;
+	line-height:1.5em;
+	}
+	
+p {	
+	margin: 15px 0;
+	}
+
+
+a:link, a:active, a:visited { 
+	color:#333;
+	text-decoration: underline; 
+	} 
+a:hover	{ 
+	color:#333;
+	text-decoration: none; 
+	}
+
+img{
+	padding:1px;
+}
+img.left{
+	margin:5px 12px 5px 0;
+	padding:1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+img.left{ float:left; margin:0 12px 5px 0; }
+
+
+#page {
+	width:840px;
+	font-size:1em;
+	border-top-style: none;
+	border-bottom-style: none;
+	background-color: #FFF;
+	background-image: url(images/topback.jpg);
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 125px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	}
+
+#branding {
+	width:525px;
+	height:100px;
+	padding-bottom:15px;
+	background:url(images/backgrounds/bg_branding.png) no-repeat;
+	}
+
+.left {
+	float:left;
+	}
+
+.right {
+	float:right;
+	}
+	
+.blogtitle, .blogtitle a {
+	color: #000;
+	font-size: 1.8em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: regular;
+	padding: 20px 0px 10px 0px;
+	text-decoration:none;
+	}
+
+h2 {
+	color: #a37f04;
+	font: 1.6em Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	padding-bottom:8px;
+	border-bottom:4px solid #ddd;
+	margin: 20px 0;
+	}
+
+h3 {
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	margin-bottom:4px;
+	font-weight:bold;
+	color:#0c57aa;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	}
+
+ /*.feature p { margin:0;	}*/ 
+
+	
+.description {
+	font-size: 1.3em;
+	font-weight: bold; 
+	color:#999;
+	}
+
+.entry {
+	padding-bottom:28px;
+	text-align:justify;
+	}
+
+.clearfloat:after {
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+	content:".";
+	}
+
+.clearfloat {/*never delete this otherwise MSIE will kill the layout */
+	display:inline-block;
+	}	
+
+.clearfloat {/*never delete this otherwise MSIE will kill the layout */
+	display:block;
+	}
+	
+#footer {
+	margin: 0 auto;
+	width: 800px;
+	font-size:0.9em;
+	text-align:center;
+	padding-top:15px;
+	color:#666;
+	}

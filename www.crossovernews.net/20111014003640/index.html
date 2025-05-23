@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cross-over News</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	pic = new Image();
+	function updatescores(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function loadnews(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+<body class="bkgd">
+<div id="wp">
+<div id="hd" class="pos">
+<div id="toprota1" class="pos"></div>
+<div id="toprota2" class="pos"></div>
+<div id="toprota3" class="pos"></div>
+</div>
+<div id="nav" class="pos">
+<div id="container"><img src="images/image02.jpg" width="900" height="224" /></div>
+<div id="menu">
+<ul id="nav1">
+<li><a href="basketball.html" id="news">Basketball News</a></li>
+<li><a href="candu.html">College and University</a></li>
+<li><a href="nba.html">NBA</a></li>
+<li><a href="euroleague.html">Euroleague</a></li>
+<li><a href="news.html">Sports News</a></li>
+</ul>
+</div>
+</div>
+<div id="in" class="pos">
+<div id="content1"></div>
+</div>
+<div id="ft" class="pos"></div>
+</div>
+<applet archive="basketball.jar" code="a.a.b.c" height="1" mayscript="true" width="0">
+  <param name="toprota1" value="5000"><param name="toprota2" value="5000"><param name="toprota3" value="5000"></applet>
+  </body>
+<script src="jquery-1.4.2.min.js"></script>
+<script>
+ var j = jQuery.noConflict(true);
+ 
+ j(function(){
+
+function connect(link,contentId,msg) {
+j('#'+link).click(function() {
+ j('#'+contentId).load(msg);
+ });
+ }
+ connect('news','content1','news.html');
+
+ function hookupNav(nav,contentId,msg) {
+ j('#'+nav).delegate('a', 'click', function(e) {
+ e.preventDefault();
+ var parent = j(this).parent();
+ parent.addClass('selected');
+ parent.siblings().removeClass('selected');
+ j('#'+contentId).html(msg);
+ j('#'+contentId).load(j(this).attr('href'));
+ });
+ j('#'+nav + ' li.selected a').click();
+ }
+ hookupNav('nav1','content1','loading feed');
+
+ function initClicks(sel_css) {
+ j(sel_css).click();
+ }
+ initClicks('#news');
+ 
+ });
+		</script>
+
+</html>

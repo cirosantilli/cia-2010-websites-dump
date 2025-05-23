@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; margin: 0; padding: 0; color: #000; background-color:#333;}
+img {border: none; margin: 0; padding: 0;}
+
+.photo {float:left; margin:3px 3px 1px 3px;}
+
+ul {margin:0; padding:0 0 0 4px; display:block;	border:0;}
+
+li {margin:0; padding:3px 1px; list-style:none; border:0; color: #000;}
+
+li.content {margin:0 5px 0 5px;	padding:5px 0p 5px 0; list-style:none;  border-bottom: 1px solid #CCC;}
+ul.sidebar {margin:0; padding:0; display:block; border:0px }
+ul.sidebar li {margin:0;padding:3px;list-style:none;border:0px; border-bottom-color: #0033FF;}
+
+li#lines {margin:0 5px 0 5px; padding:5px 0 5px 0; list-style:none; border-bottom: 1px dotted #999;}
+
+a:link {  text-decoration:none;  color: #0091CD; font-weight: 400; }
+a:visited {	text-decoration:none;  color:#0091CD; }
+a:hover { color: #FF9900;text-decoration: none; }
+a:active {	text-decoration: none;	color:#0091CD;}
+
+/* headers */
+h1 {font-size: 13px; color:#EA4819;	font-weight:bold; margin: 0; background-color: #0CF; padding: 2px 8px;}
+h2 {font-size: 13px; color:#FFF; font-weight:bold; margin: 0; background-color: #99ccff; padding: 2px 8px;}
+h3 {font-size: 13px; color:#EA4819;	font-weight:bold; margin: 0; background-color: #E9E9E9;	padding: 2px 8px;}
+h4 {font-size:13px; color:#cc0000; margin:0; padding:0;}
+
+#wrappage {width:950px;	height:100% auto; margin:0;	padding:0; position:relative; left:50%; margin-left:-475px;}
+
+#title_wrap {width:950px; height:89px; margin:0; padding:0;	float:left;}
+
+#search {width:334px; height:42px; float:left;z-index:1; position:absolute;	top:17px; left:604px; margin:0;}
+
+#quote {width:950px; height:72px; float:left; margin:0;} 
+
+#wrap_nav {width:950px; height:78px; margin:0; padding:0; float:left;}
+
+#google_ads {width:950px; height:116px; margin:0; padding:0; float:left;}
+
+.left_image { width:86px; height:116px; float:left;}
+#g_ads {width:620px; height:116px; float:left; background-image: url(images/index_29.jpg); background-repeat:no-repeat;}
+.adv_1 {width:130px; height:60px; margin:35px 8px 0 10px; padding:0; float:left;}
+.right_image { width:244px; height:116px; float:left;}
+
+.url {font-size:10px; color:#903;}
+
+#sub_page_title {width:950px; height:130px; float:left; margin:0; background-color:#0CF; position:relative;}
+#weather_updates {width:300px; height:83px;	float:left;	position:absolute; top:34px; left:350px; margin:0;}
+.symbol {color:#903;}
+
+/*** Starts Main-content ***/
+#maincontent {width:950px; height:100% auto; margin:0; padding:0; float:left; background-color:#FFF;}
+
+#column1 {width:175px; height:375px; float:left; margin:0; padding:0 22px 0 30px; background-image:url(images/index_37.jpg); background-repeat:no-repeat;}
+#countries {width:156px; height:auto; float:left; z-index:auto; position:absolute; top:494px; left:35px;margin:0;}
+#column2 {width:471px; height:375px; float:left; margin:0; background-image:url(images/index_38.jpg); background-repeat:no-repeat;}
+#travel_feed {width:230px; height:375px; margin:0 11px 0 0; float:left; overflow:auto;}
+#travel_links {width:230px; height:375px; margin:0 0 0 0; float:left; overflow:auto;} 
+#column3 {width:202px; height:335px; float:left; margin:0; padding:40px 25px 0 25px; background-image:url(images/index_39.jpg);  background-repeat:no-repeat; position:relative;}
+
+#travel_content {width:950px; height:305px; float:left; margin:0; padding:0;position:relative;}
+#accessories{width:164px; height:175px; padding:130px 15px 0 55px; float:left; background-color:#03C; background-image:url(images/index_40.jpg); background-repeat:no-repeat;}
+#sophisticated{width:193px; height:275px; padding:30px 10px 0 30px;float:left; background-color:#9C3; background-image:url(images/index_41.jpg); background-repeat:no-repeat;}
+#magazines{width:203px; height:275px; float:left; padding:30px 5px 0 30px; background-color:#F66; background-image:url(images/index_42.jpg); background-repeat:no-repeat;}
+#c_getaway{width:185px; height:275px; float:left; padding:30px 30px 0 30px; background-color:#F3F; background-image:url(images/index_43.jpg); background-repeat:no-repeat; position:relative;}
+
+#logos {width:950px; height:100px; float:left; margin:0; background-color:#FFF;}
+
+#wrap_rssfeeds {width:950px; height:auto; margin: 0px; float:left; position: relative;
+	background-color: #FFFFFF; padding:2px 0 6px 0; font-size:11px;}
+
+.rss_1{width: 212px; height: auto; padding:0; border:1px solid #999; background: #FFF; margin:6px 0 0 19px; color:#000; float:left;}
+.rss_2{width: 212px; height: auto; padding:0; border:1px solid #999; background: #FFF; margin:6px 0 0 15px; color:#000; float:left;}
+.rss_3{width: 212px; height: auto; padding:0; border:1px solid #999; background: #FFF; margin:6px 0 0 15px; color:#000; float:left;}
+.rss_4{width: 211px; height: auto; padding:0; border:1px solid #999; background: #FFF; margin:6px 0 0 15px; color:#000; float:left;}
+
+#footer {width:950px; height:20px; margin:0; color: #0091CD; font-size:10px; float: left; background-color:#FFF; text-align: center; position: relative;}
+
+.scroll{scrollbar-face-color: #FFF;	scrollbar-shadow-color: #FFF; scrollbar-highlight-color: #FFF;scrollbar-3dlight-color: #FFF;	scrollbar-darkshadow-color:#FFF; scrollbar-track-color:#FFF;scrollbar-arrow-color:#903;background-color: #FFF;}

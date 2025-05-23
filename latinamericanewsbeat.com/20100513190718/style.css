@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background:#fbd885;
+}
+
+a:link {  text-decoration:none; font-weight:bold; color:#6f001e; }
+a:visited {	text-decoration:none; font-weight:bold; color:#6f001e; }
+a:hover { text-decoration:underline; font-weight:bold; color:#6f001e;}
+a:active { text-decoration: none; font-weight:bold;	color:#6f001e;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:5px 5px 5px 5px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#latin {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#ffffff;
+}
+
+ul#latin a:link { text-decoration:none; font-weight:bold; color:#f9b209; }
+ul#latin a:visited { text-decoration:none; font-weight:bold;  color:#f9b209; }
+ul#latin a.:hover { text-decoration:underline; font-weight:bold; color:#f9b209; }
+ul#latin a:active { text-decoration: none; font-weight:bold; color:#f9b209; }
+
+ul#logos {margin:0; padding:0; display:block; border:0;}
+li#logos {margin:0; padding:5px 5px 0px 5px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#logos2 {margin:0; padding:0; display:block; border:0;}
+li#logos2 {margin:0; padding:0px 5px 5px 5px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+h1 {font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 0px; padding: 8px 2px 2px 2px; color:#fff; background-color: #392933; width: auto;}
+
+h2{font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 5px; padding: 5px 2px 2px 2px; color:#fff; background-color: #11464f; width: auto;}
+
+img {
+border:0;
+}
+
+/* wrap defines the size of the website.*/
+#wrap {
+     width:800px; 
+	 height: auto;
+	 margin: 0 auto; 
+	 text-align: left;
+	 }
+	 
+ /* topbanner defines the size of the banner*/
+#topbanner {
+     width:800px;
+	 height:76px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+
+ /* navigation defines the size of the navigation bar*/
+#navigation {
+     width:800px; 
+	 height:30px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+ /* middlebanner defines the size of the second banner*/
+	 
+#middlebanner {
+     width:800px;
+	 height:144px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+#bottombanner {
+     width:800px;
+	 height:96px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+/* maincontent defines the size of the main content below the banner*/
+#maincontent {
+      float:left; 
+	  width:800px;
+	  height:auto;
+	  background: url(images/bkgnd.jpg); 
+	  margin:0px; 
+	  padding:0px; }
+
+/* maincontent2 defines the size of the main content below the banner*/
+#maincontent2 {
+      float:left; 
+	  width:800px;
+	  height:auto;
+	  background: url(images/bkgnd2.jpg); 
+	  margin:0px; 
+	  padding:0px; }	 
+
+/* Defines the area for the left content*/
+#left_content {	
+	float:left;
+	width: 174px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;	
+	} 
+	
+/* Defines the area for the middle content*/
+#middle_content {	
+	float:left;
+	width: 250px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;	
+	}
+	
+/* Defines the area for the middle content*/
+#middle2_content {	
+	float:left;
+	width: 260px;
+	height: 100% auto;
+	padding: 0px;
+	margin: 0px;	
+	}
+	
+/* Defines the area for the right content*/
+#right_content {	
+	float:right;
+	width: 116px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;	
+	}
+	
+
+#rss {
+     width:250px; 
+	 height:auto;
+	 margin: 0px;
+	 padding: 0px;
+	 text-align: left;
+	  }
+	  
+#links {
+     width:260px; 
+	 height:auto;
+	 margin: 0px;
+	 padding: 0px;
+	 text-align: left;
+	  }
+	  
+/* Defines the area for the registration content*/
+#reg_content {	
+	float:left;
+	width: 424px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;	
+	}
+
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #fff;

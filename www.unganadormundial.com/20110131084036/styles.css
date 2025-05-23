@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0;color:#000;font-family:Arial, Helvetica, sans-serif;background: #031A20 url(images/background.gif) repeat-x;font-size:11px;}
+h1 {padding: 3px 0 3px 0px;color: #000;border-bottom:1px solid #000;}
+h1 {font-size: 12px;margin-bottom:5px;font-weight:bold;}
+h2 {font-size: 14px;margin: 0 0 5px 0;color:#000;width:auto;letter-spacing:5px;}
+h3 {font-size: 14px;color:#000;letter-spacing:5px;text-align:center;background:#CCC;padding:5px;}
+h4 {font-size: 14px;margin: 0 0 5px 0;color:#000;width:auto;letter-spacing:3px;}
+span{font-size: 11px;color:#999;line-height:26px;}
+a {color:#3300ff;text-decoration:underline;}
+a:hover {color:#666;text-decoration:underline;}
+
+#wrapper {margin:0;width:960px;background:url(images/wrapback.gif) repeat-y;}
+#blackbar {width:100%;height:24px;background-color:#000;}
+#loginarea {float:right;background:url(images/loginbutton.gif) bottom;display:block;height:24px;width:100px;}
+#loginarea:hover {background-position:top;}
+
+#navandlogo {width:960px;}
+
+#mainnav {float:right;width:680px;height:72px;background:url(images/navbackground.gif) repeat-x;}
+#rollover_one {float:left;background:url(images/linkone.gif) bottom;display:block;height:72px;width:132px;}
+#rollover_one:hover {background-position:top;}
+#rollover_two {float:left;background:url(images/linktwo.gif) bottom;display:block;height:72px;width:132px;}
+#rollover_two:hover {background-position:top;}
+#rollover_three {float:left;background:url(images/linkthree.gif) bottom;display:block;height:72px;width:132px;}
+#rollover_three:hover {background-position:top;}
+#rollover_four {float:left;background:url(images/linkfour.gif) bottom;display:block;height:72px;width:132px;}
+#rollover_four:hover {background-position:top;}
+#rollover_five {float:left;background:url(images/linkfive.gif) bottom;display:block;height:72px;width:132px;}
+#rollover_five:hover {background-position:top;}
+#rollover_home {float:left;background:url(images/home.gif) bottom;display:block;height:72px;width:132px;}
+#rollover_home:hover {background-position:top;}
+
+#white {float:left;width:920px;height:5000px;padding:20px;background-color:#FFF;}
+
+#logo {float:left;width:280px;height:72px;background:url(images/navbackground.gif) repeat-x;}
+#bigarea_left {float:left;width:281px;height:393px;background:url(images/blue_index.gif)}
+
+#thickborder {width:960px;height:10px;background:url(images/thickborder_2.gif) no-repeat;}
+
+#column_one {float:left;width:251px;/*height:3000px;*/margin: 10px 0 10px 10px;padding:10px;/*background-color:#FCE190;border-top:10px solid #D1AE52;border:1px solid #000;*/border-right:1px solid #c9b151}
+#column_two {float:left;width:418px;/*height:3000px;*/margin: 10px;padding:10px;/*background-color:#FCE190;border-top:10px solid #D1AE52;border:1px solid #000;*/}
+#column_three {float:left;width:190px;/*height:3000px;*/margin: 10px;padding:10px 0 0 5px;/*background-color:#BD5132;border-top:10px solid #98402A;border:1px solid #000;*/}
+#column_three img {padding-bottom:10px;}
+
+.sidebar ul {margin: 0; padding:0; list-style: none;}
+.sidebar li {margin: 0; padding:0; font-size: 10px; padding:0 0 10px 0;  color:#000;line-height:14px;}
+.sidebar a {color: #FFF; font-weight: bold; text-decoration:underline;}
+.sidebar a:hover {color: #FCE190; font-weight: bold; text-decoration: underline;}
+
+.bluebar ul {margin: 0; padding:10px 20px 10px 20px; list-style: none;text-transform:uppercase;}
+.bluebar li {margin: 0; font-size: 10px; padding:0 0 12px 0;  color:#CCC;line-height:14px;}
+.bluebar a {color: #FFF;font-size:11px; font-weight: bold; text-decoration:underline;}
+.bluebar a:hover {color: #FCE190; font-weight: bold; text-decoration: underline;}
+
+.yellowbar ul {margin: 0; padding:0; list-style: none;}
+.yellowbar li {margin: 0; padding:0; font-size: 10px; padding:0 0 10px 0;  color:#000;line-height:14px;}
+.yellowbar a {color: #000; font-weight: bold; text-decoration:none;}
+.yellowbar a:hover {color: #98402A; font-weight: bold; text-decoration: underline;}
+
+#footer {clear:both;width:960px;height:50px;}
+.footlinks ul {text-align:center;margin:0;color: #666;}
+.footlinks li {display: inline;list-style:none;margin:0;padding:0 6px 0 6px;line-height:24px;}
+.footlinks li a:link {color: #666;text-decoration:none;}
+.footlinks li a:visited {color: #003366;text-decoration: underline;}
+.footlinks li a:hover {color: #666;text-decoration: underline;}

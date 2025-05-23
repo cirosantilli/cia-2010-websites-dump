@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #fff; font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans serif;
+ font-size: 12px; text-align: center; background: #333;}
+
+#wrap{position: relative; width: 960px; height: 100% auto; margin: 0 auto; text-align: left; background: #0446af url(images/wrapbk.jpg) repeat-y; }
+
+#banner{float: left; width: 960px; height: 74px; margin: 0px; padding: 0px;}
+
+#sidebar{float: left; width: 303px; height: 100% auto; margin: 0px; padding: 0px; background: url(images/sidebar.jpg) top no-repeat; text-align: left;}
+
+#main{float: left; width: 657px; height: 100% auto;/* height: 926px; */  margin: 0px; padding: 0px; background: url(images/main.jpg) top no-repeat; text-align: left;}
+
+ul{margin: 0px; padding: 0px; list-style: none;}
+li{ margin: 0px; padding: 5px 0px;}
+
+img{border: none;}
+a{text-decoration: none; font-weight: normal;}
+a:link, a:visited, a:visited{ color: #9C0;}
+a:hover{ color: #F93;}
+
+h1{font-size: 1.6em; margin: 0px; padding: 0px; color: #333; font-weight: bold;}
+
+h2, .rss-title{color: #f90; margin: 10px 0px 0px 0px; padding: 0px; font-size: 1.4em; font-weight: normal;  }
+
+h3{font-size: 1em; margin: 10px 0px 0px 0px; padding: 0px; color:#0CF; font-weight: normal;}
+
+
+
+#nav {float: left; width: 657px; height: 47px; background: url(images/nav.jpg) no-repeat;}
+#nav ul {margin-top: 8px;padding-left: 10px;}
+#nav li{display: inline; padding: 0px 7px;}
+#nav li a{color: #fff; font-size: 14px;}
+#nav li a:selected{color: #F90;}
+#nav li a:hover{color: #000;}
+#nav li a:active{color: #666;}
+
+.col1{float: left; width: 46%; margin: 0px; }
+.col2{float: right; width: 46%; margin-right: 10px; }
+
+.main1{float: left; width: 46%; margin-left: 10px; height: 1190px; overflow: auto;}
+.main2{float: right; width: 46%; margin-right: 10px; height: 1190px; overflow: auto;}
+
+
+#ads{clear: both; width: 960px; height: 90px; margin: 0px; padding: 0px; background: #000;}
+
+#ad1, #ad2{float: left; width: 100% auto; padding: 5px 20px; background: #000; }
+#footer{clear: both; width: 960px; height: 100% auto; margin: 0px; padding: 5px 0px; font-size: .9em; background: #000; color: #9C3; text-align: center;}
+
+
+.sidebox{float: left; width: 270px; margin: 10px 05px 10px 20px; min-height: 545px;}
+.group{overflow: auto; *zoom=1; margin: 10px;}
+
+#sidebar ul.col1 {width: 120px; }
+#sidebar ul.col2 {width: 120px;}
+
+.box{padding: 5px;}
+.rssfeed li img{padding-right: 4px;}
+
+.subpg{ background: url(images/main.jpg) fixed no-repeat; width: 657px; height: 689px; text-align: left;}
+.article_title{padding: 3px 0px;}
+#review1 .article_title{clear: both;}
+
+.scroll{
+scrollbar-face-color: #00FF80;
+scrollbar-shadow-color: #00FF80;
+scrollbar-highlight-color: #00FF80;
+scrollbar-3dlight-color: #00FF80;
+scrollbar-darkshadow-color: #00FF80;
+scrollbar-track-color: #00FF80;
+scrollbar-arrow-color: #ffffff;
+}

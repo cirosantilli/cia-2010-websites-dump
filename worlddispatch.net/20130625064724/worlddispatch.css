@@ -1,0 +1,45 @@
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.p {
+	font-size: 14pt;
+}
+
+.serif {
+	font-family: serif;
+	font-size: 12pt;
+	color: #000090;
+}
+
+.sans {
+	font-family: sans-serif;
+	font-size: 17pt;
+	color: #0000C0;
+}
+
+.monospace {
+	font-family: mono;
+	font-size: 20pt;
+	color: #0000FF;
+}
+
+.georgia {
+	font-family: "Georgia";
+	font-size: 17pt;
+	color: #7000FF;
+}
+
+.shruti {
+	font-family: "Shruti";
+	font-size: 12pt;
+	color: #C000FF;
+}

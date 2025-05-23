@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content="#" />
+
+<meta name="keywords" content="#" />
+
+<meta name="author" content="#" />
+
+<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+
+<title>Autism </title>
+
+</head>
+
+<body>
+
+<div class="wrap clearfix">
+
+  <div class="header">
+
+  	<div class="img_puzzle"></div>
+
+	<div class="img_boy"></div>
+
+	<div id="nav" class="img_title topnav">
+
+	<ul>
+
+    <li><a href="index.php" target="_parent">home</a></li>
+
+      <li><a href="understanding.php" target="_parent">understanding</a></li>
+
+	  <li><a href="diagnosis.php" target="_parent">diagnosis</a></li>
+
+	  <li><a href="causes.php" target="_parent">causes</a></li>
+
+      <li id="active"><a href="treatment.php" id="current" target="_parent">treatment</a></li>
+
+    </ul>
+
+	</div>
+
+  </div>
+
+ 
+
+  <div class="container clearfix">
+
+  	<div id="sidebar">
+
+	<h3>Organizations That Can Help</h3>
+
+		<ul class="list">
+
+			<li><a href="http://www.autism-society.org" target="new">Austism Society of America</a></li>
+
+        	<li><a href="http://www.autism.org/" target="new">Center for the Study of Autism</a></li>
+
+        	<li><a href="http://www.nas.org.uk" target="new">The National Autistic Society</a></li>
+
+		    <li><a href="http://www.cureautismnow.org/" target="new">Cure Autism Now</a></li>
+
+          	<li><a href="http://www.autism.net" target="new">Geneva Centre for Autism</a></li>
+
+          	<li><a href="http://www.autismuk.com/" target="new">Autism Independent UK</a></li>
+
+          	<li><a href="http://www.autismtoday.com" target="new">Autism Today</a></li>
+
+          	<li><a href="http://www.ukautism.com/" target="new">Autism Awareness Campaign - UK</a></li>
+
+          	<li><a href="http://www.asatonline.org/" target="new">Association for Science in Autism Treatment (ASAT)</a></li>
+
+        </ul>
+
+		
+
+		<h3>Treatment</h3>
+
+		<ul class="list">
+
+			<li><a href="http://www.exploringautism.org" target="new">Exploring Autism</a></li>
+
+			<li><a href="http://www.feat.org" target="new">Families for Early Autism Treatment</a></li>
+
+		</ul>
+
+	
+
+		<h3>Resources</h3>
+
+		<ul class="list">
+
+			<li><a href="http://www.autismconnect.com" target="new">AutismConnect</a></li>
+
+		</ul>
+
+
+
+<hr color="#FFCC33" align="center" width="90%" />
+
+			<h2>Events</h2>
+
+			<p>2002 was declared Autism Awareness Year in the United Kingdom
+
+			 - this idea was initiated by Ivan and Charika Corea, parents of an autistic child, Charin. 
+
+			 Autism Awareness Year was led by the British Institute of Brain Injured Children, 
+
+			 Disabilities Trust, National Autistic Society, Autism London and 800 organizations 
+
+			 in the United Kingdom. It had the personal backing of the British Prime Minister 
+
+			 Tony Blair and parliamentarians of all parties in the Palace of Westminster.</p>
+
+		<p>Autistic Pride Day, an initiative from Aspies For Freedom, is on 18 June each year, 
+
+		starting in 2005. It is to celebrate the positive side of being autistic and having Asperger's, 
+
+		to raise awareness of issues relating to autism, and to seek acceptance for differences, 
+
+		with an aim to bring an end to discrimination. It is hoped that events will be held worldwide, 
+
+		such as parades, marches, and parties. The theme for 2005 is "Acceptance not cure", 
+
+		the main event is a parade in Seattle, Washington,USA.</p>
+
+			
+
+	</div>
+
+	<div id="main">
+
+	<h2>Treatment</h2>		
+
+           <p class="right"><img src="images/boy_floor.jpg" alt="boy on floor coloring" />There is no cure for autism. Therapies and behavioral interventions are designed
+
+            to remedy specific symptoms and can bring about substantial improvement. The ideal
+
+            treatment plan coordinates therapies and interventions that target the core symptoms
+
+            of autism: impaired social interaction, problems with verbal and nonverbal communication,
+
+            and obsessive or repetitive routines and interests. Most professionals agree that
+
+            the earlier the intervention, the better.</p>            
+
+			<h3>Educational/behavioral interventions</h3>
+
+			<p>Therapists use highly structured and
+
+              intensive skill-oriented training sessions
+
+              to help children develop social and language
+
+              skills. Family counseling for the parents
+
+              and siblings of children with autism
+
+              often helps families cope with the particular
+
+              challenges of living with an autistic
+
+              child. </p>
+
+            <h3>Medications</h3>
+
+			<p class="right"><img src="images/pills.jpg" alt="pills" />Doctors often prescribe
+
+              an antidepressant medication to handle
+
+              symptoms of anxiety, depression, or obsessive-compulsive
+
+              disorder. Anti-psychotic medications
+
+              are used to treat severe behavioral problems.
+
+              Seizures can be treated with one or more
+
+              of the anticonvulsant drugs. Stimulant
+
+              drugs, such as those used for children
+
+              with attention deficit disorder (ADD),
+
+              are sometimes used effectively to help
+
+              decrease impulsivity and hyperactivity. </p>
+
+            <h3>Other therapies</h3>
+
+			<p>There are a number of controversial therapies or interventions
+
+              available for autistic children, but
+
+              few, if any, are supported by scientific
+
+              studies. Parents should use caution before
+
+              adopting any of these treatments.</p>
+
+
+
+  </div>
+
+  </div>
+
+  <div id="footer"> 
+
+  	<p>All Rights Reserved.  &copy; Copyright 2013.</p>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>
+

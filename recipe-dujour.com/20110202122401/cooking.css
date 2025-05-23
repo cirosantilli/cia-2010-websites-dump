@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body {color:#000000; font-size:12px; background-color:#990000; padding:0px; margin:0px; font-family:Georgia, "Times New Roman", Times, serif;}
+#wrap {position: relative; width:1280px; height:auto; margin:0px; padding:0px;}
+#navigation {float:left; width:252px; height:904px; padding:0px; margin:0px;}
+#topwrap {float:left; width:1028px; height:904px; padding:0px; margin:0px;}
+#topportion {float:left; width:1028px; height:301px; padding:0px; margin:0px;}
+#midportion {float:left; width:1028px; height:603px; padding:0px; margin:0px;}
+#banner {float:left; width:1280px; height:119px; padding:0px; margin:0px;}
+#feed {width:599px; height:603px; padding:0px; margin:0px;}
+#feedtext {margin-top:90px; margin-left:10px; overflow:auto; width:555px; height:300px;}
+#feedtext a{font-weight:bold; color:#990000;}
+
+.scroll {
+filter: Chroma(Color=#123456); 
+overflow: auto; 
+scrollbar-face-color:#123456; 
+scrollbar-shadow-color: #123456; 
+scrollbar-highlight-color: #123456; 
+scrollbar-3dlight-color: #123456; 
+scrollbar-darkshadow-color: #123456; 
+scrollbar-track-color: #123456; 
+scrollbar-arrow-color: #000000; 
+}

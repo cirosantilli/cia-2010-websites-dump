@@ -1,0 +1,49 @@
+@charset "utf-8";
+body {margin: 0px; padding: 0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size: 12px; }
+
+#wrap { position: relative; width: 960px; height: 100% auto; margin-left: -480px; left: 50%; }
+#title { width: 960px; height:391px; margin: 0; padding: 0; float: left; }
+#contentwrap { width: 960px; height:2300px; margin: 0; padding: 0; background: url('images/back.jpg') repeat-y; float: left; }
+
+#left { width: 124px; height: 100%; margin: 0; padding: 0; float: left; }
+#middle { width: 590px; height:  100%; margin: 0; padding: 0; float: left; }
+#right { width: 246px; height: 2300px; margin: 0; padding: 0; float: left; }
+h1 {font-size: 13px; text-transform:uppercase; color: #4b6f0e; margin: 0 0 2px 0; }
+h2 {font-size: 13px; text-transform:uppercase; color: #d1ab4c; margin: 2px 0 2px 0; }
+
+ul	{list-style: none; margin: 0; padding: 5px 8px 0 2px; } /*whole list info*/
+li	{display: block;  padding: 0 0 3px 0; color:#666; margin: 0px;} /*row & description of link*/
+li a {text-decoration: none; color: #4b6f0e; font-weight: bold; } /*link*/
+li a:hover {color:#666; text-decoration: underline;}
+
+.boxsplit {width: 285px; margin: 900px; float: left;}
+.mr {margin:0 10px 0 0;}
+.ml {margin: 0 0 0 10px;}
+
+
+#menu { width: 200px; margin: 0 0 10px 20px; padding: 0; }
+#menu li a { height: 32px; height: 24px; text-decoration: none; }
+#menu li a { color: #fff; display: block; background:  url('images/menu.jpg'); padding: 8px 0 0 25px; font-weight: normal; }
+#menu li a:hover { color: #FFF; background:  url('images/menu.jpg') 0 -32px; padding: 8px 0 0 25px; }
+
+
+
+
+/**iframe content*/
+
+#textbox {width:285px; height:2300px; padding: 0px; margin: 0 ; background: #d5dfca; float: left;}
+#text {width:285px; height: 2280px; padding: 0px; margin: 0 ; float: left; overflow: auto;}/**iframe content*/
+#text ul {margin: 8px;}
+
+
+.scroll {
+	scrollbar-3dlight-color:#d5dfca;
+	scrollbar-arrow-color:#4b6f0e;
+	scrollbar-base-color:#d5dfca;
+	scrollbar-darkshadow-color:#d5dfca;
+	scrollbar-face-color:#d5dfca;
+	scrollbar-highlight-color:#d5dfca; 
+	scrollbar-shadow-color:#d5dfca;
+	}
+	
+#footer {clear:both; width: 950px; height: 20px; background-color:#fff; text-align: center; font-size: 9px;}

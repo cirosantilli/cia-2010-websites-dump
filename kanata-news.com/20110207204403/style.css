@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*Kanata News CSS Document */
+body { margin-top: 0px; margin-left: 0px; }
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #ff6600; font-weight: bold; text-decoration: none; line-height: 13px; }
+
+#wrap { float: left; width: 985px; height: 1079px; }
+#sidewrap { float: left; width: 303px; height: 1079px; }
+#sidetop { float: left; width: 303px; height: 382px; }
+#box { float: left; width: 303px; height: 300px; }
+#imgbox { float: left; width: 104px; height: 168px; }
+#imgapp { float: left; width: 199px; height: 168px; background: url(images/kanata_img_01.jpg) no-repeat; }
+#appbix { float: left; width: 303px; height: 382px; }
+#header { float: left; width: 56px; height: 67px; }
+#btnbanner { float: left; width: 682px; height: 34px; }
+#mainfeedbox { float: left; width: 682px; height: 978px; }
+
+#infoheader { float: left; width: 303px; height: 22px; background: url(images/kanata_img_sidebar_27.jpg); }
+#infobox { float: left; width: 303px; height: 269px;}
+#infofooter { float: left; width: 303px; height: 9px; }
+#appinfobox { float: left; width: 303px; height: 45px; background: url(images/kanata_img_sidebar_32.jpg) repeat-y; }
+.appbox { width: 283px; height: 41px; margin-top: 2px; margin-left: 12px; }
+#footerbar01 { float: left; width: 303px; height: 15px; background: url(images/kanata_img_bkgd_btmbar.jpg) repeat-x; }
+
+#feedheader { float: left; width: 218px; height: 173px; }
+#headerbox { float: left; width: 464px; height: 173px; }
+#newsheader { float: left; width: 464px; height: 67px; background: url(images/kanata_img_news_19.jpg) no-repeat;  }
+#feedbox { float: left; width: 490px; background: url(images/kanata_img_feedbar_29.jpg) repeat-y; }
+#fbbox { float: left; width: 490px; height: 773px; }
+#fbheader { float: left; width: 490px; height: 38px; }
+#fbimgbox { float: left; width: 490px; height: 735px; }
+#fbfooter { float: left; width: 490px; height: 15px; }
+#fbbar { float: left; width: 490px; height: 15px; background: url(images/kanata_img_bkgd_btmbar.jpg) repeat-x;  }
+
+#sidebtnbox { float: left; width: 192px; height: 803px; }
+
+.mainheader { position:absolute; width: 240px; height: 15px; padding: 10px 10px 5px 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #000; top: 125px; left: 375px; }
+.feedheader { position:absolute; width: 240px; height: 15px; padding: 5px 5px 5px 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #bf0000; top: 5px; left: 220px; z-index: 1; }
+#appheader { float: left; width: 240px; height: 15px; padding: 5px 0px 0px 90px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #bf0000; }
+
+/*- Menu Tabs 4--------------------------- */
+
+#tabs4 { float:left; width:100%; font: bold 13px Verdana; line-height:normal; }
+#tabs4 ul { margin:0; padding:8px 10px 0 50px; list-style:none; }
+#tabs4 li { display:inline; margin:0; padding:0; }
+#tabs4 a { float:left; /*background:url("images/tableft4.gif") no-repeat left top;*/ margin:0; padding:0 0 0 7px; text-decoration:none; }
+#tabs4 a span { float:left; display:block; /*background:url("images/tabright4.gif") no-repeat right top;*/ padding:5px 15px 4px 6px; color: #595959; } /* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs4 a span {float:none;}/* End IE5-Mac hack */
+#tabs4 a:hover span { color:#000; }
+#tabs4 a:hover { background-position:0% -42px; }
+#tabs4 a:hover span { background-position:100% -42px; }  
+
+.wireframemenu{ width: 190px; margin-left: 8px; margin-top: 32px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 184px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 12px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none;  }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ color: #000; }
+
+/*------------feed and links-------------*/
+.linkheader { position:absolute; width: 190px; height: 15px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #bf0000; top: 0px; left: 85px; }
+.main { position:absolute; width: 275px; height: 250px; z-index:2; overflow: auto; visibility: visible; top: 25px; left: 13px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000 }
+*html .main { position:absolute; width: 280px; height: 260px; z-index:2; overflow: auto; visibility: visible; top: 25px; left: 13px; padding: 10px 10px 0px 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000  }
+
+.mainfeed {
+	position:absolute;
+	width: 350px;
+	height: 721px;
+	z-index:2;
+	overflow: auto;
+	visibility: visible;
+	top: 45px;
+	left: 123px;
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#000000;
+	border-left: 1px dashed #CCCCCC;
+}
+*html .mainfeed { position:absolute; width: 365px; height: 731px; z-index:2; overflow: auto; visibility: visible; top: 40px; left: 120px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000; border-left: 1px dashed #CCCCCC; }
+
+.main a:link,.mainfeed a:link {  text-decoration: none; color: #bf0000;}
+.main a:visited, .mainfeed a:visited { text-decoration: none; color: #bf0000; }
+.main a:hover, .mainfeed a:hover  { text-decoration: none; color: #595959; }
+.main a:active, .mainfeed a:active { text-decoration: none; color: #bf0000; }
+.main ul, .mainfeed ul{ list-style-type: none; margin-left: 0px; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

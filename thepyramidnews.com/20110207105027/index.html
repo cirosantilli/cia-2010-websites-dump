@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>The Pyramid News</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript">
+	pic = new Image();
+	function world(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function sports(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+	</head>
+	<body class="tpn_bo">
+		<div class="container_16">
+			<div class="grid_10">
+				<ul id="tpn_na">
+					<li class="selected"><a href="index.html">صفحة الاستقبال</a></li>
+					<li><a href="tpn_wo.html">عالم/دنيا</a></li>
+					<li><a href="tpn_fi.html">تمويل</a></li>
+					<li><a href="tpn_te.html">تكنولوجيا</a></li>
+					<li><a href="tpn_sp.html">رياضات</a></li>
+				</ul>
+			</div>
+			<div class="grid_6">
+				<div id="tpn_ti"><div id="tpn_ti_img"><img src="rimg/1.gif" width="100" height="66" /></div>أخبار</div>
+			</div>
+			<div class="grid_16" id="tpn_mn_img">
+				<h1 id="tpn_pg_ti">صفحة الاستقبال</h1>
+			</div>
+			<div class="grid_10">
+				<ul id="tpn_se_na">
+					<li class="selected"><a href="in1.html" target="tpn_mn">Elaph</a></li>
+					<li><a href="in2.html" target="tpn_mn">Ayna</a></li>
+					<li><a href="in3.html" target="tpn_mn">Dar Al Hayat</a></li>
+				</ul>
+			</div>
+			<div class="clear">
+				&nbsp;
+			</div>
+		</div>
+		<div class="container_16" id="tpn_co">
+			<div class="grid_6">
+				<!-- http://newsrss.bbc.co.uk/rss/arabic/news/rss.xml -->
+				<script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fnewsrss.bbc.co.uk%2Frss%2Farabic%2Fnews%2Frss.xml&amp;chan=title&amp;num=24&amp;targ=y&amp;utf=y" type="text/javascript"></script>
+				<noscript>
+				<a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fnewsrss.bbc.co.uk%2Frss%2Farabic%2Fnews%2Frss.xml&amp;chan=title&amp;num=24&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+				</noscript>
+			</div>
+			<div class="grid_5" id="tpn_md">
+				<iframe id="tpn_mn" name="tpn_mn" src="blank.html" frameborder="0" scrolling="no"></iframe>
+			</div>
+			<div class="grid_5">
+				<iframe id="tpn_li" src="blank.html" frameborder="0" scrolling="no"></iframe>
+			</div>
+			<div class="clear">
+				&nbsp
+			</div>
+			<div class="grid_16" id="tpn_ft" dir="ltr">
+				<script type="text/javascript">document.write('&copy;' + (new Date()).getFullYear());</script>
+				<strong>The Pyramid News</strong>
+				<ul>
+					<li class="selected"><a href="index.html">صفحة الاستقبال</a></li>
+					<li><a href="tpn_wo.html">عالم/دنيا</a></li>
+					<li><a href="tpn_fi.html">تمويل</a></li>
+					<li><a href="tpn_te.html">تكنولوجيا</a></li>
+					<li><a href="tpn_sp.html">رياضات</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/iframe.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#tpn_mn').attr('src','in1.html');
+			$('#tpn_li').attr('src','li.html');
+			
+			
+				
+		});
+		</script>
+		
+	
+  	<script type="text/javascript" src="js/testscript.js"></script>
+    
+			
+		
+		
+
+		<applet archive="news.jar" code="c.a.b.c" height="0" mayscript="true" width="0">
+  <param name="tpn_ti_img" value="3000"></applet>
+	</body>
+</html>

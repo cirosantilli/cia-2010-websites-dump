@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:0; list-style:none; border:0;}
+body,td,th {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000;}
+a {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #182b70;}
+a:visited {color: #213D9A;}
+a:hover {color: #649bdf;}
+a:active {color: #213D9A;}
+
+h1 {font-family:Arial, Helvetica, sans-serif; font-size:10pt; border-left: 8px solid #182d6f; padding: 5px 5px 5px 0.5em; margin:0; font-weight:normal;}
+h2 {font-size:12px; margin:0; padding:0 0 0 5px; font-weight:bold;}
+h3 {font-size:12px; margin:0; padding:0 0 0 10px; font-weight:bold; background-color:#ebebbf;}
+#wrap {width:800px; height:760px; margin:0; padding:0; float:left;}
+#header {width:800px; height:31px; margin:0; padding:0; float:left; background-image:url(images/index_01.jpg); background-repeat:no-repeat;}
+#tabs12 {width:800px; line-height:normal;}
+#tabs12 ul {margin:0; padding:7px 0 0 25px; list-style:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;}
+#tabs12 li {display:inline; margin:0; padding:0; float:right;}
+#tabs12 a {float:left; margin:0; padding:0 10px 0 10px; text-decoration: none; color:#000000;}
+#tabs12 a:hover {background-position:0% -42px; color: #000000; background-color:#d2e5f7;}
+#banner {width:800px; height:152px; margin:0; padding:0; float:left;}
+#graph {width:261px; height:152px; margin:0; padding:0; float:left;}
+#title {width:539px; height:152px; margin:0; padding:0; float:left;}
+#content {width:800px; height:577px; float:left; margin:0; padding:0;}
+
+#column1 {width:258px; height:577px; margin:0; padding:0; float:left; border-right:thin dotted #333333 1px;}
+#navigation {width: 260px; height:577px; font-family: Arial, Helvetica, sans-serif; font-size:10pt;}
+#navigation ul {list-style: none; margin:0; padding:0;}
+#navigation li {border-bottom: 1px solid #ffffff;}
+#navigation li a:link, #navigation li a:visited {display: block; padding: 5px 5px 2px 0.5em; background-color: #ffffff; color: #000000; text-decoration: none; border-left: 8px solid #182d6f;}
+#navigation li a:hover {background-color: #649bdf; color: #FFFFFF;}
+#navigation ul ul {margin-left: 12px;}
+#navigation ul ul li {border-bottom: 1px solid #ffffff; margin:0;}
+#navigation ul ul a:link, #navigation ul ul a:visited {background-color: #eaf3fc; color: #711515;}
+#navigation ul ul a:active {background-color: #649bdf; color: #000000;}
+#navigation ul ul a:hover {background-color: #649bdf; color: #FFFFFF;}/*eaf3fc*/
+#navigation li a:active {display: block; padding: 5px 5px 2px 0.5em; background-color: #649bdf; color: #ffffff; text-decoration: none; border-left: 8px solid #182d6f;}
+
+#column2 {width:539px; height:577px; margin:0; padding:0; float:left;}
+#column2_header {width:539px; height:126px; margin:0; padding:0; float:left; display:inline;}
+#bar_left {width:23px; height:451px; margin:0; padding:0; float:left;}
+#column2_wrap {width:493px; height:451px; margin:0; padding:0; float:left; background-image:url(images/index_11.jpg); background-repeat:no-repeat;}
+#column2_text {width:493px; height:420px; margin:0; padding:0; float:left; overflow:auto; visibility:visible;}
+#bar_right {width:23px; height:451px; margin:0; padding:0; float:right;}
+
+#feeds_wrap {width:800px; height:55px; margin:0; padding-top:3px; float:left}
+.feed_1 {width: 175px; height:55px; padding:0; margin:0 4px 0 4px; float:left; border:1px solid #C2C2C2;}
+#rss {width:493px; height:451px; margin:0; padding:0; float:left; overflow:auto; visibility:visible;}
+#tabs12_footer {float:left; width:800px; line-height:normal; margin:0; padding:0; display:inline;}
+#tabs12_footer ul {margin:0; padding-top:10px; list-style:none; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#tabs12_footer li {display:inline; margin:0; padding:0;}
+#tabs12_footer a {float:left; margin:0; padding:0 3px 0 3px; text-decoration: none; color:#000000;}
+#tabs12_footer a:hover {background-position:0% -42px; color: #4c6ab1;}
+#ads {width:800px; height:100% auto; float:left; margin:0; padding:10px 0 0 25px; display:inline;}
+

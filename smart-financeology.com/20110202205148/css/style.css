@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin: 0; padding: 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color: #24377f;}
+#wrap {position: relative; width:1020px; height:100% auto; margin-left: -510px; left: 50%;  }
+#title {width: 1020px; height: 36px; margin: 0; padding: 0; background: #0b1244; float: left; }
+#r-images {width: 180px; height: 36px;  margin: 0 0 0 840px; padding: 0;  color: #fff; float: left;}
+#banner {width: 1020px; height: 304px; margin: 0; padding: 0; float: left; background: url('../images/banner.jpg') no-repeat;}
+#framecontainer {width: 1020px; height: 100% auto; margin: 0; padding: 0; float: left; }
+#mainwrap {width: 1020px; height: 100% auto; margin: 0; padding: 0; float: left; background: url('../images/back.gif') repeat-y;}
+#main {width: 960px; height: 100% auto; margin:0 30px 0 30px ; padding: 0; float: left;}
+
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color: #999; font-weight:normal;} /*row & description of link*/
+li a {text-decoration: none; color: #9dc611; font-weight: bold; padding: 0px; margin: 0px;  } /*link*/
+li a:hover {color:#666; text-decoration: underline;}
+
+#clock {
+	position: absolute;
+	top: 312px;
+	height: 20px;
+	left: 766px;
+	width: 220px;
+}
+.white {color: #fff;}
+.white a{color: #fff; }
+.white li {margin: 5px 0;}
+
+.cityname{color: #336699; }
+#todaydate{float: right; color:#666; padding-right: 5px;}
+
+#navl { position: absolute; top: 87px; height: 167px; left: 45px; }
+#navr { position: absolute; top: 89px; height: 167px; left: 768px; }
+.nav ul {display: none; margin: 0; padding: 0;}
+.nav li {display: block; margin: 10px 0; padding: 0; }
+.nav li a {text-decoration: none; color: #fff;}
+.nav li a:hover {color:#666;}
+
+
+h1 {font-size: 14px; margin: 0px 0; padding: 0 0 3px 3px; color: #293f8b;}
+h2 {font-size: 14px; margin: 0px 0; padding: 0 0 2px 2px; color: #fff;}
+.box{ margin: 0px 0px 20px 0px; padding: 0px; }
+.brdr{border: 1px solid #ccc; padding: 0px;}
+.green {background-color: #a3cd13;}
+
+.floatl {float: left;}
+.floatr {float: right;}
+
+.m {margin: 10px;}
+.ml {margin: 0 0 0 10px;}
+.mr {margin: 0 10px 0 0;}
+.mlr {margin: 0 10px;}
+.mtb {margin: 10px 0;}
+.m2 {margin: 10px 20px 10px 0px;}
+.m3 {margin: 10px 0px 10px 20px;}
+
+.box2_1 {width: 40px; padding: 0; _display: inline;}
+.box2_2 {width:100px; padding: 0; _display: inline;}
+.box2_3 {width:160px; padding: 0; _display: inline;}
+.box2_4 {width:220px; padding: 0; _display: inline;}
+.box2_5 {width:280px; padding: 0; _display: inline;}
+.box2_6 {width:340px; padding: 0; _display: inline;}
+.box2_7 {width:400px; padding: 0; _display: inline;}
+.box2_8 {width:460px; padding: 0; _display: inline;}
+.box2_9 {width:520px; padding: 0; _display: inline;}
+.box2_10 {width:580px; padding: 0; _display: inline;}
+.box2_11 {width:640px; padding: 0; _display: inline;}
+.box2_12 {width:700px; padding: 0; _display: inline;}
+.box2_13 {width:760px; padding: 0; _display: inline;}
+.box2_14 {width:820px; padding: 0; _display: inline;}
+.box2_15 {width:880px; padding: 0; _display: inline;}
+.box2_16 {width:940px; padding: 0; _display: inline;}
+
+
+#menu li a{color: #fff;}
+
+.ads li {margin: 6px;}
+#footer {clear: both; width: 1020px; height: 36px; margin: 0; padding: 8px 0; background: #0b1244; text-align: center; font-size: 10px; color:#fff; }

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+
+body {margin-top: 0px;}
+ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:0; list-style:none; border:0;}
+h1 {font-size: 11pt; color: #660; margin:0; padding:6px 0 0 3px;}
+h2 {font-size: 11pt; color: #cc9933; margin:0; padding:0 0 5px 20px;}
+body,td,th {font-family: Times New Roman, Times, serif; font-size: 11pt;}
+a {font-family: Times New Roman, Times, serif; font-size: 11pt; color: #660;}
+a:link {color: #036;}
+a:visited {color: #7b8fa3;}
+a:hover {color: #660;}
+a:active {color: #7b8fa3;}
+
+#wrap {width:900px; height:800px;}
+#banner {width:900px; height:123px; float:left; margin:0; padding:0; display:inline;}
+#image1 {width:900px; height:26px; float:left; margin:0; padding:0;}
+#menu_bar {width:900px; height:31px; float:left; margin:0; padding:0; background-image:url(images/index_10.jpg); background-repeat:no-repeat;}
+#tabs3 {float:left; width:900px; line-height:normal;}
+#tabs3 ul {margin:0; padding:10px 10px 0 20px; list-style:none;}
+#tabs3 li {display:inline; margin:0; padding:0;}
+#tabs3 a {float:left; background:url("images/tableft3.gif") no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none;}
+#tabs3 a span {float:left; display:block; background:url("images/tabright3.gif") no-repeat right top; padding:2px 10px 0 6px; color:#FFF;}  
+/*#tabs3 a span {float:none;}  Commented Backslash Hack hides rule from IE5-Mac \*/
+/*#tabs3 a:hover span {color:#FFF;}     End IE5-Mac hack */
+#tabs3 a:hover {background-position:0% -42px;}
+#tabs3 a:hover span {background-position:100% -42px;} 
+
+#image2 {width:900px; height:25px; float:left; margin:0; padding:0;}
+#content {width:900px; height:595px; float:left; margin:0; padding:0;}
+#column1 {width:213px; height:595px; float:left; margin:0; padding:0;}
+#col1_bg {width:205px; height:595px; float:right; margin:0; padding:0; background-image: url(images/index_13.jpg); background-repeat:no-repeat;}
+#menu8 {width: 200px; margin:0;}
+#menu8 li a {text-decoration: none;	height: 28px; voice-family: "\"}\""; voice-family: inherit; height: 22px;}
+#menu8 li a:link {color: #000; display: block; padding: 8px 0 0 17px;}
+#menu8 li a:visited {color: #000; display: block; padding: 8px 0 0 17px;}
+#menu8 li a:hover {color:#a8b0a3; padding: 8px 0 0 17px;}
+#menu8 li a:active {color:#006699; padding: 8px 0 0 17px;}
+	
+#column2 {width:421px; height:595px; float:left; margin:0; padding:0;}
+#col2_bg {width:421px; height:595px; float:left; margin:0; padding:0; background-image:url(images/index_14.jpg); background-repeat:no-repeat;}
+#col2_text {width:415px; height:575px; float:left; margin:0; padding:0 0 0 5px; overflow:auto; visibility:visible;}
+#rss {width:415px; height:590px; float:left; margin:0; padding:0 0 0 5px; overflow:auto; visibility:visible;}
+
+#column3 {width:266px; height:595px; float:right; margin:0; padding:0;}
+#col3_img {width:266px; height:26px; float:right; margin:0; padding:0;}
+#col3_bg {width:255px; height:569px; float:right; margin:0; padding:0; background-image:url(images/index_16.jpg); background-repeat:no-repeat;}
+#col3_text {width:245px; height:550px; float:left; margin:0; padding:0 3px 0 3px; overflow:auto; visibility:visible;}
+
+#ads {width:900px; height:auto; margin:10px 0 0 0; padding:0; float:left;}
+.copyright {width:900px; height:15px; float:left; font-size:12px; color: #ffffff; text-align:center; margin:0; padding:5px 0 0 0; background-color:#000;} 
+.login {font-size:10px; color: #990000; margin-top:20px;} 

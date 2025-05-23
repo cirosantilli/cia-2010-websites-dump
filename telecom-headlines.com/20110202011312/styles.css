@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color:#333; font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;  line-height: 1.3; background: #21486C;}
+
+#wrap{position: relative; float: left; width: 900px; height: 100% auto; margin: 0 auto; padding: 0px; background: url(images/index_07.jpg) repeat-y; }
+
+#header{float: left; width: 900px; height: 137px;}
+
+ul{margin: 0px; padding: 0px;list-style: none;}
+ul li{margin: 0px; padding: 5px 0px; display: block;  }
+ol li{margin: 0px; padding: 3px 0px; display: block;}
+
+h1{color:#003366; font-size: 16px; margin:30px 0px 0px 10px; padding: 0px; }
+
+h2{color: #99cc00; font-size: 12px; margin:10px 0px 0px 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+h3{color:#0099CC; font-size: 12px; margin:10px 0px 0px 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+#header li{display: inline; padding: 0px;}
+
+a{color: #0099cc; font-weight: bold; text-decoration: none;}
+a:hover{color: #FF9900;}
+
+
+#sidebar{clear: both; float: left; width: 256px; height: 100% auto; margin: 0px; padding: 0px; }
+.bk1{width: 256px; height: 287px; margin: 0px; padding: 0px; background: url(images/index_05.jpg) top no-repeat;}
+
+#nav{width: 200px; margin-top: 120px; margin-bottom: 30px; border: 1px solid #ccc; border-bottom: 1px solid #999; border-right: 1px solid #999;}
+#nav li{border-bottom: 1px solid #eee; padding: 8px 5px;}
+#nav li a{color: #0099cc;}
+#nav li a:hover{color: #99cc00;}
+#nav li#active{background: #99cc00;}
+#nav li#active a:hover{color: #0099cc;}
+#nav li a.selected{color: #FFF;}
+
+#main{float: left; width: 644px; height: 100% auto; margin: 0px; padding: 0px; }
+.bk2{ margin: 0px; padding: 0px; background: url(images/index_06.jpg) top no-repeat;}
+#main li a{color:#ff9900;}
+#main li a:hover{color: #99CC00;}
+#main li img{padding-right: 10px;}
+#associations li{font-size: 10px; padding: 2px 0px;}
+#associations a, #associations2 a{font-weight: normal;}
+ul.adlinks li {text-align: center; padding: 15px 0px;}
+
+.col1{float: left; padding: 30px 10px; width: 210px;}
+.col2{float: left; padding: 50px 10px 20px 10px; width: 210px;}
+.col3{float: left; padding: 50px 10px 20px 10px; width: 140px;}
+.maincol{float: left; margin: 20px 10px; width: 600px;}
+.halfcol1{float: left; margin: 20px 10px; width: 275px;}
+.halfcol2{float: left; margin: 50px 10px; width: 275px;}
+.blue{color: #3399CC;}
+#magad1, #magad2{margin: 20px 0px; text-align: center;}
+
+.rss-title {font-size: 12px; color:#0099FF;   }
+.rss-item{margin: 5px 0px 2px 0px; }
+#sidebar p{padding: 0px; margin: 0px;}
+.sidepad{ margin-left: 30px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; }
+#sidebar img{padding-right: 10px;}
+.box{padding: 5px; border: 1px dotted #99cc00; margin-bottom: 20px;}
+.clearfloat{clear:both; height: 0px; font-size: 1px; line-height: 0px;}
+
+#footer, #ads{clear: both; float: left; width: 900px; height: 100% auto; padding: 20px 0px; text-align: center; background: url(images/index_07.jpg) repeat-y;}
+#ads p{padding-left: 100px;}

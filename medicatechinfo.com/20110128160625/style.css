@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0; background:url(images/medtech-img-bkgd.jpg) repeat-x;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #83141b; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {float:left; width:975px; height:auto; }
+#topbar {float:left; width:975px; height:5px; }
+#nav {float:left; width:975px; height:42px; margin:0; padding:0; }
+#header {float:left; width:975px; height:auto; }
+#col-feed {float:left; width:362px; height:1000px; }
+#center-col {float:left; width:145px; height:1000px; }
+#imgapp {float:left; width:145px; height:105px; background:url(images/medtech-img_19.jpg) no-repeat; }
+#info-col {float:left; width:468px; height:1000px; }
+#btn-col {float:left; width:146px; height:1000px; background:url(images/medtech-img_17.jpg) no-repeat; }
+#btn-col ul {list-style: none;margin: 40px 5px 0 5px;padding: 0; line-height:22px;}
+#links-col {float:left; width:322px; height:1000px; }
+#linksbox {float:left; width:225px; height: auto; border: double 3px #ebcecf; margin:45px 0 0 25px; }
+#linksbox img {margin:15px 0 0 10px;}
+h1 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#83141b; line-height:22px; margin: 0; padding: 5px 5px 5px 15px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+*html h1 { width:349px;}
+
+
+#infofeed {float:left; width:355px; height:946px; overflow: auto; visibility: visible; /*border: solid 1px #ebcecf;*/ margin: 0 0 0 5px;}
+*html #infofeed {width:355px; height:948px;}
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#aa0b15; line-height:33px; margin: 0; padding: 5px 5px 5px 8px; height:auto; width:auto; /*background-color:#3b433a;*/border-bottom: double 3px #ebcecf; }
+
+
+/* ---------------------- Redslate nav ---------------------- */
+.red #slatenav{position:relative;display:block;height:42px;font-size:11px;font-weight:bold;font-family:Arial,Verdana,Helvitica,sans-serif;text-transform:uppercase; margin:0 0 0 20px;}
+.red #slatenav ul{margin:0px;padding:0;list-style-type:none;width:auto;}
+.red #slatenav ul li{display:block;float:left;margin:0 1px 0 0;}
+.red #slatenav ul li a{display:block;float:left;color:#FECCC3;text-decoration:none;padding:14px 22px 0 22px;height:42px;}
+.red #slatenav ul li a:hover,.red #slatenav ul li a.current{color:#fff;background:transparent url(images/redslate_backgroundOVER.gif) no-repeat top center;}
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

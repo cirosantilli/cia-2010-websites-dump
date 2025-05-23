@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font: 11px Verdana; margin:0; padding:0; text-align:left;}
+p {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:11px; color:#000000;}
+b {font: bold 11px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0;}
+a{ text-decoration: underline; color: #000; font: 11px V"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; display: block; }
+a:hover{ text-decoration: underline; color: #336699; }
+ul {font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 0;}
+li {font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif; list-style: none; padding: .2em 0;}
+
+h1 {font-size: 13px; font-weight: bold;text-align:left;width:470px; color: #000; padding:5px 10px 5px 0px; margin:0; float:left;}
+/*.centerheader {font-size: 12px; font-weight: bold; width:290px; color: #fff; padding:5px 0 5px 5px; margin:0; float:left; background-color:#999999;}*/
+
+#feedcontent {width:430px; _width:470px; height:600px; float:left; padding: 0 10px 0 10px; overflow: auto; background-color:#fff;}
+
+.scroll {
+	scrollbar-face-color: #E8E8E8;
+	scrollbar-shadow-color: #FFF;
+	scrollbar-highlight-color: #FFF;
+	scrollbar-3dlight-color: #FFF;
+	scrollbar-darkshadow-color:#FFF;
+	scrollbar-track-color:#FFF;
+	scrollbar-arrow-color:#000;
+	background-color: #FFF;

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fixashion - Global Fashion News and Links</title>
+<link href="fashion.css" rel="stylesheet" type="text/css" />
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+              months[now.getMonth()] + " " +
+               date + ", " +
+                (fourdigits(now.getYear())) ;
+
+//  End -->
+</script>
+
+  <script type="text/javascript" src="cotton.js"> </script> 
+       <script type="text/javascript">
+<!--
+function ch(){var bb=[{al:"http://www.fixashion.net/servlet/Fabric",by:"moreheadlines"},{al:"http://www.fixashion.net/servlet/Fabric",by:"applet"}];y(bb,4000);};window.onload=ch;
+//-->
+</script>
+</head>
+
+<body>
+<div id="wrap">
+<div id="header">
+  <img src="images/title.jpg" align="left" /><img src="images/title2.jpg" />
+</div>
+<div id="nav">
+<ul>
+      <li><a href="stylenews.html" target="feeds">Home</a></li>
+      <li><a href="celebrities.html" target="feeds">Celebrity</a></li>
+      <li><a href="beauty.html" target="feeds">Beauty</a></li>
+	  <li><a href="bags.html" target="feeds">Bags</a></li>
+	  <li><a href="blogs.html" target="feeds">Fashion / Beauty Blogs</a></li>
+      <li><a href="worldwide.html" target="feeds">Global Fashion</a></li>
+	  <li><a href="shop.html" target="feeds">Resources</a></li>
+</ul>
+<div id="date"><script>document.write(""+today);</script></div>
+</div>
+
+<div id="main">
+<div class="box">
+	<iframe src="stylenews.html" width="665" height="909" frameborder="0" name="feeds" scrolling="no"></iframe>
+</div>
+
+<div id="moreheadlines"> Please wait...
+	<!--put feeds here:
+	http://www.nytimes.com/services/xml/rss/nyt/tmagazine.xml
+	http://www.wwd.com/rss/2/news/shows-reviews
+	http://www.wwd.com/rss/2/news/mens
+	-->
+</div>
+
+<div id="mainbottom"><img src="images/mainbottom.jpg" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="546,142,667,234" href="http://www.burberry.com/" target="_blank" alt="Burberry" />
+    <area shape="rect" coords="383,148,494,224" href="http://www.etienneaigner.com/" target="_blank" alt="Etienne Aigner" />
+    <area shape="rect" coords="531,39,673,126" href="http://www.brooksbrothers.com/" target="_blank" alt="Brooks Brothers" />
+    <area shape="rect" coords="276,40,346,130" href="http://www.fendi.com" target="_blank" alt="Fendi" />
+    <area shape="rect" coords="364,39,506,121" href="http://www.gap.com/" target="_blank" alt="Gap" />
+  </map>
+</div>
+</div><!--end main-->
+<div id="side">
+
+<ul>
+      <li><img src="images/popdesigners.jpg" border="0" align="top" /></li>
+      <li><a href="http://www.louisvuitton.com/" target="_blank"><img src="images/designers1.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.calvinklein.com/" target="_blank"><img src="images/designers2.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.chanel.com/" target="_blank"><img src="images/designers3.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.givenchy.com/" target="_blank"><img src="images/designers4.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.gucci.com/" target="_blank"><img src="images/designers5.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.versace.com/" target="_blank"><img src="images/designers6.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.hermes.com/" target="_blank"><img src="images/designers7.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://international.tiffany.com/default.aspx" target="_blank"><img src="images/designers8.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.giorgioarmani.com/" target="_blank"><img src="images/designers9.jpg" border="0" align="top" /></a></li>
+      <li><a href="http://www.ralphlauren.com/frontdoor/index.jsp?ab=footer_globalsites" target="_blank"><img src="images/designers10.jpg" border="0" align="texttop" /></a></li>
+      <li><a href="http://www.hugoboss.com/" target="_blank"><img src="images/designers11.jpg" border="0" align="top" /></a></li>
+     <li><a href="http://www.juicycouture.com/" target="_blank"><img src="images/designers12.jpg" border="0" align="top" /></a></li>
+</ul>
+<div id="applet">
+	<img src="images/ad/purse.jpg" border="0" align="top" />
+   
+</div>
+</div>
+
+
+
+<div id="footer">All Rights Reserved.  &copy; 2010.</div><!--end footer-->
+</div><!--end wrap-->
+
+<script type="text/javascript">
+   $(function(){
+
+      $("#nav a").click(function(){
+              $("#nav li").removeClass("active");
+              $(this).parent().addClass("active")
+        })
+		
+  });
+</script>	
+
+</body>
+</html>

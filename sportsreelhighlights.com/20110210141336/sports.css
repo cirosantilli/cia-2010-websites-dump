@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#FFF; font-size:14px;} /*row & description of link*/
+li a {text-decoration: none; color: #3b5ba1; font-size:16px; font-weight:bold;} /*link*/
+li a:hover {color:#3b5ba1; text-decoration: underline;}
+
+
+
+#wrap {float:left; width:850px; height:930px;}
+
+#header {float:left; width:850px; height:252px;}
+
+#nav {float:left; width:850px; height:42px; background:url(images/sports_16.jpg) no-repeat;}
+
+#capsul {float:left; width:850px; height:606px;}
+
+#col-1 {float:left; width:400px; height:606px; background:url(images/sports_17.jpg) no-repeat;}
+#col-1-text {float:left; width:380px; height:576px; margin:10px 0 0 15px; overflow:auto; visibility:visible; display:inline;}
+
+#col-1 ul {list-style: none; margin: 0; padding: 0;} /*whole list info*/
+#col-1 li {display: block;  padding: 0px; margin: 0px; color:#807cac; } /*row & description of link*/
+#col-1 li a{text-decoration: none; color: #3b5ba1; font-weight:none;} /*link*/
+#col-1 li a:hover {color:#3b5ba1; text-decoration: underline;}
+
+#col-2-whole {float:left; width:150px; height:606px;}
+#col-2-top {float:left; width:150px; height:476px;}
+#col-2-mid {float:left; width:150px; height:121px; background:url(images/sports_24.jpg) no-repeat;}
+#col-2-bottom {float:left; width:150px; height:9px; background:url(images/sports_25.jpg) no-repeat;}
+
+#col-3-whole {float:left; width:300px; height:606px;}
+#col-3-top {float:left; width:300px; height:164px;}
+#col-3-mid {float:left; width:300px; height:442px; background:url(images/sports_21.jpg) no-repeat;}
+#col-3-text {float:left; width:270px; height:412px; margin:10px 0 0 10px; display:inline; overflow:auto; visibility:visible;}
+
+
+
+
+    #tabs1 {
+      float:left;
+      width:100%;
+      font-size:16px;
+      line-height:normal;
+      }
+    #tabs1 ul {
+	  margin:0;
+	  padding:5px 10px 0 40px;
+	  list-style:none;
+      }
+    #tabs1 li {
+      display:inline;
+      margin:0;
+      padding:0;
+
+      }
+    #tabs1 a {
+      float:left;
+      margin:0;
+      padding:0 0 0 35px;
+      text-decoration:none;
+	  
+      }
+    #tabs1 a span {
+      float:left;
+      display:block;
+      padding:5px 15px 4px 6px;
+      	  color:#9593ab;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs1 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#18144a;
+      }
+    #tabs1 a:hover {
+      background-position:0% -42px;
+	  color:#18144a; text-decoration:underline;
+      }
+    #tabs1 a:hover span {
+      background-position:100% -42px;
+	  	  color:#18144a; text-decoration:underline;
+      }
+
+.rss-item a {font-weight:700;}
+
+.rss-item {font-weight:normal;}

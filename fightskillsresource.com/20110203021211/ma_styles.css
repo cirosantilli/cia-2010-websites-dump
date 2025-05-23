@@ -1,0 +1,90 @@
+charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; font-size: 14px;  background: #ccc; text-align: left;}
+
+
+
+#wrap{width: 960px; height: 100% auto; margin:0 auto; background: #fff url(images/bkgrnd.jpg) repeat-y;}
+
+#header{float: left; width: 960px; height: 122px; margin: 0px; padding: 0px;}
+
+#main{float: left; width: 960px; height: 100% auto;  margin: 0px; padding: 0px; background: #fff url(images/main.jpg) top no-repeat; min-height: 294px; text-align: left;}
+#feature{float: left; width: 960px; height: 317px;  margin: 0px; padding: 0px; background: url(images/feature.jpg) no-repeat; min-height: 278px; text-align: left;}
+
+.linklist {float: left; margin: 0px; padding: 0px; min-height: 200px; text-align: left;}
+
+ul{margin: 0px; padding: 0px; list-style: none;}
+li{ display: block; margin: 0px; padding: 3px 0px;}
+
+img{border: none;}
+a{font-weight: bold;}
+a:link, a:visited, a:visited{ color: #669900; text-decoration: none;  }
+a:hover{ color: #000; text-decoration: none;}
+a.external {
+    background: url(/images/extlink.jpg) center right no-repeat;
+    padding-right: 5px;
+}
+
+
+
+
+h1{font-size: 24px; margin: 0px; padding: 0px; color: #333; font-weight: bold;  font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif;}
+h2{color: #ffcc00; margin: 0px; padding: 0px; font-size: 24px; font-weight: normal;  font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; }
+#feature h2{color: #000;}
+
+h3, .rss-title{font-size: 16px; margin: 0px; padding: 0px; color: #3399CC; font-weight: normal;font-family: Georgia, "Times New Roman", Times, serif;}
+h4{font-size: 9px; color: #ccc; font-weight: normal;font-family: Georgia, "Times New Roman", Times, serif;}
+
+#nav{float: left; width: 100% auto; height: 100% auto; background: #000;}
+#nav ul{width: 940px; margin: 5px 10px 0px 10px; }
+#nav ul li{display: inline;padding: 5px 10px; }
+#nav ul li a{color: #669900; font-size: 14px;}
+#nav ul li a:hover{color: #ffcc00;}
+#nav ul li a:active, #nav ul li a#focus{color: #3399CC;}
+
+
+#footer{clear: both; width: 960px; height: 206px; margin: 0px; padding: 0px; text-align: center; font-size: 11px; background: url(images/btm.jpg) no-repeat;}
+
+#footer li{display: inline; padding: 5px 8px;}
+
+#content{float: left; width: 440px; height: 100% auto; margin-right: 10px;  margin-top: 15px; font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; !important font-size: 12px; !important }
+
+
+
+#typenav{width: 100% auto; height: 100% auto;}
+#typenav ul{width: 100% auto; margin: 5px 0px; }
+#typenav ul li{display: inline; padding: 5px 8px 2px 8px;}
+#typenav ul li a{color: #669900; font-size: 14px;}
+#typenav ul li a:hover{color: #ffcc00;}
+#typenav ul li a:active, #typenav ul li a#focus{color: #3399CC;}
+
+#typearea{float: left; width: 920px; height: 100% auto; margin: 10px;}
+
+#footer ul{margin-left: 20px; width: 900px;}
+#ad1{float: left; width: 150px; height: 150px; margin: 10px;}
+#ad2{float: left; width: 125px; height: 125px;  margin: 10px;}
+
+
+.imgcenter{text-align: center;}
+.clearfloat { clear:both;   height:0;    font-size: 1px;    line-height: 0px;} 
+.col1{float: left; width: 280px; margin: 50px 5px 10px 20px; }
+.col2{float: left; width: 280px; margin: 50px 10px 10px 15px; }
+.col3{float: right; width: 280px; margin: 50px 30px 10px 5px; }
+
+.topline{margin-top: 15px;}
+.half1{float: left; width: 450px; height: 100% auto; margin-left: 10px; margin-top: 0px; font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; !important font-size: 12px; !important }
+
+.half2{float: right; width: 450px;  margin-right: 10px; margin-top: 0px;}
+.box{padding: 5px; margin-bottom: 10px; border: 1px solid #ccc;}
+
+tr, td, p{font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; !important font-size: 12px; !important }
+
+.half3{float: left; width: 440px; height: 100% auto; margin-left: 10px; margin-top: 5px; font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; !important font-size: 12px; !important }
+
+.half4{float: right; width: 440px;  margin-right: 10px; margin-top: 5px;}
+.box{padding: 5px; margin-bottom: 10px; border: 1px solid #ccc;}
+
+.padimg{padding-right: 10px;} /* pad right side image so indented */
+
+.subpg{background: #fff url(images/bkgrnd.jpg) repeat-y;

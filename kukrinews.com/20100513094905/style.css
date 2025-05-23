@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-family: Verdana; }
+
+#wrap { margin: auto; padding: 0; position: relative; width: 900px; }
+
+#header { float: left; width: 900px; }
+
+#left_frame { float: left; width: 500px; height: 100%; margin: 0px; padding: 0; color: #CCC; }
+
+.gfc-control { padding: 5px; font-size: 12px; }
+
+#center_frame { float: left; width: 175px; height: 100%; margin: 0px; padding: 0; color: #CCC; }
+
+#center_frame img { padding: 3px; border: none; }
+
+#center_frame img.small_img { padding: 3px 0 3px 10px; border: none; }
+
+#right_frame { float: left; width: 225px; height: 100%; margin: 0px; padding: 0; color: #CCC; }
+
+#right_frame h3 { font-size: 12px; margin: 5px; }
+
+#right_frame ul { padding: 0; margin: 0; list-style: none; }
+
+#right_frame li { padding: 5px; font-size: 11px; }
+
+#clear { clear: both; height: 1px; }
+
+#footer { width: 900px; background-color: #ac1414; height: 25px; }
+
+#footer p { color: #FFF; font-size: 11px; margin: 5px 0 3px 380px; padding: 0;}
+
+#login { width: 900px; background-color: #FFF; height: 75px; }
+

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*Cetus Delph CSS Document */
+body { margin-left: 0px; margin-top: 0px; background-color: #000000; background-image: url(images/cetus_img_bkgd.jpg); background-repeat: repeat-x; }
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #000099; font-weight: bold; }
+/*links*/
+a { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FF9900; font-weight: bold; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; color: #FFFF33; }
+a:hover { text-decoration: none; color: #FFCC00; }
+a:active { text-decoration: none; color: #FFFF33; }
+#wrap { float: left; width: 975px; height: 100%; }
+#top { float: left; width: 975px; height: 163px; } 
+#tleft { float: left; width: 681px; height: 163px; } #tleftimg01 { float: left; width: 352px; height: 105px; background-image: url(images/cetus_img_01.jpg); } #tleftimg02 { float: left; width: 329px; height: 105px; background-image: url(images/cetus_img_02.jpg); } #tleftimg03 { float: left; width: 681px; height: 58px; background-image: url(images/cetus_img_05.jpg); }
+#tright { float: left; width: 294px; height: 163px; } #trightimg01 { float: left; width: 265px; height: 163px; background-image: url(images/cetus_img_03.jpg); } #trightimg02 { float: left; width: 29px; height: 163px; background-image: url(images/cetus_img_04.jpg); }
+#leftbar { float: left; width: 35px; height: 837px; } #lbarimg01 { float: left; width: 35px; height: 385px; background-image: url(images/cetus_img_06.jpg); } #lbarimg02 { float: left; width: 35px; height: 335px; background-image: url(images/cetus_img_11.jpg); } #lbarimg03 { float: left; width: 35px; height: 117px; background-image: url(images/cetus_img_16.jpg); } 
+#main { float: left; width: 608px; height: 1060px; } #mainfeed { float: left; width: 608px; height: 720px; } #mainimg { float: left; width: 608px; height: 60px; background-image: url(images/cetus_img_17.jpg); background-repeat: no-repeat; } #mainbox { float: left; width: 608px; height: 300px; } #linkbox02 { float: left; width: 568px; padding: 10px 10px 10px 10px; } #mlbox { float: left; width: 13px; height: 300px; background-image: url(images/cetus_logo_img_01.jpg); } #mcbox { float: left; width: 582px; height: 300px; background-image: url(images/cetus_logo_img_03.jpg); background-repeat: repeat-x; } #mrbox { float: left; width: 13px; height: 300px; background-image: url(images/cetus_logo_img_05.jpg); } .mbox { position: absolute; left: 43px; top: 897px; width: 582px; height: 31px; border: medium #cc6600 inset; background-color: #66FFFF; } #mboximg { float: left; width: 152px; height: 31px; background-image: url(images/cetus_img_feed_01_01.jpg); } #newsfeed01 { float: left; width: 430px; height: 31px; }
+#right { float: left; width: 332px; height: 837px; }
+#centerbar { float: left; width: 38px; height: 824px; } #cbarimg01 { float: left; width: 38px; height: 385px; background-image: url(images/cetus_img_08.jpg); } #cbarimg02 { float: left; width: 38px; height: 335px; background-image: url(images/cetus_img_12.jpg); } #cbarimg03 { float: left; width: 38px; height: 104px; background-image: url(images/cetus_img_18.jpg); }
+#smallfeed { float: left; width: 265px; height: 824px; } #sfeedbox01 { float: left; width: 265px; height: 385px; } #sfeedimg { float: left; width: 265px; height: 22px; background-image: url(images/cetus_img_13.jpg); } #sfeedbox02 { float: left; width: 265px; height: 417px; }
+#linkbox { float: left; width: 235px; padding: 10px 10px 10px 10px; }
+#rightbar { float: left; width: 29px; height: 824px; } #rbarimg01 { float: left; width: 29px; height: 385px; background-image: url(images/cetus_img_10.jpg); } #rbarimg02 { float: left; width: 29px; height: 335px; background-image: url(images/cetus_img_14.jpg); } #rbarimg03 { float: left; width: 29px; height: 104px; background-image: url(images/cetus_img_19.jpg); }
+#footer { float: left; width: 332px; height: 13px; background-image: url(images/cetus_img_21.jpg); background-repeat: no-repeat; }
+.mbox01 { position: absolute; left: 673px; top: 1005px; width: 265px; height: 70px; border: medium #cc6600 inset; background-color: #66FFFF; } #mboximg01 { float: left; width: 265px; height: 34px; background-image: url(images/cetus_img_feed_02_01.jpg); } #newsfeed02 { float: left; width: 265px; height: 36px; }
+/*btn*/
+#tabs5 { float:left; width:100%; font-size:93%; line-height:normal; }
+#tabs5 ul { margin:0px; padding:26px 10px 0 45px; list-style:none; }
+#tabs5 li { display:inline; margin:0px; padding:0px; }
+#tabs5 a { float:left; background:url("images/tableft5_02.gif") no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none; }
+#tabs5 a span { float:left; display:block; background:url("images/tabright5_02.gif") no-repeat right top; padding:5px 15px 4px 6px; color:#000; }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs5 a span {float:none;}
+/* End IE5-Mac hack */
+#tabs5 a:hover span { color:#FFF;}
+#tabs5 a:hover { background-position:0% -42px; }
+#tabs5 a:hover span { background-position:100% -42px;} 
+#tabs10 { float:left; width:100%; font-size:93%; line-height:normal; background-image: url(images/cetus_btn_bkgd.jpg); background-repeat: repeat-x; }
+#tabs10 ul { margin:0; padding:0px 0px 0 0px; list-style:none;}
+#tabs10 li { display:inline; margin:0; padding:0; }
+#tabs10 a { float:left; background:url("images/tableft10.gif") no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none; }
+#tabs10 a span { float:left; display:block; background:url("images/tabright10.gif") no-repeat right top; padding:5px 15px 4px 6px; color:#FFF; }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs10 a span {float:none;}
+/* End IE5-Mac hack */
+#tabs10 a:hover { background-position:0% -42px; }
+#tabs10 a:hover span { background-position:100% -42px;}

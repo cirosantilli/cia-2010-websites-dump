@@ -1,0 +1,213 @@
+/***********************************************/
+/* define <body> tag                           */
+/***********************************************/
+
+body {
+	background-color:#666;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #eee;
+	font-size:12px;
+}
+
+/***********************************************/
+/* define h1 tags                              */
+/***********************************************/
+
+h1 {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #FF331C;
+}
+
+h4 {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FF331C;
+	padding-left:10px;
+}
+
+/***********************************************/
+/* define <p> & <li> tags                     */
+/***********************************************/
+
+p, li {
+	font-size: 12px;
+	color:#FFF;
+	margin:0;
+	padding:0;
+}
+
+/***********************************************/
+/* define <a> tag                              */
+/***********************************************/
+
+a:link {
+	text-decoration: none;
+	color: #FC6;
+	font-size: 12px;
+}
+a:visited {
+	text-decoration: none;
+	color: #FC6;
+}
+a:hover {
+	text-decoration: underline;
+	color: #F30;
+}
+a:active {
+	text-decoration: none;
+	color: #FC0;
+}
+
+/***********************************************/
+/* define class tags                           */
+/***********************************************/
+
+.link {
+	font-size: 12px;
+	font-weight: normal;
+	color: #F90;
+	line-height: normal;
+	text-decoration: none;
+	}
+
+.txt {
+	font-size: 12px;
+	font-weight: normal;
+	color: #CCC;
+	line-height: normal;
+	text-decoration: none;
+}
+
+#title01{
+	FONT-SIZE: 26px;
+	color: #E2E4E1;
+	font-weight: bolder;
+	text-transform: capitalize;
+	text-decoration: none;
+	background-color:#323232;
+}
+#title02{
+	FONT-SIZE: 20px;
+	color: #F30;
+	font-weight: bolder;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+#content01 {
+	background-color:#323232;
+}
+#rollingImg {
+	padding-top:10px;
+}
+
+.tinyfont {
+	FONT-SIZE: 10px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.mediumfont {
+	FONT-SIZE: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.largefont {
+	font-size:14px;
+	font-weight: normal;
+	color: #333333;
+}
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:10px;
+	background-color:#323232;
+}
+.clear1 {
+	clear:both;
+	width:0;
+	height:0px;
+}
+#header01 {
+	background-color:#323232;
+}
+
+#header_upper img,
+#header_lower img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#contentLeft {
+	border: 1px dotted #999;
+}
+#contentRight {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+}
+#footer01 {
+	text-align:center;
+	background-color:#323232;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+
+#footer01 p {
+	color:#CCC;
+	font-size:10px; 
+}
+/* RSS FEED FORMAT */
+
+.rssNewsFeed {
+	padding-top:10px;
+	font-size:0.8em;
+}
+.rssNewsFeed h3 {
+	text-align:center;
+}
+.rssNewsFeed ul {
+	margin-top: 10px;
+	padding-right:20px;
+}
+
+.rssNewsFeed li {
+	margin-top: 4px;
+	list-style-position: outside;
+	list-style-type: square;
+	color: #eee;
+}
+.rssNewsFeed a:link, 
+.rssNewsFeed a:visited {
+	margin: 0;
+	text-decoration: underline;
+	color: #FC0;
+	line-height: 14px;
+	font-size:1em;
+}
+.rssNewsFeed a:hover, 
+.rssNewsFeed a:active {
+	margin: 0;
+	text-decoration: underline;
+	color: #F30;
+}

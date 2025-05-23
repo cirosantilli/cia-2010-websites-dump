@@ -1,0 +1,250 @@
+* {
+	outline:0;
+	padding-top: 85;
+	padding-bottom: 10;
+	padding-left: 20;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.cl {
+    font-size:0;
+    line-height:0;
+    height:0;
+    display:block;
+    clear:both;
+}
+body{
+	font-family:Arial, sans-serif;
+	color:#000000;
+	font-size:11px;
+	line-height:16px;
+	background-repeat: no-repeat;
+	background-color: #d7e1ea;
+}
+
+.innerbody{
+	background:#888f95 no-repeat center 0;
+	font-family:Arial, sans-serif;
+	color:#000000;
+	font-size:11px;
+	line-height:16px;
+}
+a{
+    color:ffffff;
+    text-decoration: underline;
+    cursor:pointer;
+}
+a:hover{
+    text-decoration:none;
+	
+}
+a img{
+    border:0;
+}
+.shell{
+	width:925px;
+	padding-right:3px;
+	padding-bottom:60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url(images/transnewsjunindiatopUSING.jpg);
+	background-color: #888f95;
+}
+.innershell{
+	width:630px;
+	background:#888f95;
+	padding-right:3px;
+	padding-bottom:60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+.left{float: left; display: inline;}
+.right{float: right; display: inline;}
+.homeleft{float: left; display: inline;}
+
+#header{
+	height:35px;
+	margin-left:0px;
+	width:940px;
+	padding-top: 265px;
+	margin-top: 15px;
+}
+
+h2{
+	font-size: 16px;
+	color:#000;
+	line-height: 33px;
+	border-bottom:solid 1px #000;
+	padding-left:15px;
+	background-color: #ffffff;
+}
+
+#nav{
+	float: right;
+	display: inline;
+	padding-top:0px
+}
+#nav ul{
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#nav li{
+	float: left;
+	display: inline;
+	padding-right:50px;
+	font-size: 14px;
+}
+#nav li a{
+	float: left;
+	display: inline;
+	color:#FFF;
+	text-decoration: none;
+}
+#nav li a:hover, #nav li a.active{
+	color:#000
+}
+
+#content{
+	padding-top:10px;
+	width:890px;
+	margin-left:12px;
+	background-color: #888f95;
+}
+#innercontent{
+	padding-top:45px;
+	width:595px;
+	margin-left:12px
+}
+.foo {
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+#sidebar{width:284px; float: left; display: inline;}
+#sidebar h2{
+	background-image:url(images/h21-small.gif);
+	background-repeat: no-repeat;
+	background-position: right 0;
+	color: #000000;
+}
+#sidebar .box{width:284px; margin-bottom:14px}
+#sidebar .box ul{list-style-type: none;padding-left:7px; padding-top:14px}
+#sidebar .box li{padding-bottom:7px}
+#sidebar .box li a.image{float: left; margin-right:6px}
+#sidebar .box li a.image img{display: block; border:solid 1px #000000; padding:1px}
+#sidebar .box li a{ color:#ffffff; text-decoration: none;}
+#sidebar .box li a:hover{ color:#000000; }
+
+#sidebar .box li h5{font-size: 12px; color:#ffffff}
+#sidebar .box li p{font-size: 11px; color:#000000}
+#sidebar .box li .info{float: left; display: inline; width:195px}
+
+.links{padding-top:15px}
+.links a{
+	background:url(images/links.gif) repeat-x;
+	line-height:85px;
+	width:134px;
+	font-size: 13px;
+	color:#000;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+.box{
+	padding-bottom:7px
+}
+.box a.up{text-transform: uppercase; float: right; margin-right:12px}
+.box ul{list-style-type: none;}
+.box li h4 a{ color:#ffffff; text-decoration: none;}
+.box li h4 a:hover{ color:#000000; }
+.box li a.image{float: left;}
+.box li a.image img{
+	display: block;
+	border:1px solid #000000;
+	padding:1px
+}
+.box li .info{float: left; display: inline; }
+
+#approtate {float:left; width:150px; height:150px; }
+
+#main{float: right; display: inline; width:603px}
+#main ul.navigate{float: right; display: inline; list-style-position: outside; list-style-type: none; padding-left:20px; padding-top:2px; width:33px}
+#main ul.navigate li{width:27px; float: left; padding-left:6px; height:27px; padding-bottom:5px}
+#main ul.navigate li.active{background:url(images/yellow-arr.gif) no-repeat 0 8px;}
+#main ul.navigate li.active a{background:#888f95;}
+#main ul.navigate li.active a:hover{text-decoration: none;}
+#main ul.navigate li a{width:27px; font-size: 14px; color:#000; text-align: center; line-height:27px; background:#ffffff; float: left;  text-decoration: none;}
+#main ul.navigate li a:hover{text-decoration: underline;}
+#main .box{width:603px; margin-bottom:18px; padding-bottom:18px}
+#main .box h2{
+	width:588px;
+	margin-bottom:15px;
+	background-color: #FFF;
+	background-image: url(images/h21-long.gif);
+	background-repeat: no-repeat;
+	background-position: right 0;
+}
+#main .box ul.line{width:603px; padding-left:0}
+#main .box ul.line li{float: left; display: inline;padding-left:13px; padding-bottom:0}
+#main .box ul.line li a{ font-weight: bold; float: none;}
+#main .box ul.line li a.frm{display: block; margin-bottom:10px}
+#main .box ul.line li a img{display: block; padding:1px;}
+#main .box ul {padding-left:13px}
+#main .box li {padding-bottom:24px}
+#main .box li .info{padding-left:11px; float: left; display: inline; width:390px}
+#main .box li .info h4{font-size: 15px; color:#ffffff; padding-bottom:10px}
+#main .box li .info a.up{float: left;}
+#main .box li .info p{padding-bottom:12px}
+
+.transparent-frame{
+	width:590px;
+	height:286px;
+	position:relative;
+	z-index: 1;
+	float: none;
+	display: inline;
+	margin-bottom:12px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+.transparent-frame .frame{
+	width:590px;
+	height:286px;
+	position:absolute;
+	top:0;
+	left:35;
+	z-index: 3;
+	float: right;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#footer{
+	height:47px;
+	font-size: 11px;
+	color:#FFF;
+	text-align: right;
+	line-height: 47px;
+	text-transform: none;
+	width:890px;
+	margin-left:12px;
+	padding-right:20px;
+	background-color: #000;
+}
+#footer a{ color:#000000; }

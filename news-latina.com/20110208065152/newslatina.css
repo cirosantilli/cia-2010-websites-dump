@@ -1,0 +1,145 @@
+/* NewsLatina.net */
+
+body {
+	background-image:url(images/bg1b.gif);
+	background-repeat:repeat-x;
+	background-color:#FC3;
+	margin:20px;
+	padding:0;
+	text-align:center;
+}
+
+h1 {
+	font-size:24px;
+	color:#FFF;
+	font-weight:700;
+	margin:0;
+}
+
+h2 {
+	font-size:10px;
+	color:#F90;
+	margin:0;
+	font-weight:700;
+}
+
+h3 {
+	font-size:16px;
+	color:#F65A05;
+	font-weight:700;
+	margin:0;
+	padding-bottom:5px;
+	border-bottom:1px dotted #CCC;
+}
+
+p {
+	margin-top:5px;
+	padding-bottom:5px;
+	font-size:11px;
+	line-height:1.5em;
+}
+
+#container {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	margin:0 auto;
+	width:700px;
+	padding:10px;
+	height:auto;
+	background-color:#FFF;
+	text-align:left;
+}
+
+#banner {
+	width:700px;
+	height:100px;
+	margin-bottom:10px;
+}
+
+#bannerLeft {
+	width:150px;
+	height:100px;
+	margin-right:10px;
+	background-image:url(images/leaf.gif);
+	float:left;
+}
+
+#bannerRight {
+	width:529px;
+	height:49px;
+	background:url(images/bg1c.gif) repeat-x;
+	float:left;
+	border:1px solid #CCC;
+	border-width:1px 0 0 1px;
+	padding:50px 0 0 10px;
+}
+
+#content {
+	background:url(images/bg1.gif) repeat-y;
+	height:1%;
+	}
+
+#leftColumn {
+	float:left;
+}
+
+#nav {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#nav a {
+	display:block;
+	font-size:11px;
+	color:#F90;
+	text-decoration:none;
+	padding:10px;
+	width:130px;
+	height:10px;
+	border-bottom:1px dotted #333;
+	
+}
+
+#nav a:hover {
+	background-color:#333;
+}
+
+#leftColumnBottom {
+	width:130px;
+	background:url(images/bg1c.gif) repeat-x;
+	padding:110px 10px 10px;
+	color:#EAEAEA;
+}
+
+#rightColumn {
+	float:left;
+	width:530px;
+	padding-left:20px;
+	color:#666;
+}
+
+#clear {
+	clear:both;
+}
+
+.date {
+	font-size:10px;
+	color:#999;
+	font-weight:normal;
+}
+
+#copyright {
+	padding-top:10px;
+	font:10px Arial,Helvetica,sans-serif;
+	color:#369;
+}
+
+#copyright a {
+	text-decoration:none;
+	color:#369;
+} 
+
+#copyright a:hover {
+	color:#F39;
+}

@@ -1,0 +1,206 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, 
+a, del, em, font, img, ins, strong, var,
+dl, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+
+	}
+	
+ol, ul {
+	list-style: none;
+}
+
+p{
+	font:Georgia, "Times New Roman", Times, serif;
+	font-size:10px;
+	width:400px;
+	margin:0 0 0 .8em;
+	text-align: left;
+}
+
+#forum {
+	background-color: #ffffff;
+	position: relative;
+	left:-5em;
+	top: 17.0em;
+	}
+
+#forumbutton {
+	background-color: #ffffff;
+	position: relative;
+	left:33em;
+	top: 15.5em;
+	} 
+	
+.business{
+	width:390px;
+	height:210px;
+	float:left;
+	overflow:auto;
+	font: .6em, Georgia, Times, "Times New Roman", serif;
+	left:-5em;
+	padding: .5em .2em .5em .8em;
+	color: #000000;
+	line-height: 1.2em;
+	}
+
+
+#business li a {
+	background-color: #ffffff;
+	display: inline;
+	font-size: 1.0em;
+	color: #7398c2;
+	line-height: 1.2em;
+	}
+
+	
+body#b2b {
+	font: 84% Georgia, Times, "Times New Roman", serif;
+	position: relative;
+	margin-top: 15px;
+}
+
+:link, :visited { font-weight: bold; text-decoration: none; color: #1e0c00; }
+a:active { color: #f00; }
+a:hover { color: #000; font-weight: bold; text-decoration: underline; }
+a img { border: 0; }
+
+#container {
+	width: 800px;
+	padding: 0 30px 0 180px;
+	float: left;
+}
+
+	h1 {
+		position:absolute;
+		top:0px;
+		left:9em;
+		width: 800px;
+		height: 200px;
+		display: block;
+		background: url("images/logo_header.jpg") top left no-repeat;
+		}
+	
+	h2 {
+	position:relative;
+	left:0em;
+	text-align: left;
+	color: #ffffff;
+	height: 30px;
+	background-repeat: no-repeat;
+	}
+	
+	#intro_para h2 {background-image: url("images/section_01.jpg");	}
+	#business_links h2 { background-image: url("images/section_02.jpg"); }
+	#current_news h2 { background-image: url("images/section_03.jpg"); }
+	#resources h2 { background-image: url("images/section_04.jpg"); }
+
+	#listing {
+	position: absolute;
+	width: 150px;
+	background-color: #ffffff;
+	top: 17em;
+	left: 555px;
+	padding: 2.4em 10px .8em;
+	}
+
+	#listing a {
+	color: #716d7b;
+	}
+
+	#listing h2 {
+	display: block;
+	margin: 0 0 1.2em;
+	}
+	
+	#listing ul {
+	margin: 0 0 0 2.4em;
+	text-align: left;
+	line-height: 1.2em;
+	}
+	
+	#listing li {
+	margin: .0 0.2 0.0 .4em;
+	font-size: .65em;
+	}
+
+	#listing li a {
+	background-color: #ffffff;
+	display: block;
+	padding: .2em .0em;
+	font-size: 1.2em;
+	color: #7398c2;
+	}
+
+	#supportingText {
+	background-color: #ffffff;
+	position: relative;
+	left:-5em;
+	top: 17.0em;
+	padding: .5em .2em .5em .2em;
+	line-height: 1.2em;
+	}
+
+	#supportingText2 li{
+	background-color: #ffffff;
+	position: relative;
+	left:-5em;
+	top: 17.0em;
+	padding: .5em .2em .5em .2em;
+	display:inline;
+	}
+
+	#supportingText li a {
+	background-color: #ffffff;
+	display: inline;
+	font-size: 1.0em;
+	color: #7398c2;
+	}
+
+	#footer {
+	padding: .5em .2em .2em .8em;
+	position: relative;
+	}
+		
+	.scroll {
+	scrollbar-face-color:#ffffff;
+	scrollbar-shadow-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-3dlight-color:ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-track-color:#ffffff;
+	scrollbar-arrow-color:#000000;
+	overflow-x:hidden;
+	}
+
+/* IE6 help for repositioning  */
+
+* html #container {
+	float: left;
+	height: 170em;
+}
+
+* html #requirements {
+	height: 1px;
+	width: 1px;
+	position: relative;
+	margin-right: -30px;
+}
+
+* html #requirements p, * html #requirements h2 {
+	position: relative;
+}
+/* end sad IE6 */

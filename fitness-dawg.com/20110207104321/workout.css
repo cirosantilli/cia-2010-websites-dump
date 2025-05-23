@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body {
+	background-color:#666666;
+	margin:0px 0px 0px 0px;
+}
+
+
+body,td,th {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	}
+
+ul	{margin: 0;	padding: 0;	display: block;	}
+li	{list-style: none; padding: 5px 0px; }
+
+a:link {  text-decoration:none; font-weight:bold; color:#c80016; }
+a:visited {	text-decoration:none; font-weight:bold; color:#c80016; }
+a:hover { text-decoration:underline; font-weight:bold; color:#c80016;}
+a:active { text-decoration: none; font-weight:bold; color:#c80016;}
+
+a.music:link { text-decoration:none; font-weight:bold; color:#fce700; }
+a.music:visited { text-decoration:none; font-weight:bold;  color:#fce700; }
+a.music:hover { text-decoration:underline; font-weight:bold; color:#fce700; }
+a.music:active { text-decoration: none; font-weight:bold; color:#fce700; }
+
+.style1 {
+	font-size:11px; font-weight:bold;
+}
+
+.imgback {
+background: url(images/textbox_main.jpg) no-repeat;
+}
+
+.imgback2 {
+background: url(images/sidebar_text.jpg) no-repeat;
+}
+
+.imgback3 {
+background: url(images/tunes_box.jpg) no-repeat;
+}
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#c80016;
+	}
+	
+#home, #home2, #fitness, #fitness2, #bodybuilding, #bodybuilding2, #nutrition, #nutrition2, #equipment, #equipment2, #publications, #publications2
+{	width: 100% auto;
+	height: 477px; 
+	overflow: auto; }
+	
+#main_content{
+width: 204px; 
+height: 429px;
+overflow: auto;
+font-size:10px; color:#fff;
+}
+
+#music_content{
+width: 130px; 
+height: 163px;
+font-size:10px; color:#fff;
+}
+	
+.col1
+{ float: left;
+  width: 185px;
+  height:100% auto; }
+
+.col2 
+{ float: right;
+  width: 190px;
+  height:100% auto;
+  border-left:1px solid #666666; padding: 0px 5px; margin-bottom: 10px;
+   }
+	
+

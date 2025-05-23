@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* .green {color: #a2b05d;}
+.ltblue {color: #aec5d0;} */
+
+body { margin: 0; padding: 0;   font-family: arial, verdana, sans-serif; font-size: 14px; font-weight: bold;}
+#wrap { position: relative; width: 1020px; height: 100% auto;margin-right:-520px; right: 50%; padding: 0; }
+img { border: none; }
+#ad1 {margin: 10px;}
+#adtop {width: 600px; margin: 10px  ; float: left;}
+#adtop li {display: inline;}
+
+#count {width: 120px; height: 100% auto; margin: 10px; float: left;}
+
+ul { margin: 0px; padding: 0px; list-style: none; }
+li { display: block; margin: 0px; padding: 3px 3px; color: #aec5d0; }
+a:link, a:visited, a:visited { color: #666; text-decoration: underline;}
+a:hover { color: #36C; }
+h2 { color: #fff; margin: 0px; padding:0.5em; font-size: .9em; font-weight: bold; background: #a2b05d; }
+
+
+#navwrap { width: 1020px; height: 57px; background:url(images/navbar.jpg) no-repeat; }
+#menunav { position:absolute; width:804px; height:32px; z-index:1; left: 30px; top: 15px; }
+#menunav ul { list-style:none; margin: 0; padding: 0; }
+#menunav li { display: inline; margin: 0 10px; }
+#menunav li a { color: #a2b05d; text-decoration: none; font-weight: bold; }
+#menunav li.active {text-decoration: underline;}
+
+
+
+#contentwrap { width: 1020px; height: 100% auto; margin: 0; padding: 0; background: url(images/contentback.jpg) repeat; float: left; }
+
+#main { width: 800px; height: auto; margin: 10px 110px; padding: 0; float: left; }
+
+
+.boxheight {height: 350px; margin: 0; padding; 0;overflow: auto;}
+
+.fl { float: left; }
+.fr { float: right; }
+.m { margin: 10px; }
+.ml { margin: 0 0 0 10px; }
+.mr { margin: 0 10px 0 0; }
+.mlr { margin: 0 10px; }
+.mtb { margin: 10px 0; }
+/**12 Column**/
+
+.box1 { width: 60px; padding: 0; _display: inline; }
+.box2 { width: 160px; padding: 0; _display: inline; } /**changed from 140px**/
+.box3 { width: 220px; padding: 0; _display: inline; }
+.box4 { width: 300px; padding: 0; _display: inline; }
+.box5 { width: 380px; padding: 0; _display: inline; }
+.box6 { width: 460px; padding: 0; _display: inline; }
+.box7 { width: 540px; padding: 0; _display: inline; }
+.box8 { width: 620px; padding: 0; _display: inline; }
+.box9 { width: 700px; padding: 0; _display: inline; }
+.box10 { width: 780px; padding: 0; _display: inline; }
+.box11 { width: 860px; padding: 0; _display: inline; }
+.box12 { width: 940px; padding: 0; _display: inline; }
+
+
+/* begin styles for RSS Feed */
+
+.rss-title {color: #fff; margin: 0px; padding: 2px 4px; font-size: .9em; font-weight: bold; background: #a2b05d;}
+.rss-title a{color: #fff;text-decoration: none;}
+
+
+.rss-items {
+	margin-top:0px;
+	padding:0.5em; 0.5em;
+	margin-left:0px;
+	color:#000000;
+}
+p.rss-title {padding:0.5em;}
+
+
+.rss-item  {
+  font-family: arial, verdana, sans-serif;
+  font-size: 0.75em;
+  font-weight : bold;
+  list-style:none;
+  padding-bottom:1em;
+}
+
+.rss-item a {
+	text-decoration : underline;
+	color:FF0000;
+	font-size: 105%;
+	font-weight:bold;
+	font-family:arial, sans-serif;
+	}
+	
+.rss-item a:visited {
+	color:330033;
+}
+
+.rss-date {
+	font-size: 85%;
+	font-weight : normal;
+	color: #CC99CC;
+	} 

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document for soccer*/
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; margin: 0px;
+	padding: 0; color: #000; background-color: #333333;}
+
+img {border: none; margin: 0; padding: 0;}
+
+.image_right{float: right; padding: 0; margin: 6px 0px 4px 8px;}
+
+h1 {font-size: 18px; font-weight: bold; margin: 0 42px 0 0;color:#009; border-bottom-style:double; width:110px; text-align:center; text-decoration:underline;}
+h2 {font-size: 10px; font-weight: bold;  margin: 0; text-align:center; padding: 0 0 7px 0; color:# 333; text-decoration:underline; }
+h3 {font-size: 18px; font-weight: bold; margin: 0 40px 0 0;color:#009; width:250px; text-decoration:underline;}
+h4 {font-size: 18px; font-weight: bold; margin: 0;color:#009; width:250px;}
+
+ul {margin:0; padding:0; display:block; border:0px}
+li {margin:0; padding:5px 5px 5px 5px; list-style:none; border:0px;}
+li.content {margin:0px; padding:3px 2px 5px 5px; list-style:none; border-bottom: 1px dotted #F93;}
+
+a:link {  text-decoration:none; font-weight:bold; color:#000; }
+a:visited {	text-decoration:none; font-weight:bold; color:#000; }
+a:hover {color: #009;}
+a:active { text-decoration: none; font-weight:bold;	color:#000;}
+
+#sidebarlinks a:link {  text-decoration:none; font-weight:bold; color:#e65c0d; font-size:12px;}
+#sidebarlinks a:visited {text-decoration:none; font-weight:bold; color:#e65c0d; font-size:12px;}
+#sidebarlinks a:hover { text-decoration:underline; font-weight:bold; color: #333;font-size:12px;}
+#sidebarlinks a:active { text-decoration: none; font-weight:bold; color:e65c0d; font-size:12px; }
+
+#wrappage {width:900px; height:100% auto; margin:0; padding:0; text-align:left;
+ 	 position:relative; left:50%; margin-left:-450px;}
+	 
+#wrapbanner {width:900px; height:241px; margin:0px; padding:0px; float: left;}
+#google_ads {width:234px; height:241px; margin:0px; float:left; background:url(images/index_01.jpg) no-repeat; padding:0px;}
+.url {font-size:10px; color:#006;}
+#ad_content { width:130px; height:225px; padding-left:73px; float:left; color:#666;}
+#middle_images{width:372px; height:241px; margin:0px; float:left; padding:0px;}
+#nav_wrap {width:294px; height:241px; margin:0; padding:0px; float:right; background:url(images/index_07.jpg) no-repeat; }
+#navigation {width: 170px; font-size:14px; padding:15px 6px 4px 20px;}
+#navigation ul {list-style: none; margin: 0; padding: 0;}
+#navigation li { border-bottom: 1px dotted #666;}
+#navigation li a:link, #navigation li a:visited { display: block; padding: 3px 5px 0 0.5em;
+	color: #b6292d;text-decoration: none;}
+#navigation li a:hover {color: #009; background-image: url(images/bkg.jpg); background-repeat:repeat-x;}
+
+#main_content { width:900px; height:559px; margin:0px; float: left;}
+#subpages{width:900px; height:559px; margin:0px; padding:0; float:left; background-image:url(images/index_08.jpg); background-repeat:no-repeat;}
+
+#column_1 {	width:560px; height:529px; margin:6px 4px 4px 16px; float: left; padding: 5px; overflow:auto;}
+
+#column_2 {	width:273px; height:529px; margin:6px 4px 4px 16px; float: left; padding:5px; overflow:auto; border-left:1px dashed #000;}
+
+.bandwidth {height: auto; color: #000; margin-top: 10px; font-style: 10px;}
+	
+#footer { width:900px; height:30px; padding-top:15px; float:left; font-size:12px; color:#000; background-color:#c7e4f3; text-align:center;}
+	
+.scroll {scrollbar-face-color: #c7e4f3; scrollbar-shadow-color: #c7e4f3; scrollbar-highlight-color: #c7e4f3; scrollbar-3dlight-color: #c7e4f3; scrollbar-darkshadow-color:#c7e4f3; scrollbar-track-color:#c7e4f3;scrollbar-arrow-color:#e54e0a; background-color: #c7e4f3;}

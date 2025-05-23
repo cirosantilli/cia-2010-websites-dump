@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0; padding:0;}
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#e6891c} /*row & description of link*/
+li a {text-decoration: none; color: #433ba5; font-weight: normal;} /*link*/
+li a:hover {color:#433ba5; text-decoration: underline; }
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+#wrap {float:left; width:900px; height:1260px;}
+
+#header {float:left; width:900px; height:198px;}
+
+#col-1-whole {float:left; width:190px; height:586px; }
+#col-1-top  {float:left; width:190px; height:454px; background:url(images/sports_19.jpg) no-repeat;}
+#col-1-bottom {float:left; width:190px; height:132px;}
+
+#col-2 {float:left; width:533px; height:586px; background:url(images/sports_20.jpg) no-repeat;}
+.box-right {width: 518px; height: 571px; margin: 2px 0px 0 10px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible; display:inline;}
+
+#col-3 {float:left; width:177px; height:189px;}
+
+#col-under-1 {float:left; width:180px; height:416px; background:url(images/sports_26.jpg) no-repeat;}
+#col-under-1-text {float:left; width:162px; height:360px; margin: 45px 0 0 15px; display:inline; overflow:auto; visibility:visible;}
+#col-under-1-text li	{display: block;  padding: 0px; margin: 0px; color:#0f60a9;} /*row & description of link*/
+#col-under-1-text li a {text-decoration: none; color: #bc0a05; font-weight: normal;} /*link*/
+#col-under-1-text li a:hover {color:#bc0a05; text-decoration: underline; }
+
+#col-under-2 {float:left; width:180px; height:416px; background:url(images/sports_27.jpg) no-repeat;}
+#col-under-2-text {float:left; width:162px; height:360px; margin: 45px 0 0 15px; display:inline; overflow:auto; visibility:visible;}
+#col-under-2-text li	{display: block;  padding: 0px; margin: 0px; color:#0f60a9;} /*row & description of link*/
+#col-under-2-text li a {text-decoration: none; color: #057801; font-weight: normal;} /*link*/
+#col-under-2-text li a:hover {color:#057801; text-decoration: underline; }
+
+#col-under-3 {float:left; width:188px; height:416px; background:url(images/sports_28.jpg) no-repeat;}
+#col-under-3-text {float:left; width:164px; height:360px; margin: 45px 0 0 15px; display:inline; overflow:auto; visibility:visible;}
+#col-under-3-text li	{display: block;  padding: 0px; margin: 0px; color:#0f60a9;} /*row & description of link*/
+#col-under-3-text li a {text-decoration: none; color: #c95d00; font-weight: normal;} /*link*/
+#col-under-3-text li a:hover {color:#c95d00; text-decoration: underline; }
+
+#col-under-4 {float:left; width:178px; height:416px; background:url(images/sports_29.jpg) no-repeat;}
+#col-under-4-text {float:left; width:160px; height:360px; margin: 45px 0 0 10px; display:inline; overflow:auto; visibility:visible;}
+#col-under-4-text li	{display: block;  padding: 0px; margin: 0px; color:#0f60a9;} /*row & description of link*/
+#col-under-4-text li a {text-decoration: none; color: #3131d6; font-weight: normal;} /*link*/
+#col-under-4-text li a:hover {color:#3131d6; text-decoration: underline; }
+
+#col-under-5 {float:left; width:174px; height:416px; background:url(images/sports_30.jpg) no-repeat;}
+#col-under-5-text {float:left; width:148px; height:360px; margin: 45px 0 0 12px; display:inline; overflow:auto; visibility:visible;}
+#col-under-5-text li	{display: block;  padding: 0px; margin: 0px; color:#0f60a9;} /*row & description of link*/
+#col-under-5-text li a {text-decoration: none; color: #0b0b0b; font-weight: normal;} /*link*/
+#col-under-5-text li a:hover {color:#0b0b0b; text-decoration: underline; }
+
+#putithere {float:left; width:900px; height:60px; margin: 20px 0 0 0;}
+
+#menu8 {
+	width: 190px;
+	margin-top: 20px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 38px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #433ba5;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 10px;
+	}
+	
+#menu8 li a:hover {
+	color: #433ba5;
+	text-decoration:underline;
+	padding: 8px 0 0 10px;
+	}
+	
+#menu8 li a:active {
+	color: #433ba5;
+
+	padding: 8px 0 0 10px;
+	}
+

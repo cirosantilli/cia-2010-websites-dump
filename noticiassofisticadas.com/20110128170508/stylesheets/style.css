@@ -1,0 +1,245 @@
+
+/* ### GENERAL ### */
+* { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+body { 
+	background:#f5f5f5 url(../images/wapperbg.gif) repeat; 
+	font:11px Tahoma, Arial, Helvetica, sans-serif;
+	color:#000000; 
+	padding:0px 0px 0px 0px; 
+	margin:0px 0px 0px 0px;  
+}
+
+/* ### GLOBAL CLASSES ### */
+.clear { 
+	clear: both; 
+	margin:0px; 
+	padding:0px; 
+}
+
+/* ### WRAPPER ### */
+#wrapper { 
+	position: relative; 
+	display: block; 
+	width: 100%; 
+	min-height: 100%; 
+	background:url(../images/bodybg.gif) left top repeat-x; 
+}
+
+.scroll {filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456; 
+	scrollbar-arrow-color:#ccc;
+	}
+/* ### MAIN CONTAINER ### */
+#mainCntr { 
+	margin: 0 auto; 
+	width:776px;  
+}
+
+/* ### HEADER CONTAINER ### */
+#headerCntr { 
+	position: relative;  
+	width:776px; 
+	height:81px; 
+	background:url(../images/header.gif) right bottom no-repeat; 
+}
+.topmenu {
+	width:50px;
+	float:right;
+}
+
+.topmenu ul{}
+
+.topmenu ul li{ 
+	list-style:none; 
+	float:left; 
+	padding:27px 7px 0px 7px; 
+	height:27px;
+}
+
+.topmenu ul li a { 
+	font-size:11px; 
+	color:#cececd; 
+	font-weight:bold; 
+	text-decoration:none;
+}
+
+.topmenu ul li a:hover {
+	text-decoration:underline;
+}
+	
+.logo {
+	padding:29px 0px 0px 20px;
+}
+	
+
+
+
+#feeds {
+	background-color:#FFF;
+	font-size:12px;
+	width: 450px; 
+	height: 100%; 
+	margin: 5px 0 0 10px;
+	padding: 0px;
+}
+#feeds ul {
+	margin:0 0 0 0; 
+	padding:0 0 0 0;
+	list-style:none;
+	display:inline;
+}
+#feeds li {
+	margin:0 0 0 0; 
+	padding:10px 5px 0 0;
+}
+#feeds li a{
+	margin:0 0 0 0; 
+	padding:0 0 0 0; 
+}	
+
+.rssfeedtitle  {
+	background-color: #ffffff;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#000;	
+	margin: 0px 0 0px 0px;
+	padding: 5px 0 5px 10px;
+}
+
+.rssfeed  {
+	background-color: #ffffff;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin: 0px;
+	padding: 5px 0 50px 10px;
+}
+	
+	
+/* ### CONTENT CONTAINER ### */
+#contentCntrMain {
+	overflow: hidden;
+	width:776px;
+	background:url(../images/cntrBg2.jpg) right bottom repeat-y;
+}
+#contentCntr {
+	overflow: hidden;
+	width:776px;
+}
+
+#contentCntrMain2 {
+	overflow: hidden;
+	width:776px;
+	background-color:#ffffff;
+	padding: 20px 10px 20px 10px;
+}
+#contentCntr2 {
+	overflow: hidden;
+	width:776px;
+}
+	
+/* ### LEFT CONTAINER ### */
+#leftCntr {
+	float: left;
+	width:301px;
+	background-color:#cb5201;
+	padding:68px 0px 0px 0px;
+}
+
+/* ### MENU CONTAINER ### */
+.menuBox {
+	width:270px;
+	padding:0px 0px 20px 31px;
+}
+
+.menuBox ul{
+	padding:0px 0px 0px 0px;
+	border-top:1px solid #d57c4d;
+	display:block;
+}
+
+.menuBox  ul li { 
+	list-style:none;
+	background:url(../images/dice.gif) 21px 11px no-repeat;
+	border-bottom:1px solid #d57c4d;
+	padding:2px 0px 0px 40px;
+	height:29px;
+}
+
+.menuBox  ul li a { 
+	font:20px Myriad Pro, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.menuBox  ul li a:hover{ 
+	color:#0e0b06;
+}
+		
+/* ### RIGHT CONTAINER ### */
+#rightCntr {
+	float: right;
+	width:475px;
+	background:#fff url(../images/welcomebg.gif) left top repeat-x;
+	padding:43px 0px 0px 0px;
+}
+
+#rightCntr h1 {
+	font:26px Myriad Pro, Arial, Helvetica, sans-serif;
+	color:#636363;
+	text-align:right;
+	text-transform: uppercase;
+	padding:0px 44px 0px 0px;
+}
+
+/* ### FOOTER CONTAINER ### */
+#footerCntr { 
+	overflow: hidden; 
+	background:url(../images/footerbg.gif) left top repeat-x; height:81px;
+}
+.footerBox{
+	width:659px;
+	margin:0px auto; 
+	background:url(../images/footerright.gif) right top no-repeat; 
+	color:#FFFFFF; 
+	text-align:right; 
+	padding:33px 117px 0px 0px; 
+	height:48px;
+}
+	
+#footerCntr2 { 
+	overflow: hidden; 
+	background:url(../images/footerbg.gif) left top repeat-x; height:81px;
+}
+.footerBox2{
+	width:659px;
+	margin:0px auto; 
+	color:#FFFFFF; 
+	text-align:right; 
+	padding:33px 117px 0px 0px; 
+	height:48px;
+}	
+	
+/* inner pages css start */
+.innerContainer { 
+	padding: 0px 10px 0px 10px; 
+	text-align: justify; 
+	background:url(../images/bgbotom.gif) left bottom repeat-x;
+}
+
+.innerContainer a {
+	color: #9a0000;
+}
+
+

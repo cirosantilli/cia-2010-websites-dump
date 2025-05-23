@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333; background: #333;}
+
+#container{position: relative; width: 900px; height: 100% auto; margin: 0px 0px 0px -450px; left: 50%; background: url(images/bkgrnd.jpg) repeat-y;}
+
+#header{float: left; width: 900px; height: 169px; margin: 0px; padding: 0px;}
+
+ul{margin: 0 0 10 0; padding: 0;}
+li{display: block; margin: 0; padding: 0px 0px 8px 0; list-style: none;}
+
+#reviews2 p, #reviews2 td, #reviews2 tr{font-size: 12px; color: #333; margin: 0px; padding: 0px;}
+p{margin: 0px; padding: 0px;}
+p a{margin-top: 10px;}
+
+
+h1{color: #81acbf;  font-family: Georgia, "Times New Roman", "Times", serif; font-size: 20px; margin: 0px; padding: 00px; font-weight: normal; font-variant: small-caps;}
+h2, .rss-title a{color: #666;  font-family: Georgia, "Times New Roman", "Times", serif; font-size: 14px; margin: 0px; padding: 5px 0px 0px 0px; font-weight: normal; border-bottom: 1px solid #639;}
+h3{color: #666; font-size: 11px; margin: 0px; padding: 0;}
+
+a{color: #639; text-decoration: none; font-weight: bold;}
+a:hover{color: #000; border-bottom: 1px solid #666;}
+
+#nav{clear: float; width: 900px; height: 40px; background: #000; margin: 0px;}
+#nav ul{float: left; margin: 10px; padding: 0px; }
+#nav ul li{margin: 0px 10px; display: inline; line-style: none; font-size: 12px;}
+#nav ul li a{border-left: 2px solid #639; padding: 2px 5px; color: #fff;}
+#nav ul li a:hover{border-left: 2px solid #fff; background: #639; padding: 2px 5px; color: #fff;}
+#nav ul li a:active, #nav ul li a#focus{background: #81acbf; color: #fff; }
+
+
+#pgcontent{float: left; width: 900px; height: 100% auto; min-height: 450px; margin: 0; padding: 0; background: url(images/leftside.jpg) no-repeat;}
+
+#main{float: left; width: 620px; height: 100% auto; min-height: 450px; background: url(images/sideleft.jpg) top left no-repeat;}
+#main ul{margin: 0;}
+#side{float: left; width: 280px; height: 100% auto; min-height: 450px; background: inherit;}
+#side ul, #side h2{margin-left: 80px;}
+#side ul{width: 170px;}
+
+
+#ads ul{float: left; width: 100% auto; margin: 10px 20px; }
+#ads li {display: inline; padding: 8px;}
+
+.box{padding: 5px; margin: 0px;}
+.third{width: 180px; float: left; margin: 10px 5px 10px 15px;}
+.twothird{width: 360px; float: left; margin: 10px 0px 10px 5px; }
+
+.imgcenter{text-align: center;}
+
+.col1{float: left; width: 47.5%;}
+.col2{float: right; width: 47.5%;}
+
+
+#moviesearch{margin-left: 80px;}
+
+#footer{clear: both; width: 900px; height: 30px; background: url(images/footer.jpg) no-repeat;}
+
+.scroll{background: #FFFFFF;
+scrollbar-face-color:#FFFFFF;
+scrollbar-arrow-color:#663399;
+scrollbar-track-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+
+}

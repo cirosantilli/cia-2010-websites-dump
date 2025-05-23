@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body { margin: 0; padding: 0; font-family:Arial, Helvetica, sans-serif; font-size: 16px; background: url(OLD/images/back.gif) repeat; }
+#wrap_a { position: relative; width: 960px; height: auto;  background: #fff; }
+#contentwrap_a { width: 960px; margin: 0 0px; height: auto; float: left;background:url(OLD/images/back1.gif) repeat-y; }
+#leftcol_a { width:675px; height: auto; margin: 0; padding: 0; background: #fff; float: left; }
+#rightcol_a { width: 280px; height: auto; margin: 0; padding: 0; background:  #0198ce; float: right; }
+img {border: none;}
+#title_a { position:absolute; width:343px; height:38px; left: 329px; top: 37px; color: #fff; font-weight: bold; font-size: 40px; }
+.rss-item a { color: #0785bc; text-decoration: none;  font-weight: bold; }
+
+ul {margin: 0; padding: 0px;}
+li {display: block; list-style: none; color:#999; }
+li a { color: #0785bc; text-decoration: none;  font-weight: bold; }
+a:hover {text-decoration: underline; }
+
+h1 { margin: 3px 0; color: #fff; line-height: 30px; font-size: 16px; font-weight:bold; }
+
+#nav_a { width: 250px;  height: auto; margin: 0 0 10px 30px; padding: 0; background:  #0198ce; float:right; }
+#nav_a ul { list-style: none; margin: 0px 15px 0px 0px; padding: 0; }
+#nav_a li {  margin: 0; padding: 0px;  border-bottom: 1px solid #fff; }
+#nav_a li a{ display: block; margin: 0; padding:8px; border-right: 12px solid #8aebfa; color: #fff; font-weight: bold; text-decoration: none; }
+#nav_a li a:hover, #nav_a a.active { background-color: #018ac6; color: #fff; }
+.floatl { float: left; }
+.floatr { float: right; }
+
+#feedwrap_a { width: 660px; height: auto; margin: 20px 0 20px 10px; overflow: auto; float: left; }
+#bandwrap_a { width: 660px; height: 330px; margin: 0 0 0 10px; float: left; }
+
+#textwrap_a { width: 660px; height: auto; margin: 0px 0; float: left;}
+#feed1, #feed2{ width: 660px; margin: 5px 10px 5px 10px; float: left; }
+#rotateweather {width: 250px; margin: 15px; float: left;}
+
+.feed { width: 300px; height: auto; margin: 5px 5px 5px 10px; padding: 5px; overflow: auto; float: left; }
+.box{ width: 198px; height: 300px;  margin: 5px 10px 5px 12px; float: left; }
+.white {background: #fff;}
+.back { background: #bff5fe; }
+.brdr {border: 1px solid #7bcf01;}
+
+.ads{ margin: 10px; float: left;}
+.ads ul {margin: 5px;}
+.ads li {padding: 5px;}
+#footer {clear: both; width: 960px; height: 20px; margin: 0; padding: 0;  font-size: 9px; color: #018ac6;}

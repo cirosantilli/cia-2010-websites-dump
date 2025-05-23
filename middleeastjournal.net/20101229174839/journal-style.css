@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin: 0px; padding: 0px; font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 15px;}
+#wrap {position: relative; width: 790px; height: 100% auto; }
+#banner {width: 790px; height: 251px; margin: 0px; padding: 0px;}
+
+#gallery {margin: 15px 30px 15px 0; padding: 0px; float: left;}
+
+
+
+ul	{margin: 0; padding: 0; display: block;	padding: 0px;}
+li	{list-style: none; padding: 0px 8px; margin: 0px;}
+li a {	text-decoration: none; color: #066; font-weight: normal; }
+li a:hover {color:#666; text-decoration: underline;}
+
+
+h2 {color:#168984; margin: 0px; padding: 10px 5px;}
+h3 {color:#168984; margin: 0px; padding: 10px 5px;}
+
+#left_col {width: 250px; height: 100% atuo; margin: 0 0 0 10px; padding: 0px; float: left; }
+#mid_col {width: 280px; height: 100% atuo; margin: 0 10px 10px 0px; padding: 0px; float: left; }
+
+#feedboxes{width: 250px; height: 100% auto; margin: 0; float: left;}
+
+#linkbox {width: 190px; height: 100% auto; margin: 0 0 0 10px; float: right; background:url('images/link1.jpg') repeat;}
+#linkbox ul	{margin: 0; padding: 0; display: block;	padding: 0px;}
+#linkbox li	{list-style: none; padding: 0 8px 0 0px; margin: 0px;}
+#linkbox li a {	text-decoration: none; color: #fff; font-weight: normal; }
+#linkbox li a:hover {color:#fff; text-decoration: underline;}
+
+
+#newspapers{width: 250px; height: 100% auto; margin: 0 0 0 10px; float: right; background-color:#86cce2;}
+#newspapers ul	{margin: 0; padding: 0; display: block;	padding: 0px;}
+#newspapers li	{list-style: none; padding: 0 8px 0 0px; margin: 0px;}
+#newspapers li a {	text-decoration: none; color: #fff; font-weight: normal; }
+#newspapers li a:hover {color:#fff; text-decoration: underline;}
+
+
+
+.box{border: 1px solid #86cce2; text-align: left; color: #333; margin: 10px 10px 10px 0; padding: 0px 5px;}
+
+#adsbox{position: absolute; margin-right: 792px; top: 205px; width: 150px; height: 100% auto; padding: 15px 0 px; border: 2px solid #5b8fbe;}
+#adsbox a:link {padding:25px; margin: 5px;}
+
+/**FOOTER**/
+#footer{clear: both; width:790px; height: 15px; color:#f37e0c ;  font-size: 12px; text-align: center; margin:0px; padding: 0px; float: left;}
+
+
+/* begin styles for RSS Feed */
+
+
+.rss-items {
+	margin-top:0px;
+	padding:0.5em; 0.5em;
+	margin-left:0px;
+	color:#86cce2;/*description of link*/
+}
+p.rss-title {padding:0.5em;}
+.rss-title {
+	font-size: 12px;
+	background-color: white;
+	color: #86cce2;
+	font-weight:bold;}/*Source Title*/
+
+.rss-item  {font-size:15px;
+  list-style:none;
+  padding-bottom:1em;
+}
+
+.rss-item a {	color:#f37e0c;	font-size: 15px;} /*link*/
+	
+.rss-item a:visited {color:#666;}
+

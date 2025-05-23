@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* dk blue #317084;
+	med blue #8fb5bf;
+	lite blue #bbd2d8;
+*/
+body {margin: 0px; padding: 0px; font-family: "Trebuchet MS", Arial;font-size: 12px; color: #317084; background: #edf3f5;}
+#wrap {position: relative; width: 950px; height: 100% auto; margin-left: -475px; left: 50%;}
+#banner {width: 692px; height: 46px; float: left;}
+#imgbox {width: 151px; height: 46px; float: left;}
+#banner2 {width:107px; height: 46px; float: left;}
+#titlebanner {width: 950px; height:214px; float: left;}
+#content {width: 950px; height: 100% auto; margin: 0px; padding: 0px;float: left;}
+.back{ background: url('images/back.jpg') repeat-y;}
+
+#weathericons {width: 78px; height: 73px; margin: 0px; padding: 0px;  }
+
+/*basic elements*/
+ul{list-style: none; margin: 0px; padding: 0px;}
+li {display: block; color: #8fb5bf; margin: 0px; padding: 0 0 5px 5px; font-size: 11px;}  
+li a{color: #317084; text-decoration: none; margin: 0px; padding: 0px; }
+a:hover {text-decoration: underline;}
+
+p {padding: 0px 0 0 0px; margin: 0px;}
+h1 { font-size: 1.4em;  margin: 2px 0 5px 5px; color: #317084;}
+h2 { font-size: 12px;  margin-bottom: 2px; color: #317084;}
+h3 { color: #317084;font-size: 1.2em;	padding: 2px 5px; margin: 10px 0px 0px 0px;}
+h4 { color: #317084; font-size: 0.9em;background-color: #f9f9f9; padding: 2px 4px; text-align: left;}
+
+img {border: none;}
+
+/**main nav**/
+.navback {background: url('images/navback.jpg') no-repeat; }
+#navcontainer {width: 950px; height: 43px; float: left; }
+#navlist{list-style-type: none; margin: 15px 0 0 120px;	}
+#navlist ul{margin: 10px 0px;}
+#navlist li{ line-height: 1.5em; margin: 0 .5em 0 -.8em; padding: 0 .5em 0 .8em; float: left; }
+#navlist a {color: #fff; font-size: 14px;text-decoration: none; }
+#navlist a:hover{text-decoration: none; color:#317084;}
+#navlist li.selected{ margin: 0 .5em 0 -.8em; padding: 0 .5em 0 .8em; }
+#navlist li.selected a{color:#317084; font-weight: bold;} /*selected sub tab style */
+#navlist li.selected a:hover{text-decoration: none;} /*selected subtab style */
+
+/**news**/
+.newstabs{padding: 7px 0 10px  0; margin: 0 0 0 15px; list-style-type: none;text-align: left; font-size: 12px;}
+.newstabs ul{margin: 0px; padding: 0px;}
+.newstabs li{display: inline; margin: 0; padding: 0px;}
+.newstabs li a{text-decoration: none; padding: 3px 5px; margin-right: 3px;color:#317084; background: #8fb5bf; border: 1px solid #317084; font-weight: normal;font-size: 12px;}/*med*/
+.newstabs li a:visited{color: #317084;}
+.newstabs li a:hover{color: #317084; background: #bbd2d8;}/*lite*/
+.newstabs li.selected{ padding: 0;  0;margin: 0;}
+.newstabs li.selected a{background-color:#317084; color:#fff;} /*selected sub tab style * dark*/
+.newstabs li.selected a:hover{text-decoration: none;} /*selected subtab style */
+
+.newstabcontentstyle{ width: 530px; height: 100% auto; margin: 0px; padding: 0px; float: left;}/*style of tab content container*/
+.tabcontent{display:none; } /*content is there but doesn't show until needed*/
+
+#ads ul{margin: 0 10px}
+#ads li{padding: 1px;}
+
+ul#mags, ul#ads {margin: 3px 0 0 15px;}
+#mags li, #ads li {padding: 0 0 8px 0px;}
+
+#left{width: 170px; height: 100% auto; margin: 0 0px; padding: 0px; float: left;}
+#middle{width: 530px; height: 100% auto; margin: 0 15px;float: left;}
+html #middle {width: expression(530); overflow-x: auto; overflow-y: hidden;}
+#right{width: 200px; height: 100% auto; margin: 0 5px; padding: 0px;float: right;}
+
+#feedboxes{width: 530px; height: 100% auto; float: left; margin: 0 0 15px 0;}
+
+.brdr {border: 1px solid #317084; margin: 10px;}
+.floatl {float: left;}
+.floatr	{float: right;}
+
+#footer {clear: both; width: 950px; height: 20px; background:#8fb5bf; color: #fff; font-size: 10px; text-align: center;}
+
+
+/* begin styles for RSS Feed */
+
+.rss-items {margin-top:0px; padding:0.5em; margin-left:0px;color:#000000;font-family: "Trebuchet MS", Arial;}
+p.rss-title {padding:0 0 0 0.5em;font-family: "Trebuchet MS", Arial;}
+.rss-title {font-size: 12pt; font-family: "Trebuchet MS", Arial;color: #317084; font-weight:bold; text-decoration: none;}
+.rss-item  {list-style:none;padding-bottom:1em;font-family: "Trebuchet MS", Arial;}
+.rss-item a {font-weight:bold;font-family: "Trebuchet MS", Arial;color: #317084;}
+.rss-item a:visited {color: black;font-family: "Trebuchet MS", Arial;}

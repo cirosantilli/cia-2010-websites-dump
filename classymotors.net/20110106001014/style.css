@@ -1,0 +1,334 @@
+html {
+	min-height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #963;
+}
+
+a:hover {
+	color: #C60;
+}
+
+body {
+	background: #c7ab84 url(img2/bg.jpg) repeat-x top;
+	color: #444;
+	font: normal 62.5% Tahoma,sans-serif;
+}
+
+p,code,ul {
+	padding-bottom: 1.2em;
+}
+
+li {
+	list-style: none;
+}
+
+blockquote {
+	background: url(img2/quote.gif) no-repeat;
+	display: block;
+	font-weight: bold;
+	padding-left: 28px;
+}
+
+h1 {
+	font: normal 0.9em Tahoma,sans-serif;
+	margin-bottom: 4px;
+}
+
+h1,h2,h3 {
+	padding-top: 6px;
+}
+
+h5 {
+	padding: 6px 0 0 10px;
+	color:#999;
+	font-weight: lighter;
+	font-size: x-small;
+}
+
+/* misc */
+.clearer {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.ads img{
+	text-decoration: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+/* structure */
+.container {
+	background: #FFF;
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+	width: 780px;
+}
+
+/* header */
+.top {
+	padding: 20px 10px 0;
+}
+
+/* title */
+.header {
+	background: #FFF;
+	font-size: 1.2em;
+	height: 250px;
+	margin: 0 auto;
+	padding: 10px 10px 5px;
+	width: 780px;
+}
+
+.header .topimg {
+	background: #B3C2C7 url(img2/header_01.jpg) no-repeat;
+	font: normal 2.8em "Trebuchet MS",sans-serif;
+	line-height: 150px;
+	width: 780px;
+	height:125px;
+}
+
+.header .botimg {
+	background: #B3C2C7 url(img2/header_02.jpg) no-repeat;
+	width: 780px;
+	height:125px;
+}
+
+/* navigation */
+.navigation {	
+	background: #D9E1E5 url(img2/nav.gif);
+	height: 41px;
+	margin:0 auto;
+}
+
+.navigation a {
+	background: #D9E1E5 url(img2/nav.gif);
+	border-right: 1px solid #ffffff;
+	color: #456;
+	display: block;
+	float: left;
+	font: bold 1.1em sans-serif;
+	line-height: 41px;
+	padding: 0 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	background-position: left bottom; 
+	color: #234;
+}
+
+/* main */
+.main {
+	border-top: 4px solid #FFF;
+	background: url(img2/bgmain.gif) repeat-y;
+}
+
+/* sub navigation */
+.sidenav {
+	float: left;
+	width: 210px;
+	background:#c7ab84;
+}
+
+.sidenav h3 {
+	color: #ffffff;
+	font-size: 1em;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 0px;
+	text-align:center;
+}
+
+.sidenav ul {
+	padding: 0;
+	border-top: 1px solid #EAEADA;
+}
+
+.sidenav li {
+	border-bottom: 1px solid #EAEADA;
+}
+
+.sidenav li a {
+	font-size: 1.1em;
+	color: #554;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+
+.sidenav li a:hover {
+	color: #654;
+	background-color: #F3EDE4;
+}
+
+.sidenav .image {
+	width:210px;
+}
+
+.image {
+	width:100%;
+}
+
+/* content */
+.content {
+	float: right;
+	margin: 10px 0;
+	padding: 0 16px;
+	width: 531px;
+}
+
+.content .descr {
+	color: #664;
+	font-size: 0.6em;
+	margin-bottom: 6px;
+}
+
+.content li {
+	margin-left: 18px;
+	list-style-position: inside;
+	list-style-image: url(img2/li.gif);
+	list-style-type: disc;
+}
+
+.content p {
+	font-family: "Lucida Sans Unicode",sans-serif;
+}
+
+.main .content img{
+	float: left;
+	margin: 10px 10px 10px 0;
+	background-color: #FFF;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+/* Car Makers */
+#carmakers01, 
+#carmakers02, 
+#carmakers03,
+#carmakers04 {
+	width:125px;
+	float:left;
+}
+
+#carmakers01, 
+#carmakers02, 
+#carmakers03 ul {
+	list-style:circle;
+}
+
+#carmakers01 ul li,
+#carmakers02 ul li,
+#carmakers03 ul li {
+	padding:0 0 0 6px;
+}
+
+#carmakers01 ul li a,
+#carmakers02 ul li a,
+#carmakers03 ul li a {
+	font-weight:normal;
+	color:#716F64;
+	text-decoration:none;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+}
+#carmakers01 ul li a:hover,
+#carmakers02 ul li a:hover,
+#carmakers03 ul li a:hover {
+	color:#F60;
+	text-decoration: underline;
+}
+
+/* RSS FEED FORMAT */
+
+.rssfeed a:link, 
+.rssfeed a:visited {
+	margin: 0;
+	text-decoration: underline;
+	color: #960;
+	line-height: 14px;
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:0.9em;
+}
+
+.rssfeed a:hover, 
+.rssfeed a:active {
+	margin: 0;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #000;
+}
+
+.rssfeed ul {
+	margin-top: 16px;
+	margin-left: 5px;
+}
+
+.rssfeed li {
+	margin-top: 12px;
+	list-style-position: inside;
+	list-style-type: circle;
+}
+
+/* login */
+
+#e_login {
+	margin: 0 auto;
+	width: 760px;
+	padding: 0 0 0 5px;
+	text-align: left;
+	color: #000;
+}
+
+#e_login img {
+	margin: 0 auto;
+/*	padding-left:10px;*/
+/*	padding-right:10px;*/
+}
+
+/* footer */
+
+.footer {
+	background: url(img2/bgfooter.gif) repeat-x bottom;
+	color: #FFF;
+	font: .9em sans-serif;
+	line-height: 40px;
+	text-align: center;	
+}
+
+.footer p{
+	padding-top:20px;
+	color: #FFF;	
+}
+

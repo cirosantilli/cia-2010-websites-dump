@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*SandStorm News CSS Document */
+
+body {margin:0; padding:0; background: #d8b592;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#934f1c;}
+h1 {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#1076d6; line-height:2px; margin: 30px 0 0 25px;}
+a{ text-decoration: none; color: #236db6; font: 11px Verdana, Arial, Helvetica, sans-serif; line-height:20px; }
+a:visited{ color: #236db6; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif;}
+hr { color: #e9e9e9; }
+
+#wrap {float:right; width:900px; height:auto; background:url(images/ssn-img_20.jpg) repeat-y;}
+
+#header {float:right; width:900px; height:auto;}
+#header-col-01 {float:right; width:540px; height:auto;}
+#header-col-02 {float:right; width:180px; height:auto;}
+#header-app {float:right; width:180px; height:84px; background:url(images/ssn-img_04.jpg) no-repeat;}
+
+#col-01 {float:right; width:590px; height:900px; background:url(images/ssn-img_16.jpg) top no-repeat;}
+#col-ads {float:right; width:200px; height:900px; }
+#col-feeds {float:right; width:380px; height:869px; border: double 3px #000000; margin: 20px 0 0 0; }
+
+#col-02 {float:right; width:310px; height:775px; background:url(images/ssn-img_17.jpg) top no-repeat;}
+#col-02 ul {list-style: none; margin: 90px 120px 0 0;padding: 0;}
+#col-img {float:right; width:181px; height:125px;}
+
+#infofeed {float:left; width:380px; height:840px; overflow: auto; visibility: visible; /*border:solid 1px #CC0000;*/ margin: 0 0 0 0;}
+#infofeed ul {list-style: none;margin: 20px 15px 0 15px;padding: 0;}
+h3 {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:17px; margin: 0; padding: 5px 20px 5px 5px; height:auto; width:100%; background-color:#bd9b74; height:auto; border-bottom: double 3px #000;  }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#6189d0; font-size:14px;} /*row & description of link*/
+li a {text-decoration: none; color: #3b5ba1; font-size:16px; font-weight:bold;} /*link*/
+li a:hover {color:#3b5ba1; text-decoration: underline;}
+
+
+#wrap {float:left; width:850px; height:auto;}
+
+#header {float:left; width:850px; height:112px;}
+
+#nav {float:left; width:850px; height:42px; background:url(images/badminton_11.jpg) no-repeat;}
+
+#col-1-whole {float:left; width:250px; height:auto;}
+
+#col-1-news-header {float:left; width:250px; height:56px;}
+
+#col-1-news-meat {float:left; width:250px; height:auto; background:url(images/badminton_15.jpg); background-repeat:repeat-y;} 
+#col-1-text {float:left; width:230px; height:auto; margin:10px 0 0 10px; display:inline; overflow:auto; visibility:visible;}
+
+#col-1-applet-box {float:left; width:250px; height:auto; background:url(images/badminton_15.jpg); background-repeat:repeat-y;}
+#col-1-applet-meat {float:left; width:230px; height:150px; margin:20px 0 0 10px; display:inline; overflow:auto; visibility:visible;}
+
+#col-2-whole {float:left; width:350px; height:auto;}
+#col-2-feed {float:left; width:350px; height:723px; background:url(images/badminton_13.jpg) no-repeat;}
+.box-right {width: 322px; height: 703px; margin: 7px 0px 0 15px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible;}
+
+#col-2-terminology-header {float:left; width:350px; height:56px;}
+#col-2-terminology-meat {float:left; width:350px; height:auto;}
+#col-2-text {float:left; width:330px; height:auto; margin:10px 0 0 10px; display:inline; overflow:auto; visibility:visible;}
+
+#col-3-whole {float:right; width:250px; height:auto;}
+
+#col-3-groups-header {float:right; width:250px; height:56px;}
+
+#col-3-groups-meat {float:right; width:250px; height:auto; background:url(images/badminton_15.jpg); background-repeat:repeat-y;}
+
+#col-3-text {float:left; width:230px; height:auto; margin:10px 0 0 10px; display:inline; overflow:auto; visibility:visible;}
+
+#apple {float:left; width:250px; height:190px; background:url(images/badminton_15.jpg); background-repeat:repeat-y;}
+#apple-insert {float: left; width:120px; height:190px; margin:10px 0 0 65px; display:inline; visibility:visible; overflow:auto;}
+
+#ad-whole {float:left; width:250px; height:150px; background:url(images/badminton_15.jpg); background-repeat:repeat-y;}
+#ad {float:left; width:214px; height:124px; margin:20px 0 0 18px;}
+
+
+    #tabs1 {
+      float:left;
+      width:328px;
+	  margin:13px 0 0 262px;
+	  background:#F4F7FB;
+      font-size:10px;
+      line-height:normal;
+	  border-bottom:1px solid #BCD2E6;
+      }
+    #tabs1 ul {
+	  margin:0;
+	  padding:0px 0px 0 0px;
+	  list-style:none;
+      }
+    #tabs1 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs1 a {
+      float:left;
+      background:url(images/tableft1.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs1 a span {
+      float:left;
+      display:block;
+      background:url(images/tabright1.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#627EB7;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs1 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#627EB7;
+      }
+    #tabs1 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs1 a:hover span {
+      background-position:100% -42px;
+      }
+
+
+	  

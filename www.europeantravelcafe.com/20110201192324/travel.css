@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {	font-size: 75%; font-family: "Lucida Grande", "Trebuchet MS", "Bitsream Vera Sans", Verdana, Helvetica, sans-serif;  background: #FFFFFF; margin: 0; padding: 0;
+	color: #000000;}
+
+#wrap { position: relative; width: 1068px; 	height: 100% auto; margin: 0 0 0 -538px; left: 50%;	background: url(images/bkgrnd.jpg) repeat-y;}
+
+#header { clear: both;	width: 1068px;  height: 100% auto;	background: #900;	margin: 0 auto;}
+
+#mainwrap { clear: both;	width: 1068px;  height: 100% auto;	background: url(images/bkgrnd.jpg) repeat-y;	margin: 0 auto;}
+
+ul{margin: 0; padding: 0;}
+li{display: block; margin: 0; padding: 3px 0px;}
+
+ul li ul{margin-left: 20px;}
+
+a{text-decoration: none; color: #976C3E; font-weight: bold; font-family: Georgia, "Times New Roman", Times, serif;  } /* color brown */
+a:hover{color: #990000; }
+a:active, a#focus{color: #396; }
+
+h2{color: #333; font-size: 160%; padding: 0px 0px 0px 0px; margin: 0 0 5px 0; font-weight: normal; font-variant: small-caps; font-family: Georgia, "Times New Roman", Times, serif; border-bottom: 1px dashed #c63;}
+h3{color: #369; font-size: 120%; padding: 0px; margin: 5px 0 2px 0; font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif;  text-transform: capitalize;}
+
+
+#nav{float: left; width: 521px; height: 175px; background: url(images/nav.jpg) no-repeat;}
+#nav ul{margin: 70px 10px 0px 10px; padding: 0px; width: 450px; height: 100% auto; }
+#nav ul li{display: inline; padding: 5px 5px; margin: 5px 0px; list-style: none; font-size: 12px; white-space: nowrap; font-family: Georgia, "Times New Roman", Times, serif;}
+#nav ul li a{padding: 3px 5px; margin: 0px;}
+#nav ul li a#active, #nav ul li a#focus, #nav ul li a#selected{color: #690;}
+
+#header ul{float: left; width: 1068px; height:100% auto; margin: 0px; padding: 0px;}
+#header li{list-style: none; border: none; display: inline;}
+
+
+#boxinfo{float: left; width: 547px; margin: 0px; padding: 0px; background: url(images/bkgrnd.jpg) repeat-y;}
+#sidebar{float: right; width: 521px;  margin: 0px; padding: 0px; background: url(images/ad_space.jpg) no-repeat 175px right;}
+.indentleft{margin: 0px 0px 0px 75px; width: 450px; padding: 0px;}
+
+#europeairlines{height: 1000px; overflow: auto;}
+
+#lo-ad{float: left; width: 125px; height: 125px;}
+
+#tw-ad{float: left; width: 215px; height: 103px;}
+
+
+#ads{float: left; width: 430px; height: 100% auto; }
+#ads li{ margin: 0px; padding: 5px 10px;}
+#feature{width: 300px; }
+#footer{clear: both; width: 1068px; height: 42px; margin: 0px; padding: 0px; background: url(images/footer.jpg) no-repeat;}
+
+
+/* Miscellaneous classes for reuse */
+.fltrt {	float: right;	margin-left: 5px;}
+.fltlft { 	float: left;	margin-right: 5px;}
+.clearfloat {	clear:both;    height:0;    font-size: 1px;    line-height: 0px;}
+.box{width: 320px;}
+.imgcenter{text-align: center;}
+.minicol{width: 150px; }
+.scroll{background: #FFFFFF; padding: 5px;
+scrollbar-face-color:#FFFFFF;
+scrollbar-arrow-color:#006699;
+scrollbar-track-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+}

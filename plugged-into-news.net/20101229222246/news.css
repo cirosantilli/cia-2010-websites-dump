@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: #333; 
+}
+
+ul {margin:0; padding:0; display:block; border:0px}
+li {margin:0; padding:4px 8px 4px 8px; list-style:none; border:0px;} 
+
+a:link {  text-decoration:none; font-weight:bold; letter-spacing: .1em; color:#660099; }
+a:visited {	text-decoration:none; font-weight:bold; letter-spacing: .1em; color:#660099; }
+a:hover { text-decoration:none; font-weight:bold; letter-spacing: .1em; color:#000;}
+a:active { text-decoration: none; font-weight:bold;	letter-spacing: .1em; color:#660099;}
+
+ul#nav {margin:0; padding:0px;  display:block; text-align:right; border:0px}
+li#nav {margin:0; padding:5px 5px 5px 0px; list-style:none; border:0px;} 
+
+li#nav a:link {  text-decoration:none; font-weight:bold; color:#660099; }
+li#nav a:visited { text-decoration:none; font-weight:bold; color:#660099; }
+li#nav a:hover { text-decoration:none; font-weight:bold; color:#000;}
+li#nav a:active { text-decoration: none; font-weight:bold; color:#660099;}
+
+li#nav2 a:link {  text-decoration:none; font-weight:bold; color:#0099cc; }
+li#nav2 a:visited { text-decoration:none; font-weight:bold; color:#0099cc; }
+li#nav2 a:hover { text-decoration:none; font-weight:bold; color:#000;}
+li#nav2 a:active { text-decoration: none; font-weight:bold; color:#0099cc;}
+
+ul#bullets {list-style:none; margin:0px; padding:0px 10px 0px 10px; text-transform: uppercase;}
+
+ul#bullets a:link {  text-decoration:none; font-weight:bold; color:#0099cc; }
+ul#bullets a:visited { text-decoration:none; font-weight:bold; color:#0099cc; }
+ul#bullets a:hover { text-decoration:none;  font-weight:bold; color:#000;}
+ul#bullets a:active { text-decoration: none; font-weight:bold; color:#0099cc;}
+
+li#bullets {background:transparent url(images/bullet.gif) no-repeat left center;  padding:4px 0px 4px 15px;  border-bottom: 1px solid #cccccc;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+li#bulletsa {background:transparent url(images/bullet.gif) no-repeat left center;  padding:4px 0px 4px 15px;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#bullets1 {list-style:none; margin:0px; padding:0px 10px 0px 10px; text-transform: uppercase;}
+
+ul#bullets1 a:link {  text-decoration:none; font-weight:bold; color:#c93ba9; }
+ul#bullets1 a:visited { text-decoration:none; font-weight:bold; color:#c93ba9; }
+ul#bullets1 a:hover { text-decoration:none;  font-weight:bold; color:#000;}
+ul#bullets1 a:active { text-decoration: none; font-weight:bold; color:#c93ba9;}
+
+li#bullets1 {background:transparent url(images/bullet2.gif) no-repeat left center;  padding:4px 0px 4px 15px;  border-bottom: 1px solid #cccccc;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+li#bullets1a {background:transparent url(images/bullet2.gif) no-repeat left center;  padding:4px 0px 4px 15px; } /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#bullets2 {list-style:none; margin:0px; padding:0px 10px 0px 10px; text-transform: uppercase;}
+
+ul#bullets2 a:link {  text-decoration:none; font-weight:bold; color:#660099; }
+ul#bullets2 a:visited { text-decoration:none; font-weight:bold; color:#660099; }
+ul#bullets2 a:hover { text-decoration:none;  font-weight:bold; color:#000;}
+ul#bullets2 a:active { text-decoration: none; font-weight:bold; color:#660099;}
+
+li#bullets2 {background:transparent url(images/bullet1.gif) no-repeat left center;  padding:4px 0px 4px 15px;  border-bottom: 1px solid #cccccc;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+li#bullets2a {background:transparent url(images/bullet1.gif) no-repeat left center;  padding:4px 0px 4px 15px; } /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#bullets3 {list-style:none; margin:0px; padding:6px 10px 0px 10px; text-transform: uppercase;}
+
+ul#bullets3 a:link {  text-decoration:none; font-weight:bold; color:#77ac2a; }
+ul#bullets3 a:visited { text-decoration:none; font-weight:bold; color:#77ac2a; }
+ul#bullets3 a:hover { text-decoration:none;  font-weight:bold; color:#000;}
+ul#bullets3 a:active { text-decoration: none; font-weight:bold; color:#77ac2a;}
+
+li#bullets3 {background:transparent url(images/bullet3.gif) no-repeat left center;  padding:5px 0px 5px 15px; } /*Always put at the begining of the css to eliminate the bullets.*/
+
+h1 {font-size: 10px; font-weight: bold; letter-spacing: .2em; margin: 0px 0px 0px 0px; padding: 0px; color:#000; width: auto;}
+
+
+img {
+border:0;
+}
+
+#wrap {
+     width:970px; 
+	 height: 1200px;
+	 margin: 0 auto;
+   	 text-align: left;
+	 background:#fff;
+	 	 }
+	 
+#topbanner {
+     width:900px;
+	 height:204px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+#maincontent {
+      float:left; 
+	  width:970px;
+	  height:996px;
+	  margin:0px; 
+	  padding:0px;
+	  background: #fff; }
+	  
+#content_top {
+      width:970px;
+	  height:859px;
+	  margin:0px; 
+	  padding:0px;
+	 }
+	 
+#left_bar {
+	float:left;
+	display:inline;
+	width:208px;
+	height:859px;
+	margin:0px 24px 0px 24px;
+	padding:0px;
+	background-image:url(images/background.gif);
+	}	 
+	
+#left_top {
+	float:left;
+	width:208px;
+	height:219px;
+	margin:0px;
+	padding:0px;
+	background-image:url(images/man_computer.jpg);
+}
+
+#left_bottom {
+	float:left;
+	width:208px;
+	height:542px;
+	margin:0px;
+	padding:0px;
+}
+
+#feed_content {
+	float:left;
+	width:208px;
+	height:542px;
+	margin:0px;
+	padding:0px;
+	background-image:url(images/background.gif);
+}
+
+#feed_scroll {
+	float:left;
+	width:208px;
+	height:532px;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	background-image:url(images/background.gif);
+	overflow:auto;
+}
+	    
+#iframe_container {
+	float:left;
+	width:714px;
+	height:830px;
+	margin:30px 0px 0px 0px;
+	padding:0px;
+}
+
+#iframe_content {
+	float:left;
+	width:714px;
+	height:830px;
+	margin:0px;
+	padding:0px;
+}
+
+#iframe_left {
+	float:left;
+	width:457px;
+	height:830px;
+	margin:0px;
+	padding:0px;
+}
+
+#grey_box {
+	float:left;
+	width:457px;
+	height:474px;
+	margin:0px;
+	padding:0px;
+	background:#f3f3f0;
+}
+
+#box_left {
+	float:left;
+	width:211px;
+	height:454px;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+}
+
+#box_right {
+	float:left;
+	width:246px;
+	height:445px;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	background:#f3f3f0;
+	overflow:auto;
+}
+
+#box_top {
+	width:211px;
+	height:214px;
+	margin:0px;
+	padding:0px;
+}
+
+#box_bottom {
+	width:211px;
+	height:240px;
+	margin:0px;
+	padding:0px;
+}
+
+#bottom_content {
+	float:left;
+	width:457px;
+	height:355px;
+	margin:0px;
+	padding:0px;
+}
+
+#content_left {
+	float:left;
+	width:211px;
+	height:355px;
+	margin:0px;
+	padding:0px;
+}
+
+#content_left_top {
+	width:211px;
+	height:24px;
+	margin:0px;
+	padding:0px;
+}
+
+
+#content_right {
+	float:left;
+	width:246px;
+	height:334px;
+	margin:21px 0px 0px 0px;
+	padding:0px;
+	background:#fff;
+	overflow:auto;
+}
+
+#iframe_right {
+	float:left;
+	width:233px;
+	height:829px;
+	margin:0px 0px 0px 24px;
+	padding:0px;
+}
+
+#twitter {
+	float:left;
+	width:206px;
+	height:225px;
+	margin:0px;
+	padding:0px;
+	border: #0099cc 1px solid;
+}
+
+#blogs {
+	float:left;
+	width:206px;
+	height:225px;
+	margin:21px 0px 0px 0px;
+	padding:0px;
+	border: #cc0099  1px solid;
+}
+
+#rss {
+	float:left;
+	width:206px;
+	height:225px;
+	margin:21px 0px 0px 0px;
+	padding:0px;
+	border: #660099 1px solid;
+}
+
+#mags {
+	float:left;
+	width:208px;
+	height:85px;
+	margin:21px 0px 0px 0px;
+	padding:0px;
+}
+		
+#footer_content {
+	clear:both;
+	width:970px;
+	height:99px;
+	margin:21px 0px 0px 0px;
+	padding:0px;
+		}
+	
+#footer_left {
+	float:left;
+	width:363px;
+	height:99px;
+	margin:0px 24px 0px 24px;
+	_margin-left:12px;
+	padding:0px;
+}
+
+#footer_right {
+	float:left;
+	width:534px;
+	height:97px;
+	margin:0px;
+	padding:0px;
+	border: #77ac2a 1px solid;
+}
+
+#footer_image {
+	float:left;
+	display:inline;
+	width:97px;
+	height:97px;
+	margin:0px;
+	padding:0px;
+}
+
+#footer_podcast {
+	float:left;
+	display:inline;
+	width:120px;
+	height:97px;
+	margin:0px 10px 0px 0px;
+	padding:0px;
+}
+
+#footer_podcast2 {
+	float:left;
+	display:inline;
+	width:140px;
+	height:97px;
+	margin:0px 10px 0px 0px;
+	padding:0px;
+}
+ 
+.scroll {
+	filter: Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #660099;
+	}	
+	
+.image {
+margin:0px 9px 0px 0px;
+padding: 0px;
+}
+
+.rss-items {margin:-10px; padding:0px;}
+
+
+
+
+

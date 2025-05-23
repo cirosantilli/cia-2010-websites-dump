@@ -1,0 +1,381 @@
+html 	{
+	overflow: auto;
+	background-color:#000000;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#000000;
+	scrollbar-3dlight-color:#000000;
+	scrollbar-shadow-color:#000000;
+	scrollbar-darkshadow-color:#000000;
+	scrollbar-arrow-color:#ffffff;
+	scrollbar-track-color:#000000;
+	}
+
+body 	{	
+	margin: 0px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-variant: normal;
+	font-weight: normal;
+	overflow: auto;
+	color: #FFFFFF;
+	}
+
+p	{
+	color:#FFFFFF;
+	}
+
+
+img 	{ 
+	border-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+a 	{
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+a:link  {
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+.label 	{
+	width: 120px;
+	height: 80px;
+	}
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color:#FFFFFF;
+	} 
+
+ul 	{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color:#FFFFFF;
+	} 
+
+.sponsors   {	
+	font-size: 9px;
+        }
+
+
+h1  	{
+	font-size: 30px;
+	font-variant: normal;
+	font-weight: normal;
+	color: #1f2433;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+h2  	{
+	font-size: 11px;
+	font-variant: normal;
+	font-weight: heavy;
+	color: #FFFFFF;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+h3  	{
+	font-size: 14px;
+	font-variant: normal;
+	font-weight: normal;
+	color: #ffd200;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	}
+
+h4  	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-variant: normal;
+	font-weight: heavy;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #fec500;
+	text-align:center;
+	}
+
+
+
+
+/*- ads--------------------------- */
+
+.ads 	{
+	float: left;
+	width: 209px;
+	color: #FFFFFF;
+	font-size: 9px;
+	padding: 4px 0px 0px 15px;
+	text-align: left;
+	}
+
+.ads a 	{
+	float: left;
+	width: 209px;
+	color: #FFFFFF;
+	font-size: 9px;
+	padding: 1px 0px 0px 0px;
+	text-align: left;
+	}
+
+.ads a:visited {
+	float: left;
+	width: 209px;
+	color: #FFFFFF;
+	font-size: 9px;
+	padding: 1px 0px 0px 0px;
+	text-align: left;
+	}
+
+
+/*- nav buttons--------------------------- */
+	
+#nav 	{
+	width: 240px;
+	margin: 0px;
+	font-size: 12px;
+	font-variant: normal;
+	font-weight: normal;
+	border-style: solid solid none solid;
+	border-color: #FFFFFF;
+	border-size: 0px;
+	border-width: 0px;
+	text-align:center;
+	}
+	
+#nav li a {
+	height: 12px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+	}	
+	
+#nav li a:link, #nav li a:visited {
+	color: #000000;
+	display: block;
+	background:  url(images/nav.jpg);
+	text-align:center;
+	padding: 13px 2px 7px 2px;
+	}
+	
+#nav li a:hover {
+	color: #000000;
+	background:  url(images/nav.jpg) 0 -61px;
+	}
+
+#links 	{
+	width: 269px;
+	margin: 0px;
+	font-size: 11px;
+	font-variant: normal;
+	font-weight: normal;
+	border-style: solid solid none solid;
+	border-color: #FFFFFF;
+	border-size: 0px;
+	border-width: 0px;
+	}
+
+#links li a {
+	height: 20px;  	
+  	text-decoration: none;
+	}	
+	
+#links li a:link, #links li a:visited {
+	color: #FFFFFF;
+	display: block;
+	background:  url(images/links.jpg);
+	padding: 2px 0px 0px 0px;
+	text-align:center;
+	}
+	
+#links li a:hover {
+	color: #FFFFFF;
+	background:  url(images/links.jpg) 0 -20px;
+	padding: 2px 0px 0px 0px;
+	}
+
+#subprime {
+	width: 180px;
+	margin: 0px;
+	font-size: 11px;
+	font-variant: normal;
+	font-weight: normal;
+	border-style: solid solid none solid;
+	border-color: #3D261D;
+	border-size: 0px;
+	border-width: 0px;
+	}
+	
+#subprime li a {
+	height: 39px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 39px;
+	text-decoration: none;
+	}	
+	
+#subprime li a:link, #menu1 li a:visited {
+	color: #FFFFFF;
+	display: block;
+	background:  url(images/menu1.gif);
+	padding: 5px 0px 0px 0px;
+	text-align:center;
+	}
+	
+#subprime li a:hover {
+	color: #060468;
+	background:  url(images/menu1.gif) 0 -39px;
+	padding: 5px 0px 0px 0px;
+	}
+
+/*--- rss feeds--------------------------- */
+
+.rssfeedtitle {
+	background-color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	color:#0daffa;
+	}
+
+
+#rssfeed, #rssfeed a {
+	background-color:#000000;
+	color: #ffd200;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	}
+
+
+
+/*- layout--------------------------- */
+
+#wrap {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:910px;
+	height:1026px;
+}
+
+#ad {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:910px;
+	height:73px;
+	background-image: url(images/ad.jpg); 
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 0px;
+}
+
+#title {
+	position:absolute;
+	left:0px;
+	top:73px;
+	width:241px;
+	height:111px;
+	background-image: url(images/title.jpg); 
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 0px;
+}
+
+#cage {
+	position:absolute;
+	left:241px;
+	top:73px;
+	width:415px;
+	height:111px;
+	background-image: url(images/cage.jpg); 
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 0px;
+}
+
+#spotlight {
+	position:absolute;
+	left:656px;
+	top:73px;
+	width:254px;
+	height:111px;
+	background-image: url(images/spotlight.jpg); 
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 0px;
+}
+
+#col1 {
+	position:absolute;
+	left:0px;
+	top:184px;
+	width:240px;
+	height:812px;
+}
+
+#border1 {
+	position:absolute;
+	left:240px;
+	top:184px;
+	width:1px;
+	height:812px;
+	background-image: url(images/border1.jpg); 
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 0px;
+}
+
+#col2 {
+	position:absolute;
+	left:252px;
+	top:184px;
+	width:400px;
+	height:812px;
+}
+
+#border2 {
+	position:absolute;
+	left:656px;
+	top:184px;
+	width:1px;
+	height:812px;
+	background-image: url(images/border2.jpg); 
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 0px;
+}
+
+#col3 {
+	position:absolute;
+	left:657px;
+	top:184px;
+	width:253px;
+	height:812px;
+}
+
+#footer {
+	position:absolute;
+	left:0px;
+	top:996px;
+	width:910px;
+	height:30px;
+	background-image: url(images/footer.jpg); 
+	background-repeat: no-repeat;
+	padding: 10px 0px 0px 0px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+
+.padbox {
+	padding:10px;
+}
+

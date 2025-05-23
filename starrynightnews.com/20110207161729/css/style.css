@@ -1,0 +1,179 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background: #ffffff url(../images/bgheader.jpg) top repeat-x;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#73767b;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#wrapper{
+	background:url(../images/middle.jpg) left top repeat-y;
+	background-position:center;
+	width:1020px;
+	line-height:20px;
+	padding:0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#header {
+	padding:0px 0px 35px 0px;
+}
+
+.header_left {
+	width:350px;
+	float:left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.header_left a  {
+	color:#333333;
+}
+.header_center  {
+	float:left;
+	width:250px;
+	padding-top: 0px;
+	padding-right: 31px;
+	padding-bottom: 0px;
+	padding-left: 31px;
+}
+.header_right {
+	float:right;
+	width:350px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+/*	border:thin solid;*/
+}
+.logo {
+	height: 134px;
+	width: 350px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+/*	border:thin solid;*/
+}
+.clear {
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+.searchboxbg  {
+	height:94px;
+	padding-top:40px;
+}
+.searchboxbg form  { 
+	width:272px;
+	height:58px;
+	background-image: url(../images/search-back.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+			}
+.searchboxleft  {
+	background:url(../images/searchleft.gif) left top no-repeat;
+	height:58px;
+}
+.searchboxright  {
+	background:url(../images/searchright.gif) right top no-repeat;
+	height:58px;
+	padding:5px 10px 0px 0px;
+}
+.searchboxbg form .search  {
+	float:left;
+	padding:15px 0px 0px 10px;
+}
+.searchboxbg form .textfield  {
+	margin:14px 0px 0px 0px;
+	float:left;
+	height:28px;
+	font-size:22px;
+	width:120px;
+	background:#9c9586;
+	border:none;
+}
+.searchboxbg form .go  {
+	float:right;
+	margin:12px 13px 0px 0px;
+}
+.searchboxbg form .label  {
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#ebe9da;
+	float:left;
+	padding:20px 7px 0px 0px;
+}
+
+form  {
+	margin:0px;
+	padding:0px;
+}
+
+
+.topmenu  {
+	padding-top: 38px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.topmenu ul  {
+	margin:0px;
+	padding:0px 0px 40px 0px;
+}
+.topmenu ul li  {
+	display:block;
+	list-style:none;
+/*		border-bottom:1px dotted #a8a58f; */
+}
+.topmenu li a  {
+	background:url(../images/dice4.gif) 55px 10px no-repeat;
+	color:#38332e;
+	width:auto;
+	display:block;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 70px;
+}
+.topmenu li a:hover  {
+	background:#d3d2bc url(../images/dice4.gif) 55px 10px no-repeat;
+	color:#d23a02;
+}
+
+div.text_area  {
+	width:auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+/*		border-bottom-width: 1px;
+	border-bottom-style:dashed;
+	border-bottom-color: #CCCCCC; */
+	margin-top: 10px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+div.text_area p  {
+	text-align:justify;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#ads1  {
+	height:42px;
+	background: #000000 url(../images/bgfootsker.jpg) top repeat-x;
+}

@@ -1,0 +1,51 @@
+﻿
+html {
+	direction:rtl;
+	background-image: url(images/columnpurple.jpg);
+	background-repeat:no-repeat;
+}
+
+body {
+	filter:chroma(color=#0b0045);
+	scrollbar-face-color:#0b0045;
+	scrollbar-highlight-color:#0b0045;
+	scrollbar-3dlight-color:#0b0045;
+	scrollbar-shadow-color:#0b0045;
+	scrollbar-darkshadow-color:#0b0045;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-track-color:#0b0045;
+}
+
+
+.rsstitle {
+
+	font-size:23px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin: 15px 5px 5px 5px;
+	padding: 5px;
+	}
+
+
+#rsstext, #rsstext a {
+
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;	
+	}
+
+
+li 	{
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+	} 
+
+ul 	{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	} 
+
+
+

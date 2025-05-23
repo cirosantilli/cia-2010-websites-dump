@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href='css/myfeedcontrol.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div id='mainwrap'>
+<div id='main'>
+
+<div id='left' class='box2_4 m floatl'>
+<h2>Forex Watchlist</h2>
+<!-- Start FreeStockCharts.com WatchList Widget --><div align='center'><iframe width="200" height="137" scrolling="no" frameborder="0" style="border:none;" src="http://widgets.freestockcharts.com/WidgetServer/WatchListWidget.aspx?sym=EUR/USD,USD/JPY,GBP/USD,USD/CAD,AUD/USD&style=WLBlueStyle&w=200"></iframe></div> <!-- End FreeStockCharts.com WatchList Widget -->
+<br />
+<br />
+
+<h2>World Markets</h2>
+<div align='center'>
+  <iframe width="210" height="410" style="margin-bottom:5px" src="http://www.sanebull.com/widget_world_watch.jsp?market=all" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  </div><br />
+<br />
+
+
+
+<h2>Currency Monitor</h2>
+
+<div align="center" width="210px" style="font-size:12px"><iframe width="210" height="210" src="http://sanebull.com/widget_currencies.jsp" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div><!--DO NOT EDIT ABOVE!-->
+<br />
+<br />
+
+<h2>Stock Symbol Information</h2>
+<div align="center" width="210px" style="font-size:12px">
+  <iframe width="215" height="350" src="http://sanebull.com/widget_stock.jsp?sec=10&ticker=aapl&type=full" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  <br/></div>
+
+
+<div class='ads'>
+<ul>
+  <li><a href="http://www.duanemorris.com/" target="_blank"><img src="images/finance-ads/Duane.gif" width="140" height="38" border="0" /></a></li>
+        <li><a href="http://www.forbes.com/2007/03/29/global-high-performers-biz-07forbes2000-cz_sd_0329performers_land.html" target="_blank"><img src="images/finance-ads/logo_ghp.jpg" width="132" height="132" border="0" /></a></li>
+        <li><a href="http://news.moneycentral.msn.com/briefing/StockTicker.asp"><img src="images/finance-ads/logo_cnbc.jpg" width="120" height="42" border="0" /></a></li>
+        <li><a href="http://money.cnn.com/magazines/fortune/"><img src="images/finance-ads/logo_fortune.jpg" width="120" height="30" border="0" /></a></li>
+        <li><a href="http://www.reuters.com/"><img src="images/finance-ads/logo_reuters.jpg" width="120" height="42" border="0" /></a></li>
+        <li><a href="http://www.usatoday.com/money/default.htm"><img src="images/finance-ads/logo_usa.jpg" width="120" height="35" border="0" /></a></li>
+        <li><a href="https://us.etrade.com/e/t/home" target="_blank"><img src="images/finance-ads/ad_etrade.gif" width="120" height="90" border="0" /></a></li>
+        <li><a href="http://www.chinaventurenews.com/"><img src="images/finance-ads/logo_cvn.jpg" border="0" /></a></li>
+        <li><a href="http://www.guardian.co.uk/" target="_blank"><img src="images/finance-ads/guardian.jpg" width="120" height="60" border="0" /></a></li>
+        <li><a href="http://www.investormap.com/" target="_blank"><img src="images/finance-ads/invest.jpg" width="120" height="25" border="0" /></a></li>
+        <li><a href="http://www.ing.com/group/index.jsp"><img src="images/finance-ads/logo_ing.jpg" width="120" height="36" border="0" /></a></li>
+</ul>
+
+</div>
+<!--end left--></div>
+
+
+
+<div id='middle' class='box2_8 m floatl'>
+
+<div id="stockquote" >
+<h1 class='green'>Quote / Chart / Opinion / Profile</h1>
+ <FORM ACTION="http://www2.barchart.com/quick.asp" METHOD="POST" class="pad">
+<INPUT TYPE="TEXT" NAME="sym" SIZE="7" MAXLENGTH="5" VALUE="">
+<INPUT TYPE="RADIO" NAME="qs" CHECKED VALUE="quote">Quote
+<INPUT TYPE="RADIO" NAME="qs" VALUE="chart">Chart
+<INPUT TYPE="RADIO" NAME="qs" VALUE="opinion">Opinion
+<INPUT TYPE="RADIO" NAME="qs" VALUE="profile">Profile
+<INPUT TYPE="SUBMIT" VALUE="Go">
+</FORM>
+</div>
+<div id='newsfeeds' class='box2_8 mtb floatl'>
+<div id="feed-control">
+<span style="margin: 10px; padding: 4px; color: rgb(103, 103, 103); font-size: 11px;">Loading...</span>
+</div>
+<!-- Google Ajax Api
+-->
+<script src="http://www.google.com/jsapi?key=notsupplied-wizard" type="text/javascript"></script><!-- Dynamic Feed Control and Stylesheet -->
+
+ <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+    type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+function LoadDynamicFeedControl() {
+var feeds = [ {title: 'Market Wire', url: 'http://www.marketwire.com/rss/recentheadlines.xml' }, {title: 'Market Watch', url: 'http://feeds.marketwatch.com/marketwatch/realtimeheadlines/' }, {title: 'Americas Finance', url: 'http://www.ft.com/rss/world/americas/finance' }, {title: 'Asia Finance', url: 'http://www.financeasia.com/RSS/rss.ashx' }, {title: 'Middle East Finance', url: 'http://www.ameinfo.com/rss/ame_latest.xml' }, {title: 'Europe Finance', url: 'http://www.ft.com/rss/world/europe' }, {title: 'US Finance', url: 'http://www.ft.com/rss/home/us' }];
+var options = {
+stacked : true,
+horizontal : false,
+title : "Financial News"
+}
+new GFdynamicFeedControl(feeds, 'feed-control', options);
+}
+// Load the feeds API and set the onload callback.
+google.load('feeds', '1');
+google.setOnLoadCallback(LoadDynamicFeedControl);
+</script>
+
+<!--end feedcontrol--></div>
+<!-- ++End Dynamic Feed Control Wizard Generated Code++ -->
+
+<div id='newslinks' class='box2_8 mtb floatl'>
+<h2 class='green'>Financial Newslinks</h2>
+<div id='lnewslinks' class='box2_4 mr floatl'>
+<ul>
+      <li><a href="http://www.dailyfutures.com/" target="_blank">DailyFutures.com</a> - News, charts, and information for serious futures investors. </li>
+        <li><a href="http://dowjones.com/" target="_blank">DowJones.com</a> - All business news site. </li>
+        <li><a href="http://www.economist.com/markets" target="_blank">The Economist</a> - Financial and economic indicators for large economies and emerging markets. </li>
+        <li><a href="http://www.emgmkts.com/" target="_blank">Emerging Markets Companion</a> - Emerging markets financial news, mainly consisting of financial market data, bond data and mutual fund data. </li>
+        <li><a href="http://www.theflyonthewall.com" target="_blank">The Fly On The Wall</a> - Relevant market news and information. </li>
+        <li><a href="http://money.cnn.com/news/international/" target="_blank">Fortune - International</a> - World business news, markets and analysis. </li>
+        <li><a href="http://money.cnn.com/magazines/fortune/" target="_blank">Fortune Business Report</a> - Features breaking news about top companies, columns,</li>
+        <li><a href="http://www.fundaction.com" target="_blank">Fund Action</a> - Breaking news coverage of the mutual fund industry. </li>
+        <li><a href="http://www.howestreet.com/" target="_blank">HoweStreet.com</a> - A business information site, hosting a quantity of financial newsletter writers and sponsoring companies. Daily updates. </li>
+        <li><a href="http://www.iHaveNet.com/markets.html" target="_blank">iHaveNet.com: Stock Market News</a> - Portal for stock market news and information. </li>
+        <li><a href="http://www.iijoi.com/" target="_blank">Institutional Investor Journals</a> - Provides research on portfolio management and strategy, asset allocation issues. </li>
+        <li><a href="http://www.intermoney.com" target="_blank">InterMoney</a> - Worldwide financial news and analysis. Not just America, but also European market news </li>
+        <li><a href="http://money.aol.com/news" target="_blank">AOL Money &amp; Finance</a> - News - Provides investing and financial news updates.</li>
+        <li><a href="http://www.bayaninvest.com/" target="_blank">Bayan Invest Co.</a> - Offers Middle East and international news. Also Arab regional investment news. </li>
+        <li><a href="http://money.cnn.com/" target="_blank">CNN/Money</a> - World business and financial news. </li>
+         <li><a href="http://www.isfmagazine.com/" target="_blank">International Securities Finance</a> - News, data and features on stock lending. </li>
+ </ul></div>
+
+<div id='rnewslinks' class='box2_4 ml floatl'>
+<ul>
+		<li><a href="http://www.reuters.com/" target="_blank">Reuters</a> - Leading global provider of breaking financia l news </li>
+        <li><a href="http://www.techcentralstation.com" target="_blank">TechCentralStation</a> - Features in depth coverage on how public policy will affect a free market. </li>
+        <li><a href="http://ukcitymedia.co.uk" target="_blank">UKCityMedia</a> - UK City news grabbed from all sources </li>
+        <li><a href="http://online.wsj.com/public/us" target="_blank">The Wall Street Journal</a> - Collection of articles offering information and advice on online investing. </li>
+        <li><a href="http://www.investorsalley.com" target="_blank">Investors Alley</a> - Financial news and in-depth analysis on stocks, mutual funds, and personal finance. </li>
+        <li><a href="http://www.kagan.com" target="_blank">Kagan.com</a> - Worldwide investment and business.</li>
+        <li><a href="http://moneycentral.msn.com/investor/home.asp" target="_blank">MSN Money: CNBC</a> - Headline news, articles, reports, stocks and quotes, message boards, and a stock ticker. </li>
+        <li><a href="http://moneycentral.msn.com/" target="_blank">MSN MoneyCentral</a> - Microsoft's Financial Site </li>
+        <li><a href="http://www.newratings.com/" target="_blank">New Ratings, Inc.</a> - Covers equity research reports and ratings.</li>
+        <li><a href="http://www.nytimes.com/business/" target="_blank">The New York Times Online: Business News</a> - Provides business and financial news</li>
+        <li><a href="http://www.tradethenews.com/" target="_blank">Trade the News</a> - Broadcasting instant global credit market news for traders. </li>
+        <li><a href="http://www.sagientresearch.com/pt/" target="_blank">PlacementTracker</a> - Research and tracking service that exclusively reports on transactions in the private investment in public equities (PIPE) market. </li>
+        <li><a href="http://www.platts.com/" target="_blank">Platts</a> - Global commodity news and information. </li>
+        <li><a href="http://www.ljh.com/reports.htm" target="_blank">Research Reports - LJH Global Investments</a> - Reports about investment issues. </li>
+        <li><a href="http://www.worldfinancialnewsnetwork.com" target="_blank">World Financial News Network</a> - Collects and analyzes investment information on public companies worldwide. </li>
+        <li><a href="http://www.zdii.com" target="_blank">ZD Interactive Investor</a> - The latest news and commentary on fast moving tech stocks. Includes a pre-opening bell email newsletter. </li>
+</ul></div>
+<!--end links--></div>
+<!--end middle--></div>
+
+<div id='right' class='box2_4 m floatl'><!-- #BeginLibraryItem "/Library/ads-financial1.lbi" --><div class='ads'>
+    <ul>
+    <li><a href="http://www.marketwire.com" target="_blank"><img src="images/finance-ads/marketwire_logo.gif" width="100" height="33" border="0" /></a></li>
+    <li><a href="http://www.bloomberg.com/" target="_blank"><img src="images/finance-ads/bloomberg_com.gif" alt="Bloomberg.com" width="100" height="20" border="0"></a></li>
+    <li><a href="http://www.cnnmoney.com" target="_blank"><img src="images/finance-ads/cnnmoney.gif" width="100" height="21" border="0"></a></li>
+    <li><a href="http://www.businessweek.com/"><img src="images/finance-ads/businessweek.gif" alt="Business  Week" border="0" /></a></li>
+    <li><a href="http://online.wsj.com/" target="_blank"><img src="images/finance-ads/wsj_sm_logo.gif" width="170" height="30" border="0" /></a></li>
+    <li><a href="http://www.marketwatch.com/"><img src="images/finance-ads/logo_mw2.jpg" width="100" height="43" border="0" /></a></li>
+    <li><a href="http://moneycentral.msn.com/"><img src="images/finance-ads/logo_msn.jpg" width="125" height="30" border="0" align="middle" /></a></li>
+    <li><a href="http://smartmoney.com/"><img src="images/finance-ads/logo_smart.jpg" width="125" height="30" border="0" align="middle" /></a></li>
+    <li><a href="http://www.eloan.com/home"><img src="images/finance-ads/logo_eloan.jpg" width="120" height="28" border="0" /></a></li>
+    <li><a href="http://moneycentral.msn.com/community/message/board.asp?board=MoneyShow"><img src="images/finance-ads/ad_msnmoney.jpg" width="130" height="196" border="0" /></a></li>
+    <li><a href="http://www.itg.com/" target="_blank"><img src="images/finance-ads/ad_itg.gif" width="120" height="240" border="0" /></a></li>
+    <li><a href="http://www.biomedtracker.com/" target="_blank"><img src="images/finance-ads/BioMedTracker.gif" width="125" height="30" /></a></li>
+    <li><a href="http://www.rodmanandrenshaw.com/" target="_blank"><img src="images/finance-ads/Rodman_Renshaw_logo.gif" width="117" height="48" /></a></li>
+    <li><a href="http://www.lowenstein.com/" target="_blank"><img src="images/finance-ads/Lowenstein.gif" width="140" height="61" border="0" /></a></li>
+
+	</ul></div><!-- #EndLibraryItem --><!--end right--></div>
+
+<!--end main--></div>
+<!--end mainwrap--></div>
+</body>
+</html>

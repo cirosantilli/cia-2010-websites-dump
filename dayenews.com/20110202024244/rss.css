@@ -1,0 +1,149 @@
+
+
+* {
+	background:#none;
+	color: #000000;
+	}
+
+
+
+html 	{
+	overflow: auto;
+	scrollbar-face-color:#FFFFFF;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-shadow-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-arrow-color:#000000;
+	scrollbar-track-color:#FFFFFF;
+	text-align:left;
+	}
+
+body 	{	
+	margin: 0px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	font-weight: normal;
+	overflow: auto;
+	color: #000000;
+	}
+
+p	{
+	color:#000000;
+	}
+
+
+img 	{ 
+	border-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:left;
+	}
+
+a 	{
+	color: #ffd936;
+	font-weight: bold;
+	}
+
+a:link {
+	color: #ffd936;
+	font-weight: bold;
+	}
+
+a:visited {
+	color: #ffd936;
+	font-weight: bold;
+	}
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 00px 0px;
+	color:#000000;
+	display:block;
+	} 
+
+ul 	{
+
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	color:#000000;
+	display:block;
+	} 
+
+
+h2  	{
+	font-size: 16px;
+	font-variant: normal;
+	font-weight: heavy;
+	color: #6fbdff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+
+
+
+/*--- rss feeds--------------------------- */
+
+.rssfeedtitle {
+	background-color:none;
+	font-size:12px;
+	font-weight:bold;
+	color:#0049aa;
+	padding: 10px 20px 0px 0px;
+	text-align:left;
+	font-family: Tahoma, serifSansSerifMonospace  
+	}
+
+
+#rssfeed {
+	background-color:none;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 20px 0px 0px;	
+	}
+
+#rssfeed a {
+	background-color:none;
+	color: #0049aa;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 0px 0px 0px;	
+	}
+
+
+.rssfeedtitle2 {
+	background-color:none;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+	padding: 10px 20px 0px 0px;
+	text-align:left;
+	font-family: Tahoma, serifSansSerifMonospace  
+	}
+
+
+#rssfeed2 {
+	background-color:none;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 20px 0px 0px;	
+	}
+
+#rssfeed2 a {
+	background-color:none;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 0px 0px 0px;	
+	}
+
+
+
+
+

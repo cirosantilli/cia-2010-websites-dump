@@ -1,0 +1,62 @@
+a:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #594f48;
+	text-decoration: none;
+	background-color: #ead8c6;
+
+
+}
+a:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #796c63;
+	color: #ffffff;
+}
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #594f48;
+	font-weight: normal;
+}
+BODY { 
+	background-image: url(images/frame-2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	scrollbar-face-color:#f5f0e8; 
+	scrollbar-shadow-color: #999; 
+	scrollbar-highlight-color: #f5f0e8; 
+	scrollbar-3dlight-color: #f5f0e8; 
+	scrollbar-darkshadow-color: #f5f0e8; 
+	scrollbar-track-color: #f5f0e8; 
+	scrollbar-arrow-color: #666; 
+}
+H1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4f4840;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 15px;
+} 
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0;
+	margin-top: 5px;
+	line-height: 1.2;
+}
+ul li{padding-bottom: 10px;
+}

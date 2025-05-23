@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kanata News</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+       <script type="text/javascript" src="feeds.js"> </script> 
+       <script type="text/javascript">
+<!--
+function en(){var dq=[{eo:"http://www.kanata-news.com/servlet/feeds",fk:"sports"},{eo:"http://www.kanata-news.com/servlet/feeds",fk:"technology"},{eo:"http://www.kanata-news.com/servlet/feeds",fk:"business"},{eo:"http://www.kanata-news.com/servlet/feeds",fk:"entertainment"},{eo:"http://www.kanata-news.com/servlet/feeds",fk:"news"},{eo:"http://www.kanata-news.com/servlet/feeds",fk:"imgapp"}];gb(dq,8000);};window.onload=en;
+//-->
+</script>
+
+<!--code to link target to 2 iframes-->
+<script language="javascript"> 
+function loadTwo(iframe1URL, iframe2URL) 
+{ 
+parent.content.location.href=iframe1URL 
+parent.feeds.location.href=iframe2URL 
+} 
+</script> 
+</head>
+
+<body style="background: url(images/kanata_img_bkgd.jpg) repeat-x"><div id="wrap">
+<div id="sidewrap">
+<div id="sidetop"><div id="imgapp"></div><div id="imgbox"><img src="images/kanata_img_02.jpg"><img src="images/kanata_img_06.jpg"></div><img src="images/kanata_img_15.jpg"><img src="images/kanata_img_16.jpg"><img src="images/kanata_img_20.jpg"><img src="images/kanata_img_21.jpg"></div>
+<div id="box"><iframe name="feeds" id="feeds" allowtransparency="true" src="newslink.html" width="303" height="300" frameborder="0" framespacing="0" marginwidth="0" scrolling="no"></iframe></div>
+<div id="appbox">
+<div id="infoheader"><div id="appheader">News</div></div>
+<div id="appinfobox"><div class="appbox" id="news"></div></div>
+<div id="infofooter"><img src="images/kanata_img_sidebar_34.jpg"></div>
+<div id="infoheader"><div id="appheader">Sports</div></div>
+<div id="appinfobox"><div class="appbox" id="sports"></div></div>
+<div id="infofooter"><img src="images/kanata_img_sidebar_34.jpg"></div>
+<div id="infoheader"><div id="appheader">Entertainment</div></div>
+<div id="appinfobox"><div class="appbox" id="entertainment"></div></div>
+<div id="infofooter"><img src="images/kanata_img_sidebar_34.jpg"></div>
+<div id="infoheader"><div id="appheader">Technology</div></div>
+<div id="appinfobox"><div class="appbox" id="technology"></div></div>
+<div id="infofooter"><img src="images/kanata_img_sidebar_34.jpg"></div>
+<div id="infoheader"><div id="appheader">Business</div></div>
+<div id="appinfobox"><div class="appbox" id="business"></div></div>
+<div id="infofooter"><img src="images/kanata_img_sidebar_34.jpg"></div>
+</div>
+<div id="footerbar01"></div>
+</div>
+<div id="header"><img src="images/kanata_img_03.jpg"></div>
+<div id="btnbanner">
+<div id="tabs4">
+  <ul>
+    <li><a href="javascript:loadTwo('news.html','newslink.html')"><span>News</span></a></li>
+    <li><a href="javascript:loadTwo('business.html','businesslink.html')"><span>Business</span></a></li>
+    <li><a href="javascript:loadTwo('sports.html','sportslink.html')"><span>Sports</span></a></li>
+    <li><a href="javascript:loadTwo('technology.html','technologylink.html')"><span>Technology</span></a></li>
+    <li><a href="javascript:loadTwo('entertainment.html','entertainmentlink.html')"><span>Entertainment</span></a></li>
+    <li><a href="javascript:loadTwo('travel.html','travellink.html')"><span>Travel</span></a></li>
+  </ul>
+</div>
+</div>
+<div id="mainfeedbox"><iframe name="content" id="content" allowtransparency src="news.html" width="682" height="978" frameborder="0" framespacing="0" marginwidth="0" scrolling=no></iframe></div>
+</div>
+</body>
+</html>

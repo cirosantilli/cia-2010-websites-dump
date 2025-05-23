@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif; font-size: 12px; color: #333; background: #333;}
+
+#wrap{position: relative; width: 960px; height: 100% auto; margin: 0px 0px 0px -480px; left: 50%; background: #fff url(images/side_rpt.jpg) right repeat-y;}
+
+ul{margin: 0px; padding: 0px; list-style: none;}
+li{margin: 0px; padding: 5px 0px; display: block;}
+
+
+h2{margin: 0px; padding: 0px 5px; font-size: 1.1em; color: #fff; font-weight: bold; background: url(images/chrome.gif) repeat-x; }
+h3{margin: 0px; padding: 0px 5px; font-size: .9em; color: #333; font-weight: normal;}
+
+
+a{color: #369; text-decoration: none; font-weight: bold;}
+a:hover{color: #090;} /* green */
+
+#navigation{clear: both; width: 960px; height: 46px; background: #900 url(images/nav_bk.jpg) no-repeat;}
+#navigation ul{float: left; width: 600px; height: 32px; margin: 5px 0px 0px 20px; padding: 8px 8px 0px 8px;}
+#navigation ul li{display: inline; padding: 0px 10px;}
+#navigation ul li a{color: #fff; font-size: 1.1em; font-weight: normal; padding: 2px;}
+#navigation ul li a:hover{color: #090;}
+#navigation ul li a:active, #navigation ul li a#focus{color: #fff; background: #333;}
+
+#container{clear:both; width: 960px; height: 100% auto; margin: 0px; padding: 0px;}
+#main{float: left; width: 775px; height: 100% auto; min-height: 500px; background: #fff url(images/side_imgs.jpg) top right no-repeat;}
+#sidebar{float: left; width: 185px; height: 100% auto; min-height: 500px;  background: #900 url(images/side_rpt.jpg) repeat-y;}
+
+#footer{clear: both; width: 960px; height: 47px; margin: 0px; padding: 0px; background: url(images/footer.jpg) no-repeat;}
+
+
+#sidebar ul{margin-left: 10px; width: 160px; }
+
+#sidebar ul li{margin: 5px 0px;}
+#sidebar h2{margin-left: 10px; width: 150px; padding-left: 2px;}
+
+
+.col1{float: left; width: 290px; height: 100% auto; margin-left: 10px;}
+.col2{float: left; width: 310px; height: 100% auto; margin-left: 15px;}
+.title{color: #900; font-size: 1em; font-weight: bold; padding: 3px;}
+
+#nyt{float: left; width: 250px; height: 100% auto;}
+
+
+#google_news{clear:both; height: 100px; margin-left: 20px;}
+
+.box{padding: 5px;}
+
+td, tr{margin: 0px; padding: 0px;}
+
+#topstories p{margin: 0px; padding: 0px;}
+#gamechatter{float: left; width: 150px; margin-left; 20px;}
+#rumors, #history, iframe{padding-left: 10px; margin-bottom: 10px;}
+
+.rss-items li {margin-bottom: 15px;}
+
+.fltleft{float: left;}
+.fltright{float: right;}
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+
+.scroll{background: #fff;
+	scrollbar-3dlight-color:#123456;
+           scrollbar-arrow-color:#CCCCCC;
+           scrollbar-base-color:#123456;
+           scrollbar-track-color:#123456;
+           scrollbar-darkshadow-color:#123456;
+           scrollbar-face-color:#123456;
+           scrollbar-highlight-color:#123456;
+           scrollbar-shadow-color:#123456;}
+
+.imgcenter{text-align: center;}
+.imgpad{padding: 0px 0px 4px 8px;} /* pads text to the bottom and left for images aligned to the right */
+
+#gallery {float: left; width: 160px; height: 160px; margin-left: 10px;}

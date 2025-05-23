@@ -1,0 +1,121 @@
+
+
+* {
+	background:#none;
+	color: #ffffff;
+	}
+
+
+
+html 	{
+	overflow: auto;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#000000;
+	scrollbar-3dlight-color:#000000;
+	scrollbar-shadow-color:#000000;
+	scrollbar-darkshadow-color:#000000;
+	scrollbar-arrow-color:#CCCCCC;
+	scrollbar-track-color:#000000;
+	text-align:left;
+	}
+
+body 	{	
+	margin: 0px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	font-weight: normal;
+	overflow: auto;
+	color: #FFFFFF;
+	}
+
+p	{
+	color:#ffffff;
+	}
+
+
+img 	{ 
+	border-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:left;
+	}
+
+a 	{
+	color: #ffd936;
+	font-weight: bold;
+	}
+
+a:link {
+	color: #ffd936;
+	font-weight: bold;
+	}
+
+a:visited {
+	color: #ffd936;
+	font-weight: bold;
+	}
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 00px 0px;
+	color:#ffffff;
+	display:block;
+	} 
+
+ul 	{
+
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	color:#ffffff;
+	display:block;
+	} 
+
+
+h2  	{
+	font-size: 16px;
+	font-variant: normal;
+	font-weight: heavy;
+	color: #6fbdff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+
+
+
+/*--- rss feeds--------------------------- */
+
+.rssfeedtitle {
+	background-color:none;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	padding: 10px 20px 0px 0px;
+	text-align:left;
+	font-family: Tahoma, serifSansSerifMonospace  
+	}
+
+
+#rssfeed {
+	background-color:none;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 0px 20px 0px 0px;	
+	}
+
+#rssfeed a {
+	background-color:none;
+	color: #ffd936;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;	
+	}
+
+
+
+
+

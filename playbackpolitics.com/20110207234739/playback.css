@@ -1,0 +1,172 @@
+/* Playback.com */
+
+body {
+	background-image:url(#);
+	background-repeat:repeat-x;
+	background-color:#0060cd;
+	margin:20px;
+	padding:0;
+	text-align:left;
+}
+
+h1 {
+	font-size:24px;
+	color:#FFF;
+	font-weight:700;
+	margin:0;
+}
+
+h2 {
+	font-size:10px;
+	color:#000000;
+	margin:0;
+	font-weight:700;
+}
+
+h3 {
+	font-size:16px;
+	color:#000000;
+	font-weight:700;
+	margin:0;
+	padding-bottom:5px;
+	border-bottom:1px dotted #CCC;
+}
+
+p {
+	margin-top:5px;
+	padding-bottom:5px;
+	font-size:11px;
+	line-height:1.5em;
+}
+
+#container {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0 auto;
+	width:700px;
+	padding:10px;
+	height:auto;
+	background-color:#000000;
+	text-align:left;
+}
+
+#banner {
+	width:700px;
+	height:100px;
+	margin-bottom:10px;
+}
+
+#bannerLeft {
+	width:150px;
+	height:100px;
+	margin-right:10px;
+	background-image:url(images/0.jpg);
+	float:left;
+}
+
+#bannerRight {
+	width:529px;
+	height:49px;
+	float:left;
+	border:1px solid #CCC;
+	border-width:1px 0 0 1px;
+	padding:50px 0 0 10px;
+	background-image: url(images/headback.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+}
+
+#content {
+	background:url(images/bg1.gif) repeat-y;
+	height:1%;
+	}
+
+#leftColumn {
+	float:left;
+}
+
+#nav {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#nav a {
+	display:block;
+	font-size:11px;
+	color:#ffffff;
+	text-decoration:none;
+	padding:10px;
+	width:130px;
+	height:10px;
+	border-bottom:1px dotted #333;
+	
+}
+
+.rss-items	{list-style-type:none; list-style-image: url(images/imgr.gif)}
+#nav a:hover {
+	background-color:#333;
+}
+
+#leftColumnBottom {
+	width:130px;
+	color:#0b3c99;
+	padding-top: 75px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #000000;
+	background-image: url(images/bg1c.gif);
+	background-repeat: repeat-x;
+}
+
+#rightColumn {
+	float:left;
+	width:550px;
+	height:993px
+	padding-left: 3px;
+	color:#666;
+	text-align:left;
+	margin-top:3px;
+}
+
+#clear {
+	clear:both;
+}
+
+.date {
+	font-size:10px;
+	color:#999;
+	font-weight:normal;
+}
+
+#copyright {
+	padding-top:10px;
+	font:10px Arial,Helvetica,sans-serif;
+	color:#000000;
+}
+
+#copyright a {
+	text-decoration:none;
+	color:#000000;
+} 
+
+#copyright a:hover {
+	color:#000000;
+}
+#links {
+	width:500px;
+	color:#666;
+	text-align: left;
+}
+#iframe#pages {
+	width:550px;
+	color:#666;
+	text-align: left;
+	height:auto
+}
+.headlines {
+	border:0px;
+	background-color: #FFFFFF;
+	height: 60px;
+}

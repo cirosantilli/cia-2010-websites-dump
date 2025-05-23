@@ -1,0 +1,25 @@
+a:link {
+	font-family: "lucida sans unicode", "lucida grande", sans-serif;
+	font-size: 12px;
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 12px;
+
+}
+a:visited {
+	font-family: "lucida sans unicode", "lucida grande", sans-serif;
+	font-size: 12px;
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 12px;
+}
+a:hover {
+	font-family: "lucida sans unicode", "lucida grande", sans-serif;
+	font-size: 12px;
+	color: #336699;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 12px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Vuvuzela News</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	pic = new Image();
+	function divrefresh(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function preimager(imgSrc){
+    		pic.src = imgSrc;
+	}
+</script>
+</head>
+
+<body class="side-blk-bkgd">
+<div id="wrap">
+<div class="nav-bar">
+<div><img src="images/vuvu-img_01.jpg" width="275" height="214" alt="Vuvuzela News" /></div>
+<div id="rotta01"></div>
+<div id="space">
+<div id="rotta02"></div>
+<div id="rotta03"></div>
+</div>
+<div id="nav">
+<div class="wireframemenu">
+<ul>
+<li><a href="news.html" target="resize">News and Media</a></li>
+<li><a href="mag.html" target="resize">Magazines</a></li>
+<li><a href="confed.html" target="resize">Confederation</a></li>
+<li><a href="hist.html" target="resize">History</a></li>
+<li><a href="shop.html" target="resize">Shopping</a></li>
+<li><a href="play.html" target="resize">Players</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="colinfo">
+<iframe src="news.html" onLoad="calcHeight();" scrolling="NO" frameborder="0" width="700" height="20" name="resize" id="resize"></iframe>
+</div>
+</div>
+<script language="JavaScript"> 
+  <!--
+  function calcHeight()
+  {
+//find the height of the internal page
+var the_height=
+document.getElementById('resize').contentWindow.
+document.body.scrollHeight;
+
+//change the height of the iframe
+document.getElementById('resize').height=
+the_height;
+}
+//-->
+</script>
+<applet archive="vuvuzela.jar" code="a.a.a.c" height="0" mayscript="true" width="0">
+  <param name="rotta01" value="5000"><param name="rotta02" value="5000"><param name="rotta03" value="5000"></applet>
+</body>
+</html>

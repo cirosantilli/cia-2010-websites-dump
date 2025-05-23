@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333333; background: #000; font: 9pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;}
+
+#wrap{position: relative; width: 900px; height: 100% auto; /*margin: 0px -450px 0px 0px; padding: 0px; right: 50%;*/ background: #fff url(images/index_08.jpg) repeat-y;}
+
+#header{float: left; width: 656px; height: 229px; margin:0px; padding:0px; }
+#sidebar{float: right; width: 244px; height: 100% auto; background: url(images/index_05.jpg) no-repeat;}
+
+#main{float: left;  width: 656px; height: 100% auto; background: #fff url(images/index_08.jpg) repeat-y; margin: 0px; padding: 0px; }
+
+h1{color: #333; padding: 4px 4px 0px 4px; font-weight: normal;  font-size: 12px; background: #99cc00;  border-bottom: 1px solid #333; height: 16px;}
+h2{color: #336699; padding: 4px 4px 0px 4px; margin: 0px 0px 0px 0px; font-weight: normal;  font-size: 10pt; background: url(images/titles.jpg) repeat-x;  border-bottom: 1px solid #336699; height: 16px;}
+h3{color: #993399; padding: 4px 4px 0px 4px; margin: 0px 0px 2px 0px; font-weight: bold;  font-size: 12px;  height: 16px;}
+
+ul{margin: 0px 18px 0px 0px; padding: 2px 2px;}
+li{	margin-top: 2px; padding: 5px 2px 5px 0px; }
+
+a{color: #006699; text-decoration: none; font-weight: normal;}
+a:hover{color:#FF9900;}
+
+.rss-title, #linklist h2{font-weight: bold; font-size: 10pt; background: #eee; padding: 10px 5px 2px 0px; margin: 0px 5px 0px 0px; border: none; }
+.rss-items{margin: 0px 5px 0px 0px; border: 1px solid #ccc; padding: 2px 25px 2px 0px; list-style-image: url(images/rightarrow.gif);  vertical-align: top;}
+
+#news .rss-title{font-weight: bold; background: #eee; padding: 10px 5px 2px 0px; margin: 0px 5px 0px 0px;}
+#news .rss-items{margin: 0px 5px 0px 10px; padding: 2px 15px 2px 0px;}
+ul#sideads{background: #fff url(images/index_11.jpg) repeat-y; text-align: center; }
+#sideads li, .col3 li{text-align: center; list-style-image: none; list-style: none; padding: 10px 0px;}
+
+#nav{background: url(images/index_05.jpg) no-repeat; width: 244px; height: 322px; margin: 0px; padding: 0px;}
+#nav ul{ float: right; width: 244px; height: 100% auto; margin: 40px 0px 0px 0px; padding: 0px; }
+#nav ul li{  height: 100% auto; margin: 0px 10px 5px 0px; padding: 0px 5px 5px 10px;  list-style-image: url(images/blue_arrow.jpg); list-style-position: inside;}
+#nav ul li a{color:#fff; font-size: 12pt; font-weight: bold; margin: 0px; padding: 0px 5px; }
+#nav ul li a:hover{color: #99CC00;}
+
+.col1{float: right; width: 260px;/*width: 43.5%; */margin-right: 10px; margin-top:10px;}
+.col2{float: right; width: 340px;/*width: 43.5%;*/ margin-right: 10px; margin-top:10px; }
+.clearfloat {font-size: 1px; line-height: 0px; clear: both; height: 0px;}
+#adtop{float: right; width: 656px; height: 100% auto; background: url(images/index_06.jpg) top no-repeat; margin: 0px; padding: 0px;}
+.adcenter{text-align: center; padding: 5px 0px; }
+.whitebk{background: #fff; }
+#mobile, #aftab, #ictna, #linklist{width: 310px;}
+#linklist li{margin: 0px 10px 0px 0px; padding: 0px 10px 2px 00px; list-style-image: url(images/rightarrow.gif); vertical-align: top;  }
+#linklist .box{ border: 1px solid #ccc;padding-right: 5px;}
+#ads{clear: both; width: 100% auto; height: 100% auto; text-align: center; background: #fff url(images/index_08.jpg) repeat-y; padding: 10px 0px;}
+#applet{clear: both; width: 900px; height: 100% auto; background: #fff url(images/index_08.jpg) repeat-y; padding: 10px 0px;}
+#applet table{margin-right: 300px;}
+#footer{clear: both; width: 100% auto; height: 20px; color: #333; text-align: center; font-size: 9px; font-weight: normal; padding-top: 10px;}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color:#000;
+	font-size:12px;
+	background-color:#ff9966;
+	padding:0px;
+	margin:0px;
+	font-family:Helvetica, sans-serif;
+}
+a {color:#0033FF; font-weight:bold;}
+#wrap {position: relative; width:866px; height:100% auto; margin:0px; padding:0px; left:50%; margin-left:-433px;}
+#banner {float:left; width:866px; height:178px;}
+#nav {float:left; width: 306px; height: 704px;}
+#feeds {float: left; margin:0px; padding:0px; color:#000; width:525px; height:200px; font-size:12px; overflow:auto;}
+#links {float: left; margin:0px; padding:0px; color:#000; width:200px; height:350px; font-size:12px; overflow:auto;}
+#logos {float: left; margin:0px; padding-top:0px; padding-left: 0px; color:#000; width:345px; height:363px; font-size:12px;}
+
+
+#wirewrap {float:left; width:560px; height:117px;}
+#linkswrap {float:left; width: 215px; height:363px; padding:0px; margin:0px; background-image:url(images/index2_26.jpg); background-repeat:no-repeat;}
+#logowrap {float:left; width: 345px; height:363px; padding:0px; margin:0px; background-image:url(images/index2_27.jpg); background-repeat:no-repeat;}
+#framewrap {float:left; width:560px; height:224px;padding:0px; margin:0px; background-image:url(images/index2_07.jpg); background-repeat:no-repeat;}
+#contentwrap {float:left; width:866px; height:704px; padding:0px; margin:0px; }
+#copyright {float:left; width:866px; height:100% auto; text-align:center; color:#000;}
+
+.scroll {
+filter: Chroma(Color=#FFF); 
+overflow: auto; 
+scrollbar-face-color:#FFF; 
+scrollbar-shadow-color: #FFF; 
+scrollbar-highlight-color: #FFF; 
+scrollbar-3dlight-color: #FFF; 
+scrollbar-darkshadow-color: #FFF; 
+scrollbar-track-color: #FFF; 
+scrollbar-arrow-color: #000000; 
+} 
+

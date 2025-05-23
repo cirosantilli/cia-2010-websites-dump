@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#00073f; font-size:12px;} /*row & description of link*/
+li a {text-decoration: none; color: #1a853d; font-size:14px; font-weight:600;} /*link*/
+li a:hover {color:#1a853d; text-decoration: underline;}
+
+#wrap {float:left; width:800px; height:auto;}
+
+#wrap-bottom {float:left; width:800px; height:auto;}
+
+#header {float:left; width:800px; height:201px;}
+
+#column-1 {float:left; width:224px; height:1042px;}
+
+#col-2 {float:left; width:375px; height:888px;}
+#col-2-top {float:left; width:375px; height:615px; background:url(images/soccer_04.jpg) no-repeat;}
+#col-2-top-text {float:right; width:350px; height:605px; margin:0px 20px 0 0; display:inline; overflow:auto; visibility:visible;}
+#col-2-bottom {float:left; width:375px; height:273px; background:url(images/soccer_16.jpg) no-repeat;}
+
+#col-3 {float:left; width:201px; height:888px;}
+#col-3-top {float:left; width:201px; height:729px; background:url(images/soccer_05.jpg) no-repeat;}
+#col-3-bottom-whole {float:left; width:201px; height:159px;}
+#col-3-bottom-topleft {float:left; width:192px; height:137px; background:url(images/tl.jpg)  no-repeat;}
+#col-3-bottom-topright {float:left; width:9px; height:137px; background:url(images/tr.jpg) no-repeat;}
+#col-3-bottom-bottomleft {float:left; width:192px; height:22px; background:url(images/bl.jpg) no-repeat;}
+#col-3-bottom-bottomright {float:left; width:9px; height:22px; background:url(images/br.jpg)}
+
+#col-4-whole {float:left; width:576px; height:76px;}
+#col-4-whole-top {float:left; width:576px; height:60px;}
+#col-4-whole-top-left {float:left; width:51px; height:60px; background:url(images/soccer_22.jpg) no-repeat;}
+#col-4-whole-top-mid {float:left; width:468px; height:60px; background:url(images/soccer_23.jpg) no-repeat;}
+#col-4-whole-top-right {float:left; width:57px; height:60px; background:url(images/soccer_24.jpg) no-repeat;}
+
+#col-5 {float:left; width:576px; height:16px; background:url(images/soccer_27.jpg) no-repeat;}
+
+#col-6-whole {float:left; width:576px; height:60px;}
+#col-6-left {float:left; width:51px; height:60px; background:url(images/soccer_28.jpg) no-repeat;}
+#col-6-mid {float:left; width:468px; height:60px; background:url(images/soccer_29.jpg) no-repeat;}
+#col-6-right {float:left; width:57px; height:60px; background:url(images/soccer_30.jpg) no-repeat;}
+
+#col-7 {float:left; width:576px; height:18px; background:url(images/soccer_31.jpg) no-repeat;}
+
+
+#menu8 {
+	width: 201px;
+	margin:85px 15px 0 0;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #343436;
+	display: block;
+	background: url(images/menu8.gif);
+	}
+	
+#menu8 li a:hover {
+	color: #343436;
+	background: url(images/menu8.gif) 0 -32px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #343436;
+	background: url(images/menu8.gif) 0 -64px;
+	text-decoration:underline;
+	}

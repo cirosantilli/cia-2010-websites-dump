@@ -1,0 +1,45 @@
+﻿
+html {
+	direction:rtl;
+}
+
+
+body {
+	background-color:#FFFFFF;
+	scrollbar-face-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-3dlight-color:#ffffff;
+	scrollbar-shadow-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-arrow-color:#000000;
+	scrollbar-track-color:#ffffff;
+}
+
+
+.rssfeedtitle {
+	background-color:#FFFFFF;
+	font-size:17px;
+	font-weight:bold;
+	color:#000000;
+	}
+
+
+#rssfeed, #rssfeed a {
+	background-color:#FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;	
+	}
+
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	} 
+
+ul 	{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	} 

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cyber Reportage News</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+function loadTwo(iframe1URL, iframe2URL)
+{
+parent.content.location.href=iframe1URL
+parent.feeds.location.href=iframe2URL
+}
+</script>
+<script type="text/javascript">
+	pic = new Image();
+	function reportdiv(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function imageloader(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+<body>
+<div id="wrap">
+<div id="header"><img src="images/crn-img_01.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_02.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_03.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_04.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_05.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_06.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_07.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_08.jpg" alt="Cyber Reportage News" /></div>
+<div id="col-feed">
+<iframe name="feeds" id="feeds" src="news-feeds-01.html" height="1500" width="506" frameborder="0" marginwidth="0" scrolling="no"></iframe>
+</div>
+<div id="col-info-wrap">
+<div id="col-header"><img src="images/crn-img_10.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_11.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_12.jpg" alt="Cyber Reportage News" /></div>
+<div id="col-img-wrap">
+<div id="col-img"><img src="images/crn-img_13.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_19.jpg" alt="Cyber Reportage News" /></div>
+<div id="col-nav">
+<div class="wireframemenu">
+<ul>
+<li><a href="javascript:loadTwo('news-link-01.html','news-feeds-01.html')">Current Affairs</a></li>
+<li><a href="javascript:loadTwo('news-link-02.html','politics-feeds-01.html')">Politics</a></li>
+<li><a href="javascript:loadTwo('news-link-03.html','peace-feeds-01.html')">Peace Studies</a></li>
+<li><a href="javascript:loadTwo('news-link-04.html','magazines-feeds-01.html')">Magazines and E-zines</a></li>
+</ul>
+</div>
+</div>
+<div id="col-wrap">
+<DIV id="cyber2"></div>
+<DIV id="cyber1"></div>
+<div id="imgbox"><img src="images/crn-img_17.jpg" alt="Cyber Reportage News" /></div>
+<DIV id="cyber3"></div>
+<div id="imgbox"><img src="images/crn-img_20.jpg" alt="Cyber Reportage News" /><img src="images/crn-img_21.jpg" alt="Cyber Reportage News" /></div>
+</div>
+</div>
+<div id="col-info">
+<iframe name="content" id="content" src="news-link-01.html" height="1200" width="469" frameborder="0" marginwidth="0" scrolling="no"></iframe>
+</div>
+</div>
+</div>
+<applet archive="newsline.jar" code="b.a.a.c" height="0" mayscript="true" width="0">
+  <param name="cyber1" value="5000"><param name="cyber2" value="5000"><param name="cyber3" value="5000"></applet>
+</body>
+</html>

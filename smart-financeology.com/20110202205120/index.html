@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>smart-financeology</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+
+<script language="JavaScript" type="text/JavaScript"></script>
+
+<SCRIPT Language="JavaScript">
+
+<!-- hide from old browsers
+
+  // Copyright 1999, 2000 by Ray Stott
+
+  // OK to use if this copyright is included
+
+  // Script available at http://www.crays.com/jsc
+
+  var TimezoneOffset = -4  // adjust for time zone
+
+  var localTime = new Date()
+
+  var ms = localTime.getTime()
+
+             + (localTime.getTimezoneOffset() * 60000)
+
+             + TimezoneOffset * 3600000
+
+  var time =  new Date(ms)
+
+  var hour = time.getHours()
+
+  var minute = time.getMinutes()
+
+  var second = time.getSeconds()
+
+  var curTime = "" + ((hour > 12) ? hour - 12 : hour)
+
+  if(hour==0) curTime = "12"
+
+  curTime += ((minute < 10) ? ":0" : ":") + minute
+
+  curTime += ((second < 10) ? ":0" : ":") + second
+
+  curTime += (hour >= 12) ? " PM" : " AM"
+
+
+
+//-->
+
+</SCRIPT>
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+
+// Get today's current date.
+
+var now = new Date();
+
+
+
+// Array list of days.
+
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+
+
+// Array list of months.
+
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+
+
+// Calculate the number of the current day in the week.
+
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+
+
+// Calculate four digit year.
+
+function fourdigits(number)	{
+
+	return (number < 1000) ? number + 1900 : number;
+
+								}
+
+
+
+// Join it all together
+
+today =  days[now.getDay()] + ", " +
+
+              months[now.getMonth()] + " " +
+
+               date + ", " +
+
+                (fourdigits(now.getYear())) ;
+
+
+
+//  End -->
+
+</script>
+
+
+
+		<script type="text/javascript">
+
+
+
+/***********************************************
+
+* Local Time script- © Dynamic Drive (http://www.dynamicdrive.com)
+
+* This notice MUST stay intact for legal use
+
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+
+***********************************************/
+
+
+
+var weekdaystxt=["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
+
+
+
+function showLocalTime(container, servermode, offsetMinutes, displayversion){
+
+if (!document.getElementById || !document.getElementById(container)) return
+
+this.container=document.getElementById(container)
+
+this.displayversion=displayversion
+
+var servertimestring=(servermode=="server-php")? 'October 10, 2008 17:29:33' : (servermode=="server-php")? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '<%= Now() %>'
+
+this.localtime=this.serverdate=new Date(servertimestring)
+
+this.localtime.setTime(this.serverdate.getTime()+offsetMinutes*60*1000) //add user offset to server time
+
+this.updateTime()
+
+this.updateContainer()
+
+}
+
+
+
+showLocalTime.prototype.updateTime=function(){
+
+var thisobj=this
+
+this.localtime.setSeconds(this.localtime.getSeconds()+1)
+
+setTimeout(function(){thisobj.updateTime()}, 1000) //update time every second
+
+}
+
+
+
+showLocalTime.prototype.updateContainer=function(){
+
+var thisobj=this
+
+if (this.displayversion=="long")
+
+this.container.innerHTML=this.localtime.toLocaleString()
+
+else{
+
+var hour=this.localtime.getHours()
+
+var minutes=this.localtime.getMinutes()
+
+var seconds=this.localtime.getSeconds()
+
+var ampm=(hour>=12)? "PM" : "AM"
+
+var dayofweek=weekdaystxt[this.localtime.getDay()]
+
+this.container.innerHTML=formatField(hour, 1)+":"+formatField(minutes)+":"+formatField(seconds)+" "+ampm+" ("+dayofweek+")"
+
+}
+
+setTimeout(function(){thisobj.updateContainer()}, 1000) //update container every second
+
+}
+
+
+
+function formatField(num, isHour){
+
+if (typeof isHour!="undefined"){ //if this is the hour field
+
+var hour=(num>12)? num-12 : num
+
+return (hour==0)? 12 : hour
+
+}
+
+return (num<=9)? "0"+num : num//if this is minute or sec field
+
+}
+
+
+
+</script>
+
+
+
+</head>
+
+
+
+<body>
+
+<div id='wrap'>
+
+<div id='title'>
+
+<div id='r-images'>
+
+<!--ROTATING IMAGE--->
+
+
+
+<APPLET archive="clrbar.jar" code="vyqf.gmm.ubmr.xubr" width=180 height=36 mayscript/></APPLET>
+
+
+
+
+
+<!--end ROTATING IMAGE-->
+
+</div>
+
+</div>
+
+<div id='banner'>
+
+	<div id='navl' class="box2_4">
+
+        <ul class='nav'>
+
+        <li><a href="news.html" target="content">Financial News</a></li>
+
+        <li><a href="commodities.html" target="content">Commodities</a></li>
+
+         <li><a href="stocks.html" target="content">Stock &amp; Bonds</a></li>
+
+        <li><a href="funds.html" target="content">Funds &amp; Forex</a></li>
+
+        <li><a href="investments.html" target="content">Investments</a></li>
+
+        <li><a href="publications.html" target="content">Publications &amp; Resources</a></li>
+
+        </ul></div>
+
+        
+
+ <div id='navr'>
+
+        <h2>Major Index Watchlist</h2>
+
+	<!-- Start FreeStockCharts.com WatchList Widget --><div align='center'><iframe width="200" height="120" scrolling="no" frameborder="0" style="border:none;" src="http://widgets.freestockcharts.com/WidgetServer/WatchListWidget.aspx?sym=DIA,NYSE,COMPQX,SPY&style=WLBlueStyle&w=200"></iframe></div> <!-- End FreeStockCharts.com WatchList Widget -->   
+
+</div>       
+
+
+
+
+
+        
+
+        
+
+	<div id="clock"><div id="todaydate"><script>document.write(""+today);</script></div></div>
+
+
+
+<!--end banner--></div>
+
+
+
+<div id='framecontainer'>
+
+  <iframe name="content" src="news.html" height="2400" width="1020" frameborder="0" marginwidth="0" scrolling="no"></iframe>
+
+</div>
+
+
+
+
+
+<div id='footer'>&copy; 2010. Smart-Financeology. All rights reserved.</div>
+
+<!--end wrap--></div>
+
+</body>
+
+</html>
+

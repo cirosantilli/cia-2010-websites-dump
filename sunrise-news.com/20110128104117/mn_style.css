@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-family: Georgia, "Times New Roman", Times, serif; }
+
+#contain { position:relative; margin: auto; width: 900px; padding: 0; }
+
+#mn_head { float: left; width: 900px; margin: 0; padding: 0; }
+
+#mn_menu { float: left; width: 167px; margin: 0; padding: 0; background-image: url(images/mn_bg_03.jpg); background-repeat: no-repeat; background-position: top; height: 600px; }
+
+#mn_menu img { border: none; margin: 5px 0 0 0; }
+
+#mn_menu ul { margin: 20px 5px 5px 5px; padding: 0; }
+
+#mn_menu li { list-style: none; margin: 0; padding: 3px; font-size: 14px; }
+
+#mn_menu li ul { list-style: none; margin: 0; padding: 3px; }
+
+#mn_menu li a { text-decoration: none; font-weight: bold; color: #62a4d8; }
+
+#mn_feed { float: left; width: 500px; margin: 0; padding: 0; }
+
+#mn_feed_config ul { margin: 0; padding: 0; }
+
+#mn_feed_config li { list-style: none; margin: 0; padding: 3px 10px 3px 3px; font-size: 12px; }
+
+#mn_feed_config a { text-decoration: none; font-weight: bold; color: }
+
+.mn_link_cl { background-color: #c2b388; }
+
+#mn_links { float: left; width: 233px; margin: 0; padding: 0; }
+
+#mn_link_config ul { margin: 0; padding: 0; }
+
+#mr_feed ul { margin: 10px 0 0 0; padding: 0; }
+
+#mn_link_config li { margin: 0; padding: 3px; font-size: 12px; border-bottom: 1px dotted black; color: #FFF; }
+
+#mn_link_config a:visited, #mn_link_config a:link, #mr_feed a:visited, #mr_feed a:link { text-decoration: none; font-weight: bold; color: #FFF; }
+
+#mr_feed li { margin: 0; padding: 3px; font-size: 12px; color: #FFF; }
+
+#clear_div { clear: both; }
+
+#mn_footer { width: 900px; height: 50px; background-color: #62a4d8; }
+
+#applet { width: 800px; width: 30px; color: #FFF; font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; }
+
+
+
+

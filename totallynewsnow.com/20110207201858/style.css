@@ -1,0 +1,168 @@
+
+* {
+	padding:0;
+	color: #000000;
+	margin-top: 0;
+	}
+
+body,html {
+	min-height:101%;
+	}
+	
+body {
+	color: #333;
+	padding: 13px 0 25px 0;
+	background-image: url(images/bgd.jpg);
+	background-repeat: repeat-x;
+	}
+
+body, input {
+	font: 12px Arial, Verdana, Sans-Serif;
+	line-height:1.5em;
+	}
+	
+p {	
+	margin: 15px 0;
+	}
+
+
+a:link, a:active, a:visited { 
+	color:#000000;
+	text-decoration: underline; 
+	} 
+a:hover	{ 
+	color:#000000;
+	text-decoration: none; 
+	}
+
+
+img {border:1px solid #0b3357; padding:1px;}
+img.left{ margin:5px 12px 5px 0; border:1px solid #0b3357; padding:1px;}
+img.left{ float:left; margin:0 12px 5px 0; }
+
+
+
+
+		
+
+
+#page {
+	width:840px;
+	font-size:1em;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	background-color: #FFF;
+	background-attachment: scroll;
+	background-image: url(images/headimage.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px 0px;
+	border-top-width: 4px;
+	border-bottom-width: 4px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+	}
+
+
+.left {
+	float:left;
+	}
+
+.right {
+	float:left;
+	margin-top: 3px;
+	}
+
+
+
+h2 {
+	color: #0b3357;
+	font-weight:normal;
+	padding-bottom:8px;
+	margin: 20px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #0b3357;
+	}
+
+h3 {
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	margin-bottom:4px;
+	font-weight:bold;
+	color:#071fa3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	}
+	
+.rss-items {
+       list-style:none;
+}
+
+
+.entry {
+	padding-bottom:28px;
+	text-align:justify;
+	}
+
+.clearfloat:after {
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+	content:".";
+	}
+
+.clearfloat {
+	display:inline-block;
+	}	
+
+.clearfloat {
+	display:block;
+	}
+	
+/*---------------login-----*/
+#login {
+	width:840px;
+	height:100%;
+	font-size:9px;
+	background-color:#FFF;
+	position: relative;
+	color:#000;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+	
+
+
+#footer {
+	margin: 0 auto;
+	width: 800px;
+	font-size:0.9em;
+	text-align:center;
+	padding-top:15px;
+	color:#666;
+	}
+
+.clrfoot {
+	color: #FFF;
+	font-weight: bold;
+}
+#login form font {
+	font-size: 10px;
+	color: #5ba653;
+}

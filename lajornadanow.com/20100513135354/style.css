@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* CSS Document for "La Jornada" */
+
+body { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 11px; margin: 0; padding: 0; color: #000; background-color:#333; }
+
+img { border: none; margin: 0; padding: 0; }
+.image_left { float: left; padding: 2px 4px; }
+.image_right { float: right; padding: 2px 4px; }
+
+ul { margin:0; padding:2px 0px 0px 4px; display:block; border:0; }
+li { margin:0; padding:3px 1px; list-style:none; border:0px; color: #000; }
+
+a:link { text-decoration:none; color: #2475AC; }
+a:visited { text-decoration:none; color:#2475AC; }
+a:hover { background-color:#CCC; }
+a:active { text-decoration: none; color:#2475AC; }
+
+h1 { margin: 0; font-size:11px; padding:8px 0 8px 7px; text-decoration:underline; color:#000; text-transform:uppercase; }
+h2 { margin: 0; font-size:12px; color:#c33; font-weight: bold; padding:8px 0 4px 5px; text-transform:uppercase; text-decoration:underline;}
+h3 { margin: 0; font-size:12px; color:#cc3333; font-weight: bold; padding:8px 0 8px 7px; text-decoration:underline; text-transform:uppercase; }
+
+#wrappage { width:950px; height:100% auto; margin:0; padding:0; position:relative; left:50%; margin-left:-475px; }
+
+#wrap_topbanner { width:950px; height:84px; margin:0; padding:0; float:left; background-image:url(images/index_01.jpg); background-repeat:no-repeat; }
+#date { width:219px; height:30px; margin:0; float:left; z-index:1; top:54px; left:729px; position:absolute; visibility:visible; color:#000; font-size:10px; }
+#search { width:300px; height:24px; margin:0; float:left; z-index:1; top:53px; left:412px; position:absolute; }
+.search_code { width:191px; height:30px; margin:0; padding: 0; float:left; font-size:10px; color: #666; }
+input { padding:2px; border:1px solid #666; font:10 Verdana, sans-serif; color:#000; }
+
+input.button { font: bold 11px Arial, Sans-serif; height: 22px; margin: 0; padding: 2px 3px; color: #FFF; background: #C33; border: 1px solid #000; }
+
+#wrap_nav { width:950px; height:34px; margin:0; padding:0; float:left; background-color:#FFF; }
+#wrap_rss { width:900px; height:15px; margin:0; padding:0; z-index:1; position:absolute; top:5px; left:15px; }
+#navigation { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 12px; color:#FFF; }
+#navigation ul { list-style: none; margin: 0; padding: 0; padding:5px 0 5px 5px; margin-left:5px; }
+#navigation li { display: inline; }
+#navigation a:link, #navigation a:visited { padding: 2px 10px 1px 10px; color: #000; text-decoration: none; border:1px solid #FFF; background-color:#CCC; }
+#navigation a:hover { background-color: #ffcc33; color:#FFF; }
+
+#top_links { width:475px; height:231px; float:left; margin:0; background-color:#FFF; }
+
+#wrap_maincontent { width:950px; height:auto; float:left; margin:0; padding:0; background-color:#FFF; }
+#column_1 { width:475px; height:1000px; float:left; margin:0; }
+
+.column_left { width:211px; height:150px; float:left; margin:0; padding:0 10px 0 15px; }
+.column_right { width:217px; height:150px; float:left; margin:0; padding:0 10px 0 10px; }
+
+#enlaces { width:455px; height:auto; float:left; margin:0; padding:0 10px 0 10px; }
+.enlaces_left { width:227px; height:auto; float:left; margin:0; padding:0; }
+.enlaces_left ul { padding: 0 0 0 20px; }
+.enlaces_left li { list-style-type:square; padding: 0; color:#f63; }
+
+.enlaces_right { width:227px; height:auto; float:left; margin:0; padding:0; }
+.enlaces_right ul { padding: 0 0 0 20px; }
+.enlaces_right li { list-style-type:square; padding: 0; color:#f63; }
+
+#videos { width:455px; height:auto; float:left; margin:0; padding:0 10px 0 10px;}
+.sidecontent_left{ width:227px; height:auto; float:left; margin:0; padding:0; }
+.sidecontent_right{ width:227px; height:auto; float:left; margin:0; padding:0; }
+
+.separador {color:#C00;}
+
+#wrap_iframe { width:475px; height:1000px; margin:0; padding:0; float:left; }
+
+#subpages { width:475px; height:1000px; margin:0; padding:0; float:left; background-color:#FFF; }
+#rss_feed { width:237px; height:955px; overflow:auto; float:left; margin:0; padding:0; }
+#news_links { width:237px; height:955px; overflow:auto; float:left; margin:0; padding:0; }
+
+#wrap_btm_content { width:950px; height:auto; float:left; margin:0; position:relative; }
+#wrap_left_content { width:377px; height:148px; float:left; margin:0; }
+#applet {width:60px; height:110px; float:left;}
+#m_news {width:287px; height:110px; padding:0 10px 0 20px; float:left; overflow:auto;}
+
+#wrap_hand{ width:94px; height:148px; float:left; margin:0; }
+#world { height:64px; float:left; padding:0; }
+#btm_img { height:84px; float:left; padding:0; }
+
+#titulares { width:479px; height:148px; float:left; margin:0; }
+#titulares ul { padding: 0 0 0 20px; }
+#titulares li { list-style-type:square; padding: 0; color:#f63; }
+
+#footer { width:950px; height:20px; margin:0; padding-top:10px; color: #000; font-size:10px; float: left; background-color:#FFF; text-align: center; position: relative; text-align:center; }
+
+.scroll { scrollbar-face-color: #FFF; scrollbar-shadow-color: #FFF; scrollbar-highlight-color: #FFF; scrollbar-3dlight-color: #FFF; scrollbar-darkshadow-color:#FFF; scrollbar-track-color:#FFF; scrollbar-arrow-color:#3399cc; background-color: #FFF; }

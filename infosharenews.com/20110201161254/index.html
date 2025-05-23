@@ -1,0 +1,218 @@
+<html xmlns="http://www.w3.org/TR/REC-html40" xmlns:spry="http://ns.adobe.com/spry" lang="en">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<title>Info.share : global news from the source</title>
+<base target="_blank" />
+<script language="JavaScript">
+<!--
+// Get today's current date.
+var now = new Date();
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+// Calculate four digit year.
+function fourdigits(number) {
+return (number < 1000) ? number + 1900 : number;
+}
+// Join it all together
+today = days[now.getDay()] + ", " +
+months[now.getMonth()] + " " +
+date + ", " +
+(fourdigits(now.getYear())) ;
+//-->
+  </script>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+
+<div id="wrap">
+<div id="header">
+	<div id="nav">
+    <div id="dateformat"><p><script>document.write(""+today);</script></p></div>
+      <ul>
+        <li id="current"><a href="world.html" id="active" target="feeds">World</a></li>
+        <li><a href="business.html" target="feeds">Business</a></li>
+        <li><a href="sports.html" target="feeds">Sports</a></li>
+        <li><a href="tech.html" target="feeds">Technology</a></li>
+
+      </ul>
+    </div><!--nav end-->
+
+    <img src="images/adlinks.jpg" width="1151" height="49" border="0" align="top" usemap="#Map" />
+    <map name="Map">
+      <area shape="rect" coords="194,10,316,41" href="http://www.arabtimes.com" target="_blank">
+      <area shape="rect" coords="324,10,431,41" href="http://www.theaustralian.com.au/" target="_blank">
+      <area shape="rect" coords="447,10,529,41" href="http://english.pravda.ru" target="_blank">
+      <area shape="rect" coords="541,10,646,41" href="http://www.japantimes.com" target="_blank">
+      <area shape="rect" coords="653,10,710,41" href="http://news.bbc.co.uk" target="_blank">
+      <area shape="rect" coords="723,10,865,41" href="http://www.nytimes.com" target="_blank">
+    </map>
+</div><!--end header-->
+
+<div id="mainpg">
+  <div id="newscontent">
+   		 <img src="images/banner1.jpg" align="top" /><img src="images/banner2.jpg" align="top" />
+         <img src="images/bannerbottom.jpg" align="top" />
+
+
+  <br class="clearfloat" />
+<div class="narrow fltlft">
+  <div id="wire" class="box">
+   <h2>Headline Wires / Aggregators</h2>
+    <ul>
+      <li><a href="http://www.associatedpress.com/" target="_blank">Associated Press (AP)</a></li>
+      <li><a href="http://worldnews.com" target="_blank">World News Network (WNN)</a></li>
+      <li><a href="http://news.google.com/news?ned=us&amp;topic=w" target="_blank">Google News</a></li>
+      <li><a href="http://today.reuters.com/news/newsChannel.aspx?type=worldNews" target="_blank">Reuters</a></li>
+      <li><a href="http://news.yahoo.com/i/721" target="_blank">Yahoo! World News</a></li>
+      </ul>
+  </div>
+
+   <div id="newspapers" class="box">
+  <h2><img src="images/newspaper.png" align="right" border="0" /> International Newspapers</h2>
+  <ul>
+    <li><a href="http://www.theage.com.au/" target="_blank">Age, The (Melbourne)</a></li>
+    <li><a href="http://www.asahi.com/english/english.html" target="_blank">Asahi (Japan)</a></li>
+    <li><a href="http://www.canoe.ca/" target="_blank">Canadian Online Explorer</a></li>
+    <li><a href="http://www.chinadaily.com.cn/" target="_blank">China Daily</a></li>
+    <li><a href="http://www.thestandard.com.hk/" target="_blank">Hong Kong Standard</a></li>
+    <li><a href="http://www.iht.com/" target="_blank">International Herald Tribune</a></li>
+    <li><a href="http://www.irish-times.ie/" target="_blank">Irish Times</a></li>
+    <li><a href="http://www.japantimes.co.jp" target="_blank">Japan Times</a></li>
+    <li><a href="http://www.jpost.com/" target="_blank">Jerusalem Post</a></li>
+    <li><a href="http://www.thestar.co.za/" target="_blank">Johannesburg Star</a></li>
+    <li><a href="http://www.lemonde.fr" target="_blank">Le Monde - France</a></li>
+    <li><a href="http://www.telegraph.co.uk/" target="_blank">London Telegraph</a></li>
+    <li><a href="http://www.the-times.co.uk/" target="_blank">London Times</a></li>
+    <li><a href="http://www.msnbc.com" target="_blank">MSNBC Interactive</a></li>
+    <li><a href="http://www.nytimes.com" target="_blank">New York Times</a></li>
+    <li><a href="http://www.russiatoday.com/" target="_blank">Russia Today</a></li>
+    <li><a href="http://www.sptimesrussia.com/" target="_blank">St. Petersburg Times - Russia</a></li>
+    <li><a href="http://www.scmp.com/" target="_blank">S. China Morning Post</a></li>
+    <li><a href="http://www.timesofindia.com/" target="_blank">Times of India</a></li>
+    <li><a href="http://www.thestar.com/" target="_blank">Toronto Star</a></li>
+    <li><a href="http://www.usatoday.com/news/world/nw1.htm" target="_blank">USA Today World</a></li>
+  </ul>
+  </div>
+
+
+<div id="sportsorg" class="box">
+<h2>Sports Organizations</h2>
+<ul>
+
+    <li><a href="http://icc-cricket.yahoo.net/" title="International Cricket Council" target="_blank">ICC</a></li>
+    <li><a href="http://www.itftennis.com/" title="International Tennis Federation" target="_blank">ITF</a></li>
+    <li><a href="http://www.olympic.org" title="International Olympic Committee" target="_blank">IOC</a></li>
+    <li><a href="http://mlb.mlb.com" title="Major League Baseball" target="_blank">MLB</a></li>
+	  <li><a href="http://www.nba.com" title="National Basketball Association" target="_blank">NBA</a></li>
+    <li><a href="http://www.nhl.com" title="National Hockey League" target="_blank">NHL</a></li>
+    <li><a href="http://www.nascar.com" title="Nascar" target="_blank">Nascar.com</a></li>
+	<li><a href="http://www.fifa.com" title="FIFA" target="_blank">FIFA.com</a></li>
+    <li><a href="http://www.formula1.com" title="Formula 1" target="_blank">Formula 1</a></li>
+  </ul>
+</div>
+<div id="sportslinks" class="box">
+<h2>Popular Sports Sites</h2>
+<ul>
+  <li><a href="http://espn.go.com" target="_blank">ESPN</a></li>
+  <li><a href="http://news.bbc.co.uk/sport" target="_blank">BBCSport</a></li>
+  <li><a href="http://www.sportsline.com/" target="_blank">CBS SportsLine</a></li>
+  <li><a href="http://www.cricinfo.com/" target="_blank">CricInfo</a></li>
+  <li><a href="http://skysports.com" target="_blank">SkySports</a></li>
+  <li><a href="http://sports.yahoo.com" target="_blank">Yahoo!Sports</a></li>
+  <li><a href="http://www.reuters.com/news/sports" target="_blank">Reuters Sports</a></li>
+  <li><a href="http://www.cbc.ca/sports/" target="_blank">CBC Sports</a></li>
+  <li><a href="http://www.foxsports.com" target="_blank">FOXSports.com</a></li>
+  <li><a href="http://www.foxsports.com.au/" target="_blank">FOXSports.com.au</a></li>
+  <li><a href="http://news.google.com/?topic=s" target="_blank">Google News: Sports</a></li>
+  <li><a href="http://sport.guardian.co.uk/" target="_blank">Guardian Unlimited Sport</a></li>
+  <li><a href="http://sportsillustrated.cnn.com/" target="_blank">SI</a></li>
+  <li><a href="http://www.nytimes.com/pages/sports/index.html" target="_blank">NYT Sports</a></li>
+
+</ul>
+</div>
+<br />
+<p class="imgcenter"><a href="http://www.accuweather.com/world-index.asp?partner=accuweather" target="_blank" ><img src="images/accuweather.jpg" border="0" /></a></p>
+
+  </div><!--end narrow fltlft-->
+
+
+  <iframe name="feeds" src="world.html" width="675" height="1200" frameborder="0" allowTransparency="true" scrolling="auto"></iframe>
+
+ </div><!--end newscontent left side-->
+
+<div id="side">
+  <img src="images/index_05.jpg" border="0" usemap="#Map2"  />
+  <map name="Map2">
+    <area shape="rect" coords="29,31,94,61" href="http://www.msn.com" target="_blank" alt="MSN">
+    <area shape="rect" coords="112,32,190,63" href="http://news.sky.com" target="_blank">
+    <area shape="rect" coords="48,82,171,122" href="http://edition.cnn.com" target="_blank">
+    <area shape="rect" coords="49,149,170,180" href="http://www.reuters.com" target="_blank" alt="Reuters">
+    <area shape="rect" coords="58,204,161,237" href="http://www.dw-world.de/">
+    <area shape="rect" coords="37,260,180,292" href="http://news.yahoo.com/world" target="_blank" alt="Yahoo News">
+    <area shape="rect" coords="38,321,184,358" href="http://wn.com" target="_blank" alt="WN">
+  </map>
+<br />
+
+
+<!--DO NOT EDIT BELOW!- WIDGETS: http://www.sanebull.com/widgets -->
+<div align="center" width="210px" style="font-size:12px"><iframe width="210" height="410" style="margin-bottom:5px" src="http://www.sanebull.com/widget_world_watch.jsp?market=all" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br/><a href="http://www.sanebull.com/m" target="_top">Stock Info</a> <a href="http://www.sanebull.com/m">Market Monitor</a></div>
+<!--DO NOT EDIT ABOVE!-->
+
+
+<div id="glob_bus" class="box">
+<h2>Global Business</h2>
+<ul>
+<li><a href="http://allafrica.com/business/" target="_blank">AllAfrica.com</a></li>
+  <li><a href="http://www.ameinfo.com/" target="_blank">AMEInfo</a></li>
+  <li><a href="http://www.bbc.co.uk/worldservice/business/index.shtml" target="_blank">BBC</a></li>
+  <li><a href="http://www.bnamericas.com/" target="_blank">Business News Americas</a></li>
+  <li><a href="http://www.businessweek.com/globalbiz/index.html" target="_blank">Business Week</a></li>
+  <li><a href="http://cnnfn.cnn.com/news/worldbiz/" target="_blank">CNNfn</a></li>
+  <li><a href="http://www.eubusiness.com/" target="_blank">EUbusiness</a></li>
+  <li><a href="http://www.financeasia.com/" target="_blank">FinanceAsia.com</a></li>
+  <li><a href="http://afr.com/" target="_blank">Financial Review</a></li>
+  <li><a href="http://news.ft.com/business" target="_blank">Financial Times</a></li>
+  <li><a href="http://www.forbes.com/business/" target="_blank">Forbes</a></li>
+  <li><a href="http://www.iht.com/business.html" target="_blank">International Herald Tribune</a></li>
+</ul>
+</div>
+
+<div id="stock" class="box">
+<h2>Stock Exchanges</h2>
+<ul>
+
+  <li><a href="http://www.nyse.com/" title="New York Stock Exchange" target="_blank">NYSE</a></li>
+  <li><a href="http://www.amex.com/" title="American Stock Exchange" target="_blank">AMEX</a></li>
+  <li><a href="http://www.dax.de/" target="_blank">DAX</a></li>
+  <li><a href="http://www.boursorama.com/" target="_blank">Bours CAC 40</a></li>
+  <li><a href="http://www.nni.nikkei.co.jp/" target="_blank">Nikkei</a></li>
+  <li><a href="http://www.tse.or.jp" title="Tokyo Stock Exchange" target="_blank">TSE</a></li>
+  <li><a href="http://www.asx.com.au/" title="Australian Stock Exchange" target="_blank">ASX</a></li>
+  <li><a href="http://www.sgx.com/" title="Singapore Exchange" target="_blank">SES</a></li>
+  <li><a href="http://www.sehk.com.hk/" title="Hong Kong Stock Exchange" target="_blank">SEHK</a></li>
+  <li><a href="http://www.sse.com.cn/" title="Shanghai Stock Exchange" target="_blank">SSE</a></li>
+  <li><a href="http://www.feas.org/" title="Federation of Euro-Asian Stock Exchanges" target="_blank">FEAS</a></li>
+</ul>
+</div>
+
+
+<div id="also" class="box">
+<h2>Also in the News</h2>
+<p><APPLET archive="livenews.jar" code="infoshare.world.news.infoshareApplet" width=215 height=150 mayscript/></p>
+</div><!--end also headlines-->
+
+</div><!--end side-->
+<br class="clearfloat" />
+</div><!--end mainpg-->
+<div id="footer"><p>All Rights Reserved. &copy;2009.</p></div>
+</div><!--end wrap-->
+</body>
+</html>

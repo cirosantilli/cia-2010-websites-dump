@@ -1,0 +1,53 @@
+a:link, a:active, a:visited {
+color: #038F00;
+font-size: 11; 
+text-decoration: none;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a:hover {
+color: #0168B3;
+font-size: 11;
+text-decoration: none;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.title{
+color: #ffffff;
+font-size: 14;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.title{
+color: #0168B3;
+font-size: 14;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.sub_title{
+color: #000000;
+font-size: 10;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.style1{
+color: #000000;
+font-size: 10;
+font-weight: normal;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.style2{
+color: #000000;
+font-size: 10;
+font-weight: normal;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.style3{
+color: #AD8703;
+font-size: 10;
+font-weight: normal;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.style4{
+color: #999999;
+font-size: 10;
+font-weight: normal;
+font-family: Verdana, Arial, Helvetica, sans-serif;}

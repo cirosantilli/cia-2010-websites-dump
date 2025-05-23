@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0 auto;color:#600;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:12px;}
+h1 {padding: 5px 10px 5px 0px;color: #000;border-bottom: solid 1px #000;}
+h1 {font-size: 15px;margin-bottom:2px;font-weight:bold;}
+h5 {font-size: 18px;margin: 0 0 5px 0;padding: 5px 5px 5px 15px;color:#000;/*background-color:#C03;*/border-bottom:2px solid #C03;width:auto;}
+h3 {font-size: 12px;}
+h4 {font: bold 16px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:33px; margin: 0; padding: 0 0 8px 0; height:auto; width:auto;}
+span{font-size: 12px;color:#FFF;font-weight:bold;}
+/*ul {margin:0; padding:0; display:block; border:0; }
+li {list-style: none; padding: 8px;	margin: 0 2px;	border-bottom: 1px solid #999;}*/
+hr {color:#CC0000;height:2px;}
+
+#wrapper {width:900px;margin:0 auto;}
+
+#row_one {height:75px;}
+#ticker {margin:6px 0 6px 0;}
+#row_two {width:900px;height:92px;/*border-top:1px dotted #000;*/background-image:url(images/head3.gif);/*margin-bottom:2px;*/}
+#column_container {width:900px;height:100% auto;margin:0 auto;/*border-right:solid 1px #000;border-left:solid 1px #000;*/color:black;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;/*overflow:auto;*zoom:1;*/}
+#column_left {float:left;width:178px;margin:12px 0 0px 0;padding:10px;/* background:#BAA378;*/border-right:1px dotted #000;border-left:1px dotted #000;}
+#column_middle {float:left;width:468px;margin:12px 0 0px 0;padding:12px 16px 0 16px;}
+#column_right {float:right;width:178px;margin:12px 0 0px 0;padding:12px 5px 0 15px;border-left:1px dotted #000;border-right:1px dotted #000;}
+/*#logo {float:left;width:200px; height:90px;padding: 0 25px 0 0;}
+  .text {font-size:32px;text-align:right;}*/
+#pattern {width:900px; height:22px;background-image:url(images/pttrn.gif);background-repeat:repeat-x;}
+
+#banner1 {}
+
+/* TOP NAVIGATION*/
+#topnav {width:898px;height:25px;margin:4px auto;padding:0;/*background:#666;*/font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:15px;font-weight:bold;border-top:1px solid #000;border-bottom:1px solid #000;}
+/*#topnav span {float:right;padding:5px 12px 5px 25px;}*/
+#topnav ul {margin:0;padding:0;line-height:25px;white-space:nowrap;}
+#topnav li {display: inline;list-style-type:none;margin:0;padding:0;border-right:1px dotted #000;}
+#topnav li a:link,#topnav a:visited {padding:10px 10px;width:auto;color:#000;text-align:center;text-decoration:none;}
+#topnav li a:hover,#topnav a:active {color:#FFFFFF;background-color: #C03;}
+
+/* SIDE NAVIGATION*/
+#sidenav {width:179px;height:1375px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:12px;}
+#sidenav ul {margin:0;padding:0;display:block;}
+#sidenav li {list-style:none;padding:7px 0 10px 0;border-bottom: 1px solid #999;}
+#sidenav li a{color:#000;font-weight:bold;}
+#sidenav li a:hover{background-color:#FFC;color:#000;font-weight:bold}
+
+
+#footer {margin:0 auto;float:left;width:900px;border-top: solid 1px dotted #000;padding:0 0 20px 0;}
+#footerbox {float:left;width:220px;margin:0 0px 0 0px;}
+#footerbox ul {display:block;}
+#footerbox li {list-style:none;padding:5px 0 5px 0;border-bottom: 1px solid #999;}
+#footerbox li a:link {color: #000;text-decoration: underline;}
+#footerbox li a:visited {color: #164ca6;text-decoration: none;}
+#footerbox li a:hover {color: #164ca6;text-decoration: none;}
+
+#login {margin:0 auto;clear:both;width:880px;border-top:1px dotted #000;padding:12px;}
+
+/*FEED STYLES*/
+/*.feed p {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:11px; color:#000000;}*/
+
+.feedlist a{ text-decoration: underline; color: #CC0000; font: 13px; font-weight: bold; display: block; }
+.feedlist a:hover{ text-decoration: underline; color: #000; }
+.feedlist ul {font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:12px; list-style: none; padding: 0; margin: 0;}
+.feedlist li {font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:12px;list-style: none; padding:5px 0 5px 0;}
+
+#feedhead {width:448px;height:25px;font-family:Verdana, Geneva, sans-serif; font-size:18px; font-weight:bold; color: #000; margin-bottom: 5px;}
+#feedcontent {float:left;width:458px; height:950px;margin:0;overflow: auto;}
+
+.scroll {
+	scrollbar-face-color: #F1F2F2;
+	scrollbar-shadow-color: #999;
+	scrollbar-highlight-color: #FFF;
+	scrollbar-3dlight-color: #CCC;
+	scrollbar-darkshadow-color:#666;
+	scrollbar-track-color:#E8E8E8;
+	scrollbar-arrow-color:#000;
+	background-color: #FFF;
+}

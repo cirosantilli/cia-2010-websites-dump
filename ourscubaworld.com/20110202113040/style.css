@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#ffffff;  /* (you can change it to any color you want…) */
+}
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.style1 {
+	font-family: "Times New Roman", Arial, Times;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.style2 {
+	font-family: Times New Roman, Arial, Times;
+	font-size: 10pt;
+	font-style: italic;
+}
+.style3 {
+	font-family: Times New Roman, Arial, Times;	
+	font-size: 11pt;
+	font-weight: bold;
+}
+body,td,th {
+	font-family: Times New Roman, Arial, Times;
+	font-size: 10pt;
+	color: #000000;
+}
+a {
+	font-family: Times New Roman, Arial, Times;
+	font-size: 10pt;
+	color: #0000CC;
+}
+a:visited {
+	color: #000053;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #000053;
+}
+

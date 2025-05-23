@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;  
+}
+body {
+	margin-top: 0px; 
+	margin-left:0px;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003399;
+}
+a:visited {
+	color: #666666;
+}
+a:hover {
+	color: #990000;
+}
+a:active {
+	color: #666666;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+.style1 {
+	color: #990000;
+}
+.style2 {
+	color: #cc0000;
+}
+/*ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:0; list-style:none; border:0;}*/
+
+#wrap {
+     width:810px; 
+	 height:720px; 
+}
+#banner {
+     width:810px; 
+	 height:84px; 
+	 position: relative; 
+	 margin:auto; 
+	 padding:0px; 
+	 display:inline;
+}
+#header {
+	width:546px;
+	height:84px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+#google_search {
+	width:264px;
+	height:84px;
+	margin:0;
+	padding:0;
+	background-image:url(images/index_02.jpg);
+	background-repeat:no-repeat;
+	float:right;
+}
+#horizontal_line {
+	width:810px;
+	height:32px;
+	margin:0;
+	padding:0;
+	position:relative;
+	float:left;
+}
+#content {
+      width:810px;
+	  height:561px;
+	  float:left; 
+	  margin:0; 
+	  padding:0;
+}
+#column1 {
+	width:194px;
+	height:100% auto;	
+	float:left;
+}
+#column1_header {
+	width:194px;
+	height:21px;
+	padding:0;
+	margin:0;
+	float:left;
+	background-image:url(images/index_04.jpg);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	font-weight:600;
+	text-align:center;
+}
+#menu {
+	width:194px;
+	height:508px;
+	margin:0;
+	padding:0 0 0 10px;
+	background-image:url(images/index_07.jpg);
+	background-repeat: no-repeat;
+	float:left;
+}
+ul#nav {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+#nav a:link, #nav a:visited {
+	display: block;
+	width: 170px;
+	padding: 4px 0 5px 24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:600;
+	color: #003399;
+	background: url("images/menubuttons.gif") top left no-repeat;
+	text-decoration: none;
+}
+#nav a:hover {
+	background-position: 0 -69px;
+	color: #990000;
+}
+#nav a:active {
+	background-position: 0 -138px;
+	color: #666666;
+}
+#rotating_images {
+	width:194px;
+	height:73px;
+	margin:0;
+	padding:0;
+	float:left;
+	background-image:url(images/index_09.jpg);
+	background-repeat:no-repeat;
+}
+#column2 {
+	width:390px;
+	height:602px;
+	float:left;
+	margin:0;
+	padding:0;
+	background-image:url(images/index_05.jpg);
+	background-repeat:no-repeat;
+}
+#column3 {
+      width:226px;
+	  height:602px;
+	  float:right;
+}
+.column3_header {
+	width:226px;
+	height:21px;
+	margin:0;
+	padding:0;
+	float:right;
+	background-image:url(images/index_06.jpg);
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	font-weight:600;
+	text-align:center;
+}
+#column3_rss {
+	width:226px;
+	height:581px;
+	margin:0;
+	padding:10px 0 0 0;
+	float:right;
+	background-image:url(images/index_08.jpg);
+	background-repeat:no-repeat;
+}
+#eurosport {
+	width:226px;
+	height:94px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#eurosport_info {
+	width:226px;
+	height:73px;
+	margin:0;
+	padding:5px 0 0 0;
+	float:right;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:100;
+}
+#yahoo {
+	width:226px;
+	height:95px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#yahoo_info {
+	width:226px;
+	height:72px;
+	margin:0;
+	padding:5px 0 0 0;
+	float:right;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:100;
+}
+#google {
+	width:226px;
+	height:94px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#google_info {
+	width:226px;
+	height:73px;
+	margin:0;
+	padding:0;
+	float:right;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:100;
+}
+#bbc {
+	width:226px;
+	height:94px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#bbc_info {
+	width:226px;
+	height:73px;
+	margin:0;
+	padding:5px 0 0 0;
+	float:right;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:100;
+}
+#allafrica {
+	width:226px;
+	height:95px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#allafrica_info {
+	width:226px;
+	height:72px;
+	margin:0;
+	padding:5px 0 0 0;
+	float:right;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:100;
+}
+#france {
+	width:226px;
+	height:94px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#france_info {
+	width:226px;
+	height:73px;
+	margin:0;
+	padding:5px 0 0 0;
+	float:right;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:100;
+}
+#footer {
+	width:810px;
+	height:24px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+#copyright {
+	width:810px;
+	height:20px;
+    font-size:10px;
+    color: #000000;
+	text-align:center;
+	padding:0;
+	margin:20px 0 0 0;
+	float:left;
+	position:relative;
+}

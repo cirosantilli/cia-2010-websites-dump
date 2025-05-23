@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0; padding:0; font-family:Geneva, Arial, Helvetica, sans-serif; font-size:11px;}
+
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; font-size:11px; color:#002e71;} /*row & description of link*/
+li a {text-decoration: none; color: #0073df; font-weight: normal; font-size:13px; margin:0; padding:0; } /*link*/
+li a:hover {color:#0073df;  text-decoration: underline;}
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+
+#wrap {position:relative; margin-left:-425px; left:50%;width:850px; height:900px;}
+
+#nav {float:left; width:850px; height:50px; background:url(images/Engineering_01.jpg) no-repeat;}
+
+#header-whole {float:left; width:850px; height:166px;}
+#header-left {float:left; width:708px; height:166px;}
+#header-right {float:left; width:142px; height:166px;}
+#header-right-top {float:left; width:142px; height:83px;}
+#header-right-mid {float:left; width:142px; height:28px;}
+#header-right-mid-left {float:left; width:40px; height:28px;}
+#header-right-mid-mid {float:left; width:30px; height:28px; background:url(images/Engineering_20.jpg) no-repeat;}
+#header-right-mid-right {float:left; width:72px; height:28px;}
+#header-right-bottom {float:left; width:142px; height:55px;}
+
+#col1 {float:left; width:210px; height:684px;}
+
+#col2-whole {float:left; width:430px; height:684px;}
+#col2-top {float:left; width:430px; height:592px; background:url(images/Engineering_35.jpg) no-repeat;}
+#col2-top-text {float:left; width:400px; height:475px; margin:110px 0 0 15px; padding:0; overflow:auto; visibility:visible; display:inline;}
+#col2-bottom {float:left; width:430px; height:72px;}
+
+#col3 {float:left; width:210px; height:684px; background:url(images/Engineering_36.jpg) no-repeat;}
+#col3-consulting {float:left; width:210px; height:684px; background:url(images/Engineering_36_consulting.jpg) no-repeat;}
+#col3-directories {float:left; width:210px; height:684px; background:url(images/Engineering_36_directories.jpg) no-repeat;}
+#col3-product {float:left; width:210px; height:684px; background:url(images/Engineering_36_product.jpg) no-repeat;}
+#col3-cad {float:left; width:210px; height:684px; background:url(images/Engineering_36_cad.jpg) no-repeat;}
+#col3-text {float:left; width:200px; height:632px; margin:40px 0 0 10px; padding:0; overflow:auto; visibility:visible; display:inline;}

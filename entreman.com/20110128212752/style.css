@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background: url(images/background.gif) repeat-x; font: 14px/18px 'M+1cregular', Arial, sans-serif;}
+a {color: #44749d; text-decoration: none;}
+
+h1,h2 {font: 18px/27px 'M+1cblack', Arial, sans-serif;}
+h1 {color: #fff; margin-bottom: 15px;}
+h2 {margin: 10px 0;}
+h3 {font: 14px/18px 'M+1cblack', Arial, sans-serif; margin-top: 15px;}
+
+
+#logo { width: 146px; height: 118px; background-color:#bdb8ad; }
+
+.nav { float: right; }
+.nav li { float:left; padding:16px; padding-bottom: 15px; line-height: 14px; }
+.nav a { text-decoration: none; }
+
+li.hover {background-color: #ebe7e0; }
+li.selected {background-color: #44749d; font-weight: bold; padding-bottom: 16px; }
+li.selected a {color: #fff;}
+#nav2 li.selected {padding-bottom: 15px;}
+
+#showcase { height:380px; padding-top:20px;}
+#showcase_image { background-color:#ebe7e0; height:294px; border: 3px solid #bdb8ad; overflow: hidden;  }
+
+#links {font-size: 13px; line-height: 15px;}
+#static_image {margin-top: 7px; height: auto; width: 260px; background-color:#fff; border: 3px solid #ebe7e0;}
+#adinc {margin-top: 30px; display: block;}
+
+p.rss-title, #content li, #links li { margin-top: 15px; }
+#content a:hover {background-color: #ebe7e0;}
+
+.sidebar {background-color: #c6d4e1; font-size: 13px; line-height: 17px; padding-bottom: 15px;}
+.sidebar h2, .sidebar ul, .sidebar p {padding: 0 10px;}
+.sidebar .content_image {margin-left:7px;}
+
+#footer { padding-top: 30px; font-size: 11px;}
+#footer .nav {*position:relative; *top:-11px;}
+#footer .nav li {padding-top: 0px;}
+
+#feature li {background-color: #44749d;}
+#feature {color: #fff;background-color: transparent;}
+#feature a {color:#fff; font-weight: bold;}
+
+#placeholder {min-height: 800px; _height:800px; background-color: #ebe7e0;}
+
+

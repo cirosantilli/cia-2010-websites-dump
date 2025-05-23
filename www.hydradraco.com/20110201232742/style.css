@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*Hydra Draco CSS Document */
+body { margin-left: 0px; margin-top: 0px;}
+p  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+.h1 { position: absolute; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 35px; font-weight: bold; color: #FFFFFF; left: 180px; top: 5px; }
+h2 { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #000000; }
+#wrap { float: left; width: 1000px; height: 100%; }
+#top { float: left; width: 1000px; height: 129px; } #topimg01 { float: left; width: 157px; height: 75px; background-image: url(images/homepage_01.jpg); } #topimg02 { float: left; width: 169px; height: 75px; background-image: url(images/homepage_02.jpg); } #topimg03 { float: left; width: 234px; height: 75px; background-image: url(images/homepage_03.jpg); } #topimg04 { float: left; width: 244px; height: 75px; background-image: url(images/homepage_04.jpg); } #topimg05 { float: left; width: 196px; height: 75px; background-image: url(images/homepage_05.jpg); } #topimg06 { float: left; width: 157px; height: 54px; background-image: url(images/homepage_06.jpg); } #topimg07 { float: left; width: 169px; height: 54px; background-image: url(images/homepage_07.jpg); } #topbtnbox { float: left; width: 674px; height: 54px; background-image: url(images/hydra_images_bkgd_03.jpg); }  
+/*btn*/
+.tabs2 { position: absolute; width:710px; font-size:85%; line-height:normal; left: 297px; top: 93px; } 
+.tabs2 ul { margin:0;padding: 10px 0px 0 0px; list-style:none; } 
+.tabs2 li { display:inline; margin:0; padding:0; } 
+.tabs2 a { float:left; background:url("images/tableft2.gif") no-repeat left top; margin:0; padding:0 0 0 1px; text-decoration:none; } 
+.tabs2 a span { float:left; display:block; background:url("images/tabright2.gif") no-repeat right top; padding:5px 6px 4px 6px; color:#84776B;} 
+/* Commented Backslash Hack hides rule from IE5-Mac \*/ 
+.tabs2 a span { float:none; } 
+/* End IE5-Mac hack */ 
+.tabs2 a:hover span { color:#74675B; } 
+.tabs2 a:hover { background-position:0% -42px; } 
+.tabs2 a:hover span { background-position:100% -42px; }
+#mid { float: left; width: 1000px; }
+#mleft { float: left; width: 157px; height: 212px; } #mleftimg01 { float: left; width: 157px; height: 54px; background-image: url(images/homepage_09.jpg); } #mleftimg02 { float: left; width: 157px; height: 179px; background-image: url(images/homepage_13.jpg); } #mleftimg03 { float: left; width: 157px; height: 164px; background-image: url(images/homepage_17.jpg); } #mleftbox { float: left; width: 157px; height: 373px; } #mleftimg04 { float: left; width: 157px; height: 130px; background-image: url(images/homepage_22.jpg); }
+#mcenter { float: left; width: 647px; height: 100%; }
+#mright { float: left; width: 196px; height: 100%; } #mrightimg01 { float: left; width: 196px; height: 54px; background-image: url(images/homepage_12.jpg); } #mrightimg02 { float: left; width: 196px; height: 179px; background-image: url(images/homepage_16.jpg); } #mrotimg01 { float: left; width: 196px; height: 196px; background-image: url(images/hydra_images_logo_01.jpg);} #mrightbox { float: left; width: 196px; height: 561px; } #mrightimg03 { float: left; width: 196px; height: 106px; background-image: url(images/homepage_23.jpg); }
+#btm { float: left; width: 1000px; height: 65px } #btmimg01 { float: left; width: 157px; height: 65px; background-image: url(images/homepage_24.jpg); } #btmimg02 { float: left; width: 169px; height: 65px; background-image: url(images/homepage_25.jpg); } #btmimg03 { float: left; width: 234px; height: 65px; background-image: url(images/homepage_26.jpg); } #btmimg04 { float: left; width: 244px; height: 65px; background-image: url(images/homepage_27.jpg); } #btmimg05 { float: left; width: 196px; height: 65px; background-image: url(images/homepage_28.jpg); }
+#footbkgd { float: left; width: 1000px; height: 500px; background-image: url(images/hydra_images_bkgd_02.jpg); background-repeat: repeat-y; } #footbox01 { float: left; width: 29px; height: 500px; } #footbox02 { float: left; width: 296px; height: 500px; } #footbox03 { float: left; width: 26px; height: 500px; } #footbox04 { float: left; width: 31px; height: 500px; }
+#footer { float: left; width: 1000px; height: 13px; background-image: url(images/homepage_31.jpg); background-repeat: no-repeat; background-color: #000000; }
+/*feed art*/
+#feedbox01 { float: left; width: 647px; height: 900px; background-image: url(images/hydra_images_bkgd_01.jpg); background-repeat: repeat-y; } #banner { float: left; width: 647px; height: 54px; } #banimg01 { float: left; width: 169px; height: 54px; background-image: url(images/homepage_10.jpg); } #banimg02 { float: left; width: 478px; height: 54px; background-image: url(images/homepage_11.jpg); }
+#feedbox02 { float: left; width: 647px; height: 846px; }
+#fleft { float: left; width: 169px; height: 685px; } #fleftimg01 { float: left; width: 169px; height: 343px; background-image: url(images/homepage_14.jpg); } #fleftbox { float: left; width: 169px; height: 339px; } #fleftimg02 { float: left; width: 169px; height: 164px; background-image: url(images/homepage_21.jpg); }
+#fright { float: left; width: 461px; height: 846px; }
+/*side btn*/
+.wireframemenu{ position: absolute; border: 1px solid #999966; background-color: #999966; border-bottom-width: 0; width: 119px; left: 40px; top: 400px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 119px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 10px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #999966; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #F8FBBD; color: black; }
+/*collage feed*/
+#cfbkgd { float: left; width: 461px; height: 546px; } #cbanner { float: left; width: 461px; height: 130px; }
+.tabs6 { position: absolute; width:240px; font-size:83%; line-height:normal; left: 220px; top: 101px; }
+.tabs6 ul { margin:0; padding:5px 5px 0 5px; list-style:none; }
+.tabs6 li { display:inline; margin:0; padding:0; }
+.tabs6 a { float:left; background:url("images/tableft6.gif") no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none; }
+.tabs6 a span { float:left; display:block; background:url("images/tabright6.gif") no-repeat right top; padding:5px 15px 4px 6px; color:#FFF; }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.tabs6 a span {float:none;}
+/* End IE5-Mac hack */
+.tabs6 a:hover span { color:#FFF; }
+.tabs6 a:hover { background-position:0% -42px; }
+.tabs6 a:hover span { background-position:100% -42px; }
+#linbox01 { float: left; width: 256px; height: 500px; padding: 15px 25px 10px 10px; }
+#linbox { float: left; width: 444px; height: 416px; padding: 15px 25px 10px 10px; }
+
+a { color: #0000FF; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; color: #0066FF; }
+a:hover { text-decoration: none; color: #0099FF; }
+a:active { text-decoration: none; color: #0066FF; }

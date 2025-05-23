@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px;} /*row & description of link*/
+li a {text-decoration: none; color: #0904d4; font-weight: normal; } /*link*/
+li a:hover {color:#01a2ed; text-decoration: underline;}
+
+#wrap {float:left; width:850px; height:900px; }
+#nav-whole {float:left; width:850px; height:50px; }
+#nav-left {float:left; width:139px; height:50px; }
+#nav {float:left; width:569px; height:50px; background:url(images/header_02.jpg) no-repeat; }
+#nav-right {float:left; width:142px; height:50px; }
+
+#header {float:left; width:850px; height:100px; }
+
+#col-L-whole {float:left; width:150px; height:750px; }
+#col-L-nav {float:left; width:150px; height:375px; background:url(images/col1-1.jpg) no-repeat; }
+#col-L-bottom {float:left; width:150px; height:375px; }
+
+#col-2-whole {float:left; width:275px; height:600px; }
+#col-2-top {float:left; width:275px; height:300px; background:url(images/col2-1.jpg) no-repeat; }
+#col-2-top-text {display:inline; float:left; width:255px; height:272px; overflow:auto; visibility:visible; margin:13px 0 0 13px;}
+#col-2-botton {float:left; width:275px; height:300px; background:url(images/col2-2.jpg) no-repeat; }
+#col-2-bottom-text {display:inline; float:left; width:255px; height:271px; overflow:auto; visibility:visible; margin:23px 0 0 13px;}
+#col-3 {float:left; width:275px; height:600px; background:url(images/col3-1.jpg) no-repeat; }
+#feed {display:inline; float:left; width: 260px; height: 575px; margin:15px 0 0 11px; padding:0; }
+.box-right {float:left; width:260px; height:575px; margin:0; padding:0; overflow:auto; }
+#col-4 {float:right; width:150px; height:750px; }
+
+#footer {float:left; width:550px; height:150px; }
+
+ul#minitabs{list-style: none;margin: 0;padding: 7px 0;
+  border-bottom: 1px solid #FFF;font-weight: bold;
+  text-align: center;white-space: nowrap; }
+ul#minitabs li{display: inline;margin: 0 3px}
+ul#minitabs a{text-decoration: none;padding: 0 0 3px;
+  border-bottom: 4px solid #FFF;color: #FFF}
+ul#minitabs a#current{border-color: #0904d4;color:#0904d4}
+ul#minitabs a:hover{border-color: #0904d4;color: #FFF}
+
+#menu8 {width: 100px;margin-top: 10px; font-size:18px;}
+#menu8 li a {text-decoration: none;height: 32px;voice-family: "\"}\""; voice-family: inherit;height: 24px;}
+#menu8 li a:link, #menu8 li a:visited {color: #FFF;display: block;background: url(images/menu8.gif);padding: 8px 0 0 20px;}
+#menu8 li a:hover {color: #0904d4;background: url(images/menu8.gif) 0 -32px;padding: 8px 0 0 25px;}
+#menu8 li a:active {color: #0904d4;background: url(images/menu8.gif) 0 -64px;padding: 8px 0 0 25px;}

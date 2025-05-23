@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="segstyle.css" rel="stylesheet" type="text/css">
+<title>Segomo News</title>
+
+<script language="javascript">
+function loadTwo(iframe1URL, iframe2URL)
+{
+parent.info1.location.href=iframe1URL
+parent.info2.location.href=iframe2URL
+}
+</script>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="topbanner"><div id="banner_left"><img src="images/index_01.jpg" width="306" height="127" align="top" /><img src="images/index_02.jpg" width="307" height="127" align="top"  /></div><div id="search_bkgd"><div id="search">
+  <form action="http://www.google.com/search" method=GET target="_blank">
+    <table width="300" align="center">
+        <tr>
+          <td valign="middle"><p align="right"><br/>
+          <input type="text" name="q" size="22" maxlength="30" value="" /> <input type="submit" name="btnG" value="Search" />
+          </p></td>
+        </tr>
+        </table>
+    </form></div>
+ </div></div>
+   <div id="subbanner"><img src="images/index_04.jpg" width="306" height="126" /><img src="images/index_05.jpg" width="307" height="126" /><img src="images/index_06.jpg" width="307" height="126" /></div>
+
+     <div id="border"><img src="images/border.jpg" width="81" height="717" /></div>
+
+     <div id="sidebar"><img src="images/index_09.jpg" width="186" height="121" /><div class='navigation2'>
+     <ul>
+          <li><a href="javascript:loadTwo('home.html','home2.html')" target="_parent">Regional News</a></li>
+          <li><A href="javascript:loadTwo('apacific1.html','apacific2.html')">Asia-Pacific</A> </li>
+          <li><A href="javascript:loadTwo('indo1.html','indo2.html')">Indonesia</A> </li>
+          <li><A href="javascript:loadTwo('japan1.html','japan2.html')">Japan</A></li>
+          <li><A href="javascript:loadTwo('korea1.html','korea2.html')">Korea</A></li>
+          <li><A href="javascript:loadTwo('me1.html','me2.html')">Middle East</A></li>
+		  <li><A href="javascript:loadTwo('srilanka1.html','srilanka2.html')">Sri Lanka</A> </li>
+          <li><A href="javascript:loadTwo('thai1.html','thai2.html')">Thailand</A></li>
+       </ul></div>
+        <div class='navigation3'>
+     <ul>
+     	  <li><a href="javascript:loadTwo('biz1.html','biz2.html')">Business</a></li>
+          <li><a href="javascript:loadTwo('culture1.html','culture2.html')">Culture</a></li>
+		  <li><a href="javascript:loadTwo('entertain1.html','entertain2.html')">Entertainment</a></li>
+          <li><A href="javascript:loadTwo('sports1.html','sports2.html')">Sports</A> </li>
+          <li><A href="javascript:loadTwo('travel1.html','travel2.html')">Travel</A></li>
+        </ul></div>
+        <div class='navigation2'>
+     <ul>
+   	    <li><a href="javascript:loadTwo('international1.html','international2.html')">International</a></li>
+      <li><a href="javascript:loadTwo('bbc1.html','bbc2.html')">BBC News Front Page</a></li>
+          <li><A href="javascript:loadTwo('cnn1.html','cnn2.html')">CNN.com</A> </li>
+          <li><A href="javascript:loadTwo('reuters1.html','reuters2.html')">Reuters: US News Headlines</A></li>
+		  <li><A href="javascript:loadTwo('topix1.html','international2.html')">Topix</A></li>
+          </ul></div>
+     </div><!--closes sidebar-->
+  <div id="maincontent">
+  <iframe name="info2" id="info2" src="home2.html" width="150" height="717" frameborder="0" framespacing="0" scrolling="no"></iframe>
+  <div id="column2"> <a href="http://www.thejakartapost.com/ads/BaliLombok/Index.htm"><img src="images/ad_balilombok.gif" width="234" height="70" /></a><br/>
+  <img src="images/photo_classified.jpg" width="234" height="165" vspace="6" />
+  <ul class="box"><li>
+  <h2><img src="images/blog_icon.jpg" width="12" height="12" align="bottom" /> Blogs</h2>
+    <li><a href="http://endpovertyinsouthasia.worldbank.org/"> World Bank: End Poverty in South Asia</a></li>
+	<li><a href="http://www.southasiablog.com/"> Welcome to South Asia Blog</a></li>
+	<li><a href="http://www.sepiamutiny.com/sepia/">Sepia Mutiny</a> </li>
+    <li><a href="http://globalvoicesonline.org/-/world/south-asia/">Global Voices</a></li>
+    <li><a href="http://indosnesos.blogspot.com/">Indonesia News Blog</a></li>
+	<li><a href="http://en.wordpress.com/tag/south-asia/">WordPress: South Asia | Blogs| Pictures </a></li>
+    </ul>
+    <ul>
+    <li>   <APPLET archive="myjar.jar" code="news.asia.tech.myjarApplet" width="233" height="249" mayscript/></APPLET> </li>
+    <li><a href="http://www.mediawitty.com/test/" target="_blank"><img src="images/logo_samn.jpg" width="234" height="46" /></a></li></ul>
+  </div>
+  <iframe name="info1" id="info1" src="home.html" width="264" height="707" frameborder="0" framespacing="0" scrolling="no"></iframe>
+  </div><!--closes maincontent-->
+  </div><!--closes wrap-->
+</body>
+</html>

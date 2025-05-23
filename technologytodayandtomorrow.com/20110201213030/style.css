@@ -1,0 +1,134 @@
+/*************************************************************/
+html {
+		height: 101%;
+		margin-bottom: 1px;
+}
+body {
+		margin: 0;
+		padding: 0;
+		height: 101%;
+}
+#wrap {
+	width: 1020px;
+	background-color: #FFF;
+	margin: auto;
+	height: auto;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #000;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #000;
+	color: #D6D6D6;
+}
+
+#very_top {
+	background-color: #000;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/bg_top.jpg);
+}
+#title_area {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	background-color: #000;
+	height: 75px;
+	width: 1020px;
+	background-image: url(images/bg_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#left {
+	width: 250px;
+	background-color: #000;
+	float: left;
+	height: 760px;
+	text-align: center;
+}
+.ads {
+	margin-bottom: 5px;
+}
+#titles {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3266CB;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	border-bottom-width: medium;
+	border-bottom-style: dotted;
+	border-bottom-color: #3266CB;
+	margin-top: 5px;
+}
+
+#right {
+	height: 760px;
+	width: 758px;
+	margin-left: 5px;
+	background-color: #FFF;
+	float: right;
+	margin-right: 5px;
+}
+
+#rss_area {
+	color: #666;
+	height: 727px;
+	width: 100%;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	overflow: auto;
+}
+#rss_area a:link , .main_area a:visited{
+	color: #3266CC;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#rss_area a:hover {
+	color: #89A8E2;
+	font-weight: bold;
+}
+#rss_area ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 4px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#rss_area li {
+	display: block;
+}
+#bttm {
+	background-color: #000;
+	height: auto;
+	width: 100%;
+	margin-bottom: 1px;
+	float: left;
+	clear: left;
+	text-align: center;
+}
+#bttm_cr {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+
+}
+.insert {
+	text-align: right;
+	background-color: #000;
+	float: right;
+	height: 75px;
+	width: 100%;
+}

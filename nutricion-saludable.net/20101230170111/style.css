@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0 auto; padding:0; background:url(images/hn-bdy-bkgd-img.jpg) repeat-x;}
+p {font: 11px Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:65px; margin: 0; padding: 15px 5px 5px 65px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+h5 {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#464444; line-height:22px; margin: 0; padding:5px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.place{float:left;}
+.feed-bkgd {background:url(images/hn-home-img_09.jpg) no-repeat;}
+.img-space {margin:10px 0 5px 2px; border: double 3px #f1efef; width:150px;}
+
+#space{float:right; width:130px; height:180px; margin:0 0 0 10px;}
+
+#wrap {width:975px; height:auto;margin:0 auto; background:url(images/hn-wrapbkgd-img.jpg) repeat-y; overflow:auto; }
+
+#header-top {width:975px; height:auto; }
+#header-nav {width:488px; height:137px; background:url(images/hn-home-img_03.jpg) no-repeat; }
+#header-div {width:487px; height:auto; }
+#header-btm {width:975px; height:auto; }
+
+#info-links {width:319px; height:auto; background:url(images/hn-home-img_07.jpg) no-repeat; overflow:auto; }
+#side-links {width:290px; height:auto; margin:120px 0 0 15px;}
+#info-nav {width:240px; height:auto; background:url(images/hn-home-img_08.jpg) no-repeat; overflow:auto; }
+#info-feeds {width:416px; height:auto; background:url(images/hn-home-img_09.jpg) no-repeat;  overflow:auto;}
+
+#log {width:975px; height:auto; }
+#log-info {width:875px; height:875px; margin: 15px 0 0 50px; }
+
+.wireframemenu{ width: 160px; margin-top:200px; }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 7px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ color: #000; }
+
+/* ---------------------- Bluewax nav ---------------------- */
+.blue #waxcontainer{position:relative;height:48px;width:100%;font-family:"Trebuchet MS",Arial,Verdana,Helvitica,sans-serif; left:40px;}
+.blue #waxnav{position:relative;height:25px;font-size:11px;font-weight:bold;}
+.blue #waxnav ul{margin:0px;padding:0 0 4px 0;list-style-type:none;width:auto;float:left;}
+.blue #waxnav ul li{display:block;float:left;margin:0 1px;}
+.blue #waxnav ul li a{display:block;float:left;color:#2c99ce;text-decoration:none;padding:0 0 0 12px;height:21px;line-height:195%;}
+.blue #waxnav ul li a span{padding:0 12px 0 0;}
+.blue #waxnav ul li a:hover,.blue #waxnav ul li a.current{color:#fff;background:#2c99ce;}
+.blue #waxnav ul li a:hover span,.blue #waxnav ul li a.current span{display:block;width:auto;background:#2c99ce;}
+
+.linkscroll {
+	filter: Chroma(Color=#123456); 
+	overflow: auto; 
+	scrollbar-face-color:#123456; 
+	scrollbar-shadow-color: #123456; 
+	scrollbar-highlight-color: #123456; 
+	scrollbar-3dlight-color: #123456; 
+	scrollbar-darkshadow-color: #123456; 
+	scrollbar-track-color: #123456; 
+	scrollbar-arrow-color: #000000; }

@@ -1,0 +1,331 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff url(images/bg_blulines.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight : normal;
+}
+
+p {
+	margin: 15px 5px 8px 5px;
+	padding: 0;
+}
+
+a:link {
+	color: #003366;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #006699;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 1px solid #666666;
+}
+
+/* Banner */
+
+#banner {
+	clear: both;
+	width: 800px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#banner ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#banner li {
+	display: inline;
+}
+
+#banner a {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 150px;
+}
+
+#banner1 { background: url(images/banner_01.jpg) no-repeat center; }
+#banner2 { background: url(images/banner_02.jpg) no-repeat center; }
+#banner3 { background: url(images/banner_03.jpg) no-repeat center; }
+#banner4 { background: url(images/banner_04.jpg) no-repeat center; }
+#banner5 { background: url(images/banner_05.jpg) no-repeat center; }
+#banner6 { background: url(images/banner_06.jpg) no-repeat center; }
+#banner7 { background: url(images/banner_07.jpg) no-repeat center; }
+#banner8 { background: url(images/banner_08.jpg) no-repeat center; }
+#banner9 { background: url(images/banner_09.jpg) no-repeat center; }
+#banner10 { background: url(images/banner_10.jpg) no-repeat center; }
+
+/* Nav Bar */
+
+#nav {
+	width: 800px;
+	height: 20px;
+	margin: 0 auto;
+	background: #00327b;
+	list-style: none;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 17px;
+	margin: 0;
+	padding: 2px 0;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	background: #003366;
+	color: #ffffff;
+}
+
+#nav a:hover, #nav a:active, #nav a#current {
+	color: #ffffff;
+	background: #88a044;
+}
+
+/* Page */
+
+#page {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	background: #ffffff url(images/img4.gif) repeat-x;
+}
+
+/* Google Search */
+#googlesearch {
+	float: left;
+	width: 150px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+/* Column 1 */
+
+#col1 {
+	width: 150px;
+	margin: 5px 0 0 0;
+	padding: 0 0 0 1px;						              
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#col1 h2 {
+	margin: 0 0 -8px 0;
+	padding: 1px 0 1px 25px;
+	color: #feeda8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #87a16d;
+	border-top: 1px solid #999999;
+}
+
+#col1 ul {
+	margin-top: 10px;
+	margin-bottom: 7px;
+	list-style: none;
+	line-height: normal;
+}
+
+#col1 li {
+	margin: 0 0 2px -32px;
+	padding: 0 0 0 15px;
+	background: url(images/icon_download.gif) 0 65% no-repeat;
+}
+
+#col1 a:link, #col1 a:visited {
+	color: #000000;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#col1 a:hover, #col1 a:active {
+	color: #09680b;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#col1 .box {
+	width: 150px;
+	margin: 0 0 8px 0;
+	padding: 0;
+	float: left;
+	border: 1px solid #999999;
+	border-top: none;
+	background: #ffffff;
+}
+
+/* Column 2 */
+
+#col2 {
+	width: 476px;
+	margin: 5px 9px 0 9px;
+	padding: 0;						              
+	float: left;
+}
+
+#col2 h2 {
+	margin: 0 0 -10px 0;
+	padding: 0;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #999999;
+}
+
+#col2 .box {
+	width: 230px;
+	height: 100px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	float: left;
+	border: 1px solid #666666;
+}
+
+#col2 .box h2 {
+	margin: 0 0 -12px 0;
+	padding: 1px 0 1px 5px;
+	color: #feeda8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #87a16d;
+}
+
+#col2 .box2 {
+	width: 230px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	border: 1px solid #666666;
+}
+
+#col2 .box2 h2 {
+	margin: 0 0 -12px 0;
+	padding: 1px 0 1px 5px;
+	color: #feeda8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #87a16d;
+}
+
+/* Column 3 */
+
+#col3 {
+	width: 150px;
+	margin: 5px 0 0 0;
+	padding: 0;						              
+	float: left;
+}
+
+/* Google Ads */
+
+.adbox {
+	width: 800px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	clear: both;
+	float: left;
+}
+
+.adbox a:link, #col1 .adbox a:visited {
+	color: #339900;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.adbox a:hover, #col1 .adbox a:active {
+	color: #339900;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.adbox .title {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Feed */
+
+.rss-item  {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+  	font-weight : normal;
+  	list-style: none;
+  	margin: 0 5px 15px -18px;
+	padding: 0;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background: #ffffff;
+}
+
+#footer p {
+	margin: 0;
+	padding: 30px 0 2px 0;
+	color: #000000;
+	text-align: center;
+}

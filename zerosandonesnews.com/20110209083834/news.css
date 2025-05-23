@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body {color:#000; font-size:12px; font-weight:normal; background-color:#006699; padding:0px; margin:0px; font-family:Arial, Helvetica, sans-serif;}
+#wrap {position: relative; width:855px; height:900px; margin:0px; padding:0px; left:50%; margin-left:-427.5px;}
+#banner {float:left; width:855px; height:213px; padding:0px; margin:0px;}
+#navfeedwrap {float:left; width:855px; height:321px; padding:0px; margin:0px;}
+#navigation {float:left; width:210px; height:321px; padding:0px; margin:0px;}
+#feed {float:left; width:645px; height:321px; padding:0px; margin:0px; background-image:url(images/index_07.jpg);}
+#humor {float:left; width:290px; height:366px; background-image:url(images/index_13.jpg); background-repeat:no-repeat;}
+#magazines {float:left; width:255px; height:366px; padding:0px; margin:0px; background-image:url(images/index_14.jpg); background-repeat:no-repeat;}
+#ads {float:left; width:310px; height:366px; padding:0px; margin:0px;}
+
+#humortext {margin-top:50px; margin-left:55px; overflow:auto; width:215px; height:300px;}
+a{font-weight:normal; color:#006699;}
+
+#magtext {margin-top:50px; margin-left:20px; overflow:auto; width:215px; height:300px;}
+#feedtext {margin-top:30px; margin-left:20px; overflow:auto; width:545px; height:270px;}
+
+ul {list-style:none;}
+
+.scroll {
+filter: Chroma(Color=#123456); 
+overflow: auto; 
+scrollbar-face-color:#123456; 
+scrollbar-shadow-color: #123456; 
+scrollbar-highlight-color: #123456; 
+scrollbar-3dlight-color: #123456; 
+scrollbar-darkshadow-color: #123456; 
+scrollbar-track-color: #123456; 
+scrollbar-arrow-color: #000000; 
+}

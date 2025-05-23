@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {	font: 75% "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif; background: #f2f2f2; margin: 0; padding: 0; color: #000000;}
+
+#wrap { position: relative; width: 1151px;  height: 100% auto;	background: #FFFFFF;	margin: 0px 0px 0px -575px; left: 50%; }
+
+ul{ margin: 0; padding: 0;}
+li{ padding: 3px; display: block; list-style: none;}
+ul li ul{margin: 0; padding: 0;}
+ul li ul li{margin: 0px; padding: 1px 0px 1px 25px;}
+
+
+p{margin: 0;padding: 0;}
+img{border: none;}
+
+a{text-decoration: none; color:#36C; font-weight: bold; border: none;}
+a:hover{color: #99CC33; }
+a:active, a#focus{color: #000; }
+
+ul li:hover {color: #000; background-color: #f2f2f2;}
+
+#header {float: left; width: 1151px; height: 102px; } 
+#dateformat{float: left; text-align: left; margin: 0px; width: 390px; padding: 25px 0px 0px 10px; background: inherit; color: #fff;}
+
+#nav {float: left; width: 1151px; height: 53px; background: url(images/nav.jpg) no-repeat;}
+#nav ul{float: left; width: 751px; margin: 0px; padding: 25px 0px 0px 0px; }
+#nav ul li{margin: 0; padding: 2px 15px; list-style: none; display: inline; font-size:120%;}
+#nav ul li:hover{background: none;}
+#nav ul li a{color: #fff; font-weight: normal;}
+#nav ul li a:hover{color: #FC3;}
+#nav ul li a:active, #nav ul li a#focus{color: #9C3;}
+
+h2{color:#669933; font-size: 160%; padding: 0px; margin: 2px 0px; font-weight: normal; font-family:Georgia, "Times New Roman", Times, serif; }
+h3{color:#666666; font-size: 120%; padding: 4px 0px 2px 0px; margin: 0; font-weight: normal; font-family:Georgia, "Times New Roman", Times, serif; font-variant: small-caps;}
+
+#mainpg{float: left; margin: 0; padding: 0; width: 1151px; height: 100% auto; min-height: 650px;}
+
+#newscontent{float: left; width: 911px; min-height: 500px; margin: 0; padding: 0; }
+
+#side{float: left; width: 240px; min-height: 500px; margin: 0; padding: 0;}
+
+#resources li{text-align: center; margin: 12px 0px;}
+#bottom_banner{float: left; width: 1151px; height: 50px; margin: 0;padding: 0; background: url(images/adbottom.jpg) bottom no-repeat;}
+#footer {clear:both; width: 1151px; height: 20px; margin: 0px; padding: 0px; background:#fff;} 
+#footer p{text-align: center; color: #666; font-size: 10px;}
+.box{border: 1px solid #693; padding: 5px 5px 10px 5px; margin: 10px 5px; background: #fff; }
+.narrow{width: 210px; margin: 0px 5px 0px 3px; }
+.regular{width: 250px; margin: 0px 5px;}
+.wide{width: 375px; margin: 0px 5px;}
+
+
+.btmline{border-bottom: 1px solid #69C; margin-bottom: 10px;}
+
+/* Miscellaneous classes for reuse */
+.fltrt { float: right;	margin-left: 5px;}
+.fltlft { float: left;	margin-right: 5px;}
+.clearfloat { clear:both;    height:0;    font-size: 1px;    line-height: 0px;}
+.minicol{width: 44%; margin-left: 10px; margin-right: 10px;}
+.imgcenter{text-align: center;}
+#sportsorg li, #sportslinks li, #glob_bus li, #stock li{display: inline; padding: 3px 8px 3px 0px;}
+
+.scroll{background: #FFFFFF; padding: 5px;
+scrollbar-face-color:#FFFFFF;
+scrollbar-arrow-color:#006699;
+scrollbar-track-color:#FFFFFF;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-darkshadow-color:#FFFFFF;
+}

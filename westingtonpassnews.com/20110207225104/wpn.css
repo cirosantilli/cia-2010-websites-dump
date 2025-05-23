@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Times New Roman", Times, serif; margin:0; padding:0;}
+
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#3364ca; font-size:14px;} /*row & description of link*/
+li a {text-decoration: none; color: #214287; font-size:16px; font-weight:600;} /*link*/
+li a:hover {color:#214287; text-decoration: underline;}
+
+#wrap {float:left; width:850px; height:900px;}
+
+#nav {float:left; width:850px; height:29px; background:url(images/WPN_01.jpg) no-repeat;}
+
+#header {float:left; width:850px; height:105px;}
+
+#col-1 {float:left; width:210px; height:766px; background:url(images/WPN_10.jpg) no-repeat;}
+#col-1-text {float:left; width:190px; height:761px; margin:5px 0 0 15px; display:inline; overflow:auto; visibility:visible;}
+
+#col-2-whole {float:left; width:150px; height:766px;}
+#col-2-nav {float:left; width:150px; height:341px; background:url(images/WPN_11.jpg) no-repeat;}
+#col-2-middle {float:left; width:150px; height:190px; background:url(images/WPN_17.jpg) no-repeat;}
+#col-2-bottom {float:left; width:150px; height:235px; background:url(images/WPN_20.jpg) no-repeat;}
+
+#col-3-whole {float:left; width:284px; height:766px;}
+#col-3-top {float:left; width:284px; height:108px;}
+#col-3-mid {float:left; width:284px; height:601px; background:url(images/WPN_14.jpg) no-repeat;}
+.box-right {width: 260px; height: 581px; margin: 10px 0px 0 19px; padding: 0; overflow: auto; float: left; display:inline; visibility:visible; display:inline;}
+#col-3-bottom {float:left; width:284px; height:57px;}
+
+#col-4 {float:left; width:206px; height:766px;}
+
+
+
+  #tabs {
+      float:left;
+      width:600px;
+      font-size:12px;
+      line-height:normal;
+      }
+    #tabs ul {
+	margin:0;
+	padding:0px 10px 0 20px;
+	list-style:none;
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:left;
+      margin:0;
+      padding:0 0 0 20px;
+      text-decoration:none;
+      }
+    #tabs a span {
+      float:left;
+      display:block;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#214287;
+	  text-decoration:underline;
+      }
+    #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #tabs a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+.wireframemenu{ border: 1px dotted #C0C0C0; background-color: white; border-bottom-width: 0; width: 150px; margin: 30px 0 0 0;}
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 144px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #214287; text-decoration: none; border-bottom: 1px dotted #C0C0C0; }
+.wireframemenu a:visited{ color: #214287; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #214287; color: white; }

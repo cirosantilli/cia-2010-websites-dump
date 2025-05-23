@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight : normal;
+	xline-height: 1.5em;
+	scrollbar-face-color: #ffffff; 
+	scrollbar-shadow-color: #ffffff; 
+	scrollbar-highlight-color: #ffffff; 
+	scrollbar-3dlight-color: #ffffff; 
+	scrollbar-darkshadow-color:#ffffff; 
+	scrollbar-track-color: #ffffff; 
+	scrollbar-arrow-color: #052575;
+}
+
+h2 {
+	margin: 0 0 0 2px;
+	padding: 0;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #999999;
+}
+
+p {
+	margin: 15px 5px 8px 5px;
+	padding: 0;
+}
+
+a:link {
+	color: #006dc2;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #006dc2;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}	
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+img.ad {
+	float: right;
+	margin: -10px 0 0 10px;
+	padding: 0;
+	border: 1px solid #666666;
+}
+
+img.ad2 {
+	float: right;
+	margin: -10px 0 0 10px;
+	padding: 0;
+	border: none;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 555px;
+	margin: 0 0 0 0px;
+	padding: 0;
+	background: #ffffff;
+}
+
+.date {
+	float: right;
+	margin: -18px 0 0 0;
+	padding: 0;
+}
+
+/* Feed */
+
+.rss-item  {
+	color: #000000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+  	font-weight : normal;
+  	list-style: none;
+	line-height: normal;
+  	margin: -12px 5px 25px -18px;
+	padding: 0;
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+
+ul {margin:0; padding:0; display:block;border:0;}
+li {margin:0; padding:0; list-style:none; border:0;}
+
+body {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000;}
+a:link {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#090; }
+a:visited {color:#090; text-decoration:underline;}
+a:hover {color:#999; text-decoration:none;}
+a:active {color:#060; text-decoration:underline;}
+h1 {width:180px; margin:5px 0 0 10px; padding:3px; font-family:Tahoma, Geneva, sans-serif; color:#000; font-size: 11px; border:#333 dotted 1px;}
+h2 {width:375px; margin:5px 0 5px 10px; padding:3px; font-family:Tahoma, Geneva, sans-serif; color:#000; font-size: 12px; border:#333 dotted 1px;}
+h3 {width:auto; margin:0; padding:10px 0 0 0; font-family: Tahoma, Geneva, sans-serif; color: #000; font-size: 10px;}
+h4 {width:100px; margin:5px 0 0 10px; padding:3px; font-family:Tahoma, Geneva, sans-serif; color:#000; font-size: 11px; border:#333 dotted 1px;}
+h5 {width:auto; margin:0; padding:5px 0 2px 0; font-size:11px; color:#FFF;}
+
+#wrap {width:930px; height:2000px;}
+#ads {width:930px; height:30px; float:left; margin:0; padding:0 5px 10px 0; text-align:right;}
+#banner {width:930px; height:145px; float:left; margin:0; padding:0; display:inline;}
+#slatenav{width:930px; float:left; display:block; height:42px; font-size:11px; font-weight:bold; background:url(images/menu_background.gif) repeat-x top left; font-family:Arial,Verdana,Helvitica,sans-serif;}
+#slatenav ul{margin:0; padding:0; list-style-type:none; width:auto;}
+#slatenav ul li{display:block; float:left; margin:0 1px 0 0;}
+#slatenav ul li a{display:block; float:left; color:#D5F1FF; text-decoration:none; padding:14px 5px 0 5px; height:28px;}
+#slatenav ul li a:hover {color:#fff; background:url(images/menu_backgroundOVER.gif) no-repeat top center;}
+#content {width:930px; height:1850px; float:left; margin:0; padding:0;}
+
+#column1 {width:243px; height:1500px; float:left; margin:0; padding:0;}
+#header {width:140px; height:20px; float:left; margin:5px 0 0 0; padding:0; text-align:center; font:Tahoma, Geneva, sans-serif; font-size:12px; color:#000; border:#333 dotted 1px;}
+#col1_feed {width:243px; height:770px; float:left; margin:0; padding:0; overflow:auto; visibility:visible;}
+#xml {width:243px; height:150px; float:left; margin:25px 0 0 0; padding:0;}
+#zdnet {width:243px; height:300px; float:left; margin:25px 0 0 0; padding:0;}
+.imgs {width:243px; height:85px; float: left; margin:10px 0 5px 0; padding:0;}
+
+#column2 {width:410px; height:1500px; float:left; margin:0 0 0 10px; padding:0;}
+#reviews {width:400px; height:835px; float:left; margin:0; padding:0;}
+#info {width:395px; height:800px; float:left; margin:0; padding:3px; overflow:auto; visibility:visible;}
+#computer {width:400px; height:290px; float:left; margin:25px 0 0 0; padding:0; overflow:auto; visibility:visible; border:#333 solid 1px}
+
+#column3 {width:265px; height:1500px; float:right; margin:0; padding:0; font-size:10px; }
+#footer {width:930px; height:460px; float:left; margin:0; padding:5px 0 0 0; background-color:#000; color:#FFF; font-family:Tahoma, Geneva, sans-serif; font-size:10px;}
+#footer_wrap {width:250px; height:430px; float:left; margin:0; padding:0;}
+#ads2 {width:250px; height:200px; float:left; margin:5px 0 0 0; padding:0;}
+#pcmag {width:315px; height:435px; float:left; margin:10px 5px 0 15px; padding:0;}
+
+
+.login {width:250px; height:175px; float:left; font-size:12px; color: #fff; margin:10px 0 0 0; padding:50px 0 0 0; text-align:center;} 
+
+/*.copyright {font-size:10px; color: #990000; margin-top:0px;} Size of the copyright text. */

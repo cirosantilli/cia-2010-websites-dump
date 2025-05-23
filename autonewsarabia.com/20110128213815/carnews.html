@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="carstyles.css" rel="stylesheet" type="text/css" />
+<base target="_blank" />
+</head>
+
+<body class="scroll">
+
+
+<div id="topnews">
+<h2> &#1605;&#1580;&#1604;&#1577;
+&#1575;&#1604;&#1587;&#1610;&#1575;&#1585;&#1575;&#1578;</h2>
+<ul></ul>
+  </div>
+
+ 
+  
+<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui-min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript"src="http://www.google.com/uds/?file=feeds&v=1"></script>
+<script type="text/javascript">
+	YUI().use("node","substitute", function(Y) {
+		
+		var feedHTML = '<li class="article_title"><a href="{link}" target="_blank">{title}</a><br />{content}</li>'
+		var rssFeed = new google.feeds.Feed("http://www.automg.com/rss/news.html");
+		rssFeed.setNumEntries(3); 
+		rssFeed.load(function(result){			
+			if(!result.error) {			
+				var str = "";
+				var entries = result.feed.entries;
+				for (var i=0; i<entries.length; i++) {
+					str += Y.substitute(feedHTML,entries[i])
+				}
+				Y.one("#topnews ul").set('innerHTML',str);
+			}
+		});			
+	});
+</script>
+
+</body>
+</html>

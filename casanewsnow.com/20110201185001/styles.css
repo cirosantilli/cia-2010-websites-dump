@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family:"Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif; font-size: 68%; color: #333; background: #000; }
+
+#wrap {position: relative; width: 950px; height: 100% auto; margin: 0px; left: 50%; margin-left: -475px; background: url(images/bkgnd.jpg) repeat-y; min-height: 600px; }
+#header{clear: both; width: 100%; height: 100% auto; }
+
+/************ELEMENTS*****************/
+ul{margin: 0px; padding: 0px;}
+li{margin: 0px; padding: 1px 0px; list-style: none; display: block;}
+
+img{border: none; margin: 0px; padding: 0px;}
+
+p{margin: 0px; padding: 0px; font-size: 1em; color: #333; } /* takes padding out of feeds with images between title and img */
+
+a{color:#996633; text-decoration: none;}
+a:hover{color: #339999; text-decoration: underline;}
+
+h1{color: #FFF; background: #693; font-size: 3em; padding: 5px;}
+h2{color:#339999; font-size: 1.2em;  margin: 0px; padding: 0px; font-weight: bold;}
+h3, .rss-title{color: #333; font-size: 1.1em;  margin: 5px 0px 0px 0px; padding: 0px; font-weight: normal;}
+
+#main li img{margin: 0px 5px 2px 0px;} /*padding around right and bottom of images in rss feeds */
+/************DIVS*****************/
+
+#navigation{clear:both; width: 950px; height: 37px; background: url(images/nav.jpg) no-repeat;}
+#navigation ul{margin: 0 10px 0 20px; padding: 0; list-style:none; width: 100%; height: 100%;}
+#navigation ul li{float: left; white-space: nowrap; padding: 5px 10px; margin:3px 2px; }
+#navigation ul a{float: left; font-size: 110%; letter-spacing: .1em; color: #fff; }
+#navigation ul a:hover{color: #996633;}
+#navigation ul #current a{color: #99FFCC;}
+#navigation li:hover{background: #333; /*brown*/}
+#navigation li:hover a{color: #fff;}
+
+#dateformat{float: left; margin: 0px; padding: 0px; width: 317px; height: 143px; background: url(images/banner_03.jpg) no-repeat;}
+#dateformat p{margin: 110px 50px 0px 0px; text-align: right; color: #fff; }
+
+#contentwrap{clear: both; width: 100% auto; height: 100% auto; background: url(images/bkgnd.jpg) repeat-y;}
+#main{float: left; width: 342px; height: 100% auto; min-height: 500px; margin: 0px; background: url(images/leftbar.jpg) no-repeat;border-right: 1px solid #ccc; }
+#newsfeeds{float: left; margin-left: 60px;}
+
+#newslinks{float: left; width: 166px; height: 100% auto; margin: 0px 0px 0px 10px; border-right: 1px solid #ccc;  }
+
+#adlinks {float: right; width: 400px; height: 100% auto; margin: 0px; background: url(images/rightbar.jpg) top right no-repeat;}
+#resources {width: 340px; margin-right: 60px; }
+#adlinks ul li {display: block; padding: 10px 0px;}  /*spacing for logos */
+#adlinks ul li img{text-align: center; padding: 5px 0px;}
+#healthmag ul li, #dailymed ul li{padding: 4px 0px;}
+#footer{clear: both; background: url(images/footer.jpg) no-repeat; width: 950px; height: 37px;}
+
+/************CLASSES*****************/
+#adlinks ul.col1{float: left; width: 140px; }
+#adlinks ul.col2{float: right; width: 150px; }
+
+
+.top{margin-top: 20px; color: #333;} /* for title */
+
+.box {float: left; margin: 5px 0px 10px 0px; width: 100% auto;  max-width: 340px; padding: 5px; }
+.fill {height: 100%; width: 100%; background: #fff; margin: 5px;}
+.fill2 {height: 100%; width: 150px; background: #fff; margin: 5px;}
+.left{text-align: left;}
+.imgcenter {text-align: center; } /* 1st column of logos */
+.imgright{text-align: right; }  /* 2nd column of logos */
+
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+
+.scroll{scrollbar-face-color:white;  scrollbar-highlight-color:white; scrollbar-3dlight-color:white; scrollbar-darkshadow-color:white; scrollbar-shadow-color:white; scrollbar-arrow-color:#006699; scrollbar-track-color:white; }
+
+

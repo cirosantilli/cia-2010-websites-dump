@@ -1,0 +1,84 @@
+/**************************************************************
+
+	Image Menu
+	v 2.2
+
+**************************************************************/
+
+
+.imageMenu {
+	position: relative;
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.imageMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1000px;
+	
+	}
+
+.imageMenu ul li {
+	float: left;
+}
+
+.imageMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:98px;
+	height: 200px;
+}
+
+.imageMenu ul li.landscapes a {
+	background-attachment: scroll;
+	background-image: url(../images/gadget.jpg);
+	background-repeat: repeat;
+	background-position: 0%;
+}
+
+.imageMenu ul li.people a {
+	background-attachment: scroll;
+	background-image: url(../images/computers.jpg);
+	background-repeat: repeat;
+	background-position: 0%;
+}
+
+.imageMenu ul li.nature a {
+	background-attachment: scroll;
+	background-image: url(../images/mobile.jpg);
+	background-repeat: repeat;
+	background-position: 0%;
+}
+
+.imageMenu ul li.urban a {
+	background-attachment: scroll;
+	background-image: url(../images/reviews.jpg);
+	background-repeat: repeat;
+	background-position: 0%;
+}
+
+.imageMenu ul li.abstract a {
+	width: 310px;
+	background-attachment: scroll;
+	background-image: url(../images/hd.jpg);
+	background-repeat: repeat;
+	background-position: 0%;
+}
+
+.clear {
+	clear: both;
+}
+
+/*************************************************************/

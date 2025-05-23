@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="mn_style.css" rel="stylesheet" type="text/css" />
+<base target="_blank">
+
+<script language="javascript">
+function mn_frame_load(frameA, frameB )
+{
+parent.mn_col_frame.location.href=frameA
+parent.mn_link_frame.location.href=frameB
+}
+</script>
+
+<title>Sunrise News - Wake up to information!</title>
+</head>
+
+<body>
+<div id="contain">
+
+  <div id="mn_head"><img src="images/mn_bg_01.jpg" /><img src="images/mn_bg_02.jpg" /></div>
+  <!-- mn_head -->
+
+
+<div id="mn_menu">
+
+<ul>
+	<li><a href="javascript:mn_frame_load('mn_feed.html','mn_links.html')" target="_parent">Top Stories</a></li>
+    <li><a href="javascript:mn_frame_load('af_feed.html','af_links.html')" target="_parent">Africa</a></li>
+    <li><a href="javascript:mn_frame_load('amr_feed.html','amr_links.html')" target="_parent">Americas</a></li>
+    <li><a href="javascript:mn_frame_load('ap_feed.html','ap_links.html')" target="_parent">Asia-Pacific</a></li>
+    <li><a href="javascript:mn_frame_load('eur_feed.html','eur_links.html')" target="_parent">Europe</a></li>
+    <li><a href="javascript:mn_frame_load('me_feed.html','me_links.html')" target="_parent">Middle East</a></li>
+    <li><a href="javascript:mn_frame_load('sp_feed.html','sp_links.html')" target="_parent">Sports</a></li>
+    <li><a href="javascript:mn_frame_load('biz_feed.html','biz_links.html')" target="_parent">Business</a></li>
+    <li><a href="javascript:mn_frame_load('ent_feed.html','ent_links.html')" target="_parent">Entertainment</a></li>
+</ul>
+
+<a href="http://www.lonelyplanet.com/"><img src="ads/lonelyplanetlogo.gif"></a>
+<a href="http://www.jetblue.com/"><img src="ads/jetblue.gif" /></a>
+<a href="http://news.bbc.co.uk/"><img src="ads/bbc_logo.gif" /></a>
+<a href="http://club.japantimes.co.jp/en/"><img src="ads/japantimes.jpg" /></a>
+
+</div>
+
+<div id="mn_feed">
+
+<iframe name="mn_col_frame" src="mn_feed.html" width="500" height="800" frameborder="0" framespacing="0" scrolling="no"></iframe>
+
+</div>
+
+<div id="mn_links">
+
+<iframe name="mn_link_frame" src="mn_links.html" width="233" height="800" frameborder="0" framespacing="0" scrolling="no"></iframe>
+
+</div>
+
+<div id="clear_div"></div>
+
+<div id="mn_footer">
+
+<div id="applet">
+
+</div> <!-- applet -->
+<APPLET archive="news.jar" code="sv.mvga.mrz.fzp" width=800 height=24 mayscript/> </APPLET>
+</div> <!-- mn_footer -->
+
+
+</div> <!-- contain -->
+
+</body>
+</html>

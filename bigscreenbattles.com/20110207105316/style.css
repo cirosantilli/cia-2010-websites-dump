@@ -1,0 +1,153 @@
+/* CSS Document */
+
+body {
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #555;
+	margin: 0px;
+	padding: 0px;}
+
+#wrap {position:relative;
+     width:1030px; 
+	 height: 100% auto; 
+	 left:50%; 
+	 margin:0px 0px 0px -515px;
+	 }
+
+
+h1 {font-size: 12px; font-weight: bold;  color:#4f7f39;}
+h2 {font-size: 10px; font-weight: bold;  color:#FFF; padding: 8px 5px 2px 4px; background-color: #ccc;}
+
+
+a:link {  text-decoration:none; font-weight:bold; color:#2b547d; }
+a:visited {	text-decoration:none; font-weight:bold; color:#999; }
+a:hover { text-decoration:underline; font-weight:bold; color:#2b547d;}
+a:active { text-decoration: none; font-weight:bold; color:#2b547d;}
+
+
+ul {margin:0; padding:0; display:block; }
+li {margin:0; padding:4px 0px; list-style:none;}
+
+#banner {float: left;
+     width:1030px; 
+	 height:137px; 
+	 margin:0px; 
+	 padding:0px;
+	 }
+	 
+	 
+#maincontent {clear: both;
+	float: left;
+      width:1030px;
+	  height: 100% auto;  
+	  margin:0px; 
+	  padding:0px; 
+	  background:url(images/bgd_slice.jpg) repeat-y;}
+
+	
+	
+#batt-col {
+	float:left;
+	width:406px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	background: url(images/col-top_batt.jpg) top no-repeat;
+	}
+
+ul#batt-nav{
+	margin: 88px 0px 0px 150px;
+	padding: 0px 0px 0px 0px;
+	width: 230px;
+	text-align: normal;
+	}
+
+
+ul#batt-nav li a:link {font-size: 11px; text-decoration:none; font-weight:bold; color:#fff; }
+ul#batt-nav li a:visited {font-size: 11px; text-decoration:none; font-weight:bold; color:#fff; }
+ul#batt-nav li a:active {font-size: 11px; text-decoration: none; font-weight:bold; color:#fff;}
+ul#batt-nav li a:hover{font-size: 11px; text-decoration:underline; font-weight:bold; color:#fff;}
+
+
+ul#batt-links{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 406px;
+	text-align: normal;
+	}
+
+
+#mov-col {
+	float:left;
+	width:381px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background: url(images/col-top_mov.jpg) top no-repeat;
+	}
+	
+	
+ul#title{
+	margin: 88px 0px 0px 88px;
+	padding: 0px 0px 0px 0px;
+	width: 200px;
+	text-align: center;}
+	
+ul#title li a:link {font-size: 11px; text-decoration:none; font-weight:bold; color:#fff; }
+ul#title li a:visited {font-size: 11px; text-decoration:none; font-weight:bold; color:#fff; }
+ul#title li a:active {font-size: 11px; text-decoration: none; font-weight:bold; color:#fff;}
+ul#title li a:hover{font-size: 11px; text-decoration:underline; font-weight:bold; color:#fff;}
+
+	
+
+#ads-col {
+	float:left;
+	width:126px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;}
+	
+ul#ads-col{
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+	
+#edge-col {
+	float:right;
+	width:117px;
+	height: 100% auto;    
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;}
+	
+#ad-1 {
+	float:left;
+	width:140px;
+	height:140px;   
+	padding: 0px 0px 0px 0px;
+	margin: 8px 0px 0px 135px;}
+	
+#gallery {
+	float:left;
+	width:100px;
+	height:143px;   
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 13px;
+	}
+	
+#ad-2 {
+	float:left;
+	width:120px;
+	height:83px;   
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 3px;
+	}
+	
+#ad-3 {
+	float:left;
+	width:88px;
+	height:31px;   
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 19px;
+	}
+	

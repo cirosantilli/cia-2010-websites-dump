@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*Gulf and Middle East News CSS Document */
+
+body {margin:0; padding:0; background: url(images/gmen-bkgd.jpg) repeat-x;}
+p {font: 11px "Arabic Transparent", "Times New Roman", Times, serif; color:#000000;}
+b {font: bold 15px "Arabic Transparent", "Times New Roman", Times, serif; color:#ca3806; }
+h1 {font: bold 13px "Arabic Transparent", "Times New Roman", Times, serif; color:#3f88ee; line-height:18px; margin: 10px 5px 0 0; width:100%; border-bottom: 1px solid #e9e9e9;}
+a{ text-decoration: none; color: #236db6; font: 12px "Arabic Transparent", "Times New Roman", Times, serif; }
+a:visited{ color: #236db6; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif;}
+hr { color: #e9e9e9; }
+
+#wrap {float:right; width:900px; height:auto;}
+
+#gmen-header {float:left; width:900px; height:auto;}
+
+#gmen-topheader {float:left; width:810px; height:72px;}
+#gmen-toprotating {float:left; width:90px; height:72px; background:url(images/gmen-img_06.jpg) no-repeat;}
+#gmen-btmheader {float:left; width:900px; height:60px;}
+
+#gmen-col-01 {float:left; width:234px; height:740px; background:url(images/gmen-img_12.jpg) top no-repeat;}
+#gmen-col-02 {float:left; width:137px; height:740px; background:url(images/gmen-img_13.jpg) no-repeat;}
+#gmen-col-02 ul {list-style: none;margin: 45px 34px 0 0;padding: 0; line-height: 23px;}
+#gmen-col-03 {float:left; width:318px; height:740px; background:url(images/gmen-img_14.jpg) left top no-repeat;}
+#gmen-col-04 {float:left; width:211px; height:740px;}
+#gmen-col-04-topbox {float:left; width:211px; height:78px; background:url(images/gmen-img_17.jpg) right no-repeat;}
+#gmen-col-04-btmrotating {float:left; width:73px; height:78px; background:url(images/gmen-img_16.jpg) no-repeat;}
+
+#gmen-footer {float:left; width:900px; height:128px; background:url(images/gmen-img_21.jpg) left top no-repeat;}
+
+#infofeed {float:left; width:313px; height:706px; overflow: auto; visibility: visible; /*border:solid 1px #e9e9e9;*/ margin: 2px 5px 0 0;}
+*html #infofeed {float:left; width:313px; height:708px; overflow: auto; visibility: visible; /*border:solid 1px #e9e9e9;*/ margin: 2px 5px 0 0;}
+#infofeed ul {list-style: none;margin: 20px 0 0 20px;padding: 0;}
+
+#infofeed02 {float:left; width:229px; height:706px; overflow: auto; visibility: visible; /*border:solid 1px #e9e9e9;*/ margin: 2px 5px 0 0;}
+*html #infofeed02 {float:left; width:229px; height:708px; overflow: auto; visibility: visible; /*border:solid 1px #e9e9e9;*/ margin: 2px 5px 0 0;}
+#infofeed02 ul {list-style: none;margin: 20px 0 0 20px;padding: 0;}
+
+.wireframemenu{ width: 200px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 194px;}
+.wireframemenu ul{ padding: 0; margin: 10px 10px 0 0; list-style-type: none; line-height:0; }
+.wireframemenu a{ font: bold 13px  "Arabic Transparent", "Times New Roman", Times, serif; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; /*border-bottom: 1px solid #d4f6fe;*/ }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{color: #000; }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

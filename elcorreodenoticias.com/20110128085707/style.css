@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document for "El Correo de Noticias*/
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;	margin: 0;
+	padding: 0; color: #000; background-color:#CCC;}
+img {border: none; margin: 0; padding: 0;}
+
+.image_left{float: left;padding: 2px 4px;}
+
+ul {margin:0; padding:2px 0px 0px 4px; display:block; border:0;}
+li {margin:0; padding:3px 1px; list-style:none; border:0px; color: #000;}
+
+a:link {  text-decoration:none;  color: #2475AC; }
+a:visited {	text-decoration:none;  color:#2475AC; }
+a:hover { background-color:#CCC; }
+a:active {	text-decoration: none;	color:#2475AC;}
+
+.sidelinks a:link {  text-decoration:none; color:#BA3C25;}
+.sidelinks a:visited {	text-decoration:none;  color:#BA3C25;}
+.sidelinks a:hover { text-decoration:none; color:#3889BE; }
+.sidelinks a:active {text-decoration: none; color:#BA3C25;}
+
+.btm_nav a:link {  text-decoration:none; color:#369;}
+.btm_nav a:visited {text-decoration:none;  color:#369;}
+.btm_nav a:hover { text-decoration:none; color:#C00; }
+.sbtm_nav a:active {text-decoration: none; color:#369;}
+
+h1 {margin: 0; font-size:11px; padding:8px 0 8px 11px; text-decoration:underline; color:#cc0033; text-transform:uppercase;}
+h2 {margin: 0; width:145px; font-size:10px; margin:2px 2px 0 4px; padding:7px 0 10px 0; color:#cc0033; background-image:url(images/sub_title.gif); background-repeat:no-repeat; text-transform:uppercase; text-align:center;}
+h3 {margin: 0; font-size:10px; padding:25px 24px 15px 110px; text-decoration:underline; color:#cc0033; text-transform:uppercase; float:left;}
+h4 {margin: 0; font-size:10px; margin-bottom:10px; padding:25px 0 0 10px; text-decoration:underline; color:#cc0033; text-transform:uppercase; float:left;}
+.url {font-size:9px; color:#999; font-weight:bold;}
+
+#wrappage {width:950px;	height:100% auto; margin:0;	padding:0;	position:relative;	left:50%;
+	margin-left:-475px;
+}
+#wrap_topbanner {width:950px; height:52px; margin:0; padding:0;	float:left; background-image:url(images/index_01.jpg); background-repeat:no-repeat;}
+#date {	width:219px;height:30px; margin:0; float:left; z-index:1; top:20px;	left:47px;	position:absolute;
+visibility:visible;	color:#FFF;	font-size:9px;}
+
+#search {width:191px; height:24px; margin:0; float:left; z-index:1;	top:16px; left:743px; position:absolute;}
+
+.search_code {width:191px; height:30px; margin:0; padding: 0; float:left; font-size:10px; color: #666;}
+input {	padding:2px; border:1px solid #666; font:10 Verdana, sans-serif; color:#000;}
+input.button { font: bold 11px Arial, Sans-serif; height: 22px;	margin: 0; padding: 2px 3px; color: #FFF; background: #C33; 
+border: 1px solid #000;}
+
+#maincontent {width:950px; height:auto;	margin:0; padding:0; float:left; background-color:#FFF;}
+#column_1 {width:283px;	height:791px; margin:0; padding:0;	float:left; color:#933;}
+#wrap_t_imgs {width:283px; height:334px; margin:0; float:left;}
+#wrap_b_content {width:283px; height:457px; margin:0; background-image: url(images/index_09.jpg); background-repeat:no-repeat; float:left;}
+
+/*navegation*/
+#sidebar {float: left;	width: 200px; padding: 0; margin: 5px 0 0 50px;display: inline;}	
+#sidebar ul.sidemenu {text-align: left;	margin: 7px 5px 8px 0px; padding: 0; text-decoration: none;	}
+#sidebar ul.sidemenu li {list-style: none;	padding: 8px 10px;	margin: 0;}
+* html body #sidebar ul.sidemenu li {height: 1%;}
+#sidebar ul.sidemenu li a {text-decoration: none; background-image: none; background-color: transparent;border: none;
+	color: #FFF;font-weight: bold;font-family: "Trebuchet MS", Tahoma, Helvetica, Arial, Sans-serif;font-size: 13px;}
+#sidebar ul.sidemenu li a span {color: #989898;	font-family: Georgia, "Times New Roman", Times, serif;	font-style: italic;
+	font-weight: normal;font-size: .8em;}
+#sidebar ul.sidemenu li a:hover {color: #555;}
+#sidebar ul.sidemenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.sidemenu ul li { background: none; }
+/*end of navigation*/
+.lines{ border-bottom: 1px solid #CCC; }
+
+#column_2 {width:499px;	height:791px; margin:0; padding:0;	float:left; background-color:#30F;}
+#column_3 {width:168px;	height:791px; margin:0; padding:0;	float:left; background-color:#F93; background-image:url(images/index_04.jpg); background-repeat:no-repeat; font: 11 'trebuchet MS', Tahoma, Helvetica, Arial, sans-serif; position:relative; }
+
+#wrap_lower_content {width:950px; height:428px; margin:0; padding:0; float:left; text-align:left;}
+
+#below_c1 {	width:133px; height:350px; margin:0; padding:0;	float:left;	z-index:1;	position:absolute;
+	top:892px;	left:123px;}
+#below_c2 {	width:179px; height:245px; overflow:auto; margin:0;	padding:0;	float:left;	z-index:1;	position:absolute;
+	top:872px;	left:296px;}
+#below_c3 {	width:179px; height:260px; margin:0; padding:0;	float:left;	z-index:1;	position:absolute;
+	top:977px;	left:527px;}
+#below_c4 {	width:160px; height:240px;	overflow:auto; margin:0; padding:0;	float:left;	z-index:1;	position:absolute;
+	top:877px;	left:746px;}
+
+#wraplogos {width:950px; height:62px; float:left; margin:0; position:relative;}
+
+#applet {width:196px; height:62px; float:left; padding:0;}
+#logoslist {width:754px; height:62px; float:left; margin:0;}
+
+#lowernav {width:950px; height:23px; float:left; text-align:center; padding:7px 0 0 0; background-color:#CCC;}
+
+#subpages {	width:499px; height:791px; margin:0; padding:0;	float:left;	background-color:#FFF;}
+#topnews {width:auto; height:120px; margin:0 0 4px; padding:0; float:left; border:1px solid #CCC;}
+#ad1 {width:138px; height:86px; margin:5px 6px 0 5px; padding:0px 5px; float: left; font-size:10px;}
+#ad2 {width:148px; height:86px; margin:5px 6px 0 0; padding:0px 5px; float: left; font-size:10px;}
+
+#links_content {width: 234px; height: 620px; padding:0 0 10px 5px; float:left; overflow:auto;}
+#rssfeed_content {width: 237px;	height: 620px;	padding:0 0 10px 10px; float:left; overflow:auto;}
+
+
+#footer {width:950px; height:30px; margin:0; padding-top:5px; color: #000; font-size:10px; float: left; background-color:#CCC; text-align: center; position: relative; text-align:center;}
+
+.scroll{scrollbar-face-color: #FFF;	scrollbar-shadow-color: #FFF; scrollbar-highlight-color: #FFF; 	scrollbar-3dlight-color: #FFF;
+scrollbar-darkshadow-color:#FFF; scrollbar-track-color:#FFF; scrollbar-arrow-color:#666; background-color: #FFF;}

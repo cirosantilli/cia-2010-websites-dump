@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:0; list-style:none; border:0;}
+
+h1 {width:180px; height:auto; float:right; margin:0; padding:0 3px 3px 3px; color:#cc9900; font-size:13pt; font-weight:bold;}
+a {font-size: 14px;	color: #00C;}
+a:visited {color: #03F;}
+a:hover {color: #990;}
+a:active {color: #03F;}
+
+#wrap {width:920px; height:960px;}
+#banner {width:920px; height:111px; position: relative; float:left; margin:0; padding:0; display:inline;}
+#img-1 {width:920px; height:14px; float:left; margin:0; padding:0;}
+#content {width:920px; height:950px; float:left; margin:0; padding:0;}
+
+#column1 {width:250px; height:950px; float:left; margin:0; padding:0; background-image:url(images/index_09.jpg); background-repeat:no-repeat; border-right:#999 dotted 2px;}
+#ads {width:250px; height:78px; float:left; margin:45px 0 0 0; padding:0 0 10px 0; text-align:center;}
+
+#column2 {width:462px; height:950px; float:left; margin:0; padding:0;}
+#col2_info {width:452px; height:950px; float:left; margin:0; padding:5px 2px 0 5px; overflow:auto; visibility:visible;}  
+
+#vertical_bar {width:14px; height:950px; float:left; margin:0; padding:0; background-color:#000;}
+#column3 {width:191px; height:950px; float: right; margin:0; padding:0;}
+#menu7 {width: 190px; height:auto;}
+#menu7 li a {height: 32px; voice-family: "\"}\""; voice-family: inherit;height: 22px; text-decoration: none; border-style: none none dashed none; border-color: #382601; border-width: 1px;}	
+#menu7 li a:link, #menu7 li a:visited {color: #000; display: block; padding: 10px 0 0 10px;}
+#menu7 li a:hover {color: #cab893; padding: 10px 0 0 10px;}
+#menu7 li a:active {color: #cc9900; padding: 10px 0 0 10px;}
+#newspapers {width:190px; height:420px; float: left; margin:0; padding:5px 0 0 0;}
+
+#login {width:715px; height:900px; float:left; font-size:11pt; color: #000; margin:0; padding:5px; text-align:center;}
+.copyright {width: 920px; height:15px; float:left; font-size:10px; color: #fff; margin:0; padding:2px 0 0 0; text-align:center; background-image:url(images/index_14.jpg); background-repeat:no-repeat;}

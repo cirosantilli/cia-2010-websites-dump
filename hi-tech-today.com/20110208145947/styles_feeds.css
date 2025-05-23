@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font: 11px Verdana; margin:0; padding:0; text-align:left;}
+p {font-family:Georgia, "Times New Roman", Times, serif;font-size:11px; color:#000000;}
+b {font: bold 11px Georgia, "Times New Roman", Times, serif; color:#000;padding: 0;}
+a{ text-decoration: underline; color: #000; font: 11px Georgia, "Times New Roman", Times, serif; font-weight: bold; display: block; }
+a:hover{ text-decoration: underline; color: #336699; }
+ul {font: 11px Georgia, "Times New Roman", Times, serif; list-style: none; padding: 0; margin: 0;}
+li {font: 11px Georgia, "Times New Roman", Times, serif; list-style: none; padding: .2em 0;}
+
+.subhead {font: 11px Georgia, "Times New Roman", Times, serif; list-style: font-size:12px; font-weight:bold;color:#CC0000;text-decoration:underline;}
+
+h1 {float:left;font: bold 18px Georgia, "Times New Roman", Times, serif;text-align:left;width:520px; color: #999; padding:5px 0 5px 0px; margin:0; }
+/*.centerheader {font-size: 12px; font-weight: bold; width:290px; color: #fff; padding:5px 0 5px 5px; margin:0; float:left; background-color:#999999;}*/
+
+#feedcontent {float:left;width:535px; _width:535px; height:875px;/* padding: 0 10px 0 10px; */overflow: auto;}
+
+.scroll {
+	scrollbar-face-color: #E8E8E8;
+	scrollbar-shadow-color: #FFF;
+	scrollbar-highlight-color: #FFF;
+	scrollbar-3dlight-color: #FFF;
+	scrollbar-darkshadow-color:#FFF;
+	scrollbar-track-color:#FFF;
+	scrollbar-arrow-color:#000;
+	background-color: #FFF;

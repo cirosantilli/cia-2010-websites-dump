@@ -1,0 +1,148 @@
+/* CSS Document */
+
+body {
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	background-color:#fff;
+}
+
+
+#wrap {position:relative;
+     width:800px; 
+	 height: 100% auto; 
+	 margin:0px;
+     }
+
+
+h1 {font-size: 11px; font-weight: bold;  color:#663333; text-decoration:underline;}
+h2 {font-size: 10px; font-weight: bold;  color:#FFF; padding: 8px 5px 0px 0px; background-color: #96613b;}
+
+
+
+a:link {  text-decoration:none; font-weight:bold; color:#663333; }
+a:visited {	text-decoration:none; font-weight:bold; color:#999; }
+a:hover { text-decoration:underline; font-weight:bold; color:#663333;}
+a:active { text-decoration: none; font-weight:bold; color:#663333;}
+
+
+
+ul {margin:0; padding:10px 0px 0px 0px; display:block; }
+li {margin:0; padding:5px 0px; list-style:none;} /*Always put at the begining of the css to eliminate the bullets.*/
+ /* topbanner defines the size of the banner*/
+#topbanner {float: left;
+     width:800px; 
+	 height:163px; 
+	 margin:0px; 
+	 padding:0px; 
+	 }
+	 
+/* topbanner defines the size of the sub_banner*/	
+#sub_banner {float: left;
+	width:800px;
+	height:144px;
+	margin:0px;
+	padding:0px; 
+	 }
+
+
+/* maincontent defines the size of the main content below the banner*/
+#maincontent {clear: both;
+	float: left;
+      width:800px;
+	  height: 100% auto; 
+	  margin:0px; 
+	  padding:0px; 
+	  background-color:#fff;}
+
+
+#column1 {
+	float:left;
+	width:162px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	}
+	
+	
+#navigation{float: left; width: 162px; height: 293px; margin: 0px; padding: 0px; background: url(images/left_nav.jpg) no-repeat;}
+
+ul#nav{margin: 0px 0px 0px 0px; padding: 0px 0px 0px 30px; width: 162px; text-align: left;}
+
+ul#nav li{text-align: left;}
+
+ul#nav li a:link { font-size: 10px; text-decoration:none; font-weight:bold; color:#663333; }
+ul#nav li a:visited {font-size: 10px; text-decoration:none; font-weight:bold; color:#663333; }
+ul#nav li a:active {font-size: 10px; text-decoration: none; font-weight:bold; color:#663333;}
+ul#nav li a:hover{font-size: 10px; text-decoration:underline; font-weight:bold; color:#663333;}
+
+ul#nav li a{padding: 2px 0px 0px 0px;}
+
+
+
+#column2 {
+	float:left;
+	width:258px;
+	height: 100% auto; 
+	padding: 15px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color:#fff;
+	 }
+	 
+#column2-images {
+	float:left;
+	width:258px;
+	height: 100% auto; 
+	padding:20px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color:#fff;
+	 }
+	 
+	
+#column2 li{text-align: left; }	
+
+
+#column3 {
+	float:left;
+	width:240px;
+	height: 100% auto; 
+	padding: 15px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border:none;
+	color:#fff;
+	 }
+	 
+#column3 li{text-align: left; }
+
+
+#column4 {
+	float:right;
+	width:129px;
+	height: 100% auto; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border:none;
+	color:#fff;
+	 }
+	 
+ul#blog li{text-align: left;}
+
+ul#blog li a:link { text-decoration:none; font-weight:bold; color:#999900; }
+ul#blog li a:visited {text-decoration:none; font-weight:bold; color:#999900; }
+ul#blog li a:active {text-decoration: none; font-weight:bold; color:#999900;}
+ul#blog li a:hover{text-decoration:underline; font-weight:bold; color:#999900;}
+
+ul#blog li a{padding: 2px 0px 0px 0px;}
+	 
+#column4 li a{text-align: left; }
+
+.scroll{ padding-right: 7px;
+scrollbar-face-color:#ffffff; 
+	scrollbar-shadow-color: #cccccc; 
+	scrollbar-highlight-color: #FFFFFF; 
+	scrollbar-3dlight-color: #ffffff; 
+	scrollbar-darkshadow-color: #ffffff; 
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: #999900;} 

@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family: Arial, Helvetica, sans-serif;  font-size: 12px; 
+background: #000 url(images/bkgrnd.jpg) top repeat-x;}
+
+#wrap{position: relative; width: 950px; height: 100% auto; left: 50%; margin: 0px; padding: 0px; margin-left: -475px; background: #fff url(images/bkwhite.jpg) repeat-y; }
+
+#header{float: left; width: 950px; height: 224px;}
+img{border: none;}
+a{color: #3399CC; font-weight: normal; text-decoration: underline;}
+a:hover{color: #009933; }
+
+h1{margin: 0px; padding: 2px 5px; color:#339933; font-size: 16px;}
+h2{margin: 0px; padding: 2px 10px 4px 10px; font-weight: normal; font-size: 16px; text-decoration: none; color: #ffffff; background: url(images/hdbkgrnd.jpg) repeat-x;}
+.rss-title{width: 100% auto; display: block;}
+.rss-title a{margin: 0px; padding: 2px 0px; font-size: 16px; text-decoration: none; color: #ffffff; background: url(images/hdbkgrnd.jpg) repeat-x;}
+ul{margin: 0px; padding: 0px 5px; list-style: none; }
+li{margin: 0px; padding: 3px 0px; display: block;}
+
+#nav{float: left; width: 950px; height: 45px; background: url(images/nav.jpg) no-repeat;}
+#nav ul{width: 500px; height: 25px; margin-left: 100px;  padding: 5px;}
+#nav ul li{display: inline; font-size: 14px; }
+#nav ul li a{text-decoration: none; color: #fff; font-weight: bold; padding: 2px 10px;}
+#nav ul li a:hover{color: #333;}
+#nav a.selected {color:#00CCFF;}
+#content{float: left; width: 950px; height: 100% auto; margin: 0px; padding: 0px; background: url(images/bkwhite.jpg) repeat-y;}
+#main{float: left; width: 680px; height: 100% auto; margin: 0px; padding: 0px; background: inherit;}
+#main img{padding: 10px 10px 10px 0px;}
+.fullcol{clear: both; float: left; margin: 10px 10px 10px 80px; width: 580px; height: 100% auto;}
+.width100{clear: both; float: left; margin: 10px 10px 10px 80px; width: 780px; height: 100% auto; }
+.splitcol{float: left; margin: 10px 15px 10px 10px; width: 140px; height: 100% auto;}
+.halfcol{float: left; margin: 10px 15px 10px 10px; width: 240px; height: 100% auto;}
+#gallery img{text-align: center;}
+.col1{float: left; width: 47.5%; }
+.col2{float: right; width: 47.5%; }
+.clearcol{float: left; width: 100%; }
+.curlybox{border-top: 1px solid #ccc;border-left: 1px solid #ccc;padding: 5px;background: url(images/bgcorner.gif) no-repeat 100% 100%;}
+#sidebar{float: left; width: 195px; height: 100% auto; margin: 10px 0px; padding: 0px; }
+#ads1 ul li{display: inline;padding: 3px 0px;}
+#ads li{padding: 5px 0px;}
+
+#Flickr ul li{display: inline;padding: 3px 0px;}
+
+#cities ul, #econhotels ul, #maplinks ul {width: 70px;}
+.more{text-align: right; padding: 5px;}
+.adcenter{text-align: center;}
+.box{border: 1px solid #FF9900; margin-bottom: 10px; background: #fff;}
+.thin li{padding: 2px 0px;}
+.adline{display: inline;}
+#footer{clear: both; text-align: center; color: #666; width: 950px; height: 100% auto; margin: 0px; padding: 5px 0px; }
+#linklist td{line-height: 26px;}

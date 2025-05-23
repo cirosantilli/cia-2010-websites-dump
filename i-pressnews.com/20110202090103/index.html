@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>i-Press News</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	pic = new Image();
+	function updiv(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function imgload(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+<body>
+
+<div id="mainbody">
+
+
+<div id="topback">
+<div id="bannerText">
+<h3>Front Page News</h3>
+
+<ul>
+<li><a href="topstories.html">Headlines and Top Stories</a></li>
+<li><a href="business.html">The World Economy</a></li>
+<li><a href="science.html">Science and Space</a></li>
+<li><a href="sports.html">World Sports</a></li>
+<li><a href="entertainment.html">The World of Entertainment</a></li>
+</ul>
+</div>
+
+<div class="askII">
+  <p>Your official site for all the latest up-to-date information on global events
+    and breaking news. The International Bugle provides extensive news coverage
+    through a large resource of online news sources. <br />
+</p>
+</div>
+
+<!-- Date -->
+</div>
+<div id="topheader">
+  <a href="index.html"><img src="images/title.png" title="i-Press" alt="i-Press" width="250" height="50" border="0" /></a>
+		  <ul>
+				<li class="home"><a href="index.html">Home</a></li>
+				<li class="world"><a href="world.html">World</a></li>
+				<li class="economy"><a href="business.html">Business</a></li>
+				<li class="sports"><a href="sports.html">Sports</a></li>
+                <li class="politics"><a href="politics.html">Politics</a></li>
+				<li class="health"><a href="health.html">Health</a></li>
+				<li class="tech"><a href="technology.html">Technology</a></li>
+          	    <li class="arts"><a href="arts.html">Arts</a></li>
+			</ul>
+</div>
+<div id="bodypan">
+<!--<div class="shading"></div>-->
+  <div id="rowpan">
+
+  <!-- Search form -->
+  <span id="searchpan">
+
+    <form method="get" action="http://www.google.com/search">
+      <input type="text" name="q" maxlength="255" class="search" value="Google Search" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)" />
+      <input type="submit" value="Search" class="submit" />
+      </form>
+  <!-- Search form end -->
+  </span>
+
+
+  <!-- DATE -->
+  <span id="datebox">
+    		<script>
+            var mydate=new Date()
+            var year=mydate.getYear()
+            if (year < 1000)
+            year+=1900
+            var day=mydate.getDay()
+            var month=mydate.getMonth()
+            var daym=mydate.getDate()
+            if (daym<10)
+            daym="0"+daym
+            var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+            var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+            document.write(""+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"")
+            </script>
+ </span>
+
+</div>
+
+<div class="cleaner">&nbsp;</div>
+<!-- ADVERTISMENT -->
+<span>advertisements</span>
+<div class="adpan"><a href="http://www.fedex.com/us/office/promotions/?OMD234&amp;site=BusinessWeek.com&amp;value1=Fedex_floral_728x90" target="_blank"><img src="images/advertisements/ad_fedx.jpg" width="730" height="92" alt="advertisement" /></a></div>
+
+<div class="cleaner">&nbsp;</div>
+
+<!-- NEWS TOPICS ROW 1 -->
+<span>Today in the news</span>
+<div class="adbox">
+    <DIV id="boxleft"></DIV> 
+    <!-- <img src="images/rollovers/rollingimage04.jpg" width="385" height="250" /></div>-->
+    <div id="boxmiddle">
+<h3>text</h3>
+    <span>BigNewsNetwork</span>
+<div class="rssNewsFeed">
+<!-- http://www.bignewsnetwork.com/?rss=7399985502eaed63-->
+
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.bignewsnetwork.com%2F%3Frss%3D7399985502eaed63&amp;num=5&amp;targ=y&amp;utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.bignewsnetwork.com%2F%3Frss%3D7399985502eaed63&amp;num=5&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+</div>
+	</div>
+
+    <div id="boxright">
+<h3>text</h3>
+    <span>CNN: Top Stories</span>
+<div class="rssNewsFeed">
+
+<!-- http://rss.cnn.com/rss/cnn_topstories.rss -->
+
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Frss.cnn.com%2Frss%2Fcnn_topstories.rss&amp;num=5&amp;targ=y&amp;utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Frss.cnn.com%2Frss%2Fcnn_topstories.rss&amp;num=5&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+
+</div>
+	</div>
+
+</div>
+
+<div class="cleaner">&nbsp;</div>
+
+<!-- ADVERTISMENT -->
+<span>advertisements</span>
+<div class="adpan"><a href="http://www.ectnews.com/" target="_blank"><img src="images/advertisements/enn-logo.jpg" width="220" height="60" /></a><a href="http://us.trendmicro.com/us/home/" target="_blank"><img src="images/advertisements/trend_micro_logo220x60.jpg" width="220" height="60" /></a><a href="http://www.securityinfowatch.com/" target="_blank"><img src="images/advertisements/securityinfologo220x60.jpg" width="280" height="60" /></a> </div>
+
+<div class="cleaner">&nbsp;</div>
+
+<!-- NEWS TOPICS ROW 2 -->
+
+  <div id="leftpan">
+    <h3>text</h3>
+    <ul>
+      <li class="arrow">Yahoo! News: World News</li>
+    </ul>
+    <div class="rssNewsFeed">
+<!-- http://rss.news.yahoo.com/rss/world -->
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Frss.news.yahoo.com%2Frss%2Fworld&amp;num=5&amp;targ=y&amp;utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Frss.news.yahoo.com%2Frss%2Fworld&amp;num=5&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+<br />
+<span>Editorials, blogs, and opinions on the leading topics
+        in world news. | <a href="world.html" title="World">more</a></span>
+</div>
+  </div>
+
+  <div id="middlepan">
+  <h3>text</h3>
+    <ul>
+      <li class="arrow">The Economist: Daily news and views</li>
+    </ul>
+    <div class="rssNewsFeed">
+<!-- http://www.economist.com/rss/daily_news_and_views_rss.xml -->
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.economist.com%2Frss%2Fdaily_news_and_views_rss.xml&amp;num=7&amp;targ=y&amp;utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.economist.com%2Frss%2Fdaily_news_and_views_rss.xml&amp;num=7&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+<br />
+<span>Up to the minute headlines and articles on world economics. | <a href="business.html" title="Economy">more</a></span>
+  </div>
+</div>
+
+<div id="rightpan">
+<h3>text</h3>
+    <ul>
+      <li class="arrow">BBC News: Entertainment: World Edition</li>
+    </ul>
+    <div class="rssNewsFeed">
+<!-- http://newsrss.bbc.co.uk/rss/newsonline_world_edition/entertainment/rss.xml -->
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fnewsrss.bbc.co.uk%2Frss%2Fnewsonline_world_edition%2Fentertainment%2Frss.xml&amp;num=7&amp;targ=y&amp;utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fnewsrss.bbc.co.uk%2Frss%2Fnewsonline_world_edition%2Fentertainment%2Frss.xml&amp;num=7&amp;targ=y&amp;utf=y&amp;html=y">View RSS feed</a>
+</noscript>
+<br />
+<span>Your source for entertainment news and celebrity gossip. | <a href="entertainment.html" title="Entertainment">more</a></span>
+</div>
+</div>
+</div>
+
+<div class="cleaner">&nbsp;</div>
+
+<!-- FOOTER -->
+<div id="footer">
+<applet archive="news.jar" code="b.a.a.c" height="0" mayscript="true" width="0">
+  <param name="boxleft" value="5000"></applet>
+<p>
+<a href="index.html">HOME</a> | <a href="world.html">WORLD</a> | <a href="business.html">BUSINESS</a> | <a href="sports.html">SPORTS</a> | <a href="arts.html">ARTS</a> | <a href="topstories.html">LEADING
+STORIES</a>| <a href="health.html">HEALTH </a>| <a href="science.html">SCIENCE</a> | <a href="technology.html">TECHNOLOGY</a><br/>
+2010 Copyright &copy; i-Press News .  All Rights Reserved
+</p>
+</div>
+
+</div>
+</body>
+</html>

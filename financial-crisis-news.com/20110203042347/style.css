@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0 0 0 25px; padding:0; background:url(images/fcn-img-bkgd.jpg) repeat-x;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #881c00; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 0; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {float:left; width:975px; height:1645px; }
+#header {float:left; width:975px; height:245px; }
+
+#col-left {float:left; width:246px; height:1400px; }
+#col-app {width:246px; height:81px; background:url(images/fcn-img_21.jpg) no-repeat; }
+#ads {float:left; width:246px; height: auto; }
+#ads img { margin: 10px 0 10px 5px; }
+
+#col-right {float:left; width:729px; height:auto; }
+#col-top {width:729px; height:550px; background:url(images/fcn-img-feed-bkgd.jpg) repeat-y; }
+#col-nav {float:left; width:181px; height:550px; background:url(images/fcn-img_17.jpg) no-repeat; }
+#navbox {width:160px; height:390px; margin:50px 0 0 8px;}
+/**htmk #navbox {width:181px; height:505px; margin:50px 0 0 0;}
+#navbox ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+#navbox a{ text-decoration: none; color: #881c00; font: 10px Verdana, Arial, Helvetica, sans-serif; }
+#navbox a:hover{ text-decoration: none; color: #c0c0c0; }*/
+#col-feed {float:left; width:535px; height:550px; }
+#col-btm {width:729px; height:850px; background: url(images/fcn-img_25.jpg) no-repeat; }
+#col-btm-box {float:left;width:228px; height:800px; margin: 20px 5px 0 5px;border: dotted 2px #d9d9d9; }
+*html #col-btm-box {float:left;width:225px; height:800px; margin: 20px 5px 0 5px;border: dotted 2px #d9d9d9; }
+
+#infolink {width:228px; height:768px; overflow: auto; visibility: visible; /*border: solid 1px #d9d9d9; margin: 0 0 0 5px;*/}
+*html #infolink {width:225px; height:768px;}
+#infolink ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h3 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#3d3d1d; line-height:15px; margin: 0; padding: 5px 5px 5px 5px; height:auto; width:auto; background-color:#e5e9da;border-bottom: dotted 2px #d9d9d9;/**/ }
+*html h3 { width:225px;}
+
+#infofeed {width:525px; height:503px; overflow: auto; visibility: visible; /**/border: dotted 1px #d9d9d9; margin: 0 0 0 5px;}
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#5a97f1; line-height:33px; margin: 0; padding: 5px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+.sidebarmenu ul{margin: 0;padding: 0;list-style-type: none;font: bold 13px Verdana;width: 150px; /* Main Menu Item widths */border: 1px dotted #d9d9d9;}
+.sidebarmenu ul li{position: relative;}
+/* Top level menu links style */
+.sidebarmenu ul li a{display: block;overflow: auto; /*force hasLayout in IE7 */color: #000;text-decoration: none;padding: 6px;border-bottom: 1px dotted #d9d9d9;/*border-right: 1px solid #778;*/background-color: #fff;}
+.sidebarmenu ul li a:link{background-color: #fff; /*background of tabs (default state)*/color: #000}
+/*.sidebarmenu ul li a:visited{color: #fff;}*/
+.sidebarmenu ul li a:hover{background-color: #000;color: #fff}
+/*Sub level menu items */
+.sidebarmenu ul li ul{position: absolute;width: 320px; /*Sub Menu Items width */top: 0;visibility: hidden;}
+/*.sidebarmenu a.subfolderstyle{background: url(images/arrow.bmp) no-repeat 97% 50%;}*/
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
+/* End */
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; }

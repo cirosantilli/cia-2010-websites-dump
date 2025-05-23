@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family: helvetica, arial, sans-serif; font-size: 11px; background: #fff url(../images/bkgrnd.jpg) repeat-x;}
+
+#wrap{width: 960px; height: 100% auto; min-height: 600px; margin: 0px auto; background: url(../images/wrapbk.jpg) repeat-y; }
+
+#topsection{float: left; width: 960px; height: 57px; margin: 0px; padding: 0px; }
+
+#header{float: left; width: 960px; height: 100% auto; margin: 0px; padding: 0px;}
+
+ul{margin: 0; padding: 0; list-style: none;}
+li, .article_title{ display: block; margin: 0; padding: 5px 0px; }
+
+img{border: none;}
+
+a:link, a:visited, a:visited{ color: #519FCA; text-decoration: none;}
+a:hover{ color: #c3c;}
+
+h1{font-size: 16px; margin: 0px; padding: 0px; color: #333; font-weight: bold;}
+
+h2{color: #333; font-size: 16px; font-weight: normal; margin: 0; padding: 2px 0px; font-family: helvetica, arial, sans-serif; text-transform: uppercase;}
+
+h3{color: #333; margin: 0; border-bottom: 1px solid #F93; font-size: 12px; font-weight: normal; padding: 2px 0px; font-family: helvetica, arial, sans-serif;}
+
+#content{float: left; width: 700px; height: 100% auto; frameborder: none; scrolling: no; padding: 0px 10px; margin-left: 1px;}
+
+#sidebar{float: left; width: 160px; margin-left: 50px; }
+
+#content img{padding-right: 5px; padding-bottom: 2px;}
+#content li, .article_title{clear: both;}
+p{margin:0; padding: 0; }
+
+#navcontainer{float: left; width: 564px; background: #000;}
+
+
+#blob {
+    background: #f9a51c; /*orange*/
+    
+    border-right: 1px solid #f6b751;
+    border-left: 1px solid #f6b751;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    background: -moz-linear-gradient(top, #e46e11, #f9a51c);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e46e11), to(#f9a51c));
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-box-shadow: 1px 2px 4px #011331;
+    -webkit-box-shadow: 1px 2px 4px #011331;
+}
+
+#nav {
+    position: relative;
+    background: #000000;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 42px;
+    
+}
+#nav ul, #nav li{margin: 0; padding: 0;}
+
+#nav li {
+    float: left;
+    list-style: none;
+    border-right: 1px solid #4a4a4a;
+    border-left: 1px solid black;
+}
+#nav li.last{border-right: 1px solid black;}
+#nav li.active{background: #333;}
+
+#nav li a {
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-family: helvetica, arial, sans-serif;
+    text-decoration: none;
+    padding: 5px 12px;
+    width: 100%;
+
+}
+
+#nav li a:hover{color: #e3e3e3;}
+#nav li a#active{color: #333;}
+
+#main{float: left; width: 960px; height: 100% auto;  min-height: 500px; margin: 0px; padding: 0px; background: url(../images/wrapbk.jpg) repeat-y;}
+
+
+.col1{float: left; width: 270px;}
+.col2{float: right; width: 380px;}
+
+#googlesport li{font: 11px;}
+
+
+#footer{clear: both; width: 960px; height: 100% auto; margin: 0px; padding: 20px 0px 5px 0px; text-align: center; font-size: 10px; background: #000; color: #e3e3e3;}

@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; color: #333; font-family:"Lucida Sans", Tahoma, "Trebuchet MS"; font-size: 11px; background: #FFF;}
+
+#wrap{position: relative; width: 840px; height: 100% auto; left: 50%; margin: 0px; margin-left: -420px; background: #fff url(images/bkgrnd.jpg) repeat-y;}
+
+h1{color: #669999; padding: 0px 0px; margin: 0px 0px 20px 0px; font-weight: bold;  font-size:  14px; text-align: center;}
+h2, .rss-title{color:#669999; padding: 0px 0px; margin: 0px; font-weight: bold;  font-size:  12px;}
+h3{color:#666; padding: 0px; margin: 2px 0px; font-weight: normal;  font-size:  10px;}
+
+a{font-weight: bold; /*color: #52493f;*/  color:#996666; text-decoration: none; }
+a:hover{color: #52493f; text-decoration: none;}
+
+ul{margin: 0px; padding: 0px;}
+li{margin: 0px; padding: 5px 0px; list-style: none;}
+
+p{padding: 0px; margin: 0px;}
+img{border: none;}
+
+dl{margin: 10px 5px 3px 5px;}
+#glossary h2{font-size: 14px; margin-top: 20px;}
+dd{font-weight: normal; color: #333; margin: 2px 5px 2px 12px;}
+dt{font-weight: bold; color: #996666; margin: 10px 0px 0px 0px;}
+
+iframe{width: 500px; height: 800px; margin-bottom: 30px;}
+
+#header{float: left; width: 840px; height: 177px; }
+#mainpg{clear: both; width: 840px; height: 100% auto; background: url(images/bkgrnd.jpg) repeat-y;}
+#sidebar{ float: left; width: 150px; height: 100% auto; background: #333 url(images/bkgrnd.jpg) repeat-y;}
+#main{float: left; width: 685px; margin: 0px; padding: 0px; height: 100% auto; background: url(images/main_corner.jpg) top left no-repeat;}
+
+ul#nav{margin: 10px 15px 10px 5px; background: #52493f;}
+ul#nav li{margin: 0px; padding: 3px 8px; border: 1px solid #ccc; display: block; text-align: right;}
+ul#nav li a{color: #fff;}
+ul#nav li a:hover{color:#333;}
+ul#nav li:hover{background: #006699;}
+ul#nav li a:active, ul#nav li a:focus{color:#669999;}
+
+
+
+#fide ul{margin: 10px 15px 20px 5px; }
+#fide ul li {padding: 3px;}
+#fide ul li a{color: #52493f;}
+#fide ul li a:hover{color: #006699;}
+#fide h2{margin: 30px 0px 0px 8px;}
+
+.rss-title, h4{text-transform: uppercase; /*color: #006699;*/ color: #999; font-size: 11px; font-weight: normal; border-bottom: 1px solid #ccc; padding: 2px 0px 0px 2px; border-top: 1px solid #ccc; margin: 0px; height: 100% auto; letter-spacing: .05em;}
+.top{margin-top: 40px;}  /*used to push the iframe below the graphic in the main section */
+.top2{margin-top: 50px;}  /*used to push the column3 down to match the iframe height in the main section - iframe has margin-top of 10px so use 10 more than top */
+
+.ifrm_col{float: left; width: 500px; height: 100% auto; }
+
+li p{padding: 0px; margin: 0px;}
+
+.col1{float: left; width: 220px; height: 100% auto; margin: 10px 5px 0px 0px; border-right: 1px solid #eee; padding: 5px;}
+.col2{float: right; width: 225px; height: 100% auto; margin: 10px 5px 0px 0px; border-right: 1px solid #eee; padding: 5px;}
+.col3{float: right; width: 170px; margin-right: 10px; }
+
+
+.box{ margin: 0px 0px 20px 0px; padding: 0px; }
+.imgcenter{text-align: center; }
+.pad{padding: 5px;}
+.clearfloat {font-size: 1px; line-height: 0px; clear: both; height: 0px;}
+
+#subpg{width: 482px;}
+
+ul.imgcenter li{padding: 10px 0px;} /*sidebar spacing between ads */
+
+#footer{clear: both; width: 840px; height: 138px; color: #333; }
+#copyright{float: left; width: 280px; height: 138px;  background: url(images/footer_02.jpg) no-repeat; text-align: center; font-size: 9px; font-weight: normal; }
+#copyright p{margin-top: 110px;}
+#chess_ad{float: right; width: 229px; height: 177px; background: url(images/title_02.jpg) no-repeat;}
+#chess_ad p{margin: 2px 10px 2px 80px;  }
+
+#org{font-size: 10px;}
+#org a{font-size: 11px;}
+
+.scroll{scrollbar-face-color:white;
+scrollbar-highlight-color:white;
+scrollbar-3dlight-color:white;
+scrollbar-darkshadow-color:white;
+scrollbar-shadow-color:white;
+scrollbar-arrow-color:#52493f;
+scrollbar-track-color:white;
+}

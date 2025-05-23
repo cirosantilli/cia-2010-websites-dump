@@ -1,0 +1,127 @@
+
+
+* {
+	background:#none;
+	}
+
+
+
+html 	{
+	overflow: auto;
+	scrollbar-face-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-3dlight-color:#ffffff;
+	scrollbar-shadow-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-arrow-color:#cccccc;
+	scrollbar-track-color:#ffffff;
+	text-align:left;
+	}
+
+body 	{	
+	margin: 0px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	font-weight: normal;
+	overflow: auto;
+	color:#FFFFFF;
+	}
+
+p	{
+	color:#CCCCCC;
+	}
+
+
+img 	{ 
+	border-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:left;
+	}
+
+a 	{
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+a:link {
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+li 	{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 00px 0px;
+	color:#CCCCCC;
+	display:block;
+	} 
+
+ul 	{
+
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+	color:#FFFFFF;
+	display:block;
+	} 
+
+
+h2  	{
+	font-size: 16px;
+	font-variant: normal;
+	font-weight: heavy;
+	color: #6fbdff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+
+
+
+/*--- rss feeds--------------------------- */
+
+
+rss-item  {
+	color:#CCCCCC;
+	}
+
+
+.rssfeedtitle {
+	background-color:none;
+	font-size:17px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:left;
+	padding: 5px 20px 0px 0px;
+	text-align:left;
+	}
+
+
+#rssfeed {
+	background-color:none;
+	color: #CCCCCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 0px 20px 0px 0px;	
+	}
+
+#rssfeed a {
+
+	background-color:none;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;	
+	}
+
+
+
+
+

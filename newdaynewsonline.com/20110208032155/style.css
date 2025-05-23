@@ -1,0 +1,58 @@
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffcc99;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffcc99;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #663333;
+	color: #ffcc99;
+}
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #d6e1e9;
+	font-weight: normal;
+}
+BODY { 
+	scrollbar-face-color:#8d5052; 
+	scrollbar-shadow-color: #8d5052; 
+	scrollbar-highlight-color: #8d5052; 
+	scrollbar-3dlight-color: #8d5052; 
+	scrollbar-darkshadow-color: #8d5052; 
+	scrollbar-track-color: #8d5052; 
+	scrollbar-arrow-color: #ffffff; 
+}
+H1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #d6e1e9;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 13px;
+	background-repeat: repeat;
+
+
+} 
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0;
+	margin-top: 5px;
+	line-height: 1.2;
+}
+ul li{padding-bottom: 10px;
+}

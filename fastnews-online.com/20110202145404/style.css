@@ -1,0 +1,41 @@
+/* CSS Document */
+
+BODY{ 
+	scrollbar-face-color: #ffffff; 
+	scrollbar-shadow-color: #cccccc; 
+	scrollbar-highlight-color: #000066; 
+	scrollbar-3dlight-color: #000066; 
+	scrollbar-darkshadow-color: #000000; 
+	scrollbar-track-color: #cccccc; 
+	scrollbar-arrow-color: #000000
+}
+body,td,th {
+	font-family: Times New Roman, Times, serif;
+	font-size: 12pt;
+	color: #000000;
+}
+a {
+	font-family: Times New Roman, Times, serif;
+	font-size: 12pt;
+	color: #000066;
+}
+a:link {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000CC;
+}
+a:hover {
+	text-decoration: none;
+	color: #0000CC;
+}
+a:active {
+	text-decoration: none;
+	color: #0000CC;
+}
+a:hover {
+	color: #C48400;
+	text-decoration: none;
+}

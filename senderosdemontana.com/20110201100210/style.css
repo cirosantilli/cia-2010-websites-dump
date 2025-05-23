@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
+legend, input, button, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+
+/********************/
+body{
+	background-image:url(images/bike_tire.jpg);
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: 970px 0px;
+
+}
+.text_format {
+	font-size: 12px;
+	float: left;
+	height: 750px;
+	width: 550px;
+}
+
+ul{
+	list-style: none; 
+	margin:0px; 
+	padding:0px;
+	font-size: 11px;
+}
+li {
+	margin:0px; 
+	padding:0px;
+	list-style: none; 
+	text-decoration: none;
+	color: #ffffff;
+	font-size:14px;
+	line-height:15px;
+}
+a {
+	color: #bef243;
+	list-style: none;
+	text-decoration: none;
+}
+/*******************************************************/
+#container {
+
+	width: 1200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-size: 80%;
+	text-align: left;
+	z-index: 2;
+}
+#header {
+	background-image: url(images/terrain.jpg);
+	float: left;
+	height: 220px;
+	width: 800px;
+	z-index: 1;
+}
+#navigation {
+	float: left;
+	height: 40px;
+	width: 800px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #666699;
+	border-bottom-color: #666699;
+}
+#navigation li {
+	text-align: left;
+	display: inline;
+	white-space: normal;
+	word-spacing: normal;
+	list-style-type: none;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-top: 5px;
+	line-height: 30px;
+}
+#magazines {
+	float: left;
+	height: 800px;
+	width: 200px;
+	padding:5px 10px 0px 5px;
+	z-index: 2;
+}
+
+
+#text {
+	height: 800px;
+	width: 600px;
+	float: left;
+	background-image: url(images/maincontent_back.jpg);
+	background-repeat: repeat-x;
+/*	padding-right: 0px;
+	padding-left: 20px;
+	padding-top: 10px;*/
+
+}
+#wrapper_outer {
+	float: left;
+	height: 1180px;
+	width: 800px;
+	z-index: 4;
+	background-image:url(images/maincontent_back.jpg);
+	background-repeat: repeat-x;
+}
+
+#logos {
+	float: right;
+	height: 800px;
+	width: 160px;
+	z-index: 4;
+}
+#left_sidebar {
+	position:absolute;
+	top:700px;
+	left:0px;
+	height: 299px;
+	width: 200px;
+	background-image: url(images/bike_shadow.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	
+}

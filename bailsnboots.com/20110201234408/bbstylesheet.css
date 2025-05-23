@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #ebecec;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#main-text {
+	width: 741px;
+	height: 600px;
+	/* border: 1px solid black; */
+	margin-top: 5px;
+	margin-left: 34px;
+}
+
+#rotating {
+		height: 100px;
+		width: 195px;
+
+}
+
+/* RIGHT COLUMN */
+
+#right-column {
+		float: right;
+		width: 170px;
+		padding: 5px;
+		/*border: 1px solid black;
+		 background-color: white; */
+}
+
+#right-column h3 {
+		margin: 0;
+		padding: 2px;
+		color: #000;
+		border-bottom:  double black;
+}
+
+#right-scores {
+		font-size: 70%;
+
+		
+}
+
+#right-scores h4 {		
+		margin-top: 5px;
+		padding: 0 0 0 3px;
+		font-size: 90%;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color:#C00;
+		color: white;
+		margin-bottom: 0px;
+}
+
+#right-scores ul {
+		list-style: none;
+		margin-left: 0;
+		margin-top: 1px;
+		padding: 0 2px 4px 3px;
+		list-style-position:outside;
+		background-color: white;
+		
+}
+
+#right-scores li {
+		margin: 0;
+		padding: 0;
+}
+
+#right-scores li a:link, #right-scores li a:visited {
+		text-decoration: none;
+		font-size: 80%;
+		color: blue;
+		
+}
+
+#right-scores li a:hover {
+		color: #C00;
+}
+
+#right-scores .rss-items {
+		padding: 0;
+		margin: 0;
+}
+
+#right-scores .rss-item {
+		list-style-type: none;
+		margin: 0 0 0.25em 0;
+		padding: 0.25em;
+}
+
+
+/* LEFT COLUMN */
+
+#left-column {
+		float: left;
+		width: 195px;
+		padding: 5px;
+		/*border-right: 1px solid black;
+		background-color: white; */
+}
+
+#left-column a:link img, #left-column a:visited img {
+		border: none;
+}
+
+#left-column img.ladbrokes {
+		margin-left: 25px;
+}
+
+#left-column h3 {
+		margin: 0;
+		padding: 2px;
+		color: #000;
+		border-bottom: double black;
+}
+
+#scores-rss {
+		margin-top: 4px;
+		margin-bottom: 5px;
+}
+
+#fb-scores-rss {
+		margin-top: 4px;
+		margin-left: 20px;		
+		margin-bottom: 5px;
+}
+
+#scores-rss-bottom-feeds .rss-items {
+		padding: 0 2px 4px 3px;
+		margin: 0;
+		background-color: white;
+}
+	
+
+#scores-rss .rss-items {
+		padding: 0 2px 4px 3px;
+		margin: 0;
+		background-color: white;
+		border-top: 1px solid black;
+}
+
+#scores-rss-bottom-feeds h4 {
+		margin-top: 5px;
+		padding: 0 0 0 3px;
+		font-size: 90%;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color:#C00;
+		color: white;
+		margin-bottom: 0px;
+}
+
+#scores-rss h4 {		
+		margin-top: 5px;
+		padding: 0 0 0 3px;
+		font-size: 90%;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color:#C00;
+		color: white;
+		margin-bottom: 0px;
+}
+
+#scores-rss-bottom-feeds .rss-title {
+		font-size: 85%;
+		text-decoration: none;
+		font-weight: bold;
+		margin-bottom: 2px;
+}
+
+#scores-rss .rss-title {
+		font-size: 85%;
+		text-decoration: none;
+		font-weight: bold;
+		margin-bottom: 2px;
+}
+
+#scores-rss-bottom-feeds .rss-item a:link, #scores-rss-bottom-feeds .rss-item a:visited {
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 110%;
+}
+
+
+#scores-rss .rss-item a:link, #scores-rss .rss-item a:visited {
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 110%;
+}
+	
+#scores-rss-bottom-feeds .rss-item {
+		list-style-type: none;
+		margin: 0 0 0.25em 0;
+		padding: 0.25em;
+		font-size: 60%;
+}	
+	
+#scores-rss .rss-item {
+		list-style-type: none;
+		margin: 0 0 0.25em 0;
+		padding: 0.25em;
+		font-size: 60%;
+}
+
+
+#scores-rss-bottom-feeds .rss-date {
+		font-size: 80%;
+}
+
+#scores-rss .rss-date {
+		font-size: 80%;
+}
+
+
+#scores-rss .football-scores .rss-item a:link, #scores-rss .football-scores .rss-item a:link {
+		font-weight: bold;
+		font-size: 100%;
+}
+
+#country-rss {
+		margin-top: 5px;
+}
+
+#country-rss h4 {		
+		margin-top: 5px;
+		padding: 0 0 0 3px;
+		font-size: 80%;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color:#C00;
+		color: white;
+		margin-bottom: 0px;
+}
+
+#country-rss .rss-items {
+		padding: 0 2px 4px 3px;
+		margin: 0;
+		background-color: white;
+		border-top: 1px solid black;
+}
+
+#country-rss .rss-item a:link, #country-rss .rss-item a:visited {
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 110%;
+		color: blue;
+}
+	
+#country-rss .rss-item a:hover {
+		color: #C00;
+}	
+	
+#country-rss .rss-item {
+		list-style-type: none;
+		margin: 0 0 0.25em 0;
+		padding: 0.25em;
+		font-size: 60%;
+}
+
+#country-rss .rss-date {
+	font-size: 80%;
+}
+
+/* MAIN */
+
+#center-column {
+		margin: 0 180px 0 205px;
+		padding: 5px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+}
+
+#center-column h3 {
+		margin: 0;
+		padding: 2px;
+		color: #000;
+		border-bottom: double black;
+}
+
+#center-rss a img {
+		border: none;
+}
+
+#center-rss .rss-items {
+		padding: 0;
+		margin: 0;
+}
+
+#center-rss .rss-item a:link, #center-rss .rss-item a:visited {
+		font-size: 110%;
+		color: #C00;
+		font-weight: bold;
+		text-decoration: none;
+}
+
+#center-rss .rss-item a:hover {
+		color: blue;
+}
+
+#center-rss .rss-item {
+		list-style-type: none;
+		margin: 0 0 0.25em 0;
+		padding: 0.25em;
+		font-size: 70%;
+}
+
+#center-rss .rss-date {
+		font-size: 80%;
+}
+
+
+#footer-clear {
+	clear: both;
+	height: 1px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	/* border-top: 1px solid black;
+	border-bottom: 1px solid black; */
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 80%;
+}
+
+#footer p.footer-copyright {
+	font-size: 80%;
+	margin: auto;
+	padding: 2px;
+	border-top: 1px solid black;
+	border-bottom: double black;
+	color: #999;
+}

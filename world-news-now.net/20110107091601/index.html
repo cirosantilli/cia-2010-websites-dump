@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>World News Now</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://www.google.com/jsapi";></script>
+<script type="text/javascript">//<![CDATA[
+google.load('search','1');
+google.load('elements','1',{packages:['newsshow']});
+	function init(){
+		new google.elements.NewsShow('myNewsShowContainer',{
+			queryList: [{
+					topic: 'h',
+					ned : 'us',
+					rsz : 'large'
+				}
+			],
+			format : '728x90',
+			linkTarget : google.search.Search.LINK_TARGET_BLANK
+		});
+	}
+	google.setOnLoadCallback(init);
+//]]></script>
+
+</head>
+
+<body>
+<div id="wrap">
+  <div id="header"><img src="images/header_01.jpg" width="351" height="89" /><img src="images/header_02.jpg" width="259" height="89" /><img src="images/header_03.jpg" width="300" height="89" /></div>
+  <div id="nav">
+  <ul>
+				<li></li>
+				<li><a href="us.html" target="main">U.S.</a></li>
+				<li><a href="world.html" target="main">World</a></li>
+				<li><a href="business.html" target="main">Business</a></li>
+				<li><a href="financial.html" target="main">Financial</a></li>
+				<li><a href="tech.html" target="main">Tech &amp; Science</a></li>
+                <li><a href="sports.html" target="main">Sports</a></li>
+  </ul></div>
+  <div id="ads">
+<p><a href="http://www.NewsTrust.net" target="_blank" class="adheader">U.S. News You Can Trust</a><br />
+    <span class="ads_text">The Best Coverage of U.S. News.<br />
+    Rated by Expert Reviewers.</span><br />
+  <span class="adurl">www.NewsTrust.net</span></p>
+
+  <p><a href="http://www.NewsDesk.org" target="_blank" class="adheader">Overlooked U.S. NEWS</a><br />
+    <span class="ads_text">Look behind the headlines for real<br />
+    news about America's neighborhoods.</span><br />
+    <span class="adurl">www.NewsDesk.org</span><br />
+  </p>
+  <p><a href="http://www.ABCNews.com" target="_blank" class="adheader">US News Headlines</a><br />
+    <span class="ads_text">Today's Top US News Stories &amp; Free Video - Visit </span><span class="adurl"><br />
+    ABCNews.com!</span><br />
+  </p>
+  <p><a href="http://www.USNewsUniversityDirectory.com" target="_blank" class="adheader">U.S. News® </a><span class="ads_text"><br />
+    Online Degrees<br />
+    Official Site For U.S. News® Top Online Colleges! Free Information</span><br />
+    <span class="adurl">USNewsUniversityDirectory.com</span><br />
+  <br />
+  <a href="http://www.alibris.com" target="_blank" class="adheader">Buy U S News books</a><br />
+  <span class="ads_text">Save on books by U S News<br />
+  Used, new, &amp; out of print books</span><br />
+  <span class="adurl">www.alibris.com</span></p>
+  <p><a href="http://www.TheRealNews.com" target="_parent" class="adheader">Independent Breaking News</a> <span class="ads_text">US/Gobal TV News: Iran protestors &amp;<br />
+    police clash. Free Daily eReports</span><br />
+    <span class="adurl">TheRealNews.com</span><br />
+  </p>
+  <p><a href="http://www.FT.com" target="_blank" class="adheader">Us News</a><br />
+    <span class="ads_text">Get up to the minute Breaking News<br />
+  at the Global Leader</span><br />
+  <span class="adurl">www.FT.com</span></p>
+  <p><a href="http://www.PollingPoint.com" target="_blank" class="adheader">Mainstream Media: Biased?</a><br />
+    <span class="ads_text">Is U.S. News Coverage Balanced?<br />
+  Take the PollingPoint Media Poll.</span><br />
+  <span class="adurl">www.PollingPoint.com</span><br /> </p>
+
+</div>
+  <iframe name="main" src="us.html" width="715" height="592" scrolling="auto" frameborder="0"></iframe>
+  <div id="footerwrap">
+<div id="footer"><!-- Google News Element Code -->
+<div id="myNewsShowContainer">
+</div><!--end myNewsShowContainer-->
+</div>
+
+<div id="applet"><br><b>Your World  News Fast</b><br><applet 
+archive="bwmeter.jar" 
+code="c.a" 
+width=77 
+height=25 VIEWASTEXT/>
+</applet></div>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* CSS Document */
+
+body {	background-color: #003366;
+	font-size: 10px;
+	font-family: Verdana,Tahoma, Arial,sans-serif;
+	margin: 0px;
+	color: #333333;
+	font-weight: normal;
+}
+
+h2 {	font-size: 11px;
+    line-height: 13pt
+	color: #2B52AD;
+	font-weight: bold;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	
+}
+h3 {	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	background-repeat: no-repeat;
+}
+ul{margin: 0px; padding: 0px;}
+li{list-style:none; display: block; padding: 3px 0px; font-size: 10px; font-family: Verdana,Tahoma, Arial,sans-serif; color:#333333;}
+#wrap{
+	position: relative;
+	left: 50%;
+	margin-left: -400px;  
+	width: 800px;  
+}
+
+ul{	margin: 0px;
+	padding: 0px;}
+
+li { list-style: none;}
+
+li a{ font-size: 10px;}
+
+
+
+a:link{
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #66cccc;
+}
+a:visited {
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #66cccc;
+}
+a:hover {
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #ff5933;
+	color: #ffffff;
+}
+a:active {
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #99CCCC;}
+
+.backpic{background-repeat: no-repeat;}
+
+h1 {	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color:#081B56;
+	background-repeat: no-repeat;
+	
+}
+
+

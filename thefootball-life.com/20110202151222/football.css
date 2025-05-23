@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family:"Lucida Sans Unicode", SansSerif, "Trebuchet MS"; font-size: 12px; color: #666; }
+
+#wrap {position: relative; width: 920px; height: 100% auto; margin: 0px; left: 50%; margin-left: -460px; background: url(images/bkgrnd.jpg) repeat-y; min-height: 600px;}
+#header{clear: both; width: 920px; height: 100% auto; margin: 0px; padding: 0px;}
+
+/************ELEMENTS*****************/
+ul{margin: 0px; padding: 0px;}
+li{margin: 0px; padding: 3px 0px; list-style: none; display: block;}
+
+img{border: none; margin: 0px; padding: 0px;}
+
+p, td, tr{margin: 0px; padding: 0px; font-size: 12px; color: #666; } /* takes padding out of feeds with images between title and img */
+
+a{color:#006699; text-decoration: none; font-weight: normal;}
+a:hover{color:#FF9900; text-decoration: none; }
+a:active{color:#9C0; text-decoration: none; }
+
+/************DIVS*****************/
+#mainpg{clear: both; width: 920px; height: 100% auto; margin: 20px 0px 0px 0px; padding: 0px; background: url(images/bkgrnd.jpg) repeat-y; min-height: 600px;}
+
+h2{font-size: 14px; color:#9C0; margin: 0px; padding: 3px 0px; font-weight: normal;}
+h3{font-size: 12px; color: #000;margin: 0px; padding: 2px 0px; font-weight: normal; border-top: 1px solid #FC0; border-bottom: 1px solid #fC0;}
+
+
+.col3 h2{color: #C00; font-weight: normal;}
+
+#nav{clear: both; width: 920px; height: 35px; background: url(images/nav.jpg) no-repeat;}
+#nav ul{float: left; width: 620px; margin-left: 50px; margin-top: 5px;}
+#nav ul li{display: inline; list-style: none; margin: 0px; padding: 0px;}
+#nav ul li a{padding: 2px 10px; color: #fff; font-weight: normal; }
+#nav ul li a:hover{padding: 2px 10px; color:#FC0; }  
+
+#dateformat{float: right; width: 250px; }
+#dateformat p{text-align: right; color: #fff; margin: 0px 50px 0px 0px; padding: 5px 0px 0px 0px;}
+
+#blogs{float: left; width: 98%; padding: 3px 5px 3px 0px; height: 1450px; overflow: auto; margin-bottom: 10px;}
+#termslist{float: left; width: 98%; padding: 3px 5px 3px 0px; height: 1300px; overflow: auto; background: #fff;}
+#terms{clear: both; margin: 20px 0px 5px 0px;} /* without clear the div hangs on remaining 2% of blog width */
+#terms ul li{display: inline; padding: 0px 3px; margin: 0px 2px; }
+
+
+#events{height: 1000px; overflow: auto;}
+#events h3{margin-left; 10px;}
+#events ul{margin-left: 30px;}
+
+ul#regnav {background: #eee; border: 1px solid #ccc; padding: 2px; width: 270px; margin: 0px;}
+ul#regnav li{display: inline; margin: 0px 3px; padding: 2px 0px;}
+ul#regnav li a:active{background: #9c0; color: #fff;}
+
+#footer{clear: both; background: url(images/footer.jpg) no-repeat; width: 920px; height: 50px;}
+
+/************CLASSES*****************/
+.col1{float: left; width: 305px; padding: 0px 3px; margin: 0px 5px 0px 50px; }
+
+.col2{float: left; width: 205px; padding: 0px 5px; margin: 0px 5px; background: #666; color: #fff; }
+.col2 a{color: #FC0; font-weight: normal;}
+.col2 a:hover{color: #9C0;}
+.col2 a:active{color:#CCC;}
+
+.col2 ul li{display: block; padding: 5px 0px;}
+.col3{float: left; width: 260px; padding: 0px 3px; margin: 0px 50px 0px 5px; background: #eee;}
+.box {border: 1px solid #eee;  margin: 20px; width: 300px; padding: 5px; background: #fff;}
+.box2 {clear: both; border: 1px solid #fff;  margin: 0px 0px 15px 0px; width: 470px; padding: 5px;}
+
+
+.imgcenter {text-align: center; } /* 1st column of logos */
+.imgright{text-align: right; }  /* 2nd column of logos */
+li img{margin: 0px 5px 2px 0px;} /*padding around right and bottom of images in rss feeds */
+
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+
+.scroll{background: #fff; scrollbar-face-color:white;  scrollbar-highlight-color:white; scrollbar-3dlight-color:white; scrollbar-darkshadow-color:white; scrollbar-shadow-color:white; scrollbar-arrow-color:#006699; scrollbar-track-color:white; }
+
+.scroll2{background: #eee; scrollbar-face-color:#eee;  scrollbar-highlight-color:#eee; scrollbar-3dlight-color:#eee; scrollbar-darkshadow-color:#eee; scrollbar-shadow-color:#eee; scrollbar-arrow-color:#9C0; scrollbar-track-color:#eee; }

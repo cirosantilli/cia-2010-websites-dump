@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-darkshadow-color: #98AAB1;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #EFEFEF;}
+
+#wrap {position:relative;
+     width:800px; 
+	 height: 100% auto; 
+	 right:50%; 
+	 margin:0px -400px 0px 0px;}
+
+
+h1 {font-size: 14px; font-weight: bold;  color:#cc6633;}
+h2 {font-size: 10px; font-weight: bold;  color:#FFF; padding: 8px 5px 0px 0px; background-color: #96613b;}
+
+
+a:link {  text-decoration:none; font-weight:bold; color:#333; }
+a:visited {	text-decoration:none; font-weight:bold; color:#999; }
+a:hover { text-decoration:underline; font-weight:bold; color:#cc6633;}
+a:active { text-decoration: none; font-weight:bold; color:#cc6633;}
+
+
+ul {margin:0; padding:0; display:block; }
+li {margin:0; padding:5px; list-style:none;}
+
+#topbanner {float: left;
+     width:800px; 
+	 height:168px; 
+	 margin:0px; 
+	 padding:0px;}
+	 	
+#nav {float: left;
+	width:800px;
+	/*height:100% auto;   this height must be  100% auto not 86px because it was flaky*/
+	height: 91px;
+	margin:0px;
+	padding:0px; 
+	background: #369 url(images/sub_banner.jpg) no-repeat;}
+
+#nav ul{float: right;
+	padding: 7px 65px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width:230px;
+	}
+
+#nav ul li{display: block; text-align: center;}
+
+#nav ul li a:link {font-size: 12px; text-decoration:none; font-weight:bold; color:#333; }
+#nav ul li a:visited {font-size: 12px; text-decoration:none; font-weight:bold; color:#333; }
+#nav ul li a:active {font-size: 12px; text-decoration: none; font-weight:bold; color:#333;}
+#nav ul li a:hover{font-size: 12px; text-decoration:underline; font-weight:bold; color:#333;}
+
+#nav ul li a{padding: 2px 5px;}
+
+#maincontent {clear: both;
+	/*float: left;*/
+      width: 800px;
+	  height: 600px;  
+	  margin: 0px; 
+	  padding: 0px; 
+	  background: #369 url(images/page_slice.jpg) top repeat-y;}
+
+
+#column1 {
+	float: right;
+	width: 380px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;}
+
+#column2 {
+	float:right;
+	width:195px;
+	height: 100% auto; 
+	padding: 0px 10px 0px 0px;
+	margin: 15px 25px 0px 0px;
+	/*border: 1px solid #369;*/}
+
+#column3 {
+	float: left;
+	width: 155px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin: 15px 0px 0px 0px;}
+	
+#applet {
+	float:left;
+	width:250px;
+	height: 75px; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 30px;
+	/*background-color:#369;*/
+	border: 1px solid #369;}		
+	
+#footer {
+	float:left;
+	width:800px;
+	height: 88px;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;}

@@ -1,0 +1,163 @@
+/* CSS Document */
+
+body {
+	font-family:  Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-color:#cc0066;
+	}
+	
+h1 {font-size: 14px; font-weight: normal; letter-spacing:.1em; color:#f09;}
+h2 {font-size: 11px; font-weight: bold; color:#FFF; background-color:#036;}
+ 
+a:link {  text-decoration:underline; font-weight:normal; color:#93f; }
+a:visited {	text-decoration:underline; font-weight:normal; color:#93f; }
+a:hover { text-decoration:none; font-weight:normal; color:#f09;}
+a:active { text-decoration: underline; font-weight:normal; color:#ccc;}
+
+ul {margin:0; padding:0; display:block; border:0;}
+li {margin:0; padding:5px 0px; list-style:none; border:0;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+img{border: 0px;}
+
+#header{float:left;
+	width:100% auto;
+	height:100% auto;
+	font-size: 14px; 
+	font-weight:normal; 
+	padding: 0px;
+	margin: 0px 5px 0px 0px;
+	letter-spacing:.2em;
+	color:#09C;
+	} 
+
+.scroll {
+	scrollbar-face-color:#fff;
+	scrollbar-shadow-color:#fff;
+	scrollbar-highlight-color:#fff;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-darkshadow-color:#fff;
+	scrollbar-track-color:#fff; 
+	scrollbar-arrow-color:#999;
+	}
+/* wrap defines the size of the website.  The left margin is half the size of the website (ie: 800px)*/
+#wrap {position:relative;
+     width:900px; 
+	 height:1000px; 
+	 left:50%; 
+	 margin:0px 0px 0px -450px;
+	 background-color:#FFFFFF;
+     }
+
+#topbanner {float: left;
+     width:900px; 
+	 height:248px; 
+	 margin:0px; 
+	 padding:0px; 
+	 border:0px;
+	  }
+	  
+#maincontent{
+	  float:left;
+      width:900px;
+	  height:789px;
+	  margin:0px; 
+	  padding:0px; 
+	  border:0px;
+	  background-color:#FFFFFF;
+	  }		
+	  
+#sidebar {
+	float:left;
+	width:181px;
+	height:100% auto;
+	padding: 0px;
+	margin: 0px;
+	background-color:#000;
+	}	
+	
+#sidebar1 {
+	float:right;
+	width:181px;
+	height: 268px;
+	padding: 50px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+	background-color:#000;
+	text-align:center;
+	}
+	
+#navigation{ float:left; 
+	width: 181px; 
+	height:462px; 
+	margin: 0px; 
+	padding: 0px; 
+	border:0px; 
+	}
+
+ul#nav{margin: 0px 0px 0px 0px;  text-align: center; background-color:#000;}
+ul#nav li{display:block; padding: 6px; border-bottom: 3px dotted #fff; margin-left:0px;}
+ul#nav li a{padding: 5px; font-size: 14px; font-family:Ravie; text-decoration:none; font-weight:normal; letter-spacing:.1em; color:#cc0066;}
+ul#nav li a:hover {text-decoration:underline;}
+
+
+/* Defines the size of the iframe*/	
+#info{float:left;
+	width:718px;
+	height: 773px; 
+	padding: 0px;
+	margin: 0px;
+	background-color:#FFFFFF;
+	}
+#navigation2{ float:left; 
+	width: 719px; 
+	height:100px; 
+	margin: 0px; 
+	padding: 0px; 
+	border:0px; 
+	}
+
+ul#nav2{margin: 0px 0px 0px 0px;  text-align: center; background-color:#000;}
+ul#nav2 li{display:inline; padding: 8px; border-bottom: 0px dotted #fff; margin-left:0px;}
+ul#nav2 li a{padding: 5px; font-size: 12px; font-family:Ravie; text-decoration:none; font-weight:normal; letter-spacing:.1em; color:#cc0066;}
+ul#nav2 li a:hover {text-decoration:underline;}
+
+/* Defines the size of the two columns in iframe*/
+
+#column1 {
+	float:left;
+	width:220px;
+	height:586px;
+	padding: 0px 0px 0px 4px;
+	margin: 4px;
+	overflow:auto;
+	 }
+	 
+#column2 {
+	float:left;
+	width:220px;
+	height:586px;
+	padding: 0px 0px 0px 4px;
+	margin: 4px;
+	border-left:#cccc33 solid 2px;
+	overflow:auto;
+	 }
+	  
+#column3{float:left;
+	width:220px;
+	height:586px;  
+	padding:0px 0px 0px 4px;
+	margin: 4px;
+	border-left:#cccc33 solid 2px;
+	overflow:auto;
+	  } 
+
+#column4{float:left; 
+	width:670px;
+	height:240px;  
+	padding: 20px 0px 20px 40px;
+	margin: 4px;
+	border-top:dashed #cccc33 2px;	
+	  } 
+	  

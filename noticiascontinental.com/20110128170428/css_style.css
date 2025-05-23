@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif; background-color: #CCC; font-size: 12px; }
+
+#wrapper { position: relative; margin: auto; padding: 0; width: 900px; height: 100%; border: 1px solid; background-color: #FFF;  }
+
+#header { float: left; margin: 0; padding: 0; }
+
+#feed { float: left; width: 531px; height: 100%; padding: 0; margin: 0; }
+
+#links { float: left; width: 189px; height: 100%; padding: 0; margin: 0; }
+
+#links_mod { margin: 15px 5px 0 15px; }
+
+#links_mod ul { margin: 0; padding: 0; }
+
+#links_mod li { list-style: none; margin: 3px; padding: 0; font-size: 12px; }
+
+#links_mod li a:link, #links_mod li a:visited { text-decoration: none; font-weight: bold; color: #FFF; }
+
+#links_mod li a:hover { color: #c9c76e; }
+
+#feed_mod { margin: 15px 5px 0 15px; }
+
+#feed_mod2 { margin: 15px 10px 0 15px; }
+
+#feed_mod ul { margin: 0; padding: 0; }
+
+#feed_mod2 ul { margin: 0; padding: 0; }
+
+#feed_mod li { list-style: none; margin: 3px; padding: 0; font-size: 11px; }
+
+#feed_mod2 li { list-style: none; margin: 3px 3px 5px 3px; padding: 0;  }
+
+#feed_mod li a:link, #feed_mod li a:visited{ text-decoration: none; font-weight: bold; color: #FFF; }
+
+#feed_mod2 li a:link, #feed_mod2 li a:visited{ text-decoration: none; font-weight: bold; color: #FFF; }
+
+#feed_mod li a:hover { color: #c9c76e; }
+
+#feed_mod2 li a:hover { color: #c9c76e; }
+
+#ads { float: left; width: 180px; height: 623px; background-color: #FFF; padding: 0px 0; }
+
+#ads img { border: none; padding: 8px 0 0 0; margin: 0; }
+
+.links_body { background-image: url(images/bg_17.jpg); background-repeat: no-repeat; }
+
+.feed_body { background-image: url(images/bg_16.jpg); background-repeat: no-repeat; }
+
+#clear { clear: both; }
+
+#footer { height: 50px; width: 900px; background-color: #3e1212;  }
+
+#foot_menu { align: center; margin-top: 0; padding: 10px; }
+
+#foot_menu ul { padding: 0; margin: 0;  text-align: center; }
+
+#foot_menu li { display:inline; list-style: none; color: #FFF; font-weight: bold; font-size: 10px; margin: 0; padding: 0; }
+
+#foot_menu a:link, #foot_menu a:visited { text-decoration: none; color: #FFF; }
+
+#foot_menu a:hover { color: #c9c76e; font-weight: bold; }
+
+.copy { color: #FFF; font-size: 10px; margin: 5px; padding: 0; text-align: center; }
+
+#login { width: 900px; height: 650px; background-color: #FFF; padding: 0; }
+
+#placement {  padding: 15px; }
+
+

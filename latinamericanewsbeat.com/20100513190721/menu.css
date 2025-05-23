@@ -1,0 +1,58 @@
+.sdmenu {
+    width: 260px;
+	margin-left: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+	padding-bottom: 5px;
+    background: #1a7384;
+    color:#FFCC66;
+}
+
+.sdmenu .title, .sdmenu .titlehidden{
+    display: block;
+    padding: 3px 0;
+	margin: 0px 5px;
+	font-size: 11px;
+	font-weight: bold;
+    color:#11464f;
+    background: #FFF url(images/title.gif) repeat-x;
+}
+
+.sdmenu .title { border-bottom: 1px solid #DDD; }
+
+.sdmenu .arrow {
+	margin-left: 10px;
+    margin-right: 7px;
+}
+
+.sdmenu .titlehidden {border-bottom: none;}
+
+.sdmenu #top {background: #FFF url(images/title.gif) repeat-x;}
+
+.sdmenu .submenu {overflow: hidden; color: #fff; font-weight: normal;}
+
+.sdmenu .submenu a {
+    padding: 2px 0;
+	font-weight: normal;
+    text-indent: 10px;
+	background:inherit;
+    display: block;
+    border-bottom: 1px solid #DDD;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sdmenu .submenu a:hover {
+    background : #5da6b4 url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;
+}
+
+.sdmenu .submenu a:focus {
+    background : #f9b209 url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;
+}
+
+.sdmenu .submenu a.selected{
+	background : #f9b209 url(images/linkarrow.gif) no-repeat right center;
+    color: #fff;	
+} 

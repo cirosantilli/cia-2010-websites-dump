@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0; padding:0; }
+p { font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000; }
+b { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#3a8608; line-height:25px; padding: 0; }
+a { text-decoration: none; color: #0a36df; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover { text-decoration: none; color: #c0c0c0; }
+ul { font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+
+#wrap { float:left; width:975px; height:auto; }
+
+#left-col { float:left; width:229px; height:1018px; }
+#left-col-nav { float:left; width:229px; height:434px; background:url(images/dvt-img_01.jpg) no-repeat; }
+#left-col-img { float:left; width:229px; height:584px; }
+
+#right-col { float:left; width:746px; height:1018px; }
+#header-top { float:left; width:746px; height:auto; }
+#header-nav { float:left; width:746px; height:63px; background:url(images/dvt-img_07.jpg) no-repeat; }
+#header-nav-img { float:right; width:298px; height:63px; }
+#header-btm { float:left; width:746px; height:auto; }
+
+#feed-col { float:left; width:482px; height:690px; background:url(images/dvt-img_15.jpg) no-repeat; }
+#link-col { float:left; width:264px; height:690px; background:url(images/dvt-img_16.jpg) no-repeat; }
+
+#footer { float:left; width:975px; height:203px; }
+#footer-ticker { float:left; width:227px; height:203px; }
+#footer-img { float:left; width:748px; height:203px; }
+
+.wireframemenu { width: 173px; _width: 168px; margin: 39px 0 0 42px }
+.wireframemenu ul { padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a { font: bold 11px Verdana; padding: 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #fff; text-decoration: none; }
+.wireframemenu a:visited { color: #fff; }
+html>body .wireframemenu a { /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover { background-color: #435adf; color: black; }
+
+/*- Menu Tabs 5--------------------------- */
+#tabs5 { float:left; width:400px; font-size:93%; line-height:normal; }
+#tabs5 ul { margin:0; padding:40px 10px 0 20px; list-style:none; }
+#tabs5 li { display:inline; margin:0; padding:0; }
+#tabs5 a { float:left; background:url("images/tableft5.gif") no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none; }
+#tabs5 a span { float:left; display:block; background:url("images/tabright5.gif") no-repeat right top; padding:5px 15px 4px 6px; color:#FFF; }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs5 a span { float:none; }
+/* End IE5-Mac hack */
+#tabs5 a:hover span { color:#FFF; }
+#tabs5 a:hover { background-position:0% -42px; }
+#tabs5 a:hover span { background-position:100% -42px; }
+
+#infofeed { width:470px; height:640px; overflow: auto; visibility: visible; /**/ border-top: solid 1px #d9d9d9; margin: 0 0 0 5px; }
+#infofeed ul { list-style: none; margin: 5px 5px 0 5px; padding: 0; }
+#infofeed image { float:left; max-width:400px; margin: 15px; }
+h4 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#3a8608; line-height:33px; margin: 0; padding: 5px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+
+#infolinks { width:240px; height:640px; overflow: auto; visibility: visible; /**/ border-top: solid 1px #d9d9d9; margin: 0 0 0 5px; }
+#infolinks ul { list-style: none; margin: 5px 5px 0 5px; padding: 0; }
+h5 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#3a8608; line-height:33px; margin: 0; padding: 5px 5px 5px 10px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+#infolinks b { font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#0a36df; line-height:25px; padding: 0; }
+
+.scroll { scrollbar-face-color:#fff; scrollbar-shadow-color:#fff; scrollbar-highlight-color:#fff; scrollbar-3dlight-color: #fff; scrollbar-darkshadow-color:#fff; scrollbar-track-color: #fff; scrollbar-arrow-color: #000000; }

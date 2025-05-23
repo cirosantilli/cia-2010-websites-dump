@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px; padding: 0px; font-family: "Adobe Song Std L", "Adobe Kaiti Std R", "Han Nom A", "SimSun", "Arial"; font-size: .8em; color: #333; background: #eee;}
+
+#wrap{position: relative; width: 880px; height: 100% auto; margin: 0px; margin-left: -440px; left: 50%; background: #fff;}
+
+#header{float: left; width: 880px; height: 141px;}
+
+ul{margin: 0px; padding: 0px; list-style: none;}
+li{ display: block; margin: 0px; padding: 3px 0px;}
+
+a:link, a:visited, a:visited{ text-decoration: none; color: #06C;}
+a:hover{text-decoration: none; color: #FC0;}
+
+h2{color: #333; margin: 0px 0px 2px 0px; padding: 5px; font-size: 1.2em; font-weight: normal; }
+
+h3{font-size: .8em; margin: 0px; padding: 0px 5px; color: #666; font-weight: normal;}
+
+.yellow{background: url(images/yellow_grad.jpg) repeat-x;color: #333;}
+.blue{background: url(images/blue_grad.jpg) repeat-x; color: #fff;}
+.lt_blue{background: url(images/lt_blue_grad.jpg) repeat-x; color: #333;}
+.gray{background: url(images/gray_grad.jpg) repeat-x; color: #333;}
+
+td,tr{margin: 0px; padding: 0px;}
+
+#content{clear: both; width: 880px; height: 100% auto; min-height: 600px; background: #fff url(images/side.jpg) left bottom no-repeat;}
+
+#main{float: left; width: 680px; height: 100% auto; min-height: 600px; margin-bottom: 80px; /*padding for left side design */ }
+
+#forum{float: left; width: 100% auto; height: 100% auto; min-height: 600px; }
+
+#newsphotos{float: left; width: 220px; height: 100% auto; margin: 10px; padding:0px; }
+#newsphotos ul{margin-left: 5px;}
+#newsphotos li.rss-item a img{width: 100px; height: 75px; align: right;}
+
+#centerblock{float: left; width: 400px; height: 100% auto;	margin: 10px 5px;	padding: 0px;}
+
+
+#sidebar{float: right; width: 180px; height: 100% auto; margin-right: 5px;}
+#sidebar ul{margin: 10px 0px; padding: 0px;}
+#sidebar li{display: block; margin: 0px; padding: 10px 0px; text-align: center;}
+
+
+#news{float: left; width: 100% auto; height: 100% auto; margin: 0px 5px 10px 0px; padding: 0px; }
+#news li{padding: 10px 5px;}
+
+#blogs {float: left; width: 400px; height: 100% auto; margin: 0px 5px 10px 0px; padding: 0px; }
+
+
+#hotlinks {clear: both; width: 100% auto; padding: 0px; margin: 10px; border: 1px solid #eee;}
+#hotlinks ul{float: left; width: 100% auto; height: 100% auto; }
+#hotlinks li{display: inline; padding: 3px 8px;  text-align: center;
+	width:100px;
+	float:left;}
+
+
+#nav{clear: both; width: 660px;	margin: 50px 10px 10px 10px; padding:0; }
+#nav li{margin:0; padding:0; list-style:none; float: left;}
+#nav li a, #nav li a:visited{ font-size: 1em;
+	text-align: center;
+	width:120px;
+	float:left;
+	padding:5px;
+	background:url(images/yellow_grad.jpg) repeat-x;
+	border-color:#eee;
+	border-width:1px;
+	border-style:solid;
+	color:#333;
+	text-decoration:none;
+}
+#nav li a:hover{background: url(images/blue_grad.jpg) repeat-x; color: #fff;}
+#nav li a:active { font-size: 1em;
+	text-align: center;
+	width:120px;
+	float:left;
+	padding:5px;
+	background:url(images/gray_grad.jpg) repeat-x;
+	border-color:#eee;
+	border-width:1px;
+	border-style:solid;
+	color:#333;
+	text-decoration:none;
+}
+
+
+#ajaxarea{clear: both; width: 660px; height: 100% auto; padding: 0px; margin: 10px; border: 1px solid #eee;}
+
+#hotels ul{padding: 3px 8px;}
+#hotels li {margin: 10px 0px;}
+
+#econ_hotels{clear: both; width: 100% auto; height: 100% auto; padding: 0px; margin: 10px; border: 1px solid #eee;}
+#econ_hotels ul{margin: 0px; width: 100% auto; height: 100% auto;}
+#econ_hotels li{display: inline; padding: 8px 5px;}
+
+
+#link_exch {clear: both; width: 660px; height: 100% auto; padding: 0px; margin: 10px; border: 1px solid #eee;}
+#link_exch li{display: block; padding: 8px 5px; margin: 0px; }
+#link_exch li a{text-align: left; }
+
+#footer{clear: both; width: 880px; height: 36px; background: url(images/footer.jpg) no-repeat;}
+#footer p{font-size: 10px; text-align: center; margin: 0px; padding: 15px 0px 0px 0px;}
+
+.minicol{float: left; margin: 10px 15px 10px 10px; width: 120px; height: 100% auto;}
+
+.col1{float: left; width: 47%; padding-left: 5px;}
+.col2{float: right; width: 47%; padding-right: 5px;}
+
+.box{border: 1px solid #eee; padding: 0px; margin: 10px;}
+.clearfloat {clear:both; height:0; font-size: 1px; line-height: 0px;}
+.imgcenter{text-align: center;}
+
+/** google.feeds.FeedControl classes
+ *  - very similar to .gsc-XXX from ajax search */
+ 
+
+.gfc-resultsHeader { width: 100%; border-bottom: 1px solid #e9e9e9;  margin-bottom : 8px;  }
+.gfc-resultsHeader .gfc-title{ color: #676767;  display: inline;  background: #fff;}
+.gfc-tabsArea { margin-top: 6px; }
+.gfc-tabsAreaInvisible { display : none;}
+
+.gfc-tabHeader {background: #fff;
+  display: inline;
+  cursor: pointer; padding-top: 2px; 
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 2px;
+  }
+
+
+/* change top line of tabs */
+
+.gfc-tabHeader.gfc-tabhActive {
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  border-top: 2px solid #0066CC;
+  color: #333;
+  background: #fff;
+  }
+
+
+.gfc-tabHeader.gfc-tabhInactive {
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  border-top: 2px solid #ccc;
+  background: #fff;
+  color: #06C;
+  }
+
+
+.gfc-tabData.gfc-tabdActive { display: block; }
+
+.gfc-tabData.gfc-tabdInactive {  display: none; }
+
+
+/* tab specific results header supression */
+.gfc-tabData .gfc-resultsHeader .gfc-title { display: none; }
+
+
+
+/* the results for each section
+ 
+* .gfc-resultsbox-{visible,invisible} : a complete-collection of results including headers
+ 
+* .gfc-results : the collection of results for a given feed
+ * .gfc-result : a generic result within the control
+ 
+*/
+.gfc-resultsbox-visible { display : block; background:#fff url(images/gradient.jpg) repeat-x;}
+.gfc-resultsbox-invisible {display : none; }
+
+.gfc-results {padding-bottom: .2em;  margin: 10px 5px; }
+
+.gfc-result {margin-bottom: .5em; margin-top: 1em; }
+
+
+.gfc-result .gf-title { height: 1.6em; overflow: hidden; }
+
+.gf-result .gf-author,
+.gf-result .gf-spacer,
+.gf-result .gf-relativePublishedDate { color: #6f6f6f;   display : inline;  }
+
+
+.gf-result .gf-spacer { margin-right : 3px;   margin-left : 3px;}

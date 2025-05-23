@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AmishkaNews</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="amishkanewss.js"> </script> 
+<script type="text/javascript">
+<!--
+function en(){var gm=[{bf:"/servlet/Serve",gp:"head3"},{bf:"/servlet/Serve",gp:"head2"},{bf:"/servlet/Serve",gp:"head1"}];b(gm,3000);};window.onload=en;
+//-->
+</script>
+
+</head>
+
+<body>
+
+<div id="wrap">
+<div id="header">
+<div id="head1" class="headbanner"><img src="images/header/title.jpg" width="370" height="120" /></div>
+
+
+<div id="head2" class="headbanner"><img src="images/header/1.jpg" width="262" height="120" /></div>
+
+
+<div id="head3" class="headbanner"><img src="images/header/end.jpg" width="328" height="120" /></div>
+</div>
+
+<div id="navmenu">
+<ul>  
+  <li><a href="javascript:loadTwo('amishkahome.php','amishkalinks.php')" class="home"><span>Home</span></a></li>
+  <li><a href="javascript:loadTwo('amishkacricket.php','amishkasports.php')" class="sports"><span>Sports</span></a></li>
+  <li><a href="javascript:loadTwo('amishkaentertainment.php','amishkaentertainment2.php')" class="entertainment"><span>Entertainment</span></a></li>   
+  <li><a href="javascript:loadTwo('amishkatech.php','amishkatech2.php')" class="technology"><span>Technology</span></a></li>
+  <li><a href="javascript:loadTwo('amishkanews.php','amishkaworldnews.php')" class="world"><span>World</span></a></li>
+</ul> 
+</div>
+
+<div id="main">
+<div id="sidebar1" class="box3 midbak inln">
+<h3>Links of Interest</h3>
+<br /><br />
+<ul class="linkslist">  
+  <li><a href="http://news.bbc.co.uk/sport2/hi/cricket/default.stm" target="_new">BBC Sports : Cricket</a></li> 
+  <li><a href="http://www.planetbollywood.com" target="_new">Planet Bollywood</a></li>
+  <li><a href="http://www.bollywoodmusic.com/" target="_new">Bollywood : Music</a></li>
+  <li><a href="http://flights.asia.com" target="_new">Travel Asia</a></li>
+  <li><a href="http://www.projects-abroad.org/destinations/" target="_new">'Voluntourism' Destinations</a></li>
+
+</ul>
+</div>
+
+<div id="middle" class="box6 midbak inln">
+<iframe name="content" id="content" allowTransparency src="amishkahome.php" width="460" height="800" frameborder="0" framespacing="0" marginwidth="0" scrolling="no"></iframe>
+</div>
+
+<div id="sidebar2" class="box3 midbak inln">
+<iframe name="main" id="main" allowTransparency src="amishkalinks.php" width="220" height="800" frameborder="0" framespacing="0" marginwidth="0" scrolling="no"></iframe>
+</div>
+
+<div id="footer"><p style="padding-top:15px;">Copyright Amishkanews. All Rights Reserved.</p>
+</div>
+</div>
+</div>
+
+
+<script language="javascript"> 
+function loadTwo(iframe1URL, iframe2URL) 
+{ 
+parent.content.location.href=iframe1URL 
+parent.feeds.location.href=iframe2URL 
+} 
+</script>
+</body>
+</html>

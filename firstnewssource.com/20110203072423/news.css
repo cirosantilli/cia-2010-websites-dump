@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0; padding:0;}
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#85bdef} /*row & description of link*/
+li a {text-decoration: none; color: #6b98c1; font-weight: normal;} /*link*/
+li a:hover {color:#6b98c1; text-decoration: underline; }
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+#wrap {position:relative; margin-right:-405px; right:50%; width:800px; height:900px;}
+
+#header {float:left; width:800px; height:200px;}
+
+#nav {float:left; width:800px; height:50px; background:url(images/News_31.gif) no-repeat;}
+
+#column-1 {float:left; width:200px; height:523px;}
+
+#column-2 {float:left; width:400px; height:523px;}
+
+.box-right {width: 385px; height: 513px; margin: 5px 5px 0 0; padding: 0; overflow: auto; float: right; display:inline;}
+
+#column-3-top {float:left; width:200px; height:430px; background:url(images/News_34.gif) no-repeat;}
+#column-3-bottom {float:left; width:200px; height:93px; background:url(images/News_38.gif) no-repeat;}
+
+#column-4 {float:left; width:800px; height:97px;}
+
+#footer {float:left; width:800px; height:30px;}
+
+#tabs1 {
+      float:left;
+      width:100%;
+	  height:50px;
+	  background:#F4F7FB;
+      font-size:16px;
+      line-height:normal;
+	  border-bottom:1px solid #BCD2E6;
+      }
+    #tabs1 ul {
+	  margin:0;
+	  padding:22px 10px 0 240px;
+	  list-style:none;
+      }
+    #tabs1 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs1 a {
+      float:left;
+      background:url(images/tableft1.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs1 a span {
+      float:left;
+      display:block;
+      background:url(images/tabright1.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#627EB7;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs1 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#627EB7;
+      }
+    #tabs1 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs1 a:hover span {
+      background-position:100% -42px;
+      }
+
+
+#menu8 {
+	width: 200px;
+	margin-top: 10px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #6b98c1;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu8 li a:hover {
+	color: #6b98c1;
+	padding: 8px 0 0 25px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #6b98c1;
+	padding: 8px 0 0 25px;
+		text-decoration:underline;
+	}

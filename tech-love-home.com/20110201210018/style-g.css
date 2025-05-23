@@ -1,0 +1,55 @@
+a:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #224455;
+	text-decoration: none;
+
+}
+a:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #224455;
+}
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #224455;
+	font-weight: normal;
+}
+BODY { 
+	scrollbar-face-color:#ccddbb; 
+	scrollbar-shadow-color: #cccccc; 
+	scrollbar-highlight-color: #ccddbb; 
+	scrollbar-3dlight-color: #ccddbb; 
+	scrollbar-darkshadow-color: #ccddbb; 
+	scrollbar-track-color: #ccddbb; 
+	scrollbar-arrow-color: #666; 
+}
+H1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #224455;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 15px;
+} 
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0;
+	margin-top: 5px;
+	line-height: 1.2;
+}
+ul li{padding-bottom: 10px;
+}

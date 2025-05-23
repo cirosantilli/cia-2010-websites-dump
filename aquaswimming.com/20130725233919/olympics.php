@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--[if IE 6]> <link href="swimstyleie6.css" rel="stylesheet" type="text/css"> <![endif]-->
+<link href="swimstyle.css" rel="stylesheet" type="text/css">
+<title>Olympics</title>
+</head>
+
+<body>
+<div id="content_center">
+<div id="colum_left"></div>
+<div id="column1" class="box box_scroll">
+<h1>The Olympics  </h1>
+<ul>
+
+<li><img src="images/logos/logo_olympics.gif" width="150" height="76" align="left" /><a href="http://www.olympic.org/uk/index_uk.asp" target="newwindow">International Olympic Committee</a> The official website of the Olympic Movement.
+<li><a href="http://en.wikipedia.org/wiki/2012_Summer_Olympics" target="newwindow">Olympic Games - Wikipedia, the free encyclopedia</a> For the most recent Games in London, see 2012 Summer Olympics. For the next winter games in Sochi Krasnodar Krai, Russia, see 2014 Winter Olympics.
+<li><a href="http://espn.go.com/olympics/" target="newwindow">ESPN Olymic Sports</a> The latest Olympic Sports news, results, schedules, and highlights from ESPN.com.
+<li><a href="http://www.olympic.org/en/content/The-Olympic_Museum/" target="newwindow">The Olympic Museum</a> See the virtual exhibition or take the online museum tour.
+<li><a href="http://www.specialolympics.org/" target="newwindow">Special Olympics</a> Features history of the program, list of games, and athletes.
+<li><a href="http://sochi2014.com/en/" target="newwindow">Olympics | 2014 Sochi</a> Official source of Olympic tickets, merchandise, results, medals, schedules, athletes, teams, news and photos for the Sochi 2014 Olympic Games.
+<li><a href="http://www.forbes.com/2008/08/20/olympics-colleges-phelps-biz-sports_cx_af_0820olympics.html" target="newwindow">America's Top 10 Olympic Schools</a> Article from Forbes.com listing coleges, such as Auburn University.
+</li>
+<li><strong>Olympic Records</strong></li>
+<li><a href="http://www.hickoksports.com/history/olswirec.shtml" target="newwindow">HickokSports.com - History - Olympic Swimming Records</a> This document lists current men's and women's Olympic records in swimming.
+<li><a href="http://en.wikipedia.org/wiki/List_of_Olympic_records_in_swimming" target="newwindow">List of Olympic records in swimming - Wikipedia, the free encyclopedia</a> The International Olympic Committee recognises the fastest performances in pool-based swimming events at the Olympic Games.
+<li><a href="http://www.usaswimming.org/USASWeb/DesktopDefault.aspx?Alias=Rainbow&Lang=en&TabId=1062" target="newwindow">Olympic Trials</a> More than 20 U.S. Olympians, including Olympic gold medalists Michael Phelps.
+The 2008 U.S. Olympic Trials – Swimming, held June 29-July 6 in Omaha, Neb., was a spectacle unmatched by any other swimming competition held on U.S. soil. Now that we’ve had some time to take it all in, let’s take a look back at the eight days that made history.
+<li><a href="http://www.topix.com/summer-sports/swimming/2009/05" target="newwindow">Olympic Swimming News Archives - Topix</a> Archival account of 2008 Olypmics, including Olympic medal count, top stories, discussions, photos and special olympic news.
+</li>
+</ul>
+</div>
+<div id="column2"><img src="images/index_05.jpg" width="262" height="184" /><div id="content" class="box">
+  <h4>Latest Swimming Information</h4>
+<ul>
+  <li><a href="http://www.swimnews.com/news/rssfeed" target="newwindow">Worldwide Swimming News from SwimNews.com</a></li>
+  <li><a href="http://www.usaswimming.org/RSS/YourRSSFile.xml" target="newwindow">USA Swim News</a></li>
+  <li><a href="http://www.swimmersworld.com/news/rssfeed" target="newwindow">Swimmers World.com</a></li>
+  <li><a href="http://www.swim.com/news/rss.xml" target="newwindow">Top Stories from Swim.com </a></li>
+</ul>
+</div></div>
+<div id="column3" class="box box_scroll">
+  <h1>Top 10 Olympic Swimmers</h1>
+  <ul>
+    <li><em>Information courtesy of:</em><br />
+<a href="http://techblogbiz.blogspot.com/2006/10/top-10-swimmers-of-all-time.html" target="newwindow">Top 10 Swimmers of All Time</a> A list of the top ten greatest swimmers of all time.</li>
+   <li><strong>Michael Fred Phelps II</strong> Phelps has won 14 career Olympic gold medals, the most by any Olympian. As of 2008, Phelps holds seven world records in swimming. Phelps holds the record for the most gold medals at a single Olympics, his eight at the 2008 Beijing Games surpassing American swimmer Mark Spitz's seven gold performance at Munich in 1972.
+
+   <li><strong>Mark Spitz</strong> One of the greatest swimmers in the history of swimming. With his 11 Olympic medals, he became the fourth highest medalist in the Olympic history and jointly the highest in Men’s Swimming.
+   <li><strong>Matthew ("Matt") Nicholas Biondi</strong> Another great swimmer in the swimming history winning 11 Olympic medals including 8 gold.
+<li><strong>Johnny Weissmuller</a></strong> Famous for playing the role of Tarzan, but his swimming career won him 6 Olympic medals, 5 of which were gold. He extended his feat to win the bronze medal with USA water polo team in 1924 Paris Olympics.
+<li><strong>Ian James Thorpe</strong>   The Australian ‘Thorpedo’ has nine olympic medals including five gold to his credit. He has been World Swimmer of the Year for four times.
+<li><strong>Jennifer ("Jenny") Elisabeth Thompson</strong> Jenny has won 12 medals participating in four Olympics Games with 8 being gold.
+<li><strong>Krisztina Egerszegi</strong> This Hungarian great Olympian was a famous swimmer from the late 1980s to the mid 1990s. Participating in three Olympics Games, she won 7 medals in which 5 were gold.
+<li><strong>Dawn Lorraine Fraser</strong> Australian swimmer who was the first women to finish swimming within one minute in the 100m events. In her three Olympic Games appearances, she could win 8 Olympic medals including 5 gold.
+<li><strong>Shane Gould</strong> Australian swimmer who retired at the age of 16 from swimming. In her only Olympic games appearance in 1972 in Munich she won 5 medals including 3 gold.
+<li><strong>Kristin Otto</strong> German swimmer appeared in one Olympic Games in 1988 winning6 gold medals.
+  <li></li>
+  </ul>
+</div>
+</div>
+</body>
+</html>

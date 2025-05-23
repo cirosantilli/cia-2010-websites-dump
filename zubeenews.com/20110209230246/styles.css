@@ -1,0 +1,66 @@
+/* CSS Document */
+body {	margin: 0px; padding: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; 
+background: url(images/bkgrnd.jpg) repeat-x; color: #333; }
+
+#wrap {	position: relative; left: 50%; margin-left: -400px;	width: 800px; height: 100% auto; 
+border: 1px solid #333; background: #fff;}
+	
+ul	{margin: 0; padding: 0; display: block;	padding: 0px;}
+li	{list-style: none; padding: 5px; margin: 0px;}
+	
+a {	text-decoration: none; color: #ff9900; font-weight: bold; }
+a:hover {color:#0099ff;}
+a img {	border: 0;}
+
+h2 {font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 14px; 
+text-align: left; text-transform: uppercase; margin: 15px 0px 2px 0px; padding: 0px ; color:#0099FF;}
+h3 {font-size: 11px; margin: 3px 0px 0px 0px; padding: 0px;	color:#0066CC;}
+h4 {font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 14px; 
+text-align: left; text-transform: uppercase; margin: 0px 0px 2px 0px; padding: 4px 2px; color:#fff; background: #FF6600;}
+h5 {font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 12px; 
+text-align: left; text-transform: uppercase; margin: 10px 0px 2px 0px; padding: 4px 2px 4px 8px; 
+background-color:#0099FF; color: #fff; letter-spacing: .05em;}
+
+.col1{margin: 0px; padding: 0px; width: 150px; float: left; border-right: 1px solid #ff9900;}
+.col2{margin: 0px 5px 0px 0px;  padding: 0px 5px; width: 430px; float: right;}
+p{padding: 0px; margin: 3px 1px;}
+p img{padding: 5px;}
+/*.col2 a{color:#0066CC;}
+.col2 a:hover{color: #0099ff;}*/
+
+.midleft{float: left; width: 200px;}
+.midright{float: right; width: 200px; padding-left: 5px;}
+.imgleft{float: left; padding: 10px 10px 10px 0px;}
+.imgright{float: right; padding: 10px 2px 10px 10px;}
+#sidebar{width: 190px; height: 100% auto; margin: 0px; padding: 0px; border-left: 1px solid #f90;}
+.midbox{float: left; width: 400px; margin-top: 15px;}
+
+#navigation {width: 190px; margin: 0px; padding: 0px; height: 100% auto;}
+#navigation ul {width: 190px; margin: 0px;	padding: 0px; }
+#navigation li {display: block; border-bottom: 1px solid #f90; background: url(images/nav.jpg) repeat-x; }
+#navigation li a{text-align: center; font-size: 12px; font-weight: bold; color:#333;	padding: 5px 5px 4px 5px;}	
+#navigation li a:hover {text-decoration: underline;}
+#navigation li a:active{color: #FFF;}
+#navigation li a:active, #navigation li a#current{color: #fff;}
+ul#sportsnav {width: 420px; height: 20px; text-align: center; margin: 20px 0px 2px 0px;}
+ul#sportsnav li{display: inline; background:#0099ff; color: #fff; padding: 2px 4px;}
+ul#sportsnav li a{color: #fff;}
+ul#sportsnav li a:hover{color: #333;}
+#msnsearch {display: inline; float: left; margin: 20px 0px 10px 0px; padding: 0px; width: 420px; height: 100% auto;}
+#date{text-align: center; margin: 10px 0px; color:#333333; font-weight: bold;}
+#footer {clear: both; color: #ccc;	font-size: 9px;	text-align: center;	padding: 5px 0px; margin: 0px;}
+#about{padding: 5px; color: #999; font-size: 9px; text-align: left;}
+.logobox{text-align: center; color: #333; margin: 0px 0px 5px 0px; padding: 0px; background: #fff; }
+.logobox li{padding: 8px 0px;}
+.box{border: 1px solid #ccc; text-align: left; color: #333; margin: 5px 0px 2px 0px; padding: 0px 5px;}
+.boxleft{float: left; border: 1px solid #666; text-align: left; color: #333; margin: 5px 0px 2px 0px; padding: 0px 5px; width: 195px;}
+.boxright{float: right; border: 1px solid #f60; text-align: left; color: #333; margin: 5px 0px 2px 0px; padding: 0px 5px; width: 195px;}
+.yellow{border: 1px solid #FFFF33;}
+.scroll{background: #FFFFFF; 
+SCROLLBAR-FACE-COLOR: #FFFFFF;  
+SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; 
+SCROLLBAR-SHADOW-COLOR: #FFFFFF; 
+SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; 
+SCROLLBAR-ARROW-COLOR: #ff6600; 
+SCROLLBAR-TRACK-COLOR: #FFFFFF; 
+SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF;}

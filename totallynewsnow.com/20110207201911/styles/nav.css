@@ -1,0 +1,68 @@
+
+
+#nav {
+	background:#5ba653;
+	font-size:1em;
+	width:840px;
+	}
+	
+#nav {
+	list-style: none;
+	line-height: 1em;
+	float: left;
+	width: 800px;
+	margin-top: 121px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 20px;
+	}
+
+#nav a, #nav a:hover {
+	display: block;
+	text-decoration: none;
+	border:none;
+	}
+
+#nav li {
+	float: left;
+	list-style:none;
+	}
+
+#nav a, #nav a:visited {
+	display:block;
+	font-weight:bold;
+	color: #fff;
+	padding:6px 12px;
+	}
+
+#nav a:hover {
+	background-color:#ffffff;
+	color:#071fa3;
+	text-decoration:none;
+	}	
+
+#nav a:active {
+	color:#071fa3;
+	text-decoration:none;
+	}	
+
+#home .on  { 
+	/*background-color:#333;*/
+	color:#071fa3!important;
+	text-decoration:none;
+	}
+
+#catnav li li a, #catnav li li a:visited {
+	font-weight:normal;
+	font-size:0.9em;
+	color:#666;
+	}
+
+#catnav li li a:hover, #catnav li li a:active {background:#ddd;}	
+	
+#catnav li:hover ul, #catnav li li:hover ul, #catnav li li li:hover ul, #catnav li.sfhover ul, #catnav li li.sfhover ul, #catnav li li li.sfhover ul {left: auto;}
+
+/*a.main:hover {background:none;}*/

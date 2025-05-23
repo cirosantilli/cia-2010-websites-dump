@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="ur">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>tnc-urdu</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id='wrap'>
+<div id='navwrap'>
+  <div id="menunav">
+  <ul>
+        <li class="active"><a href="tech.php" target="resize">&#1587;&#1575;&#1574;&#1606;&#1587; &#1657;&#1740;&#1705;&nbsp;&nbsp;|</a></li>
+        <li><a href="worldnews.php" target="resize">&#1583;&#1606;&#1740;&#1575;&#1705;&#1740;&#1582;&#1576;&#1585;&#1740;&#1722;&nbsp;&nbsp;|</a></li>
+        <li><a href="sports.php" target="resize">&#1705;&#1726;&#1740;&#1604; &#1582;&#1576;&#1585;&#1740;&#1722;&nbsp;&nbsp;|</a></li>
+        <li><a href="paknews.php" target="resize">&#1662;&#1575;&#1705;&#1587;&#1578;&#1575;&#1606; &#1582;&#1576;&#1585;&#1740;&#1722;&nbsp;&nbsp;|</a></li>
+        <li><a href="entertainment.php" target="resize">&#1575;&#1587;&#1578;&#1602;&#1576;&#1575;&#1604; &nbsp;&nbsp;|</a></li>
+        <li><a href="politics.php" target="resize">&#1587;&#1740;&#1575;&#1587;&#1578;</a></li>
+  </ul></div>
+</div>
+<div id='header'><img src="images/header.jpg" width="1020" height="246" /></div>
+<div id='contentwrap'>
+<div id='main'>
+<div id='adtop'>
+<ul>
+     <li><a href="http://search.jang.com.pk/search_details.asp?nid=308271" ><img src="images/ads/search.jpg" width="200" height="50" hspace="3" vspace="5" /></a></li>
+     <li><a href="http://hamariweb.com/chat/login.aspx" target="_blank"><img src="images/ads/live-chat.jpg" width="200" height="51" hspace="3" vspace="5" /></a></li>
+     <li><a href="http://urduwire.com/" target="_blank"><img src="images/ads/urduwire.jpg" width="149" height="46" hspace="3" vspace="5" border="0"></a></li>
+</ul>
+</div>
+<div id='count'><applet archive="bmeterplus.jar" code="c.a" width=125 height=20 VIEWASTEXT/></applet></div>
+
+
+<iframe src="tech.php" onLoad="calcHeight();" name="resize" id="resize" scrolling="NO" frameborder="0" width="800" height="20"></iframe>
+
+
+
+</div>
+</div>
+</div>
+
+<script src="jquery-1.4.2.min.js"></script>
+<script language="JavaScript">
+ function calcHeight() {
+ var iframe = document.getElementById('resize');
+ if ($.browser.msie) {
+ iframe.height = iframe.contentWindow.document.body.scrollHeight;
+ }
+ else {
+ iframe.height = iframe.contentWindow.document.body.offsetHeight;
+ }
+ }
+</script>
+<script>
+$(function(){
+	$("#navigation a").click(function(){
+  	$("#navigation li").removeClass("active");
+    	$(this).parent().addClass("active")
+    })
+ });
+</script>
+
+
+
+</body>
+</html>

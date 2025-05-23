@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin: 0px; padding: 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px;}
+#wrap{position: relative; width: 960px; height: 100% auto;  margin-left: -480px; left: 50%;}
+#title {width: 960px; height: 229px; margin: 0; padding: 0; float: left;}
+#bar {width: 960px; height: 41px; margin: 0; padding: 0; float: left;}
+#main, #logininfo {width: 960px; height: 3600px; margin: 0; padding: 0; float: left;}
+#mainframe {width: 960px; height: 3600px; margin: 0; padding: 0; float: left;}
+
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block; padding: 0px; margin: 5px; color:#999;} /*row & description of link*/
+li a {text-decoration: none; color: #497db5; font-weight: bold; } /*link*/
+li a:hover {color:#497db5; text-decoration: underline; }
+
+#nav{}
+#nav ul {list-style: none;  margin:0 ; }
+#nav li{padding: 0px; margin: 0px 0 4px 0; }
+#nav li a {display: block; background: #9eb1c6; color: #fff; padding: 4px 6px 4px 6px; font-weight: bold;  margin: 0px; text-decoration: none; ;}
+#nav li a:hover{	color: #000; text-decoration: none; }
+.selected {text-align:right;}
+
+#nav1{}
+#nav1 ul {list-style: none;  margin:0 ; }
+#nav1 li{padding: 0px; margin: 0px 0 4px 0; }
+#nav1 li a {display: block; background: #9eb1c6; color: #fff; padding: 4px 6px 4px 6px; font-weight: bold;  margin: 0px; text-decoration: none; ;}
+#nav1 li a:hover{color: #000; text-decoration: none; }
+#nav1 a.active {text-align:right;}
+
+
+
+h1 {font-size: 13px; color: #497db5; padding: 0; margin: 2px 0;font-weight: bold; }
+h2 {color: #eaa246; padding: 0 0 0 5px; font-size: 11px;}
+img {border: none;}
+.mimg {margin: 4px;}
+.floatl {float: left;}
+.floatr {float: right;}
+
+.box3{width: 220px; margin: 10px; padding: 0; display: inline;float: left; }
+
+#text_wrap {width:220px; height:3500px; float: left;}/**iframe content*/
+#text_box {	width:220px; height:3400px; padding: 2px; overflow: auto; float: left;}/**iframe content*/
+
+
+
+p {margin: 0px; padding: 0 0 2px 0 ; color:#666;}
+
+dl {margin: 0px; padding: 0px;}
+dt {color: #eaa246;	font-family:geneva,arial,sans-serif; font-weight:bold;	font-size:12px;	padding: 5px 0 3px 0;}
+dd {color: #666; font-size: 11px; font-weight:normal;}
+
+.shade {background:#CCC; margin: 30px 0 0 0; }
+
+.scroll {
+	scrollbar-3dlight-color:#fff; 
+	scrollbar-arrow-color:#497db5;  
+	scrollbar-base-color:#fff; 
+	scrollbar-darkshadow-color:#fff; 
+	scrollbar-face-color:#fff; 
+	scrollbar-highlight-color:#fff; 
+	scrollbar-shadow-color:#fff; 
+	}
+	
+#footer {clear:both;}

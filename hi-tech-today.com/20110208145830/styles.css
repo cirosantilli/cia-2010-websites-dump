@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0;color:#666;font-family:Georgia, "Times New Roman", Times, serif;background:#ebe8e3 url(images/bgx.gif);background-position:top;background-repeat:repeat-x;font-size:11px;}
+h1 {padding: 5px 10px 5px 0px;color: #000;}
+h1 {font-size: 15px;margin-bottom:2px;font-weight:bold;}
+h2 {font-size: 14px;margin: 0 0 5px 0;color:#000;width:auto;letter-spacing:5px;}
+h3 {font-size: 14px;color:#000;letter-spacing:5px;text-align:center;background:#CCC;padding:5px;}
+h4 {font-size: 14px;margin: 0 0 5px 0;color:#000;width:auto;letter-spacing:3px;}
+span{font-size: 11px;color:#999;line-height:26px;}
+a {color:#CC0000;text-decoration:underline;}
+a:hover {color:#666;text-decoration:underline;}
+
+.img {float:left; padding:0px 15px 0 0;text-align:justify; text-justify:distribute-all-lines;}
+
+#wrapper {width:975px;height:153px;margin:0 0 0 70px;}
+#logo {width:975px;height:90px;background:url(images/logotop.gif) no-repeat left;}
+
+#content {float:left;width:975px;margin:0 0 0 70px;}
+
+#column_left {float:left;width:390px;margin:5px 0 0px 0;padding:0;}
+#column_right {float:left;width:555px;height:900px;margin:6px 0 0 0;padding:9px 0 0 15px;background-color:#FFF;}
+
+#ads {width:140px;float:left;margin:17px 0 0 0;font-size:9px;}
+#ads ul {margin:0; padding:0; display:block;}
+#ads li {margin:0;list-style:none;padding-bottom:15px;}
+#ads a {font-size:9px; color: #666;font-weight:bold;text-decoration: underline;}
+#ads a:hover {font-size:9px;color: #FFF;font-weight: none;text-decoration: underline;}
+
+
+#sidebox {float:left;width:370px;border-bottom:1px solid #CCC;margin:0 10px 0 0;padding:10px 10px 10px 0;}
+#holder {float:left;width:370px;border-bottom:1px solid #CCC;margin:0 10px 0 0;padding:10px 10px 10px 0;}
+.left {float:left;width:170px;padding:10px 10px 0 0;color:#000;border-right:1px solid #CCC;font-size:10px;text-align:justify;}
+.left span a{font-size:10px;font-weight:bold;color:#d4341a;text-decoration:underline;}
+.left span a:hover {font-size:10px;font-weight:bold;color:#666;text-decoration:underline;}
+
+.right {float:right;width:170px;padding:10px 0 0 10px;color:#000;font-size:10px;text-align:justify;}
+.right span {font-size:10px;font-weight:bold;color:#d4341a;text-decoration:underline;}
+
+/*.red {width:336px;padding:12px;background-color:#d4341a;}
+
+.caption {line-height:200%;text-align:justify;}
+*/
+#logorow {float:left;height:54px;width:900px;background:url(images/logo_3_55px.jpg) no-repeat left;}
+#logo {float:left;height:90px;}
+
+/* MAIN NAVIGATION*/
+#topnav {float:right;width:975px;height:32px;font-weight:bold;text-align:right;background:url(images/logobottom.gif) no-repeat top left;}
+#topnav ul {margin:0;padding:10px;white-space:nowrap;}
+#topnav li {display: inline;list-style-type:none;margin:0;padding:0 10px 0 10px;color:#FFF;}
+#topnav li a {font-family:Georgia, "Times New Roman", Times, serif;font-size:11px;color:#FFF;text-decoration:none;}
+#topnav li a:hover {color:#CCC;text-decoration:underline;}
+
+/*SMALL NAVIGATION AT TOP*/
+#smallmenu {float:right; width:600px; height:20px; padding-top:10px; text-align:right; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:11px;font-weight:bold;}
+#smallmenu ul {margin:0;list-style-type:none;/*white-space:nowrap;*/}
+#smallmenu li {display: inline;padding:0 10px 0 10px;color:#FFF;}
+#smallmenu li a:link, #smallmenu a:visited {color:#FFF;text-align:center;text-decoration:none;}
+#smallmenu li a:hover, #smallmenu a:active {text-decoration:underline;}
+
+
+
+
+#footer {float:left;width:975px; border-top: 2px solid #d2cfca;margin:20px 0 0 70px;}
+#footer ul {text-align:center;margin:0;padding:10px;color: #999;}
+#footer li {display: inline;list-style:none;margin:0;padding:5px 8px 0 8px;}
+#footer li a:link {color: #999;text-decoration: underline;}
+/*#footer li a:visited {color: #666;text-decoration: underline;}*/
+#footer li a:hover {color: #000;text-decoration: underline;}

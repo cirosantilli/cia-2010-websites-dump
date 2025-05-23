@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+ul {
+	margin:0; 
+	padding:0; 
+	display:block;
+	border:0;}
+li {
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+	border:0;} 
+body {
+	margin-top: 0px; 
+	margin-left: 0px;}
+body,td,th {
+	font-family: Tahoma;
+	font-size: 11pt;
+	color: #000000;}
+a {
+/*	font-family: Tahoma;
+	font-size: 11pt;*/
+	color: #0000CC;}
+a:visited {
+	color: #003399;}
+a:hover {
+	color: #de2829;}
+a:active {
+	color: #003399;}
+#wrap {
+    width:800px; 
+	height:700px;
+	margin-top: 0px; 
+	margin-left: 50px;
+	float:left;}
+#banner {
+     width:800px; 
+	 height:173px; 
+	 position: relative; 
+	 margin:auto; 
+	 padding:0px; 
+	 display:inline;}
+#navigation {
+	width: 800px;
+	height:42px;
+	text-align:center;
+	float:left;
+	color: #000000;
+	margin:0;
+	background-image:url(images/index_10.jpg);
+	background-repeat:no-repeat;
+	padding-top:10px;
+	font-family: Tahoma;
+	font-size:14pt;}
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 4px;}
+#navigation li {
+	display: inline;}
+#navigation a:link, #navigation a:visited { 
+	padding: 0; 
+	color: #000000;
+	text-decoration: none;}
+#navigation a:hover {
+	color: #4d765b;}	 
+#horizontal_line {
+	width:800px; 
+	height:13px;
+	float:left;}	 
+#content {
+	width: 800px;
+	height: 100% auto;
+	margin: 0px;
+	padding: 0px;}
+#vertical_line {
+	width:17px;
+	height:442px;
+	float:left;
+	position:relative;}
+#menu {
+	width: 199px;
+	height: 440px;
+	margin: 0px;
+	float:left;
+	text-align:right;
+	left: 70px;
+	top: 238px;
+	background-color:#3F3F3F;}
+#menu li a {
+	height: 27px;
+/*  voice-family: "\"}\""; 
+  	voice-family: inherit;*/
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size:12pt;}	
+#menu li a:link, #menu li a:visited {
+	color: #CCCCCC;
+	display: block;
+/*	background: url(images/menu.gif);*/
+	padding: 4px 10px 0 0;}
+#menu li a:hover {
+	color: #FFFFFF;
+/*	background:  url(images/menu.gif) 0 -32px;*/
+	padding: 4px 10px 0 0;}
+
+#iranimage {
+	width:199px;
+	height:126px;
+	display:block;
+	float:inherit;}
+#vertical_line2 {
+	width:27px;
+	height:442px;
+	float:left;
+	position:relative;}
+#column {
+	width:525px;
+	height:100% auto;
+	float:left;
+	position:relative;}
+#soccer_content {
+	width:520px;
+	height:442px;
+	float:left;
+	overflow:auto;
+	visibility:visible;}
+#vertical_line3 {
+	width:32px;
+	height:442px;
+	float:right;
+	position:relative;}
+#horizontal_line2 {
+	width:800px;
+	height:100% auto;}
+#login {
+	width:750px;
+	height:100% auto;
+	margin:0;
+	padding-top:20px;
+	float:left;
+	color:#000000;}
+#ads {
+    width:800px; 
+	height:100% auto; 
+	position: relative; 
+	display:inline;}

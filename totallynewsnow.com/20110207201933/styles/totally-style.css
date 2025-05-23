@@ -1,0 +1,225 @@
+
+
+#pageleft {
+	float: left;
+	width: 265px;
+	margin: 20px 20px 0px 0px;
+	padding: 0 20px 0 0;
+	border-right: solid 1px #999;
+	text-align:justify;
+	}
+	
+#pagemiddle {
+	float: left;
+	width: 265px;
+	margin: 20px 20px 0px 0px;
+	padding: 0px;
+	text-align:justify;
+	}
+	
+#pageright {
+	float: right;
+	width: 265px;
+	margin: 20px 0px 0px 0px;
+	padding: 0 0 0 20px;
+	border-left: solid 1px #999;
+	text-align:justify;
+	}
+
+#pageleft li, #pagemiddle li, #pageright li{
+	list-style:none
+	}
+
+#pageleft .recent li, #pagemiddle .recent li, #pageright .recent li{
+	margin-bottom:5px;
+	padding-left:20px;
+	background:url(.images/icons/icon_recent.gif) no-repeat;
+	}
+
+#pageleft a:link, #pageleft a:active, #pageleft a:visited {text-decoration:none;}
+#pageleft a:hover {text-decoration:underline;}
+
+#pagemiddle a:link, #pagemiddle a:active, #pagemiddle a:visited {text-decoration:none;}
+#pagemiddle a:hover {text-decoration:underline;}
+
+#pageright a:link, #pageright a:active, #pageright a:visited {text-decoration:none;}
+#pageright a:hover {text-decoration:underline;}
+
+
+
+
+
+#featured-top {
+	width:840px;
+	float:left;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #5ba653;
+	}
+
+#featured-content {
+	width:550px;
+	float:left;
+	}
+	
+	
+#featured-sidebar {
+	width: 250px;
+	float:right;
+	}
+	
+#featured-sidebar h3 {
+	padding:5px 0 5px 2px;
+	margin:0 0 20px 0;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #5ba653;
+	}	
+	
+#featured-sidebar .sidebar_widget {
+	margin:0 0 20px 0;
+	text-align:justify;
+	}
+	
+#featured-leftcol {
+	width:550px;
+	float:left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 25px;
+	padding-bottom: 0;
+	padding-left: 0;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #5ba653;
+	}
+
+#featured-leftcol h2, #featured-content h2{
+	color: #071fa3;
+	margin: 0 0 10px 0;
+	border:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	}
+
+#featured-rightcol h2 {
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	margin:0 0 10px 0;
+	font-weight:bold;
+	color:#071fa3;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #5ba653;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	}
+
+#featured-leftcol img{
+	float:left;
+	margin:0 20px 10px 0;
+	padding:1px;
+	border: 1px solid #999;
+	}
+
+#featured-rightcol{
+	width:230px;
+	float:right;
+	margin-top:20px;
+	}
+
+#featured-rightcol li {
+	list-style:none
+	}
+
+#featured-rightcol .recent li{
+	margin-bottom:5px;
+	padding-left:2px;
+	background:url(.images/icons/icon_recent.gif) no-repeat;
+	}
+
+#featured-rightcol a:link, #featured-rightcol a:active, #featured-rightcol a:visited {text-decoration:none;}
+#featured-rightcol a:hover {text-decoration:underline;}
+
+
+.rss-items {
+       list-style:none;
+}
+
+
+
+
+
+#section-content {
+	width:650px;
+	float:left;
+	}
+
+#section-teaser {
+	margin:20px 0 20px 0;
+	border-top:4px solid #ccc;
+	border-bottom:4px solid #ccc;
+	float:left;
+	background:#eee;
+	padding:15px;
+	}
+
+#section-articlelist {
+	float:left;
+	}
+	
+.section-p {
+	padding-bottom:5px;
+	margin-bottom:10px;
+	border-bottom:2px solid #ccc;
+	}
+
+.section-title {
+	font:2.0em Georgia, "Times New Roman", Times, serif;
+	line-height:100%;
+	display:block;
+	color: #C29704;
+	}
+
+.section-subtitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:1.4em;
+	color: #a37f04;
+	margin:10px 0 10px 0;
+	}
+
+
+.section-title:link, .section-title:active, .section-title:visited { 
+	color: #a37f04; 
+	text-decoration: none;
+	} 
+.section-title:hover { 
+	color: #a37f04; 
+	text-decoration: underline;
+	} 
+
+.section-subtitle:link, .section-subtitle:active, .section-subtitle:visited { 
+	color: #a37f04; 
+	text-decoration: none;
+	} 
+.section-subtitle:hover { 
+	color: #a37f04; 
+	text-decoration: underline;
+	} 
+	
+.section-read-on a { 
+	text-decoration:none;
+	}
+	
+.section-read-on a:hover {color:#666!important;}

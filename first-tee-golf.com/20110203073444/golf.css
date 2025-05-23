@@ -1,0 +1,69 @@
+/* CSS Document */
+
+body {
+	background-color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+ul {margin:0; padding:10px 0px 0px 0px; display:block; }
+li {margin:0; padding:0px; list-style:none;}
+
+	.scroll {
+	filter: Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #960802;
+	}
+	
+	.sidebar {
+	position:absolute;
+	width:244px;
+	height:329px;
+	z-index:1;
+	overflow: auto;
+	visibility: visible;
+	}
+	
+	.main {
+	position:absolute;
+	width:297px;
+	height:388px;
+	z-index:2;
+	overflow: auto;
+	visibility: visible;
+	}
+
+
+body,td,th {
+	font-family: Georgia, "Verdana, Arial, Helvetica, sans-serif";
+	font-size: 11px;
+	color: #000000;
+	}
+
+a:link {  text-decoration: none; color: #960802;}
+a:visited {	text-decoration: none; color: #960802; }
+a:hover { text-decoration: underline; color: #960802; }
+a:active { text-decoration: none; color: #960802; }
+
+a {
+	font-weight: bold;
+}
+
+.style6 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.style7 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #960802;;
+}

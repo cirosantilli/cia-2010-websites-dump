@@ -1,0 +1,62 @@
+
+* {margin: 0px; padding: 0px;}
+body {margin: 0px; padding: 0px; font-family: "Trebuchet MS", Arial;font-size: 12px;  color: #1b1e4c;}
+#wrap {position: relative; width: 1050px; height: 100% auto; margin-left: -425px; left: 50%;}
+#banner {width: 900px; height:225px; float: left;}
+#content {width: 900px; height: 100% auto; margin: 0px; padding: 0px;float: left;}
+#sideads {width: 150px; height: 100% auto; margin:0px 0 0 0; padding: 0; float: right;}
+#framecontainer {width: 510px; height: 100% auto; margin: 0; padding: 0; float: left;}
+
+
+ul{list-style: none; margin: 0px; padding: 0px;}
+li {display: block; color: #1b1e4c; margin: 0px; padding: 0 0 5px 5px; font-size: 11px;}  
+li a{color: #fd8f00; text-decoration: none; margin: 0px; padding: 0px; font-weight: normal;}
+a:hover {text-decoration: underline;}
+
+
+p {padding: 0px 0 0 0px; margin: 0px;}
+h1 { font-size: 1.4em;  margin: 2px 0 5px 5px; color: #1b1e4c;}
+h2 { font-size: 12px;  margin-bottom: 2px; color: #1b1e4c;}
+h3 { color: #317084;font-size: 1.2em;	padding: 2px 5px; margin: 10px 0px 0px 0px;}
+h4 { color: #317084; font-size: 0.9em;background-color: #1b1e4c; padding: 2px 4px; text-align: left;}
+
+img {border: none;}
+
+
+#menu {	width: 150px;margin: 0px; margin: 8px 0 15px 0; padding: 0; float: left;}
+#menu li {padding: 0;}
+#menu a {height: 32px;  height: 24px;text-decoration: none; padding: 0; margin: 0;}	
+#menu a:link, #menu a:visited {color: #FFF;display: block; background:  url('images/menu.gif'); padding: 8px 0 0 10px;}
+#menu a:hover {color: #fd8f00; background:  url('images/menu.gif') 0 -32px; padding: 8px 0 0 10px;}
+#menu a:focus {color: #FFF; background:  url('images/menu.gif') 0 -32px; padding: 8px 0 0 10px;}
+#menu a:active {color: #FFF; background:  url('images/menu.gif') 0 -32px; padding: 8px 0 0 10px;}
+#menu a.current {color: #FFF; background:  url('images/menu.gif') 0 -32px; padding: 8px 0 0 10px;}
+
+#ads ul{margin: 0 10px}
+#ads li{padding: 1px;}
+
+ul#mags, ul#ads {margin: 3px 0 0 15px;}
+#mags li, #ads li {padding: 0 0 8px 0px;}
+
+#one{width: 510px; height: 100% auto; margin: 8px 15px 0 5px ; overflow-x: auto; overflow-y: hidden;float: left; }
+#two{width: 170px; height: 100% auto; margin: 0 0px; padding: 0px; float: left;}
+#three{width: 160px; height: 100% auto; margin: 0 5px; padding: 0px; float: right;}
+
+.brdr left {border: 1px solid #fd8f00; margin: 6px;}
+.floatl {float: left;}
+.floatr	{float: right;}
+
+#footer {clear: both; width: 900px; height: 20px; background:#fd8f00; color: #fff; font-size: 10px; text-align: center;}
+
+.scroll {scrollbar-face-color: #fff; scrollbar-highlight-color: #fff; scrollbar-shadow-color: #fff; scrollbar-3dhighlight-color: #fff; 	scrollbar-arrow-color: #fd8f00; scrollbar-track-color: #fff; scrollbar-darkshadow-color: #fff; }
+
+
+
+.items {margin-top:0px; padding:0.5em; margin-left:0px;color:#1b1e4c;font-family: "Trebuchet MS", Arial;}
+p.title {padding:0 0 0 0.5em;font-family: "Trebuchet MS", Arial;}
+
+.title {color: #1b1e4c;font-weight:bold;}
+
+.item  {list-style:none;padding-bottom:1em;font-family: "Trebuchet MS", Arial;}
+.item a {font-weight:bold;font-family: "Trebuchet MS", Arial;color: #1b1e4c;text-decoration: none;}
+.item a:visited {color: #1b1e4c;font-family: "Trebuchet MS", Arial;}

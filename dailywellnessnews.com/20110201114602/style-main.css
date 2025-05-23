@@ -1,0 +1,166 @@
+/* CSS Document */
+
+body {
+	font-family: Helvetica, Tahoma, Helvetica, Verdana, sans serif;
+	font-size: 11px;
+	color: #555;
+	margin: 0px;
+	padding: 0px;}
+
+#wrap {position:relative;
+     width:1000px; 
+	 height: 100% auto; 
+	 left:50%; 
+	 margin:0px 0px 0px -500px;}
+
+
+h1 {font-size: 12px; font-weight: bold;  color:#444;}
+h2 {font-size: 10px; font-weight: bold;  color:#FFF; padding: 8px 5px 0px 5px; background-color: #96613b;}
+
+
+ul {margin:0; padding:0; display:block; }
+li {margin:0; padding:5px 0px; list-style:none;}
+
+	 
+#maincontent {clear: both;
+	float: left;
+      width:1000px;
+	  height: 100% auto;  
+	  margin:0px; 
+	  padding:0px; 
+	  background: url(images/pg-bkgd.jpg) repeat-y;}
+	  
+#links-col {
+	float:left;
+	width:280px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	background: url(images/col1-bkgd.jpg) repeat-y;
+	/*border-right: 1px solid #999;*/
+	}
+	
+
+	
+ul#links{
+	margin: 0px 0px 0px 48px;
+	padding: 0px;
+	width: 205px;
+	text-align: normal;
+	}
+	
+ul#links li a:link {font-size: 11px; text-decoration:none; font-weight:bold; color:#5a5a5a; }
+ul#links li a:visited {font-size: 11px; text-decoration:none; font-weight:bold; color:#999; }
+ul#links li a:active {font-size: 11px; text-decoration: none; font-weight:bold; color:#3c3b3b;}
+ul#links li a:hover{font-size: 11px; text-decoration:none; font-weight:bold; color:#3c3b3b;}
+
+ul#links li a{padding: 2px 0px 2px 0px;}
+
+
+ul#nav{
+	margin: 15px 0px 0px 25px;
+	padding: 0px;
+	width: 500px;
+	text-align: normal;}
+
+ul#nav li{display: inline; text-align: normal;}
+
+ul#nav li a:link {font-size: 12px; text-decoration:none; font-weight:normal; color:#000; }
+ul#nav li a:visited {font-size: 12px; text-decoration:none; font-weight:normal; color:#000; }
+ul#nav li a:active {font-size: 12px; text-decoration: none; font-weight:normal; color:#000;}
+ul#nav li a:hover{font-size: 12px; text-decoration:underline; font-weight:normal; color:#000;}
+
+ul#nav li a{padding: 2px 5px;}
+
+
+#ext-feeds-col{float: left;
+	width: 541px;
+	height: 100% auto; 
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	/*border-right: 1px solid #999;*/
+	background: url(images/bann-2.jpg) no-repeat;}
+	
+#a-feeds-col{float: left;
+	width: 260px;
+	height: 1350px; 
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #edf5f6;
+	border: 1px solid #669999;
+	/*border-right: 1px solid #999;*/
+	}
+	
+#b-feeds-col{float: right;
+	width: 260px;
+	height: 1350px;  
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #edf5f6;
+	border: 1px solid #669999;
+	}
+	
+ul#feeds li{text-align: normal; padding: 4px 3px 0px 0px;}	
+	
+ul#feeds li a:link {font-size: 11px; text-decoration:none; font-weight:bold; color:#4789a5; }
+ul#feeds li a:visited {font-size: 11px; text-decoration:none; font-weight:bold; color:#555; }
+ul#feeds li a:active {font-size: 11px; text-decoration: none; font-weight:bold; color:#0882b6;}
+ul#feeds li a:hover{font-size: 11px; text-decoration:none; font-weight:bold; color:#0882b6;}
+
+ul#feeds li a{padding: 4px 5px 4px 0px;}
+
+ul#small-col{
+	margin: 8px 0px 0px 6px;
+	padding: 0px 0px 0px 0px;
+	width: 240px;
+	text-align: normal;}
+	
+ul#small-col li a:link {font-size: 11px; text-decoration:none; font-weight:bold; color:#3c3b3b; }
+ul#small-col a:visited {font-size: 11px; text-decoration:none; font-weight:bold; color:#999; }
+ul#small-col a:active {font-size: 11px; text-decoration: none; font-weight:bold; color:#3c3b3b;}
+ul#small-col a:hover{font-size: 11px; text-decoration:none; font-weight:bold; color:#3c3b3b;}
+
+ul#small-col li a{padding: 2px 0px 2px 0px;}
+
+
+
+#ads-col {
+	float:right;
+	width:179px;
+	height: 100% auto;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	}
+	
+ul#ads li{text-align: normal; padding: 2px 0px 5px 6px;}
+	
+#ad-1 {
+	float:right;
+	width:120px;
+	height: 90px; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 59px 12px 0px;
+	}
+	
+#ad-2 {
+	float:right;
+	width:125px;
+	height: 125px; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 54px 12px 0px;
+	}
+	
+#ad-3 {
+	float:right;
+	width:85px;
+	height: 117px; 
+	padding: 0px 0px 0px 0px;
+	margin: 0px 65px 12px 0px;
+	}
+	
+#footer {
+	float:left;
+	width:1000px;
+	height: 85px;  
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin-top: 0px; }
+ul {margin:0;padding:10px 15px 0 0;list-style:none;}
+
+#wrap { float:right; width:900px; height:auto; }
+
+#header { float:left; width:900px; height:216px; }
+
+#col-01 { float:left; width:496px; height:800px; background:url(images/terrain_img_13.jpg) no-repeat; }
+#col-02 { float:left; width:404px; height:800px; background:url(images/terrain_img_14.jpg) left 255px no-repeat; }
+#col-02-links { float:left; width:150px; height:auto; padding: 40px 40px 0 0;}
+*html #col-02-links { float:left; width:200px; height:auto; padding: 40px 40px 0 0;}
+#col-02-links a { color:#167474; text-decoration:none}
+#col-02-links a:hover { color:#82cccc; text-decoration: underline}
+#footer { float:right; width:900px; height:auto; text-align:center; }
+
+#appbox { float:left; width:350px; height:150px; padding: 10px; margin: 75px 0 0 0; text-align:center; }
+
+.feedheader { font: bold 18px "Times New Roman", Times, serif; color:#666; padding: 10px 45px 0 0;}
+#feedbox { float:left; width:430px; height:745px; border: double 3px #82c9c9; margin: 0 0 0 15px; overflow: auto; visibility: visible; }
+#feedbox a{ text-decoration: none; color: #0b5a5a; }
+#feedbox a:visited{ color: #0b5a5a; }
+#feedbox a:hover{ text-decoration: underline; color: #3c9c9c; }
+
+/* ######### CSS for Inverted Modern Bricks II Tabs. ######### */
+
+#flowerdivcontainer {float:left;border-left:5px solid #a3c7c7;border-top:5px solid #a3c7c7;border-right:5px solid #a3c7c7; width:369px; height: 200px; background-color: #f1f2ea; padding: 5px;}
+*html #flowerdivcontainer {float:left;border-left:5px solid #a3c7c7;border-top:5px solid #a3c7c7;border-right:5px solid #a3c7c7; width:389px; height: 200px; background-color: #f1f2ea; padding: 5px;}
+#flowerdivcontainer a { color:#157c7c; text-decoration:none}
+#flowerdivcontainer a:hover { color:#82cccc; text-decoration: underline}
+
+.modernbricksmenu2{float:left;padding: 0;width: 389px;border-top: 5px solid #a3c7c7; /*color theme*/ background: transparent;}
+.modernbricksmenu2 ul{margin:0;margin-left: 10px; /*margin between first menu item and left browser edge*/padding: 0;list-style: none;}
+.modernbricksmenu2 li{display: inline;margin: 0 2px 0 0;padding: 0;text-transform:uppercase;}
+.modernbricksmenu2 a{float: left;display: block;font: bold 11px Arial;color: white;text-decoration: none;margin: 0 1px 0 0; /*Margin between each menu item*/padding: 5px 10px;background-color: black; /*color theme*/ border-top: 1px solid white;}
+.modernbricksmenu2 a:hover{background-color: #a3c7c7; /*color theme*/ color: white;}
+.modernbricksmenu2 a.selected{ /*currently selected tab*/background-color: #a3c7c7; /*color theme*/ color: white;border-color: #a3c7c7; /*color theme*/ }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

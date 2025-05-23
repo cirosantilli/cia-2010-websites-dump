@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0; background:url(images/mar-del-img-bkgd.jpg) repeat-x;}
+p {font: 11px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+b {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#009fd7; line-height:25px; padding: 0;}
+a{ text-decoration: none; color: #4eb800; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover{ text-decoration: none; color: #c0c0c0; }
+ul {font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; }
+hr { color: #e9e9e9; }
+ 
+
+#wrap {float:left; width:975px; height:auto; }
+
+#l-col {float:left; width:269px; height:auto; }
+#col-01 {float:left; width:127px; height:558px; }
+#img-rotation-01 {width:127px; height:83px; background:url(images/mar-del-img_09.jpg) no-repeat; }
+#col-02 {float:left; width:142px; height:558px; }
+#img-rotation-02 {width:142px; height:134px; background:url(images/mar-del-img_23.jpg) no-repeat; }
+#left-info {float:left; width:269px; height:1190px; background:url(images/mar-del-img_27.jpg) 125px 349px #FFF no-repeat; }
+*html #left-info {background:url(images/mar-del-img_27.jpg) 125px 350px #FFF no-repeat; }
+
+
+#r-col {float:left; width:706px; height:auto; }
+#r-header {float:left; width:706px; height:478px; }
+#col-03 {float:left; width:63px; height:478px; }
+#col-04 {float:left; width:195px; height:478px; }
+#nav {float:left; width:195px; height:264px; background:url(images/mar-del-img_16.jpg) no-repeat; }
+#col-05 {float:left; width:448px; height:479px; }
+
+#sub-wrap {float:left; width:706px; height:auto; }
+
+#feed-info-box {float:left; width:706px; height:710px; /*background:url(images/mar-del-img_24.jpg) no-repeat;*/ }
+#feedbox {float:left; width:448px; height:710px;}
+
+.wireframemenu{ width: 100px; margin:105px 15px 0  0; float:right; }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 14px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #000; text-decoration: none;  }
+.wireframemenu a:visited{ color: #000; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ color: #49b200; }
+
+#spaceb0x {float:left; width:63px; height:710px;}
+#spaceb1x {float:left; width:63px; height:600px;}
+#nav-box {float:left; width:195px; height:710px;}
+
+.wireframemenu02{ border: 1px solid #d9d9d9;border-bottom-width: 0; width: 193px; margin:5px 0 0 0; }
+*html .wireframemenu02{ width: 183px;  }
+.wireframemenu02 ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu02 a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #d9d9d9; }
+.wireframemenu02 a:visited{ color: #595959; }
+html>body .wireframemenu02 a{ /*Non IE rule*/ width: auto; }
+.wireframemenu02 a:hover{ background-color: #e6ef70; color: black; }
+
+
+#link-info-box {float:left;width:706px; height:600px; background:url(images/mar-del-img_28.jpg) no-repeat; }
+#box-links {float:left;  width:200px; height:auto; margin:5px 0 0 16px;border: solid 1px #d9d9d9; }
+h3 {font: bold 15px Verdana, Arial, Helvetica, sans-serif; color:#a3d71d; line-height:33px; margin: 0; padding: 2px 5px 5px 10px;  height:auto; width:auto; /*background-color:#3b433a;border-bottom: double 3px #2f422d;*/ }
+h2 {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#a3d71d; line-height:33px; margin: 0; padding: 2px 5px 5px 5px;  height:auto; width:auto; /*background-color:#3b433a;*/border-bottom: 1px solid #d9d9d9; }
+#linkfeed {float:left; width:200px; height: 500px; overflow: auto; visibility: visible; /*border: solid 1px #d9d9d9;*/ margin: 0;}
+#linkfeed ul {list-style: none;margin: 5px 5px 10px 5px;padding: 0;}
+
+#infofeed {width:438px; height:655px; overflow: auto; visibility: visible; /**/border: solid 1px #d9d9d9; margin: 0 0 0 5px;}
+#infofeed ul {list-style: none;margin: 5px 5px 0 5px;padding: 0;}
+h4 {font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#fff; line-height:33px; margin: 0; padding: 5px 5px 5px 85px; height:auto; width:auto; /*background-color:#3b433a;border-bottom: 1px solid #d9d9d9;*/ }
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#fff;
+scrollbar-shadow-color:#fff;
+scrollbar-highlight-color:#fff;
+scrollbar-3dlight-color: #fff;
+scrollbar-darkshadow-color:#fff;
+scrollbar-track-color: #fff;
+scrollbar-arrow-color: #000000; }

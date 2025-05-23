@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0; padding: 0; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;   }
+
+.feed { background-image: url(images/bg-img_05.jpg); background-color: #000; background-repeat: no-repeat	; }
+
+.links { background-image: url(images/bg-img_04.jpg); background-repeat: no-repeat; }
+
+#border { margin: auto; position: relative; padding: 0; width: 800px; border-left: 2px solid black; border-bottom: 2px solid black; border-right: 2px solid black; }
+
+#header { float: left; width: 800px; padding: 0; margin: 0; }
+
+#ad_col { float: left; width: 285px; height: 569px; background-image:url(images/bg-img_03.jpg); margin: 0; padding: 0; }
+
+#ad_col ul { margin: 120px 0 0 15px; padding: 0; }
+
+#ad_col li { list-style: disc; margin-left: 12px; padding: 0; font-size: 12px; }
+
+.ads { margin: 5px 5px 5px 15px; padding: 0; }
+
+#ad_col img { border: none; }
+
+#link_col { float: left; width: 302px; height: 600px; margin: 0; padding: 0; }
+
+#show_links ul, #show_feed ul { margin: 0; padding: 0; }
+
+#show_links li { list-style: square; margin: 5px; padding: 0; font-size: 12px; color: #006; }
+
+#show_links a:link, #show_links a:visited, #ad_col a:link, #ad_col a:visited { text-decoration: none; font-weight: bold; color: #1c3a5c; }
+
+#show_links a:hover, #ad_col a:hover { color: #b32e25; }
+
+#feed_col { float: left; width: 213px; height: 569px; margin: 0; padding: 0; background-color: #fdbb5a; }
+
+#show_links { margin: 105px 5px 5px 15px; }
+
+#show_feed { margin: 50px 5px 5px 15px; }
+
+#show_feed li { list-style: none; margin: 5px 8px 5px 5px; padding: 0; font-size: 12px; color: #006; }
+
+#show_feed a:link, #show_feed a:visited { text-decoration: none; color: #1c3a5c; }
+
+#show_feed a:hover { color: #b32e25; }
+
+#show_feed img { border: none; margin: 5px; padding: 0; }
+
+#clear { clear:both; }
+
+#footer { width: 800px; height: 25px; text-align: center; padding: 0; margin: 0; font-size: 10px; }
+
+h3 { font-size: 14px; margin: 5px; color: #b32e25; font-weight: bold;  }

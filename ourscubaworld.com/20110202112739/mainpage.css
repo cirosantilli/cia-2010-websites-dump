@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #0D3260;
+	margin-top: 0px;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 11pt;
+	font-family: "Times New Roman", Arial, Times;
+	font-weight: bold;
+}
+#tabs2 {
+      float:left;
+      width:100%;
+      font-size:93%;
+      line-height:normal;
+}
+#tabs2 ul {
+	  margin:0;
+	  padding:0px 0px 0 25px;
+	  list-style:none;
+}
+#tabs2 li {
+      display:inline;
+      margin:0;
+      padding:0;
+}
+#tabs2 a {
+      float:left;
+      margin:0;
+      padding:0 0 0 0px;
+      background:url("images/tableft10.gif") no-repeat left top;
+      text-decoration:none;
+	  font-family: OldCentury;
+	  /*font:bold;*/
+	  font-size:13px;
+}
+#tabs2 a span {
+      float:left;
+      display:block;
+      background:url("images/tabright10.gif") no-repeat right top;
+      padding:7px 12px 7px 6px;
+	  color:#ffffff;
+	  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+#tabs2 a span {
+	  float:none;
+}
+#tabs2 a:hover span {
+      color:#47a5d6;
+}
+#tabs2 a:hover {
+      background-position:0% -42px;
+}
+#tabs2 a:hover span {
+      background-position:100% -42px;
+}

@@ -1,0 +1,77 @@
+/* CSS Document */
+
+body {
+	background-color:#000000;
+	margin:0px 0px 0px 0px;
+}
+
+.main_left {
+	position:absolute;
+	scrollbar-face-color:#99b350;
+	scrollbar-shadow-color:#99b350;
+	scrollbar-highlight-color:#99b350;
+	scrollbar-3dlight-color:#99b350;
+	scrollbar-darkshadow-color:#99b350;
+	scrollbar-track-color:#99b350;
+	scrollbar-arrow-color:#000;
+	width:236px;
+	height:153px;
+	overflow:auto;
+	}
+		
+.main_middle {
+	position:absolute;
+	scrollbar-face-color:#2ba0cc;
+	scrollbar-shadow-color:#2ba0cc;
+	scrollbar-highlight-color:#2ba0cc;
+	scrollbar-3dlight-color:#2ba0cc;
+	scrollbar-darkshadow-color:#2ba0cc;
+	scrollbar-track-color:#2ba0cc;
+	scrollbar-arrow-color:#000;
+	width:236px;
+	height:305px;
+	overflow:auto;
+	}
+	
+.main_right {
+	position:absolute;
+	scrollbar-face-color:#ccba00;
+	scrollbar-shadow-color:#ccba00;
+	scrollbar-highlight-color:#ccba00;
+	scrollbar-3dlight-color:#ccba00;
+	scrollbar-darkshadow-color:#ccba00;
+	scrollbar-track-color:#ccba00;
+	scrollbar-arrow-color:#000;
+	width:126px;
+	height:345px;
+	overflow:auto;
+	}
+	
+.main_right li  {
+	color:#000; /*black*/
+	text-decoration: none;
+	font-weight: normal;}
+	
+.main_right li a {color:#0186b7; text-decoration: none;	font-weight: bold; }
+.main_right li a:visited {color:#0186b7; text-decoration: none;	font-weight: bold; }	
+.main_right li a:hover {color:#0186b7; text-decoration: underline; font-weight: bold; }
+.main_right li a:active {color:#0186b7; text-decoration: none;	font-weight: bold;}	
+
+
+body,td,th {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#fff;
+	}
+
+ul	{margin: 0;	padding: 0;	display: block;	}
+li	{list-style: none; padding: 5px 0px; }
+
+a:link {  text-decoration:none; font-weight:bold; color:#ffe800; }
+a:visited {	text-decoration:none; font-weight:bold; color:#ffe800; }
+a:hover { text-decoration:underline; font-weight:bold; color:#ffe800;}
+a:active { text-decoration: none; font-weight:bold; color:#ffe800;}
+
+.style1 {
+	font-size:11px; font-weight:bold; color:#fff;
+}

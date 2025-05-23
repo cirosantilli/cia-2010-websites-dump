@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: #000; 
+}
+
+ul {margin:0; padding:0; display:block; border:0px}
+li {margin:0; padding:4px 10px 4px 0px; list-style:none; border:0px;} 
+
+a:link {  text-decoration:none; font-weight:bold; color:#990000; }
+a:visited { text-decoration:none; font-weight:bold; color:#990000; }
+a:hover { text-decoration:underline; font-weight:bold; color:#990000;}
+a:active { text-decoration: none; font-weight:bold;	color:#990000;}
+
+ul#gold {margin:0; padding:0; display:block; border:0px}
+li#gold {margin:0; padding:9px 10px 0px 10px; list-style:none; border:0px;} 
+
+ul#gold a:link {  text-decoration:none; font-weight:bold; color:#cc9900; }
+ul#gold a:visited {	text-decoration:none; font-weight:bold; color:#cc9900; }
+ul#gold a:hover { text-decoration:underline; font-weight:bold; color:#cc9900;}
+ul#gold a:active { text-decoration: none; font-weight:bold;	color:#cc9900;}
+
+ul#blue {margin:0; padding:0; display:block; border:0px}
+li#blue {margin:0; padding:4px 10px 4px 0px; list-style:none; border:0px;} 
+
+ul#blue a:link {  text-decoration:none; font-weight:bold; color:#164b87; }
+ul#blue a:visited {	text-decoration:none; font-weight:bold; color:#164b87; }
+ul#blue a:hover { text-decoration:underline; font-weight:bold; color:#164b87;}
+ul#blue a:active { text-decoration: none; font-weight:bold;	color:#164b87;}
+
+ul#logos {margin:0; padding:0; display:block; border:0px}
+li#logos {margin:0; padding:6px 10px 5px 10px; list-style:none; border:0px;} 
+li#logos2 {margin:0; padding:0px 10px 5px 10px; list-style:none; border:0px;} 
+
+ul#nav {list-style:none; margin:0px; padding:0px 10px 0px 10px; text-align:right; text-transform: uppercase;}
+
+li#nav {border-bottom: 1px solid #999999; padding:4px 0px 4px 0px;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#nav a:link {  text-decoration:none; font-weight:normal; color:#fff; }
+ul#nav a:visited { text-decoration:none; font-weight:normal; color:#fff; }
+ul#nav a:hover { text-decoration:none;  font-weight:normal; color:#99ccff;}
+ul#nav a:active { text-decoration: none; font-weight:normal; color:#fff;}
+
+ul#xchng {list-style:none; margin:0px; padding:0px 10px 0px 10px; text-align:right; text-transform: uppercase;}
+
+li#xchng {border-bottom: 1px solid #999999; padding:4px 0px 4px 0px;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+ul#xchng a:link {  text-decoration:none; font-weight:normal; color:#fff; }
+ul#xchng a:visited { text-decoration:none; font-weight:normal; color:#fff; }
+ul#xchng a:hover { text-decoration:none;  font-weight:normal; color:#99ccff;}
+ul#xchng a:active { text-decoration: none; font-weight:normal; color:#fff;}
+
+h1 {font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: .2em; margin: 0px; padding: 0px; color:#000; width: auto;}
+
+h2 {font-size: 10px; font-weight: bold; text-transform: uppercase; text-align:right; margin: 0px 10px 0px 10px; padding: 3px 3px; color:#fff; background-color: #cc9900; width: auto;}
+
+img {
+border:0;
+}
+
+#wrap {
+     width:949px; 
+	 height: 1235px;
+	 margin: 0 auto; 
+	 text-align: left;
+	 	 }
+	 
+#maincontent {
+      float:left; 
+	  width:949px;
+	  height:1184px;
+	  margin:0px; 
+	  padding:0px;
+	  background: #fff; }
+	    
+
+#left_bar {
+	float:left;
+	width:194px;
+	height:1184px;
+	padding:0px;
+	margin:0px;
+	background: #22324b;
+	}
+	
+#left_bar_top {
+	float:left;
+	width:194px;
+	height:563px;
+	padding:0px;
+	margin:0px;
+	}
+	
+#left_bar_bottom {
+	float:left;
+	width:194px;
+	height:427px;
+	padding:0px;
+	margin:0px;
+	}	
+	
+#images {
+	float:left;
+	width:174px;
+	height:173px;
+	padding:0px;
+	margin:10px;
+	}
+	
+
+#banner {
+     float:left;
+	 width:755px;
+	 height:357px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+#content_box {
+	float:left;
+	width:755px;
+	height:827px;
+	margin:0px;
+	padding:0px;
+}
+
+#iframe_container {
+	float:left;
+	width:755px;
+	height:767px;
+	margin:0px;
+	padding:0px;
+}
+
+#logo_box {
+	float:left;
+	width:755px;
+	height:60px;
+	padding:0px;
+	margin: 0px;
+}
+	  
+	  
+#middle_content {
+	float:left;
+	width: 745px;
+	height:747px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+#middle_left {
+	float:left;
+	width: 236px;
+	height:747px;
+	padding: 0px;
+	margin: 0px 10px 0px 10px;
+}
+
+#middle_left_top {
+	float:left;
+	width: 236px;
+	height:196px;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+#middle_left_center {
+	float:left;
+	width: 234px;
+	height:279px;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #22324b;
+}
+
+#middle_left_center1 {
+	float: left;
+	width:234px;
+	height:135px;
+	padding:0px;
+	margin:0px;
+}
+
+#middle_left_center2 {
+	float: left;
+	width:234px;
+	height:144px;
+	padding:0px;
+	margin:0px;
+}
+
+#middle_left_bottom {
+	float:left;
+	width: 236px;
+	height:255px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+#middle_center {
+	float:left;
+	width: 240px;
+	height:747px;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	background-color:#fff;
+	overflow:auto;
+	}
+	
+#middle_right{	
+	float:left;
+	width: 239px;
+	height: 747px;
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+	}
+	
+#middle_right_top{	
+	float:left;
+	width: 237px;
+	height: 194px;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #990000;
+	}
+	
+#middle_right_top1{	
+	float:left;
+	width: 125px;
+	height: 194px;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#top{
+	width: 125px;
+	height: 145px;
+	padding: 0px;
+	margin: 0px;
+	}
+#bottom{
+	width: 125px;
+	height: 49px;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+#middle_right_top2{	
+	float:left;
+	width: 112px;
+	height: 194px;
+	padding: 0px;
+	margin: 0px;
+	}	
+
+#middle_right_bottom{	
+	float:left;
+	width: 239px;
+	height: 541px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+	background-color:#fff;
+	overflow:auto;
+	}
+	
+.scroll {
+	filter: Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #990000;
+	}
+
+.image {
+float: left;
+margin:0px 10px 0px 10px;
+padding: 0px;
+}
+
+.image2 {
+float: left;
+margin:10px;
+padding: 0px;
+}
+
+.image3 {
+float: left;
+margin:0px;
+padding: 0px;
+}

@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: #000; 
+}
+
+ul {margin:0; padding:0; display:block; border:0px}
+li {margin:0; padding:4px 10px 4px 10px; list-style:none; border:0px;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+a:link {  text-decoration:none; font-weight:bold; color:#336699; }
+a:visited {	text-decoration:none; font-weight:bold; color:#336699; }
+a:hover { text-decoration:underline; font-weight:bold; color:#336699;}
+a:active { text-decoration: none; font-weight:bold;	color:#336699;}
+
+ul#logos1 {margin:0; padding:0; display:block; border:0px}
+li#logos1 {margin:0; padding:10px 0px 10px 10px; list-style:none; border:0px;} /*Always put at the begining of the css to eliminate the bullets.*/
+
+h1 {font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: .2em; margin: 0px; padding: 0px; color:#000; width: auto;}
+
+img {
+border:0;
+}
+
+/* defines the size of the website.*/
+#wrap {
+     width:800px; 
+	 height: 930px;
+	 margin: 0 auto; 
+	 text-align: left;
+	 background: #fff;
+	 	 }
+	 
+ /* defines the size of the banner*/
+#topbanner {
+     width:800px;
+	 height:237px; 
+	 margin:0px; 
+	 padding:0px; 
+	 display:inline; }
+	 
+/* defines the size of the main content below the banner*/
+#maincontent {
+      float:left; 
+	  width:800px;
+	  height:auto;
+	  margin:0px; 
+	  padding:0px;
+	  background: #fff; }
+	  
+/* defines the size of the container box*/
+#container {
+      float:left; 
+	  width:800px;
+	  height:22px;
+	  margin:2px 0px 2px 0px; 
+	  padding:8px 0px 0px 0px;
+	  border-top: 1px solid #336699;
+	  border-bottom: 1px solid #336699;
+ }	
+ 
+ #content_wrap {
+	 float:left;
+	 width:800px;
+	 height:525px;
+	 padding:0px;
+	 margin:0px;
+ }
+	  
+/* defines the size of the left bar*/
+#left_bar {
+	float:left;
+	width:169px;
+	height:525px;
+	padding:0px;
+	margin:0px;
+	border-right: 1px solid #336699;
+	}
+
+iframe_container {
+	float:left;
+	width:626px;
+	height:525px;
+	padding:0px;
+	margin:0px;
+}
+	  
+/* content_box defines the size of the main content below the banner*/
+#content_box {
+      float:left; 
+	  width:626px;
+	  height:525px;
+	  margin:0px; 
+	  padding:0px;
+	  overflow:auto;
+	  }
+	  
+#content_box_left {
+      float:left; 
+	  width:300px;
+	  height:auto;
+	  margin:0px; 
+	  padding:0px;
+	  }
+
+#content_box_middle {
+      float:left; 
+	  width:300px;
+	  height:auto;
+	  margin:0px; 
+	  padding:0px;
+	  border-left: 1px solid #336699;
+	  }
+#content_box_middle img {padding: 0px 5px 0px 0px;}
+	  
+
+#bottom {
+	clear:both;
+	width:800px;
+	height:134px;
+	padding:0px;
+	margin: 0px;
+}
+	
+.scroll {
+	filter: Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color: #123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color: #123456;
+	scrollbar-arrow-color: #336699;
+	}
+
+.image {
+float: left;
+margin-right:7px;
+padding: 0px;
+}
+
+.image2 {
+float: right;
+margin-left: 5px;
+margin-top: 0px;
+padding: 0px;
+}
+
+.rss-items {margin:-10px; padding:0px;}
+
+
+

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document for international news in urdu*/
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; margin: 0px;
+	padding: 0; color: #000; background-color:#333;}
+
+img {border: none; margin: 0; padding: 0;}
+
+h1 {font-size: 18px; font-weight: bold; margin: 0 0 0 15px; text-align: left; padding-bottom:10px; color:#e54e0a;}
+
+ul {margin:0; padding:0; display:block; border:0px}
+li {margin:0; padding:5px 5px 5px 5px; list-style:none; border:0px;}
+li.content {margin:0px; padding:3px 2px 5px 5px; list-style:none; border-bottom: 1px dotted #F93;}
+
+a:link {  text-decoration:none; font-weight:bold; color:#b6c401; }
+a:visited {	text-decoration:none; font-weight:bold; color:#b6c401; }
+a:hover {color: #e54e0a;}
+a:active { text-decoration: none; font-weight:bold;	color:#b6c401;}
+
+#wrappage {width:900px; height:100% auto; margin:0; padding:0; text-align:left;
+ 	 position:relative; left:50%; margin-left:-450px;}
+	 
+#wrapbanner {width:900px; height:237px; margin:0; padding:0; float: left;}
+
+#main_content {width:900px; height:auto; margin:0px; float: left; background-color: #FFF;}
+#column_1{width: 688px;	height: 550px; margin: 0; float:left;}
+#wrap_nav{width:212px; height:auto; margin:0; float: left;}
+#right_content_top {width: 198px; height: auto;	margin: 0 12px 0 0;	border:1px solid #CCC;
+float:left;	background-color:#B7C202;} 
+#navigation {width: 180px; font-family: Arial, Helvetica, sans-serif; font-size:14px;
+	margin-left:15px;}
+#navigation ul {list-style: none; margin: 0; padding: 0;}
+#navigation li {border-bottom: 1px solid #FFF;}
+#navigation li a:link, #navigation li a:visited  {display: block; padding: 5px 5px 5px 30px;
+	border-right: 12px solid #e2ead3; color: #FFFFFF; text-decoration: none;}
+#navigation li a:hover {background-color: #FFF;	color: #000;}
+#wrap_applet {width:200px; height:80px; margin:10px 0 0 0; float:left;}
+#login { width:182px; height:auto; margin:10px 0 0 10px; padding:0; float:left;}
+#wrap_logos {width:200px; height:auto; margin:5px 0 0 0; float:left;}
+
+#subpages{width:688px; height:600px; margin:0; float:left; background-color:#FFF;}
+#news_left {width:390px; height:565px; margin:0 0 0 10px; float: left; overflow:auto;}
+#news_right{width:262px; height:565px; margin:0 10px 0 15px; float: left; overflow:auto; border-left:1px dotted #CCC;}
+
+#footer { width:900px; height:30px; padding-top:15px; float:left; font-size:12px; color:#e54e0a; background-color:#FFF; text-align:center; position:relative;}
+	
+.scroll {scrollbar-face-color: #FFF; scrollbar-shadow-color: #FFF; scrollbar-highlight-color: #FFF; scrollbar-3dlight-color: #FFF; scrollbar-darkshadow-color:#FFF; scrollbar-track-color:#FFF;scrollbar-arrow-color:#e54e0a; background-color: #FFF;}

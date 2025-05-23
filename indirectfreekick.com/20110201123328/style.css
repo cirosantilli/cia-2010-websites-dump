@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0 auto; padding:0; }
+.bkgd-h {background:url(images/ifk-img-bkgd.jpg) repeat-x;}
+.bkgd-f {background:url(images/ifk-img-feedbkgd.jpg) no-repeat;}
+p { font: 11px Arial, Helvetica, sans-serif; color:#000000; }
+b { font: bold 10px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0; }
+a { text-decoration: none; color: #009fd7; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+a:hover { text-decoration: none; color: #c0c0c0; }
+ul { font: 11px Verdana, Arial, Helvetica, sans-serif; list-style: none; padding: 0; margin: 10px; line-height:12px; }
+hr { color: #fff; }
+
+#wrap { width:975px; margin:0 auto; overflow:auto; }
+
+#left-head { width:349px; height:107px; background:url(images/ifk-img_01.jpg) no-repeat; }
+#middle-head { width:301px; height:107px; background:url(images/ifk-img_02.jpg) no-repeat; }
+#right-head { width:325px; height:107px; background:url(images/ifk-img_03.jpg) no-repeat; }
+
+#header-top { width:975px; height:auto; }
+#infowrap { width:975px; height:auto; margin:0 auto; overflow:auto; background:url(images/ifk-img_07.jpg) no-repeat; }
+
+#left-c {width:354px;}
+#middle-c {width:465px;}
+#right-c {width:155px;}
+.fl {float:left;}
+
+#col {width:177px;}
+b, ul { color:#fff; }
+
+#links {width:173px;}
+.ifk-pos {background:#000; border: solid 1px #ccc;float:left;}
+.ifk-mir {margin:3px 0 0 4px}
+.ifk-mir1 {margin-top:3px}
+.ifk-mir2 {margin:3px 0 0 4px}
+#tick {width:130px; height:63px; margin:10px 0 10px 20px;}
+#adslogo { width: 150px; margin: 25px 0 0 3px; border:solid 1px #666; background:#000; }
+#adslogo img { width: 120px; margin: 10px 0 10px 15px; }
+.ifkad { width: 150px; height:563px; margin: 25px 0 0 3px;  }
+
+h5 { font: bold 13px Verdana, Arial, Helvetica, sans-serif; color:#000; line-height:25px; padding: 0 0 0 10px; }
+#middle-feed {width:465px; height:2265px;}
+
+#footer { width:975px; height:auto; margin:0 auto; overflow:auto; }
+#footer-links { width:237px; height:250px;}
+
+.wireframemenu{ width: 150px; margin: 100px 0 0 3px; }
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 11px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{  color: #009fd7; }
+
+.linkscroll { filter: Chroma(Color=#123456); overflow: auto; scrollbar-face-color:#123456; scrollbar-shadow-color: #123456; scrollbar-highlight-color: #123456; scrollbar-3dlight-color: #123456; scrollbar-darkshadow-color: #123456; scrollbar-track-color: #123456; scrollbar-arrow-color: #000000; }

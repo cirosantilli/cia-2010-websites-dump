@@ -1,0 +1,67 @@
+/* CSS Document */
+
+body {  background-color: #6C543A; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 0px; padding: 0px; text-align: left;}
+
+h1 {font-size: 11px; font-weight: bold; color:#67a193;}
+h2 {font-size: 10px; font-weight: bold; color:#fff; background-color: #b65c2e; width: 220px;}
+h3 {font-size: 10px; font-weight: bold; color:#fff; background-color: #423a31; width: 225px;}
+
+
+ul	
+{	margin: 0;    
+	padding: 0;}
+
+li
+{	list-style: none;
+	display: block;
+	margin: 0px;
+	padding: 3px 0px;
+	color:#8c9e9e;  
+	font-size: 10px;  
+	text-decoration: none;} 
+
+a 
+{	font-size: 10px;  
+	color:#94790d; 
+	font-weight: bold;
+	text-decoration: none; }
+	
+a:hover 
+{	text-decoration: underline;
+	color:#cc6633; 
+	font-size: 10px; }
+
+.imgback
+{   background: url(images/text_02.jpg) no-repeat; }
+
+	
+.scroll
+{	scrollbar-face-color:#160f03;
+	scrollbar-shadow-color:#160f03;
+	scrollbar-highlight-color:#160f03;
+	scrollbar-3dlight-color:#160f03;
+	scrollbar-darkshadow-color:#160f03;
+	scrollbar-track-color:#160f03;
+	scrollbar-arrow-color:#a28402;}
+
+#news, #news2,  #sports, #sports2,  #entertainment, #entertainment2,  #lifestyle, #liftstyle2, , #guides, #guides2, #world, #poetry, #poetry2, #music, #music2,
+{	width: 100% auto;
+	height: 536px; 
+	overflow: auto; }
+#main_content{float: left; margin: 0px; padding width: 515px; height: 541px;}
+	
+.col1
+{ float: left;
+  width: 255px;
+  height:100% auto; 
+  }
+
+.col2 
+{ float: right;
+  width: 255px;
+  height:100% auto;
+  border-left:1px solid #94790d; padding: 0px 8px; margin-bottom: 10px;
+   }
+
+
+

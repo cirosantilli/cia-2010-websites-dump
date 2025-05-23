@@ -1,0 +1,214 @@
+.link {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, sans-serif
+}
+.navlink {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, sans-serif
+}
+.navlink02 {
+	FONT-SIZE: 9px;
+	FONT-FAMILY: verdana, arial, sans-serif;
+	color: #FFFFFF;
+}
+.head {
+	FONT-SIZE: 10px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	color: #666633;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.title {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.tiny {
+	FONT-SIZE: 10px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+}
+.medium {
+	FONT-SIZE: 11px; FONT-FAMILY: arial, verdana, sans-serif
+}
+.large {
+	FONT-SIZE: 12px; FONT-FAMILY: arial, verdana, sans-serif
+}
+.small {
+	FONT-SIZE: 10px; FONT-FAMILY: arial, verdana, sans-serif
+}
+.serif {
+	FONT-SIZE: 11px; FONT-FAMILY: times new roman, times, serif
+}
+.seriflg {
+	FONT-SIZE: 12px; FONT-FAMILY: times new roman, times, serif
+}
+.arrow {
+	FONT-SIZE: 9px; FONT-FAMILY: verdana, arial, sans-serif
+}
+.smallcaps {
+	FONT-SIZE: 11px; FONT-FAMILY: arial, verdana, sans-serif; FONT-VARIANT: small-caps
+}
+A:link {
+	COLOR: #069
+}
+A:visited {
+	COLOR: #666
+}
+A:hover {
+	COLOR: #f90; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #09c; TEXT-DECORATION: none
+}
+A.link:link {
+	TEXT-DECORATION: none;
+	color: #0000FF;
+}
+A.link:visited {
+	TEXT-DECORATION: none;
+	color: #0000FF;
+}
+A.link:hover {
+	TEXT-DECORATION: underline;
+	color: #333333;
+}
+A.img:link {
+	TEXT-DECORATION: none
+}
+A.img:visited {
+	TEXT-DECORATION: none
+}
+A.img:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.arrow:link {
+	TEXT-DECORATION: none
+}
+A.arrow:visited {
+	TEXT-DECORATION: none
+}
+A.arrow:hover {
+	TEXT-DECORATION: underline
+}
+A.tiny:link {
+	TEXT-DECORATION: none
+}
+A.tiny:visited {
+	TEXT-DECORATION: none
+}
+A.tiny:hover {
+	TEXT-DECORATION: underline
+}
+A.navlink:link {
+	TEXT-DECORATION: none;
+	color: #333333;
+}
+A.navlink:visited {
+	TEXT-DECORATION: none;
+	color: #333333;
+}
+A.navlink:hover {
+	TEXT-DECORATION: underline;
+	color: #0000FF;
+}
+
+A.navlink02:link {
+	TEXT-DECORATION: none;
+	color: #FFFFFF;
+}
+A.navlink02:visited {
+	TEXT-DECORATION: none;
+	color: #FFFFFF;
+}
+A.navlink02:hover {
+	color: #000000;
+}
+
+A.large:link {
+	TEXT-DECORATION: none
+}
+A.large:visited {
+	TEXT-DECORATION: none
+}
+A.large:hover {
+	TEXT-DECORATION: underline
+}
+A.medium:link {
+	TEXT-DECORATION: none
+}
+A.medium:visited {
+	TEXT-DECORATION: none
+}
+A.medium:hover {
+	TEXT-DECORATION: underline
+}
+A.crime:link {
+	COLOR: #ffcc33; TEXT-DECORATION: none
+}
+A.crime:visited {
+	COLOR: #ffcc33; TEXT-DECORATION: none
+}
+A.crime:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.small:link {
+	TEXT-DECORATION: none
+}
+A.small:visited {
+	TEXT-DECORATION: none
+}
+A.small:hover {
+	TEXT-DECORATION: underline
+}
+#mostPopularArticles {
+	BACKGROUND: #eeeeee; WIDTH: 130px
+}
+#mostPopularArticles UL {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: inside; MARGIN-BOTTOM: -2px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; COLOR: #006699; PADDING-TOP: 0px; LIST-STYLE-TYPE: decimal
+}
+#mostPopularArticles LI {
+	PADDING-BOTTOM: 5px; FONT: 10px arial; PADDING-TOP: 5px; BORDER-BOTTOM: #fff 1px solid
+}
+#mostPopularArticles A {
+	MARGIN-LEFT: -5px; COLOR: #006699; TEXT-DECORATION: none
+}
+#mostPopularArticles A:hover {
+	COLOR: #006699; TEXT-DECORATION: underline
+}
+#fourthcolumn160x600 {
+	LEFT: 890px; WIDTH: 160px; POSITION: absolute; TOP: 235px
+}
+#fourthcolumn160x600 .adtext {
+	WIDTH: 160px; TEXT-ALIGN: center
+}
+FORM#swickiSearchForm {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial, san-serif
+}
+.search {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: #000; PADDING-BOTTOM: 10px; PADDING-TOP: 5px
+}
+.searchFormInputs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 130px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 500px; PADDING-TOP: 10px
+}
+.searchInput {
+	FONT-SIZE: 1.1em; WIDTH: 270px; COLOR: #333
+}
+.swickiSearchBtn {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BACKGROUND: url(http://sandbox.eureksterdemo.com/images/btn_search.gif) no-repeat center top; MARGIN-LEFT: 10px; BORDER-LEFT: medium none; WIDTH: 80px; CURSOR: hand; COLOR: #fff; TEXT-INDENT: -1000em; BORDER-BOTTOM: medium none; FONT-FAMILY: arial, san-serif; HEIGHT: 20px; FONT-VARIANT: small-caps
+}
+.communityPowered {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; FONT-SIZE: 0.6em; PADDING-BOTTOM: 0px! important; MARGIN-LEFT: 0em; OVERFLOW: visible; COLOR: #c60; PADDING-TOP: 15px; FONT-FAMILY: arial; line-spacing: .1em
+}
+.includeWebResults {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 130px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 1px
+}
+.includeWebResults LABEL {
+	FONT-SIZE: 0.6em; MARGIN: 0px 0px 0px 5px; COLOR: #666
+}
+#gallery160x600 {
+	LEFT: 770px; WIDTH: 160px; POSITION: absolute; TOP: 122px
+}
+.slideshowButton {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 8px
+}

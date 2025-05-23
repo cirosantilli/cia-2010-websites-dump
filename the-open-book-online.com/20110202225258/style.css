@@ -1,0 +1,69 @@
+
+body {margin: 0px;padding: 0px;background:url(images/bg.gif);font-family:Georgia, "Times New Roman", Times, serif;font-size:12px;color: #000;}
+
+h1, h2, h3 {margin-top: 0px;font-weight: normal;color: #FFFFFF;}
+h1 {font-size: 2.4em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.4em;}
+p, ol, ul {line-height:120%;}
+
+#navbgwrap {width:100%;height:1500px;background:url(images/navbg.jpg) repeat-x top;}
+#backgroundwrap {width:1264px;}
+#leftside {float:left;width:259px;background:url(images/design_) no-repeat;}
+#logotop {width:259px;height:43px;background:url(images/design_01.jpg);}
+#logobottom {width:259px;height:109px;}
+#leftsidecontent {float:left;width:259px;height:881px;background:url(images/design_07.jpg) no-repeat;}
+
+#wrapper {float:left;width:741px;height:900px;background:url(images/navbg.jpg)repeat-x top;}
+
+#farright {float:left;width:275;margin-top:43px;}
+
+/* TOP NAVIGATION */
+#topnav {width:741px;padding:13px 0 5px 0;font-size:12px;background:url(images/design_02.jpg) no-repeat;height:25px;}
+#topnav ul {margin:0;white-space:nowrap;}
+#topnav li {display: inline;list-style-type:none;margin:0;padding:6px;}
+#topnav li a:link, #topnav li a:visited  {padding: 5px 9px;color:#e7d394;text-align:center;font-weight:bold;}
+#topnav li a:hover{padding: 4px 8px;color:#c58d42;/*text-decoration:underline;*/border:1px dashed #ca8531;font-weight:bold;/*background-color:#00cc33;*/}
+ 
+/* Page */
+#page {width: 916x;margin: 0 auto;padding: 0 0px 0px 0px;background: url(images/sidebarborder.gif) repeat-y left;/*border:2px solid #FFF;*/}
+#header {float:left;background:url(images/test.jpg);width: 920px;height: 196px;}
+
+#contenttop {float:left;width:741px;}
+#content {float:left;width:498px;height:881px;background:url(images/design_08.jpg);}
+
+#feedholder {width:390px;height:600px;margin:260px 0 0 90px;/*margin:250px 10px 0 80px;*/
+/* for IE */
+/*filter:alpha(opacity=90);filter: “alpha(opacity=50)”;*/
+/* CSS3 standard *//*opacity:0.9;*/}
+
+#rightside {float:left;width:242px;height:881px;background:url(images/design_09.jpg);}
+#rightside ul {padding:0 50px 5px 0;margin: 0px;list-style: none;font-size:85%;}
+#rightside ul li {padding:0 0 8px 0;}
+#rightside a {font-weight:bold;color:#741902;text-decoration: underline;}
+#rightside a:hover, #rightside a:visited  {color:#FFF;text-decoration: underline;}
+
+/* Sidebar */
+#sidebar {float:left;padding:95px 15px 0 60px;}
+#sidebar ul {padding: 0px 0 3px 0;margin: 0px;list-style: none;font-size:85%;}
+#sidebar ul li {/*line-height: 30px*/;padding:0 0 8px 13px;}
+#sidebar a {font-weight:bold;color:#4e463e;text-decoration: underline;}
+#sidebar a:hover, #sidebar a:visited {color:#FFF;text-decoration: underline;}
+
+/* Footer */
+#footer {clear: both;width: 1000px;padding:30px 0 0 0;color: #000;background:url(images/footer.jpg) no-repeat top;}
+#footer p {margin: 0px;padding: 19px 0px 0px 0px;text-align: center;line-height: normal;font-size:10px;}
+#footer a {color: #000;}
+
+/*BOTTOMNAV*/
+
+#bottomnav-content {float:right;width:615px;margin:8px 30px 8px 0;text-align:center;}
+#divider {float:left;width:8px;/*background-image:url(img/footerdivider.gif) no-repeat center;*/padding:0 2px 0 2px;}
+#bottomnavbox {width:150px; height:100px; float:left;border-right:1px solid #999;}
+#bottomnav a {color:#999;}
+#bottomnav a:hover {text-decoration:underline;}
+.bottomnavheader {width:150px; font-family:Georgia, "Times New Roman", Times, serif;font-weight:bold;font-size:12px;color: #CCC; padding:3px 0 6px 0; margin:0;}
+#smallstuff {float:left;width:1000px;font-size:.85em;text-align:center;margin:4px 0 0 0;padding:3px 0 3px 0;color: #CCC;}
+#smallstuff a {color:#CCC;}
+#smallstuff a:hover {color:#FFCC00;text-decoration:underline;}
+

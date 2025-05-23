@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*Purlicue News CSS Document */
+body { margin-left: 0px; margin-top: 0px; }
+p { font: Verdana, Arial, Helvetica, sans-serif 12px; color: #000000; }
+b { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #2c7b9c; }
+
+
+#wrap { float: left; width: 975px; height: auto 100%; background: url(images/purlicue_img_bkgd.jpg) repeat-y; }
+#header { float: left; width: 975px; height: 108px; }
+#bar01 { float: left; width: 224px; height: 1350px; background: url(images/purlicue_img_06.jpg) top no-repeat; }
+#bar02 { float: left; width: 302px; height: 1350px; background: url(images/purlicue_img_07.jpg) top no-repeat; }
+#bar03 { float: left; width: 194px; height: 1350px; background: url(images/purlicue_img_08.jpg) top no-repeat; }
+#bar04 { float: left; width: 255px; height: 1350px; background: url(images/purlicue_img_11.jpg) bottom no-repeat; }
+#footer { float: left; width: 975px; height: 150px; background: url(images/purlicue_img_12.jpg) top no-repeat; }
+#feedbar { float: left; width: 302px; height: 1350px; background: url(images/purlicue_img_07.jpg) top no-repeat fixed; }
+#links { float: left; width: 174px; height: 1200px; padding: 10px; margin-top: 35px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000;  }
+#links2 { float: left; width: 174px; height: 1200px; padding: 10px; margin-top: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000;  }
+#imglinks { float: left; width: 184px; height: 1200px; padding: 10px; margin-top: 35px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000;  }
+#appbox { float: left; width: 840px; height: 30px; margin-left: 15px; margin-top: 10px; padding: 5px;}
+
+/*btn*/
+.wireframemenu{ border: 1px solid #b2b2c7; background-color: white; border-bottom-width: 0; width: 204px; margin-left: 10px; margin-top: 95px; }
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */ width: 204px;}
+.wireframemenu ul{ padding: 0; margin: 0; list-style-type: none; }
+.wireframemenu a{ font: bold 13px Verdana; padding: 4px 3px; display: block; width: 100%; /*Define width for IE6's sake*/ color: #595959; text-decoration: none; border-bottom: 1px solid #b2b2c7; }
+.wireframemenu a:visited{ color: #595959; }
+html>body .wireframemenu a{ /*Non IE rule*/ width: auto; }
+.wireframemenu a:hover{ background-color: #a4dbf1; color: black; }
+
+/*------------feed and links-------------*/
+.mainheader { position:absolute; width: 220px; height: 15px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #124076; top: 0px; left: 60px; }
+
+.mainfeed { position:absolute; width: 255px; height: 1310px; z-index:2; overflow: auto; visibility: visible; top: 28px; left: 30px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; }
+*html .mainfeed { position:absolute; width: 260px; height: 1315px; z-index:2; overflow: auto; visibility: visible; top: 32px; left: 33px; padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; }
+
+.mainfeed a:link {  text-decoration: underline; color: #0e5087;}
+.mainfeed a:visited { text-decoration: none; color: #0e5087; }
+.mainfeed a:hover  { text-decoration: none; color: #0091cb; }
+.mainfeed a:active { text-decoration: none; color: #0e5087; }
+.mainfeed ul{ list-style-type: none; margin-left: -28px; }
+*html .mainfeed ul{ list-style-type: none; margin-left: 0px; }
+
+#links a:link {  text-decoration: underline; color: #0e5087;}
+#links a:visited { text-decoration: none; color: #0e5087; }
+#links a:hover  { text-decoration: none; color: #0091cb; }
+#links a:active { text-decoration: none; color: #0e5087; }
+#links ul{ list-style-type: none; margin-left: 0px; }
+
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px;}
+
+.scroll {
+filter: Chroma(Color=#123456);
+scrollbar-face-color:#123456;
+scrollbar-shadow-color:#123456;
+scrollbar-highlight-color:#123456;
+scrollbar-3dlight-color: #123456;
+scrollbar-darkshadow-color:#123456;
+scrollbar-track-color: #123456;
+scrollbar-arrow-color: #000000; } 

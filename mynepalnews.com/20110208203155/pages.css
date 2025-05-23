@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin: 3px 0 0 3px;
+	padding: 0px;
+	background-color:#ffffff;
+	scrollbar-face-color: #ffffff; 
+	scrollbar-shadow-color: #ffffff; 
+	scrollbar-highlight-color: #ffffff; 
+	scrollbar-3dlight-color: #ffffff; 
+	scrollbar-darkshadow-color:#ffffff; 
+	scrollbar-track-color: #ffffff; 
+	scrollbar-arrow-color: #ce4441;
+}
+
+h1 {
+	margin: 0;
+	font-family: Arial, Times New Roman, Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ce4441;
+	border-bottom: 1px solid #908961;
+}
+
+p {
+	margin: 12px 0 0 0;
+	padding: 0;
+}
+
+a:link {
+	color: #3366cc;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: #999999;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+a:hover, a:active {
+	color: #3366cc;
+	font-weight: bold;
+	text-decoration: underline;
+}	
+
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+img.ads {
+	float: right;
+	margin: 0 0 8px 2px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 580px;
+	margin: 2px 0 0 0px;
+	padding: 0;
+	background: #ffffff;
+}
+
+.date {
+	float: right;
+	margin: -18px 0 0 0;
+	padding: 0;
+}
+
+/* Feed */
+
+.rss-item  {
+	color: #000000;
+	font-size: 12px;
+  	font-weight : normal;
+  	list-style: none;
+  	margin: -8px 0px 20px -17px;
+	padding: 0;
+}

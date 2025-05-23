@@ -1,0 +1,46 @@
+.scroll {
+	filter:Chroma(Color=#123456);
+	scrollbar-face-color:#123456;
+	scrollbar-shadow-color:#123456;
+	scrollbar-highlight-color:#123456;
+	scrollbar-3dlight-color:#123456;
+	scrollbar-darkshadow-color:#123456;
+	scrollbar-track-color:#123456;
+	scrollbar-arrow-color:#000000;}
+
+
+body,td,th {font-family: Times New Roman, Times, serif;	font-size: 12px;}
+
+a:visited {color: #009;}
+a:hover {color: #960;}
+a:active {color: #009;}
+
+h1 {font-size: 10pt; font-family: Times New Roman, Times, serif; margin:0; padding:2px 0 0 0; color:#006;}
+h2 {font-size: 10pt; font-family: Times New Roman, Times, serif; margin:0; padding:0; color:#fff; background-color:#999; text-align:center;}
+#wrap {width:900px; height:auto;}
+#banner {width:900px; height:100px; margin:0; padding:0; display:inline;}
+#content {width:900px; height:auto; float:left; margin:0; padding:0;}
+#column1 {width:180px; height:710px; float:left; margin:0; padding:0;}
+#navigation {width: 180px; font-size: 11pt; font-family: Times New Roman, Times, serif;}
+#navigation ul {list-style: none; margin: 0; padding: 0; font-size: 10pt; font-family: Times New Roman, Times, serif;}
+#navigation li {font-size: 10pt; font-family: Times New Roman, Times, serif;}
+#navigation li a:link, #navigation li a:visited  {display: block; padding: 1px 5px 1px 0.5em; border-left: 20px solid #fff;  background-color: #fff; color: #000; text-decoration: none;}
+#navigation li a:hover {background-color: #26618d; color: #FFFFFF; margin:0; padding: 1px 5px 1px 0.5em;}
+
+#line {width:5px; height:710px; float:left; margin:0; padding:0 2px 0 0; border-right:#006 dashed 1px;}
+#column2 {width:320px; height:710px; float:left; margin:0; padding:0; border-right:#006 dashed 1px;}
+#col2_text {width:300px; height:703px; float:left; margin:0; padding:10px 10px 0px 10px; overflow:auto; visibility:visible;}
+#column2 ul {margin:0; padding:0; display:block; border:0px;}
+#column2 li {margin:0; padding:4px 5px 4px 5px; list-style:none; border:0;}
+
+#column3 {width:380px; height:710px; float:right; margin:0; padding:0;}
+#other {width:180px; height:710px; float:left; margin:0 0 0 8px; padding:0; border:#003 dotted 1px;}  
+#other2 {width:170px; height:685px; float:left; margin:0; padding:5px 5px 0px 5px; overflow:auto; visibility:visible;}	
+#news_wrap {width:380px; height:610px; float:left; margin:0; padding:0;}
+#news {width:180px; height:310px; float:right; margin:0px 0px 10px 0px; padding:0px; border:#003 dotted 1px;}  
+#news2 {width:170px; height:285px; float:right; margin:0; padding:5px 5px 0px 5px; overflow:auto; visibility:visible;}	  
+	  
+#applet {width:180px; height:80px; float:right; margin:0; padding:0;}
+
+#copyright {width:900px; height:20px; font-size:12px; color: #fff; float:left; margin:5px 0 0 0; padding:5px 0 0 0; text-align:center; background-color:#000;} 
+

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0; padding:0;}
+ul	{list-style: none; margin: 0; padding: 0; } /*whole list info*/
+li	{display: block;  padding: 0px; margin: 0px; color:#1b63a4} /*row & description of link*/
+li a {text-decoration: none; color: #ff6f0f; font-weight: normal;} /*link*/
+li a:hover {color:#ff6f0f; text-decoration: underline; }
+.scroll {filter:Chroma(Color=#123456); scrollbar-face-color:#123456; scrollbar-shadow-color:#123456; scrollbar-highlight-color:#123456;scrollbar-3dlight-color:#123456; scrollbar-darkshadow-color:#123456; scrollbar-track-color:#123456; scrollbar-arrow-color:#000000; }
+
+#wrap {float:left; width:850px; height:930px;}
+
+#header {float:left; width:850px; height:194px;}
+
+#col-1-whole {float:left; width:229px; height:706px;}
+
+#col-1-top  {float:left; width:229px; height:157px;}
+#col-1-links {float:left; width:229px; height:364px; background:url(images/soccersite_20.jpg) no-repeat;}
+#col-1-links-text {float:right; width:200px; height:350px; margin:6px 14px 0 0; overflow:auto; visibility:visible; display:inline;}
+#col-1-mid {float:left; width:229px; height:60px;}
+#col-1-mid-left {float:left; width:40px; height:60px; background:url(images/soccersite_22.jpg) no-repeat;}
+#col-1-mid-center {float:left; width:150px; height:60px; background:url(images/soccersite_23.jpg) no-repeat;}
+#col-1-mid-right {float:left; width:39px; height:60px; background:url(images/soccersite_24.jpg) no-repeat;}
+#col-1-bottom {float:left; width:229px; height:16px; background:url(images/soccersite_26.jpg) no-repeat;}
+#col-1-login {float:left; width:229px; height:109px; background:url(images/soccersite_27.jpg) no-repeat;}
+
+#col-2 {float:left; width:391px; height:706px; background:url(images/soccersite_14.jpg) no-repeat;}
+.box-right {float:right; width: 376px; height:689px; margin:5px 5px 0 0;  display:inline; visibility:visible; overflow:auto;}
+
+#col-3-whole {float:left; width:230px; height:706px;}
+#col-3-top {float:left; width:230px; height:86px;}
+#col-3-mid {float:left; width:230px; height:385px; background:url(images/soccersite_19.jpg) no-repeat;}
+#col-3-bottom {float:left; width:230px; height:235px;}
+
+#footer {float:left; width:850px; height:30px; background:url(images/Untitled-1.jpg) no-repeat;}
+
+#menu8 {
+	width: 230px;
+	margin-top: 10px;
+	}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 32px;
+	}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #ff6f0f;
+	display: block;
+	background: url(images/menu8.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu8 li a:hover {
+	color: #1b63a4;
+	background: url(images/menu8.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+	text-decoration:underline;
+	}
+	
+#menu8 li a:active {
+	color: #1b63a4;
+	background: url(images/menu8.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+	text-decoration:underline;
+	}

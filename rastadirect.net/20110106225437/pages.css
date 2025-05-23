@@ -1,0 +1,90 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	background: #000000;
+	scrollbar-face-color: #000000; 
+	scrollbar-shadow-color: #ffffff; 
+	scrollbar-highlight-color: #ffffff; 
+	scrollbar-3dlight-color: #ffffff; 
+	scrollbar-darkshadow-color:#000000; 
+	scrollbar-track-color: #000000; 
+	scrollbar-arrow-color: #ff0000;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0 0 0 20px;
+	padding: 0;
+	font-family: Arial, Times New Roman, Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+a:link {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff9999;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color:  #ffffff;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}	
+
+img.right {
+	float: right;
+	margin: 0 50px 0 0;
+	padding: 0;
+	border: none;
+}
+
+img.applet {
+	float: right;
+	margin: 10px 50px 0 0;
+	padding: 0;
+	border: none;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 440px;
+	height: 650px;
+	margin: 0;
+	padding: 0;
+	background: #transparent;
+	overflow: auto;
+}
+
+#content ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style: none;
+	line-height: normal;
+}
+
+#content li {
+	margin: 0 0 2px 0;
+	padding: 0;
+}
